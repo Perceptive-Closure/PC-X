@@ -1,0 +1,15 @@
+# Scope clarifications after the independent blind seal
+
+The original M06–M08 statement blobs remain sealed. The proof-blind derivation at a34f0d16d22d53491ee5af98dcd647208137c139 identified the following refinements. The proofs implement the repaired statements.
+
+| Claim | Accepted reading of the statement to be checked | Failure under wider wording |
+| --- | --- | --- |
+| T29.J commands | The callable command catalog is finite and exhaustive for the declared protocol. Legality and supported transitions use literal public command identities. | Infinitely many one-move services of acquisition costs \(1+1/j\) give an unattained infimum. |
+| T29.J physical optimum | An exact correspondence supplies observation-measurable translations of common commands and all actionable branches, both ways, with the same labels and charges. | Coarsening the signal identifying which of two exclusive useful commands is executable can turn a finite optimum into infeasibility. |
+| T07.K cost | The one-call optimum is the fixed worst-path cost. For uniform error \(\delta<1/2\), the noiseless worst expected target cost is \(1-2\delta\) when a privately randomized read/guess mix is allowed. | A call only on a randomized fraction of runs has expectation below one and retains the required error. |
+| T30.CG initial evidence | The initial public meter is fixed. Initial evidence must be incorporated into the exact accepting path class. A known restriction on entire first-edge cylinders can be handled by the admitted first edge set. | An initial signal cutting a later-edge cylinder can make a feasible compressed continuation spurious unless the graph already represents that restriction. |
+| T30.CG workmanship | Fast is ordinarily enabled and lawful at every active meter exactly on bit-zero modes after the freeze. The slow route is callable at every active meter. Every job advances and completes real service on its entire positive support. Every state-local callable action catalog is finite. | Surviving a freeze alone cannot establish ordinary enablement. An undisclosed disabled fast route changes the intrinsic score. |
+| T30.C pure-read interface | Each static query is total and callable for every initial candidate installation in its separate predeployment interface. It has a pure deterministic response independent of other selected queries. | A mode-dependent request denial either is an admissible observable outcome with a priced test, or excludes the request from this total menu. |
+| T30.CG stochastic scope | Sure correctness equals zero violation probability for each compatible installed path under conditional laws with all listed edges positive. A mixture interpretation requires positive initial mass on every compatible path. | A prior concentrated on a working installation can hide a supported failure confined to a different compatible installation. |
+
+Complete proofs retain compatibility checks, action lifts and source conditional row checks as premises. None of these checks reads a free installed mode or assumes the deadline conclusion.
