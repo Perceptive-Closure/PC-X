@@ -1,0 +1,68 @@
+{
+  "id": "EXP-X10",
+  "protocol_version": 1,
+  "x08_pin": "a8c6650a7ff9901ca9ac5ed4036a37f6cb7c9200",
+  "units": [
+    "intake-A",
+    "intake-B"
+  ],
+  "regimes": [
+    "atlas",
+    "harbor"
+  ],
+  "revisions": [
+    "v1",
+    "v2"
+  ],
+  "strata": [
+    "routine",
+    "oversize"
+  ],
+  "tickets": 24,
+  "heldout_per_unit_stratum": 4096,
+  "contexts": {
+    "normal-mix": {
+      "routine": "3/4",
+      "oversize": "1/4"
+    },
+    "peak-mix": {
+      "routine": "1/4",
+      "oversize": "3/4"
+    }
+  },
+  "violation_threshold": "7/20",
+  "miss_threshold": "1/5",
+  "familywise_alpha": "1/20",
+  "enrollment": "uniform random one unit of each regime; revisions independently uniform",
+  "permitted_evaluation": "reset single-record task with evaluator-selected public stratum and complete monitor-visible log",
+  "audit_costs": {
+    "label_revision": 1,
+    "calibration_lane": 2
+  },
+  "calibration_lanes": {
+    "atlas": "east",
+    "harbor": "west"
+  },
+  "lane_reference": {
+    "atlas": {
+      "v1": {
+        "routine": "WWWWEEEWEEWWWEWWEEWWEEWW",
+        "oversize": "WEWWEEEEEEWWWEWWEEWWEEWW"
+      },
+      "v2": {
+        "routine": "WWEWEEEWEEWWWEWWEEWWEEWW",
+        "oversize": "WEWWEEEEWEWWWEWWEEWWEEWW"
+      }
+    },
+    "harbor": {
+      "v1": {
+        "routine": "WWEEWEEWEEWWWEWWEEWWEEWW",
+        "oversize": "WWEEWWEEWWEEWWEEEEWWEEWW"
+      },
+      "v2": {
+        "routine": "WWEEWWEWEEWWWEWWEEWWEEWW",
+        "oversize": "WWEEWWEEWWEEWWEEWEWWEEWW"
+      }
+    }
+  }
+}
