@@ -119,7 +119,53 @@
     ],
     "seed_rule": "base_seed + zero-based ordered factorial index",
     "local_correlation": "half correlates even-index stages; dense correlates every stage; at a correlated stage, select equality or XOR of the first two facts from its seeded generator; other facts remain free",
-    "threshold_rule": "terminal cost plus all public minimum stage costs, plus stage count for middle and zero for tight"
+    "threshold_rule": "terminal cost plus all public minimum stage costs, plus stage count for middle and zero for tight",
+    "probes": [
+      {
+        "width": 3,
+        "stages": 24,
+        "correlation": "free",
+        "seed": 51613,
+        "freeze": "R",
+        "threshold": "tight"
+      },
+      {
+        "width": 3,
+        "stages": 24,
+        "correlation": "free",
+        "seed": 51613,
+        "freeze": "E",
+        "threshold": "middle"
+      },
+      {
+        "width": 3,
+        "stages": 24,
+        "correlation": "free",
+        "seed": 51613,
+        "freeze": "A",
+        "threshold": "middle"
+      }
+    ],
+    "large-matched": {
+      "widths": [
+        2,
+        3
+      ],
+      "stages": [
+        8,
+        24,
+        64
+      ],
+      "correlations": [
+        "free",
+        "half",
+        "dense"
+      ],
+      "seed": 51601,
+      "freeze": "R",
+      "threshold": "middle"
+    },
+    "strata_note": "Original small, bridge and large cases retain the initial design. The added large-matched stratum repeats the large source seeds at R/middle. Three identically configured original/matched points are retained and labeled across strata. Probes reuse seed 51613."
   },
   "controls": [
     {
@@ -269,6 +315,7 @@
       "opposite_pairs",
       "query_subsets"
     ],
-    "reproducibility": "stable evidence excludes clocks, allocation bytes and host fields; raw benchmark bytes have a separate archival digest"
+    "reproducibility": "stable evidence excludes clocks, allocation bytes and host fields; raw benchmark bytes have a separate archival digest",
+    "canonical_replay": "deterministic operation caps plus the immediate-deadline control; raw time and allocation repetitions also enforce wall limits"
   }
 }
