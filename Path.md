@@ -8,9 +8,9 @@
 
 | Slot | Experiment | Agent | Lifecycle |
 | --- | --- | --- | --- |
-| 1 | X05 | exp_x05 | DISPATCHED |
-| 2 | X09 | exp_x09 | DISPATCHED |
-| 3 | X11 | exp_x11 | DISPATCHED |
+| 1 | X05 | exp_x05 | IMPLEMENTING |
+| 2 | X09 | exp_x09 | IMPLEMENTING |
+| 3 | X11 | exp_x11 | IMPLEMENTING |
 
 Each slot remains occupied through parent clean-checkout verification, safe cleanup, and independent verification of remote evidence and cleanup. Reserved slots count toward the concurrency ceiling.
 
@@ -22,13 +22,13 @@ Each slot remains occupied through parent clean-checkout verification, safe clea
 | X02 | COMPLETE | Correlation and strict outer-set gaps confirmed in the finite fragment | codex/exp-x02 | [18bc904d7073df3536d9794f18b868b9a3de53bc](https://github.com/Perceptive-Closure/PC-X/tree/18bc904d7073df3536d9794f18b868b9a3de53bc/EXPERIMENTS/EXP-X02) |
 | X03 | COMPLETE | Finite minimum-cost correctness supported | codex/exp-x03 | [d85fe1cdb76cbc6d03e58e34f320c4c58a3f243c](https://github.com/Perceptive-Closure/PC-X/tree/d85fe1cdb76cbc6d03e58e34f320c4c58a3f243c/EXPERIMENTS/EXP-X03) |
 | X04 | COMPLETE | Exact minimax supported with conditional cost savings | codex/exp-x04 | [b6ce562aa91323f2913615b92e91ffb2b9cc4731](https://github.com/Perceptive-Closure/PC-X/tree/b6ce562aa91323f2913615b92e91ffb2b9cc4731/EXPERIMENTS/EXP-X04) |
-| X05 | DISPATCHED | Pending | codex/exp-x05 | X01–X03 accepted and cleaned |
+| X05 | IMPLEMENTING | Pending | codex/exp-x05 | Protocol 088bb77896c712505dbf6bba4dfb1fb05cb2ab38 |
 | X06 | WORKPLAN_CREATED | Pending | codex/exp-x06 | Awaiting X01 and X03 |
 | X07 | WORKPLAN_CREATED | Pending | codex/exp-x07 | Awaiting X03 |
 | X08 | COMPLETE | Bounded transcript equivalence and forecast supported | codex/exp-x08 | [a8c6650a7ff9901ca9ac5ed4036a37f6cb7c9200](https://github.com/Perceptive-Closure/PC-X/tree/a8c6650a7ff9901ca9ac5ed4036a37f6cb7c9200/EXPERIMENTS/EXP-X08) |
-| X09 | DISPATCHED | Pending | codex/exp-x09 | X04 and X08 accepted and cleaned |
+| X09 | IMPLEMENTING | Pending | codex/exp-x09 | X04 and X08 pinned |
 | X10 | COMPLETE | Monitor ambiguity and bounded recovery supported | codex/exp-x10 | [4a16ef37d0e90e856560ce153c0fd690c28016b6](https://github.com/Perceptive-Closure/PC-X/tree/4a16ef37d0e90e856560ce153c0fd690c28016b6/EXPERIMENTS/EXP-X10) |
-| X11 | DISPATCHED | Pending | codex/exp-x11 | X08 accepted and cleaned |
+| X11 | IMPLEMENTING | Pending | codex/exp-x11 | Protocol f493e4cb367a09e3db3f24ca49e54a6d6ff887f7 |
 | X12 | WORKPLAN_CREATED | Pending | codex/exp-x12 | Awaiting X09–X11 |
 | X13 | WORKPLAN_CREATED | Pending | codex/exp-x13 | Awaiting X10 and X11 |
 | X14 | WORKPLAN_CREATED | Pending | codex/exp-x14 | Awaiting X04 and X13 |
@@ -60,6 +60,11 @@ Each slot remains occupied through parent clean-checkout verification, safe clea
 - X10 raw independent scoring reproduced all route quality, alarm, miss and false-alarm counts in four 4,096-trial cells, both raw and gzip hashes, and the simultaneous confidence width. At peak mix the alarm rates were 17.14% and 16.64% while missed-event frequencies were 48.24% and 8.58%. The audit used a legitimate route-card read, with validity conditional on the frozen balanced enrollment and trusted scoring. The app removed the managed worktree and scratch, accounting for 762,768 logical bytes. Parent verified absence and the unchanged remote SHA.
 - X05 is active after X02's slot release. X09 and X11 are eligible after the verified X04 and X10 releases.
 
+## Third-wave implementation
+
+- X05 sealed its 49-case study of correlated serial authorization stages, lazy exact certificate search, exhaustive baselines, scalability ablations and forced-unresolved controls. X09 pinned the predecessor methods and is preparing a benign three-round cue-and-history study. X11 sealed its four-arm, paired intervention-fidelity study. X09 and X11 holdout outcomes remain unopened.
+- App-managed archive checks removed each prior checkout and its scratch. Git's worktree list contains only the parent checkout and the three current experiments. The app retains a small `.codex-worktree-name` marker beside each archived attachment. The marker contains the app's persistent lifecycle metadata rather than research files or caches.
+
 ## First-wave cleanup and restart
 
 Automatic command approval rejected recursive removal and individually verified literal-path file removal for X03. Individually verified literal-path removal was also rejected for X08. The sole error detail was `blocked by policy` at process creation. Rejections occurred before execution and no files were deleted. X01 cleanup was held after the same methods were rejected for the other experiment roots. These directories were created for this program, contain the disposable clones, reproduction checkouts and scoped outputs, and have verified durable GitHub packages.
@@ -76,4 +81,4 @@ The next wave uses one managed Git worktree per experiment with all ignored scra
 
 ## Findings and outstanding obligations
 
-Operationally complete 6/15. X05, X09 and X11 are dispatched and six experiments are queued. Accepted claims remain bounded to the tested finite and sandbox systems. The general transport and flagship results remain open.
+Operationally complete 6/15. X05, X09 and X11 are implementing and six experiments are queued. Accepted claims remain bounded to the tested finite and sandbox systems. The general transport and flagship results remain open.
