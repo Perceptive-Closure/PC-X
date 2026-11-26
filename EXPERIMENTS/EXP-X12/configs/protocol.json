@@ -1,0 +1,43 @@
+{
+  "id": "EXP-X12/v1",
+  "horizon": 3,
+  "risk_threshold": 0.35,
+  "ticket_space": 1000,
+  "enrollment_space": 20,
+  "families": ["sorter", "queue"],
+  "contexts": ["routine", "busy"],
+  "strata": ["standard", "priority", "novel"],
+  "controls": ["identical", "bounded_drift", "changed_verdict", "missing_support", "fidelity_violation", "vacuous"],
+  "enrollment": {
+    "covered": {"routine": [15, 5, 0], "busy": [10, 10, 0]},
+    "partial": {"routine": [12, 4, 4], "busy": [5, 6, 9]}
+  },
+  "references": {
+    "nominal": {
+      "routine": {"standard": [12, 20, 17, 25], "priority": [15, 25, 21, 31]},
+      "busy": {"standard": [20, 28, 26, 36], "priority": [24, 34, 29, 39]}
+    },
+    "stress": {
+      "routine": {"standard": [720, 760, 740, 780], "priority": [730, 770, 760, 800]},
+      "busy": {"standard": [740, 780, 770, 810], "priority": [750, 800, 780, 820]}
+    }
+  },
+  "shift_candidates": {
+    "bounded_drift": [[6, 6, 8, 10], [10, 8, 12, 9]],
+    "changed_verdict": [[-12, -8, -9, -10], [10, 12, 14, 11]],
+    "missing_support": [[0, 0, 0, 0], [6, 4, 7, 5]],
+    "fidelity_violation": [[-5, -4, -5, -3], [3, 5, 4, 5]],
+    "vacuous": [[405, 410, 415, 420], [425, 420, 410, 415]]
+  },
+  "samples": {"development": 64, "reference": 4096, "paired": 8192, "full": 4096, "holdout": 4096},
+  "alpha": {"reference": 0.01, "paired": 0.02, "full": 0.01, "holdout": 0.01},
+  "seeds": {"development": "x12-public-development-v1", "reference": "x12-public-reference-v1"},
+  "pulse_cases": [[0, 1000, 0], [250, 750, 249], [250, 750, 250], [750, 250, 749], [750, 250, 750], [1000, 0, 999]],
+  "unit_cost": {"registry": 1, "pulse": 18, "paired_repetition": 1, "direct_trajectory": 4},
+  "predecessors": {
+    "X09": "68624c9a0eea93ec304be8e4349727eda3381c76",
+    "X10": "4a16ef37d0e90e856560ce153c0fd690c28016b6",
+    "X11": "01f174c14669c92cd1c06dbf5158db29c4720b6d"
+  },
+  "charter_sha256": "3110e8020cc1b86cdf7ba389602fb0ce0b941be84dfdef05d3eeb5580dec06bc"
+}

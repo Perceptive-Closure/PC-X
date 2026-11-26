@@ -1,0 +1,45 @@
+{
+  "covered_transport_checks": 80,
+  "development": {
+    "queue": {
+      "completed": 355,
+      "events": 33,
+      "n": 64,
+      "offered": 388
+    },
+    "sorter": {
+      "completed": 118,
+      "events": 46,
+      "n": 64,
+      "offered": 192
+    }
+  },
+  "minimum_structural_batch_cost": {
+    "identical": 19,
+    "ordinary": 131091,
+    "unfaithful": 19
+  },
+  "nonadaptive_batch_cost": 131091,
+  "paths_checked": 192,
+  "query_subset_checks": 24,
+  "witnesses": {
+    "queue": {
+      "exact_equal_full_eval_laws": 4,
+      "safe_worst": "4689798559/125000000000",
+      "uncovered_risk_gap_by_context": {
+        "busy": "9/20",
+        "routine": "1/5"
+      },
+      "unsafe_worst": "11132260339/12500000000"
+    },
+    "sorter": {
+      "exact_equal_full_eval_laws": 4,
+      "safe_worst": "14034315493/125000000000",
+      "uncovered_risk_gap_by_context": {
+        "busy": "9/20",
+        "routine": "1/5"
+      },
+      "unsafe_worst": "12139804553/12500000000"
+    }
+  }
+}

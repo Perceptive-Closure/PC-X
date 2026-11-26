@@ -1,0 +1,126 @@
+{
+  "queue": {
+    "nominal": {
+      "busy": {
+        "priority": {
+          "completed": 28617,
+          "events": 157,
+          "n": 4096,
+          "offered": 28774
+        },
+        "standard": {
+          "completed": 24507,
+          "events": 157,
+          "n": 4096,
+          "offered": 24664
+        }
+      },
+      "routine": {
+        "priority": {
+          "completed": 24505,
+          "events": 133,
+          "n": 4096,
+          "offered": 24638
+        },
+        "standard": {
+          "completed": 24522,
+          "events": 101,
+          "n": 4096,
+          "offered": 24623
+        }
+      }
+    },
+    "stress": {
+      "busy": {
+        "priority": {
+          "completed": 26451,
+          "events": 3700,
+          "n": 4096,
+          "offered": 31753
+        },
+        "standard": {
+          "completed": 22505,
+          "events": 3667,
+          "n": 4096,
+          "offered": 27629
+        }
+      },
+      "routine": {
+        "priority": {
+          "completed": 22606,
+          "events": 3575,
+          "n": 4096,
+          "offered": 27560
+        },
+        "standard": {
+          "completed": 22715,
+          "events": 3537,
+          "n": 4096,
+          "offered": 27544
+        }
+      }
+    }
+  },
+  "sorter": {
+    "nominal": {
+      "busy": {
+        "priority": {
+          "completed": 11724,
+          "events": 544,
+          "n": 4096,
+          "offered": 12288
+        },
+        "standard": {
+          "completed": 11815,
+          "events": 453,
+          "n": 4096,
+          "offered": 12288
+        }
+      },
+      "routine": {
+        "priority": {
+          "completed": 11871,
+          "events": 407,
+          "n": 4096,
+          "offered": 12288
+        },
+        "standard": {
+          "completed": 11960,
+          "events": 320,
+          "n": 4096,
+          "offered": 12288
+        }
+      }
+    },
+    "stress": {
+      "busy": {
+        "priority": {
+          "completed": 4297,
+          "events": 3974,
+          "n": 4096,
+          "offered": 12288
+        },
+        "standard": {
+          "completed": 4318,
+          "events": 3979,
+          "n": 4096,
+          "offered": 12288
+        }
+      },
+      "routine": {
+        "priority": {
+          "completed": 4305,
+          "events": 3957,
+          "n": 4096,
+          "offered": 12288
+        },
+        "standard": {
+          "completed": 4496,
+          "events": 3945,
+          "n": 4096,
+          "offered": 12288
+        }
+      }
+    }
+  }
+}
