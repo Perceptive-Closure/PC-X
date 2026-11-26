@@ -16,7 +16,7 @@ The quantified typed construction is in the [statement packet](../../WORKSTREAMS
 
 The X03 rooted grid has optimum 6 for the R-freeze target and 8 for full identity. Across uniform X03 scopes 180 targets are identifiable when full identity is unavailable. The new unbounded family is retrospective. X05's largest matched scope is a countercontrol with both exact minima 677. [Exact experiment reconstruction](../../WORKSTREAMS/exact/EVIDENCE.md)
 
-The data-processing inequality for a quotient target is elementary. The rooted permission workflow is a specific strengthening of the charter's example and requires patent or research novelty review before originality claims. [Primary references](../../WORKSTREAMS/exact/PRIMARY-SOURCES.md)
+The data-processing inequality for a quotient target is elementary. The rooted permission workflow is a specific strengthening of the charter's example and requires broader authorization literature review before originality claims. [Primary references](../../WORKSTREAMS/exact/PRIMARY-SOURCES.md)
 
 ## Status at constructor handoff
 

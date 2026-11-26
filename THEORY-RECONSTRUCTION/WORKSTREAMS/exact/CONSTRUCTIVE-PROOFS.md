@@ -69,7 +69,7 @@ Take a supplied nice tree decomposition with empty root and leaves, and introduc
 
 - Introducing a variable extends the boundary assignment and leaves the internal cost unchanged. This variable has not occurred below the child bag by the connectedness property.
 - A local check discards the boundary assignments violating its relation in either coordinate.
-- Forgetting a variable removes it from the boundary and adds its two local costs with saturation to the stored sums. Add each variable's cost at this boundary exactly once along a complete path through the decomposition.
+- Forgetting a variable removes it from the boundary and adds its two local costs with saturation to the stored sums. The connected bags containing a variable have a unique highest node. Charge its cost once as that occurrence component leaves the bag toward the empty root.
 - At a join, both child assignments agree on the common bag. Off-bag variables in the two subtrees are disjoint by the running-intersection property. Join any compatible witnesses and add their internal sums with saturation. Conversely any valid subtree pair splits into such witnesses. No bag variable has yet been counted, so no local cost is double-counted.
 
 These transitions prove the invariant by induction. Add the fixed terminal cost to both root totals and test $s+\tau\le b<\widetilde s+\tau$ using saturated comparison. Any target-disagreement pair can be ordered with the passing tuple on the left. Infeasibility means no root entry satisfies that test. Predecessor assignments and score choices reconstruct a witness. Negative certification can verify the entire finite recurrence, with no need to trust a heuristic refusal.
