@@ -1,0 +1,34 @@
+{
+  "algorithm": "SHA-256",
+  "file_hash_mode": "Content bytes with CRLF converted to LF before hashing",
+  "files": {
+    "Protocol.md": "a8808a7398d9bff2efb6627324dfee52bbde6050f915d79ab1d923460af876a9",
+    "WorkPlan.md": "4e97aef4e8bb6c1ea24f5474cffd118ff826ff3852ef481a05b2953e2d18f374",
+    "configs/protocol.json": "66bf2b535d98b9d6aefa7023e1aec3e5f0b18ec0a738e07073271a2c3abc2451",
+    "results/audit-receipt.json": "62be1855cda79d585f428d224f4639b66ea92780cc03af929db03652c4941a6d",
+    "results/forecast.json": "5cbc97e66f92700bcdd864b98b4a29eadc64aebab504254a1f339003acc67fc1",
+    "results/opening.json": "7a73de04ba348cc8600fc3def0e370b3771be468cfcd721c61f55941d17f739d",
+    "results/pre-audit.json": "932af51c57ec4bbd945a50b1749c9c077e0dd748a623636fe44b37c7cfeb65b5",
+    "src/model.py": "d819d05f13521f8a7e8d7293c2dc483a70450161e811610a6fa222d417ebb716",
+    "src/pipeline.py": "d9021cd885c34d73f924d21bf002b514555e6650970ff95c8239bbe028df17b3",
+    "src/sandbox.py": "f2350feaf03b9d3f96279cb2e662fe0c2898f337b12ca9084f8d326f030f1bef",
+    "src/x08.py": "11140c1567877327edaaf75722f2b28b3396f35ba9f16581bd9f268952ac56db",
+    "tests/test_exp_x08.py": "821bb2e38820a43d571d9a314d6258118f4400f63efe6be5319cc833155f59ac"
+  },
+  "raw_observations": {
+    "file": "episodes.jsonl",
+    "records": 8192,
+    "regenerate": "python -B src/x08.py replay --output repro-x08",
+    "sha256": "72a5ce71dd8f654ffbf9dacc5938352cef7fe45783fa16aa5a87bbc9cddc925f"
+  },
+  "runtime": "Windows x86_64, CPython 3.13.7 standard library",
+  "stages": {
+    "canonical_audit_receipt_sha256": "62be1855cda79d585f428d224f4639b66ea92780cc03af929db03652c4941a6d",
+    "canonical_forecast_sha256": "30ec9bc4997704c53879fc2c4f5b9f1471e0dfc1957f88e4bbddf6856912f33a",
+    "forecast_seal_commit": "ce5f10b0ff0e5d549eecf7cbd8c08a88ccae809e",
+    "pre_audit_runner_commit": "52a04c5d65c196892d4c888e2a5e8b82d07d4fbf",
+    "protocol_freeze_commit": "100cddd656a94e7ebdc3341df13b857c3ff030f4",
+    "sealed_assignment_commitment_sha256": "28097faa180957fde1494472c79acfb6f623f3c08754a6d1fb7735e716051460",
+    "starting_commit": "91c2158877e5440aedafd76a2b16f6bfa389c330"
+  }
+}

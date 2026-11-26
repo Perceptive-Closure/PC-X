@@ -1,0 +1,119 @@
+{
+  "forecast_commit": "ce5f10b0ff0e5d549eecf7cbd8c08a88ccae809e",
+  "forecast_remote_verified_at_utc": "2026-11-26T12:58:45+00:00",
+  "forecast_sha256": "30ec9bc4997704c53879fc2c4f5b9f1471e0dfc1957f88e4bbddf6856912f33a",
+  "measurements": {
+    "benchmark_false_certifications": 1,
+    "benchmark_forecast_correct": 1,
+    "episodes_sha256": "72a5ce71dd8f654ffbf9dacc5938352cef7fe45783fa16aa5a87bbc9cddc925f",
+    "forecast_confirmed": true,
+    "half_width": 0.0497806409608157,
+    "measurement": [
+      {
+        "frequency": 0.1220703125,
+        "recipe": "mixed-normal",
+        "site": "benchmark",
+        "trials": 1024,
+        "unit": "parcel-A",
+        "violations": 125
+      },
+      {
+        "frequency": 0.1123046875,
+        "recipe": "mixed-rush",
+        "site": "benchmark",
+        "trials": 1024,
+        "unit": "parcel-A",
+        "violations": 115
+      },
+      {
+        "frequency": 0.1103515625,
+        "recipe": "mixed-normal",
+        "site": "benchmark",
+        "trials": 1024,
+        "unit": "parcel-B",
+        "violations": 113
+      },
+      {
+        "frequency": 0.1181640625,
+        "recipe": "mixed-rush",
+        "site": "benchmark",
+        "trials": 1024,
+        "unit": "parcel-B",
+        "violations": 121
+      },
+      {
+        "forecast_band_intersects": true,
+        "frequency": 0.5654296875,
+        "recipe": "mixed-normal",
+        "simultaneous_interval": [
+          0.5156490465391843,
+          0.6152103284608157
+        ],
+        "site": "floor",
+        "trials": 1024,
+        "unit": "parcel-A",
+        "violations": 579
+      },
+      {
+        "forecast_band_intersects": true,
+        "frequency": 0.6357421875,
+        "recipe": "mixed-rush",
+        "simultaneous_interval": [
+          0.5859615465391843,
+          0.6855228284608157
+        ],
+        "site": "floor",
+        "trials": 1024,
+        "unit": "parcel-A",
+        "violations": 651
+      },
+      {
+        "forecast_band_intersects": true,
+        "frequency": 0.0986328125,
+        "recipe": "mixed-normal",
+        "simultaneous_interval": [
+          0.0488521715391843,
+          0.1484134534608157
+        ],
+        "site": "floor",
+        "trials": 1024,
+        "unit": "parcel-B",
+        "violations": 101
+      },
+      {
+        "forecast_band_intersects": true,
+        "frequency": 0.125,
+        "recipe": "mixed-rush",
+        "simultaneous_interval": [
+          0.07521935903918431,
+          0.1747806409608157
+        ],
+        "site": "floor",
+        "trials": 1024,
+        "unit": "parcel-B",
+        "violations": 128
+      }
+    ],
+    "native_verdict": {
+      "parcel-A": false,
+      "parcel-B": true
+    },
+    "simultaneous_alpha": 0.05
+  },
+  "measurements_finished_at_utc": "2026-11-26T12:58:45+00:00",
+  "python": "3.13.7",
+  "sealed_configuration": {
+    "feeders": {
+      "parcel-A": "fast",
+      "parcel-B": "fast"
+    },
+    "nonce_hex": "b798ed697f490e9bff9ae75bcf060290",
+    "pre_audit_commit": "52a04c5d65c196892d4c888e2a5e8b82d07d4fbf",
+    "profiles": {
+      "parcel-A": "throughput",
+      "parcel-B": "careful"
+    },
+    "protocol_sha256": "5fb5377a67c5e4db4e190be6b082103737e5c7bec55d64f3e87b51ac8318b9d9",
+    "seed_hex": "6456c76ce9a6c479786d4fc17032138b"
+  }
+}
