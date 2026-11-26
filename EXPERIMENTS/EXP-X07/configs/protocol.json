@@ -1,0 +1,78 @@
+{
+  "id": "EXP-X07",
+  "schema": 1,
+  "base_commit": "6361fcdfd31cfbd042e6ab9751900e962b467c39",
+  "charter_sha256": "3110e8020cc1b86cdf7ba389602fb0ce0b941be84dfdef05d3eeb5580dec06bc",
+  "x03": {
+    "commit": "d85fe1cdb76cbc6d03e58e34f320c4c58a3f243c",
+    "source_sha256": {
+      "certificates.py": "16e818ff35f459847fbdf68c0be21be49069e94f6e85b941e5d701b7e9eb5a29",
+      "reference.py": "b5584db4e3696a098b7f77852e102179a063a0fef5ce044ff7a5d2b4a7c6547e"
+    }
+  },
+  "native": {
+    "version": "OpenSSL 3.2.4",
+    "evaluation_epoch": 1893456000,
+    "evaluation_utc": "2030-01-01T00:00:00+00:00",
+    "hostname": "service.pcx-x07.invalid",
+    "purpose": "sslserver",
+    "check_options": ["-x509_strict", "-auth_level", "2", "-check_ss_sig"],
+    "initial_anchor": "other-root.pem",
+    "approved_anchor": "approved-root.pem",
+    "approved_intermediate": "approved-issuer.pem",
+    "initial_rejection": {"returncode": 2, "reason_codes": [20], "depths": [0]},
+    "timeout_seconds": 10
+  },
+  "certificates": {
+    "approved_root_name": "PC-X07 Approved Root",
+    "other_root_name": "PC-X07 Other Root",
+    "intermediate_name": "PC-X07 Fixture Issuer",
+    "ca_dates": ["2025-01-01T00:00:00+00:00", "2040-01-01T00:00:00+00:00"],
+    "leaf_current_dates": ["2029-01-01T00:00:00+00:00", "2031-01-01T00:00:00+00:00"],
+    "leaf_expired_dates": ["2027-01-01T00:00:00+00:00", "2028-01-01T00:00:00+00:00"],
+    "rsa_bits": 2048,
+    "digest": "SHA-256",
+    "public_output": "Only single-certificate PEM files. All keys are ephemeral in-process objects."
+  },
+  "target": "Return of the frozen native verifier for the unchanged leaf bytes, using exactly the approved root as the local trust anchor and the approved intermediate as its supplied chain candidate.",
+  "initial_evidence": "The declared fixture family and hostname/purpose/time, plus a generic rejection using the unrelated root and no intermediate. Leaf contents and approval metadata are acquisition inputs. They are not answers in initial evidence.",
+  "queries": {
+    "issuer_binding": {
+      "cost": 3,
+      "procedure": "Inspect signed certificate content, certificate fingerprints, issuer links, SKI/AKI, direct signatures and the fixture's approved CA chain. Return whether the unchanged leaf binds to the approved intermediate."
+    },
+    "leaf_validity": {
+      "cost": 1,
+      "procedure": "Read the signed leaf validity window and compare it with the fixed time."
+    }
+  },
+  "completions": [
+    {"id":"approved-current", "issuer_binding":true, "leaf_validity":true, "target":"PASS"},
+    {"id":"approved-expired", "issuer_binding":true, "leaf_validity":false, "target":"FAIL"},
+    {"id":"other-current", "issuer_binding":false, "leaf_validity":true, "target":"FAIL"},
+    {"id":"other-expired", "issuer_binding":false, "leaf_validity":false, "target":"FAIL"}
+  ],
+  "sample": {
+    "held_out_per_completion": 2,
+    "opaque_id_prefix": "case",
+    "assignment": "The parent uses system randomness to shuffle the balanced assignments onto case01 through case08 and a 256-bit nonce to commit the private reveal before audit. The signed bytes are committed by SHA-256."
+  },
+  "controls": {
+    "positive": {"id": "control-valid", "completion": "approved-current", "expected": "PASS"},
+    "negative": {"id": "control-expired", "completion": "approved-expired", "expected": "FAIL"},
+    "wrong_anchor": {"id": "control-wrong-anchor", "leaf": "control-valid", "expected": "FAIL"},
+    "remove_one": ["issuer_binding", "leaf_validity"],
+    "no_audit": []
+  },
+  "baselines": {
+    "coarse": "Any expected initial rejection predicts FAIL. Unsupported or ambiguous process status yields ABSTAIN.",
+    "native_fields": "Use the initial native reason, native printed leaf issuer, dates and AKI plus the approved issuer's native printed subject and SKI. Return FAIL for a known bad time or AKI mismatch. Return PASS for current time and AKI match in the stipulated well-formed fixture family. Missing or unparseable inputs yield ABSTAIN. The field comparator uses the same approved issuer metadata as the audit but does not verify direct signatures against it."
+  },
+  "grading": {
+    "denominator": "8 held-out assignments. Both controls and the wrong-anchor intervention report separately.",
+    "values": ["PASS", "FAIL", "ABSTAIN"],
+    "primary_gate": "Initial evidence and independent signed-byte witnesses show ambiguity. Verify exact uniform and realized costs using the pinned X03 solver and its direct-partition reference. Commit and verify the prediction on the private GitHub repository before any correctly provisioned or control native outcome. All eight audit forecasts must agree with native outcomes, include corrected positive calls and retained negative calls, and all native controls must pass.",
+    "secondary_metrics": "Counts for correct, wrong, abstain, false positive, false negative, correctly reversed and correctly retained. Compare against both baselines and report remove-one and no-audit behavior, arbitrary declared costs and any ties or mismatches. No sampling inference.",
+    "refusal": "An unsupported shape, tool version, invalid digest, custody discrepancy, unexpected initial status, control failure or held-out mismatch never counts as a successful claim. Preserve observed failures."
+  }
+}
