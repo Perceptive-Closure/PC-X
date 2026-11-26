@@ -8,9 +8,9 @@
 
 | Slot | Experiment | Agent | Lifecycle |
 | --- | --- | --- | --- |
-| 1 | X01 | exp_x01 | RESERVED |
-| 2 | X03 | exp_x03 | RESERVED |
-| 3 | X08 | exp_x08 | RESERVED |
+| 1 | X01 | exp_x01 | DISPATCHED |
+| 2 | X03 | exp_x03 | DISPATCHED |
+| 3 | X08 | exp_x08 | DISPATCHED |
 
 Each slot remains occupied through parent clean-checkout verification, safe cleanup, and independent verification of remote evidence and cleanup. Reserved slots count toward the concurrency ceiling.
 
@@ -18,14 +18,14 @@ Each slot remains occupied through parent clean-checkout verification, safe clea
 
 | Experiment | State | Scientific verdict | Branch | Commit and verification |
 | --- | --- | --- | --- | --- |
-| X01 | WORKPLAN_CREATED | Pending | codex/exp-x01 | Pending |
+| X01 | DISPATCHED | Pending | codex/exp-x01 | Pending |
 | X02 | UNSTARTED | Pending | codex/exp-x02 | Pending |
-| X03 | WORKPLAN_CREATED | Pending | codex/exp-x03 | Pending |
+| X03 | DISPATCHED | Pending | codex/exp-x03 | Pending |
 | X04 | UNSTARTED | Pending | codex/exp-x04 | Pending |
 | X05 | UNSTARTED | Pending | codex/exp-x05 | Pending |
 | X06 | UNSTARTED | Pending | codex/exp-x06 | Pending |
 | X07 | UNSTARTED | Pending | codex/exp-x07 | Pending |
-| X08 | WORKPLAN_CREATED | Pending | codex/exp-x08 | Pending |
+| X08 | DISPATCHED | Pending | codex/exp-x08 | Pending |
 | X09 | UNSTARTED | Pending | codex/exp-x09 | Pending |
 | X10 | UNSTARTED | Pending | codex/exp-x10 | Pending |
 | X11 | UNSTARTED | Pending | codex/exp-x11 | Pending |
@@ -37,7 +37,7 @@ Each slot remains occupied through parent clean-checkout verification, safe clea
 ## Parent verification ledger
 
 - Repository metadata confirmed correct owner, private visibility and administrator access. Starting checkout and source PDFs are outside cleanup scope.
-- First dispatch is gated on versioned work plans. Terminal experiment verdicts, evidence hashes, verified branch heads, independent compu­tation and cleanup go here when measured.
+- Verified the first remote protocol commit at `91c2158877e5440aedafd76a2b16f6bfa389c330`. Dispatched one isolated agent each for X01, X03 and X08, with disposable clones, isolated caches and independent parent review before cleanup.
 
 ## Findings and outstanding obligations
 
