@@ -71,7 +71,7 @@
   "grading": {
     "denominator": "8 held-out assignments. Both controls and the wrong-anchor intervention report separately.",
     "values": ["PASS", "FAIL", "ABSTAIN"],
-    "primary_gate": "Initial evidence and independent signed-byte witnesses show ambiguity. Verify exact uniform and realized costs using the pinned X03 solver and its direct-partition reference. Commit and verify the prediction on the private GitHub repository before any correctly provisioned or control native outcome. All eight audit forecasts must agree with native outcomes, include corrected positive calls and retained negative calls, and all native controls must pass.",
+    "primary_gate": "Initial evidence and independent signed-byte witnesses show ambiguity. Verify exact uniform and realized costs using the pinned X03 solver and its direct-partition reference. Commit and verify the prediction on the user-authorized Perceptive-Closure/PC-X GitHub repository before any correctly provisioned or control native outcome. All eight audit forecasts must agree with native outcomes, include corrected positive calls and retained negative calls, and all native controls must pass.",
     "secondary_metrics": "Counts for correct, wrong, abstain, false positive, false negative, correctly reversed and correctly retained. Compare against both baselines and report remove-one and no-audit behavior, arbitrary declared costs and any ties or mismatches. No sampling inference.",
     "refusal": "An unsupported shape, tool version, invalid digest, custody discrepancy, unexpected initial status, control failure or held-out mismatch never counts as a successful claim. Preserve observed failures."
   }
