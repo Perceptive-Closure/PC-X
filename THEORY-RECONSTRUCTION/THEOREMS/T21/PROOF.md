@@ -1,0 +1,5 @@
+# T21 · Two-point testing inequality
+
+Denote by A the event that the decision is the first completion's target. Under P for the first completion, a forced binary rule errs on Aᶜ. Under Q for the second, it errs on A. Hence α+β=1−P(A)+Q(A)≥1−TV(P,Q). When abstention counts as a failure, the first assertion still holds with failure exactly Aᶜ for P and failure at least A for Q. With equal laws, the sum lower bound is one and one of the two failure risks reaches at least one-half. A rule that abstains always has zero probability of an incorrect issued decision, which is why the coverage convention matters here.
+
+A randomized decision can be included in A by appending common independent randomness, or use the probability of issuing the first label as a function f taking values in [0,1]. For such f, \(\int f\,d(P-Q)\le TV(P,Q)\) by integrating its superlevel sets, so neither alternative weakens the bound. This supplies the exact obstruction for equal complete interactive laws. It does not say that different laws guarantee small error within a fixed cost or horizon. [Controlled sensing comparison](https://arxiv.org/abs/1205.0858)
