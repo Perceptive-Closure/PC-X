@@ -8,9 +8,9 @@
 
 | Slot | Experiment | Agent | Lifecycle |
 | --- | --- | --- | --- |
-| 1 | X05 | exp_x05 | IMPLEMENTING |
-| 2 | X09 | exp_x09 | IMPLEMENTING |
-| 3 | X13 | exp_x13 | RESERVED |
+| 1 | X06 | exp_x06 | RESERVED |
+| 2 | X09 | exp_x09 | RESULTS_DOCUMENTED |
+| 3 | X13 | exp_x13 | IMPLEMENTING |
 
 Each slot remains occupied through parent clean-checkout verification, safe cleanup, and independent verification of remote evidence and cleanup. Reserved slots count toward the concurrency ceiling.
 
@@ -22,15 +22,15 @@ Each slot remains occupied through parent clean-checkout verification, safe clea
 | X02 | COMPLETE | Correlation and strict outer-set gaps confirmed in the finite fragment | codex/exp-x02 | [18bc904d7073df3536d9794f18b868b9a3de53bc](https://github.com/Perceptive-Closure/PC-X/tree/18bc904d7073df3536d9794f18b868b9a3de53bc/EXPERIMENTS/EXP-X02) |
 | X03 | COMPLETE | Finite minimum-cost correctness supported | codex/exp-x03 | [d85fe1cdb76cbc6d03e58e34f320c4c58a3f243c](https://github.com/Perceptive-Closure/PC-X/tree/d85fe1cdb76cbc6d03e58e34f320c4c58a3f243c/EXPERIMENTS/EXP-X03) |
 | X04 | COMPLETE | Exact minimax supported with conditional cost savings | codex/exp-x04 | [b6ce562aa91323f2913615b92e91ffb2b9cc4731](https://github.com/Perceptive-Closure/PC-X/tree/b6ce562aa91323f2913615b92e91ffb2b9cc4731/EXPERIMENTS/EXP-X04) |
-| X05 | IMPLEMENTING | Pending | codex/exp-x05 | Protocol 088bb77896c712505dbf6bba4dfb1fb05cb2ab38 |
+| X05 | COMPLETE | Structured symbolic scalability supported under frozen bounds | codex/exp-x05 | [e288a6b5b8ddac24af349913bc68b640a691b2b2](https://github.com/Perceptive-Closure/PC-X/tree/e288a6b5b8ddac24af349913bc68b640a691b2b2/EXPERIMENTS/EXP-X05) |
 | X06 | WORKPLAN_CREATED | Pending | codex/exp-x06 | Awaiting X01 and X03 |
 | X07 | WORKPLAN_CREATED | Pending | codex/exp-x07 | Awaiting X03 |
 | X08 | COMPLETE | Bounded transcript equivalence and forecast supported | codex/exp-x08 | [a8c6650a7ff9901ca9ac5ed4036a37f6cb7c9200](https://github.com/Perceptive-Closure/PC-X/tree/a8c6650a7ff9901ca9ac5ed4036a37f6cb7c9200/EXPERIMENTS/EXP-X08) |
-| X09 | IMPLEMENTING | Pending | codex/exp-x09 | Protocol eaa43c81db023c47f4210fc49cdfb5a75aeb95d5 |
+| X09 | RESULTS_DOCUMENTED | Under review | codex/exp-x09 | Forecast e7f162b44b101173eb325d68b384d5aed7b7e64b |
 | X10 | COMPLETE | Monitor ambiguity and bounded recovery supported | codex/exp-x10 | [4a16ef37d0e90e856560ce153c0fd690c28016b6](https://github.com/Perceptive-Closure/PC-X/tree/4a16ef37d0e90e856560ce153c0fd690c28016b6/EXPERIMENTS/EXP-X10) |
 | X11 | COMPLETE | Fidelity separated from measurement disturbance | codex/exp-x11 | [01f174c14669c92cd1c06dbf5158db29c4720b6d](https://github.com/Perceptive-Closure/PC-X/tree/01f174c14669c92cd1c06dbf5158db29c4720b6d/EXPERIMENTS/EXP-X11) |
 | X12 | WORKPLAN_CREATED | Pending | codex/exp-x12 | Awaiting X09–X11 |
-| X13 | WORKPLAN_CREATED | Pending | codex/exp-x13 | Awaiting X10 and X11 |
+| X13 | IMPLEMENTING | Pending | codex/exp-x13 | X10 and X11 pinned |
 | X14 | WORKPLAN_CREATED | Pending | codex/exp-x14 | Awaiting X04 and X13 |
 | X15 | WORKPLAN_CREATED | Pending | codex/exp-x15 | Awaiting all predecessor terminal outcomes |
 
@@ -69,6 +69,10 @@ Each slot remains occupied through parent clean-checkout verification, safe clea
 - X11 parent independently ran the isolated capacity read at 19:54:23 Asia/Karachi using verified GitHub snapshot `e17e7c7a8673b9d88e19f5cd26d53f308a123664`. The holdout remained sealed until the exact forecast `1e8182a486241eecfdf6eaf1063cc5750203de2f`, source/config invariance and receipt bytes were confirmed at 19:55:45. The parent reconstructed every backlog label and paired difference from the raw ledgers and recomputed all interval widths. The terminal archive passed 10 tests and reproduced the raw gzip hash. All 4 threshold and 3 fidelity predictions matched across 8,192 paired blocks. Passive/placebo matched in all blocks. The disturbed port increased label risk by 69.56 percentage points in steady and 66.63 in burst, while public transcripts remained equal. Naive transfer gave a wrong original verdict for that port. Claims are confined to the declared sandbox and lawful capacity anchor.
 - X11 managed worktree and scratch removed after acceptance, accounting for 2,669,858 logical bytes. Parent verified the checkout absent and remote commit unchanged. X13 now eligible from X10 and X11.
 
+- X05 independent exact GitHub replay passed 10 tests, all 70 cases and the invariant, summary, timing and performance digests. Reference checks included 48,616 local/terminal freeze values, 8,128 whole-completion freeze values, 6,446 witnesses and 125 UNSAT rounds. The lazy method returned 62 optimal audits and three point identifications, 35 beyond the explicit completion cap. It reported one inaccessible and one inconsistent case and refused all three deliberately unresolved cases. The matched 64-by-3 case represented 2^192 completions and 192 pivotal facts without materializing the catalog. Exact audit cost 677 versus 1,070 for all queries. Independent aggregation of 840 timing and 280 allocation observations gave 1.046377 s median and 1,208,636 peak traced bytes for that case. Explicit methods were faster on most jointly solved inputs, and turning off dominance pruning hit the work cap at the largest matched condition. Parent verified managed checkout removal and unchanged remote SHA. Checkout and scratch accounted for 98,200,614 logical bytes.
+- X09 parent tested all 15 cases and matched exact output from pinned pre-audit `c547c7ad66e5e2603628c463f6c662b0575a5cfc` before taking the allowed reset measurements. GitHub forecast `e7f162b44b101173eb325d68b384d5aed7b7e64b`, receipt bytes, ancestry and source invariance checked at 20:02:40 Asia/Karachi. Held-out release completed at 20:02:43. It recorded 131,072 task episodes and 65,536 factorial draws. The study reports four admitted forecasts confirmed, two inconsistent controls, and two false safe forecasts under intentionally invalid transport, pending terminal review.
+- X13 entered implementation in the managed worktree after X11 closed. X06 is reserved following X05 closure.
+
 ## First-wave cleanup and restart
 
 Automatic command approval rejected recursive removal and individually verified literal-path file removal for X03. Individually verified literal-path removal was also rejected for X08. The sole error detail was `blocked by policy` at process creation. Rejections occurred before execution and no files were deleted. X01 cleanup was held after the same methods were rejected for the other experiment roots. These directories were created for this program, contain the disposable clones, reproduction checkouts and scoped outputs, and have verified durable GitHub packages.
@@ -85,4 +89,4 @@ The next wave uses one managed Git worktree per experiment with all ignored scra
 
 ## Findings and outstanding obligations
 
-Operationally complete 7/15. X05 and X09 are active, X13 is reserved, and five experiments are queued. Accepted claims remain bounded to the tested finite and sandbox systems. The general transport and flagship results remain open.
+Operationally complete 8/15. X09 and X13 are active, X06 is reserved, and four experiments are queued. Accepted claims remain bounded to the tested finite and sandbox systems. The general transport and flagship results remain open.
