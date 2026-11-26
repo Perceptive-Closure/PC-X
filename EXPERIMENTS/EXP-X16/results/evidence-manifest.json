@@ -3,7 +3,7 @@
   "opening_commit": "bf91bb5f48549853ee614361d4bc0f9f917e08b6",
   "schema": 1,
   "sha256": {
-    "RESULTS.md": "3cb1cc3638e4bd3e33dfbdd4f68de8ac941ad9275c146da3a61a93bf5cc1e443",
+    "RESULTS.md": "5089c6d4be0b81f187ff47dec9f8bea1968e5c18e100445f4c238d3659949805",
     "results/anchor-ledger.json": "c6773ddeb867138257bdc3498da0923182500bcf25658ea6ce4a6f38fe5c1083",
     "results/artifact-examples.json": "41ba35f1aa71ffe7e746c020f1a312154715d1b2d79c479a8336de1034170e01",
     "results/forecast-agreement.json": "aa98f698d4d41ea594a485b4b7bec939a3e66e45e47a2f4149ec4babab11c297",

@@ -18,7 +18,7 @@ All prices are worst-case paid acquisition units. The pure comparators use the s
 | gateway-6 | 13 / 14 | 128 | 2 / 2 | 1 / 7 / 28 | 1 / 7 | 1 / 7 | — |
 
 - **Useful feedback.** Both connected paths complete at work 4 under their own fastest lawful actions. In the live profile the first completed job issues `LEFT` or `RIGHT`, which permits a common adaptive controller at paid cost 0. A fixed schedule is infeasible. Suppressing that first receipt makes joint completion infeasible while both known-mode executions still complete at work 4.
-- **Dynamic meter.** The longer initial receipt exposes a direct read at price 3. The fourth move permits the adaptive controller to prepare at price 1 and inspect at price 1. The fixed schedule remains at 3. The pure predeployment minimum is 1 and certifies the intrinsic label.
+- **Dynamic meter.** The LONG receipt from the first completed job exposes a direct read at price 3. The fourth move permits the adaptive controller to prepare at price 1 and inspect at price 1. The fixed schedule remains at 3. The pure predeployment minimum is 1 and certifies the intrinsic label.
 - **Target and identity.** In the three gateway profiles the same-menu online target cost is 1 and the online full-identity costs are 3, 5 and 7. The pure same-menu minima have the same gaps. The measured advantage concerns the less demanding target objective on these graphs.
 
 ## Native ground truth and scope controls
