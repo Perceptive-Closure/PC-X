@@ -1,0 +1,8 @@
+{
+  "name": "pcx-x16-beacon-verifier",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "drand-client": "1.4.2"
+  }
+}
