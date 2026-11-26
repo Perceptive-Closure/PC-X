@@ -1,0 +1,3645 @@
+{
+  "frozen_sha256": {
+    "Protocol.md": "67d6550936d3e48ea9541239c60d71b1c76206783a125aec6cfec64bb8c49916",
+    "configs/protocol.json": "89ce0dda1089a9636638af802c971397a7a1cc7ac7afa99fc17b6a5c44730ebb",
+    "results/calibration.json": "0b16abd23e7358722553bcc4027ef32551dd0c9a5e883757e86b8e585c02598a",
+    "results/preflight.json": "1a2919d37d16ca43840041e1c8ac8bf2acd8226ac6e5dbbe39ab2e73c924b4d2",
+    "src/analysis.py": "e48d589250731362f32569524860a19d0f49ebd255919739c89b783b892c8de8",
+    "src/measure.py": "bfc92a0449bcd9e7f19ca00257a7820dc0707e46f50a2f4a7099efdbc076ade9",
+    "src/oracle.py": "91354553fd195af718c9325c89d862c6a671c836fc9691a4875949289222b0b0",
+    "src/outcomes.py": "42215345470435275f052c6a230a7b86e6604b249a27452dee48ed8e0afb6465",
+    "src/runtime.py": "8c0d1a0de3316016435cfe14491842d6383e703213723d0834f80722c1cc432e",
+    "src/x12.py": "66f34fc10cb0dab7a5ec6d1202f7e3ef1aff0f88885ed63e301f2a5f796808ac",
+    "tests/test_x12.py": "7a40d2216227194a2a683217f7456b2069c724c0d5bcceb3ba123e5219115806"
+  },
+  "private_commitment": "1ab286193a9a704c7d84b9ad7dcd52542004015a4361753302e14ce01c365f3a",
+  "protocol": "EXP-X12/v1",
+  "reserved_at_utc": "2026-11-26T15:26:21.083703Z",
+  "source_commit": "7a742d9835fef3d42205d28f6ff967009207b9a9",
+  "units": {
+    "Q01": {
+      "direct": {
+        "busy": {
+          "priority": {
+            "completed": 28622,
+            "events": 186,
+            "n": 4096,
+            "offered": 28808
+          },
+          "standard": {
+            "completed": 24527,
+            "events": 160,
+            "n": 4096,
+            "offered": 24687
+          }
+        },
+        "routine": {
+          "priority": {
+            "completed": 24522,
+            "events": 146,
+            "n": 4096,
+            "offered": 24668
+          },
+          "standard": {
+            "completed": 24497,
+            "events": 146,
+            "n": 4096,
+            "offered": 24643
+          }
+        }
+      },
+      "paired": {
+        "busy": {
+          "priority": [
+            [
+              7945,
+              46,
+              0,
+              201
+            ],
+            [
+              7885,
+              59,
+              0,
+              248
+            ],
+            [
+              7907,
+              58,
+              0,
+              227
+            ],
+            [
+              7778,
+              73,
+              0,
+              341
+            ]
+          ],
+          "standard": [
+            [
+              7965,
+              54,
+              0,
+              173
+            ],
+            [
+              7942,
+              45,
+              0,
+              205
+            ],
+            [
+              7960,
+              52,
+              0,
+              180
+            ],
+            [
+              7833,
+              72,
+              0,
+              287
+            ]
+          ]
+        },
+        "routine": {
+          "priority": [
+            [
+              8023,
+              52,
+              0,
+              117
+            ],
+            [
+              7927,
+              38,
+              0,
+              227
+            ],
+            [
+              7979,
+              52,
+              0,
+              161
+            ],
+            [
+              7866,
+              89,
+              0,
+              237
+            ]
+          ],
+          "standard": [
+            [
+              8037,
+              58,
+              0,
+              97
+            ],
+            [
+              7992,
+              50,
+              0,
+              150
+            ],
+            [
+              7978,
+              74,
+              0,
+              140
+            ],
+            [
+              7929,
+              73,
+              0,
+              190
+            ]
+          ]
+        }
+      },
+      "pulse": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "registry": {
+        "bank": "nominal",
+        "deployed_semantics": {
+          "action": [
+            "single",
+            "boost"
+          ],
+          "authority": [
+            "covered-reset",
+            "read-only-ticket-comparison",
+            "independent-native-readback"
+          ],
+          "context_mapping": [
+            "routine",
+            "busy"
+          ],
+          "covered": [
+            "standard",
+            "priority"
+          ],
+          "decision": "arrival-or-prior-pressure",
+          "event": "jobs-left-at-close",
+          "intervention": [
+            "passive",
+            "placebo-lamp",
+            "audited"
+          ],
+          "monitor": "display-and-dispatch",
+          "observation": [
+            "new_jobs",
+            "pending_jobs",
+            "last_tick_pressure"
+          ],
+          "protocol": "reset-and-run-three-ticks",
+          "transition": "initial-work-then-independent-capacity-losses",
+          "trusted_record": [
+            "initial_jobs",
+            "arrivals",
+            "completed"
+          ],
+          "uncovered": "novel-enrollment-without-audit-authority"
+        },
+        "enrollment_tapes": {
+          "busy": [
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority"
+          ],
+          "routine": [
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority"
+          ]
+        },
+        "family": "queue",
+        "shared_storage": false,
+        "source_semantics": {
+          "action": [
+            "single",
+            "boost"
+          ],
+          "authority": [
+            "covered-reset",
+            "read-only-ticket-comparison",
+            "independent-native-readback"
+          ],
+          "context_mapping": [
+            "routine",
+            "busy"
+          ],
+          "covered": [
+            "standard",
+            "priority"
+          ],
+          "decision": "arrival-or-prior-pressure",
+          "event": "jobs-left-at-close",
+          "intervention": [
+            "passive",
+            "placebo-lamp",
+            "audited"
+          ],
+          "monitor": "display-and-dispatch",
+          "observation": [
+            "new_jobs",
+            "pending_jobs",
+            "last_tick_pressure"
+          ],
+          "protocol": "reset-and-run-three-ticks",
+          "transition": "initial-work-then-independent-capacity-losses",
+          "trusted_record": [
+            "initial_jobs",
+            "arrivals",
+            "completed"
+          ],
+          "uncovered": "novel-enrollment-without-audit-authority"
+        }
+      }
+    },
+    "Q02": {
+      "direct": {
+        "busy": {
+          "priority": {
+            "completed": 28614,
+            "events": 158,
+            "n": 4096,
+            "offered": 28772
+          },
+          "standard": {
+            "completed": 24519,
+            "events": 141,
+            "n": 4096,
+            "offered": 24660
+          }
+        },
+        "routine": {
+          "priority": {
+            "completed": 24509,
+            "events": 124,
+            "n": 4096,
+            "offered": 24633
+          },
+          "standard": {
+            "completed": 24528,
+            "events": 86,
+            "n": 4096,
+            "offered": 24614
+          }
+        }
+      },
+      "paired": {
+        "busy": {
+          "priority": [
+            [
+              7977,
+              0,
+              0,
+              215
+            ],
+            [
+              7907,
+              0,
+              0,
+              285
+            ],
+            [
+              7967,
+              0,
+              0,
+              225
+            ],
+            [
+              7908,
+              0,
+              0,
+              284
+            ]
+          ],
+          "standard": [
+            [
+              8022,
+              0,
+              0,
+              170
+            ],
+            [
+              7932,
+              0,
+              0,
+              260
+            ],
+            [
+              7990,
+              0,
+              0,
+              202
+            ],
+            [
+              7893,
+              0,
+              0,
+              299
+            ]
+          ]
+        },
+        "routine": {
+          "priority": [
+            [
+              8077,
+              0,
+              0,
+              115
+            ],
+            [
+              7987,
+              0,
+              0,
+              205
+            ],
+            [
+              8029,
+              0,
+              0,
+              163
+            ],
+            [
+              7946,
+              0,
+              0,
+              246
+            ]
+          ],
+          "standard": [
+            [
+              8099,
+              0,
+              0,
+              93
+            ],
+            [
+              8048,
+              0,
+              0,
+              144
+            ],
+            [
+              8067,
+              0,
+              0,
+              125
+            ],
+            [
+              7982,
+              0,
+              0,
+              210
+            ]
+          ]
+        }
+      },
+      "pulse": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "registry": {
+        "bank": "nominal",
+        "deployed_semantics": {
+          "action": [
+            "single",
+            "boost"
+          ],
+          "authority": [
+            "covered-reset",
+            "read-only-ticket-comparison",
+            "independent-native-readback"
+          ],
+          "context_mapping": [
+            "routine",
+            "busy"
+          ],
+          "covered": [
+            "standard",
+            "priority"
+          ],
+          "decision": "arrival-or-prior-pressure",
+          "event": "jobs-left-at-close",
+          "intervention": [
+            "passive",
+            "placebo-lamp",
+            "audited"
+          ],
+          "monitor": "display-and-dispatch",
+          "observation": [
+            "new_jobs",
+            "pending_jobs",
+            "last_tick_pressure"
+          ],
+          "protocol": "reset-and-run-three-ticks",
+          "transition": "initial-work-then-independent-capacity-losses",
+          "trusted_record": [
+            "initial_jobs",
+            "arrivals",
+            "completed"
+          ],
+          "uncovered": "novel-enrollment-without-audit-authority"
+        },
+        "enrollment_tapes": {
+          "busy": [
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "novel",
+            "novel",
+            "novel",
+            "novel",
+            "novel",
+            "novel",
+            "novel",
+            "novel",
+            "novel"
+          ],
+          "routine": [
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "novel",
+            "novel",
+            "novel",
+            "novel"
+          ]
+        },
+        "family": "queue",
+        "shared_storage": false,
+        "source_semantics": {
+          "action": [
+            "single",
+            "boost"
+          ],
+          "authority": [
+            "covered-reset",
+            "read-only-ticket-comparison",
+            "independent-native-readback"
+          ],
+          "context_mapping": [
+            "routine",
+            "busy"
+          ],
+          "covered": [
+            "standard",
+            "priority"
+          ],
+          "decision": "arrival-or-prior-pressure",
+          "event": "jobs-left-at-close",
+          "intervention": [
+            "passive",
+            "placebo-lamp",
+            "audited"
+          ],
+          "monitor": "display-and-dispatch",
+          "observation": [
+            "new_jobs",
+            "pending_jobs",
+            "last_tick_pressure"
+          ],
+          "protocol": "reset-and-run-three-ticks",
+          "transition": "initial-work-then-independent-capacity-losses",
+          "trusted_record": [
+            "initial_jobs",
+            "arrivals",
+            "completed"
+          ],
+          "uncovered": "novel-enrollment-without-audit-authority"
+        }
+      }
+    },
+    "Q03": {
+      "direct": {
+        "busy": {
+          "priority": {
+            "completed": 28229,
+            "events": 2091,
+            "n": 4096,
+            "offered": 30518
+          },
+          "standard": {
+            "completed": 24151,
+            "events": 2094,
+            "n": 4096,
+            "offered": 26402
+          }
+        },
+        "routine": {
+          "priority": {
+            "completed": 24209,
+            "events": 1999,
+            "n": 4096,
+            "offered": 26362
+          },
+          "standard": {
+            "completed": 24184,
+            "events": 2009,
+            "n": 4096,
+            "offered": 26334
+          }
+        }
+      },
+      "paired": {
+        "busy": {
+          "priority": [
+            [
+              4471,
+              3510,
+              0,
+              211
+            ],
+            [
+              4569,
+              3368,
+              0,
+              255
+            ],
+            [
+              4664,
+              3296,
+              0,
+              232
+            ],
+            [
+              4400,
+              3498,
+              0,
+              294
+            ]
+          ],
+          "standard": [
+            [
+              4602,
+              3435,
+              0,
+              155
+            ],
+            [
+              4476,
+              3482,
+              0,
+              234
+            ],
+            [
+              4608,
+              3376,
+              0,
+              208
+            ],
+            [
+              4434,
+              3465,
+              0,
+              293
+            ]
+          ]
+        },
+        "routine": {
+          "priority": [
+            [
+              4668,
+              3407,
+              0,
+              117
+            ],
+            [
+              4449,
+              3533,
+              0,
+              210
+            ],
+            [
+              4631,
+              3374,
+              0,
+              187
+            ],
+            [
+              4574,
+              3341,
+              0,
+              277
+            ]
+          ],
+          "standard": [
+            [
+              4622,
+              3480,
+              0,
+              90
+            ],
+            [
+              4647,
+              3378,
+              0,
+              167
+            ],
+            [
+              4768,
+              3288,
+              0,
+              136
+            ],
+            [
+              4511,
+              3478,
+              0,
+              203
+            ]
+          ]
+        }
+      },
+      "pulse": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "registry": {
+        "bank": "nominal",
+        "deployed_semantics": {
+          "action": [
+            "single",
+            "boost"
+          ],
+          "authority": [
+            "covered-reset",
+            "read-only-ticket-comparison",
+            "independent-native-readback"
+          ],
+          "context_mapping": [
+            "routine",
+            "busy"
+          ],
+          "covered": [
+            "standard",
+            "priority"
+          ],
+          "decision": "arrival-or-prior-pressure",
+          "event": "jobs-left-at-close",
+          "intervention": [
+            "passive",
+            "placebo-lamp",
+            "audited"
+          ],
+          "monitor": "display-and-dispatch",
+          "observation": [
+            "new_jobs",
+            "pending_jobs",
+            "last_tick_pressure"
+          ],
+          "protocol": "reset-and-run-three-ticks",
+          "transition": "initial-work-then-independent-capacity-losses",
+          "trusted_record": [
+            "initial_jobs",
+            "arrivals",
+            "completed"
+          ],
+          "uncovered": "novel-enrollment-without-audit-authority"
+        },
+        "enrollment_tapes": {
+          "busy": [
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority"
+          ],
+          "routine": [
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority"
+          ]
+        },
+        "family": "queue",
+        "shared_storage": false,
+        "source_semantics": {
+          "action": [
+            "single",
+            "boost"
+          ],
+          "authority": [
+            "covered-reset",
+            "read-only-ticket-comparison",
+            "independent-native-readback"
+          ],
+          "context_mapping": [
+            "routine",
+            "busy"
+          ],
+          "covered": [
+            "standard",
+            "priority"
+          ],
+          "decision": "arrival-or-prior-pressure",
+          "event": "jobs-left-at-close",
+          "intervention": [
+            "passive",
+            "placebo-lamp",
+            "audited"
+          ],
+          "monitor": "display-and-dispatch",
+          "observation": [
+            "new_jobs",
+            "pending_jobs",
+            "last_tick_pressure"
+          ],
+          "protocol": "reset-and-run-three-ticks",
+          "transition": "initial-work-then-independent-capacity-losses",
+          "trusted_record": [
+            "initial_jobs",
+            "arrivals",
+            "completed"
+          ],
+          "uncovered": "novel-enrollment-without-audit-authority"
+        }
+      }
+    },
+    "Q04": {
+      "direct": {
+        "busy": {
+          "priority": {
+            "completed": 26436,
+            "events": 3719,
+            "n": 4096,
+            "offered": 31690
+          },
+          "standard": {
+            "completed": 22377,
+            "events": 3704,
+            "n": 4096,
+            "offered": 27591
+          }
+        },
+        "routine": {
+          "priority": {
+            "completed": 22506,
+            "events": 3656,
+            "n": 4096,
+            "offered": 27599
+          },
+          "standard": {
+            "completed": 22639,
+            "events": 3585,
+            "n": 4096,
+            "offered": 27563
+          }
+        }
+      },
+      "paired": {
+        "busy": {
+          "priority": [
+            [
+              8004,
+              0,
+              0,
+              188
+            ],
+            [
+              7907,
+              0,
+              0,
+              285
+            ],
+            [
+              7954,
+              0,
+              0,
+              238
+            ],
+            [
+              7846,
+              0,
+              0,
+              346
+            ]
+          ],
+          "standard": [
+            [
+              8054,
+              0,
+              0,
+              138
+            ],
+            [
+              7974,
+              0,
+              0,
+              218
+            ],
+            [
+              7961,
+              0,
+              0,
+              231
+            ],
+            [
+              7925,
+              0,
+              0,
+              267
+            ]
+          ]
+        },
+        "routine": {
+          "priority": [
+            [
+              8059,
+              0,
+              0,
+              133
+            ],
+            [
+              7963,
+              0,
+              0,
+              229
+            ],
+            [
+              8014,
+              0,
+              0,
+              178
+            ],
+            [
+              7937,
+              0,
+              0,
+              255
+            ]
+          ],
+          "standard": [
+            [
+              8086,
+              0,
+              0,
+              106
+            ],
+            [
+              8033,
+              0,
+              0,
+              159
+            ],
+            [
+              8032,
+              0,
+              0,
+              160
+            ],
+            [
+              7987,
+              0,
+              0,
+              205
+            ]
+          ]
+        }
+      },
+      "pulse": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "registry": {
+        "bank": "nominal",
+        "deployed_semantics": {
+          "action": [
+            "single",
+            "boost"
+          ],
+          "authority": [
+            "covered-reset",
+            "read-only-ticket-comparison",
+            "independent-native-readback"
+          ],
+          "context_mapping": [
+            "routine",
+            "busy"
+          ],
+          "covered": [
+            "standard",
+            "priority"
+          ],
+          "decision": "arrival-or-prior-pressure",
+          "event": "jobs-left-at-close",
+          "intervention": [
+            "passive",
+            "placebo-lamp",
+            "audited"
+          ],
+          "monitor": "display-and-dispatch",
+          "observation": [
+            "new_jobs",
+            "pending_jobs",
+            "last_tick_pressure"
+          ],
+          "protocol": "reset-and-run-three-ticks",
+          "transition": "initial-work-then-independent-capacity-losses",
+          "trusted_record": [
+            "initial_jobs",
+            "arrivals",
+            "completed"
+          ],
+          "uncovered": "novel-enrollment-without-audit-authority"
+        },
+        "enrollment_tapes": {
+          "busy": [
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority"
+          ],
+          "routine": [
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority"
+          ]
+        },
+        "family": "queue",
+        "shared_storage": false,
+        "source_semantics": {
+          "action": [
+            "single",
+            "boost"
+          ],
+          "authority": [
+            "covered-reset",
+            "read-only-ticket-comparison",
+            "independent-native-readback"
+          ],
+          "context_mapping": [
+            "routine",
+            "busy"
+          ],
+          "covered": [
+            "standard",
+            "priority"
+          ],
+          "decision": "arrival-or-prior-pressure",
+          "event": "jobs-left-at-close",
+          "intervention": [
+            "passive",
+            "placebo-lamp",
+            "audited"
+          ],
+          "monitor": "display-and-dispatch",
+          "observation": [
+            "new_jobs",
+            "pending_jobs",
+            "last_tick_pressure"
+          ],
+          "protocol": "reset-and-run-three-ticks",
+          "transition": "initial-work-then-independent-capacity-losses",
+          "trusted_record": [
+            "initial_jobs",
+            "arrivals",
+            "completed"
+          ],
+          "uncovered": "novel-enrollment-without-audit-authority"
+        }
+      }
+    },
+    "Q05": {
+      "direct": {
+        "busy": {
+          "priority": {
+            "completed": 26528,
+            "events": 3668,
+            "n": 4096,
+            "offered": 31691
+          },
+          "standard": {
+            "completed": 22487,
+            "events": 3642,
+            "n": 4096,
+            "offered": 27560
+          }
+        },
+        "routine": {
+          "priority": {
+            "completed": 22607,
+            "events": 3557,
+            "n": 4096,
+            "offered": 27493
+          },
+          "standard": {
+            "completed": 22750,
+            "events": 3511,
+            "n": 4096,
+            "offered": 27464
+          }
+        }
+      },
+      "paired": {
+        "busy": {
+          "priority": [
+            [
+              2042,
+              0,
+              94,
+              6056
+            ],
+            [
+              1595,
+              0,
+              68,
+              6529
+            ],
+            [
+              1765,
+              0,
+              83,
+              6344
+            ],
+            [
+              1462,
+              0,
+              76,
+              6654
+            ]
+          ],
+          "standard": [
+            [
+              2152,
+              0,
+              95,
+              5945
+            ],
+            [
+              1870,
+              0,
+              63,
+              6259
+            ],
+            [
+              1828,
+              0,
+              83,
+              6281
+            ],
+            [
+              1550,
+              0,
+              77,
+              6565
+            ]
+          ]
+        },
+        "routine": {
+          "priority": [
+            [
+              2225,
+              0,
+              98,
+              5869
+            ],
+            [
+              1878,
+              0,
+              60,
+              6254
+            ],
+            [
+              1940,
+              0,
+              88,
+              6164
+            ],
+            [
+              1675,
+              0,
+              82,
+              6435
+            ]
+          ],
+          "standard": [
+            [
+              2292,
+              0,
+              95,
+              5805
+            ],
+            [
+              1969,
+              0,
+              61,
+              6162
+            ],
+            [
+              2125,
+              0,
+              58,
+              6009
+            ],
+            [
+              1745,
+              0,
+              73,
+              6374
+            ]
+          ]
+        }
+      },
+      "pulse": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "registry": {
+        "bank": "stress",
+        "deployed_semantics": {
+          "action": [
+            "single",
+            "boost"
+          ],
+          "authority": [
+            "covered-reset",
+            "read-only-ticket-comparison",
+            "independent-native-readback"
+          ],
+          "context_mapping": [
+            "routine",
+            "busy"
+          ],
+          "covered": [
+            "standard",
+            "priority"
+          ],
+          "decision": "arrival-or-prior-pressure",
+          "event": "jobs-left-at-close",
+          "intervention": [
+            "passive",
+            "placebo-lamp",
+            "audited"
+          ],
+          "monitor": "display-and-dispatch",
+          "observation": [
+            "new_jobs",
+            "pending_jobs",
+            "last_tick_pressure"
+          ],
+          "protocol": "reset-and-run-three-ticks",
+          "transition": "initial-work-then-independent-capacity-losses",
+          "trusted_record": [
+            "initial_jobs",
+            "arrivals",
+            "completed"
+          ],
+          "uncovered": "novel-enrollment-without-audit-authority"
+        },
+        "enrollment_tapes": {
+          "busy": [
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority"
+          ],
+          "routine": [
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority"
+          ]
+        },
+        "family": "queue",
+        "shared_storage": false,
+        "source_semantics": {
+          "action": [
+            "single",
+            "boost"
+          ],
+          "authority": [
+            "covered-reset",
+            "read-only-ticket-comparison",
+            "independent-native-readback"
+          ],
+          "context_mapping": [
+            "routine",
+            "busy"
+          ],
+          "covered": [
+            "standard",
+            "priority"
+          ],
+          "decision": "arrival-or-prior-pressure",
+          "event": "jobs-left-at-close",
+          "intervention": [
+            "passive",
+            "placebo-lamp",
+            "audited"
+          ],
+          "monitor": "display-and-dispatch",
+          "observation": [
+            "new_jobs",
+            "pending_jobs",
+            "last_tick_pressure"
+          ],
+          "protocol": "reset-and-run-three-ticks",
+          "transition": "initial-work-then-independent-capacity-losses",
+          "trusted_record": [
+            "initial_jobs",
+            "arrivals",
+            "completed"
+          ],
+          "uncovered": "novel-enrollment-without-audit-authority"
+        }
+      }
+    },
+    "Q06": {
+      "direct": {
+        "busy": {
+          "priority": {
+            "completed": 28610,
+            "events": 160,
+            "n": 4096,
+            "offered": 28770
+          },
+          "standard": {
+            "completed": 24515,
+            "events": 151,
+            "n": 4096,
+            "offered": 24666
+          }
+        },
+        "routine": {
+          "priority": {
+            "completed": 24509,
+            "events": 121,
+            "n": 4096,
+            "offered": 24630
+          },
+          "standard": {
+            "completed": 24533,
+            "events": 88,
+            "n": 4096,
+            "offered": 24621
+          }
+        }
+      },
+      "paired": {
+        "busy": {
+          "priority": [
+            [
+              7982,
+              0,
+              0,
+              210
+            ],
+            [
+              7905,
+              0,
+              0,
+              287
+            ],
+            [
+              7956,
+              0,
+              0,
+              236
+            ],
+            [
+              7871,
+              0,
+              0,
+              321
+            ]
+          ],
+          "standard": [
+            [
+              8021,
+              0,
+              0,
+              171
+            ],
+            [
+              7980,
+              0,
+              0,
+              212
+            ],
+            [
+              7975,
+              0,
+              0,
+              217
+            ],
+            [
+              7905,
+              0,
+              0,
+              287
+            ]
+          ]
+        },
+        "routine": {
+          "priority": [
+            [
+              8054,
+              0,
+              0,
+              138
+            ],
+            [
+              8005,
+              0,
+              0,
+              187
+            ],
+            [
+              8012,
+              0,
+              0,
+              180
+            ],
+            [
+              7919,
+              0,
+              0,
+              273
+            ]
+          ],
+          "standard": [
+            [
+              8105,
+              0,
+              0,
+              87
+            ],
+            [
+              8020,
+              0,
+              0,
+              172
+            ],
+            [
+              8059,
+              0,
+              0,
+              133
+            ],
+            [
+              7985,
+              0,
+              0,
+              207
+            ]
+          ]
+        }
+      },
+      "pulse": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "registry": {
+        "bank": "nominal",
+        "deployed_semantics": {
+          "action": [
+            "single",
+            "boost"
+          ],
+          "authority": [
+            "covered-reset",
+            "read-only-ticket-comparison",
+            "independent-native-readback"
+          ],
+          "context_mapping": [
+            "routine",
+            "busy"
+          ],
+          "covered": [
+            "standard",
+            "priority"
+          ],
+          "decision": "arrival-or-prior-pressure",
+          "event": "jobs-left-at-close",
+          "intervention": [
+            "passive",
+            "placebo-lamp",
+            "audited"
+          ],
+          "monitor": "display-and-dispatch",
+          "observation": [
+            "new_jobs",
+            "pending_jobs",
+            "last_tick_pressure"
+          ],
+          "protocol": "reset-and-run-three-ticks",
+          "transition": "initial-work-then-independent-capacity-losses",
+          "trusted_record": [
+            "initial_jobs",
+            "arrivals",
+            "completed"
+          ],
+          "uncovered": "novel-enrollment-without-audit-authority"
+        },
+        "enrollment_tapes": {
+          "busy": [
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority"
+          ],
+          "routine": [
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority"
+          ]
+        },
+        "family": "queue",
+        "shared_storage": true,
+        "source_semantics": {
+          "action": [
+            "single",
+            "boost"
+          ],
+          "authority": [
+            "covered-reset",
+            "read-only-ticket-comparison",
+            "independent-native-readback"
+          ],
+          "context_mapping": [
+            "routine",
+            "busy"
+          ],
+          "covered": [
+            "standard",
+            "priority"
+          ],
+          "decision": "arrival-or-prior-pressure",
+          "event": "jobs-left-at-close",
+          "intervention": [
+            "passive",
+            "placebo-lamp",
+            "audited"
+          ],
+          "monitor": "display-and-dispatch",
+          "observation": [
+            "new_jobs",
+            "pending_jobs",
+            "last_tick_pressure"
+          ],
+          "protocol": "reset-and-run-three-ticks",
+          "transition": "initial-work-then-independent-capacity-losses",
+          "trusted_record": [
+            "initial_jobs",
+            "arrivals",
+            "completed"
+          ],
+          "uncovered": "novel-enrollment-without-audit-authority"
+        }
+      }
+    },
+    "S01": {
+      "direct": {
+        "busy": {
+          "priority": {
+            "completed": 4252,
+            "events": 4001,
+            "n": 4096,
+            "offered": 12288
+          },
+          "standard": {
+            "completed": 4338,
+            "events": 3981,
+            "n": 4096,
+            "offered": 12288
+          }
+        },
+        "routine": {
+          "priority": {
+            "completed": 4363,
+            "events": 3973,
+            "n": 4096,
+            "offered": 12288
+          },
+          "standard": {
+            "completed": 4457,
+            "events": 3977,
+            "n": 4096,
+            "offered": 12288
+          }
+        }
+      },
+      "paired": {
+        "busy": {
+          "priority": [
+            [
+              7976,
+              0,
+              0,
+              216
+            ],
+            [
+              7905,
+              0,
+              0,
+              287
+            ],
+            [
+              7950,
+              0,
+              0,
+              242
+            ],
+            [
+              7859,
+              0,
+              0,
+              333
+            ]
+          ],
+          "standard": [
+            [
+              8025,
+              0,
+              0,
+              167
+            ],
+            [
+              7944,
+              0,
+              0,
+              248
+            ],
+            [
+              7973,
+              0,
+              0,
+              219
+            ],
+            [
+              7887,
+              0,
+              0,
+              305
+            ]
+          ]
+        },
+        "routine": {
+          "priority": [
+            [
+              8071,
+              0,
+              0,
+              121
+            ],
+            [
+              7992,
+              0,
+              0,
+              200
+            ],
+            [
+              8001,
+              0,
+              0,
+              191
+            ],
+            [
+              7960,
+              0,
+              0,
+              232
+            ]
+          ],
+          "standard": [
+            [
+              8086,
+              0,
+              0,
+              106
+            ],
+            [
+              8007,
+              0,
+              0,
+              185
+            ],
+            [
+              8055,
+              0,
+              0,
+              137
+            ],
+            [
+              7985,
+              0,
+              0,
+              207
+            ]
+          ]
+        }
+      },
+      "pulse": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "registry": {
+        "bank": "nominal",
+        "deployed_semantics": {
+          "action": [
+            "tray_0",
+            "tray_1"
+          ],
+          "authority": [
+            "covered-reset",
+            "read-only-ticket-comparison",
+            "independent-native-readback"
+          ],
+          "context_mapping": [
+            "routine",
+            "busy"
+          ],
+          "covered": [
+            "standard",
+            "priority"
+          ],
+          "decision": "reactive-display",
+          "event": "any-received-tray-differs-from-printed-tray",
+          "intervention": [
+            "passive",
+            "placebo-lamp",
+            "audited"
+          ],
+          "monitor": "display-and-dispatch",
+          "observation": [
+            "display_tray"
+          ],
+          "protocol": "reset-and-run-three-ticks",
+          "transition": "start-crosswire-then-independent-scans",
+          "trusted_record": [
+            "printed_tray",
+            "received_tray"
+          ],
+          "uncovered": "novel-enrollment-without-audit-authority"
+        },
+        "enrollment_tapes": {
+          "busy": [
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority"
+          ],
+          "routine": [
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority"
+          ]
+        },
+        "family": "sorter",
+        "shared_storage": false,
+        "source_semantics": {
+          "action": [
+            "tray_0",
+            "tray_1"
+          ],
+          "authority": [
+            "covered-reset",
+            "read-only-ticket-comparison",
+            "independent-native-readback"
+          ],
+          "context_mapping": [
+            "routine",
+            "busy"
+          ],
+          "covered": [
+            "standard",
+            "priority"
+          ],
+          "decision": "reactive-display",
+          "event": "any-received-tray-differs-from-printed-tray",
+          "intervention": [
+            "passive",
+            "placebo-lamp",
+            "audited"
+          ],
+          "monitor": "display-and-dispatch",
+          "observation": [
+            "display_tray"
+          ],
+          "protocol": "reset-and-run-three-ticks",
+          "transition": "start-crosswire-then-independent-scans",
+          "trusted_record": [
+            "printed_tray",
+            "received_tray"
+          ],
+          "uncovered": "novel-enrollment-without-audit-authority"
+        }
+      }
+    },
+    "S02": {
+      "direct": {
+        "busy": {
+          "priority": {
+            "completed": 11597,
+            "events": 653,
+            "n": 4096,
+            "offered": 12288
+          },
+          "standard": {
+            "completed": 11700,
+            "events": 561,
+            "n": 4096,
+            "offered": 12288
+          }
+        },
+        "routine": {
+          "priority": {
+            "completed": 11781,
+            "events": 487,
+            "n": 4096,
+            "offered": 12288
+          },
+          "standard": {
+            "completed": 11892,
+            "events": 385,
+            "n": 4096,
+            "offered": 12288
+          }
+        }
+      },
+      "paired": {
+        "busy": {
+          "priority": [
+            [
+              7953,
+              50,
+              0,
+              189
+            ],
+            [
+              7869,
+              43,
+              0,
+              280
+            ],
+            [
+              7905,
+              74,
+              0,
+              213
+            ],
+            [
+              7783,
+              92,
+              0,
+              317
+            ]
+          ],
+          "standard": [
+            [
+              7963,
+              56,
+              0,
+              173
+            ],
+            [
+              7890,
+              39,
+              0,
+              263
+            ],
+            [
+              7946,
+              66,
+              0,
+              180
+            ],
+            [
+              7819,
+              88,
+              0,
+              285
+            ]
+          ]
+        },
+        "routine": {
+          "priority": [
+            [
+              8014,
+              51,
+              0,
+              127
+            ],
+            [
+              7966,
+              46,
+              0,
+              180
+            ],
+            [
+              7934,
+              58,
+              0,
+              200
+            ],
+            [
+              7867,
+              85,
+              0,
+              240
+            ]
+          ],
+          "standard": [
+            [
+              8059,
+              41,
+              0,
+              92
+            ],
+            [
+              7982,
+              39,
+              0,
+              171
+            ],
+            [
+              8004,
+              60,
+              0,
+              128
+            ],
+            [
+              7882,
+              88,
+              0,
+              222
+            ]
+          ]
+        }
+      },
+      "pulse": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "registry": {
+        "bank": "nominal",
+        "deployed_semantics": {
+          "action": [
+            "tray_0",
+            "tray_1"
+          ],
+          "authority": [
+            "covered-reset",
+            "read-only-ticket-comparison",
+            "independent-native-readback"
+          ],
+          "context_mapping": [
+            "routine",
+            "busy"
+          ],
+          "covered": [
+            "standard",
+            "priority"
+          ],
+          "decision": "reactive-display",
+          "event": "any-received-tray-differs-from-printed-tray",
+          "intervention": [
+            "passive",
+            "placebo-lamp",
+            "audited"
+          ],
+          "monitor": "display-and-dispatch",
+          "observation": [
+            "display_tray"
+          ],
+          "protocol": "reset-and-run-three-ticks",
+          "transition": "start-crosswire-then-independent-scans",
+          "trusted_record": [
+            "printed_tray",
+            "received_tray"
+          ],
+          "uncovered": "novel-enrollment-without-audit-authority"
+        },
+        "enrollment_tapes": {
+          "busy": [
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority"
+          ],
+          "routine": [
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority"
+          ]
+        },
+        "family": "sorter",
+        "shared_storage": false,
+        "source_semantics": {
+          "action": [
+            "tray_0",
+            "tray_1"
+          ],
+          "authority": [
+            "covered-reset",
+            "read-only-ticket-comparison",
+            "independent-native-readback"
+          ],
+          "context_mapping": [
+            "routine",
+            "busy"
+          ],
+          "covered": [
+            "standard",
+            "priority"
+          ],
+          "decision": "reactive-display",
+          "event": "any-received-tray-differs-from-printed-tray",
+          "intervention": [
+            "passive",
+            "placebo-lamp",
+            "audited"
+          ],
+          "monitor": "display-and-dispatch",
+          "observation": [
+            "display_tray"
+          ],
+          "protocol": "reset-and-run-three-ticks",
+          "transition": "start-crosswire-then-independent-scans",
+          "trusted_record": [
+            "printed_tray",
+            "received_tray"
+          ],
+          "uncovered": "novel-enrollment-without-audit-authority"
+        }
+      }
+    },
+    "S03": {
+      "direct": {
+        "busy": {
+          "priority": {
+            "completed": 4372,
+            "events": 3999,
+            "n": 4096,
+            "offered": 12288
+          },
+          "standard": {
+            "completed": 4397,
+            "events": 3989,
+            "n": 4096,
+            "offered": 12288
+          }
+        },
+        "routine": {
+          "priority": {
+            "completed": 4442,
+            "events": 3961,
+            "n": 4096,
+            "offered": 12288
+          },
+          "standard": {
+            "completed": 4442,
+            "events": 3955,
+            "n": 4096,
+            "offered": 12288
+          }
+        }
+      },
+      "paired": {
+        "busy": {
+          "priority": [
+            [
+              2103,
+              0,
+              105,
+              5984
+            ],
+            [
+              1647,
+              0,
+              68,
+              6477
+            ],
+            [
+              1806,
+              0,
+              81,
+              6305
+            ],
+            [
+              1504,
+              0,
+              71,
+              6617
+            ]
+          ],
+          "standard": [
+            [
+              2108,
+              0,
+              102,
+              5982
+            ],
+            [
+              1822,
+              0,
+              59,
+              6311
+            ],
+            [
+              1844,
+              0,
+              74,
+              6274
+            ],
+            [
+              1555,
+              0,
+              87,
+              6550
+            ]
+          ]
+        },
+        "routine": {
+          "priority": [
+            [
+              2188,
+              0,
+              95,
+              5909
+            ],
+            [
+              1835,
+              0,
+              73,
+              6284
+            ],
+            [
+              1927,
+              0,
+              76,
+              6189
+            ],
+            [
+              1654,
+              0,
+              69,
+              6469
+            ]
+          ],
+          "standard": [
+            [
+              2329,
+              0,
+              105,
+              5758
+            ],
+            [
+              1965,
+              0,
+              77,
+              6150
+            ],
+            [
+              2168,
+              0,
+              73,
+              5951
+            ],
+            [
+              1837,
+              0,
+              77,
+              6278
+            ]
+          ]
+        }
+      },
+      "pulse": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "registry": {
+        "bank": "stress",
+        "deployed_semantics": {
+          "action": [
+            "tray_0",
+            "tray_1"
+          ],
+          "authority": [
+            "covered-reset",
+            "read-only-ticket-comparison",
+            "independent-native-readback"
+          ],
+          "context_mapping": [
+            "routine",
+            "busy"
+          ],
+          "covered": [
+            "standard",
+            "priority"
+          ],
+          "decision": "reactive-display",
+          "event": "any-received-tray-differs-from-printed-tray",
+          "intervention": [
+            "passive",
+            "placebo-lamp",
+            "audited"
+          ],
+          "monitor": "display-and-dispatch",
+          "observation": [
+            "display_tray"
+          ],
+          "protocol": "reset-and-run-three-ticks",
+          "transition": "start-crosswire-then-independent-scans",
+          "trusted_record": [
+            "printed_tray",
+            "received_tray"
+          ],
+          "uncovered": "novel-enrollment-without-audit-authority"
+        },
+        "enrollment_tapes": {
+          "busy": [
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority"
+          ],
+          "routine": [
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority"
+          ]
+        },
+        "family": "sorter",
+        "shared_storage": false,
+        "source_semantics": {
+          "action": [
+            "tray_0",
+            "tray_1"
+          ],
+          "authority": [
+            "covered-reset",
+            "read-only-ticket-comparison",
+            "independent-native-readback"
+          ],
+          "context_mapping": [
+            "routine",
+            "busy"
+          ],
+          "covered": [
+            "standard",
+            "priority"
+          ],
+          "decision": "reactive-display",
+          "event": "any-received-tray-differs-from-printed-tray",
+          "intervention": [
+            "passive",
+            "placebo-lamp",
+            "audited"
+          ],
+          "monitor": "display-and-dispatch",
+          "observation": [
+            "display_tray"
+          ],
+          "protocol": "reset-and-run-three-ticks",
+          "transition": "start-crosswire-then-independent-scans",
+          "trusted_record": [
+            "printed_tray",
+            "received_tray"
+          ],
+          "uncovered": "novel-enrollment-without-audit-authority"
+        }
+      }
+    },
+    "S04": {
+      "direct": {
+        "busy": {
+          "priority": {
+            "completed": 11667,
+            "events": 590,
+            "n": 4096,
+            "offered": 12288
+          },
+          "standard": {
+            "completed": 11771,
+            "events": 488,
+            "n": 4096,
+            "offered": 12288
+          }
+        },
+        "routine": {
+          "priority": {
+            "completed": 11802,
+            "events": 472,
+            "n": 4096,
+            "offered": 12288
+          },
+          "standard": {
+            "completed": 11894,
+            "events": 381,
+            "n": 4096,
+            "offered": 12288
+          }
+        }
+      },
+      "paired": {
+        "busy": {
+          "priority": [
+            [
+              7955,
+              35,
+              0,
+              202
+            ],
+            [
+              7874,
+              35,
+              0,
+              283
+            ],
+            [
+              7888,
+              59,
+              0,
+              245
+            ],
+            [
+              7818,
+              49,
+              0,
+              325
+            ]
+          ],
+          "standard": [
+            [
+              7975,
+              55,
+              0,
+              162
+            ],
+            [
+              7917,
+              31,
+              0,
+              244
+            ],
+            [
+              7953,
+              51,
+              0,
+              188
+            ],
+            [
+              7899,
+              32,
+              0,
+              261
+            ]
+          ]
+        },
+        "routine": {
+          "priority": [
+            [
+              8029,
+              56,
+              0,
+              107
+            ],
+            [
+              7966,
+              34,
+              0,
+              192
+            ],
+            [
+              7970,
+              61,
+              0,
+              161
+            ],
+            [
+              7888,
+              54,
+              0,
+              250
+            ]
+          ],
+          "standard": [
+            [
+              8036,
+              52,
+              0,
+              104
+            ],
+            [
+              8025,
+              32,
+              0,
+              135
+            ],
+            [
+              8010,
+              59,
+              0,
+              123
+            ],
+            [
+              7942,
+              36,
+              0,
+              214
+            ]
+          ]
+        }
+      },
+      "pulse": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "registry": {
+        "bank": "nominal",
+        "deployed_semantics": {
+          "action": [
+            "tray_0",
+            "tray_1"
+          ],
+          "authority": [
+            "covered-reset",
+            "read-only-ticket-comparison",
+            "independent-native-readback"
+          ],
+          "context_mapping": [
+            "routine",
+            "busy"
+          ],
+          "covered": [
+            "standard",
+            "priority"
+          ],
+          "decision": "reactive-display",
+          "event": "any-received-tray-differs-from-printed-tray",
+          "intervention": [
+            "passive",
+            "placebo-lamp",
+            "audited"
+          ],
+          "monitor": "display-and-dispatch",
+          "observation": [
+            "display_tray"
+          ],
+          "protocol": "reset-and-run-three-ticks",
+          "transition": "start-crosswire-then-independent-scans",
+          "trusted_record": [
+            "printed_tray",
+            "received_tray"
+          ],
+          "uncovered": "novel-enrollment-without-audit-authority"
+        },
+        "enrollment_tapes": {
+          "busy": [
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "novel",
+            "novel",
+            "novel",
+            "novel",
+            "novel",
+            "novel",
+            "novel",
+            "novel",
+            "novel"
+          ],
+          "routine": [
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "novel",
+            "novel",
+            "novel",
+            "novel"
+          ]
+        },
+        "family": "sorter",
+        "shared_storage": false,
+        "source_semantics": {
+          "action": [
+            "tray_0",
+            "tray_1"
+          ],
+          "authority": [
+            "covered-reset",
+            "read-only-ticket-comparison",
+            "independent-native-readback"
+          ],
+          "context_mapping": [
+            "routine",
+            "busy"
+          ],
+          "covered": [
+            "standard",
+            "priority"
+          ],
+          "decision": "reactive-display",
+          "event": "any-received-tray-differs-from-printed-tray",
+          "intervention": [
+            "passive",
+            "placebo-lamp",
+            "audited"
+          ],
+          "monitor": "display-and-dispatch",
+          "observation": [
+            "display_tray"
+          ],
+          "protocol": "reset-and-run-three-ticks",
+          "transition": "start-crosswire-then-independent-scans",
+          "trusted_record": [
+            "printed_tray",
+            "received_tray"
+          ],
+          "uncovered": "novel-enrollment-without-audit-authority"
+        }
+      }
+    },
+    "S05": {
+      "direct": {
+        "busy": {
+          "priority": {
+            "completed": 6573,
+            "events": 3449,
+            "n": 4096,
+            "offered": 12288
+          },
+          "standard": {
+            "completed": 6668,
+            "events": 3450,
+            "n": 4096,
+            "offered": 12288
+          }
+        },
+        "routine": {
+          "priority": {
+            "completed": 6652,
+            "events": 3458,
+            "n": 4096,
+            "offered": 12288
+          },
+          "standard": {
+            "completed": 6633,
+            "events": 3407,
+            "n": 4096,
+            "offered": 12288
+          }
+        }
+      },
+      "paired": {
+        "busy": {
+          "priority": [
+            [
+              4455,
+              3544,
+              0,
+              193
+            ],
+            [
+              4466,
+              3448,
+              0,
+              278
+            ],
+            [
+              4618,
+              3324,
+              0,
+              250
+            ],
+            [
+              4389,
+              3499,
+              0,
+              304
+            ]
+          ],
+          "standard": [
+            [
+              4591,
+              3427,
+              0,
+              174
+            ],
+            [
+              4538,
+              3414,
+              0,
+              240
+            ],
+            [
+              4718,
+              3300,
+              0,
+              174
+            ],
+            [
+              4511,
+              3420,
+              0,
+              261
+            ]
+          ]
+        },
+        "routine": {
+          "priority": [
+            [
+              4542,
+              3516,
+              0,
+              134
+            ],
+            [
+              4502,
+              3466,
+              0,
+              224
+            ],
+            [
+              4719,
+              3320,
+              0,
+              153
+            ],
+            [
+              4439,
+              3484,
+              0,
+              269
+            ]
+          ],
+          "standard": [
+            [
+              4672,
+              3430,
+              0,
+              90
+            ],
+            [
+              4478,
+              3557,
+              0,
+              157
+            ],
+            [
+              4718,
+              3342,
+              0,
+              132
+            ],
+            [
+              4624,
+              3354,
+              0,
+              214
+            ]
+          ]
+        }
+      },
+      "pulse": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "registry": {
+        "bank": "nominal",
+        "deployed_semantics": {
+          "action": [
+            "tray_0",
+            "tray_1"
+          ],
+          "authority": [
+            "covered-reset",
+            "read-only-ticket-comparison",
+            "independent-native-readback"
+          ],
+          "context_mapping": [
+            "routine",
+            "busy"
+          ],
+          "covered": [
+            "standard",
+            "priority"
+          ],
+          "decision": "reactive-display",
+          "event": "any-received-tray-differs-from-printed-tray",
+          "intervention": [
+            "passive",
+            "placebo-lamp",
+            "audited"
+          ],
+          "monitor": "display-and-dispatch",
+          "observation": [
+            "display_tray"
+          ],
+          "protocol": "reset-and-run-three-ticks",
+          "transition": "start-crosswire-then-independent-scans",
+          "trusted_record": [
+            "printed_tray",
+            "received_tray"
+          ],
+          "uncovered": "novel-enrollment-without-audit-authority"
+        },
+        "enrollment_tapes": {
+          "busy": [
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority"
+          ],
+          "routine": [
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority"
+          ]
+        },
+        "family": "sorter",
+        "shared_storage": false,
+        "source_semantics": {
+          "action": [
+            "tray_0",
+            "tray_1"
+          ],
+          "authority": [
+            "covered-reset",
+            "read-only-ticket-comparison",
+            "independent-native-readback"
+          ],
+          "context_mapping": [
+            "routine",
+            "busy"
+          ],
+          "covered": [
+            "standard",
+            "priority"
+          ],
+          "decision": "reactive-display",
+          "event": "any-received-tray-differs-from-printed-tray",
+          "intervention": [
+            "passive",
+            "placebo-lamp",
+            "audited"
+          ],
+          "monitor": "display-and-dispatch",
+          "observation": [
+            "display_tray"
+          ],
+          "protocol": "reset-and-run-three-ticks",
+          "transition": "start-crosswire-then-independent-scans",
+          "trusted_record": [
+            "printed_tray",
+            "received_tray"
+          ],
+          "uncovered": "novel-enrollment-without-audit-authority"
+        }
+      }
+    },
+    "S06": {
+      "direct": {
+        "busy": {
+          "priority": {
+            "completed": 11763,
+            "events": 497,
+            "n": 4096,
+            "offered": 12288
+          },
+          "standard": {
+            "completed": 11827,
+            "events": 447,
+            "n": 4096,
+            "offered": 12288
+          }
+        },
+        "routine": {
+          "priority": {
+            "completed": 11902,
+            "events": 373,
+            "n": 4096,
+            "offered": 12288
+          },
+          "standard": {
+            "completed": 12017,
+            "events": 264,
+            "n": 4096,
+            "offered": 12288
+          }
+        }
+      },
+      "paired": {
+        "busy": {
+          "priority": [
+            [
+              7997,
+              0,
+              0,
+              195
+            ],
+            [
+              7896,
+              0,
+              0,
+              296
+            ],
+            [
+              7962,
+              0,
+              0,
+              230
+            ],
+            [
+              7880,
+              0,
+              0,
+              312
+            ]
+          ],
+          "standard": [
+            [
+              8010,
+              0,
+              0,
+              182
+            ],
+            [
+              7968,
+              0,
+              0,
+              224
+            ],
+            [
+              7973,
+              0,
+              0,
+              219
+            ],
+            [
+              7923,
+              0,
+              0,
+              269
+            ]
+          ]
+        },
+        "routine": {
+          "priority": [
+            [
+              8069,
+              0,
+              0,
+              123
+            ],
+            [
+              8003,
+              0,
+              0,
+              189
+            ],
+            [
+              8026,
+              0,
+              0,
+              166
+            ],
+            [
+              7934,
+              0,
+              0,
+              258
+            ]
+          ],
+          "standard": [
+            [
+              8094,
+              0,
+              0,
+              98
+            ],
+            [
+              8039,
+              0,
+              0,
+              153
+            ],
+            [
+              8044,
+              0,
+              0,
+              148
+            ],
+            [
+              8001,
+              0,
+              0,
+              191
+            ]
+          ]
+        }
+      },
+      "pulse": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "registry": {
+        "bank": "nominal",
+        "deployed_semantics": {
+          "action": [
+            "tray_0",
+            "tray_1"
+          ],
+          "authority": [
+            "covered-reset",
+            "read-only-ticket-comparison",
+            "independent-native-readback"
+          ],
+          "context_mapping": [
+            "routine",
+            "busy"
+          ],
+          "covered": [
+            "standard",
+            "priority"
+          ],
+          "decision": "reactive-display",
+          "event": "any-received-tray-differs-from-printed-tray",
+          "intervention": [
+            "passive",
+            "placebo-lamp",
+            "audited"
+          ],
+          "monitor": "display-and-dispatch",
+          "observation": [
+            "display_tray"
+          ],
+          "protocol": "reset-and-run-three-ticks",
+          "transition": "start-crosswire-then-independent-scans",
+          "trusted_record": [
+            "printed_tray",
+            "received_tray"
+          ],
+          "uncovered": "novel-enrollment-without-audit-authority"
+        },
+        "enrollment_tapes": {
+          "busy": [
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority"
+          ],
+          "routine": [
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "standard",
+            "priority",
+            "priority",
+            "priority",
+            "priority",
+            "priority"
+          ]
+        },
+        "family": "sorter",
+        "shared_storage": true,
+        "source_semantics": {
+          "action": [
+            "tray_0",
+            "tray_1"
+          ],
+          "authority": [
+            "covered-reset",
+            "read-only-ticket-comparison",
+            "independent-native-readback"
+          ],
+          "context_mapping": [
+            "routine",
+            "busy"
+          ],
+          "covered": [
+            "standard",
+            "priority"
+          ],
+          "decision": "reactive-display",
+          "event": "any-received-tray-differs-from-printed-tray",
+          "intervention": [
+            "passive",
+            "placebo-lamp",
+            "audited"
+          ],
+          "monitor": "display-and-dispatch",
+          "observation": [
+            "display_tray"
+          ],
+          "protocol": "reset-and-run-three-ticks",
+          "transition": "start-crosswire-then-independent-scans",
+          "trusted_record": [
+            "printed_tray",
+            "received_tray"
+          ],
+          "uncovered": "novel-enrollment-without-audit-authority"
+        }
+      }
+    }
+  }
+}

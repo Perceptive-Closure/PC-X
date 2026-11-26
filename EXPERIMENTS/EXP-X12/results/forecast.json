@@ -1,0 +1,2558 @@
+{
+  "audit_receipt_sha256": "08fba0709bff95c5a189e87d1ecd0cbe739731603e7446757ac0be102e9e3530",
+  "confidence": {
+    "alpha_by_cohort": {
+      "full": 0.01,
+      "holdout": 0.01,
+      "paired": 0.02,
+      "reference": 0.01
+    },
+    "hoeffding_radius": {
+      "full": 0.03345632935351005,
+      "holdout": 0.0321669594595307,
+      "paired": 0.02453506334564866,
+      "reference": 0.031388182942255226
+    },
+    "multiplicity": {
+      "full": 48,
+      "holdout": 24,
+      "paired": 192,
+      "reference": 16
+    },
+    "n_per_primitive": {
+      "full": 4096,
+      "holdout": 4096,
+      "paired": 8192,
+      "reference": 4096
+    },
+    "simultaneous_alpha_budget": 0.05
+  },
+  "private_commitment": "1ab286193a9a704c7d84b9ad7dcd52542004015a4361753302e14ce01c365f3a",
+  "protocol": "EXP-X12/v1",
+  "source_commit": "7a742d9835fef3d42205d28f6ff967009207b9a9",
+  "threshold": 0.35,
+  "units": {
+    "Q01": {
+      "admission": "valid",
+      "anchored": {
+        "contexts": {
+          "busy": [
+            0.0,
+            0.19587365116859987
+          ],
+          "routine": [
+            0.0,
+            0.18653527226234987
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.0,
+          0.19587365116859987
+        ]
+      },
+      "conditional": {
+        "busy": {
+          "priority": {
+            "eta": 0.12694884713259463,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.03015029772064866
+              ],
+              [
+                0.0,
+                0.03173721178314866
+              ],
+              [
+                0.0,
+                0.03161514147064866
+              ],
+              [
+                0.0,
+                0.03344619615814866
+              ]
+            ],
+            "supported_risk": [
+              0.0,
+              0.19666710819984987
+            ]
+          },
+          "standard": {
+            "eta": 0.12536193307009463,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.03112686022064866
+              ],
+              [
+                0.0,
+                0.03002822740814866
+              ],
+              [
+                0.0,
+                0.03088271959564866
+              ],
+              [
+                0.0,
+                0.03332412584564866
+              ]
+            ],
+            "supported_risk": [
+              0.0,
+              0.19508019413734987
+            ]
+          }
+        },
+        "routine": {
+          "priority": {
+            "eta": 0.12633849557009463,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.03088271959564866
+              ],
+              [
+                0.0,
+                0.02917373522064866
+              ],
+              [
+                0.0,
+                0.03088271959564866
+              ],
+              [
+                0.0,
+                0.03539932115814866
+              ]
+            ],
+            "supported_risk": [
+              0.0,
+              0.19019738163734987
+            ]
+          },
+          "standard": {
+            "eta": 0.12926818307009463,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.03161514147064866
+              ],
+              [
+                0.0,
+                0.03063857897064866
+              ],
+              [
+                0.0,
+                0.03356826647064866
+              ],
+              [
+                0.0,
+                0.03344619615814866
+              ]
+            ],
+            "supported_risk": [
+              0.0,
+              0.18531456913734987
+            ]
+          }
+        }
+      },
+      "cost": {
+        "anchored": 131091,
+        "cheapest_first": 131091,
+        "eval_only": 0,
+        "full": 65537,
+        "nonadaptive": 131091,
+        "restricted_minimum": 131091,
+        "uniform_order_mean": 131091.0,
+        "uniform_order_worst": 131091
+      },
+      "eval_only": {
+        "contexts": {
+          "busy": [
+            0.006941895182744774,
+            0.06971826106725523
+          ],
+          "routine": [
+            0.00027063004568619355,
+            0.057999511067255226
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.006941895182744774,
+          0.06971826106725523
+        ]
+      },
+      "family": "queue",
+      "full": {
+        "contexts": {
+          "busy": [
+            0.008779998771489952,
+            0.07569265747851005
+          ],
+          "routine": [
+            0.0021882018964899524,
+            0.06910086060351005
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.008779998771489952,
+          0.07569265747851005
+        ]
+      },
+      "ignore_fidelity": {
+        "contexts": {
+          "busy": [
+            0.0,
+            0.19587365116859987
+          ],
+          "routine": [
+            0.0,
+            0.18653527226234987
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.0,
+          0.19587365116859987
+        ]
+      },
+      "nonadaptive": {
+        "contexts": {
+          "busy": [
+            0.0,
+            0.19587365116859987
+          ],
+          "routine": [
+            0.0,
+            0.18653527226234987
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.0,
+          0.19587365116859987
+        ]
+      },
+      "queries": [
+        "paired",
+        "pulse",
+        "registry"
+      ],
+      "reference_bank": "nominal",
+      "shared_storage": false,
+      "uncovered": {
+        "busy": 0.0,
+        "routine": 0.0
+      },
+      "weights": {
+        "busy": {
+          "novel": 0.0,
+          "priority": 0.5,
+          "standard": 0.5
+        },
+        "routine": {
+          "novel": 0.0,
+          "priority": 0.25,
+          "standard": 0.75
+        }
+      }
+    },
+    "Q02": {
+      "admission": "valid",
+      "anchored": {
+        "contexts": {
+          "busy": [
+            0.0,
+            0.5423221829474174
+          ],
+          "routine": [
+            0.0,
+            0.3249118115598799
+          ]
+        },
+        "verdict": "abstain",
+        "worst": [
+          0.0,
+          0.5423221829474174
+        ]
+      },
+      "conditional": {
+        "busy": {
+          "priority": {
+            "eta": 0.09814025338259463,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.02453506334564866
+              ],
+              [
+                0.0,
+                0.02453506334564866
+              ],
+              [
+                0.0,
+                0.02453506334564866
+              ],
+              [
+                0.0,
+                0.02453506334564866
+              ]
+            ],
+            "supported_risk": [
+              0.0,
+              0.16785851444984987
+            ]
+          },
+          "standard": {
+            "eta": 0.09814025338259463,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.02453506334564866
+              ],
+              [
+                0.0,
+                0.02453506334564866
+              ],
+              [
+                0.0,
+                0.02453506334564866
+              ],
+              [
+                0.0,
+                0.02453506334564866
+              ]
+            ],
+            "supported_risk": [
+              0.0,
+              0.16785851444984987
+            ]
+          }
+        },
+        "routine": {
+          "priority": {
+            "eta": 0.09814025338259463,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.02453506334564866
+              ],
+              [
+                0.0,
+                0.02453506334564866
+              ],
+              [
+                0.0,
+                0.02453506334564866
+              ],
+              [
+                0.0,
+                0.02453506334564866
+              ]
+            ],
+            "supported_risk": [
+              0.0,
+              0.16199913944984987
+            ]
+          },
+          "standard": {
+            "eta": 0.09814025338259463,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.02453506334564866
+              ],
+              [
+                0.0,
+                0.02453506334564866
+              ],
+              [
+                0.0,
+                0.02453506334564866
+              ],
+              [
+                0.0,
+                0.02453506334564866
+              ]
+            ],
+            "supported_risk": [
+              0.0,
+              0.15418663944984987
+            ]
+          }
+        }
+      },
+      "cost": {
+        "anchored": 131091,
+        "cheapest_first": 131091,
+        "eval_only": 0,
+        "full": 65537,
+        "nonadaptive": 131091,
+        "restricted_minimum": 131091,
+        "uniform_order_mean": 131091.0,
+        "uniform_order_worst": 131091
+      },
+      "eval_only": {
+        "contexts": {
+          "busy": [
+            0.006941895182744774,
+            0.06971826106725523
+          ],
+          "routine": [
+            0.00027063004568619355,
+            0.057999511067255226
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.006941895182744774,
+          0.06971826106725523
+        ]
+      },
+      "family": "queue",
+      "full": {
+        "contexts": {
+          "busy": [
+            0.0017772415118194739,
+            0.48857920380068054
+          ],
+          "routine": [
+            0.0,
+            0.24541740723280805
+          ]
+        },
+        "verdict": "abstain",
+        "worst": [
+          0.0017772415118194739,
+          0.48857920380068054
+        ]
+      },
+      "ignore_fidelity": {
+        "contexts": {
+          "busy": [
+            0.0,
+            0.5423221829474174
+          ],
+          "routine": [
+            0.0,
+            0.3249118115598799
+          ]
+        },
+        "verdict": "abstain",
+        "worst": [
+          0.0,
+          0.5423221829474174
+        ]
+      },
+      "nonadaptive": {
+        "contexts": {
+          "busy": [
+            0.0,
+            0.5423221829474174
+          ],
+          "routine": [
+            0.0,
+            0.3249118115598799
+          ]
+        },
+        "verdict": "abstain",
+        "worst": [
+          0.0,
+          0.5423221829474174
+        ]
+      },
+      "queries": [
+        "paired",
+        "pulse",
+        "registry"
+      ],
+      "reference_bank": "nominal",
+      "shared_storage": false,
+      "uncovered": {
+        "busy": 0.45,
+        "routine": 0.2
+      },
+      "weights": {
+        "busy": {
+          "novel": 0.45,
+          "priority": 0.3,
+          "standard": 0.25
+        },
+        "routine": {
+          "novel": 0.2,
+          "priority": 0.2,
+          "standard": 0.6
+        }
+      }
+    },
+    "Q03": {
+      "admission": "valid",
+      "anchored": {
+        "contexts": {
+          "busy": [
+            0.0,
+            1.0
+          ],
+          "routine": [
+            0.0,
+            1.0
+          ]
+        },
+        "verdict": "abstain",
+        "worst": [
+          0.0,
+          1.0
+        ]
+      },
+      "conditional": {
+        "busy": {
+          "priority": {
+            "eta": 1.0,
+            "initial_and_step_bands": [
+              [
+                0.40393173352935136,
+                0.45300186022064864
+              ],
+              [
+                0.38659774915435136,
+                0.43566787584564864
+              ],
+              [
+                0.37780868665435136,
+                0.42687881334564864
+              ],
+              [
+                0.40246688977935136,
+                0.45153701647064864
+              ]
+            ],
+            "supported_risk": [
+              0.0,
+              1.0
+            ]
+          },
+          "standard": {
+            "eta": 1.0,
+            "initial_and_step_bands": [
+              [
+                0.39477646009185136,
+                0.44384658678314864
+              ],
+              [
+                0.40051376477935136,
+                0.44958389147064864
+              ],
+              [
+                0.38757431165435136,
+                0.43664443834564864
+              ],
+              [
+                0.39843856946685136,
+                0.44750869615814864
+              ]
+            ],
+            "supported_risk": [
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "routine": {
+          "priority": {
+            "eta": 1.0,
+            "initial_and_step_bands": [
+              [
+                0.39135849134185136,
+                0.44042861803314864
+              ],
+              [
+                0.40673935071685136,
+                0.45580947740814864
+              ],
+              [
+                0.38733017102935136,
+                0.43640029772064864
+              ],
+              [
+                0.38330185071685136,
+                0.43237197740814864
+              ]
+            ],
+            "supported_risk": [
+              0.0,
+              1.0
+            ]
+          },
+          "standard": {
+            "eta": 1.0,
+            "initial_and_step_bands": [
+              [
+                0.40026962415435136,
+                0.44933975084564864
+              ],
+              [
+                0.38781845227935136,
+                0.43688857897064864
+              ],
+              [
+                0.37683212415435136,
+                0.42590225084564864
+              ],
+              [
+                0.40002548352935136,
+                0.44909561022064864
+              ]
+            ],
+            "supported_risk": [
+              0.0,
+              1.0
+            ]
+          }
+        }
+      },
+      "cost": {
+        "anchored": 131091,
+        "cheapest_first": 131091,
+        "eval_only": 0,
+        "full": 65537,
+        "nonadaptive": 131091,
+        "restricted_minimum": 131091,
+        "uniform_order_mean": 131091.0,
+        "uniform_order_worst": 131091
+      },
+      "eval_only": {
+        "contexts": {
+          "busy": [
+            0.006941895182744774,
+            0.06971826106725523
+          ],
+          "routine": [
+            0.00027063004568619355,
+            0.057999511067255226
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.006941895182744774,
+          0.06971826106725523
+        ]
+      },
+      "family": "queue",
+      "full": {
+        "contexts": {
+          "busy": [
+            0.47740792845898994,
+            0.5443205871660101
+          ],
+          "routine": [
+            0.45641183470898994,
+            0.5233244934160101
+          ]
+        },
+        "verdict": "unsafe",
+        "worst": [
+          0.47740792845898994,
+          0.5443205871660101
+        ]
+      },
+      "ignore_fidelity": {
+        "contexts": {
+          "busy": [
+            0.0,
+            1.0
+          ],
+          "routine": [
+            0.0,
+            1.0
+          ]
+        },
+        "verdict": "abstain",
+        "worst": [
+          0.0,
+          1.0
+        ]
+      },
+      "nonadaptive": {
+        "contexts": {
+          "busy": [
+            0.0,
+            1.0
+          ],
+          "routine": [
+            0.0,
+            1.0
+          ]
+        },
+        "verdict": "abstain",
+        "worst": [
+          0.0,
+          1.0
+        ]
+      },
+      "queries": [
+        "paired",
+        "pulse",
+        "registry"
+      ],
+      "reference_bank": "nominal",
+      "shared_storage": false,
+      "uncovered": {
+        "busy": 0.0,
+        "routine": 0.0
+      },
+      "weights": {
+        "busy": {
+          "novel": 0.0,
+          "priority": 0.5,
+          "standard": 0.5
+        },
+        "routine": {
+          "novel": 0.0,
+          "priority": 0.25,
+          "standard": 0.75
+        }
+      }
+    },
+    "Q04": {
+      "admission": "fidelity_violation",
+      "anchored": {
+        "contexts": {
+          "busy": [
+            0.0,
+            1.0
+          ],
+          "routine": [
+            0.0,
+            1.0
+          ]
+        },
+        "verdict": "abstain",
+        "worst": [
+          0.0,
+          1.0
+        ]
+      },
+      "conditional": {},
+      "cost": {
+        "anchored": 19,
+        "cheapest_first": 19,
+        "eval_only": 0,
+        "full": 65537,
+        "nonadaptive": 131091,
+        "restricted_minimum": 19,
+        "uniform_order_mean": 87400.33333333333,
+        "uniform_order_worst": 131091
+      },
+      "eval_only": {
+        "contexts": {
+          "busy": [
+            0.006941895182744774,
+            0.06971826106725523
+          ],
+          "routine": [
+            0.00027063004568619355,
+            0.057999511067255226
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.006941895182744774,
+          0.06971826106725523
+        ]
+      },
+      "family": "queue",
+      "full": {
+        "contexts": {
+          "busy": [
+            0.8726716003339899,
+            0.9395842590410101
+          ],
+          "routine": [
+            0.8461213073652399,
+            0.9130339660722601
+          ]
+        },
+        "verdict": "unsafe",
+        "worst": [
+          0.8726716003339899,
+          0.9395842590410101
+        ]
+      },
+      "ignore_fidelity": {
+        "contexts": {
+          "busy": [
+            0.0,
+            0.16785851444984987
+          ],
+          "routine": [
+            0.0,
+            0.15613976444984987
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.0,
+          0.16785851444984987
+        ]
+      },
+      "nonadaptive": {
+        "contexts": {
+          "busy": [
+            0.0,
+            1.0
+          ],
+          "routine": [
+            0.0,
+            1.0
+          ]
+        },
+        "verdict": "abstain",
+        "worst": [
+          0.0,
+          1.0
+        ]
+      },
+      "queries": [
+        "pulse",
+        "registry"
+      ],
+      "reference_bank": "nominal",
+      "shared_storage": false,
+      "uncovered": {
+        "busy": 0.0,
+        "routine": 0.0
+      },
+      "weights": {
+        "busy": {
+          "novel": 0.0,
+          "priority": 0.5,
+          "standard": 0.5
+        },
+        "routine": {
+          "novel": 0.0,
+          "priority": 0.25,
+          "standard": 0.75
+        }
+      }
+    },
+    "Q05": {
+      "admission": "valid",
+      "anchored": {
+        "contexts": {
+          "busy": [
+            0.7307620910189001,
+            1.0
+          ],
+          "routine": [
+            0.7000308898470251,
+            1.0
+          ]
+        },
+        "verdict": "unsafe",
+        "worst": [
+          0.7307620910189001,
+          1.0
+        ]
+      },
+      "conditional": {
+        "busy": {
+          "priority": {
+            "eta": 0.13732482369509463,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.03600967272064866
+              ],
+              [
+                0.0,
+                0.03283584459564866
+              ],
+              [
+                0.0,
+                0.03466689928314866
+              ],
+              [
+                0.0,
+                0.03381240709564866
+              ]
+            ],
+            "supported_risk": [
+              0.7346073058626501,
+              1.0
+            ]
+          },
+          "standard": {
+            "eta": 0.13695861275759463,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.03613174303314866
+              ],
+              [
+                0.0,
+                0.03222549303314866
+              ],
+              [
+                0.0,
+                0.03466689928314866
+              ],
+              [
+                0.0,
+                0.03393447740814866
+              ]
+            ],
+            "supported_risk": [
+              0.7269168761751501,
+              1.0
+            ]
+          }
+        },
+        "routine": {
+          "priority": {
+            "eta": 0.13817931588259463,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.03649795397064866
+              ],
+              [
+                0.0,
+                0.03185928209564866
+              ],
+              [
+                0.0,
+                0.03527725084564866
+              ],
+              [
+                0.0,
+                0.03454482897064866
+              ]
+            ],
+            "supported_risk": [
+              0.7032352355501501,
+              1.0
+            ]
+          },
+          "standard": {
+            "eta": 0.13317443307009463,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.03613174303314866
+              ],
+              [
+                0.0,
+                0.03198135240814866
+              ],
+              [
+                0.0,
+                0.03161514147064866
+              ],
+              [
+                0.0,
+                0.03344619615814866
+              ]
+            ],
+            "supported_risk": [
+              0.6989627746126501,
+              1.0
+            ]
+          }
+        }
+      },
+      "cost": {
+        "anchored": 131091,
+        "cheapest_first": 131091,
+        "eval_only": 0,
+        "full": 65537,
+        "nonadaptive": 131091,
+        "restricted_minimum": 131091,
+        "uniform_order_mean": 131091.0,
+        "uniform_order_worst": 131091
+      },
+      "eval_only": {
+        "contexts": {
+          "busy": [
+            0.006941895182744774,
+            0.06971826106725523
+          ],
+          "routine": [
+            0.00027063004568619355,
+            0.057999511067255226
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.006941895182744774,
+          0.06971826106725523
+        ]
+      },
+      "family": "queue",
+      "full": {
+        "contexts": {
+          "busy": [
+            0.8588776550214899,
+            0.9257903137285101
+          ],
+          "routine": [
+            0.8265290222089899,
+            0.8934416809160101
+          ]
+        },
+        "verdict": "unsafe",
+        "worst": [
+          0.8588776550214899,
+          0.9257903137285101
+        ]
+      },
+      "ignore_fidelity": {
+        "contexts": {
+          "busy": [
+            0.7307620910189001,
+            1.0
+          ],
+          "routine": [
+            0.7000308898470251,
+            1.0
+          ]
+        },
+        "verdict": "unsafe",
+        "worst": [
+          0.7307620910189001,
+          1.0
+        ]
+      },
+      "nonadaptive": {
+        "contexts": {
+          "busy": [
+            0.7307620910189001,
+            1.0
+          ],
+          "routine": [
+            0.7000308898470251,
+            1.0
+          ]
+        },
+        "verdict": "unsafe",
+        "worst": [
+          0.7307620910189001,
+          1.0
+        ]
+      },
+      "queries": [
+        "paired",
+        "pulse",
+        "registry"
+      ],
+      "reference_bank": "stress",
+      "shared_storage": false,
+      "uncovered": {
+        "busy": 0.0,
+        "routine": 0.0
+      },
+      "weights": {
+        "busy": {
+          "novel": 0.0,
+          "priority": 0.5,
+          "standard": 0.5
+        },
+        "routine": {
+          "novel": 0.0,
+          "priority": 0.25,
+          "standard": 0.75
+        }
+      }
+    },
+    "Q06": {
+      "admission": "valid",
+      "anchored": {
+        "contexts": {
+          "busy": [
+            0.006941895182744774,
+            0.06971826106725523
+          ],
+          "routine": [
+            0.00027063004568619355,
+            0.057999511067255226
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.006941895182744774,
+          0.06971826106725523
+        ]
+      },
+      "conditional": {
+        "busy": {
+          "priority": {
+            "eta": 0.0,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ]
+            ],
+            "supported_risk": [
+              0.006941895182744774,
+              0.06971826106725523
+            ]
+          },
+          "standard": {
+            "eta": 0.0,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ]
+            ],
+            "supported_risk": [
+              0.006941895182744774,
+              0.06971826106725523
+            ]
+          }
+        },
+        "routine": {
+          "priority": {
+            "eta": 0.0,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ]
+            ],
+            "supported_risk": [
+              0.0010825201827447742,
+              0.06385888606725523
+            ]
+          },
+          "standard": {
+            "eta": 0.0,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ]
+            ],
+            "supported_risk": [
+              0.0,
+              0.056046386067255226
+            ]
+          }
+        }
+      },
+      "cost": {
+        "anchored": 19,
+        "cheapest_first": 19,
+        "eval_only": 0,
+        "full": 65537,
+        "nonadaptive": 131091,
+        "restricted_minimum": 19,
+        "uniform_order_mean": 87400.33333333333,
+        "uniform_order_worst": 131091
+      },
+      "eval_only": {
+        "contexts": {
+          "busy": [
+            0.006941895182744774,
+            0.06971826106725523
+          ],
+          "routine": [
+            0.00027063004568619355,
+            0.057999511067255226
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.006941895182744774,
+          0.06971826106725523
+        ]
+      },
+      "family": "queue",
+      "full": {
+        "contexts": {
+          "busy": [
+            0.0045075378339899524,
+            0.07142019654101005
+          ],
+          "routine": [
+            0.0,
+            0.05695486450976005
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.0045075378339899524,
+          0.07142019654101005
+        ]
+      },
+      "ignore_fidelity": {
+        "contexts": {
+          "busy": [
+            0.006941895182744774,
+            0.06971826106725523
+          ],
+          "routine": [
+            0.00027063004568619355,
+            0.057999511067255226
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.006941895182744774,
+          0.06971826106725523
+        ]
+      },
+      "nonadaptive": {
+        "contexts": {
+          "busy": [
+            0.006941895182744774,
+            0.06971826106725523
+          ],
+          "routine": [
+            0.00027063004568619355,
+            0.057999511067255226
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.006941895182744774,
+          0.06971826106725523
+        ]
+      },
+      "queries": [
+        "pulse",
+        "registry"
+      ],
+      "reference_bank": "nominal",
+      "shared_storage": true,
+      "uncovered": {
+        "busy": 0.0,
+        "routine": 0.0
+      },
+      "weights": {
+        "busy": {
+          "novel": 0.0,
+          "priority": 0.5,
+          "standard": 0.5
+        },
+        "routine": {
+          "novel": 0.0,
+          "priority": 0.25,
+          "standard": 0.75
+        }
+      }
+    },
+    "S01": {
+      "admission": "fidelity_violation",
+      "anchored": {
+        "contexts": {
+          "busy": [
+            0.0,
+            1.0
+          ],
+          "routine": [
+            0.0,
+            1.0
+          ]
+        },
+        "verdict": "abstain",
+        "worst": [
+          0.0,
+          1.0
+        ]
+      },
+      "conditional": {},
+      "cost": {
+        "anchored": 19,
+        "cheapest_first": 19,
+        "eval_only": 0,
+        "full": 65537,
+        "nonadaptive": 131091,
+        "restricted_minimum": 19,
+        "uniform_order_mean": 87400.33333333333,
+        "uniform_order_worst": 131091
+      },
+      "eval_only": {
+        "contexts": {
+          "busy": [
+            0.09031591862024477,
+            0.15309228450475523
+          ],
+          "routine": [
+            0.052046875651494774,
+            0.11482324153600523
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.09031591862024477,
+          0.15309228450475523
+        ]
+      },
+      "family": "sorter",
+      "full": {
+        "contexts": {
+          "busy": [
+            0.9409089050214899,
+            1.0
+          ],
+          "routine": [
+            0.9372467956464899,
+            1.0
+          ]
+        },
+        "verdict": "unsafe",
+        "worst": [
+          0.9409089050214899,
+          1.0
+        ]
+      },
+      "ignore_fidelity": {
+        "contexts": {
+          "busy": [
+            0.001642031837575067,
+            0.2512325378873499
+          ],
+          "routine": [
+            0.0,
+            0.21296349491859987
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.001642031837575067,
+          0.2512325378873499
+        ]
+      },
+      "nonadaptive": {
+        "contexts": {
+          "busy": [
+            0.0,
+            1.0
+          ],
+          "routine": [
+            0.0,
+            1.0
+          ]
+        },
+        "verdict": "abstain",
+        "worst": [
+          0.0,
+          1.0
+        ]
+      },
+      "queries": [
+        "pulse",
+        "registry"
+      ],
+      "reference_bank": "nominal",
+      "shared_storage": false,
+      "uncovered": {
+        "busy": 0.0,
+        "routine": 0.0
+      },
+      "weights": {
+        "busy": {
+          "novel": 0.0,
+          "priority": 0.5,
+          "standard": 0.5
+        },
+        "routine": {
+          "novel": 0.0,
+          "priority": 0.25,
+          "standard": 0.75
+        }
+      }
+    },
+    "S02": {
+      "admission": "valid",
+      "anchored": {
+        "contexts": {
+          "busy": [
+            0.0,
+            0.2822383972623499
+          ],
+          "routine": [
+            0.0,
+            0.24116173710609987
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.0,
+          0.2822383972623499
+        ]
+      },
+      "conditional": {
+        "busy": {
+          "priority": {
+            "eta": 0.12975646432009463,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.03063857897064866
+              ],
+              [
+                0.0,
+                0.02978408678314866
+              ],
+              [
+                0.0,
+                0.03356826647064866
+              ],
+              [
+                0.0,
+                0.03576553209564866
+              ]
+            ],
+            "supported_risk": [
+              0.0,
+              0.2939571472623499
+            ]
+          },
+          "standard": {
+            "eta": 0.12853576119509463,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.03137100084564866
+              ],
+              [
+                0.0,
+                0.02929580553314866
+              ],
+              [
+                0.0,
+                0.03259170397064866
+              ],
+              [
+                0.0,
+                0.03527725084564866
+              ]
+            ],
+            "supported_risk": [
+              0.0,
+              0.2705196472623499
+            ]
+          }
+        },
+        "routine": {
+          "priority": {
+            "eta": 0.12743712838259463,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.03076064928314866
+              ],
+              [
+                0.0,
+                0.03015029772064866
+              ],
+              [
+                0.0,
+                0.03161514147064866
+              ],
+              [
+                0.0,
+                0.03491103990814866
+              ]
+            ],
+            "supported_risk": [
+              0.0,
+              0.2581905456998499
+            ]
+          },
+          "standard": {
+            "eta": 0.12597228463259463,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.02953994615814866
+              ],
+              [
+                0.0,
+                0.02929580553314866
+              ],
+              [
+                0.0,
+                0.03185928209564866
+              ],
+              [
+                0.0,
+                0.03527725084564866
+              ]
+            ],
+            "supported_risk": [
+              0.0,
+              0.23548546757484987
+            ]
+          }
+        }
+      },
+      "cost": {
+        "anchored": 131091,
+        "cheapest_first": 131091,
+        "eval_only": 0,
+        "full": 65537,
+        "nonadaptive": 131091,
+        "restricted_minimum": 131091,
+        "uniform_order_mean": 131091.0,
+        "uniform_order_worst": 131091
+      },
+      "eval_only": {
+        "contexts": {
+          "busy": [
+            0.09031591862024477,
+            0.15309228450475523
+          ],
+          "routine": [
+            0.052046875651494774,
+            0.11482324153600523
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.09031591862024477,
+          0.15309228450475523
+        ]
+      },
+      "family": "sorter",
+      "full": {
+        "contexts": {
+          "busy": [
+            0.11473703002148994,
+            0.18164968872851006
+          ],
+          "routine": [
+            0.06676339720898995,
+            0.13367605591601006
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.11473703002148994,
+          0.18164968872851006
+        ]
+      },
+      "ignore_fidelity": {
+        "contexts": {
+          "busy": [
+            0.0,
+            0.2822383972623499
+          ],
+          "routine": [
+            0.0,
+            0.24116173710609987
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.0,
+          0.2822383972623499
+        ]
+      },
+      "nonadaptive": {
+        "contexts": {
+          "busy": [
+            0.0,
+            0.2822383972623499
+          ],
+          "routine": [
+            0.0,
+            0.24116173710609987
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.0,
+          0.2822383972623499
+        ]
+      },
+      "queries": [
+        "paired",
+        "pulse",
+        "registry"
+      ],
+      "reference_bank": "nominal",
+      "shared_storage": false,
+      "uncovered": {
+        "busy": 0.0,
+        "routine": 0.0
+      },
+      "weights": {
+        "busy": {
+          "novel": 0.0,
+          "priority": 0.5,
+          "standard": 0.5
+        },
+        "routine": {
+          "novel": 0.0,
+          "priority": 0.25,
+          "standard": 0.75
+        }
+      }
+    },
+    "S03": {
+      "admission": "valid",
+      "anchored": {
+        "contexts": {
+          "busy": [
+            0.8018070128939001,
+            1.0
+          ],
+          "routine": [
+            0.7943912414095251,
+            1.0
+          ]
+        },
+        "verdict": "unsafe",
+        "worst": [
+          0.8018070128939001,
+          1.0
+        ]
+      },
+      "conditional": {
+        "busy": {
+          "priority": {
+            "eta": 0.13781310494509463,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.03735244615814866
+              ],
+              [
+                0.0,
+                0.03283584459564866
+              ],
+              [
+                0.0,
+                0.03442275865814866
+              ],
+              [
+                0.0,
+                0.03320205553314866
+              ]
+            ],
+            "supported_risk": [
+              0.8010135558626501,
+              1.0
+            ]
+          },
+          "standard": {
+            "eta": 0.13744689400759463,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.03698623522064866
+              ],
+              [
+                0.0,
+                0.03173721178314866
+              ],
+              [
+                0.0,
+                0.03356826647064866
+              ],
+              [
+                0.0,
+                0.03515518053314866
+              ]
+            ],
+            "supported_risk": [
+              0.8026004699251501,
+              1.0
+            ]
+          }
+        },
+        "routine": {
+          "priority": {
+            "eta": 0.13634826119509463,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.03613174303314866
+              ],
+              [
+                0.0,
+                0.03344619615814866
+              ],
+              [
+                0.0,
+                0.03381240709564866
+              ],
+              [
+                0.0,
+                0.03295791490814866
+              ]
+            ],
+            "supported_risk": [
+              0.7983280089876501,
+              1.0
+            ]
+          },
+          "standard": {
+            "eta": 0.13866759713259463,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.03735244615814866
+              ],
+              [
+                0.0,
+                0.03393447740814866
+              ],
+              [
+                0.0,
+                0.03344619615814866
+              ],
+              [
+                0.0,
+                0.03393447740814866
+              ]
+            ],
+            "supported_risk": [
+              0.7930789855501501,
+              1.0
+            ]
+          }
+        }
+      },
+      "cost": {
+        "anchored": 131091,
+        "cheapest_first": 131091,
+        "eval_only": 0,
+        "full": 65537,
+        "nonadaptive": 131091,
+        "restricted_minimum": 131091,
+        "uniform_order_mean": 131091.0,
+        "uniform_order_worst": 131091
+      },
+      "eval_only": {
+        "contexts": {
+          "busy": [
+            0.09031591862024477,
+            0.15309228450475523
+          ],
+          "routine": [
+            0.052046875651494774,
+            0.11482324153600523
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.09031591862024477,
+          0.15309228450475523
+        ]
+      },
+      "family": "sorter",
+      "full": {
+        "contexts": {
+          "busy": [
+            0.9416413268964899,
+            1.0
+          ],
+          "routine": [
+            0.9324860534589899,
+            0.9992743759213826
+          ]
+        },
+        "verdict": "unsafe",
+        "worst": [
+          0.9416413268964899,
+          1.0
+        ]
+      },
+      "ignore_fidelity": {
+        "contexts": {
+          "busy": [
+            0.8018070128939001,
+            1.0
+          ],
+          "routine": [
+            0.7943912414095251,
+            1.0
+          ]
+        },
+        "verdict": "unsafe",
+        "worst": [
+          0.8018070128939001,
+          1.0
+        ]
+      },
+      "nonadaptive": {
+        "contexts": {
+          "busy": [
+            0.8018070128939001,
+            1.0
+          ],
+          "routine": [
+            0.7943912414095251,
+            1.0
+          ]
+        },
+        "verdict": "unsafe",
+        "worst": [
+          0.8018070128939001,
+          1.0
+        ]
+      },
+      "queries": [
+        "paired",
+        "pulse",
+        "registry"
+      ],
+      "reference_bank": "stress",
+      "shared_storage": false,
+      "uncovered": {
+        "busy": 0.0,
+        "routine": 0.0
+      },
+      "weights": {
+        "busy": {
+          "novel": 0.0,
+          "priority": 0.5,
+          "standard": 0.5
+        },
+        "routine": {
+          "novel": 0.0,
+          "priority": 0.25,
+          "standard": 0.75
+        }
+      }
+    },
+    "S04": {
+      "admission": "valid",
+      "anchored": {
+        "contexts": {
+          "busy": [
+            0.0,
+            0.6004093411505425
+          ],
+          "routine": [
+            0.0,
+            0.3884860303098799
+          ]
+        },
+        "verdict": "abstain",
+        "worst": [
+          0.0,
+          0.6004093411505425
+        ]
+      },
+      "conditional": {
+        "busy": {
+          "priority": {
+            "eta": 0.11986876900759463,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.02880752428314866
+              ],
+              [
+                0.0,
+                0.02880752428314866
+              ],
+              [
+                0.0,
+                0.03173721178314866
+              ],
+              [
+                0.0,
+                0.03051650865814866
+              ]
+            ],
+            "supported_risk": [
+              0.0,
+              0.2840694519498499
+            ]
+          },
+          "standard": {
+            "eta": 0.11877013619509463,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.03124893053314866
+              ],
+              [
+                0.0,
+                0.02831924303314866
+              ],
+              [
+                0.0,
+                0.03076064928314866
+              ],
+              [
+                0.0,
+                0.02844131334564866
+              ]
+            ],
+            "supported_risk": [
+              0.0,
+              0.2607540222623499
+            ]
+          }
+        },
+        "routine": {
+          "priority": {
+            "eta": 0.12316466744509463,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.03137100084564866
+              ],
+              [
+                0.0,
+                0.02868545397064866
+              ],
+              [
+                0.0,
+                0.03198135240814866
+              ],
+              [
+                0.0,
+                0.03112686022064866
+              ]
+            ],
+            "supported_risk": [
+              0.0,
+              0.2539180847623499
+            ]
+          },
+          "standard": {
+            "eta": 0.11999083932009463,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.03088271959564866
+              ],
+              [
+                0.0,
+                0.02844131334564866
+              ],
+              [
+                0.0,
+                0.03173721178314866
+              ],
+              [
+                0.0,
+                0.02892959459564866
+              ]
+            ],
+            "supported_risk": [
+              0.0,
+              0.22950402226234987
+            ]
+          }
+        }
+      },
+      "cost": {
+        "anchored": 131091,
+        "cheapest_first": 131091,
+        "eval_only": 0,
+        "full": 65537,
+        "nonadaptive": 131091,
+        "restricted_minimum": 131091,
+        "uniform_order_mean": 131091.0,
+        "uniform_order_worst": 131091
+      },
+      "eval_only": {
+        "contexts": {
+          "busy": [
+            0.09031591862024477,
+            0.15309228450475523
+          ],
+          "routine": [
+            0.052046875651494774,
+            0.11482324153600523
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.09031591862024477,
+          0.15309228450475523
+        ]
+      },
+      "family": "sorter",
+      "full": {
+        "contexts": {
+          "busy": [
+            0.054597065730569466,
+            0.5413990280194305
+          ],
+          "routine": [
+            0.052092358392191965,
+            0.30562248535780806
+          ]
+        },
+        "verdict": "abstain",
+        "worst": [
+          0.054597065730569466,
+          0.5413990280194305
+        ]
+      },
+      "ignore_fidelity": {
+        "contexts": {
+          "busy": [
+            0.0,
+            0.6004093411505425
+          ],
+          "routine": [
+            0.0,
+            0.3884860303098799
+          ]
+        },
+        "verdict": "abstain",
+        "worst": [
+          0.0,
+          0.6004093411505425
+        ]
+      },
+      "nonadaptive": {
+        "contexts": {
+          "busy": [
+            0.0,
+            0.6004093411505425
+          ],
+          "routine": [
+            0.0,
+            0.3884860303098799
+          ]
+        },
+        "verdict": "abstain",
+        "worst": [
+          0.0,
+          0.6004093411505425
+        ]
+      },
+      "queries": [
+        "paired",
+        "pulse",
+        "registry"
+      ],
+      "reference_bank": "nominal",
+      "shared_storage": false,
+      "uncovered": {
+        "busy": 0.45,
+        "routine": 0.2
+      },
+      "weights": {
+        "busy": {
+          "novel": 0.45,
+          "priority": 0.3,
+          "standard": 0.25
+        },
+        "routine": {
+          "novel": 0.2,
+          "priority": 0.2,
+          "standard": 0.6
+        }
+      }
+    },
+    "S05": {
+      "admission": "valid",
+      "anchored": {
+        "contexts": {
+          "busy": [
+            0.0,
+            1.0
+          ],
+          "routine": [
+            0.0,
+            1.0
+          ]
+        },
+        "verdict": "abstain",
+        "worst": [
+          0.0,
+          1.0
+        ]
+      },
+      "conditional": {
+        "busy": {
+          "priority": {
+            "eta": 1.0,
+            "initial_and_step_bands": [
+              [
+                0.40808212415435136,
+                0.45715225084564864
+              ],
+              [
+                0.39636337415435136,
+                0.44543350084564864
+              ],
+              [
+                0.38122665540435136,
+                0.43029678209564864
+              ],
+              [
+                0.40258896009185136,
+                0.45165908678314864
+              ]
+            ],
+            "supported_risk": [
+              0.0,
+              1.0
+            ]
+          },
+          "standard": {
+            "eta": 1.0,
+            "initial_and_step_bands": [
+              [
+                0.39379989759185136,
+                0.44287002428314864
+              ],
+              [
+                0.39221298352935136,
+                0.44128311022064864
+              ],
+              [
+                0.37829696790435136,
+                0.42736709459564864
+              ],
+              [
+                0.39294540540435136,
+                0.44201553209564864
+              ]
+            ],
+            "supported_risk": [
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "routine": {
+          "priority": {
+            "eta": 1.0,
+            "initial_and_step_bands": [
+              [
+                0.40466415540435136,
+                0.45373428209564864
+              ],
+              [
+                0.39856063977935136,
+                0.44763076647064864
+              ],
+              [
+                0.38073837415435136,
+                0.42980850084564864
+              ],
+              [
+                0.40075790540435136,
+                0.44982803209564864
+              ]
+            ],
+            "supported_risk": [
+              0.0,
+              1.0
+            ]
+          },
+          "standard": {
+            "eta": 1.0,
+            "initial_and_step_bands": [
+              [
+                0.39416610852935136,
+                0.44323623522064864
+              ],
+              [
+                0.40966903821685136,
+                0.45873916490814864
+              ],
+              [
+                0.38342392102935136,
+                0.43249404772064864
+              ],
+              [
+                0.38488876477935136,
+                0.43395889147064864
+              ]
+            ],
+            "supported_risk": [
+              0.0,
+              1.0
+            ]
+          }
+        }
+      },
+      "cost": {
+        "anchored": 131091,
+        "cheapest_first": 131091,
+        "eval_only": 0,
+        "full": 65537,
+        "nonadaptive": 131091,
+        "restricted_minimum": 131091,
+        "uniform_order_mean": 131091.0,
+        "uniform_order_worst": 131091
+      },
+      "eval_only": {
+        "contexts": {
+          "busy": [
+            0.09031591862024477,
+            0.15309228450475523
+          ],
+          "routine": [
+            0.052046875651494774,
+            0.11482324153600523
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.09031591862024477,
+          0.15309228450475523
+        ]
+      },
+      "family": "sorter",
+      "full": {
+        "contexts": {
+          "busy": [
+            0.8087067565839899,
+            0.8756194152910101
+          ],
+          "routine": [
+            0.8014435729902399,
+            0.8683562316972601
+          ]
+        },
+        "verdict": "unsafe",
+        "worst": [
+          0.8087067565839899,
+          0.8756194152910101
+        ]
+      },
+      "ignore_fidelity": {
+        "contexts": {
+          "busy": [
+            0.0,
+            1.0
+          ],
+          "routine": [
+            0.0,
+            1.0
+          ]
+        },
+        "verdict": "abstain",
+        "worst": [
+          0.0,
+          1.0
+        ]
+      },
+      "nonadaptive": {
+        "contexts": {
+          "busy": [
+            0.0,
+            1.0
+          ],
+          "routine": [
+            0.0,
+            1.0
+          ]
+        },
+        "verdict": "abstain",
+        "worst": [
+          0.0,
+          1.0
+        ]
+      },
+      "queries": [
+        "paired",
+        "pulse",
+        "registry"
+      ],
+      "reference_bank": "nominal",
+      "shared_storage": false,
+      "uncovered": {
+        "busy": 0.0,
+        "routine": 0.0
+      },
+      "weights": {
+        "busy": {
+          "novel": 0.0,
+          "priority": 0.5,
+          "standard": 0.5
+        },
+        "routine": {
+          "novel": 0.0,
+          "priority": 0.25,
+          "standard": 0.75
+        }
+      }
+    },
+    "S06": {
+      "admission": "valid",
+      "anchored": {
+        "contexts": {
+          "busy": [
+            0.09031591862024477,
+            0.15309228450475523
+          ],
+          "routine": [
+            0.052046875651494774,
+            0.11482324153600523
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.09031591862024477,
+          0.15309228450475523
+        ]
+      },
+      "conditional": {
+        "busy": {
+          "priority": {
+            "eta": 0.0,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ]
+            ],
+            "supported_risk": [
+              0.10142431705774477,
+              0.16420068294225523
+            ]
+          },
+          "standard": {
+            "eta": 0.0,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ]
+            ],
+            "supported_risk": [
+              0.07920752018274477,
+              0.14198388606725523
+            ]
+          }
+        },
+        "routine": {
+          "priority": {
+            "eta": 0.0,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ]
+            ],
+            "supported_risk": [
+              0.06797705143274477,
+              0.13075341731725523
+            ]
+          },
+          "standard": {
+            "eta": 0.0,
+            "initial_and_step_bands": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ]
+            ],
+            "supported_risk": [
+              0.046736817057744774,
+              0.10951318294225523
+            ]
+          }
+        }
+      },
+      "cost": {
+        "anchored": 19,
+        "cheapest_first": 19,
+        "eval_only": 0,
+        "full": 65537,
+        "nonadaptive": 131091,
+        "restricted_minimum": 19,
+        "uniform_order_mean": 87400.33333333333,
+        "uniform_order_worst": 131091
+      },
+      "eval_only": {
+        "contexts": {
+          "busy": [
+            0.09031591862024477,
+            0.15309228450475523
+          ],
+          "routine": [
+            0.052046875651494774,
+            0.11482324153600523
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.09031591862024477,
+          0.15309228450475523
+        ]
+      },
+      "family": "sorter",
+      "full": {
+        "contexts": {
+          "busy": [
+            0.08177804564648995,
+            0.14869070435351006
+          ],
+          "routine": [
+            0.03764962767773995,
+            0.10456228638476005
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.08177804564648995,
+          0.14869070435351006
+        ]
+      },
+      "ignore_fidelity": {
+        "contexts": {
+          "busy": [
+            0.09031591862024477,
+            0.15309228450475523
+          ],
+          "routine": [
+            0.052046875651494774,
+            0.11482324153600523
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.09031591862024477,
+          0.15309228450475523
+        ]
+      },
+      "nonadaptive": {
+        "contexts": {
+          "busy": [
+            0.09031591862024477,
+            0.15309228450475523
+          ],
+          "routine": [
+            0.052046875651494774,
+            0.11482324153600523
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.09031591862024477,
+          0.15309228450475523
+        ]
+      },
+      "queries": [
+        "pulse",
+        "registry"
+      ],
+      "reference_bank": "nominal",
+      "shared_storage": true,
+      "uncovered": {
+        "busy": 0.0,
+        "routine": 0.0
+      },
+      "weights": {
+        "busy": {
+          "novel": 0.0,
+          "priority": 0.5,
+          "standard": 0.5
+        },
+        "routine": {
+          "novel": 0.0,
+          "priority": 0.25,
+          "standard": 0.75
+        }
+      }
+    }
+  }
+}
