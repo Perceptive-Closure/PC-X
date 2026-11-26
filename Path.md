@@ -8,9 +8,9 @@
 
 | Slot | Experiment | Agent | Lifecycle |
 | --- | --- | --- | --- |
-| 1 | X01 | exp_x01 | REMOTE_VERIFIED, cleanup pending |
-| 2 | X03 | exp_x03 | REMOTE_VERIFIED, cleanup blocked |
-| 3 | X08 | exp_x08 | REMOTE_VERIFIED, cleanup blocked |
+| 1 | X02 | exp_x02 | RESERVED |
+| 2 | X04 | exp_x04 | RESERVED |
+| 3 | X10 | exp_x10 | RESERVED |
 
 Each slot remains occupied through parent clean-checkout verification, safe cleanup, and independent verification of remote evidence and cleanup. Reserved slots count toward the concurrency ceiling.
 
@@ -18,16 +18,16 @@ Each slot remains occupied through parent clean-checkout verification, safe clea
 
 | Experiment | State | Scientific verdict | Branch | Commit and verification |
 | --- | --- | --- | --- | --- |
-| X01 | REMOTE_VERIFIED | Finite agreement supported | codex/exp-x01 | [a52d45f1b8c0036b1a69b1fc024f95e48d4ce012](https://github.com/Perceptive-Closure/PC-X/tree/a52d45f1b8c0036b1a69b1fc024f95e48d4ce012/EXPERIMENTS/EXP-X01) |
-| X02 | WORKPLAN_CREATED | Pending | codex/exp-x02 | Awaiting X01 |
-| X03 | REMOTE_VERIFIED | Finite minimum-cost correctness supported | codex/exp-x03 | [d85fe1cdb76cbc6d03e58e34f320c4c58a3f243c](https://github.com/Perceptive-Closure/PC-X/tree/d85fe1cdb76cbc6d03e58e34f320c4c58a3f243c/EXPERIMENTS/EXP-X03) |
-| X04 | WORKPLAN_CREATED | Pending | codex/exp-x04 | Awaiting X03 |
+| X01 | COMPLETE | Finite agreement supported | codex/exp-x01 | [a52d45f1b8c0036b1a69b1fc024f95e48d4ce012](https://github.com/Perceptive-Closure/PC-X/tree/a52d45f1b8c0036b1a69b1fc024f95e48d4ce012/EXPERIMENTS/EXP-X01) |
+| X02 | WORKPLAN_CREATED | Pending | codex/exp-x02 | X01 accepted and cleaned |
+| X03 | COMPLETE | Finite minimum-cost correctness supported | codex/exp-x03 | [d85fe1cdb76cbc6d03e58e34f320c4c58a3f243c](https://github.com/Perceptive-Closure/PC-X/tree/d85fe1cdb76cbc6d03e58e34f320c4c58a3f243c/EXPERIMENTS/EXP-X03) |
+| X04 | WORKPLAN_CREATED | Pending | codex/exp-x04 | X03 accepted and cleaned |
 | X05 | WORKPLAN_CREATED | Pending | codex/exp-x05 | Awaiting X01–X03 |
 | X06 | WORKPLAN_CREATED | Pending | codex/exp-x06 | Awaiting X01 and X03 |
 | X07 | WORKPLAN_CREATED | Pending | codex/exp-x07 | Awaiting X03 |
-| X08 | REMOTE_VERIFIED | Bounded transcript equivalence and forecast supported | codex/exp-x08 | [a8c6650a7ff9901ca9ac5ed4036a37f6cb7c9200](https://github.com/Perceptive-Closure/PC-X/tree/a8c6650a7ff9901ca9ac5ed4036a37f6cb7c9200/EXPERIMENTS/EXP-X08) |
+| X08 | COMPLETE | Bounded transcript equivalence and forecast supported | codex/exp-x08 | [a8c6650a7ff9901ca9ac5ed4036a37f6cb7c9200](https://github.com/Perceptive-Closure/PC-X/tree/a8c6650a7ff9901ca9ac5ed4036a37f6cb7c9200/EXPERIMENTS/EXP-X08) |
 | X09 | WORKPLAN_CREATED | Pending | codex/exp-x09 | Awaiting X04 and X08 |
-| X10 | WORKPLAN_CREATED | Pending | codex/exp-x10 | Awaiting X08 |
+| X10 | WORKPLAN_CREATED | Pending | codex/exp-x10 | X08 accepted and cleaned |
 | X11 | WORKPLAN_CREATED | Pending | codex/exp-x11 | Awaiting X08 |
 | X12 | WORKPLAN_CREATED | Pending | codex/exp-x12 | Awaiting X09–X11 |
 | X13 | WORKPLAN_CREATED | Pending | codex/exp-x13 | Awaiting X10 and X11 |
@@ -47,7 +47,7 @@ Each slot remains occupied through parent clean-checkout verification, safe clea
 - X03 parent reproduced candidate `540c680b095ad59ed42fcb2edc70fcba94241d57` from a clean GitHub checkout. All 12 tests and two evidence hashes matched. An independent CSV aggregation checked 59,971 subset checks over 3,828 scopes, 3,102 accepted certificates, 725 inaccessibility scopes, one inconsistent case, and exact cost no greater than every comparator for all 645 finite uniform scopes. Mean optimum was 2.131783 cost units versus greedy's 2.207752. The terminal revision adds only the verification ledger.
 - X08 parent reproduced candidate `6f17f4cd603199a76beda5c8db105806c2727844` from a clean GitHub checkout. All seven tests passed and all 8,192 episodes reproduced with SHA-256 `72a5ce71dd8f654ffbf9dacc5938352cef7fe45783fa16aa5a87bbc9cddc925f`. A separate computation checked native retry flags from facility tickets, trial counts, both threshold conclusions and simultaneous intervals. The parent first misread the Boolean as delivery. Rechecking the schema and reconstructing from tickets corrected the verification. Worst observed deployment risk was 651/1,024 for parcel-A and 128/1,024 for parcel-B. The two forecasts resolved correctly relative to the 40% threshold. The exact minimum audit cost was 2 versus cheapest-first 6 and exhaustive cost 8. The terminal revision adds only the verification ledger.
 
-## Cleanup blocker and restart
+## First-wave cleanup and restart
 
 Automatic command approval rejected recursive removal and individually verified literal-path file removal for X03. Individually verified literal-path removal was also rejected for X08. The sole error detail was `blocked by policy` at process creation. Rejections occurred before execution and no files were deleted. X01 cleanup was held after the same methods were rejected for the other experiment roots. These directories were created for this program, contain the disposable clones, reproduction checkouts and scoped outputs, and have verified durable GitHub packages.
 
@@ -57,8 +57,8 @@ Automatic command approval rejected recursive removal and individually verified 
 | `C:\Users\Saif malik\AppData\Local\Temp\PC-X-20261126\EXP-X03` | 2,633,143 logical bytes in repro, scratch, self-repro, source and verify-temp |
 | `C:\Users\Saif malik\AppData\Local\Temp\PC-X-20261126\EXP-X08` | 4,636,778 logical bytes in cache, custodian, parent-replay, repro, source, tmp and verify-temp |
 
-Manual Windows File Explorer cleanup was requested for only the X01, X03 and X08 roots. When an owned experiment root is removed, check for absence and reverify its immutable branch tip before recording reclaimed bytes and releasing the slot. X04 is ready after X03 is released, X02 after X01, and X10 or X11 after X08. The master checkout, source PDFs, and other directories are outside experiment cleanup scope.
+On 2026-11-26 at 19:17 Asia/Karachi, Infernus explicitly directed the parent to perform the cleanup. The parent used File Explorer's permanent-delete workflow after verifying the exact targets, absence of reparse points, and all three remote commits. Independent filesystem readback confirmed the three roots and every nested experiment-owned file and cache were absent. All three remote heads were unchanged on readback. The removed files accounted for 14,155,777 logical bytes. Slots 1–3 were released. X02, X04 and X10 were selected for the next wave.
 
 ## Findings and outstanding obligations
 
-Three scientific packages accepted and independently reproduced, with bounded claims. Operationally complete 0/15 pending verified cleanup. Three occupied slots and 12 experiments queued. Neither finite exact agreement nor prospective outcomes establish the open general transport and flagship results.
+Operationally complete 3/15. Three next-wave slots reserved and nine experiments awaiting prerequisites. Accepted claims remain bounded to the tested finite and sandbox systems. The general transport and flagship results remain open.
