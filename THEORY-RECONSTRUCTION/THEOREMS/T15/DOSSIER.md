@@ -25,3 +25,5 @@ Control-tree law factorization is standard. Distinct source/governance and deplo
 ## Status at handoff
 
 Constructor proof candidate under the declared conditions. Independent derivation, comparison to this proof, hostile assessment and integration decisions are handled by the distinct verification and parent roles. Broader formulations remain restricted or open as described above. [Verification record](VERIFICATION.md)
+
+[Countable and measurable transcript formulations](../../VERIFICATION/RECORDED-COINS.md)

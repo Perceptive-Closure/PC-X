@@ -27,3 +27,5 @@ The ratio confidence mechanism is standard. Coupling it to a target-relative inv
 Constructor proof candidate under the declared conditions. Independent derivation, comparison to this proof, hostile assessment and integration decisions are handled by the distinct verification and parent roles. Broader formulations remain restricted or open as described above. [Verification record](VERIFICATION.md)
 
 [Explicit statement scope and preserved rejected readings](../../VERIFICATION/SCOPE-CLARIFICATIONS.md)
+
+[Countable and measurable transcript formulations](../../VERIFICATION/RECORDED-COINS.md)
