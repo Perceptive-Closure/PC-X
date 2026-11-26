@@ -1,0 +1,3 @@
+# Governing baseline
+
+The accepted mathematical reconstruction is [`39a0d0e5b3283835094d17603b84e706b968f443`](https://github.com/Perceptive-Closure/PC-X/tree/39a0d0e5b3283835094d17603b84e706b968f443/THEORY-RECONSTRUCTION). The experiment default is `e54a261f200be1b1c94e28b5c8519b466147312c`. Consult the immutable baseline's [exact experiment and manuscript pins](https://github.com/Perceptive-Closure/PC-X/blob/39a0d0e5b3283835094d17603b84e706b968f443/THEORY-RECONSTRUCTION/SOURCE-PINS.json) and its full [archive readback receipts](https://github.com/Perceptive-Closure/PC-X/blob/39a0d0e5b3283835094d17603b84e706b968f443/THEORY-RECONSTRUCTION/SOURCE-RETRIEVAL.json). Each new mathematical statement cites the precise accepted scope it extends.
