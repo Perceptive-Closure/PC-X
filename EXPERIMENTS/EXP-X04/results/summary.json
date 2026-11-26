@@ -1,0 +1,6539 @@
+{
+  "cases": [
+    {
+      "case": "empty_domain",
+      "family": "control",
+      "full_identity_certified_by_exhaustion": 0,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 0,
+      "local_costs": {},
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": null,
+        "full_acquisition": null,
+        "greedy_partition": null
+      },
+      "predecessor_scopes": 0,
+      "questions": 1,
+      "random": null,
+      "rows": 0,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "INCONSISTENT"
+    },
+    {
+      "case": "constant_target",
+      "family": "control",
+      "full_identity_certified_by_exhaustion": 2,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 3,
+      "local_costs": {
+        "c000": 0,
+        "c001": 0
+      },
+      "max_local_cost": 0,
+      "minimax_beliefs": 1,
+      "minimax_cost": 0,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 2,
+          "completions": 2,
+          "expected_cost": "0",
+          "worst_cost": 0,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 2,
+          "completions": 2,
+          "expected_cost": "0",
+          "worst_cost": 0,
+          "worst_cost_gap": 0
+        },
+        "full_acquisition": {
+          "certified": 2,
+          "completions": 2,
+          "expected_cost": "3",
+          "worst_cost": 3,
+          "worst_cost_gap": 3
+        },
+        "greedy_partition": {
+          "certified": 2,
+          "completions": 2,
+          "expected_cost": "0",
+          "worst_cost": 0,
+          "worst_cost_gap": 0
+        },
+        "uniform_static": {
+          "certified": 2,
+          "completions": 2,
+          "expected_cost": "0",
+          "worst_cost": 0,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 1,
+      "random": {
+        "certified": 2,
+        "completions": 2,
+        "maximum_worst_cost": 0,
+        "mean_expected_cost": "0",
+        "mean_worst_cost": "0",
+        "minimum_worst_cost": 0,
+        "optimal_runs": 16,
+        "trials": 16
+      },
+      "rows": 2,
+      "static_cost": 0,
+      "static_minus_minimax": 0,
+      "static_queries": [],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "no_queries",
+      "family": "control",
+      "full_identity_certified_by_exhaustion": 0,
+      "inaccessibility_witness": [
+        "c000",
+        "c001"
+      ],
+      "independent_budget_states": 1,
+      "local_costs": {
+        "c000": null,
+        "c001": null
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 0,
+          "completions": 2,
+          "expected_cost": "0",
+          "worst_cost": 0
+        },
+        "full_acquisition": {
+          "certified": 0,
+          "completions": 2,
+          "expected_cost": "0",
+          "worst_cost": 0
+        },
+        "greedy_partition": {
+          "certified": 0,
+          "completions": 2,
+          "expected_cost": "0",
+          "worst_cost": 0
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 0,
+      "random": {
+        "certified": 0,
+        "completions": 2,
+        "maximum_worst_cost": 0,
+        "mean_expected_cost": "0",
+        "mean_worst_cost": "0",
+        "minimum_worst_cost": 0,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 2,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "full_answer_alias",
+      "family": "control",
+      "full_identity_certified_by_exhaustion": 1,
+      "inaccessibility_witness": [
+        "c000",
+        "c001"
+      ],
+      "independent_budget_states": 3,
+      "local_costs": {
+        "c000": null,
+        "c001": null,
+        "c002": 1
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 1,
+          "completions": 3,
+          "expected_cost": "1",
+          "worst_cost": 1
+        },
+        "full_acquisition": {
+          "certified": 1,
+          "completions": 3,
+          "expected_cost": "3",
+          "worst_cost": 3
+        },
+        "greedy_partition": {
+          "certified": 1,
+          "completions": 3,
+          "expected_cost": "1",
+          "worst_cost": 1
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 2,
+      "random": {
+        "certified": 1,
+        "completions": 3,
+        "maximum_worst_cost": 2,
+        "mean_expected_cost": "27/16",
+        "mean_worst_cost": "27/16",
+        "minimum_worst_cost": 1,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 3,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "majority_of_three",
+      "family": "control",
+      "full_identity_certified_by_exhaustion": 8,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 28,
+      "local_costs": {
+        "c000": 2,
+        "c001": 2,
+        "c002": 2,
+        "c003": 2,
+        "c004": 2,
+        "c005": 2,
+        "c006": 2,
+        "c007": 2
+      },
+      "max_local_cost": 2,
+      "minimax_beliefs": 25,
+      "minimax_cost": 3,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "5/2",
+          "worst_cost": 3,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "5/2",
+          "worst_cost": 3,
+          "worst_cost_gap": 0
+        },
+        "full_acquisition": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "3",
+          "worst_cost": 3,
+          "worst_cost_gap": 0
+        },
+        "greedy_partition": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "5/2",
+          "worst_cost": 3,
+          "worst_cost_gap": 0
+        },
+        "uniform_static": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "3",
+          "worst_cost": 3,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 3,
+      "random": {
+        "certified": 8,
+        "completions": 8,
+        "maximum_worst_cost": 3,
+        "mean_expected_cost": "5/2",
+        "mean_worst_cost": "3",
+        "minimum_worst_cost": 3,
+        "optimal_runs": 16,
+        "trials": 16
+      },
+      "rows": 8,
+      "static_cost": 3,
+      "static_minus_minimax": 0,
+      "static_queries": [
+        "first",
+        "second",
+        "third"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "categorical_weighted",
+      "family": "control",
+      "full_identity_certified_by_exhaustion": 12,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 44,
+      "local_costs": {
+        "c000": 3,
+        "c001": 3,
+        "c002": 3,
+        "c003": 3,
+        "c004": 3,
+        "c005": 3,
+        "c006": 3,
+        "c007": 3,
+        "c008": 4,
+        "c009": 5,
+        "c010": 5,
+        "c011": 4
+      },
+      "max_local_cost": 5,
+      "minimax_beliefs": 36,
+      "minimax_cost": 5,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 12,
+          "completions": 12,
+          "expected_cost": "11/3",
+          "worst_cost": 5,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 12,
+          "completions": 12,
+          "expected_cost": "4",
+          "worst_cost": 6,
+          "worst_cost_gap": 1
+        },
+        "full_acquisition": {
+          "certified": 12,
+          "completions": 12,
+          "expected_cost": "6",
+          "worst_cost": 6,
+          "worst_cost_gap": 1
+        },
+        "greedy_partition": {
+          "certified": 12,
+          "completions": 12,
+          "expected_cost": "4",
+          "worst_cost": 6,
+          "worst_cost_gap": 1
+        },
+        "uniform_static": {
+          "certified": 12,
+          "completions": 12,
+          "expected_cost": "6",
+          "worst_cost": 6,
+          "worst_cost_gap": 1
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 3,
+      "random": {
+        "certified": 12,
+        "completions": 12,
+        "maximum_worst_cost": 6,
+        "mean_expected_cost": "115/24",
+        "mean_worst_cost": "6",
+        "minimum_worst_cost": 6,
+        "optimal_runs": 0,
+        "trials": 16
+      },
+      "rows": 12,
+      "static_cost": 6,
+      "static_minus_minimax": 1,
+      "static_queries": [
+        "route",
+        "left",
+        "right"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "all_queries_required",
+      "family": "control",
+      "full_identity_certified_by_exhaustion": 8,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 27,
+      "local_costs": {
+        "c000": 6,
+        "c001": 6,
+        "c002": 6,
+        "c003": 6,
+        "c004": 6,
+        "c005": 6,
+        "c006": 6,
+        "c007": 6
+      },
+      "max_local_cost": 6,
+      "minimax_beliefs": 27,
+      "minimax_cost": 6,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "6",
+          "worst_cost": 6,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "6",
+          "worst_cost": 6,
+          "worst_cost_gap": 0
+        },
+        "full_acquisition": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "6",
+          "worst_cost": 6,
+          "worst_cost_gap": 0
+        },
+        "greedy_partition": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "6",
+          "worst_cost": 6,
+          "worst_cost_gap": 0
+        },
+        "uniform_static": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "6",
+          "worst_cost": 6,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 3,
+      "random": {
+        "certified": 8,
+        "completions": 8,
+        "maximum_worst_cost": 6,
+        "mean_expected_cost": "6",
+        "mean_worst_cost": "6",
+        "minimum_worst_cost": 6,
+        "optimal_runs": 16,
+        "trials": 16
+      },
+      "rows": 8,
+      "static_cost": 6,
+      "static_minus_minimax": 0,
+      "static_queries": [
+        "first",
+        "second",
+        "third"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "cost_scale_three",
+      "family": "control",
+      "full_identity_certified_by_exhaustion": 8,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 41,
+      "local_costs": {
+        "c000": 6,
+        "c001": 6,
+        "c002": 6,
+        "c003": 6,
+        "c004": 6,
+        "c005": 6,
+        "c006": 6,
+        "c007": 6
+      },
+      "max_local_cost": 6,
+      "minimax_beliefs": 25,
+      "minimax_cost": 9,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "15/2",
+          "worst_cost": 9,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "15/2",
+          "worst_cost": 9,
+          "worst_cost_gap": 0
+        },
+        "full_acquisition": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "9",
+          "worst_cost": 9,
+          "worst_cost_gap": 0
+        },
+        "greedy_partition": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "15/2",
+          "worst_cost": 9,
+          "worst_cost_gap": 0
+        },
+        "uniform_static": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "9",
+          "worst_cost": 9,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 3,
+      "random": {
+        "certified": 8,
+        "completions": 8,
+        "maximum_worst_cost": 9,
+        "mean_expected_cost": "15/2",
+        "mean_worst_cost": "9",
+        "minimum_worst_cost": 9,
+        "optimal_runs": 16,
+        "trials": 16
+      },
+      "rows": 8,
+      "static_cost": 9,
+      "static_minus_minimax": 0,
+      "static_queries": [
+        "first",
+        "second",
+        "third"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "address_1",
+      "family": "address",
+      "full_identity_certified_by_exhaustion": 8,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 23,
+      "local_costs": {
+        "c000": 2,
+        "c001": 2,
+        "c002": 2,
+        "c003": 2,
+        "c004": 2,
+        "c005": 2,
+        "c006": 2,
+        "c007": 2
+      },
+      "max_local_cost": 2,
+      "minimax_beliefs": 27,
+      "minimax_cost": 2,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "2",
+          "worst_cost": 2,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "5/2",
+          "worst_cost": 3,
+          "worst_cost_gap": 1
+        },
+        "full_acquisition": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "3",
+          "worst_cost": 3,
+          "worst_cost_gap": 1
+        },
+        "greedy_partition": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "5/2",
+          "worst_cost": 3,
+          "worst_cost_gap": 1
+        },
+        "uniform_static": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "3",
+          "worst_cost": 3,
+          "worst_cost_gap": 1
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 3,
+      "random": {
+        "certified": 8,
+        "completions": 8,
+        "maximum_worst_cost": 3,
+        "mean_expected_cost": "5/2",
+        "mean_worst_cost": "3",
+        "minimum_worst_cost": 3,
+        "optimal_runs": 0,
+        "trials": 16
+      },
+      "rows": 8,
+      "static_cost": 3,
+      "static_minus_minimax": 1,
+      "static_queries": [
+        "address_0",
+        "data_0",
+        "data_1"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "address_2",
+      "family": "address",
+      "full_identity_certified_by_exhaustion": 64,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 109,
+      "local_costs": {
+        "c000": 3,
+        "c001": 3,
+        "c002": 3,
+        "c003": 3,
+        "c004": 3,
+        "c005": 3,
+        "c006": 3,
+        "c007": 3,
+        "c008": 3,
+        "c009": 3,
+        "c010": 3,
+        "c011": 3,
+        "c012": 3,
+        "c013": 3,
+        "c014": 3,
+        "c015": 3,
+        "c016": 3,
+        "c017": 3,
+        "c018": 3,
+        "c019": 3,
+        "c020": 3,
+        "c021": 3,
+        "c022": 3,
+        "c023": 3,
+        "c024": 3,
+        "c025": 3,
+        "c026": 3,
+        "c027": 3,
+        "c028": 3,
+        "c029": 3,
+        "c030": 3,
+        "c031": 3,
+        "c032": 3,
+        "c033": 3,
+        "c034": 3,
+        "c035": 3,
+        "c036": 3,
+        "c037": 3,
+        "c038": 3,
+        "c039": 3,
+        "c040": 3,
+        "c041": 3,
+        "c042": 3,
+        "c043": 3,
+        "c044": 3,
+        "c045": 3,
+        "c046": 3,
+        "c047": 3,
+        "c048": 3,
+        "c049": 3,
+        "c050": 3,
+        "c051": 3,
+        "c052": 3,
+        "c053": 3,
+        "c054": 3,
+        "c055": 3,
+        "c056": 3,
+        "c057": 3,
+        "c058": 3,
+        "c059": 3,
+        "c060": 3,
+        "c061": 3,
+        "c062": 3,
+        "c063": 3
+      },
+      "max_local_cost": 3,
+      "minimax_beliefs": 729,
+      "minimax_cost": 3,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 64,
+          "completions": 64,
+          "expected_cost": "3",
+          "worst_cost": 3,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 64,
+          "completions": 64,
+          "expected_cost": "4",
+          "worst_cost": 5,
+          "worst_cost_gap": 2
+        },
+        "full_acquisition": {
+          "certified": 64,
+          "completions": 64,
+          "expected_cost": "6",
+          "worst_cost": 6,
+          "worst_cost_gap": 3
+        },
+        "greedy_partition": {
+          "certified": 64,
+          "completions": 64,
+          "expected_cost": "9/2",
+          "worst_cost": 6,
+          "worst_cost_gap": 3
+        },
+        "uniform_static": {
+          "certified": 64,
+          "completions": 64,
+          "expected_cost": "6",
+          "worst_cost": 6,
+          "worst_cost_gap": 3
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 6,
+      "random": {
+        "certified": 64,
+        "completions": 64,
+        "maximum_worst_cost": 6,
+        "mean_expected_cost": "615/128",
+        "mean_worst_cost": "6",
+        "minimum_worst_cost": 6,
+        "optimal_runs": 0,
+        "trials": 16
+      },
+      "rows": 64,
+      "static_cost": 6,
+      "static_minus_minimax": 3,
+      "static_queries": [
+        "address_0",
+        "address_1",
+        "data_0",
+        "data_1",
+        "data_2",
+        "data_3"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "route_1",
+      "family": "routed_pc",
+      "full_identity_certified_by_exhaustion": 2,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 7,
+      "local_costs": {
+        "0/0": 2,
+        "0/1": 2
+      },
+      "max_local_cost": 2,
+      "minimax_beliefs": 3,
+      "minimax_cost": 2,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 2,
+          "completions": 2,
+          "expected_cost": "2",
+          "worst_cost": 2,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 2,
+          "completions": 2,
+          "expected_cost": "2",
+          "worst_cost": 2,
+          "worst_cost_gap": 0
+        },
+        "full_acquisition": {
+          "certified": 2,
+          "completions": 2,
+          "expected_cost": "3",
+          "worst_cost": 3,
+          "worst_cost_gap": 1
+        },
+        "greedy_partition": {
+          "certified": 2,
+          "completions": 2,
+          "expected_cost": "2",
+          "worst_cost": 2,
+          "worst_cost_gap": 0
+        },
+        "uniform_static": {
+          "certified": 2,
+          "completions": 2,
+          "expected_cost": "2",
+          "worst_cost": 2,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 2,
+      "random": {
+        "certified": 2,
+        "completions": 2,
+        "maximum_worst_cost": 2,
+        "mean_expected_cost": "2",
+        "mean_worst_cost": "2",
+        "minimum_worst_cost": 2,
+        "optimal_runs": 16,
+        "trials": 16
+      },
+      "rows": 2,
+      "static_cost": 2,
+      "static_minus_minimax": 0,
+      "static_queries": [
+        "site_0_admission"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "route_2",
+      "family": "routed_pc",
+      "full_identity_certified_by_exhaustion": 8,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 23,
+      "local_costs": {
+        "0/00": 2,
+        "0/01": 2,
+        "0/10": 2,
+        "0/11": 2,
+        "1/00": 2,
+        "1/01": 2,
+        "1/10": 2,
+        "1/11": 2
+      },
+      "max_local_cost": 2,
+      "minimax_beliefs": 27,
+      "minimax_cost": 2,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "2",
+          "worst_cost": 2,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "5/2",
+          "worst_cost": 3,
+          "worst_cost_gap": 1
+        },
+        "full_acquisition": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "3",
+          "worst_cost": 3,
+          "worst_cost_gap": 1
+        },
+        "greedy_partition": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "5/2",
+          "worst_cost": 3,
+          "worst_cost_gap": 1
+        },
+        "uniform_static": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "3",
+          "worst_cost": 3,
+          "worst_cost_gap": 1
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 3,
+      "random": {
+        "certified": 8,
+        "completions": 8,
+        "maximum_worst_cost": 3,
+        "mean_expected_cost": "41/16",
+        "mean_worst_cost": "47/16",
+        "minimum_worst_cost": 2,
+        "optimal_runs": 1,
+        "trials": 16
+      },
+      "rows": 8,
+      "static_cost": 3,
+      "static_minus_minimax": 1,
+      "static_queries": [
+        "dispatch_endpoint",
+        "site_0_admission",
+        "site_1_representation"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "route_3",
+      "family": "routed_pc",
+      "full_identity_certified_by_exhaustion": 24,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 44,
+      "local_costs": {
+        "0/000": 2,
+        "0/001": 2,
+        "0/010": 2,
+        "0/011": 2,
+        "0/100": 2,
+        "0/101": 2,
+        "0/110": 2,
+        "0/111": 2,
+        "1/000": 2,
+        "1/001": 2,
+        "1/010": 2,
+        "1/011": 2,
+        "1/100": 2,
+        "1/101": 2,
+        "1/110": 2,
+        "1/111": 2,
+        "2/000": 2,
+        "2/001": 2,
+        "2/010": 2,
+        "2/011": 2,
+        "2/100": 2,
+        "2/101": 2,
+        "2/110": 2,
+        "2/111": 2
+      },
+      "max_local_cost": 2,
+      "minimax_beliefs": 108,
+      "minimax_cost": 2,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 24,
+          "completions": 24,
+          "expected_cost": "2",
+          "worst_cost": 2,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 24,
+          "completions": 24,
+          "expected_cost": "2",
+          "worst_cost": 2,
+          "worst_cost_gap": 0
+        },
+        "full_acquisition": {
+          "certified": 24,
+          "completions": 24,
+          "expected_cost": "4",
+          "worst_cost": 4,
+          "worst_cost_gap": 2
+        },
+        "greedy_partition": {
+          "certified": 24,
+          "completions": 24,
+          "expected_cost": "3",
+          "worst_cost": 4,
+          "worst_cost_gap": 2
+        },
+        "uniform_static": {
+          "certified": 24,
+          "completions": 24,
+          "expected_cost": "4",
+          "worst_cost": 4,
+          "worst_cost_gap": 2
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 4,
+      "random": {
+        "certified": 24,
+        "completions": 24,
+        "maximum_worst_cost": 4,
+        "mean_expected_cost": "1205/384",
+        "mean_worst_cost": "31/8",
+        "minimum_worst_cost": 3,
+        "optimal_runs": 0,
+        "trials": 16
+      },
+      "rows": 24,
+      "static_cost": 4,
+      "static_minus_minimax": 2,
+      "static_queries": [
+        "dispatch_endpoint",
+        "site_0_admission",
+        "site_1_representation",
+        "site_2_authority"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "route_4",
+      "family": "routed_pc",
+      "full_identity_certified_by_exhaustion": 64,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 82,
+      "local_costs": {
+        "0/0000": 2,
+        "0/0001": 2,
+        "0/0010": 2,
+        "0/0011": 2,
+        "0/0100": 2,
+        "0/0101": 2,
+        "0/0110": 2,
+        "0/0111": 2,
+        "0/1000": 2,
+        "0/1001": 2,
+        "0/1010": 2,
+        "0/1011": 2,
+        "0/1100": 2,
+        "0/1101": 2,
+        "0/1110": 2,
+        "0/1111": 2,
+        "1/0000": 2,
+        "1/0001": 2,
+        "1/0010": 2,
+        "1/0011": 2,
+        "1/0100": 2,
+        "1/0101": 2,
+        "1/0110": 2,
+        "1/0111": 2,
+        "1/1000": 2,
+        "1/1001": 2,
+        "1/1010": 2,
+        "1/1011": 2,
+        "1/1100": 2,
+        "1/1101": 2,
+        "1/1110": 2,
+        "1/1111": 2,
+        "2/0000": 2,
+        "2/0001": 2,
+        "2/0010": 2,
+        "2/0011": 2,
+        "2/0100": 2,
+        "2/0101": 2,
+        "2/0110": 2,
+        "2/0111": 2,
+        "2/1000": 2,
+        "2/1001": 2,
+        "2/1010": 2,
+        "2/1011": 2,
+        "2/1100": 2,
+        "2/1101": 2,
+        "2/1110": 2,
+        "2/1111": 2,
+        "3/0000": 2,
+        "3/0001": 2,
+        "3/0010": 2,
+        "3/0011": 2,
+        "3/0100": 2,
+        "3/0101": 2,
+        "3/0110": 2,
+        "3/0111": 2,
+        "3/1000": 2,
+        "3/1001": 2,
+        "3/1010": 2,
+        "3/1011": 2,
+        "3/1100": 2,
+        "3/1101": 2,
+        "3/1110": 2,
+        "3/1111": 2
+      },
+      "max_local_cost": 2,
+      "minimax_beliefs": 405,
+      "minimax_cost": 2,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 64,
+          "completions": 64,
+          "expected_cost": "2",
+          "worst_cost": 2,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 64,
+          "completions": 64,
+          "expected_cost": "2",
+          "worst_cost": 2,
+          "worst_cost_gap": 0
+        },
+        "full_acquisition": {
+          "certified": 64,
+          "completions": 64,
+          "expected_cost": "5",
+          "worst_cost": 5,
+          "worst_cost_gap": 3
+        },
+        "greedy_partition": {
+          "certified": 64,
+          "completions": 64,
+          "expected_cost": "7/2",
+          "worst_cost": 5,
+          "worst_cost_gap": 3
+        },
+        "uniform_static": {
+          "certified": 64,
+          "completions": 64,
+          "expected_cost": "5",
+          "worst_cost": 5,
+          "worst_cost_gap": 3
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 5,
+      "random": {
+        "certified": 64,
+        "completions": 64,
+        "maximum_worst_cost": 5,
+        "mean_expected_cost": "1061/256",
+        "mean_worst_cost": "5",
+        "minimum_worst_cost": 5,
+        "optimal_runs": 0,
+        "trials": 16
+      },
+      "rows": 64,
+      "static_cost": 5,
+      "static_minus_minimax": 3,
+      "static_queries": [
+        "dispatch_endpoint",
+        "site_0_admission",
+        "site_1_representation",
+        "site_2_authority",
+        "site_3_admission"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "route_5",
+      "family": "routed_pc",
+      "full_identity_certified_by_exhaustion": 160,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 197,
+      "local_costs": {
+        "0/00000": 2,
+        "0/00001": 2,
+        "0/00010": 2,
+        "0/00011": 2,
+        "0/00100": 2,
+        "0/00101": 2,
+        "0/00110": 2,
+        "0/00111": 2,
+        "0/01000": 2,
+        "0/01001": 2,
+        "0/01010": 2,
+        "0/01011": 2,
+        "0/01100": 2,
+        "0/01101": 2,
+        "0/01110": 2,
+        "0/01111": 2,
+        "0/10000": 2,
+        "0/10001": 2,
+        "0/10010": 2,
+        "0/10011": 2,
+        "0/10100": 2,
+        "0/10101": 2,
+        "0/10110": 2,
+        "0/10111": 2,
+        "0/11000": 2,
+        "0/11001": 2,
+        "0/11010": 2,
+        "0/11011": 2,
+        "0/11100": 2,
+        "0/11101": 2,
+        "0/11110": 2,
+        "0/11111": 2,
+        "1/00000": 2,
+        "1/00001": 2,
+        "1/00010": 2,
+        "1/00011": 2,
+        "1/00100": 2,
+        "1/00101": 2,
+        "1/00110": 2,
+        "1/00111": 2,
+        "1/01000": 2,
+        "1/01001": 2,
+        "1/01010": 2,
+        "1/01011": 2,
+        "1/01100": 2,
+        "1/01101": 2,
+        "1/01110": 2,
+        "1/01111": 2,
+        "1/10000": 2,
+        "1/10001": 2,
+        "1/10010": 2,
+        "1/10011": 2,
+        "1/10100": 2,
+        "1/10101": 2,
+        "1/10110": 2,
+        "1/10111": 2,
+        "1/11000": 2,
+        "1/11001": 2,
+        "1/11010": 2,
+        "1/11011": 2,
+        "1/11100": 2,
+        "1/11101": 2,
+        "1/11110": 2,
+        "1/11111": 2,
+        "2/00000": 2,
+        "2/00001": 2,
+        "2/00010": 2,
+        "2/00011": 2,
+        "2/00100": 2,
+        "2/00101": 2,
+        "2/00110": 2,
+        "2/00111": 2,
+        "2/01000": 2,
+        "2/01001": 2,
+        "2/01010": 2,
+        "2/01011": 2,
+        "2/01100": 2,
+        "2/01101": 2,
+        "2/01110": 2,
+        "2/01111": 2,
+        "2/10000": 2,
+        "2/10001": 2,
+        "2/10010": 2,
+        "2/10011": 2,
+        "2/10100": 2,
+        "2/10101": 2,
+        "2/10110": 2,
+        "2/10111": 2,
+        "2/11000": 2,
+        "2/11001": 2,
+        "2/11010": 2,
+        "2/11011": 2,
+        "2/11100": 2,
+        "2/11101": 2,
+        "2/11110": 2,
+        "2/11111": 2,
+        "3/00000": 2,
+        "3/00001": 2,
+        "3/00010": 2,
+        "3/00011": 2,
+        "3/00100": 2,
+        "3/00101": 2,
+        "3/00110": 2,
+        "3/00111": 2,
+        "3/01000": 2,
+        "3/01001": 2,
+        "3/01010": 2,
+        "3/01011": 2,
+        "3/01100": 2,
+        "3/01101": 2,
+        "3/01110": 2,
+        "3/01111": 2,
+        "3/10000": 2,
+        "3/10001": 2,
+        "3/10010": 2,
+        "3/10011": 2,
+        "3/10100": 2,
+        "3/10101": 2,
+        "3/10110": 2,
+        "3/10111": 2,
+        "3/11000": 2,
+        "3/11001": 2,
+        "3/11010": 2,
+        "3/11011": 2,
+        "3/11100": 2,
+        "3/11101": 2,
+        "3/11110": 2,
+        "3/11111": 2,
+        "4/00000": 2,
+        "4/00001": 2,
+        "4/00010": 2,
+        "4/00011": 2,
+        "4/00100": 2,
+        "4/00101": 2,
+        "4/00110": 2,
+        "4/00111": 2,
+        "4/01000": 2,
+        "4/01001": 2,
+        "4/01010": 2,
+        "4/01011": 2,
+        "4/01100": 2,
+        "4/01101": 2,
+        "4/01110": 2,
+        "4/01111": 2,
+        "4/10000": 2,
+        "4/10001": 2,
+        "4/10010": 2,
+        "4/10011": 2,
+        "4/10100": 2,
+        "4/10101": 2,
+        "4/10110": 2,
+        "4/10111": 2,
+        "4/11000": 2,
+        "4/11001": 2,
+        "4/11010": 2,
+        "4/11011": 2,
+        "4/11100": 2,
+        "4/11101": 2,
+        "4/11110": 2,
+        "4/11111": 2
+      },
+      "max_local_cost": 2,
+      "minimax_beliefs": 1458,
+      "minimax_cost": 2,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 160,
+          "completions": 160,
+          "expected_cost": "2",
+          "worst_cost": 2,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 160,
+          "completions": 160,
+          "expected_cost": "2",
+          "worst_cost": 2,
+          "worst_cost_gap": 0
+        },
+        "full_acquisition": {
+          "certified": 160,
+          "completions": 160,
+          "expected_cost": "6",
+          "worst_cost": 6,
+          "worst_cost_gap": 4
+        },
+        "greedy_partition": {
+          "certified": 160,
+          "completions": 160,
+          "expected_cost": "4",
+          "worst_cost": 6,
+          "worst_cost_gap": 4
+        },
+        "uniform_static": {
+          "certified": 160,
+          "completions": 160,
+          "expected_cost": "6",
+          "worst_cost": 6,
+          "worst_cost_gap": 4
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 6,
+      "random": {
+        "certified": 160,
+        "completions": 160,
+        "maximum_worst_cost": 6,
+        "mean_expected_cost": "2921/640",
+        "mean_worst_cost": "6",
+        "minimum_worst_cost": 6,
+        "optimal_runs": 0,
+        "trials": 16
+      },
+      "rows": 160,
+      "static_cost": 6,
+      "static_minus_minimax": 4,
+      "static_queries": [
+        "dispatch_endpoint",
+        "site_0_admission",
+        "site_1_representation",
+        "site_2_authority",
+        "site_3_admission",
+        "site_4_representation"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "route_3_weighted",
+      "family": "routed_pc",
+      "full_identity_certified_by_exhaustion": 24,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 75,
+      "local_costs": {
+        "0/000": 3,
+        "0/001": 3,
+        "0/010": 3,
+        "0/011": 3,
+        "0/100": 3,
+        "0/101": 3,
+        "0/110": 3,
+        "0/111": 3,
+        "1/000": 5,
+        "1/001": 5,
+        "1/010": 5,
+        "1/011": 5,
+        "1/100": 5,
+        "1/101": 5,
+        "1/110": 5,
+        "1/111": 5,
+        "2/000": 4,
+        "2/001": 4,
+        "2/010": 4,
+        "2/011": 4,
+        "2/100": 4,
+        "2/101": 4,
+        "2/110": 4,
+        "2/111": 4
+      },
+      "max_local_cost": 5,
+      "minimax_beliefs": 108,
+      "minimax_cost": 5,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 24,
+          "completions": 24,
+          "expected_cost": "4",
+          "worst_cost": 5,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 24,
+          "completions": 24,
+          "expected_cost": "16/3",
+          "worst_cost": 8,
+          "worst_cost_gap": 3
+        },
+        "full_acquisition": {
+          "certified": 24,
+          "completions": 24,
+          "expected_cost": "8",
+          "worst_cost": 8,
+          "worst_cost_gap": 3
+        },
+        "greedy_partition": {
+          "certified": 24,
+          "completions": 24,
+          "expected_cost": "16/3",
+          "worst_cost": 8,
+          "worst_cost_gap": 3
+        },
+        "uniform_static": {
+          "certified": 24,
+          "completions": 24,
+          "expected_cost": "8",
+          "worst_cost": 8,
+          "worst_cost_gap": 3
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 4,
+      "random": {
+        "certified": 24,
+        "completions": 24,
+        "maximum_worst_cost": 8,
+        "mean_expected_cost": "1235/192",
+        "mean_worst_cost": "63/8",
+        "minimum_worst_cost": 6,
+        "optimal_runs": 0,
+        "trials": 16
+      },
+      "rows": 24,
+      "static_cost": 8,
+      "static_minus_minimax": 3,
+      "static_queries": [
+        "dispatch_endpoint",
+        "site_0_admission",
+        "site_1_representation",
+        "site_2_authority"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "route_4_skewed",
+      "family": "routed_pc",
+      "full_identity_certified_by_exhaustion": 64,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 208,
+      "local_costs": {
+        "0/0000": 4,
+        "0/0001": 4,
+        "0/0010": 4,
+        "0/0011": 4,
+        "0/0100": 4,
+        "0/0101": 4,
+        "0/0110": 4,
+        "0/0111": 4,
+        "0/1000": 4,
+        "0/1001": 4,
+        "0/1010": 4,
+        "0/1011": 4,
+        "0/1100": 4,
+        "0/1101": 4,
+        "0/1110": 4,
+        "0/1111": 4,
+        "1/0000": 4,
+        "1/0001": 4,
+        "1/0010": 4,
+        "1/0011": 4,
+        "1/0100": 4,
+        "1/0101": 4,
+        "1/0110": 4,
+        "1/0111": 4,
+        "1/1000": 4,
+        "1/1001": 4,
+        "1/1010": 4,
+        "1/1011": 4,
+        "1/1100": 4,
+        "1/1101": 4,
+        "1/1110": 4,
+        "1/1111": 4,
+        "2/0000": 6,
+        "2/0001": 6,
+        "2/0010": 6,
+        "2/0011": 6,
+        "2/0100": 6,
+        "2/0101": 6,
+        "2/0110": 6,
+        "2/0111": 6,
+        "2/1000": 6,
+        "2/1001": 6,
+        "2/1010": 6,
+        "2/1011": 6,
+        "2/1100": 6,
+        "2/1101": 6,
+        "2/1110": 6,
+        "2/1111": 6,
+        "3/0000": 7,
+        "3/0001": 7,
+        "3/0010": 7,
+        "3/0011": 7,
+        "3/0100": 7,
+        "3/0101": 7,
+        "3/0110": 7,
+        "3/0111": 7,
+        "3/1000": 7,
+        "3/1001": 7,
+        "3/1010": 7,
+        "3/1011": 7,
+        "3/1100": 7,
+        "3/1101": 7,
+        "3/1110": 7,
+        "3/1111": 7
+      },
+      "max_local_cost": 7,
+      "minimax_beliefs": 405,
+      "minimax_cost": 7,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 64,
+          "completions": 64,
+          "expected_cost": "75/17",
+          "worst_cost": 7,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 64,
+          "completions": 64,
+          "expected_cost": "98/17",
+          "worst_cost": 12,
+          "worst_cost_gap": 5
+        },
+        "full_acquisition": {
+          "certified": 64,
+          "completions": 64,
+          "expected_cost": "12",
+          "worst_cost": 12,
+          "worst_cost_gap": 5
+        },
+        "greedy_partition": {
+          "certified": 64,
+          "completions": 64,
+          "expected_cost": "98/17",
+          "worst_cost": 12,
+          "worst_cost_gap": 5
+        },
+        "uniform_static": {
+          "certified": 64,
+          "completions": 64,
+          "expected_cost": "12",
+          "worst_cost": 12,
+          "worst_cost_gap": 5
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 5,
+      "random": {
+        "certified": 64,
+        "completions": 64,
+        "maximum_worst_cost": 12,
+        "mean_expected_cost": "18999/2176",
+        "mean_worst_cost": "12",
+        "minimum_worst_cost": 12,
+        "optimal_runs": 0,
+        "trials": 16
+      },
+      "rows": 64,
+      "static_cost": 12,
+      "static_minus_minimax": 5,
+      "static_queries": [
+        "dispatch_endpoint",
+        "site_0_admission",
+        "site_1_representation",
+        "site_2_authority",
+        "site_3_admission"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "route_3_without_dispatch",
+      "family": "routed_pc",
+      "full_identity_certified_by_exhaustion": 0,
+      "inaccessibility_witness": [
+        "0/010",
+        "1/010"
+      ],
+      "independent_budget_states": 8,
+      "local_costs": {
+        "0/000": 6,
+        "0/001": null,
+        "0/010": null,
+        "0/011": null,
+        "0/100": null,
+        "0/101": null,
+        "0/110": null,
+        "0/111": 6,
+        "1/000": 6,
+        "1/001": null,
+        "1/010": null,
+        "1/011": null,
+        "1/100": null,
+        "1/101": null,
+        "1/110": null,
+        "1/111": 6,
+        "2/000": 6,
+        "2/001": null,
+        "2/010": null,
+        "2/011": null,
+        "2/100": null,
+        "2/101": null,
+        "2/110": null,
+        "2/111": 6
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 6,
+          "completions": 24,
+          "expected_cost": "6",
+          "worst_cost": 6
+        },
+        "full_acquisition": {
+          "certified": 6,
+          "completions": 24,
+          "expected_cost": "6",
+          "worst_cost": 6
+        },
+        "greedy_partition": {
+          "certified": 6,
+          "completions": 24,
+          "expected_cost": "6",
+          "worst_cost": 6
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 3,
+      "random": {
+        "certified": 6,
+        "completions": 24,
+        "maximum_worst_cost": 6,
+        "mean_expected_cost": "6",
+        "mean_worst_cost": "6",
+        "minimum_worst_cost": 6,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 24,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "route_4_without_authority",
+      "family": "routed_pc",
+      "full_identity_certified_by_exhaustion": 0,
+      "inaccessibility_witness": [
+        "2/0000",
+        "2/0010"
+      ],
+      "independent_budget_states": 44,
+      "local_costs": {
+        "0/0000": 2,
+        "0/0001": 2,
+        "0/0010": 2,
+        "0/0011": 2,
+        "0/0100": 2,
+        "0/0101": 2,
+        "0/0110": 2,
+        "0/0111": 2,
+        "0/1000": 2,
+        "0/1001": 2,
+        "0/1010": 2,
+        "0/1011": 2,
+        "0/1100": 2,
+        "0/1101": 2,
+        "0/1110": 2,
+        "0/1111": 2,
+        "1/0000": 2,
+        "1/0001": 2,
+        "1/0010": 2,
+        "1/0011": 2,
+        "1/0100": 2,
+        "1/0101": 2,
+        "1/0110": 2,
+        "1/0111": 2,
+        "1/1000": 2,
+        "1/1001": 2,
+        "1/1010": 2,
+        "1/1011": 2,
+        "1/1100": 2,
+        "1/1101": 2,
+        "1/1110": 2,
+        "1/1111": 2,
+        "2/0000": null,
+        "2/0001": null,
+        "2/0010": null,
+        "2/0011": null,
+        "2/0100": null,
+        "2/0101": null,
+        "2/0110": null,
+        "2/0111": null,
+        "2/1000": null,
+        "2/1001": null,
+        "2/1010": null,
+        "2/1011": null,
+        "2/1100": null,
+        "2/1101": null,
+        "2/1110": null,
+        "2/1111": null,
+        "3/0000": 2,
+        "3/0001": 2,
+        "3/0010": 2,
+        "3/0011": 2,
+        "3/0100": 2,
+        "3/0101": 2,
+        "3/0110": 2,
+        "3/0111": 2,
+        "3/1000": 2,
+        "3/1001": 2,
+        "3/1010": 2,
+        "3/1011": 2,
+        "3/1100": 2,
+        "3/1101": 2,
+        "3/1110": 2,
+        "3/1111": 2
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 48,
+          "completions": 64,
+          "expected_cost": "5/2",
+          "worst_cost": 4
+        },
+        "full_acquisition": {
+          "certified": 48,
+          "completions": 64,
+          "expected_cost": "4",
+          "worst_cost": 4
+        },
+        "greedy_partition": {
+          "certified": 48,
+          "completions": 64,
+          "expected_cost": "13/4",
+          "worst_cost": 4
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 4,
+      "random": {
+        "certified": 48,
+        "completions": 64,
+        "maximum_worst_cost": 4,
+        "mean_expected_cost": "113/32",
+        "mean_worst_cost": "4",
+        "minimum_worst_cost": 4,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 64,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "pc_grid_rfreeze",
+      "family": "predecessor_x03",
+      "full_identity_certified_by_exhaustion": 8,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 38,
+      "local_costs": {
+        "E/E/0": 3,
+        "E/E/1": 3,
+        "E/R/0": 3,
+        "E/R/1": 3,
+        "R/E/0": 6,
+        "R/E/1": 6,
+        "R/R/0": 6,
+        "R/R/1": 6
+      },
+      "max_local_cost": 6,
+      "minimax_beliefs": 27,
+      "minimax_cost": 6,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "6",
+          "worst_cost": 6,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "7",
+          "worst_cost": 9,
+          "worst_cost_gap": 3
+        },
+        "full_acquisition": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "15",
+          "worst_cost": 15,
+          "worst_cost_gap": 9
+        },
+        "greedy_partition": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "7",
+          "worst_cost": 9,
+          "worst_cost_gap": 3
+        },
+        "uniform_static": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "6",
+          "worst_cost": 6,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 9,
+      "questions": 4,
+      "random": {
+        "certified": 8,
+        "completions": 8,
+        "maximum_worst_cost": 12,
+        "mean_expected_cost": "115/16",
+        "mean_worst_cost": "137/16",
+        "minimum_worst_cost": 6,
+        "optimal_runs": 3,
+        "trials": 16
+      },
+      "rows": 8,
+      "static_cost": 6,
+      "static_minus_minimax": 0,
+      "static_queries": [
+        "fast_and_license"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "pc_grid_signature",
+      "family": "predecessor_x03",
+      "full_identity_certified_by_exhaustion": 8,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 65,
+      "local_costs": {
+        "E/E/0": 5,
+        "E/E/1": 5,
+        "E/R/0": 5,
+        "E/R/1": 5,
+        "R/E/0": 8,
+        "R/E/1": 6,
+        "R/R/0": 8,
+        "R/R/1": 6
+      },
+      "max_local_cost": 8,
+      "minimax_beliefs": 27,
+      "minimax_cost": 8,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "8",
+          "worst_cost": 8,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "7",
+          "worst_cost": 9,
+          "worst_cost_gap": 1
+        },
+        "full_acquisition": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "15",
+          "worst_cost": 15,
+          "worst_cost_gap": 7
+        },
+        "greedy_partition": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "7",
+          "worst_cost": 9,
+          "worst_cost_gap": 1
+        },
+        "uniform_static": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "8",
+          "worst_cost": 8,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 9,
+      "questions": 4,
+      "random": {
+        "certified": 8,
+        "completions": 8,
+        "maximum_worst_cost": 12,
+        "mean_expected_cost": "153/16",
+        "mean_worst_cost": "11",
+        "minimum_worst_cost": 8,
+        "optimal_runs": 1,
+        "trials": 16
+      },
+      "rows": 8,
+      "static_cost": 8,
+      "static_minus_minimax": 0,
+      "static_queries": [
+        "archive_mapping",
+        "fast_and_license"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "pc_correlated_rfreeze",
+      "family": "predecessor_x03",
+      "full_identity_certified_by_exhaustion": 4,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 26,
+      "local_costs": {
+        "E/R/0": 2,
+        "E/R/1": 2,
+        "R/E/0": 6,
+        "R/E/1": 6
+      },
+      "max_local_cost": 6,
+      "minimax_beliefs": 9,
+      "minimax_cost": 6,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "4",
+          "worst_cost": 6,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "4",
+          "worst_cost": 6,
+          "worst_cost_gap": 0
+        },
+        "full_acquisition": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "15",
+          "worst_cost": 15,
+          "worst_cost_gap": 9
+        },
+        "greedy_partition": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "4",
+          "worst_cost": 6,
+          "worst_cost_gap": 0
+        },
+        "uniform_static": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "6",
+          "worst_cost": 6,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 5,
+      "questions": 4,
+      "random": {
+        "certified": 4,
+        "completions": 4,
+        "maximum_worst_cost": 10,
+        "mean_expected_cost": "89/16",
+        "mean_worst_cost": "57/8",
+        "minimum_worst_cost": 6,
+        "optimal_runs": 7,
+        "trials": 16
+      },
+      "rows": 4,
+      "static_cost": 6,
+      "static_minus_minimax": 0,
+      "static_queries": [
+        "archive_mapping",
+        "entry_license"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "pc_missing_fast_rfreeze",
+      "family": "predecessor_x03",
+      "full_identity_certified_by_exhaustion": 0,
+      "inaccessibility_witness": [
+        "E/E/0",
+        "R/E/0"
+      ],
+      "independent_budget_states": 4,
+      "local_costs": {
+        "E/E/0": null,
+        "E/E/1": null,
+        "E/R/0": null,
+        "E/R/1": null,
+        "R/E/0": null,
+        "R/E/1": null,
+        "R/R/0": null,
+        "R/R/1": null
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 0,
+          "completions": 8,
+          "expected_cost": "6",
+          "worst_cost": 6
+        },
+        "full_acquisition": {
+          "certified": 0,
+          "completions": 8,
+          "expected_cost": "6",
+          "worst_cost": 6
+        },
+        "greedy_partition": {
+          "certified": 0,
+          "completions": 8,
+          "expected_cost": "6",
+          "worst_cost": 6
+        }
+      },
+      "predecessor_scopes": 9,
+      "questions": 2,
+      "random": {
+        "certified": 0,
+        "completions": 8,
+        "maximum_worst_cost": 6,
+        "mean_expected_cost": "6",
+        "mean_worst_cost": "6",
+        "minimum_worst_cost": 6,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 8,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "pc_homogeneous_rfreeze",
+      "family": "predecessor_x03",
+      "full_identity_certified_by_exhaustion": 4,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 5,
+      "local_costs": {
+        "E/E/0": 0,
+        "E/E/1": 0,
+        "E/R/0": 0,
+        "E/R/1": 0
+      },
+      "max_local_cost": 0,
+      "minimax_beliefs": 1,
+      "minimax_cost": 0,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "0",
+          "worst_cost": 0,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "0",
+          "worst_cost": 0,
+          "worst_cost_gap": 0
+        },
+        "full_acquisition": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "15",
+          "worst_cost": 15,
+          "worst_cost_gap": 15
+        },
+        "greedy_partition": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "0",
+          "worst_cost": 0,
+          "worst_cost_gap": 0
+        },
+        "uniform_static": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "0",
+          "worst_cost": 0,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 5,
+      "questions": 4,
+      "random": {
+        "certified": 4,
+        "completions": 4,
+        "maximum_worst_cost": 0,
+        "mean_expected_cost": "0",
+        "mean_worst_cost": "0",
+        "minimum_worst_cost": 0,
+        "optimal_runs": 16,
+        "trials": 16
+      },
+      "rows": 4,
+      "static_cost": 0,
+      "static_minus_minimax": 0,
+      "static_queries": [],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "seeded_binary_00",
+      "family": "seeded_binary",
+      "full_identity_certified_by_exhaustion": 4,
+      "inaccessibility_witness": [
+        "c003",
+        "c005"
+      ],
+      "independent_budget_states": 22,
+      "local_costs": {
+        "c000": 6,
+        "c001": 5,
+        "c002": 5,
+        "c003": null,
+        "c004": 6,
+        "c005": null
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 4,
+          "completions": 6,
+          "expected_cost": "145/22",
+          "worst_cost": 9
+        },
+        "full_acquisition": {
+          "certified": 4,
+          "completions": 6,
+          "expected_cost": "14",
+          "worst_cost": 14
+        },
+        "greedy_partition": {
+          "certified": 4,
+          "completions": 6,
+          "expected_cost": "145/22",
+          "worst_cost": 9
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 4,
+      "random": {
+        "certified": 4,
+        "completions": 6,
+        "maximum_worst_cost": 12,
+        "mean_expected_cost": "1395/176",
+        "mean_worst_cost": "75/8",
+        "minimum_worst_cost": 7,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 6,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_binary_01",
+      "family": "seeded_binary",
+      "full_identity_certified_by_exhaustion": 10,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 36,
+      "local_costs": {
+        "c000": 1,
+        "c001": 1,
+        "c002": 1,
+        "c003": 1,
+        "c004": 1,
+        "c005": 2,
+        "c006": 1,
+        "c007": 1,
+        "c008": 1,
+        "c009": 1
+      },
+      "max_local_cost": 2,
+      "minimax_beliefs": 62,
+      "minimax_cost": 2,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 10,
+          "completions": 10,
+          "expected_cost": "3/2",
+          "worst_cost": 2,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 10,
+          "completions": 10,
+          "expected_cost": "31/24",
+          "worst_cost": 2,
+          "worst_cost_gap": 0
+        },
+        "full_acquisition": {
+          "certified": 10,
+          "completions": 10,
+          "expected_cost": "14",
+          "worst_cost": 14,
+          "worst_cost_gap": 12
+        },
+        "greedy_partition": {
+          "certified": 10,
+          "completions": 10,
+          "expected_cost": "41/24",
+          "worst_cost": 3,
+          "worst_cost_gap": 1
+        },
+        "uniform_static": {
+          "certified": 10,
+          "completions": 10,
+          "expected_cost": "2",
+          "worst_cost": 2,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 6,
+      "random": {
+        "certified": 10,
+        "completions": 10,
+        "maximum_worst_cost": 13,
+        "mean_expected_cost": "5",
+        "mean_worst_cost": "123/16",
+        "minimum_worst_cost": 2,
+        "optimal_runs": 2,
+        "trials": 16
+      },
+      "rows": 10,
+      "static_cost": 2,
+      "static_minus_minimax": 0,
+      "static_queries": [
+        "fact_2",
+        "fact_4"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "seeded_binary_02",
+      "family": "seeded_binary",
+      "full_identity_certified_by_exhaustion": 9,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 37,
+      "local_costs": {
+        "c000": 5,
+        "c001": 5,
+        "c002": 2,
+        "c003": 4,
+        "c004": 3,
+        "c005": 4,
+        "c006": 4,
+        "c007": 2,
+        "c008": 2
+      },
+      "max_local_cost": 5,
+      "minimax_beliefs": 44,
+      "minimax_cost": 5,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 9,
+          "completions": 9,
+          "expected_cost": "33/7",
+          "worst_cost": 5,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 9,
+          "completions": 9,
+          "expected_cost": "115/21",
+          "worst_cost": 7,
+          "worst_cost_gap": 2
+        },
+        "full_acquisition": {
+          "certified": 9,
+          "completions": 9,
+          "expected_cost": "18",
+          "worst_cost": 18,
+          "worst_cost_gap": 13
+        },
+        "greedy_partition": {
+          "certified": 9,
+          "completions": 9,
+          "expected_cost": "115/21",
+          "worst_cost": 7,
+          "worst_cost_gap": 2
+        },
+        "uniform_static": {
+          "certified": 9,
+          "completions": 9,
+          "expected_cost": "6",
+          "worst_cost": 6,
+          "worst_cost_gap": 1
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 5,
+      "random": {
+        "certified": 9,
+        "completions": 9,
+        "maximum_worst_cost": 18,
+        "mean_expected_cost": "3515/336",
+        "mean_worst_cost": "221/16",
+        "minimum_worst_cost": 7,
+        "optimal_runs": 0,
+        "trials": 16
+      },
+      "rows": 9,
+      "static_cost": 6,
+      "static_minus_minimax": 1,
+      "static_queries": [
+        "fact_0",
+        "fact_1"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "seeded_binary_03",
+      "family": "seeded_binary",
+      "full_identity_certified_by_exhaustion": 4,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 5,
+      "local_costs": {
+        "c000": 0,
+        "c001": 0,
+        "c002": 0,
+        "c003": 0
+      },
+      "max_local_cost": 0,
+      "minimax_beliefs": 1,
+      "minimax_cost": 0,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "0",
+          "worst_cost": 0,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "0",
+          "worst_cost": 0,
+          "worst_cost_gap": 0
+        },
+        "full_acquisition": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "8",
+          "worst_cost": 8,
+          "worst_cost_gap": 8
+        },
+        "greedy_partition": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "0",
+          "worst_cost": 0,
+          "worst_cost_gap": 0
+        },
+        "uniform_static": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "0",
+          "worst_cost": 0,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 3,
+      "random": {
+        "certified": 4,
+        "completions": 4,
+        "maximum_worst_cost": 0,
+        "mean_expected_cost": "0",
+        "mean_worst_cost": "0",
+        "minimum_worst_cost": 0,
+        "optimal_runs": 16,
+        "trials": 16
+      },
+      "rows": 4,
+      "static_cost": 0,
+      "static_minus_minimax": 0,
+      "static_queries": [],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "seeded_binary_04",
+      "family": "seeded_binary",
+      "full_identity_certified_by_exhaustion": 4,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 29,
+      "local_costs": {
+        "c000": 2,
+        "c001": 2,
+        "c002": 2,
+        "c003": 3
+      },
+      "max_local_cost": 3,
+      "minimax_beliefs": 13,
+      "minimax_cost": 3,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "3",
+          "worst_cost": 3,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "3",
+          "worst_cost": 3,
+          "worst_cost_gap": 0
+        },
+        "full_acquisition": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "12",
+          "worst_cost": 12,
+          "worst_cost_gap": 9
+        },
+        "greedy_partition": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "3",
+          "worst_cost": 3,
+          "worst_cost_gap": 0
+        },
+        "uniform_static": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "4",
+          "worst_cost": 4,
+          "worst_cost_gap": 1
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 5,
+      "random": {
+        "certified": 4,
+        "completions": 4,
+        "maximum_worst_cost": 9,
+        "mean_expected_cost": "1065/208",
+        "mean_worst_cost": "25/4",
+        "minimum_worst_cost": 4,
+        "optimal_runs": 0,
+        "trials": 16
+      },
+      "rows": 4,
+      "static_cost": 4,
+      "static_minus_minimax": 1,
+      "static_queries": [
+        "fact_1",
+        "fact_2"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "seeded_binary_05",
+      "family": "seeded_binary",
+      "full_identity_certified_by_exhaustion": 4,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 42,
+      "local_costs": {
+        "c000": 5,
+        "c001": 6,
+        "c002": 5,
+        "c003": 5
+      },
+      "max_local_cost": 6,
+      "minimax_beliefs": 15,
+      "minimax_cost": 9,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "9",
+          "worst_cost": 9,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "9",
+          "worst_cost": 9,
+          "worst_cost_gap": 0
+        },
+        "full_acquisition": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "25",
+          "worst_cost": 25,
+          "worst_cost_gap": 16
+        },
+        "greedy_partition": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "9",
+          "worst_cost": 9,
+          "worst_cost_gap": 0
+        },
+        "uniform_static": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "10",
+          "worst_cost": 10,
+          "worst_cost_gap": 1
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 5,
+      "random": {
+        "certified": 4,
+        "completions": 4,
+        "maximum_worst_cost": 16,
+        "mean_expected_cost": "237/22",
+        "mean_worst_cost": "55/4",
+        "minimum_worst_cost": 9,
+        "optimal_runs": 1,
+        "trials": 16
+      },
+      "rows": 4,
+      "static_cost": 10,
+      "static_minus_minimax": 1,
+      "static_queries": [
+        "fact_1",
+        "fact_4"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "seeded_binary_06",
+      "family": "seeded_binary",
+      "full_identity_certified_by_exhaustion": 4,
+      "inaccessibility_witness": [
+        "c001",
+        "c006"
+      ],
+      "independent_budget_states": 15,
+      "local_costs": {
+        "c000": 8,
+        "c001": null,
+        "c002": 4,
+        "c003": 8,
+        "c004": 8,
+        "c005": 8,
+        "c006": null,
+        "c007": 4,
+        "c008": null,
+        "c009": 8
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 7,
+          "completions": 10,
+          "expected_cost": "108/11",
+          "worst_cost": 12
+        },
+        "full_acquisition": {
+          "certified": 7,
+          "completions": 10,
+          "expected_cost": "12",
+          "worst_cost": 12
+        },
+        "greedy_partition": {
+          "certified": 7,
+          "completions": 10,
+          "expected_cost": "116/11",
+          "worst_cost": 12
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 3,
+      "random": {
+        "certified": 7,
+        "completions": 10,
+        "maximum_worst_cost": 12,
+        "mean_expected_cost": "907/88",
+        "mean_worst_cost": "12",
+        "minimum_worst_cost": 12,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 10,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_binary_07",
+      "family": "seeded_binary",
+      "full_identity_certified_by_exhaustion": 8,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 15,
+      "local_costs": {
+        "c000": 2,
+        "c001": 2,
+        "c002": 1,
+        "c003": 1,
+        "c004": 1,
+        "c005": 2,
+        "c006": 2,
+        "c007": 1
+      },
+      "max_local_cost": 2,
+      "minimax_beliefs": 32,
+      "minimax_cost": 2,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "5/3",
+          "worst_cost": 2,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "37/24",
+          "worst_cost": 2,
+          "worst_cost_gap": 0
+        },
+        "full_acquisition": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "5",
+          "worst_cost": 5,
+          "worst_cost_gap": 3
+        },
+        "greedy_partition": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "11/6",
+          "worst_cost": 3,
+          "worst_cost_gap": 1
+        },
+        "uniform_static": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "2",
+          "worst_cost": 2,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 4,
+      "random": {
+        "certified": 8,
+        "completions": 8,
+        "maximum_worst_cost": 5,
+        "mean_expected_cost": "1163/384",
+        "mean_worst_cost": "65/16",
+        "minimum_worst_cost": 2,
+        "optimal_runs": 1,
+        "trials": 16
+      },
+      "rows": 8,
+      "static_cost": 2,
+      "static_minus_minimax": 0,
+      "static_queries": [
+        "fact_0",
+        "fact_1"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "seeded_binary_08",
+      "family": "seeded_binary",
+      "full_identity_certified_by_exhaustion": 4,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 26,
+      "local_costs": {
+        "c000": 6,
+        "c001": 2,
+        "c002": 3,
+        "c003": 5
+      },
+      "max_local_cost": 6,
+      "minimax_beliefs": 12,
+      "minimax_cost": 6,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "6",
+          "worst_cost": 6,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "58/9",
+          "worst_cost": 7,
+          "worst_cost_gap": 1
+        },
+        "full_acquisition": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "23",
+          "worst_cost": 23,
+          "worst_cost_gap": 17
+        },
+        "greedy_partition": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "8",
+          "worst_cost": 10,
+          "worst_cost_gap": 4
+        },
+        "uniform_static": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "6",
+          "worst_cost": 6,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 6,
+      "random": {
+        "certified": 4,
+        "completions": 4,
+        "maximum_worst_cost": 16,
+        "mean_expected_cost": "76/9",
+        "mean_worst_cost": "39/4",
+        "minimum_worst_cost": 6,
+        "optimal_runs": 4,
+        "trials": 16
+      },
+      "rows": 4,
+      "static_cost": 6,
+      "static_minus_minimax": 0,
+      "static_queries": [
+        "fact_0"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "seeded_binary_09",
+      "family": "seeded_binary",
+      "full_identity_certified_by_exhaustion": 5,
+      "inaccessibility_witness": [
+        "c005",
+        "c007"
+      ],
+      "independent_budget_states": 31,
+      "local_costs": {
+        "c000": 11,
+        "c001": 12,
+        "c002": null,
+        "c003": 12,
+        "c004": 11,
+        "c005": null,
+        "c006": null,
+        "c007": null,
+        "c008": null,
+        "c009": 11
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 5,
+          "completions": 10,
+          "expected_cost": "427/29",
+          "worst_cost": 17
+        },
+        "full_acquisition": {
+          "certified": 5,
+          "completions": 10,
+          "expected_cost": "23",
+          "worst_cost": 23
+        },
+        "greedy_partition": {
+          "certified": 5,
+          "completions": 10,
+          "expected_cost": "427/29",
+          "worst_cost": 17
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 4,
+      "random": {
+        "certified": 5,
+        "completions": 10,
+        "maximum_worst_cost": 23,
+        "mean_expected_cost": "3831/232",
+        "mean_worst_cost": "315/16",
+        "minimum_worst_cost": 17,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 10,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_binary_10",
+      "family": "seeded_binary",
+      "full_identity_certified_by_exhaustion": 4,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 38,
+      "local_costs": {
+        "c000": 3,
+        "c001": 2,
+        "c002": 1,
+        "c003": 3,
+        "c004": 2,
+        "c005": 3
+      },
+      "max_local_cost": 3,
+      "minimax_beliefs": 16,
+      "minimax_cost": 3,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 6,
+          "completions": 6,
+          "expected_cost": "34/13",
+          "worst_cost": 3,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 6,
+          "completions": 6,
+          "expected_cost": "42/13",
+          "worst_cost": 4,
+          "worst_cost_gap": 1
+        },
+        "full_acquisition": {
+          "certified": 6,
+          "completions": 6,
+          "expected_cost": "14",
+          "worst_cost": 14,
+          "worst_cost_gap": 11
+        },
+        "greedy_partition": {
+          "certified": 6,
+          "completions": 6,
+          "expected_cost": "42/13",
+          "worst_cost": 4,
+          "worst_cost_gap": 1
+        },
+        "uniform_static": {
+          "certified": 6,
+          "completions": 6,
+          "expected_cost": "3",
+          "worst_cost": 3,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 5,
+      "random": {
+        "certified": 6,
+        "completions": 6,
+        "maximum_worst_cost": 11,
+        "mean_expected_cost": "2449/416",
+        "mean_worst_cost": "115/16",
+        "minimum_worst_cost": 3,
+        "optimal_runs": 1,
+        "trials": 16
+      },
+      "rows": 6,
+      "static_cost": 3,
+      "static_minus_minimax": 0,
+      "static_queries": [
+        "fact_1",
+        "fact_3"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "seeded_binary_11",
+      "family": "seeded_binary",
+      "full_identity_certified_by_exhaustion": 5,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 25,
+      "local_costs": {
+        "c000": 2,
+        "c001": 2,
+        "c002": 2,
+        "c003": 2,
+        "c004": 2
+      },
+      "max_local_cost": 2,
+      "minimax_beliefs": 15,
+      "minimax_cost": 2,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 5,
+          "completions": 5,
+          "expected_cost": "2",
+          "worst_cost": 2,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 5,
+          "completions": 5,
+          "expected_cost": "2",
+          "worst_cost": 2,
+          "worst_cost_gap": 0
+        },
+        "full_acquisition": {
+          "certified": 5,
+          "completions": 5,
+          "expected_cost": "15",
+          "worst_cost": 15,
+          "worst_cost_gap": 13
+        },
+        "greedy_partition": {
+          "certified": 5,
+          "completions": 5,
+          "expected_cost": "2",
+          "worst_cost": 2,
+          "worst_cost_gap": 0
+        },
+        "uniform_static": {
+          "certified": 5,
+          "completions": 5,
+          "expected_cost": "2",
+          "worst_cost": 2,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 6,
+      "random": {
+        "certified": 5,
+        "completions": 5,
+        "maximum_worst_cost": 10,
+        "mean_expected_cost": "337/64",
+        "mean_worst_cost": "99/16",
+        "minimum_worst_cost": 2,
+        "optimal_runs": 4,
+        "trials": 16
+      },
+      "rows": 5,
+      "static_cost": 2,
+      "static_minus_minimax": 0,
+      "static_queries": [
+        "fact_2"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "seeded_binary_12",
+      "family": "seeded_binary",
+      "full_identity_certified_by_exhaustion": 9,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 54,
+      "local_costs": {
+        "c000": 3,
+        "c001": 6,
+        "c002": 3,
+        "c003": 3,
+        "c004": 3,
+        "c005": 6,
+        "c006": 6,
+        "c007": 6,
+        "c008": 6
+      },
+      "max_local_cost": 6,
+      "minimax_beliefs": 48,
+      "minimax_cost": 6,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 9,
+          "completions": 9,
+          "expected_cost": "6",
+          "worst_cost": 6,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 9,
+          "completions": 9,
+          "expected_cost": "47/7",
+          "worst_cost": 9,
+          "worst_cost_gap": 3
+        },
+        "full_acquisition": {
+          "certified": 9,
+          "completions": 9,
+          "expected_cost": "18",
+          "worst_cost": 18,
+          "worst_cost_gap": 12
+        },
+        "greedy_partition": {
+          "certified": 9,
+          "completions": 9,
+          "expected_cost": "51/7",
+          "worst_cost": 9,
+          "worst_cost_gap": 3
+        },
+        "uniform_static": {
+          "certified": 9,
+          "completions": 9,
+          "expected_cost": "6",
+          "worst_cost": 6,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 5,
+      "random": {
+        "certified": 9,
+        "completions": 9,
+        "maximum_worst_cost": 15,
+        "mean_expected_cost": "243/28",
+        "mean_worst_cost": "189/16",
+        "minimum_worst_cost": 9,
+        "optimal_runs": 0,
+        "trials": 16
+      },
+      "rows": 9,
+      "static_cost": 6,
+      "static_minus_minimax": 0,
+      "static_queries": [
+        "fact_0",
+        "fact_4"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "seeded_binary_13",
+      "family": "seeded_binary",
+      "full_identity_certified_by_exhaustion": 2,
+      "inaccessibility_witness": [
+        "c001",
+        "c005"
+      ],
+      "independent_budget_states": 11,
+      "local_costs": {
+        "c000": 4,
+        "c001": null,
+        "c002": null,
+        "c003": 6,
+        "c004": null,
+        "c005": null,
+        "c006": null,
+        "c007": null,
+        "c008": null
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 2,
+          "completions": 9,
+          "expected_cost": "166/29",
+          "worst_cost": 9
+        },
+        "full_acquisition": {
+          "certified": 2,
+          "completions": 9,
+          "expected_cost": "14",
+          "worst_cost": 14
+        },
+        "greedy_partition": {
+          "certified": 2,
+          "completions": 9,
+          "expected_cost": "166/29",
+          "worst_cost": 9
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 4,
+      "random": {
+        "certified": 2,
+        "completions": 9,
+        "maximum_worst_cost": 14,
+        "mean_expected_cost": "233/29",
+        "mean_worst_cost": "81/8",
+        "minimum_worst_cost": 9,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 9,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_binary_14",
+      "family": "seeded_binary",
+      "full_identity_certified_by_exhaustion": 4,
+      "inaccessibility_witness": [
+        "c001",
+        "c004"
+      ],
+      "independent_budget_states": 42,
+      "local_costs": {
+        "c000": 3,
+        "c001": null,
+        "c002": 3,
+        "c003": 7,
+        "c004": null,
+        "c005": 9,
+        "c006": 7,
+        "c007": 8,
+        "c008": 8,
+        "c009": 9
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 8,
+          "completions": 10,
+          "expected_cost": "239/26",
+          "worst_cost": 12
+        },
+        "full_acquisition": {
+          "certified": 8,
+          "completions": 10,
+          "expected_cost": "19",
+          "worst_cost": 19
+        },
+        "greedy_partition": {
+          "certified": 8,
+          "completions": 10,
+          "expected_cost": "239/26",
+          "worst_cost": 12
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 5,
+      "random": {
+        "certified": 8,
+        "completions": 10,
+        "maximum_worst_cost": 16,
+        "mean_expected_cost": "2203/208",
+        "mean_worst_cost": "14",
+        "minimum_worst_cost": 12,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 10,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_binary_15",
+      "family": "seeded_binary",
+      "full_identity_certified_by_exhaustion": 5,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 6,
+      "local_costs": {
+        "c000": 0,
+        "c001": 0,
+        "c002": 0,
+        "c003": 0,
+        "c004": 0
+      },
+      "max_local_cost": 0,
+      "minimax_beliefs": 1,
+      "minimax_cost": 0,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 5,
+          "completions": 5,
+          "expected_cost": "0",
+          "worst_cost": 0,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 5,
+          "completions": 5,
+          "expected_cost": "0",
+          "worst_cost": 0,
+          "worst_cost_gap": 0
+        },
+        "full_acquisition": {
+          "certified": 5,
+          "completions": 5,
+          "expected_cost": "16",
+          "worst_cost": 16,
+          "worst_cost_gap": 16
+        },
+        "greedy_partition": {
+          "certified": 5,
+          "completions": 5,
+          "expected_cost": "0",
+          "worst_cost": 0,
+          "worst_cost_gap": 0
+        },
+        "uniform_static": {
+          "certified": 5,
+          "completions": 5,
+          "expected_cost": "0",
+          "worst_cost": 0,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 5,
+      "random": {
+        "certified": 5,
+        "completions": 5,
+        "maximum_worst_cost": 0,
+        "mean_expected_cost": "0",
+        "mean_worst_cost": "0",
+        "minimum_worst_cost": 0,
+        "optimal_runs": 16,
+        "trials": 16
+      },
+      "rows": 5,
+      "static_cost": 0,
+      "static_minus_minimax": 0,
+      "static_queries": [],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "seeded_categorical_00",
+      "family": "seeded_categorical",
+      "full_identity_certified_by_exhaustion": 9,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 69,
+      "local_costs": {
+        "c000": 5,
+        "c001": 7,
+        "c002": 2,
+        "c003": 5,
+        "c004": 5,
+        "c005": 5,
+        "c006": 5,
+        "c007": 5,
+        "c008": 5
+      },
+      "max_local_cost": 7,
+      "minimax_beliefs": 33,
+      "minimax_cost": 7,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 9,
+          "completions": 9,
+          "expected_cost": "165/28",
+          "worst_cost": 7,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 9,
+          "completions": 9,
+          "expected_cost": "38/7",
+          "worst_cost": 10,
+          "worst_cost_gap": 3
+        },
+        "full_acquisition": {
+          "certified": 9,
+          "completions": 9,
+          "expected_cost": "15",
+          "worst_cost": 15,
+          "worst_cost_gap": 8
+        },
+        "greedy_partition": {
+          "certified": 9,
+          "completions": 9,
+          "expected_cost": "38/7",
+          "worst_cost": 10,
+          "worst_cost_gap": 3
+        },
+        "uniform_static": {
+          "certified": 9,
+          "completions": 9,
+          "expected_cost": "10",
+          "worst_cost": 10,
+          "worst_cost_gap": 3
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 4,
+      "random": {
+        "certified": 9,
+        "completions": 9,
+        "maximum_worst_cost": 13,
+        "mean_expected_cost": "3903/448",
+        "mean_worst_cost": "91/8",
+        "minimum_worst_cost": 8,
+        "optimal_runs": 0,
+        "trials": 16
+      },
+      "rows": 9,
+      "static_cost": 10,
+      "static_minus_minimax": 3,
+      "static_queries": [
+        "fact_0",
+        "fact_1",
+        "fact_3"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "seeded_categorical_01",
+      "family": "seeded_categorical",
+      "full_identity_certified_by_exhaustion": 5,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 33,
+      "local_costs": {
+        "c000": 7,
+        "c001": 9,
+        "c002": 4,
+        "c003": 6,
+        "c004": 9
+      },
+      "max_local_cost": 9,
+      "minimax_beliefs": 11,
+      "minimax_cost": 9,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 5,
+          "completions": 5,
+          "expected_cost": "105/13",
+          "worst_cost": 9,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 5,
+          "completions": 5,
+          "expected_cost": "105/13",
+          "worst_cost": 9,
+          "worst_cost_gap": 0
+        },
+        "full_acquisition": {
+          "certified": 5,
+          "completions": 5,
+          "expected_cost": "13",
+          "worst_cost": 13,
+          "worst_cost_gap": 4
+        },
+        "greedy_partition": {
+          "certified": 5,
+          "completions": 5,
+          "expected_cost": "105/13",
+          "worst_cost": 9,
+          "worst_cost_gap": 0
+        },
+        "uniform_static": {
+          "certified": 5,
+          "completions": 5,
+          "expected_cost": "9",
+          "worst_cost": 9,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 3,
+      "random": {
+        "certified": 5,
+        "completions": 5,
+        "maximum_worst_cost": 13,
+        "mean_expected_cost": "1927/208",
+        "mean_worst_cost": "85/8",
+        "minimum_worst_cost": 9,
+        "optimal_runs": 8,
+        "trials": 16
+      },
+      "rows": 5,
+      "static_cost": 9,
+      "static_minus_minimax": 0,
+      "static_queries": [
+        "fact_0",
+        "fact_1"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "seeded_categorical_02",
+      "family": "seeded_categorical",
+      "full_identity_certified_by_exhaustion": 8,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 61,
+      "local_costs": {
+        "c000": 5,
+        "c001": 3,
+        "c002": 3,
+        "c003": 3,
+        "c004": 5,
+        "c005": 5,
+        "c006": 5,
+        "c007": 5
+      },
+      "max_local_cost": 5,
+      "minimax_beliefs": 25,
+      "minimax_cost": 5,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "5",
+          "worst_cost": 5,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "5",
+          "worst_cost": 5,
+          "worst_cost_gap": 0
+        },
+        "full_acquisition": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "14",
+          "worst_cost": 14,
+          "worst_cost_gap": 9
+        },
+        "greedy_partition": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "5",
+          "worst_cost": 5,
+          "worst_cost_gap": 0
+        },
+        "uniform_static": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "8",
+          "worst_cost": 8,
+          "worst_cost_gap": 3
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 4,
+      "random": {
+        "certified": 8,
+        "completions": 8,
+        "maximum_worst_cost": 12,
+        "mean_expected_cost": "1681/216",
+        "mean_worst_cost": "43/4",
+        "minimum_worst_cost": 8,
+        "optimal_runs": 0,
+        "trials": 16
+      },
+      "rows": 8,
+      "static_cost": 8,
+      "static_minus_minimax": 3,
+      "static_queries": [
+        "fact_0",
+        "fact_1",
+        "fact_3"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "seeded_categorical_03",
+      "family": "seeded_categorical",
+      "full_identity_certified_by_exhaustion": 8,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 193,
+      "local_costs": {
+        "c000": 6,
+        "c001": 11,
+        "c002": 5,
+        "c003": 10,
+        "c004": 8,
+        "c005": 8,
+        "c006": 6,
+        "c007": 8
+      },
+      "max_local_cost": 11,
+      "minimax_beliefs": 28,
+      "minimax_cost": 12,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "78/7",
+          "worst_cost": 12,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "135/14",
+          "worst_cost": 17,
+          "worst_cost_gap": 5
+        },
+        "full_acquisition": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "23",
+          "worst_cost": 23,
+          "worst_cost_gap": 11
+        },
+        "greedy_partition": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "137/14",
+          "worst_cost": 17,
+          "worst_cost_gap": 5
+        },
+        "uniform_static": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "14",
+          "worst_cost": 14,
+          "worst_cost_gap": 2
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 5,
+      "random": {
+        "certified": 8,
+        "completions": 8,
+        "maximum_worst_cost": 21,
+        "mean_expected_cost": "2805/224",
+        "mean_worst_cost": "135/8",
+        "minimum_worst_cost": 15,
+        "optimal_runs": 0,
+        "trials": 16
+      },
+      "rows": 8,
+      "static_cost": 14,
+      "static_minus_minimax": 2,
+      "static_queries": [
+        "fact_0",
+        "fact_2",
+        "fact_3"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "seeded_categorical_04",
+      "family": "seeded_categorical",
+      "full_identity_certified_by_exhaustion": 4,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 24,
+      "local_costs": {
+        "c000": 4,
+        "c001": 1,
+        "c002": 4,
+        "c003": 1
+      },
+      "max_local_cost": 4,
+      "minimax_beliefs": 11,
+      "minimax_cost": 4,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "4",
+          "worst_cost": 4,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "3",
+          "worst_cost": 5,
+          "worst_cost_gap": 1
+        },
+        "full_acquisition": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "17",
+          "worst_cost": 17,
+          "worst_cost_gap": 13
+        },
+        "greedy_partition": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "3",
+          "worst_cost": 5,
+          "worst_cost_gap": 1
+        },
+        "uniform_static": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "4",
+          "worst_cost": 4,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 5,
+      "random": {
+        "certified": 4,
+        "completions": 4,
+        "maximum_worst_cost": 9,
+        "mean_expected_cost": "59/12",
+        "mean_worst_cost": "101/16",
+        "minimum_worst_cost": 4,
+        "optimal_runs": 2,
+        "trials": 16
+      },
+      "rows": 4,
+      "static_cost": 4,
+      "static_minus_minimax": 0,
+      "static_queries": [
+        "fact_1"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "seeded_categorical_05",
+      "family": "seeded_categorical",
+      "full_identity_certified_by_exhaustion": 8,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 76,
+      "local_costs": {
+        "c000": 6,
+        "c001": 6,
+        "c002": 4,
+        "c003": 6,
+        "c004": 1,
+        "c005": 10,
+        "c006": 6,
+        "c007": 1
+      },
+      "max_local_cost": 10,
+      "minimax_beliefs": 23,
+      "minimax_cost": 10,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "241/31",
+          "worst_cost": 10,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "198/31",
+          "worst_cost": 10,
+          "worst_cost_gap": 0
+        },
+        "full_acquisition": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "16",
+          "worst_cost": 16,
+          "worst_cost_gap": 6
+        },
+        "greedy_partition": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "198/31",
+          "worst_cost": 10,
+          "worst_cost_gap": 0
+        },
+        "uniform_static": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "10",
+          "worst_cost": 10,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 4,
+      "random": {
+        "certified": 8,
+        "completions": 8,
+        "maximum_worst_cost": 12,
+        "mean_expected_cost": "4057/496",
+        "mean_worst_cost": "45/4",
+        "minimum_worst_cost": 10,
+        "optimal_runs": 4,
+        "trials": 16
+      },
+      "rows": 8,
+      "static_cost": 10,
+      "static_minus_minimax": 0,
+      "static_queries": [
+        "fact_0",
+        "fact_2",
+        "fact_3"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "seeded_categorical_06",
+      "family": "seeded_categorical",
+      "full_identity_certified_by_exhaustion": 5,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 17,
+      "local_costs": {
+        "c000": 2,
+        "c001": 2,
+        "c002": 2,
+        "c003": 2,
+        "c004": 2
+      },
+      "max_local_cost": 2,
+      "minimax_beliefs": 18,
+      "minimax_cost": 2,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 5,
+          "completions": 5,
+          "expected_cost": "2",
+          "worst_cost": 2,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 5,
+          "completions": 5,
+          "expected_cost": "2",
+          "worst_cost": 2,
+          "worst_cost_gap": 0
+        },
+        "full_acquisition": {
+          "certified": 5,
+          "completions": 5,
+          "expected_cost": "21",
+          "worst_cost": 21,
+          "worst_cost_gap": 19
+        },
+        "greedy_partition": {
+          "certified": 5,
+          "completions": 5,
+          "expected_cost": "2",
+          "worst_cost": 2,
+          "worst_cost_gap": 0
+        },
+        "uniform_static": {
+          "certified": 5,
+          "completions": 5,
+          "expected_cost": "2",
+          "worst_cost": 2,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 6,
+      "random": {
+        "certified": 5,
+        "completions": 5,
+        "maximum_worst_cost": 13,
+        "mean_expected_cost": "1687/272",
+        "mean_worst_cost": "117/16",
+        "minimum_worst_cost": 2,
+        "optimal_runs": 3,
+        "trials": 16
+      },
+      "rows": 5,
+      "static_cost": 2,
+      "static_minus_minimax": 0,
+      "static_queries": [
+        "fact_0"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "seeded_categorical_07",
+      "family": "seeded_categorical",
+      "full_identity_certified_by_exhaustion": 8,
+      "inaccessibility_witness": [
+        "c002",
+        "c008"
+      ],
+      "independent_budget_states": 41,
+      "local_costs": {
+        "c000": 3,
+        "c001": 3,
+        "c002": null,
+        "c003": 3,
+        "c004": 6,
+        "c005": 3,
+        "c006": 3,
+        "c007": 4,
+        "c008": null,
+        "c009": 3
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 8,
+          "completions": 10,
+          "expected_cost": "123/31",
+          "worst_cost": 6
+        },
+        "full_acquisition": {
+          "certified": 8,
+          "completions": 10,
+          "expected_cost": "9",
+          "worst_cost": 9
+        },
+        "greedy_partition": {
+          "certified": 8,
+          "completions": 10,
+          "expected_cost": "123/31",
+          "worst_cost": 6
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 4,
+      "random": {
+        "certified": 8,
+        "completions": 10,
+        "maximum_worst_cost": 9,
+        "mean_expected_cost": "325/62",
+        "mean_worst_cost": "27/4",
+        "minimum_worst_cost": 6,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 10,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_categorical_08",
+      "family": "seeded_categorical",
+      "full_identity_certified_by_exhaustion": 6,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 49,
+      "local_costs": {
+        "c000": 4,
+        "c001": 6,
+        "c002": 6,
+        "c003": 6,
+        "c004": 4,
+        "c005": 3,
+        "c006": 3,
+        "c007": 4
+      },
+      "max_local_cost": 6,
+      "minimax_beliefs": 21,
+      "minimax_cost": 7,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "79/13",
+          "worst_cost": 7,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "79/13",
+          "worst_cost": 7,
+          "worst_cost_gap": 0
+        },
+        "full_acquisition": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "19",
+          "worst_cost": 19,
+          "worst_cost_gap": 12
+        },
+        "greedy_partition": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "76/13",
+          "worst_cost": 7,
+          "worst_cost_gap": 0
+        },
+        "uniform_static": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "7",
+          "worst_cost": 7,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 4,
+      "random": {
+        "certified": 8,
+        "completions": 8,
+        "maximum_worst_cost": 16,
+        "mean_expected_cost": "3453/416",
+        "mean_worst_cost": "45/4",
+        "minimum_worst_cost": 7,
+        "optimal_runs": 5,
+        "trials": 16
+      },
+      "rows": 8,
+      "static_cost": 7,
+      "static_minus_minimax": 0,
+      "static_queries": [
+        "fact_1",
+        "fact_3"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "seeded_categorical_09",
+      "family": "seeded_categorical",
+      "full_identity_certified_by_exhaustion": 8,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 108,
+      "local_costs": {
+        "c000": 4,
+        "c001": 7,
+        "c002": 3,
+        "c003": 1,
+        "c004": 5,
+        "c005": 4,
+        "c006": 4,
+        "c007": 9
+      },
+      "max_local_cost": 9,
+      "minimax_beliefs": 30,
+      "minimax_cost": 10,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "47/5",
+          "worst_cost": 10,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "23/4",
+          "worst_cost": 10,
+          "worst_cost_gap": 0
+        },
+        "full_acquisition": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "18",
+          "worst_cost": 18,
+          "worst_cost_gap": 8
+        },
+        "greedy_partition": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "23/4",
+          "worst_cost": 10,
+          "worst_cost_gap": 0
+        },
+        "uniform_static": {
+          "certified": 8,
+          "completions": 8,
+          "expected_cost": "11",
+          "worst_cost": 11,
+          "worst_cost_gap": 1
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 5,
+      "random": {
+        "certified": 8,
+        "completions": 8,
+        "maximum_worst_cost": 17,
+        "mean_expected_cost": "2973/320",
+        "mean_worst_cost": "211/16",
+        "minimum_worst_cost": 10,
+        "optimal_runs": 2,
+        "trials": 16
+      },
+      "rows": 8,
+      "static_cost": 11,
+      "static_minus_minimax": 1,
+      "static_queries": [
+        "fact_0",
+        "fact_1",
+        "fact_4"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "seeded_categorical_10",
+      "family": "seeded_categorical",
+      "full_identity_certified_by_exhaustion": 10,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 40,
+      "local_costs": {
+        "c000": 5,
+        "c001": 2,
+        "c002": 4,
+        "c003": 4,
+        "c004": 3,
+        "c005": 2,
+        "c006": 6,
+        "c007": 4,
+        "c008": 6,
+        "c009": 6
+      },
+      "max_local_cost": 6,
+      "minimax_beliefs": 36,
+      "minimax_cost": 6,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 10,
+          "completions": 10,
+          "expected_cost": "26/5",
+          "worst_cost": 6,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 10,
+          "completions": 10,
+          "expected_cost": "83/15",
+          "worst_cost": 9,
+          "worst_cost_gap": 3
+        },
+        "full_acquisition": {
+          "certified": 10,
+          "completions": 10,
+          "expected_cost": "13",
+          "worst_cost": 13,
+          "worst_cost_gap": 7
+        },
+        "greedy_partition": {
+          "certified": 10,
+          "completions": 10,
+          "expected_cost": "83/15",
+          "worst_cost": 9,
+          "worst_cost_gap": 3
+        },
+        "uniform_static": {
+          "certified": 10,
+          "completions": 10,
+          "expected_cost": "6",
+          "worst_cost": 6,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 4,
+      "random": {
+        "certified": 10,
+        "completions": 10,
+        "maximum_worst_cost": 11,
+        "mean_expected_cost": "557/80",
+        "mean_worst_cost": "153/16",
+        "minimum_worst_cost": 6,
+        "optimal_runs": 2,
+        "trials": 16
+      },
+      "rows": 10,
+      "static_cost": 6,
+      "static_minus_minimax": 0,
+      "static_queries": [
+        "fact_1",
+        "fact_3"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "seeded_categorical_11",
+      "family": "seeded_categorical",
+      "full_identity_certified_by_exhaustion": 9,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 65,
+      "local_costs": {
+        "c000": 1,
+        "c001": 5,
+        "c002": 6,
+        "c003": 2,
+        "c004": 5,
+        "c005": 5,
+        "c006": 3,
+        "c007": 3,
+        "c008": 5
+      },
+      "max_local_cost": 6,
+      "minimax_beliefs": 35,
+      "minimax_cost": 6,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 9,
+          "completions": 9,
+          "expected_cost": "124/27",
+          "worst_cost": 6,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 9,
+          "completions": 9,
+          "expected_cost": "127/27",
+          "worst_cost": 7,
+          "worst_cost_gap": 1
+        },
+        "full_acquisition": {
+          "certified": 9,
+          "completions": 9,
+          "expected_cost": "18",
+          "worst_cost": 18,
+          "worst_cost_gap": 12
+        },
+        "greedy_partition": {
+          "certified": 9,
+          "completions": 9,
+          "expected_cost": "127/27",
+          "worst_cost": 7,
+          "worst_cost_gap": 1
+        },
+        "uniform_static": {
+          "certified": 9,
+          "completions": 9,
+          "expected_cost": "6",
+          "worst_cost": 6,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 5,
+      "random": {
+        "certified": 9,
+        "completions": 9,
+        "maximum_worst_cost": 17,
+        "mean_expected_cost": "3491/432",
+        "mean_worst_cost": "173/16",
+        "minimum_worst_cost": 6,
+        "optimal_runs": 1,
+        "trials": 16
+      },
+      "rows": 9,
+      "static_cost": 6,
+      "static_minus_minimax": 0,
+      "static_queries": [
+        "fact_0",
+        "fact_2"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "seeded_categorical_12",
+      "family": "seeded_categorical",
+      "full_identity_certified_by_exhaustion": 7,
+      "inaccessibility_witness": [
+        "c000",
+        "c003"
+      ],
+      "independent_budget_states": 94,
+      "local_costs": {
+        "c000": null,
+        "c001": 3,
+        "c002": 2,
+        "c003": null,
+        "c004": 4,
+        "c005": 1,
+        "c006": 1,
+        "c007": 2,
+        "c008": 4
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 7,
+          "completions": 9,
+          "expected_cost": "83/30",
+          "worst_cost": 5
+        },
+        "full_acquisition": {
+          "certified": 7,
+          "completions": 9,
+          "expected_cost": "15",
+          "worst_cost": 15
+        },
+        "greedy_partition": {
+          "certified": 7,
+          "completions": 9,
+          "expected_cost": "83/30",
+          "worst_cost": 5
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 6,
+      "random": {
+        "certified": 7,
+        "completions": 9,
+        "maximum_worst_cost": 11,
+        "mean_expected_cost": "2489/480",
+        "mean_worst_cost": "15/2",
+        "minimum_worst_cost": 4,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 9,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_categorical_13",
+      "family": "seeded_categorical",
+      "full_identity_certified_by_exhaustion": 4,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 30,
+      "local_costs": {
+        "c000": 1,
+        "c001": 1,
+        "c002": 1,
+        "c003": 2
+      },
+      "max_local_cost": 2,
+      "minimax_beliefs": 9,
+      "minimax_cost": 2,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "17/12",
+          "worst_cost": 2,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "17/12",
+          "worst_cost": 2,
+          "worst_cost_gap": 0
+        },
+        "full_acquisition": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "14",
+          "worst_cost": 14,
+          "worst_cost_gap": 12
+        },
+        "greedy_partition": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "17/12",
+          "worst_cost": 2,
+          "worst_cost_gap": 0
+        },
+        "uniform_static": {
+          "certified": 4,
+          "completions": 4,
+          "expected_cost": "2",
+          "worst_cost": 2,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 6,
+      "random": {
+        "certified": 4,
+        "completions": 4,
+        "maximum_worst_cost": 6,
+        "mean_expected_cost": "607/192",
+        "mean_worst_cost": "65/16",
+        "minimum_worst_cost": 2,
+        "optimal_runs": 1,
+        "trials": 16
+      },
+      "rows": 4,
+      "static_cost": 2,
+      "static_minus_minimax": 0,
+      "static_queries": [
+        "fact_2",
+        "fact_5"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "seeded_categorical_14",
+      "family": "seeded_categorical",
+      "full_identity_certified_by_exhaustion": 5,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 36,
+      "local_costs": {
+        "c000": 4,
+        "c001": 4,
+        "c002": 4,
+        "c003": 5,
+        "c004": 1
+      },
+      "max_local_cost": 5,
+      "minimax_beliefs": 13,
+      "minimax_cost": 5,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 5,
+          "completions": 5,
+          "expected_cost": "71/15",
+          "worst_cost": 5,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 5,
+          "completions": 5,
+          "expected_cost": "71/15",
+          "worst_cost": 5,
+          "worst_cost_gap": 0
+        },
+        "full_acquisition": {
+          "certified": 5,
+          "completions": 5,
+          "expected_cost": "14",
+          "worst_cost": 14,
+          "worst_cost_gap": 9
+        },
+        "greedy_partition": {
+          "certified": 5,
+          "completions": 5,
+          "expected_cost": "71/15",
+          "worst_cost": 5,
+          "worst_cost_gap": 0
+        },
+        "uniform_static": {
+          "certified": 5,
+          "completions": 5,
+          "expected_cost": "5",
+          "worst_cost": 5,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 4,
+      "random": {
+        "certified": 5,
+        "completions": 5,
+        "maximum_worst_cost": 13,
+        "mean_expected_cost": "499/80",
+        "mean_worst_cost": "131/16",
+        "minimum_worst_cost": 5,
+        "optimal_runs": 5,
+        "trials": 16
+      },
+      "rows": 5,
+      "static_cost": 5,
+      "static_minus_minimax": 0,
+      "static_queries": [
+        "fact_1",
+        "fact_2"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "seeded_categorical_15",
+      "family": "seeded_categorical",
+      "full_identity_certified_by_exhaustion": 7,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 33,
+      "local_costs": {
+        "c000": 3,
+        "c001": 1,
+        "c002": 3,
+        "c003": 3,
+        "c004": 2,
+        "c005": 3,
+        "c006": 1
+      },
+      "max_local_cost": 3,
+      "minimax_beliefs": 16,
+      "minimax_cost": 3,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 7,
+          "completions": 7,
+          "expected_cost": "65/23",
+          "worst_cost": 3,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 7,
+          "completions": 7,
+          "expected_cost": "59/23",
+          "worst_cost": 3,
+          "worst_cost_gap": 0
+        },
+        "full_acquisition": {
+          "certified": 7,
+          "completions": 7,
+          "expected_cost": "9",
+          "worst_cost": 9,
+          "worst_cost_gap": 6
+        },
+        "greedy_partition": {
+          "certified": 7,
+          "completions": 7,
+          "expected_cost": "59/23",
+          "worst_cost": 3,
+          "worst_cost_gap": 0
+        },
+        "uniform_static": {
+          "certified": 7,
+          "completions": 7,
+          "expected_cost": "3",
+          "worst_cost": 3,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 3,
+      "random": {
+        "certified": 7,
+        "completions": 7,
+        "maximum_worst_cost": 9,
+        "mean_expected_cost": "2195/368",
+        "mean_worst_cost": "65/8",
+        "minimum_worst_cost": 3,
+        "optimal_runs": 1,
+        "trials": 16
+      },
+      "rows": 7,
+      "static_cost": 3,
+      "static_minus_minimax": 0,
+      "static_queries": [
+        "fact_1",
+        "fact_2"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "seeded_correlated_00",
+      "family": "seeded_correlated",
+      "full_identity_certified_by_exhaustion": 2,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 20,
+      "local_costs": {
+        "c000": 1,
+        "c001": 4,
+        "c002": 2,
+        "c003": 4,
+        "c004": 3,
+        "c005": 1
+      },
+      "max_local_cost": 4,
+      "minimax_beliefs": 10,
+      "minimax_cost": 4,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 6,
+          "completions": 6,
+          "expected_cost": "69/19",
+          "worst_cost": 4,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 6,
+          "completions": 6,
+          "expected_cost": "67/19",
+          "worst_cost": 4,
+          "worst_cost_gap": 0
+        },
+        "full_acquisition": {
+          "certified": 6,
+          "completions": 6,
+          "expected_cost": "6",
+          "worst_cost": 6,
+          "worst_cost_gap": 2
+        },
+        "greedy_partition": {
+          "certified": 6,
+          "completions": 6,
+          "expected_cost": "67/19",
+          "worst_cost": 4,
+          "worst_cost_gap": 0
+        },
+        "uniform_static": {
+          "certified": 6,
+          "completions": 6,
+          "expected_cost": "4",
+          "worst_cost": 4,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 3,
+      "random": {
+        "certified": 6,
+        "completions": 6,
+        "maximum_worst_cost": 6,
+        "mean_expected_cost": "647/152",
+        "mean_worst_cost": "39/8",
+        "minimum_worst_cost": 4,
+        "optimal_runs": 9,
+        "trials": 16
+      },
+      "rows": 6,
+      "static_cost": 4,
+      "static_minus_minimax": 0,
+      "static_queries": [
+        "fact_0",
+        "fact_1"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "seeded_correlated_01",
+      "family": "seeded_correlated",
+      "full_identity_certified_by_exhaustion": 3,
+      "inaccessibility_witness": [
+        "c000",
+        "c002"
+      ],
+      "independent_budget_states": 17,
+      "local_costs": {
+        "c000": null,
+        "c001": 3,
+        "c002": null,
+        "c003": 4,
+        "c004": 3,
+        "c005": 3,
+        "c006": 4,
+        "c007": 6,
+        "c008": 3
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 7,
+          "completions": 9,
+          "expected_cost": "89/17",
+          "worst_cost": 7
+        },
+        "full_acquisition": {
+          "certified": 7,
+          "completions": 9,
+          "expected_cost": "7",
+          "worst_cost": 7
+        },
+        "greedy_partition": {
+          "certified": 7,
+          "completions": 9,
+          "expected_cost": "205/34",
+          "worst_cost": 7
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 3,
+      "random": {
+        "certified": 7,
+        "completions": 9,
+        "maximum_worst_cost": 7,
+        "mean_expected_cost": "100/17",
+        "mean_worst_cost": "7",
+        "minimum_worst_cost": 7,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 9,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_correlated_02",
+      "family": "seeded_correlated",
+      "full_identity_certified_by_exhaustion": 1,
+      "inaccessibility_witness": [
+        "c000",
+        "c004"
+      ],
+      "independent_budget_states": 8,
+      "local_costs": {
+        "c000": null,
+        "c001": null,
+        "c002": 1,
+        "c003": 1,
+        "c004": null,
+        "c005": 3,
+        "c006": null,
+        "c007": 3,
+        "c008": null,
+        "c009": 3
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 5,
+          "completions": 10,
+          "expected_cost": "25/4",
+          "worst_cost": 7
+        },
+        "full_acquisition": {
+          "certified": 5,
+          "completions": 10,
+          "expected_cost": "7",
+          "worst_cost": 7
+        },
+        "greedy_partition": {
+          "certified": 5,
+          "completions": 10,
+          "expected_cost": "25/4",
+          "worst_cost": 7
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 3,
+      "random": {
+        "certified": 5,
+        "completions": 10,
+        "maximum_worst_cost": 7,
+        "mean_expected_cost": "1451/256",
+        "mean_worst_cost": "7",
+        "minimum_worst_cost": 7,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 10,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_correlated_03",
+      "family": "seeded_correlated",
+      "full_identity_certified_by_exhaustion": 4,
+      "inaccessibility_witness": [
+        "c000",
+        "c001"
+      ],
+      "independent_budget_states": 16,
+      "local_costs": {
+        "c000": null,
+        "c001": null,
+        "c002": 2,
+        "c003": null,
+        "c004": 2,
+        "c005": 2,
+        "c006": null,
+        "c007": 6
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 4,
+          "completions": 8,
+          "expected_cost": "6",
+          "worst_cost": 11
+        },
+        "full_acquisition": {
+          "certified": 4,
+          "completions": 8,
+          "expected_cost": "11",
+          "worst_cost": 11
+        },
+        "greedy_partition": {
+          "certified": 4,
+          "completions": 8,
+          "expected_cost": "6",
+          "worst_cost": 11
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 3,
+      "random": {
+        "certified": 4,
+        "completions": 8,
+        "maximum_worst_cost": 11,
+        "mean_expected_cost": "575/72",
+        "mean_worst_cost": "11",
+        "minimum_worst_cost": 11,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 8,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_correlated_04",
+      "family": "seeded_correlated",
+      "full_identity_certified_by_exhaustion": 3,
+      "inaccessibility_witness": [
+        "c000",
+        "c001"
+      ],
+      "independent_budget_states": 35,
+      "local_costs": {
+        "c000": null,
+        "c001": null,
+        "c002": 5,
+        "c003": 6,
+        "c004": 4
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 3,
+          "completions": 5,
+          "expected_cost": "6",
+          "worst_cost": 6
+        },
+        "full_acquisition": {
+          "certified": 3,
+          "completions": 5,
+          "expected_cost": "19",
+          "worst_cost": 19
+        },
+        "greedy_partition": {
+          "certified": 3,
+          "completions": 5,
+          "expected_cost": "6",
+          "worst_cost": 6
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 5,
+      "random": {
+        "certified": 3,
+        "completions": 5,
+        "maximum_worst_cost": 13,
+        "mean_expected_cost": "131/16",
+        "mean_worst_cost": "87/8",
+        "minimum_worst_cost": 6,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 5,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_correlated_05",
+      "family": "seeded_correlated",
+      "full_identity_certified_by_exhaustion": 3,
+      "inaccessibility_witness": [
+        "c000",
+        "c001"
+      ],
+      "independent_budget_states": 62,
+      "local_costs": {
+        "c000": null,
+        "c001": null,
+        "c002": 7,
+        "c003": 3,
+        "c004": 6
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 3,
+          "completions": 5,
+          "expected_cost": "107/17",
+          "worst_cost": 10
+        },
+        "full_acquisition": {
+          "certified": 3,
+          "completions": 5,
+          "expected_cost": "21",
+          "worst_cost": 21
+        },
+        "greedy_partition": {
+          "certified": 3,
+          "completions": 5,
+          "expected_cost": "107/17",
+          "worst_cost": 10
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 6,
+      "random": {
+        "certified": 3,
+        "completions": 5,
+        "maximum_worst_cost": 16,
+        "mean_expected_cost": "2269/272",
+        "mean_worst_cost": "11",
+        "minimum_worst_cost": 7,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 5,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_correlated_06",
+      "family": "seeded_correlated",
+      "full_identity_certified_by_exhaustion": 3,
+      "inaccessibility_witness": [
+        "c000",
+        "c001"
+      ],
+      "independent_budget_states": 7,
+      "local_costs": {
+        "c000": null,
+        "c001": null,
+        "c002": 5,
+        "c003": 5,
+        "c004": 5,
+        "c005": null
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 3,
+          "completions": 6,
+          "expected_cost": "5",
+          "worst_cost": 5
+        },
+        "full_acquisition": {
+          "certified": 3,
+          "completions": 6,
+          "expected_cost": "16",
+          "worst_cost": 16
+        },
+        "greedy_partition": {
+          "certified": 3,
+          "completions": 6,
+          "expected_cost": "5",
+          "worst_cost": 5
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 4,
+      "random": {
+        "certified": 3,
+        "completions": 6,
+        "maximum_worst_cost": 10,
+        "mean_expected_cost": "57/8",
+        "mean_worst_cost": "123/16",
+        "minimum_worst_cost": 5,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 6,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_correlated_07",
+      "family": "seeded_correlated",
+      "full_identity_certified_by_exhaustion": 5,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 28,
+      "local_costs": {
+        "c000": 1,
+        "c001": 1,
+        "c002": 3,
+        "c003": 3,
+        "c004": 2
+      },
+      "max_local_cost": 3,
+      "minimax_beliefs": 17,
+      "minimax_cost": 3,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 5,
+          "completions": 5,
+          "expected_cost": "43/17",
+          "worst_cost": 3,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 5,
+          "completions": 5,
+          "expected_cost": "39/17",
+          "worst_cost": 3,
+          "worst_cost_gap": 0
+        },
+        "full_acquisition": {
+          "certified": 5,
+          "completions": 5,
+          "expected_cost": "17",
+          "worst_cost": 17,
+          "worst_cost_gap": 14
+        },
+        "greedy_partition": {
+          "certified": 5,
+          "completions": 5,
+          "expected_cost": "39/17",
+          "worst_cost": 3,
+          "worst_cost_gap": 0
+        },
+        "uniform_static": {
+          "certified": 5,
+          "completions": 5,
+          "expected_cost": "3",
+          "worst_cost": 3,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 6,
+      "random": {
+        "certified": 5,
+        "completions": 5,
+        "maximum_worst_cost": 10,
+        "mean_expected_cost": "1203/272",
+        "mean_worst_cost": "45/8",
+        "minimum_worst_cost": 3,
+        "optimal_runs": 2,
+        "trials": 16
+      },
+      "rows": 5,
+      "static_cost": 3,
+      "static_minus_minimax": 0,
+      "static_queries": [
+        "fact_3",
+        "fact_5"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "seeded_correlated_08",
+      "family": "seeded_correlated",
+      "full_identity_certified_by_exhaustion": 2,
+      "inaccessibility_witness": [
+        "c000",
+        "c005"
+      ],
+      "independent_budget_states": 40,
+      "local_costs": {
+        "c000": null,
+        "c001": 6,
+        "c002": 5,
+        "c003": null,
+        "c004": 5,
+        "c005": null,
+        "c006": null,
+        "c007": 6,
+        "c008": 6,
+        "c009": 6
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 6,
+          "completions": 10,
+          "expected_cost": "40/7",
+          "worst_cost": 7
+        },
+        "full_acquisition": {
+          "certified": 6,
+          "completions": 10,
+          "expected_cost": "21",
+          "worst_cost": 21
+        },
+        "greedy_partition": {
+          "certified": 6,
+          "completions": 10,
+          "expected_cost": "40/7",
+          "worst_cost": 7
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 6,
+      "random": {
+        "certified": 6,
+        "completions": 10,
+        "maximum_worst_cost": 15,
+        "mean_expected_cost": "57/7",
+        "mean_worst_cost": "153/16",
+        "minimum_worst_cost": 7,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 10,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_correlated_09",
+      "family": "seeded_correlated",
+      "full_identity_certified_by_exhaustion": 2,
+      "inaccessibility_witness": [
+        "c001",
+        "c004"
+      ],
+      "independent_budget_states": 64,
+      "local_costs": {
+        "c000": 8,
+        "c001": null,
+        "c002": 3,
+        "c003": 4,
+        "c004": null,
+        "c005": 3,
+        "c006": null
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 4,
+          "completions": 7,
+          "expected_cost": "67/9",
+          "worst_cost": 11
+        },
+        "full_acquisition": {
+          "certified": 4,
+          "completions": 7,
+          "expected_cost": "25",
+          "worst_cost": 25
+        },
+        "greedy_partition": {
+          "certified": 4,
+          "completions": 7,
+          "expected_cost": "67/9",
+          "worst_cost": 11
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 6,
+      "random": {
+        "certified": 4,
+        "completions": 7,
+        "maximum_worst_cost": 14,
+        "mean_expected_cost": "147/16",
+        "mean_worst_cost": "197/16",
+        "minimum_worst_cost": 10,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 7,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_correlated_10",
+      "family": "seeded_correlated",
+      "full_identity_certified_by_exhaustion": 4,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 39,
+      "local_costs": {
+        "c000": 2,
+        "c001": 2,
+        "c002": 7,
+        "c003": 2,
+        "c004": 5,
+        "c005": 2
+      },
+      "max_local_cost": 7,
+      "minimax_beliefs": 13,
+      "minimax_cost": 7,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 6,
+          "completions": 6,
+          "expected_cost": "73/14",
+          "worst_cost": 7,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 6,
+          "completions": 6,
+          "expected_cost": "73/14",
+          "worst_cost": 7,
+          "worst_cost_gap": 0
+        },
+        "full_acquisition": {
+          "certified": 6,
+          "completions": 6,
+          "expected_cost": "13",
+          "worst_cost": 13,
+          "worst_cost_gap": 6
+        },
+        "greedy_partition": {
+          "certified": 6,
+          "completions": 6,
+          "expected_cost": "73/14",
+          "worst_cost": 7,
+          "worst_cost_gap": 0
+        },
+        "uniform_static": {
+          "certified": 6,
+          "completions": 6,
+          "expected_cost": "7",
+          "worst_cost": 7,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 3,
+      "random": {
+        "certified": 6,
+        "completions": 6,
+        "maximum_worst_cost": 13,
+        "mean_expected_cost": "1609/224",
+        "mean_worst_cost": "37/4",
+        "minimum_worst_cost": 7,
+        "optimal_runs": 10,
+        "trials": 16
+      },
+      "rows": 6,
+      "static_cost": 7,
+      "static_minus_minimax": 0,
+      "static_queries": [
+        "fact_1",
+        "fact_2"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "seeded_correlated_11",
+      "family": "seeded_correlated",
+      "full_identity_certified_by_exhaustion": 5,
+      "inaccessibility_witness": [
+        "c000",
+        "c001"
+      ],
+      "independent_budget_states": 8,
+      "local_costs": {
+        "c000": null,
+        "c001": null,
+        "c002": 5,
+        "c003": 5,
+        "c004": 6,
+        "c005": 6,
+        "c006": 7
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 5,
+          "completions": 7,
+          "expected_cost": "177/28",
+          "worst_cost": 7
+        },
+        "full_acquisition": {
+          "certified": 5,
+          "completions": 7,
+          "expected_cost": "12",
+          "worst_cost": 12
+        },
+        "greedy_partition": {
+          "certified": 5,
+          "completions": 7,
+          "expected_cost": "177/28",
+          "worst_cost": 7
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 3,
+      "random": {
+        "certified": 5,
+        "completions": 7,
+        "maximum_worst_cost": 12,
+        "mean_expected_cost": "2033/224",
+        "mean_worst_cost": "177/16",
+        "minimum_worst_cost": 7,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 7,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_correlated_12",
+      "family": "seeded_correlated",
+      "full_identity_certified_by_exhaustion": 5,
+      "inaccessibility_witness": [
+        "c001",
+        "c008"
+      ],
+      "independent_budget_states": 70,
+      "local_costs": {
+        "c000": 5,
+        "c001": null,
+        "c002": 3,
+        "c003": 5,
+        "c004": 5,
+        "c005": 3,
+        "c006": 3,
+        "c007": 4,
+        "c008": null
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 7,
+          "completions": 9,
+          "expected_cost": "64/15",
+          "worst_cost": 5
+        },
+        "full_acquisition": {
+          "certified": 7,
+          "completions": 9,
+          "expected_cost": "18",
+          "worst_cost": 18
+        },
+        "greedy_partition": {
+          "certified": 7,
+          "completions": 9,
+          "expected_cost": "71/15",
+          "worst_cost": 5
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 6,
+      "random": {
+        "certified": 7,
+        "completions": 9,
+        "maximum_worst_cost": 15,
+        "mean_expected_cost": "4187/480",
+        "mean_worst_cost": "11",
+        "minimum_worst_cost": 5,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 9,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_correlated_13",
+      "family": "seeded_correlated",
+      "full_identity_certified_by_exhaustion": 3,
+      "inaccessibility_witness": null,
+      "independent_budget_states": 74,
+      "local_costs": {
+        "c000": 6,
+        "c001": 7,
+        "c002": 1,
+        "c003": 1,
+        "c004": 7,
+        "c005": 3,
+        "c006": 3
+      },
+      "max_local_cost": 7,
+      "minimax_beliefs": 18,
+      "minimax_cost": 8,
+      "policies": {
+        "adaptive_optimum": {
+          "certified": 7,
+          "completions": 7,
+          "expected_cost": "89/18",
+          "worst_cost": 8,
+          "worst_cost_gap": 0
+        },
+        "edge_cut": {
+          "certified": 7,
+          "completions": 7,
+          "expected_cost": "77/18",
+          "worst_cost": 8,
+          "worst_cost_gap": 0
+        },
+        "full_acquisition": {
+          "certified": 7,
+          "completions": 7,
+          "expected_cost": "21",
+          "worst_cost": 21,
+          "worst_cost_gap": 13
+        },
+        "greedy_partition": {
+          "certified": 7,
+          "completions": 7,
+          "expected_cost": "77/18",
+          "worst_cost": 8,
+          "worst_cost_gap": 0
+        },
+        "uniform_static": {
+          "certified": 7,
+          "completions": 7,
+          "expected_cost": "8",
+          "worst_cost": 8,
+          "worst_cost_gap": 0
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 6,
+      "random": {
+        "certified": 7,
+        "completions": 7,
+        "maximum_worst_cost": 15,
+        "mean_expected_cost": "851/96",
+        "mean_worst_cost": "49/4",
+        "minimum_worst_cost": 8,
+        "optimal_runs": 2,
+        "trials": 16
+      },
+      "rows": 7,
+      "static_cost": 8,
+      "static_minus_minimax": 0,
+      "static_queries": [
+        "fact_0",
+        "fact_1",
+        "fact_2"
+      ],
+      "status": "CERTIFIED"
+    },
+    {
+      "case": "seeded_correlated_14",
+      "family": "seeded_correlated",
+      "full_identity_certified_by_exhaustion": 6,
+      "inaccessibility_witness": [
+        "c000",
+        "c006"
+      ],
+      "independent_budget_states": 36,
+      "local_costs": {
+        "c000": null,
+        "c001": 10,
+        "c002": 4,
+        "c003": 2,
+        "c004": null,
+        "c005": 2,
+        "c006": null,
+        "c007": 4,
+        "c008": 2
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 6,
+          "completions": 9,
+          "expected_cost": "29/4",
+          "worst_cost": 10
+        },
+        "full_acquisition": {
+          "certified": 6,
+          "completions": 9,
+          "expected_cost": "14",
+          "worst_cost": 14
+        },
+        "greedy_partition": {
+          "certified": 6,
+          "completions": 9,
+          "expected_cost": "29/4",
+          "worst_cost": 10
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 4,
+      "random": {
+        "certified": 6,
+        "completions": 9,
+        "maximum_worst_cost": 10,
+        "mean_expected_cost": "2281/256",
+        "mean_worst_cost": "10",
+        "minimum_worst_cost": 10,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 9,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_correlated_15",
+      "family": "seeded_correlated",
+      "full_identity_certified_by_exhaustion": 3,
+      "inaccessibility_witness": [
+        "c001",
+        "c004"
+      ],
+      "independent_budget_states": 51,
+      "local_costs": {
+        "c000": 4,
+        "c001": null,
+        "c002": 4,
+        "c003": 4,
+        "c004": null,
+        "c005": null,
+        "c006": 6,
+        "c007": 4
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 5,
+          "completions": 8,
+          "expected_cost": "6",
+          "worst_cost": 6
+        },
+        "full_acquisition": {
+          "certified": 5,
+          "completions": 8,
+          "expected_cost": "20",
+          "worst_cost": 20
+        },
+        "greedy_partition": {
+          "certified": 5,
+          "completions": 8,
+          "expected_cost": "6",
+          "worst_cost": 6
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 5,
+      "random": {
+        "certified": 5,
+        "completions": 8,
+        "maximum_worst_cost": 16,
+        "mean_expected_cost": "267/32",
+        "mean_worst_cost": "87/8",
+        "minimum_worst_cost": 6,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 8,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_aliased_00",
+      "family": "seeded_aliased",
+      "full_identity_certified_by_exhaustion": 1,
+      "inaccessibility_witness": [
+        "c000",
+        "c003"
+      ],
+      "independent_budget_states": 2,
+      "local_costs": {
+        "c000": null,
+        "c001": null,
+        "c002": 6,
+        "c003": null
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 1,
+          "completions": 4,
+          "expected_cost": "6",
+          "worst_cost": 6
+        },
+        "full_acquisition": {
+          "certified": 1,
+          "completions": 4,
+          "expected_cost": "11",
+          "worst_cost": 11
+        },
+        "greedy_partition": {
+          "certified": 1,
+          "completions": 4,
+          "expected_cost": "6",
+          "worst_cost": 6
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 3,
+      "random": {
+        "certified": 1,
+        "completions": 4,
+        "maximum_worst_cost": 6,
+        "mean_expected_cost": "6",
+        "mean_worst_cost": "6",
+        "minimum_worst_cost": 6,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 4,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_aliased_01",
+      "family": "seeded_aliased",
+      "full_identity_certified_by_exhaustion": 3,
+      "inaccessibility_witness": [
+        "c000",
+        "c004"
+      ],
+      "independent_budget_states": 11,
+      "local_costs": {
+        "c000": null,
+        "c001": 7,
+        "c002": 2,
+        "c003": 7,
+        "c004": null
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 3,
+          "completions": 5,
+          "expected_cost": "53/9",
+          "worst_cost": 7
+        },
+        "full_acquisition": {
+          "certified": 3,
+          "completions": 5,
+          "expected_cost": "16",
+          "worst_cost": 16
+        },
+        "greedy_partition": {
+          "certified": 3,
+          "completions": 5,
+          "expected_cost": "53/9",
+          "worst_cost": 7
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 6,
+      "random": {
+        "certified": 3,
+        "completions": 5,
+        "maximum_worst_cost": 12,
+        "mean_expected_cost": "2171/288",
+        "mean_worst_cost": "71/8",
+        "minimum_worst_cost": 7,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 5,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_aliased_02",
+      "family": "seeded_aliased",
+      "full_identity_certified_by_exhaustion": 4,
+      "inaccessibility_witness": [
+        "c000",
+        "c005"
+      ],
+      "independent_budget_states": 30,
+      "local_costs": {
+        "c000": null,
+        "c001": 7,
+        "c002": 6,
+        "c003": 6,
+        "c004": 4,
+        "c005": null
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 4,
+          "completions": 6,
+          "expected_cost": "7",
+          "worst_cost": 7
+        },
+        "full_acquisition": {
+          "certified": 4,
+          "completions": 6,
+          "expected_cost": "17",
+          "worst_cost": 17
+        },
+        "greedy_partition": {
+          "certified": 4,
+          "completions": 6,
+          "expected_cost": "141/17",
+          "worst_cost": 11
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 4,
+      "random": {
+        "certified": 4,
+        "completions": 6,
+        "maximum_worst_cost": 15,
+        "mean_expected_cost": "627/68",
+        "mean_worst_cost": "181/16",
+        "minimum_worst_cost": 7,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 6,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_aliased_03",
+      "family": "seeded_aliased",
+      "full_identity_certified_by_exhaustion": 3,
+      "inaccessibility_witness": [
+        "c004",
+        "c008"
+      ],
+      "independent_budget_states": 12,
+      "local_costs": {
+        "c000": null,
+        "c001": 2,
+        "c002": null,
+        "c003": 2,
+        "c004": null,
+        "c005": 2,
+        "c006": 7,
+        "c007": 2,
+        "c008": null,
+        "c009": null
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 5,
+          "completions": 10,
+          "expected_cost": "183/29",
+          "worst_cost": 12
+        },
+        "full_acquisition": {
+          "certified": 5,
+          "completions": 10,
+          "expected_cost": "12",
+          "worst_cost": 12
+        },
+        "greedy_partition": {
+          "certified": 5,
+          "completions": 10,
+          "expected_cost": "183/29",
+          "worst_cost": 12
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 3,
+      "random": {
+        "certified": 5,
+        "completions": 10,
+        "maximum_worst_cost": 12,
+        "mean_expected_cost": "575/58",
+        "mean_worst_cost": "12",
+        "minimum_worst_cost": 12,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 10,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_aliased_04",
+      "family": "seeded_aliased",
+      "full_identity_certified_by_exhaustion": 1,
+      "inaccessibility_witness": [
+        "c002",
+        "c003"
+      ],
+      "independent_budget_states": 10,
+      "local_costs": {
+        "c000": null,
+        "c001": 6,
+        "c002": null,
+        "c003": null,
+        "c004": 6,
+        "c005": 6,
+        "c006": null,
+        "c007": null
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 3,
+          "completions": 8,
+          "expected_cost": "164/23",
+          "worst_cost": 10
+        },
+        "full_acquisition": {
+          "certified": 3,
+          "completions": 8,
+          "expected_cost": "16",
+          "worst_cost": 16
+        },
+        "greedy_partition": {
+          "certified": 3,
+          "completions": 8,
+          "expected_cost": "164/23",
+          "worst_cost": 10
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 3,
+      "random": {
+        "certified": 3,
+        "completions": 8,
+        "maximum_worst_cost": 16,
+        "mean_expected_cost": "211/23",
+        "mean_worst_cost": "95/8",
+        "minimum_worst_cost": 10,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 8,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_aliased_05",
+      "family": "seeded_aliased",
+      "full_identity_certified_by_exhaustion": 2,
+      "inaccessibility_witness": [
+        "c000",
+        "c003"
+      ],
+      "independent_budget_states": 7,
+      "local_costs": {
+        "c000": null,
+        "c001": 4,
+        "c002": 2,
+        "c003": null
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 2,
+          "completions": 4,
+          "expected_cost": "74/15",
+          "worst_cost": 6
+        },
+        "full_acquisition": {
+          "certified": 2,
+          "completions": 4,
+          "expected_cost": "8",
+          "worst_cost": 8
+        },
+        "greedy_partition": {
+          "certified": 2,
+          "completions": 4,
+          "expected_cost": "74/15",
+          "worst_cost": 6
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 3,
+      "random": {
+        "certified": 2,
+        "completions": 4,
+        "maximum_worst_cost": 6,
+        "mean_expected_cost": "557/120",
+        "mean_worst_cost": "43/8",
+        "minimum_worst_cost": 4,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 4,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_aliased_06",
+      "family": "seeded_aliased",
+      "full_identity_certified_by_exhaustion": 3,
+      "inaccessibility_witness": [
+        "c000",
+        "c008"
+      ],
+      "independent_budget_states": 39,
+      "local_costs": {
+        "c000": null,
+        "c001": 2,
+        "c002": 2,
+        "c003": 2,
+        "c004": 2,
+        "c005": 5,
+        "c006": 2,
+        "c007": 2,
+        "c008": null
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 7,
+          "completions": 9,
+          "expected_cost": "46/13",
+          "worst_cost": 6
+        },
+        "full_acquisition": {
+          "certified": 7,
+          "completions": 9,
+          "expected_cost": "21",
+          "worst_cost": 21
+        },
+        "greedy_partition": {
+          "certified": 7,
+          "completions": 9,
+          "expected_cost": "46/13",
+          "worst_cost": 6
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 5,
+      "random": {
+        "certified": 7,
+        "completions": 9,
+        "maximum_worst_cost": 14,
+        "mean_expected_cost": "2577/416",
+        "mean_worst_cost": "135/16",
+        "minimum_worst_cost": 6,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 9,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_aliased_07",
+      "family": "seeded_aliased",
+      "full_identity_certified_by_exhaustion": 2,
+      "inaccessibility_witness": [
+        "c000",
+        "c002"
+      ],
+      "independent_budget_states": 16,
+      "local_costs": {
+        "c000": null,
+        "c001": 6,
+        "c002": null,
+        "c003": 4,
+        "c004": null,
+        "c005": null,
+        "c006": 5,
+        "c007": 4,
+        "c008": null
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 4,
+          "completions": 9,
+          "expected_cost": "63/8",
+          "worst_cost": 12
+        },
+        "full_acquisition": {
+          "certified": 4,
+          "completions": 9,
+          "expected_cost": "16",
+          "worst_cost": 16
+        },
+        "greedy_partition": {
+          "certified": 4,
+          "completions": 9,
+          "expected_cost": "63/8",
+          "worst_cost": 12
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 4,
+      "random": {
+        "certified": 4,
+        "completions": 9,
+        "maximum_worst_cost": 16,
+        "mean_expected_cost": "331/32",
+        "mean_worst_cost": "229/16",
+        "minimum_worst_cost": 12,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 9,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_aliased_08",
+      "family": "seeded_aliased",
+      "full_identity_certified_by_exhaustion": 4,
+      "inaccessibility_witness": [
+        "c000",
+        "c005"
+      ],
+      "independent_budget_states": 78,
+      "local_costs": {
+        "c000": null,
+        "c001": 1,
+        "c002": 5,
+        "c003": 6,
+        "c004": 3,
+        "c005": null
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 4,
+          "completions": 6,
+          "expected_cost": "49/8",
+          "worst_cost": 7
+        },
+        "full_acquisition": {
+          "certified": 4,
+          "completions": 6,
+          "expected_cost": "23",
+          "worst_cost": 23
+        },
+        "greedy_partition": {
+          "certified": 4,
+          "completions": 6,
+          "expected_cost": "51/8",
+          "worst_cost": 8
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 6,
+      "random": {
+        "certified": 4,
+        "completions": 6,
+        "maximum_worst_cost": 15,
+        "mean_expected_cost": "2419/256",
+        "mean_worst_cost": "195/16",
+        "minimum_worst_cost": 7,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 6,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_aliased_09",
+      "family": "seeded_aliased",
+      "full_identity_certified_by_exhaustion": 5,
+      "inaccessibility_witness": [
+        "c000",
+        "c006"
+      ],
+      "independent_budget_states": 26,
+      "local_costs": {
+        "c000": null,
+        "c001": 7,
+        "c002": 10,
+        "c003": 6,
+        "c004": 6,
+        "c005": 6,
+        "c006": null
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 5,
+          "completions": 7,
+          "expected_cost": "218/25",
+          "worst_cost": 10
+        },
+        "full_acquisition": {
+          "certified": 5,
+          "completions": 7,
+          "expected_cost": "21",
+          "worst_cost": 21
+        },
+        "greedy_partition": {
+          "certified": 5,
+          "completions": 7,
+          "expected_cost": "218/25",
+          "worst_cost": 10
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 5,
+      "random": {
+        "certified": 5,
+        "completions": 7,
+        "maximum_worst_cost": 16,
+        "mean_expected_cost": "427/40",
+        "mean_worst_cost": "107/8",
+        "minimum_worst_cost": 10,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 7,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_aliased_10",
+      "family": "seeded_aliased",
+      "full_identity_certified_by_exhaustion": 6,
+      "inaccessibility_witness": [
+        "c000",
+        "c007"
+      ],
+      "independent_budget_states": 115,
+      "local_costs": {
+        "c000": null,
+        "c001": 2,
+        "c002": 4,
+        "c003": 2,
+        "c004": 4,
+        "c005": 3,
+        "c006": 6,
+        "c007": null
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 6,
+          "completions": 8,
+          "expected_cost": "92/17",
+          "worst_cost": 10
+        },
+        "full_acquisition": {
+          "certified": 6,
+          "completions": 8,
+          "expected_cost": "18",
+          "worst_cost": 18
+        },
+        "greedy_partition": {
+          "certified": 6,
+          "completions": 8,
+          "expected_cost": "92/17",
+          "worst_cost": 10
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 6,
+      "random": {
+        "certified": 6,
+        "completions": 8,
+        "maximum_worst_cost": 17,
+        "mean_expected_cost": "2251/272",
+        "mean_worst_cost": "49/4",
+        "minimum_worst_cost": 9,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 8,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_aliased_11",
+      "family": "seeded_aliased",
+      "full_identity_certified_by_exhaustion": 2,
+      "inaccessibility_witness": [
+        "c000",
+        "c003"
+      ],
+      "independent_budget_states": 9,
+      "local_costs": {
+        "c000": null,
+        "c001": 1,
+        "c002": 2,
+        "c003": null
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 2,
+          "completions": 4,
+          "expected_cost": "13/10",
+          "worst_cost": 2
+        },
+        "full_acquisition": {
+          "certified": 2,
+          "completions": 4,
+          "expected_cost": "11",
+          "worst_cost": 11
+        },
+        "greedy_partition": {
+          "certified": 2,
+          "completions": 4,
+          "expected_cost": "13/10",
+          "worst_cost": 2
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 4,
+      "random": {
+        "certified": 2,
+        "completions": 4,
+        "maximum_worst_cost": 7,
+        "mean_expected_cost": "131/40",
+        "mean_worst_cost": "63/16",
+        "minimum_worst_cost": 2,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 4,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_aliased_12",
+      "family": "seeded_aliased",
+      "full_identity_certified_by_exhaustion": 2,
+      "inaccessibility_witness": [
+        "c000",
+        "c004"
+      ],
+      "independent_budget_states": 16,
+      "local_costs": {
+        "c000": null,
+        "c001": 4,
+        "c002": 4,
+        "c003": null,
+        "c004": null,
+        "c005": null,
+        "c006": 13,
+        "c007": 4,
+        "c008": null
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 4,
+          "completions": 9,
+          "expected_cost": "299/33",
+          "worst_cost": 13
+        },
+        "full_acquisition": {
+          "certified": 4,
+          "completions": 9,
+          "expected_cost": "13",
+          "worst_cost": 13
+        },
+        "greedy_partition": {
+          "certified": 4,
+          "completions": 9,
+          "expected_cost": "299/33",
+          "worst_cost": 13
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 3,
+      "random": {
+        "certified": 4,
+        "completions": 9,
+        "maximum_worst_cost": 13,
+        "mean_expected_cost": "5101/528",
+        "mean_worst_cost": "13",
+        "minimum_worst_cost": 13,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 9,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_aliased_13",
+      "family": "seeded_aliased",
+      "full_identity_certified_by_exhaustion": 0,
+      "inaccessibility_witness": [
+        "c002",
+        "c003"
+      ],
+      "independent_budget_states": 6,
+      "local_costs": {
+        "c000": null,
+        "c001": null,
+        "c002": null,
+        "c003": null,
+        "c004": null,
+        "c005": null,
+        "c006": null
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 0,
+          "completions": 7,
+          "expected_cost": "27/5",
+          "worst_cost": 7
+        },
+        "full_acquisition": {
+          "certified": 0,
+          "completions": 7,
+          "expected_cost": "13",
+          "worst_cost": 13
+        },
+        "greedy_partition": {
+          "certified": 0,
+          "completions": 7,
+          "expected_cost": "27/5",
+          "worst_cost": 7
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 3,
+      "random": {
+        "certified": 0,
+        "completions": 7,
+        "maximum_worst_cost": 9,
+        "mean_expected_cost": "529/80",
+        "mean_worst_cost": "65/8",
+        "minimum_worst_cost": 7,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 7,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_aliased_14",
+      "family": "seeded_aliased",
+      "full_identity_certified_by_exhaustion": 1,
+      "inaccessibility_witness": [
+        "c000",
+        "c002"
+      ],
+      "independent_budget_states": 4,
+      "local_costs": {
+        "c000": null,
+        "c001": 6,
+        "c002": null,
+        "c003": null,
+        "c004": null,
+        "c005": null,
+        "c006": null
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 1,
+          "completions": 7,
+          "expected_cost": "52/17",
+          "worst_cost": 6
+        },
+        "full_acquisition": {
+          "certified": 1,
+          "completions": 7,
+          "expected_cost": "12",
+          "worst_cost": 12
+        },
+        "greedy_partition": {
+          "certified": 1,
+          "completions": 7,
+          "expected_cost": "52/17",
+          "worst_cost": 6
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 3,
+      "random": {
+        "certified": 1,
+        "completions": 7,
+        "maximum_worst_cost": 6,
+        "mean_expected_cost": "307/68",
+        "mean_worst_cost": "6",
+        "minimum_worst_cost": 6,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 7,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    },
+    {
+      "case": "seeded_aliased_15",
+      "family": "seeded_aliased",
+      "full_identity_certified_by_exhaustion": 5,
+      "inaccessibility_witness": [
+        "c000",
+        "c006"
+      ],
+      "independent_budget_states": 62,
+      "local_costs": {
+        "c000": null,
+        "c001": 9,
+        "c002": 5,
+        "c003": 6,
+        "c004": 9,
+        "c005": 5,
+        "c006": null
+      },
+      "max_local_cost": null,
+      "minimax_beliefs": 0,
+      "minimax_cost": null,
+      "policies": {
+        "edge_cut": {
+          "certified": 5,
+          "completions": 7,
+          "expected_cost": "31/3",
+          "worst_cost": 12
+        },
+        "full_acquisition": {
+          "certified": 5,
+          "completions": 7,
+          "expected_cost": "21",
+          "worst_cost": 21
+        },
+        "greedy_partition": {
+          "certified": 5,
+          "completions": 7,
+          "expected_cost": "31/3",
+          "worst_cost": 12
+        }
+      },
+      "predecessor_scopes": 0,
+      "questions": 5,
+      "random": {
+        "certified": 5,
+        "completions": 7,
+        "maximum_worst_cost": 18,
+        "mean_expected_cost": "3965/336",
+        "mean_worst_cost": "227/16",
+        "minimum_worst_cost": 12,
+        "optimal_runs": null,
+        "trials": 16
+      },
+      "rows": 7,
+      "static_cost": null,
+      "static_minus_minimax": null,
+      "static_queries": null,
+      "status": "AUDIT_INACCESSIBLE"
+    }
+  ],
+  "certified_minimax_policies": 47,
+  "derived_address_bounds": [
+    {
+      "domain_size": 2048,
+      "max_local_cost": 4,
+      "minimax_cost": 4,
+      "mode": "derived",
+      "query_count": 11,
+      "static_cost": 11,
+      "width": 3
+    },
+    {
+      "domain_size": 1048576,
+      "max_local_cost": 5,
+      "minimax_cost": 5,
+      "mode": "derived",
+      "query_count": 20,
+      "static_cost": 20,
+      "width": 4
+    },
+    {
+      "domain_size": 137438953472,
+      "max_local_cost": 6,
+      "minimax_cost": 6,
+      "mode": "derived",
+      "query_count": 37,
+      "static_cost": 37,
+      "width": 5
+    },
+    {
+      "domain_size": 1180591620717411303424,
+      "max_local_cost": 7,
+      "minimax_cost": 7,
+      "mode": "derived",
+      "query_count": 70,
+      "static_cost": 70,
+      "width": 6
+    },
+    {
+      "domain_size": 29642774844752946028434172162224104410437116074403984394101141506025761187823616,
+      "max_local_cost": 9,
+      "minimax_cost": 9,
+      "mode": "derived",
+      "query_count": 264,
+      "static_cost": 264,
+      "width": 8
+    },
+    {
+      "domain_size": 184083777009901148951480851536796132722480842643692193047992403105518260024832986247893480778145316885626996612988306798242600723265962621432675768974821503362834322867062256922933472871676000378319956942935045907290266298718681990629287025193807090855270922941016369397705979841003229496151404881535205516509184,
+      "max_local_cost": 11,
+      "minimax_cost": 11,
+      "mode": "derived",
+      "query_count": 1034,
+      "static_cost": 1034,
+      "width": 10
+    }
+  ],
+  "family_summary": {
+    "address": {
+      "cases": 2,
+      "statuses": {
+        "CERTIFIED": 2
+      },
+      "strict_minimax_savings": 2,
+      "tied_minimax_static": 0
+    },
+    "control": {
+      "cases": 8,
+      "statuses": {
+        "AUDIT_INACCESSIBLE": 2,
+        "CERTIFIED": 5,
+        "INCONSISTENT": 1
+      },
+      "strict_minimax_savings": 1,
+      "tied_minimax_static": 4
+    },
+    "predecessor_x03": {
+      "cases": 5,
+      "statuses": {
+        "AUDIT_INACCESSIBLE": 1,
+        "CERTIFIED": 4
+      },
+      "strict_minimax_savings": 0,
+      "tied_minimax_static": 4
+    },
+    "routed_pc": {
+      "cases": 9,
+      "statuses": {
+        "AUDIT_INACCESSIBLE": 2,
+        "CERTIFIED": 7
+      },
+      "strict_minimax_savings": 6,
+      "tied_minimax_static": 1
+    },
+    "seeded_aliased": {
+      "cases": 16,
+      "statuses": {
+        "AUDIT_INACCESSIBLE": 16
+      },
+      "strict_minimax_savings": 0,
+      "tied_minimax_static": 0
+    },
+    "seeded_binary": {
+      "cases": 16,
+      "statuses": {
+        "AUDIT_INACCESSIBLE": 5,
+        "CERTIFIED": 11
+      },
+      "strict_minimax_savings": 3,
+      "tied_minimax_static": 8
+    },
+    "seeded_categorical": {
+      "cases": 16,
+      "statuses": {
+        "AUDIT_INACCESSIBLE": 2,
+        "CERTIFIED": 14
+      },
+      "strict_minimax_savings": 4,
+      "tied_minimax_static": 10
+    },
+    "seeded_correlated": {
+      "cases": 16,
+      "statuses": {
+        "AUDIT_INACCESSIBLE": 12,
+        "CERTIFIED": 4
+      },
+      "strict_minimax_savings": 0,
+      "tied_minimax_static": 4
+    }
+  },
+  "independent_reference_disagreements": 0,
+  "independently_replayed_policy_paths": 21062,
+  "measured_cases": 88,
+  "measured_completion_rows": 1038,
+  "routed_coordinate_checks": 14416,
+  "schema": "pcx.exp-x04.results.v1",
+  "validated_inaccessibility_witnesses": 40,
+  "x03_scope_agreements": 37
+}

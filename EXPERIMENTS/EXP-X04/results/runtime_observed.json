@@ -1,0 +1,449 @@
+{
+  "cases": [
+    {
+      "case": "empty_domain",
+      "solver_elapsed_ns": 34000,
+      "solver_peak_python_bytes": 560
+    },
+    {
+      "case": "constant_target",
+      "solver_elapsed_ns": 96500,
+      "solver_peak_python_bytes": 2128
+    },
+    {
+      "case": "no_queries",
+      "solver_elapsed_ns": 14000,
+      "solver_peak_python_bytes": 784
+    },
+    {
+      "case": "full_answer_alias",
+      "solver_elapsed_ns": 9500,
+      "solver_peak_python_bytes": 776
+    },
+    {
+      "case": "majority_of_three",
+      "solver_elapsed_ns": 311600,
+      "solver_peak_python_bytes": 4568
+    },
+    {
+      "case": "categorical_weighted",
+      "solver_elapsed_ns": 376500,
+      "solver_peak_python_bytes": 5768
+    },
+    {
+      "case": "all_queries_required",
+      "solver_elapsed_ns": 358600,
+      "solver_peak_python_bytes": 5512
+    },
+    {
+      "case": "cost_scale_three",
+      "solver_elapsed_ns": 302800,
+      "solver_peak_python_bytes": 4808
+    },
+    {
+      "case": "address_1",
+      "solver_elapsed_ns": 258900,
+      "solver_peak_python_bytes": 5184
+    },
+    {
+      "case": "address_2",
+      "solver_elapsed_ns": 14536000,
+      "solver_peak_python_bytes": 104928
+    },
+    {
+      "case": "route_1",
+      "solver_elapsed_ns": 113400,
+      "solver_peak_python_bytes": 2728
+    },
+    {
+      "case": "route_2",
+      "solver_elapsed_ns": 284900,
+      "solver_peak_python_bytes": 5184
+    },
+    {
+      "case": "route_3",
+      "solver_elapsed_ns": 1368300,
+      "solver_peak_python_bytes": 15480
+    },
+    {
+      "case": "route_4",
+      "solver_elapsed_ns": 6455600,
+      "solver_peak_python_bytes": 50248
+    },
+    {
+      "case": "route_5",
+      "solver_elapsed_ns": 23042900,
+      "solver_peak_python_bytes": 203120
+    },
+    {
+      "case": "route_3_weighted",
+      "solver_elapsed_ns": 1452500,
+      "solver_peak_python_bytes": 15480
+    },
+    {
+      "case": "route_4_skewed",
+      "solver_elapsed_ns": 6482200,
+      "solver_peak_python_bytes": 50248
+    },
+    {
+      "case": "route_3_without_dispatch",
+      "solver_elapsed_ns": 28800,
+      "solver_peak_python_bytes": 776
+    },
+    {
+      "case": "route_4_without_authority",
+      "solver_elapsed_ns": 24800,
+      "solver_peak_python_bytes": 1136
+    },
+    {
+      "case": "pc_grid_rfreeze",
+      "solver_elapsed_ns": 311100,
+      "solver_peak_python_bytes": 5232
+    },
+    {
+      "case": "pc_grid_signature",
+      "solver_elapsed_ns": 344900,
+      "solver_peak_python_bytes": 5264
+    },
+    {
+      "case": "pc_correlated_rfreeze",
+      "solver_elapsed_ns": 152200,
+      "solver_peak_python_bytes": 3728
+    },
+    {
+      "case": "pc_missing_fast_rfreeze",
+      "solver_elapsed_ns": 18200,
+      "solver_peak_python_bytes": 600
+    },
+    {
+      "case": "pc_homogeneous_rfreeze",
+      "solver_elapsed_ns": 67200,
+      "solver_peak_python_bytes": 2176
+    },
+    {
+      "case": "seeded_binary_00",
+      "solver_elapsed_ns": 11500,
+      "solver_peak_python_bytes": 584
+    },
+    {
+      "case": "seeded_binary_01",
+      "solver_elapsed_ns": 616900,
+      "solver_peak_python_bytes": 8256
+    },
+    {
+      "case": "seeded_binary_02",
+      "solver_elapsed_ns": 535800,
+      "solver_peak_python_bytes": 6112
+    },
+    {
+      "case": "seeded_binary_03",
+      "solver_elapsed_ns": 50100,
+      "solver_peak_python_bytes": 2008
+    },
+    {
+      "case": "seeded_binary_04",
+      "solver_elapsed_ns": 215500,
+      "solver_peak_python_bytes": 4184
+    },
+    {
+      "case": "seeded_binary_05",
+      "solver_elapsed_ns": 225000,
+      "solver_peak_python_bytes": 4128
+    },
+    {
+      "case": "seeded_binary_06",
+      "solver_elapsed_ns": 10800,
+      "solver_peak_python_bytes": 584
+    },
+    {
+      "case": "seeded_binary_07",
+      "solver_elapsed_ns": 310200,
+      "solver_peak_python_bytes": 5800
+    },
+    {
+      "case": "seeded_binary_08",
+      "solver_elapsed_ns": 189000,
+      "solver_peak_python_bytes": 4112
+    },
+    {
+      "case": "seeded_binary_09",
+      "solver_elapsed_ns": 14800,
+      "solver_peak_python_bytes": 728
+    },
+    {
+      "case": "seeded_binary_10",
+      "solver_elapsed_ns": 1414500,
+      "solver_peak_python_bytes": 4296
+    },
+    {
+      "case": "seeded_binary_11",
+      "solver_elapsed_ns": 288000,
+      "solver_peak_python_bytes": 4040
+    },
+    {
+      "case": "seeded_binary_12",
+      "solver_elapsed_ns": 636800,
+      "solver_peak_python_bytes": 7824
+    },
+    {
+      "case": "seeded_binary_13",
+      "solver_elapsed_ns": 13600,
+      "solver_peak_python_bytes": 584
+    },
+    {
+      "case": "seeded_binary_14",
+      "solver_elapsed_ns": 11100,
+      "solver_peak_python_bytes": 584
+    },
+    {
+      "case": "seeded_binary_15",
+      "solver_elapsed_ns": 63100,
+      "solver_peak_python_bytes": 2040
+    },
+    {
+      "case": "seeded_categorical_00",
+      "solver_elapsed_ns": 436000,
+      "solver_peak_python_bytes": 4824
+    },
+    {
+      "case": "seeded_categorical_01",
+      "solver_elapsed_ns": 219100,
+      "solver_peak_python_bytes": 3400
+    },
+    {
+      "case": "seeded_categorical_02",
+      "solver_elapsed_ns": 362100,
+      "solver_peak_python_bytes": 5008
+    },
+    {
+      "case": "seeded_categorical_03",
+      "solver_elapsed_ns": 484700,
+      "solver_peak_python_bytes": 5776
+    },
+    {
+      "case": "seeded_categorical_04",
+      "solver_elapsed_ns": 169900,
+      "solver_peak_python_bytes": 3264
+    },
+    {
+      "case": "seeded_categorical_05",
+      "solver_elapsed_ns": 289500,
+      "solver_peak_python_bytes": 4000
+    },
+    {
+      "case": "seeded_categorical_06",
+      "solver_elapsed_ns": 311200,
+      "solver_peak_python_bytes": 5024
+    },
+    {
+      "case": "seeded_categorical_07",
+      "solver_elapsed_ns": 13100,
+      "solver_peak_python_bytes": 728
+    },
+    {
+      "case": "seeded_categorical_08",
+      "solver_elapsed_ns": 250300,
+      "solver_peak_python_bytes": 4672
+    },
+    {
+      "case": "seeded_categorical_09",
+      "solver_elapsed_ns": 437200,
+      "solver_peak_python_bytes": 5632
+    },
+    {
+      "case": "seeded_categorical_10",
+      "solver_elapsed_ns": 658300,
+      "solver_peak_python_bytes": 5880
+    },
+    {
+      "case": "seeded_categorical_11",
+      "solver_elapsed_ns": 549300,
+      "solver_peak_python_bytes": 6488
+    },
+    {
+      "case": "seeded_categorical_12",
+      "solver_elapsed_ns": 10900,
+      "solver_peak_python_bytes": 584
+    },
+    {
+      "case": "seeded_categorical_13",
+      "solver_elapsed_ns": 153900,
+      "solver_peak_python_bytes": 3296
+    },
+    {
+      "case": "seeded_categorical_14",
+      "solver_elapsed_ns": 183500,
+      "solver_peak_python_bytes": 3560
+    },
+    {
+      "case": "seeded_categorical_15",
+      "solver_elapsed_ns": 192900,
+      "solver_peak_python_bytes": 3976
+    },
+    {
+      "case": "seeded_correlated_00",
+      "solver_elapsed_ns": 141600,
+      "solver_peak_python_bytes": 4192
+    },
+    {
+      "case": "seeded_correlated_01",
+      "solver_elapsed_ns": 10400,
+      "solver_peak_python_bytes": 584
+    },
+    {
+      "case": "seeded_correlated_02",
+      "solver_elapsed_ns": 11500,
+      "solver_peak_python_bytes": 640
+    },
+    {
+      "case": "seeded_correlated_03",
+      "solver_elapsed_ns": 8700,
+      "solver_peak_python_bytes": 584
+    },
+    {
+      "case": "seeded_correlated_04",
+      "solver_elapsed_ns": 15500,
+      "solver_peak_python_bytes": 640
+    },
+    {
+      "case": "seeded_correlated_05",
+      "solver_elapsed_ns": 13700,
+      "solver_peak_python_bytes": 584
+    },
+    {
+      "case": "seeded_correlated_06",
+      "solver_elapsed_ns": 9900,
+      "solver_peak_python_bytes": 584
+    },
+    {
+      "case": "seeded_correlated_07",
+      "solver_elapsed_ns": 254700,
+      "solver_peak_python_bytes": 4632
+    },
+    {
+      "case": "seeded_correlated_08",
+      "solver_elapsed_ns": 10800,
+      "solver_peak_python_bytes": 584
+    },
+    {
+      "case": "seeded_correlated_09",
+      "solver_elapsed_ns": 9800,
+      "solver_peak_python_bytes": 584
+    },
+    {
+      "case": "seeded_correlated_10",
+      "solver_elapsed_ns": 156800,
+      "solver_peak_python_bytes": 3880
+    },
+    {
+      "case": "seeded_correlated_11",
+      "solver_elapsed_ns": 8900,
+      "solver_peak_python_bytes": 584
+    },
+    {
+      "case": "seeded_correlated_12",
+      "solver_elapsed_ns": 10500,
+      "solver_peak_python_bytes": 728
+    },
+    {
+      "case": "seeded_correlated_13",
+      "solver_elapsed_ns": 287400,
+      "solver_peak_python_bytes": 3880
+    },
+    {
+      "case": "seeded_correlated_14",
+      "solver_elapsed_ns": 15200,
+      "solver_peak_python_bytes": 584
+    },
+    {
+      "case": "seeded_correlated_15",
+      "solver_elapsed_ns": 13000,
+      "solver_peak_python_bytes": 584
+    },
+    {
+      "case": "seeded_aliased_00",
+      "solver_elapsed_ns": 12600,
+      "solver_peak_python_bytes": 584
+    },
+    {
+      "case": "seeded_aliased_01",
+      "solver_elapsed_ns": 9900,
+      "solver_peak_python_bytes": 584
+    },
+    {
+      "case": "seeded_aliased_02",
+      "solver_elapsed_ns": 10800,
+      "solver_peak_python_bytes": 584
+    },
+    {
+      "case": "seeded_aliased_03",
+      "solver_elapsed_ns": 14500,
+      "solver_peak_python_bytes": 728
+    },
+    {
+      "case": "seeded_aliased_04",
+      "solver_elapsed_ns": 18200,
+      "solver_peak_python_bytes": 640
+    },
+    {
+      "case": "seeded_aliased_05",
+      "solver_elapsed_ns": 11600,
+      "solver_peak_python_bytes": 584
+    },
+    {
+      "case": "seeded_aliased_06",
+      "solver_elapsed_ns": 13300,
+      "solver_peak_python_bytes": 768
+    },
+    {
+      "case": "seeded_aliased_07",
+      "solver_elapsed_ns": 9800,
+      "solver_peak_python_bytes": 584
+    },
+    {
+      "case": "seeded_aliased_08",
+      "solver_elapsed_ns": 13500,
+      "solver_peak_python_bytes": 584
+    },
+    {
+      "case": "seeded_aliased_09",
+      "solver_elapsed_ns": 11800,
+      "solver_peak_python_bytes": 728
+    },
+    {
+      "case": "seeded_aliased_10",
+      "solver_elapsed_ns": 12300,
+      "solver_peak_python_bytes": 728
+    },
+    {
+      "case": "seeded_aliased_11",
+      "solver_elapsed_ns": 14100,
+      "solver_peak_python_bytes": 584
+    },
+    {
+      "case": "seeded_aliased_12",
+      "solver_elapsed_ns": 10700,
+      "solver_peak_python_bytes": 584
+    },
+    {
+      "case": "seeded_aliased_13",
+      "solver_elapsed_ns": 12200,
+      "solver_peak_python_bytes": 640
+    },
+    {
+      "case": "seeded_aliased_14",
+      "solver_elapsed_ns": 10000,
+      "solver_peak_python_bytes": 584
+    },
+    {
+      "case": "seeded_aliased_15",
+      "solver_elapsed_ns": 17900,
+      "solver_peak_python_bytes": 768
+    }
+  ],
+  "clock": "time.perf_counter_ns",
+  "memory": "tracemalloc Python allocator only",
+  "metric": "Exact production optimizer including construction of the chosen policy",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.7"
+}
