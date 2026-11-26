@@ -1,5 +1,11 @@
 # T09 · Static–adaptive acquisition separation
 
+## Final disposition
+
+`RESTRICTED_RESULT` · `ADAPTATION` · `PARTIALLY_SUPPORTED` · `ACCEPTED_AS_NEW_RESULT`.
+
+[Verification and accepted scope](VERIFICATION.md) · [Full status ledger](../../THEOREM-STATUS-LEDGER.md)
+
 ## Original charter entry
 
 Charter §11, pp. 12–13 gives the realized/optimal adaptive/static inequalities and the unbounded generic bit-address example.

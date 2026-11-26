@@ -1,4 +1,12 @@
-# T06 verification record
+# T06 verification
+
+## Independently checked scope
+
+Uniform and realized fixed-price certificates are separate weighted optima. Inclusion-minimality alone supplies no minimum-price claim.
+
+The parent accepts this scope after the sealed independent derivation, exact comparison and separate hostile review. [Independent comparison](../../VERIFICATION/initial/COMPARISON.md#t06) · [Proof-blind derivation](../../VERIFICATION/initial/BLIND-DERIVATION.md) · [Separate hostile review](../../VERIFICATION/hostile/REVIEW.md#per-claim-dispositions) · [Proof](PROOF.md) · [Counterexamples](COUNTEREXAMPLES.md)
+
+## Historical construction handoff
 
 ## Constructor checks
 

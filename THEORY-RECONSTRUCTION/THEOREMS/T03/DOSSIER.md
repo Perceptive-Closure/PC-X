@@ -1,5 +1,11 @@
 # T03 · Conditional anchored recovery
 
+## Final disposition
+
+`RESTRICTED_RESULT` · `ADAPTATION` · `PARTIALLY_SUPPORTED` · `ACCEPTED_AS_FOUNDATION`.
+
+[Verification and accepted scope](VERIFICATION.md) · [Full status ledger](../../THEOREM-STATUS-LEDGER.md)
+
 | Field | Disposition |
 | --- | --- |
 | Charter entry | PC-X Final Theorem Package pp. 5–6 and p. 38, original PC foundation. |

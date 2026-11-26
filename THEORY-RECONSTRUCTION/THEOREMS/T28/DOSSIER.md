@@ -1,5 +1,11 @@
 # T28 · Justified action without full semantic identification
 
+## Final disposition
+
+`PROVEN_AND_INDEPENDENTLY_VERIFIED` · `ADAPTATION` · `EXPERIMENTALLY_SUPPORTED` · `ACCEPTED_AS_SUPPORTING_LEMMA`.
+
+[Verification and accepted scope](VERIFICATION.md) · [Full status ledger](../../THEOREM-STATUS-LEDGER.md)
+
 **Charter.** Charter §32, p. 30, and the original D-35 lawful atomic interface.
 
 **Research question.** When can a controller do genuine work immediately while distinct compatible completions have different licensed safe actions?

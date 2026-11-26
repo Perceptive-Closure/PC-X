@@ -1,5 +1,11 @@
 # T11 · Exact nonrectangular partial identification
 
+## Final disposition
+
+`RESTRICTED_RESULT` · `ADAPTATION` · `EXPERIMENTALLY_SUPPORTED` · `ACCEPTED_AS_SUPPORTING_LEMMA`.
+
+[Verification and accepted scope](VERIFICATION.md) · [Full status ledger](../../THEOREM-STATUS-LEDGER.md)
+
 ## Original charter entry
 
 Charter §13, pp. 13–14 extends D-35 Proposition 3 from independent R-touch bounds to correlated exact target sets and extrema.

@@ -1,5 +1,11 @@
 # T18 · Transport through audited source semantics
 
+## Final disposition
+
+`RESTRICTED_RESULT` · `POTENTIAL_STRENGTHENING` · `PARTIALLY_SUPPORTED` · `ACCEPTED_AS_NEW_RESULT`.
+
+[Verification and accepted scope](VERIFICATION.md) · [Full status ledger](../../THEOREM-STATUS-LEDGER.md)
+
 ## Charter target
 
 PC-X Final Theorem Package §21, pp. 21–22. Find source-grounded premises under which a deployment property is identified or quantitatively bounded from an evaluated reference.

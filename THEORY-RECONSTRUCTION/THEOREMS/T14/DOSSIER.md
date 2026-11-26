@@ -1,5 +1,11 @@
 # T14 · Counterexample-guided minimum audit synthesis
 
+## Final disposition
+
+`RESTRICTED_RESULT` · `POTENTIAL_STRENGTHENING` · `PARTIALLY_SUPPORTED` · `ACCEPTED_AS_NEW_RESULT`.
+
+[Verification and accepted scope](VERIFICATION.md) · [Full status ledger](../../THEOREM-STATUS-LEDGER.md)
+
 ## Original charter entry
 
 Charter §16, pp. 16–17 proposes iterative minimum hitting set with paired counterexamples and asks for compact PC-specific pair generation.

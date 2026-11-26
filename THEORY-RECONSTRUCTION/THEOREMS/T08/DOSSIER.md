@@ -1,5 +1,11 @@
 # T08 · Exact adaptive semantic audit complexity
 
+## Final disposition
+
+`PROVEN_AND_INDEPENDENTLY_VERIFIED` · `KNOWN_PRIOR_RESULT` · `EXPERIMENTALLY_SUPPORTED` · `ACCEPTED_AS_SUPPORTING_LEMMA`.
+
+[Verification and accepted scope](VERIFICATION.md) · [Full status ledger](../../THEOREM-STATUS-LEDGER.md)
+
 ## Original charter entry
 
 Charter §10, pp. 11–12 asks for an exact worst-case adaptive recurrence with posterior answer cells.

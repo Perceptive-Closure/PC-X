@@ -1,5 +1,11 @@
 # T05 · Audit-interface impossibility
 
+## Final disposition
+
+`PROVEN_AND_INDEPENDENTLY_VERIFIED` · `KNOWN_PRIOR_RESULT` · `EXPERIMENTALLY_SUPPORTED` · `ACCEPTED_AS_SUPPORTING_LEMMA`.
+
+[Verification and accepted scope](VERIFICATION.md) · [Full status ledger](../../THEOREM-STATUS-LEDGER.md)
+
 ## Original charter entry
 
 Charter §7, p. 9 rules out uniform static or adaptive identification when an opposite-target pair agrees on every available probe.

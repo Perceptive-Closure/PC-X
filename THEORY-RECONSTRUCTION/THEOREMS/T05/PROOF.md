@@ -1,3 +1,3 @@
 # T05 proof record
 
-The complete candidate proof for T05 appears under its heading in the [shared proof packet](../../WORKSTREAMS/exact/FINITE-PROOFS.md). Any subclaims are separately numbered there. Shared definitions and formal hypotheses are in the [statement packet](../../WORKSTREAMS/exact/STATEMENTS.md). The proof record includes the mathematical justification and failure boundaries, with experiment correspondence in [the evidence reconstruction](../../WORKSTREAMS/exact/EVIDENCE.md).
+The complete accepted scoped argument appears in [T05](../../WORKSTREAMS/exact/FINITE-PROOFS.md#t05--an-exact-interface-obstruction). The shared proof packet contains the supporting definitions, hypotheses, algorithms and boundary cases. [Exact statement](../../WORKSTREAMS/exact/STATEMENTS.md#t05--audit-interface-impossibility) · [Scope, proof and review history](VERIFICATION.md) · [Historical evidence](../../WORKSTREAMS/exact/EVIDENCE.md)

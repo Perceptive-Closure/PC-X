@@ -1,5 +1,11 @@
 # T13 · Constructive ambiguity or certificate theorem
 
+## Final disposition
+
+`RESTRICTED_RESULT` · `ADAPTATION` · `EXPERIMENTALLY_SUPPORTED` · `ACCEPTED_AS_SUPPORTING_LEMMA`.
+
+[Verification and accepted scope](VERIFICATION.md) · [Full status ledger](../../THEOREM-STATUS-LEDGER.md)
+
 ## Original charter entry
 
 Charter §15, pp. 15–16 asks for a practical status contract under verifiable paired-completion witnesses and unsatisfiability certificates.

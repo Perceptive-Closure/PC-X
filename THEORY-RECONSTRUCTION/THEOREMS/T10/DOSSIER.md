@@ -1,5 +1,11 @@
 # T10 · Computational hardness and tractability
 
+## Final disposition
+
+`RESTRICTED_RESULT` · `POTENTIAL_STRENGTHENING` · `OUTSIDE_EXPERIMENTAL_SCOPE` · `ACCEPTED_AS_NEW_RESULT`.
+
+[Verification and accepted scope](VERIFICATION.md) · [Full status ledger](../../THEOREM-STATUS-LEDGER.md)
+
 ## Original charter entry
 
 Charter §12, p. 13 requests generic static hardness, meaningful PC-specific encodings, and exact structural tractability.

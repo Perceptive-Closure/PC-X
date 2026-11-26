@@ -1,4 +1,12 @@
-# T29 · Verification record
+# T29 verification
+
+## Independently checked scope
+
+T29.a produces exact finite common-policy values and losing covers. T29.b proves higher-order minimal unready sets and exact pure external acquisition. The X14 verdict target and later readiness criterion differ.
+
+The parent accepts this scope after the sealed independent derivation, exact comparison and separate hostile review. [Independent comparison](../../VERIFICATION/late/COMPARISON.md#theorem-by-theorem-dispositions) · [Proof-blind derivation](../../VERIFICATION/late/BLIND-DERIVATION.md) · [Separate hostile review](../../VERIFICATION/hostile/REVIEW.md#per-claim-dispositions) · [Proof](PROOF.md) · [Counterexamples](COUNTEREXAMPLES.md)
+
+## Historical construction handoff
 
 The exact candidate statement is sealed in commit `3e87a71df84617399f92c73380cdb8ea0605f93a`. [Proof-blind intake](../../WORKSTREAMS/governance/STATEMENTS.md)
 

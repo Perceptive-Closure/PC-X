@@ -1,5 +1,11 @@
 # T24 · Conditional-mean strategic auditing
 
+## Final disposition
+
+`RESTRICTED_RESULT` · `POTENTIAL_STRENGTHENING` · `PARTIALLY_SUPPORTED` · `ACCEPTED_AS_NEW_RESULT`.
+
+[Verification and accepted scope](VERIFICATION.md) · [Full status ledger](../../THEOREM-STATUS-LEDGER.md)
+
 ## Charter target
 
 PC-X Final Theorem Package §28, pp. 26–27. Evaluate the extent to which a history-dependent respondent can be audited, including a restricted positive result.

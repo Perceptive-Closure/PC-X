@@ -1,4 +1,12 @@
-# T07 verification record
+# T07 verification
+
+## Independently checked scope
+
+The same-entry governed family has a unit target read and a linearly growing or inaccessible full identity. Each omitted field changes a real A-frozen value.
+
+The parent accepts this scope after the sealed independent derivation, exact comparison and separate hostile review. [Independent comparison](../../VERIFICATION/initial/COMPARISON.md#t07) · [Proof-blind derivation](../../VERIFICATION/initial/BLIND-DERIVATION.md) · [Separate hostile review](../../VERIFICATION/hostile/REVIEW.md#per-claim-dispositions) · [Proof](PROOF.md) · [Counterexamples](COUNTEREXAMPLES.md)
+
+## Historical construction handoff
 
 ## Constructor checks
 

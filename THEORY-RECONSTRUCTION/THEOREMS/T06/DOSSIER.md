@@ -1,5 +1,11 @@
 # T06 · Global and local minimum certificates
 
+## Final disposition
+
+`PROVEN_AND_INDEPENDENTLY_VERIFIED` · `ADAPTATION` · `EXPERIMENTALLY_SUPPORTED` · `ACCEPTED_AS_SUPPORTING_LEMMA`.
+
+[Verification and accepted scope](VERIFICATION.md) · [Full status ledger](../../THEOREM-STATUS-LEDGER.md)
+
 ## Original charter entry
 
 Charter §8, pp. 9–10 defines a uniform weighted-transversal minimum and an actual-completion-specific realized minimum.

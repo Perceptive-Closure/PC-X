@@ -1,5 +1,11 @@
 # T22 · Stopped information allocation
 
+## Final disposition
+
+`RESTRICTED_RESULT` · `KNOWN_PRIOR_RESULT` · `PARTIALLY_SUPPORTED` · `ACCEPTED_AS_SUPPORTING_LEMMA`.
+
+[Verification and accepted scope](VERIFICATION.md) · [Full status ledger](../../THEOREM-STATUS-LEDGER.md)
+
 ## Charter target
 
 PC-X Final Theorem Package §26, p. 25. A δ-correct audit must acquire a minimum amount of information against every competing target, with an adaptive count allocation bound in resettable cases.

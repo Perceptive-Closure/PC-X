@@ -1,5 +1,11 @@
 # T12 · Closure support and intervention blockers
 
+## Final disposition
+
+`RESTRICTED_RESULT` · `ADAPTATION` · `PARTIALLY_SUPPORTED` · `ACCEPTED_AS_NEW_RESULT`.
+
+[Verification and accepted scope](VERIFICATION.md) · [Full status ledger](../../THEOREM-STATUS-LEDGER.md)
+
 ## Original charter entry
 
 Charter §14, pp. 14–15 asks whether removing approved whole actions eliminates every budget-feasible policy exactly when all policy support edges are hit.

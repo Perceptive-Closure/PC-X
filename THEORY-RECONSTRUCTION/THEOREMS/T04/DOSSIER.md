@@ -1,5 +1,11 @@
 # T04 · Exact target-disagreement characterization
 
+## Final disposition
+
+`PROVEN_AND_INDEPENDENTLY_VERIFIED` · `KNOWN_PRIOR_RESULT` · `EXPERIMENTALLY_SUPPORTED` · `ACCEPTED_AS_SUPPORTING_LEMMA`.
+
+[Verification and accepted scope](VERIFICATION.md) · [Full status ledger](../../THEOREM-STATUS-LEDGER.md)
+
 ## Original charter entry
 
 Charter §§4.2, 5–6, pp. 7–9 asks whether hitting every opposite-target difference edge gives uniform identification and a decoder from attainable answers.

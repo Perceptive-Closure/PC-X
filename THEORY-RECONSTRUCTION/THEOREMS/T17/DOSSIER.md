@@ -1,5 +1,11 @@
 # T17 · Exact-law sufficiency
 
+## Final disposition
+
+`PROVEN_AND_INDEPENDENTLY_VERIFIED` · `KNOWN_PRIOR_RESULT` · `PARTIALLY_SUPPORTED` · `ACCEPTED_AS_SUPPORTING_LEMMA`.
+
+[Verification and accepted scope](VERIFICATION.md) · [Full status ledger](../../THEOREM-STATUS-LEDGER.md)
+
 ## Charter target
 
 PC-X Final Theorem Package §20, p. 21; D-35 pp. 2–6. The evaluation-law map identifies exactly the targets that are constant on its nonempty fibers.

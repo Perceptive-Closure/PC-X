@@ -1,5 +1,11 @@
 # T27 · Multi-agent compositional identification
 
+## Final disposition
+
+`RESTRICTED_RESULT` · `ADAPTATION` · `EXPERIMENTALLY_SUPPORTED` · `ACCEPTED_AS_SUPPORTING_LEMMA`.
+
+[Verification and accepted scope](VERIFICATION.md) · [Full status ledger](../../THEOREM-STATUS-LEDGER.md)
+
 **Charter.** Charter §31, p. 29.
 
 **Research question.** Which separately checkable conditions allow local risk information to bound a declared global violation in the actual joint environment?

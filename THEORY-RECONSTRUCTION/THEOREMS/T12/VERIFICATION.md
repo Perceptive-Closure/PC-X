@@ -1,4 +1,12 @@
-# T12 verification record
+# T12 verification
+
+## Independently checked scope
+
+Fixed-kernel whole-action removals are dual to the clutter of supported, budget-feasible closing trees. Pruning uses the same residual budget and whole positive support.
+
+The parent accepts this scope after the sealed independent derivation, exact comparison and separate hostile review. [Independent comparison](../../VERIFICATION/initial/COMPARISON.md#t12) · [Proof-blind derivation](../../VERIFICATION/initial/BLIND-DERIVATION.md) · [Separate hostile review](../../VERIFICATION/hostile/REVIEW.md#per-claim-dispositions) · [Proof](PROOF.md) · [Counterexamples](COUNTEREXAMPLES.md) · [Statement corrections](../../VERIFICATION/SCOPE-CLARIFICATIONS.md)
+
+## Historical construction handoff
 
 ## Constructor checks
 

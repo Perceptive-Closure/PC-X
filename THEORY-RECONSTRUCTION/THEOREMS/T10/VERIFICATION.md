@@ -1,4 +1,12 @@
-# T10 verification record
+# T10 verification
+
+## Independently checked scope
+
+Explicit finite weighted cover and the compact binary serial opposing-pair problem have the stated NP-completeness results. The proved tractability uses supplied structure and numeric budgets.
+
+The parent accepts this scope after the sealed independent derivation, exact comparison and separate hostile review. [Independent comparison](../../VERIFICATION/initial/COMPARISON.md#t10) · [Proof-blind derivation](../../VERIFICATION/initial/BLIND-DERIVATION.md) · [Separate hostile review](../../VERIFICATION/hostile/REVIEW.md#per-claim-dispositions) · [Proof](PROOF.md) · [Counterexamples](COUNTEREXAMPLES.md)
+
+## Historical construction handoff
 
 ## Constructor checks
 

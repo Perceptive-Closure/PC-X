@@ -1,5 +1,11 @@
 # T21 · Two-point transcript limit
 
+## Final disposition
+
+`PROVEN_AND_INDEPENDENTLY_VERIFIED` · `KNOWN_PRIOR_RESULT` · `PARTIALLY_SUPPORTED` · `ACCEPTED_AS_SUPPORTING_LEMMA`.
+
+[Verification and accepted scope](VERIFICATION.md) · [Full status ledger](../../THEOREM-STATUS-LEDGER.md)
+
 ## Charter target
 
 PC-X Final Theorem Package §25, p. 25. Target-opposite completions impose a minimax error lower bound determined by complete transcript total variation.

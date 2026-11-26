@@ -1,5 +1,11 @@
 # T26 · Intervention validity and measurement disturbance
 
+## Final disposition
+
+`RESTRICTED_RESULT` · `ADAPTATION` · `EXPERIMENTALLY_SUPPORTED` · `ACCEPTED_AS_SUPPORTING_LEMMA`.
+
+[Verification and accepted scope](VERIFICATION.md) · [Full status ledger](../../THEOREM-STATUS-LEDGER.md)
+
 **Charter.** Charter §30, pp. 28–29.
 
 **Research question.** Which source conditions certify that a probe and the original plant have the same target risk, or a justified bound on the difference?

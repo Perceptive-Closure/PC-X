@@ -1,5 +1,11 @@
 # T19 · Sharp interval and threshold classification
 
+## Final disposition
+
+`RESTRICTED_RESULT` · `ADAPTATION` · `EXPERIMENTALLY_SUPPORTED` · `ACCEPTED_AS_SUPPORTING_LEMMA`.
+
+[Verification and accepted scope](VERIFICATION.md) · [Full status ledger](../../THEOREM-STATUS-LEDGER.md)
+
 ## Charter target
 
 PC-X Final Theorem Package §22, pp. 22–23. Bounds on the risk image may certify threshold decisions before exact risk identification.

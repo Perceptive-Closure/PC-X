@@ -1,5 +1,11 @@
 # T07 · Target versus full contract identification
 
+## Final disposition
+
+`RESTRICTED_RESULT` · `POTENTIAL_STRENGTHENING` · `PARTIALLY_SUPPORTED` · `ACCEPTED_AS_NEW_RESULT`.
+
+[Verification and accepted scope](VERIFICATION.md) · [Full status ledger](../../THEOREM-STATUS-LEDGER.md)
+
 ## Original charter entry
 
 Charter §9, pp. 10–11 gives the resource-target/full-contract inequality and asks for an arbitrarily large separation with operationally meaningful independent facts.

@@ -6,7 +6,7 @@ The mathematical directive commissions a new campaign over the completed experim
 
 The parent established the proof dependency families and work plan. Two independent construction units are eligible. The exact audit unit may work with abstract finite tables and positive-support axioms while the original D-35 policy transport argument is being audited. Any use of the D-35 result itself remains provisional.
 
-## Slot registry
+## Slot registry during comparison
 
 | Slot | Assignment | State |
 | --- | --- | --- |
@@ -14,7 +14,7 @@ The parent established the proof dependency families and work plan. Two independ
 | 2 | Independent proof-blind verification of T15–T30 | Active |
 | 3 | Hostile review of T01–T30 and P1–P7 | Active |
 
-## Acceptance register
+## Acceptance register at intake
 
 No theorem is accepted at intake. Candidate proofs remain distinct from empirical evidence. Each consequential result will carry recorded construction, independent derivation, hostile challenge and parent disposition. The current statuses are provisional until exact source reconstruction and review.
 
@@ -55,3 +55,20 @@ The parent proof candidate T30.S was published at b17aec727810d28d8931ab29836d1f
 The late independent derivation sealed at 8c614e560ba6cd1483399f6880d2f814cab55ed8 with a verified two-file blind diff. It independently identified the fixed histogram/mixture distinction, complete initial records, legitimate callable lift and integer score-grid qualifications. The T18 probability factors and T22 non-strict allocation threshold are now explicit in the comparison scope.
 
 The late line-by-line comparison flagged a literal zero-atom failure when an independent continuous seed is stored as a coordinate of the transcript. A distinct proof records the discrete interpretation, almost-sure transition comparison for fixed stochastic protocols, and a reciprocal-density anytime theorem. The stronger literal atom-probability reading is excluded. Hostile analysis accepted the earlier T30/T18/T22–T24 repairs with their bounded scope. [Recorded randomness](VERIFICATION/RECORDED-COINS.md)
+
+## Terminal review and parent acceptance
+
+The exact late comparison `ad9accf72bd3fafb1f209b19b18272853ab73624` and hostile review `0cdef5987f964724842c8d51981815edac2309b9` were checked against their public Git refs, then compared as complete archive trees of 122 and 118 blobs respectively. Both local diffs were confined to their registered workstream and verification paths. The hostile replay evaluated 79,430 bounded cases as well as the named statistical and semantic controls. The late comparison independently re-tallied saved observations across X09–X14 and rechecked X05 and X15. It verified the measurable-record addendum and the common callable action lift. The parent corrected the X09 description to two installations using one shifted rule and made normalized mixture weights explicit at `2056ebe`. These edits concern mathematical statement clarity and the account of frozen evidence.
+
+| Unit | Published review or proof revision | Final disposition |
+| --- | --- | --- |
+| D-35 / P1–P7 | `8f1bd921831abebaa1af19b32f173caf571f27c9` | Accepted foundation with the explicit T03 belief-lifting and P1 full-carrier arguments. |
+| Exact audit / T04–T14 | `6fbc9f7b1cd36fe69f5d6ff0e4fa6adbfe6bf61e` | Accepted finite claims and encoded structural results, including T14.c at stated width and score budget. |
+| Independent initial comparison | `d110711ade3243ffb182840fad01492e70451290` | Complete, with separate prior blind seal. |
+| Deployment and statistics / T15–T24 | `bedb356fd9837a548b7ee2bbdb2883c20e2de99d` | Accepted exact-law, finite transport and conditional-score results with recorded scope corrections. |
+| Governance / T25–T29 | `21a2509669c40db20bbd0d4358c3ea4adff5e508` | Accepted finite monitoring, fidelity, composition, common-policy and readiness claims. |
+| T30.S | `b17aec727810d28d8931ab29836d1f90123cea26` and correction `2108e16c8e078bed1d38295a865af8b7f11cb801` | Accepted the common bounded fragment. Wider T30 and joint prospective validation remain open. |
+| Independent late comparison | `ad9accf72bd3fafb1f209b19b18272853ab73624` | Complete, with separate prior blind seal. |
+| Hostile review | `0cdef5987f964724842c8d51981815edac2309b9` | Complete across all claims, with failed readings preserved and repaired forms rechecked. |
+
+Both reviewer slots ended before final integration. The parent released the mathematical research slot upon completing the scope reconciliation. All drafted acceptances were checked against the underlying proofs and exact source evidence. The final branch replays passed all nine Python scripts and three Lean files. Deployment replay included four checked decompressed archived ledgers. The package inventory covered all 30 sets of dossier, proof, counterexamples and verification, seven original propositions, fifteen archives and sixteen final analysis questions. Its internal citations and citations to immutable experimental files resolved. [Final ledger](THEOREM-STATUS-LEDGER.md) · [Verified proof collection](FINAL-VERIFIED-PROOFS.md) · [Reproducibility commands](COMPUTATIONAL-CHECKS/README.md)

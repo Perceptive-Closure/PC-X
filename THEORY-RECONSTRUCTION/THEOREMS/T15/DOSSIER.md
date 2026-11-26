@@ -1,5 +1,11 @@
 # T15 · Observable-history indistinguishability
 
+## Final disposition
+
+`RESTRICTED_RESULT` · `ADAPTATION` · `EXPERIMENTALLY_SUPPORTED` · `ACCEPTED_AS_SUPPORTING_LEMMA`.
+
+[Verification and accepted scope](VERIFICATION.md) · [Full status ledger](../../THEOREM-STATUS-LEDGER.md)
+
 ## Charter target
 
 PC-X Final Theorem Package §18, p. 19. Governed evaluations can agree for every allowed interactive audit while deployment verdicts differ.

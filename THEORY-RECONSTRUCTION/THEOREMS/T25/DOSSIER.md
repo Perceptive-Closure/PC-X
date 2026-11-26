@@ -1,5 +1,11 @@
 # T25 · Monitorability identification
 
+## Final disposition
+
+`RESTRICTED_RESULT` · `ADAPTATION` · `EXPERIMENTALLY_SUPPORTED` · `ACCEPTED_AS_SUPPORTING_LEMMA`.
+
+[Verification and accepted scope](VERIFICATION.md) · [Full status ledger](../../THEOREM-STATUS-LEDGER.md)
+
 **Charter.** Charter §29, pp. 27–28.
 
 **Research question.** When does an actual violation remain identifiable even though the whole monitor-visible distribution agrees across compatible constructions?

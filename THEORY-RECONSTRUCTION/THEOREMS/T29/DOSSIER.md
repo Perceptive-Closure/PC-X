@@ -1,5 +1,11 @@
 # T29 · Alignment realizability under semantic uncertainty
 
+## Final disposition
+
+`RESTRICTED_RESULT` · `ADAPTATION` · `PARTIALLY_SUPPORTED` · `ACCEPTED_AS_NEW_RESULT`.
+
+[Verification and accepted scope](VERIFICATION.md) · [Full status ledger](../../THEOREM-STATUS-LEDGER.md)
+
 **Charter.** Charter §33, pp. 30–31.
 
 **Research question.** Can one observable policy do safe useful work in every compatible completion, and when is further lawful acquisition sufficient to construct it?

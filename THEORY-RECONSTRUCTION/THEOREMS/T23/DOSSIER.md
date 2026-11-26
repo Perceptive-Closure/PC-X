@@ -1,5 +1,11 @@
 # T23 · Time-valid adaptive certification
 
+## Final disposition
+
+`RESTRICTED_RESULT` · `ADAPTATION` · `PARTIALLY_SUPPORTED` · `ACCEPTED_AS_SUPPORTING_LEMMA`.
+
+[Verification and accepted scope](VERIFICATION.md) · [Full status ledger](../../THEOREM-STATUS-LEDGER.md)
+
 ## Charter target
 
 PC-X Final Theorem Package §27, p. 26. Homogeneous confidence sets with valid coverage certify under adaptive stopping.

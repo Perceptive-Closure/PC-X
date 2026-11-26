@@ -1,4 +1,12 @@
-# T09 verification record
+# T09 verification
+
+## Independently checked scope
+
+The governed address family proves the exact exponential fixed-read versus adaptive cost distinction. A separate product witnesses the strict realized, adaptive and static hierarchy within the declared menu model.
+
+The parent accepts this scope after the sealed independent derivation, exact comparison and separate hostile review. [Independent comparison](../../VERIFICATION/initial/COMPARISON.md#t09) · [Proof-blind derivation](../../VERIFICATION/initial/BLIND-DERIVATION.md) · [Separate hostile review](../../VERIFICATION/hostile/REVIEW.md#per-claim-dispositions) · [Proof](PROOF.md) · [Counterexamples](COUNTEREXAMPLES.md)
+
+## Historical construction handoff
 
 ## Constructor checks
 

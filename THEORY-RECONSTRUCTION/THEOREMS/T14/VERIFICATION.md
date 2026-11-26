@@ -1,4 +1,12 @@
-# T14 verification record
+# T14 verification
+
+## Independently checked scope
+
+T14.a is exact implicit weighted hitting set given a complete oracle. T14.b localizes serial product crossings. T14.c bounds the paired oracle on supplied width and numeric budget, with one charge per factor variable and separate outer cover cost.
+
+The parent accepts this scope after the sealed independent derivation, exact comparison and separate hostile review. [Independent comparison](../../VERIFICATION/initial/COMPARISON.md#t14) · [Proof-blind derivation](../../VERIFICATION/initial/BLIND-DERIVATION.md) · [Separate hostile review](../../VERIFICATION/hostile/REVIEW.md#per-claim-dispositions) · [Proof](PROOF.md) · [Counterexamples](COUNTEREXAMPLES.md)
+
+## Historical construction handoff
 
 ## Constructor checks
 

@@ -1,5 +1,11 @@
 # T30 · Constructive identification of governed deployment guarantees
 
+## Final disposition
+
+`RESTRICTED_RESULT` · `NOVELTY_UNRESOLVED` · `OUTSIDE_EXPERIMENTAL_SCOPE` · `ACCEPTED_AS_NEW_RESULT`.
+
+[Verification and accepted scope](VERIFICATION.md) · [Full status ledger](../../THEOREM-STATUS-LEDGER.md)
+
 **Charter** · pp. 31–33, §§34–35. Given nonempty compatible completions, a legitimate audit and a declared deployment property, construct a certificate or disagreement and a justified resolving audit or impossibility witness. The charter asks for eight simultaneous obligations and stronger target-specific oversight.
 
 **Exact scope** · T30.S proves a common-fragment result for R-frozen serial deadline services, with product mode ambiguity, stage-local verified readbacks, a shared observable policy and complete stage anchors. The audit minimizes fixed-price static acquisition and supplies verified full-menu impossibility evidence when that applies. Cost support and optional stochastic zero-risk interpretation are stated separately. [Statement and quantifiers](../../WORKSTREAMS/flagship/STATEMENTS.md) · [Proof and original eight obligations](PROOF.md)

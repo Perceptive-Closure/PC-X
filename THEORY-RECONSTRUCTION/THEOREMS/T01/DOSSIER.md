@@ -1,5 +1,11 @@
 # T01 · Behavioral non-identifiability
 
+## Final disposition
+
+`PROVEN_AND_INDEPENDENTLY_VERIFIED` · `ADAPTATION` · `PARTIALLY_SUPPORTED` · `ACCEPTED_AS_FOUNDATION`.
+
+[Verification and accepted scope](VERIFICATION.md) · [Full status ledger](../../THEOREM-STATUS-LEDGER.md)
+
 | Field | Disposition |
 | --- | --- |
 | Charter entry | PC-X Final Theorem Package pp. 4–5 and p. 38, original PC foundation. |

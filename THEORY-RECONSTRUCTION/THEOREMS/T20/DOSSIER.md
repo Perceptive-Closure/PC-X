@@ -1,5 +1,11 @@
 # T20 · Uncovered-context limits
 
+## Final disposition
+
+`RESTRICTED_RESULT` · `ADAPTATION` · `EXPERIMENTALLY_SUPPORTED` · `ACCEPTED_AS_SUPPORTING_LEMMA`.
+
+[Verification and accepted scope](VERIFICATION.md) · [Full status ledger](../../THEOREM-STATUS-LEDGER.md)
+
 ## Charter target
 
 PC-X Final Theorem Package §23, pp. 23–24. An unseen deployment context lacks an assumption-free transfer guarantee. Its unbounded conditional risk contributes its available population mass.
