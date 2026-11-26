@@ -15,3 +15,9 @@ Exact-law static cost is 7, adaptive worst cost is 5 and uniform expected adapti
 The 32 public development seeds produced 128 admitted trials, 64 midpoint controls and 64 transfer shifts. The primary method gave 128/128 correct admitted certificates at mean cost 720, 64/64 midpoint inconsistencies and 64/64 false `MEETS` under the deliberately unanchored shift. All fixed-blue trials abstained. These public samples exercise the rules fixed before execution and carry no holdout claims.
 
 `pre-audit.json` SHA-256 is `da6ed411aa6217e0adc089e8bba0e39335a9d5a818d4e8104a5394427d56a196`. `development.json` SHA-256 is `42014163035549bf78dc1bacb0dac94d847ee5fe9e2e2010b77065d8de4a0a32`. Next, the parent custodian measures selected actions from an immutable GitHub archive while holding assignment and measurement seed.
+
+## Custody and masked forecast
+
+The parent retrieved and checked the GitHub archive at `c547c7ad66e5e2603628c463f6c662b0575a5cfc`, ran the 15 tests again, and matched the exact pre-audit file hash. The parent selected the concealed roster order and seed, then measured only the selected fresh query batches. The receipt records 15:00:33 UTC on 2026-11-26 and assignment commitment `c9c8ec9370026dd18355a7d5456aad687a9ef7d247b19bc1ed707ae7adcca3da`. The recorded executable fingerprint is `e72f0dc3f5243f149b57780ad2ce3cb98fe19646d894f8c9a2e5b60139afa983`.
+
+The parent supplied only the selected-measurement receipt. The preserved SHA-256 is `f127405641bc3f41452bcdd5b42e443bd80d2cac973a7ff2d8dc28019f0fdee8`. The prediction verifies every selected action and confidence-set update. It gives four masked `MEETS` forecasts, two masked `FAILS` forecasts and two inconsistencies. The forecast SHA-256 is `0dc88aceeba20eff03e00192c04cd2b25c6ec3fab64075a8740244f8a1217a89`. This revision publishes the receipt and the masked forecast. Native and factorial outcomes remain in the unopened custodian procedure.
