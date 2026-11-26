@@ -1,0 +1,47 @@
+{
+  "authority_sha256": "5377b65f20a5ae3fd65ea8b0fc8b575be8b7f451f72dd4b50cf53f4387a6fa15",
+  "before_opening": {
+    "receipts": [
+      {
+        "http_date": "Thu, 26 Nov 2026 22:01:19 GMT",
+        "observed_utc": "2026-11-26T22:01:20.001Z",
+        "reason": "Requested future beacon",
+        "status": 425,
+        "url": "https://api.drand.sh/52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971/public/34309120"
+      },
+      {
+        "http_date": "Thu, 26 Nov 2026 22:01:18 GMT",
+        "observed_utc": "2026-11-26T22:01:18.453Z",
+        "reason": "",
+        "status": 404,
+        "url": "https://drand.cloudflare.com/52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971/public/34309120"
+      }
+    ],
+    "round": 34309120,
+    "schema": 1
+  },
+  "commitment_commit": "06f728b0ae8c09bc7b18c8014ec66df39a710a9c",
+  "draw_sha256": "61ac9dd0bd65cb1a59bf3c45a06ecce0b9647538cb5920b2e6159eb05eef1c4d",
+  "forecast_commit": "cd3fcd3a385d85236275024f7dc704b1b1e71775",
+  "forecast_git_blob": "0a30878080b8107ea3915b89ded461f064aec87e",
+  "forecast_sha256": "168c601d797c9d7143f32733b19d4d2eaf5667f719cef8f26d776bbf976fe7ee",
+  "github_forecast": {
+    "http_date": "Thu, 26 Nov 2026 22:01:09 GMT",
+    "observed_utc": "2026-11-26T22:01:09.870359+00:00",
+    "request_id": "B270:EE39B:6E1BF3:A85F98:6B08AC25",
+    "resource": "git/commits/cd3fcd3a385d85236275024f7dc704b1b1e71775",
+    "status": 200
+  },
+  "github_ref": {
+    "http_date": "Thu, 26 Nov 2026 22:01:03 GMT",
+    "observed_utc": "2026-11-26T22:01:03.759107+00:00",
+    "request_id": "B264:157967:6C5401:A68DA1:6B08AC1E",
+    "resource": "git/ref/heads/codex/exp-x16",
+    "status": 200
+  },
+  "github_tip": "42196a0c83649b50fad124c67c302ea845a5fc6e",
+  "round": 34309120,
+  "scheduled_utc": "2026-11-26T22:05:24.000Z",
+  "schema": 1,
+  "source_commit": "861bc00b5836aabb8aea9dc129f0674afbe30fc2"
+}
