@@ -1,0 +1,366 @@
+{
+  "cases": {
+    "case01": {
+      "args": [
+        "verify",
+        "-verbose",
+        "-show_chain",
+        "-attime",
+        "1893456000",
+        "-purpose",
+        "sslserver",
+        "-verify_hostname",
+        "service.pcx-x07.invalid",
+        "-x509_strict",
+        "-auth_level",
+        "2",
+        "-check_ss_sig",
+        "-trusted",
+        "approved-root.pem",
+        "-untrusted",
+        "approved-issuer.pem",
+        "case01.pem"
+      ],
+      "depths": [
+        0
+      ],
+      "reason_codes": [
+        20
+      ],
+      "reasons": [
+        "unable to get local issuer certificate"
+      ],
+      "returncode": 2,
+      "stderr": "CN=service.pcx-x07.invalid\nerror 20 at 0 depth lookup: unable to get local issuer certificate\nerror case01.pem: verification failed\n",
+      "stdout": ""
+    },
+    "case02": {
+      "args": [
+        "verify",
+        "-verbose",
+        "-show_chain",
+        "-attime",
+        "1893456000",
+        "-purpose",
+        "sslserver",
+        "-verify_hostname",
+        "service.pcx-x07.invalid",
+        "-x509_strict",
+        "-auth_level",
+        "2",
+        "-check_ss_sig",
+        "-trusted",
+        "approved-root.pem",
+        "-untrusted",
+        "approved-issuer.pem",
+        "case02.pem"
+      ],
+      "depths": [
+        0
+      ],
+      "reason_codes": [
+        20
+      ],
+      "reasons": [
+        "unable to get local issuer certificate"
+      ],
+      "returncode": 2,
+      "stderr": "CN=service.pcx-x07.invalid\nerror 20 at 0 depth lookup: unable to get local issuer certificate\nerror case02.pem: verification failed\n",
+      "stdout": ""
+    },
+    "case03": {
+      "args": [
+        "verify",
+        "-verbose",
+        "-show_chain",
+        "-attime",
+        "1893456000",
+        "-purpose",
+        "sslserver",
+        "-verify_hostname",
+        "service.pcx-x07.invalid",
+        "-x509_strict",
+        "-auth_level",
+        "2",
+        "-check_ss_sig",
+        "-trusted",
+        "approved-root.pem",
+        "-untrusted",
+        "approved-issuer.pem",
+        "case03.pem"
+      ],
+      "depths": [
+        0
+      ],
+      "reason_codes": [
+        10
+      ],
+      "reasons": [
+        "certificate has expired"
+      ],
+      "returncode": 2,
+      "stderr": "CN=service.pcx-x07.invalid\nerror 10 at 0 depth lookup: certificate has expired\nerror case03.pem: verification failed\n",
+      "stdout": ""
+    },
+    "case04": {
+      "args": [
+        "verify",
+        "-verbose",
+        "-show_chain",
+        "-attime",
+        "1893456000",
+        "-purpose",
+        "sslserver",
+        "-verify_hostname",
+        "service.pcx-x07.invalid",
+        "-x509_strict",
+        "-auth_level",
+        "2",
+        "-check_ss_sig",
+        "-trusted",
+        "approved-root.pem",
+        "-untrusted",
+        "approved-issuer.pem",
+        "case04.pem"
+      ],
+      "depths": [
+        0
+      ],
+      "reason_codes": [
+        20
+      ],
+      "reasons": [
+        "unable to get local issuer certificate"
+      ],
+      "returncode": 2,
+      "stderr": "CN=service.pcx-x07.invalid\nerror 20 at 0 depth lookup: unable to get local issuer certificate\nerror case04.pem: verification failed\n",
+      "stdout": ""
+    },
+    "case05": {
+      "args": [
+        "verify",
+        "-verbose",
+        "-show_chain",
+        "-attime",
+        "1893456000",
+        "-purpose",
+        "sslserver",
+        "-verify_hostname",
+        "service.pcx-x07.invalid",
+        "-x509_strict",
+        "-auth_level",
+        "2",
+        "-check_ss_sig",
+        "-trusted",
+        "approved-root.pem",
+        "-untrusted",
+        "approved-issuer.pem",
+        "case05.pem"
+      ],
+      "depths": [
+        0
+      ],
+      "reason_codes": [
+        10
+      ],
+      "reasons": [
+        "certificate has expired"
+      ],
+      "returncode": 2,
+      "stderr": "CN=service.pcx-x07.invalid\nerror 10 at 0 depth lookup: certificate has expired\nerror case05.pem: verification failed\n",
+      "stdout": ""
+    },
+    "case06": {
+      "args": [
+        "verify",
+        "-verbose",
+        "-show_chain",
+        "-attime",
+        "1893456000",
+        "-purpose",
+        "sslserver",
+        "-verify_hostname",
+        "service.pcx-x07.invalid",
+        "-x509_strict",
+        "-auth_level",
+        "2",
+        "-check_ss_sig",
+        "-trusted",
+        "approved-root.pem",
+        "-untrusted",
+        "approved-issuer.pem",
+        "case06.pem"
+      ],
+      "depths": [
+        0
+      ],
+      "reason_codes": [
+        20
+      ],
+      "reasons": [
+        "unable to get local issuer certificate"
+      ],
+      "returncode": 2,
+      "stderr": "CN=service.pcx-x07.invalid\nerror 20 at 0 depth lookup: unable to get local issuer certificate\nerror case06.pem: verification failed\n",
+      "stdout": ""
+    },
+    "case07": {
+      "args": [
+        "verify",
+        "-verbose",
+        "-show_chain",
+        "-attime",
+        "1893456000",
+        "-purpose",
+        "sslserver",
+        "-verify_hostname",
+        "service.pcx-x07.invalid",
+        "-x509_strict",
+        "-auth_level",
+        "2",
+        "-check_ss_sig",
+        "-trusted",
+        "approved-root.pem",
+        "-untrusted",
+        "approved-issuer.pem",
+        "case07.pem"
+      ],
+      "depths": [],
+      "reason_codes": [],
+      "reasons": [],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "case07.pem: OK\nChain:\ndepth=0: CN=service.pcx-x07.invalid (untrusted)\ndepth=1: CN=PC-X07 Fixture Issuer (untrusted)\ndepth=2: CN=PC-X07 Approved Root\n"
+    },
+    "case08": {
+      "args": [
+        "verify",
+        "-verbose",
+        "-show_chain",
+        "-attime",
+        "1893456000",
+        "-purpose",
+        "sslserver",
+        "-verify_hostname",
+        "service.pcx-x07.invalid",
+        "-x509_strict",
+        "-auth_level",
+        "2",
+        "-check_ss_sig",
+        "-trusted",
+        "approved-root.pem",
+        "-untrusted",
+        "approved-issuer.pem",
+        "case08.pem"
+      ],
+      "depths": [],
+      "reason_codes": [],
+      "reasons": [],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "case08.pem: OK\nChain:\ndepth=0: CN=service.pcx-x07.invalid (untrusted)\ndepth=1: CN=PC-X07 Fixture Issuer (untrusted)\ndepth=2: CN=PC-X07 Approved Root\n"
+    },
+    "control-expired": {
+      "args": [
+        "verify",
+        "-verbose",
+        "-show_chain",
+        "-attime",
+        "1893456000",
+        "-purpose",
+        "sslserver",
+        "-verify_hostname",
+        "service.pcx-x07.invalid",
+        "-x509_strict",
+        "-auth_level",
+        "2",
+        "-check_ss_sig",
+        "-trusted",
+        "approved-root.pem",
+        "-untrusted",
+        "approved-issuer.pem",
+        "control-expired.pem"
+      ],
+      "depths": [
+        0
+      ],
+      "reason_codes": [
+        10
+      ],
+      "reasons": [
+        "certificate has expired"
+      ],
+      "returncode": 2,
+      "stderr": "CN=service.pcx-x07.invalid\nerror 10 at 0 depth lookup: certificate has expired\nerror control-expired.pem: verification failed\n",
+      "stdout": ""
+    },
+    "control-valid": {
+      "args": [
+        "verify",
+        "-verbose",
+        "-show_chain",
+        "-attime",
+        "1893456000",
+        "-purpose",
+        "sslserver",
+        "-verify_hostname",
+        "service.pcx-x07.invalid",
+        "-x509_strict",
+        "-auth_level",
+        "2",
+        "-check_ss_sig",
+        "-trusted",
+        "approved-root.pem",
+        "-untrusted",
+        "approved-issuer.pem",
+        "control-valid.pem"
+      ],
+      "depths": [],
+      "reason_codes": [],
+      "reasons": [],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "control-valid.pem: OK\nChain:\ndepth=0: CN=service.pcx-x07.invalid (untrusted)\ndepth=1: CN=PC-X07 Fixture Issuer (untrusted)\ndepth=2: CN=PC-X07 Approved Root\n"
+    },
+    "control-wrong-anchor": {
+      "args": [
+        "verify",
+        "-verbose",
+        "-show_chain",
+        "-attime",
+        "1893456000",
+        "-purpose",
+        "sslserver",
+        "-verify_hostname",
+        "service.pcx-x07.invalid",
+        "-x509_strict",
+        "-auth_level",
+        "2",
+        "-check_ss_sig",
+        "-trusted",
+        "other-root.pem",
+        "-untrusted",
+        "approved-issuer.pem",
+        "control-valid.pem"
+      ],
+      "depths": [
+        1
+      ],
+      "reason_codes": [
+        20
+      ],
+      "reasons": [
+        "unable to get local issuer certificate"
+      ],
+      "returncode": 2,
+      "stderr": "CN=PC-X07 Fixture Issuer\nerror 20 at 1 depth lookup: unable to get local issuer certificate\nerror control-valid.pem: verification failed\n",
+      "stdout": ""
+    }
+  },
+  "completed_at": "2026-11-26T15:52:13.583828+00:00",
+  "openssl": {
+    "executable": "C:\\Program Files\\Git\\usr\\bin\\openssl.exe",
+    "sha256": "e7c10875d990b320a6000653b3a8c12f5aa06442c1937a246d2daeb342b7c9c5",
+    "version": "OpenSSL 3.2.4 11 Feb 2025 (Library: OpenSSL 3.2.4 11 Feb 2025)"
+  }
+}

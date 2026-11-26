@@ -1,0 +1,37 @@
+{
+  "assignments": {
+    "case01": "other-expired",
+    "case02": "other-expired",
+    "case03": "approved-expired",
+    "case04": "other-current",
+    "case05": "approved-expired",
+    "case06": "other-current",
+    "case07": "approved-current",
+    "case08": "approved-current",
+    "control-expired": "approved-expired",
+    "control-valid": "approved-current"
+  },
+  "created_at": "2026-11-26T15:47:54.227713+00:00",
+  "fixture_library": "cryptography 43.0.3",
+  "nonce": "ed80a5adda449b746878481900eef39467fd70a7e3e3f2b1c0ad608743b51b14",
+  "protocol_commit": "4933d82cab463dfee60b18843acc4d7b524fe90a",
+  "protocol_registered_at": "2026-11-26T15:47:52.6492071+00:00",
+  "protocol_sha256": "a6ee54b0ffd7b0fd630022b5e596418dc3d89514c4dde3782ad0b76cd767bce4",
+  "public_sha256": {
+    "approved-issuer.pem": "ad0adf9010837674ce358478e68110fcdadaab120f62c54dec8986e01bfba93c",
+    "approved-root.pem": "df868d44dfe084e8a61c42f168293e2edd4b6ae46ee38656a171250331d8f509",
+    "case01.pem": "4e560f3a52c8e25060a22ec5822e2245efdd16da8c2688b2beead016d08b3002",
+    "case02.pem": "2bf1d12e8c614f7fd9c0f04fee7649ea07b0088910b65f1223af2712e3c9e296",
+    "case03.pem": "518e12473ccc87ecaccf9327f1e79016993a3bd14c80747eb50b11adec9078e6",
+    "case04.pem": "43ff8548211bd4feb1b0c8e652db9a89192edee9a5a26d4ee16f8a3cf0bb7e6f",
+    "case05.pem": "502e56da547ed181bfb8e699b141f5bc8d2bbae50ab8898f1748741cb7350139",
+    "case06.pem": "9465cc50f6a3cf904aa90c99b734568d911e1837cfa6ba810a48832e7a14e363",
+    "case07.pem": "89f576bc08768e7ad0d8675f5881b30a1ae5243daea66d4952be5071fbfad150",
+    "case08.pem": "8d5499b2ea89cf9193993233164e26e87dfdddf1e3f705b645c6582e7cea27f1",
+    "control-expired.pem": "ef96c4c6e7b2a68150f36540b68478f090ff574be00c3eff641e0193023ee101",
+    "control-valid.pem": "8966c092ffe0b580755bb491067d562f7111dd2238498d8988e7dc83a927506e",
+    "other-issuer.pem": "897eaeccfd5e32a399086e006a0cbcb88ab3d3e21bea7571544c358f04a97592",
+    "other-root.pem": "a199ee5671039f6639915430c904660757852cd64586280239255623c696c6f2"
+  },
+  "schema": 1
+}

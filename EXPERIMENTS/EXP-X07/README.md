@@ -77,3 +77,13 @@ python -B run.py check --evidence evidence/pre-outcome --post evidence/post-outc
 ```
 
 This deterministic, constructed fixture suite supplies exact held-out counts for its eight assignments. The acquisition weights are declared units. The study measures neither operating costs nor the prevalence of a diagnosis across operators, PKIs, or deployments.
+
+To verify the packaged evidence inventory from the experiment directory, check the SHA-256 manifest.
+
+```powershell
+foreach ($entry in Get-Content -LiteralPath 'evidence/manifest.sha256') {
+    $hash, $relative = $entry -split '  ', 2
+    $actual = (Get-FileHash -LiteralPath $relative -Algorithm SHA256).Hash.ToLowerInvariant()
+    if ($actual -ne $hash) { throw "Evidence differs at $relative" }
+}
+```

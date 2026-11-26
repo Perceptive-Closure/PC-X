@@ -1,0 +1,173 @@
+{
+  "controls": {
+    "negative": {
+      "actual": "FAIL",
+      "expected": "FAIL"
+    },
+    "positive": {
+      "actual": "PASS",
+      "expected": "PASS"
+    },
+    "wrong_anchor": {
+      "actual": "FAIL",
+      "expected": "FAIL"
+    }
+  },
+  "held_out": 8,
+  "metrics": {
+    "coarse": {
+      "abstain": 0,
+      "correct": 6,
+      "correctly_retained": 6,
+      "correctly_reversed": 0,
+      "false_fail": 2,
+      "false_pass": 0,
+      "unusable_native": 0,
+      "wrong": 2
+    },
+    "native_fields": {
+      "abstain": 0,
+      "correct": 8,
+      "correctly_retained": 6,
+      "correctly_reversed": 2,
+      "false_fail": 0,
+      "false_pass": 0,
+      "unusable_native": 0,
+      "wrong": 0
+    },
+    "no_audit": {
+      "abstain": 8,
+      "correct": 0,
+      "correctly_retained": 0,
+      "correctly_reversed": 0,
+      "false_fail": 0,
+      "false_pass": 0,
+      "unusable_native": 0,
+      "wrong": 0
+    },
+    "omit_issuer_binding": {
+      "abstain": 4,
+      "correct": 4,
+      "correctly_retained": 4,
+      "correctly_reversed": 0,
+      "false_fail": 0,
+      "false_pass": 0,
+      "unusable_native": 0,
+      "wrong": 0
+    },
+    "omit_leaf_validity": {
+      "abstain": 4,
+      "correct": 4,
+      "correctly_retained": 4,
+      "correctly_reversed": 0,
+      "false_fail": 0,
+      "false_pass": 0,
+      "unusable_native": 0,
+      "wrong": 0
+    },
+    "pcx": {
+      "abstain": 0,
+      "correct": 8,
+      "correctly_retained": 6,
+      "correctly_reversed": 2,
+      "false_fail": 0,
+      "false_pass": 0,
+      "unusable_native": 0,
+      "wrong": 0
+    }
+  },
+  "pcx_minus_coarse_correct": 2,
+  "pcx_minus_native_fields_correct": 0,
+  "schema": 1,
+  "trials": {
+    "case01": {
+      "native": "FAIL",
+      "predictions": {
+        "coarse": "FAIL",
+        "native_fields": "FAIL",
+        "no_audit": "ABSTAIN",
+        "omit_issuer_binding": "FAIL",
+        "omit_leaf_validity": "FAIL",
+        "pcx": "FAIL"
+      }
+    },
+    "case02": {
+      "native": "FAIL",
+      "predictions": {
+        "coarse": "FAIL",
+        "native_fields": "FAIL",
+        "no_audit": "ABSTAIN",
+        "omit_issuer_binding": "FAIL",
+        "omit_leaf_validity": "FAIL",
+        "pcx": "FAIL"
+      }
+    },
+    "case03": {
+      "native": "FAIL",
+      "predictions": {
+        "coarse": "FAIL",
+        "native_fields": "FAIL",
+        "no_audit": "ABSTAIN",
+        "omit_issuer_binding": "FAIL",
+        "omit_leaf_validity": "ABSTAIN",
+        "pcx": "FAIL"
+      }
+    },
+    "case04": {
+      "native": "FAIL",
+      "predictions": {
+        "coarse": "FAIL",
+        "native_fields": "FAIL",
+        "no_audit": "ABSTAIN",
+        "omit_issuer_binding": "ABSTAIN",
+        "omit_leaf_validity": "FAIL",
+        "pcx": "FAIL"
+      }
+    },
+    "case05": {
+      "native": "FAIL",
+      "predictions": {
+        "coarse": "FAIL",
+        "native_fields": "FAIL",
+        "no_audit": "ABSTAIN",
+        "omit_issuer_binding": "FAIL",
+        "omit_leaf_validity": "ABSTAIN",
+        "pcx": "FAIL"
+      }
+    },
+    "case06": {
+      "native": "FAIL",
+      "predictions": {
+        "coarse": "FAIL",
+        "native_fields": "FAIL",
+        "no_audit": "ABSTAIN",
+        "omit_issuer_binding": "ABSTAIN",
+        "omit_leaf_validity": "FAIL",
+        "pcx": "FAIL"
+      }
+    },
+    "case07": {
+      "native": "PASS",
+      "predictions": {
+        "coarse": "FAIL",
+        "native_fields": "PASS",
+        "no_audit": "ABSTAIN",
+        "omit_issuer_binding": "ABSTAIN",
+        "omit_leaf_validity": "ABSTAIN",
+        "pcx": "PASS"
+      }
+    },
+    "case08": {
+      "native": "PASS",
+      "predictions": {
+        "coarse": "FAIL",
+        "native_fields": "PASS",
+        "no_audit": "ABSTAIN",
+        "omit_issuer_binding": "ABSTAIN",
+        "omit_leaf_validity": "ABSTAIN",
+        "pcx": "PASS"
+      }
+    }
+  },
+  "verdict": "SUPPORTED_IN_FROZEN_FIXTURE"
+}
