@@ -1,0 +1,81 @@
+{
+  "schema": "pcx-exp-x02-v1",
+  "x01_commit": "a52d45f1b8c0036b1a69b1fc024f95e48d4ce012",
+  "freeze_order": [
+    "none",
+    "E",
+    "R",
+    "A",
+    "ER",
+    "EA",
+    "RA",
+    "ERA"
+  ],
+  "controls": [
+    "complementary",
+    "independent",
+    "co-occurrence",
+    "joint-tradeoff",
+    "finite-fallback",
+    "dependency-chain",
+    "mixed-support",
+    "mixed-first-only",
+    "branched-policy",
+    "infeasible"
+  ],
+  "exhaustive_cost_pairs": [
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "exhaustive_variables": 2,
+  "generated_seed_schedule": [
+    2201,
+    2202,
+    2203
+  ],
+  "generated_per_seed": 12,
+  "generated_variables": [
+    3,
+    4
+  ],
+  "generated_cost_range": [
+    0,
+    7
+  ],
+  "generated_clause_count_range": [
+    0,
+    7
+  ],
+  "generated_clause_width_range": [
+    1,
+    3
+  ],
+  "generated_topologies": [
+    "parallel",
+    "observable-fork"
+  ],
+  "finite_limits": {
+    "boolean_variables": 8,
+    "rectangular_profiles": 16384,
+    "checkpoints": 12,
+    "action_locators": 12
+  },
+  "refinement": "Both polarities of feature 1, then each polarity of feature 2 under each first-feature refinement.",
+  "protocol_requires": [
+    "Independent CNF truth-table agreement",
+    "Pinned X01 agreement and policy support agreement for every completion and freeze",
+    "Independent endpoint witness round trips",
+    "Correlation-preserving set containment",
+    "Refusal for unsupported common-kernel changes"
+  ]
+}
