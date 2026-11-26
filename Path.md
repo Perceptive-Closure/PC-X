@@ -94,6 +94,8 @@ Each slot remains occupied through parent clean-checkout verification, safe clea
 
 On 2026-11-26 at 20:39 Asia/Karachi the parent independently confirmed GitHub GraphQL, REST and connector responses report public visibility for the existing Perceptive-Closure/PC-X repository. The repository was created and previously verified private. The responses do not attribute the change. The parent paused GitHub writes and prospective openings pending Infernus's sharing decision. X07 and X14 continue local preparation and development-only tests. X15 continues independent read-only retrieval and local reproduction of the twelve immutable terminal packages.
 
+On 2026-11-26 Infernus selected **Continue with public visibility** for this repository. GitHub pushes and staged prospective work resumed under that direction. The repository settings were read back as public.
+
 ## First-wave cleanup and restart
 
 Automatic command approval rejected recursive removal and individually verified literal-path file removal for X03. Individually verified literal-path removal was also rejected for X08. The sole error detail was `blocked by policy` at process creation. Rejections occurred before execution and no files were deleted. X01 cleanup was held after the same methods were rejected for the other experiment roots. These directories were created for this program, contain the disposable clones, reproduction checkouts and scoped outputs, and have verified durable GitHub packages.
@@ -110,4 +112,4 @@ The next wave uses one managed Git worktree per experiment with all ignored scra
 
 ## Findings and outstanding obligations
 
-Operationally complete 12/15. X07, X14 and X15 are working locally while GitHub writes and prospective openings await visibility direction. Accepted claims remain bounded to the tested finite and sandbox systems. The general transport and flagship results remain open.
+Operationally complete 12/15. X07, X14 and X15 are active following the confirmed public publishing decision. Accepted claims remain bounded to the tested finite and sandbox systems. The general transport and flagship results remain open.
