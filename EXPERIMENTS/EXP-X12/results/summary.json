@@ -1,0 +1,2147 @@
+{
+  "confidence": {
+    "alpha_by_cohort": {
+      "full": 0.01,
+      "holdout": 0.01,
+      "paired": 0.02,
+      "reference": 0.01
+    },
+    "hoeffding_radius": {
+      "full": 0.03345632935351005,
+      "holdout": 0.0321669594595307,
+      "paired": 0.02453506334564866,
+      "reference": 0.031388182942255226
+    },
+    "multiplicity": {
+      "full": 48,
+      "holdout": 24,
+      "paired": 192,
+      "reference": 16
+    },
+    "n_per_primitive": {
+      "full": 4096,
+      "holdout": 4096,
+      "paired": 8192,
+      "reference": 4096
+    },
+    "simultaneous_alpha_budget": 0.05
+  },
+  "gates": {
+    "correct_fidelity_refusals": true,
+    "every_exact_risk_and_native_interval_covered": true,
+    "full_uncovered_mass_retained": true,
+    "independent_exact_covered_mismatch_check": true,
+    "native_confirmation_of_each_anchored_decision": true,
+    "preregistered_primary_control_decisions": true
+  },
+  "metrics": {
+    "anchored": {
+      "abstained": 6,
+      "abstention_rate": 0.5,
+      "certification_rate": 0.5,
+      "certified": 6,
+      "exact_contexts_inside": 24,
+      "false_safe": 0,
+      "false_unsafe": 0,
+      "mean_worst_width": 0.5178189333654275,
+      "native_confirmation_rate_among_certified": 1.0,
+      "native_confirmed": 6,
+      "native_contexts_overlap": 24,
+      "native_inconclusive_among_certified": 0,
+      "native_opposed": 0
+    },
+    "eval_only": {
+      "abstained": 0,
+      "abstention_rate": 0.0,
+      "certification_rate": 1.0,
+      "certified": 12,
+      "exact_contexts_inside": 10,
+      "false_safe": 7,
+      "false_unsafe": 0,
+      "mean_worst_width": 0.06277636588451045,
+      "native_confirmation_rate_among_certified": 0.4166666666666667,
+      "native_confirmed": 5,
+      "native_contexts_overlap": 10,
+      "native_inconclusive_among_certified": 0,
+      "native_opposed": 7
+    },
+    "full": {
+      "abstained": 2,
+      "abstention_rate": 0.16666666666666666,
+      "certification_rate": 0.8333333333333334,
+      "certified": 10,
+      "exact_contexts_inside": 24,
+      "false_safe": 0,
+      "false_unsafe": 0,
+      "mean_worst_width": 0.13552958019299194,
+      "native_confirmation_rate_among_certified": 1.0,
+      "native_confirmed": 10,
+      "native_contexts_overlap": 24,
+      "native_inconclusive_among_certified": 0,
+      "native_opposed": 0
+    },
+    "ignore_fidelity": {
+      "abstained": 4,
+      "abstention_rate": 0.3333333333333333,
+      "certification_rate": 0.6666666666666666,
+      "certified": 8,
+      "exact_contexts_inside": 20,
+      "false_safe": 2,
+      "false_unsafe": 0,
+      "mean_worst_width": 0.3859396850737296,
+      "native_confirmation_rate_among_certified": 0.75,
+      "native_confirmed": 6,
+      "native_contexts_overlap": 20,
+      "native_inconclusive_among_certified": 0,
+      "native_opposed": 2
+    },
+    "nonadaptive": {
+      "abstained": 6,
+      "abstention_rate": 0.5,
+      "certification_rate": 0.5,
+      "certified": 6,
+      "exact_contexts_inside": 24,
+      "false_safe": 0,
+      "false_unsafe": 0,
+      "mean_worst_width": 0.5178189333654275,
+      "native_confirmation_rate_among_certified": 1.0,
+      "native_confirmed": 6,
+      "native_contexts_overlap": 24,
+      "native_inconclusive_among_certified": 0,
+      "native_opposed": 0
+    }
+  },
+  "native_episodes": 98304,
+  "queue_row_schema": [
+    "arrivals",
+    "observed_pending",
+    "boost",
+    "completed",
+    "pending_after"
+  ],
+  "sorter_row_schema": [
+    "printed_tray",
+    "shown_tray",
+    "dispatched_tray",
+    "received_tray"
+  ],
+  "trace_schema": [
+    "unit",
+    "context",
+    "index",
+    "enrollment_ticket",
+    "primitive_tickets",
+    "initial",
+    "machine_ledger"
+  ],
+  "unit_cost_totals": {
+    "anchored": 1048804,
+    "cheapest_first": 1048804,
+    "eval_only": 0,
+    "full": 786444,
+    "nonadaptive": 1573092,
+    "restricted_minimum": 1048804,
+    "uniform_order_mean": 1398329.3333333333,
+    "uniform_order_worst": 1573092
+  },
+  "units": {
+    "Q01": {
+      "admission": "valid",
+      "comparators": {
+        "anchored": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "safe",
+          "worst_interval": [
+            0.0,
+            0.19587365116859987
+          ],
+          "worst_width": 0.19587365116859987
+        },
+        "eval_only": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "safe",
+          "worst_interval": [
+            0.006941895182744774,
+            0.06971826106725523
+          ],
+          "worst_width": 0.06277636588451047
+        },
+        "full": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "safe",
+          "worst_interval": [
+            0.008779998771489952,
+            0.07569265747851005
+          ],
+          "worst_width": 0.0669126587070201
+        },
+        "ignore_fidelity": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "safe",
+          "worst_interval": [
+            0.0,
+            0.19587365116859987
+          ],
+          "worst_width": 0.19587365116859987
+        },
+        "nonadaptive": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "safe",
+          "worst_interval": [
+            0.0,
+            0.19587365116859987
+          ],
+          "worst_width": 0.19587365116859987
+        }
+      },
+      "control": "bounded_drift",
+      "cost": {
+        "anchored": 131091,
+        "cheapest_first": 131091,
+        "eval_only": 0,
+        "full": 65537,
+        "nonadaptive": 131091,
+        "restricted_minimum": 131091,
+        "uniform_order_mean": 131091.0,
+        "uniform_order_worst": 131091
+      },
+      "exact_context_risk": {
+        "busy": "2970965557/62500000000",
+        "routine": "146051976461/4000000000000"
+      },
+      "exact_covered_coupling": {
+        "busy": {
+          "priority": {
+            "conditional_risk_gap": "313108853/31250000000",
+            "probability_of_any_seam_mismatch": "23179379/781250000",
+            "step_mismatch": [
+              "3/500",
+              "3/500",
+              "1/125",
+              "1/100"
+            ]
+          },
+          "standard": {
+            "conditional_risk_gap": "625914849/62500000000",
+            "probability_of_any_seam_mismatch": "23179379/781250000",
+            "step_mismatch": [
+              "3/500",
+              "3/500",
+              "1/125",
+              "1/100"
+            ]
+          }
+        },
+        "routine": {
+          "priority": {
+            "conditional_risk_gap": "5005237043/500000000000",
+            "probability_of_any_seam_mismatch": "23179379/781250000",
+            "step_mismatch": [
+              "3/500",
+              "3/500",
+              "1/125",
+              "1/100"
+            ]
+          },
+          "standard": {
+            "conditional_risk_gap": "160117/16000000",
+            "probability_of_any_seam_mismatch": "23179379/781250000",
+            "step_mismatch": [
+              "3/500",
+              "3/500",
+              "1/125",
+              "1/100"
+            ]
+          }
+        }
+      },
+      "exact_verdict": "safe",
+      "exact_worst": "2970965557/62500000000",
+      "family": "queue",
+      "native": {
+        "contexts": {
+          "busy": [
+            0.0183701499154693,
+            0.0827040688345307
+          ],
+          "routine": [
+            0.0100693686654693,
+            0.0744032875845307
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.0183701499154693,
+          0.0827040688345307
+        ]
+      },
+      "observed": {
+        "busy": {
+          "completed": 26519,
+          "enrollment_n": {
+            "novel": 0,
+            "priority": 2032,
+            "standard": 2064
+          },
+          "events": 207,
+          "n": 4096,
+          "offered": 26726
+        },
+        "routine": {
+          "completed": 24474,
+          "enrollment_n": {
+            "novel": 0,
+            "priority": 958,
+            "standard": 3138
+          },
+          "events": 173,
+          "n": 4096,
+          "offered": 24647
+        }
+      },
+      "uncovered_mass": {
+        "busy": 0.0,
+        "routine": 0.0
+      }
+    },
+    "Q02": {
+      "admission": "valid",
+      "comparators": {
+        "anchored": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": false,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "abstain",
+          "worst_interval": [
+            0.0,
+            0.5423221829474174
+          ],
+          "worst_width": 0.5423221829474174
+        },
+        "eval_only": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "safe",
+          "worst_interval": [
+            0.006941895182744774,
+            0.06971826106725523
+          ],
+          "worst_width": 0.06277636588451047
+        },
+        "full": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": false,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "abstain",
+          "worst_interval": [
+            0.0017772415118194739,
+            0.48857920380068054
+          ],
+          "worst_width": 0.4868019622888611
+        },
+        "ignore_fidelity": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": false,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "abstain",
+          "worst_interval": [
+            0.0,
+            0.5423221829474174
+          ],
+          "worst_width": 0.5423221829474174
+        },
+        "nonadaptive": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": false,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "abstain",
+          "worst_interval": [
+            0.0,
+            0.5423221829474174
+          ],
+          "worst_width": 0.5423221829474174
+        }
+      },
+      "control": "missing_support",
+      "cost": {
+        "anchored": 131091,
+        "cheapest_first": 131091,
+        "eval_only": 0,
+        "full": 65537,
+        "nonadaptive": 131091,
+        "restricted_minimum": 131091,
+        "uniform_order_mean": 131091.0,
+        "uniform_order_worst": 131091
+      },
+      "exact_context_risk": {
+        "busy": "12943957057/625000000000",
+        "routine": "848156519/40000000000"
+      },
+      "exact_covered_coupling": {
+        "busy": {
+          "priority": {
+            "conditional_risk_gap": "0",
+            "probability_of_any_seam_mismatch": "0",
+            "step_mismatch": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          "standard": {
+            "conditional_risk_gap": "0",
+            "probability_of_any_seam_mismatch": "0",
+            "step_mismatch": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          }
+        },
+        "routine": {
+          "priority": {
+            "conditional_risk_gap": "0",
+            "probability_of_any_seam_mismatch": "0",
+            "step_mismatch": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          "standard": {
+            "conditional_risk_gap": "0",
+            "probability_of_any_seam_mismatch": "0",
+            "step_mismatch": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          }
+        }
+      },
+      "exact_verdict": "safe",
+      "exact_worst": "848156519/40000000000",
+      "family": "queue",
+      "native": {
+        "contexts": {
+          "busy": [
+            0.0,
+            0.0473036782095307
+          ],
+          "routine": [
+            0.0,
+            0.0536513344595307
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.0,
+          0.0536513344595307
+        ]
+      },
+      "observed": {
+        "busy": {
+          "completed": 25818,
+          "enrollment_n": {
+            "novel": 1829,
+            "priority": 1256,
+            "standard": 1011
+          },
+          "events": 62,
+          "n": 4096,
+          "offered": 25880
+        },
+        "routine": {
+          "completed": 24533,
+          "enrollment_n": {
+            "novel": 799,
+            "priority": 802,
+            "standard": 2495
+          },
+          "events": 88,
+          "n": 4096,
+          "offered": 24621
+        }
+      },
+      "uncovered_mass": {
+        "busy": 0.45,
+        "routine": 0.2
+      }
+    },
+    "Q03": {
+      "admission": "valid",
+      "comparators": {
+        "anchored": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": false,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "abstain",
+          "worst_interval": [
+            0.0,
+            1.0
+          ],
+          "worst_width": 1.0
+        },
+        "eval_only": {
+          "exact_contexts_inside": 0,
+          "native_confirmed": false,
+          "native_contexts_overlap": 0,
+          "native_opposed": true,
+          "verdict": "safe",
+          "worst_interval": [
+            0.006941895182744774,
+            0.06971826106725523
+          ],
+          "worst_width": 0.06277636588451047
+        },
+        "full": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "unsafe",
+          "worst_interval": [
+            0.47740792845898994,
+            0.5443205871660101
+          ],
+          "worst_width": 0.06691265870702012
+        },
+        "ignore_fidelity": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": false,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "abstain",
+          "worst_interval": [
+            0.0,
+            1.0
+          ],
+          "worst_width": 1.0
+        },
+        "nonadaptive": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": false,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "abstain",
+          "worst_interval": [
+            0.0,
+            1.0
+          ],
+          "worst_width": 1.0
+        }
+      },
+      "control": "vacuous",
+      "cost": {
+        "anchored": 131091,
+        "cheapest_first": 131091,
+        "eval_only": 0,
+        "full": 65537,
+        "nonadaptive": 131091,
+        "restricted_minimum": 131091,
+        "uniform_order_mean": 131091.0,
+        "uniform_order_worst": 131091
+      },
+      "exact_context_risk": {
+        "busy": "250395067541/500000000000",
+        "routine": "195068593/400000000"
+      },
+      "exact_covered_coupling": {
+        "busy": {
+          "priority": {
+            "conditional_risk_gap": "23191896101/50000000000",
+            "probability_of_any_seam_mismatch": "35395699/40000000",
+            "step_mismatch": [
+              "17/40",
+              "21/50",
+              "41/100",
+              "83/200"
+            ]
+          },
+          "standard": {
+            "conditional_risk_gap": "144595491/312500000",
+            "probability_of_any_seam_mismatch": "35395699/40000000",
+            "step_mismatch": [
+              "17/40",
+              "21/50",
+              "41/100",
+              "83/200"
+            ]
+          }
+        },
+        "routine": {
+          "priority": {
+            "conditional_risk_gap": "18469772733/40000000000",
+            "probability_of_any_seam_mismatch": "35395699/40000000",
+            "step_mismatch": [
+              "17/40",
+              "21/50",
+              "41/100",
+              "83/200"
+            ]
+          },
+          "standard": {
+            "conditional_risk_gap": "1152435039/2500000000",
+            "probability_of_any_seam_mismatch": "35395699/40000000",
+            "step_mismatch": [
+              "17/40",
+              "21/50",
+              "41/100",
+              "83/200"
+            ]
+          }
+        }
+      },
+      "exact_verdict": "unsafe",
+      "exact_worst": "250395067541/500000000000",
+      "family": "queue",
+      "native": {
+        "contexts": {
+          "busy": [
+            0.4663681967904693,
+            0.5307021157095307
+          ],
+          "routine": [
+            0.4526963217904693,
+            0.5170302407095307
+          ]
+        },
+        "verdict": "unsafe",
+        "worst": [
+          0.4663681967904693,
+          0.5307021157095307
+        ]
+      },
+      "observed": {
+        "busy": {
+          "completed": 26222,
+          "enrollment_n": {
+            "novel": 0,
+            "priority": 2057,
+            "standard": 2039
+          },
+          "events": 2042,
+          "n": 4096,
+          "offered": 28455
+        },
+        "routine": {
+          "completed": 24272,
+          "enrollment_n": {
+            "novel": 0,
+            "priority": 1002,
+            "standard": 3094
+          },
+          "events": 1986,
+          "n": 4096,
+          "offered": 26383
+        }
+      },
+      "uncovered_mass": {
+        "busy": 0.0,
+        "routine": 0.0
+      }
+    },
+    "Q04": {
+      "admission": "fidelity_violation",
+      "comparators": {
+        "anchored": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": false,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "abstain",
+          "worst_interval": [
+            0.0,
+            1.0
+          ],
+          "worst_width": 1.0
+        },
+        "eval_only": {
+          "exact_contexts_inside": 0,
+          "native_confirmed": false,
+          "native_contexts_overlap": 0,
+          "native_opposed": true,
+          "verdict": "safe",
+          "worst_interval": [
+            0.006941895182744774,
+            0.06971826106725523
+          ],
+          "worst_width": 0.06277636588451047
+        },
+        "full": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "unsafe",
+          "worst_interval": [
+            0.8726716003339899,
+            0.9395842590410101
+          ],
+          "worst_width": 0.06691265870702012
+        },
+        "ignore_fidelity": {
+          "exact_contexts_inside": 0,
+          "native_confirmed": false,
+          "native_contexts_overlap": 0,
+          "native_opposed": true,
+          "verdict": "safe",
+          "worst_interval": [
+            0.0,
+            0.16785851444984987
+          ],
+          "worst_width": 0.16785851444984987
+        },
+        "nonadaptive": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": false,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "abstain",
+          "worst_interval": [
+            0.0,
+            1.0
+          ],
+          "worst_width": 1.0
+        }
+      },
+      "control": "fidelity_violation",
+      "cost": {
+        "anchored": 19,
+        "cheapest_first": 19,
+        "eval_only": 0,
+        "full": 65537,
+        "nonadaptive": 131091,
+        "restricted_minimum": 19,
+        "uniform_order_mean": 87400.33333333333,
+        "uniform_order_worst": 131091
+      },
+      "exact_context_risk": {
+        "busy": "36133642429/40000000000",
+        "routine": "35100510421/40000000000"
+      },
+      "exact_covered_coupling": {},
+      "exact_verdict": "unsafe",
+      "exact_worst": "36133642429/40000000000",
+      "family": "queue",
+      "native": {
+        "contexts": {
+          "busy": [
+            0.8728623374154693,
+            0.9371962563345307
+          ],
+          "routine": [
+            0.8379502280404693,
+            0.9022841469595307
+          ]
+        },
+        "verdict": "unsafe",
+        "worst": [
+          0.8728623374154693,
+          0.9371962563345307
+        ]
+      },
+      "observed": {
+        "busy": {
+          "completed": 24414,
+          "enrollment_n": {
+            "novel": 0,
+            "priority": 2057,
+            "standard": 2039
+          },
+          "events": 3707,
+          "n": 4096,
+          "offered": 29666
+        },
+        "routine": {
+          "completed": 22595,
+          "enrollment_n": {
+            "novel": 0,
+            "priority": 1053,
+            "standard": 3043
+          },
+          "events": 3564,
+          "n": 4096,
+          "offered": 27521
+        }
+      },
+      "uncovered_mass": {
+        "busy": 0.0,
+        "routine": 0.0
+      }
+    },
+    "Q05": {
+      "admission": "valid",
+      "comparators": {
+        "anchored": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "unsafe",
+          "worst_interval": [
+            0.7307620910189001,
+            1.0
+          ],
+          "worst_width": 0.2692379089810999
+        },
+        "eval_only": {
+          "exact_contexts_inside": 0,
+          "native_confirmed": false,
+          "native_contexts_overlap": 0,
+          "native_opposed": true,
+          "verdict": "safe",
+          "worst_interval": [
+            0.006941895182744774,
+            0.06971826106725523
+          ],
+          "worst_width": 0.06277636588451047
+        },
+        "full": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "unsafe",
+          "worst_interval": [
+            0.8588776550214899,
+            0.9257903137285101
+          ],
+          "worst_width": 0.06691265870702012
+        },
+        "ignore_fidelity": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "unsafe",
+          "worst_interval": [
+            0.7307620910189001,
+            1.0
+          ],
+          "worst_width": 0.2692379089810999
+        },
+        "nonadaptive": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "unsafe",
+          "worst_interval": [
+            0.7307620910189001,
+            1.0
+          ],
+          "worst_width": 0.2692379089810999
+        }
+      },
+      "control": "changed_verdict",
+      "cost": {
+        "anchored": 131091,
+        "cheapest_first": 131091,
+        "eval_only": 0,
+        "full": 65537,
+        "nonadaptive": 131091,
+        "restricted_minimum": 131091,
+        "uniform_order_mean": 131091.0,
+        "uniform_order_worst": 131091
+      },
+      "exact_context_risk": {
+        "busy": "11132260339/12500000000",
+        "routine": "17274154853/20000000000"
+      },
+      "exact_covered_coupling": {
+        "busy": {
+          "priority": {
+            "conditional_risk_gap": "53857381/6250000000",
+            "probability_of_any_seam_mismatch": "30029387/781250000",
+            "step_mismatch": [
+              "3/250",
+              "1/125",
+              "9/1000",
+              "1/100"
+            ]
+          },
+          "standard": {
+            "conditional_risk_gap": "5565953/625000000",
+            "probability_of_any_seam_mismatch": "30029387/781250000",
+            "step_mismatch": [
+              "3/250",
+              "1/125",
+              "9/1000",
+              "1/100"
+            ]
+          }
+        },
+        "routine": {
+          "priority": {
+            "conditional_risk_gap": "228838391/25000000000",
+            "probability_of_any_seam_mismatch": "30029387/781250000",
+            "step_mismatch": [
+              "3/250",
+              "1/125",
+              "9/1000",
+              "1/100"
+            ]
+          },
+          "standard": {
+            "conditional_risk_gap": "14951653/1562500000",
+            "probability_of_any_seam_mismatch": "30029387/781250000",
+            "step_mismatch": [
+              "3/250",
+              "1/125",
+              "9/1000",
+              "1/100"
+            ]
+          }
+        }
+      },
+      "exact_verdict": "unsafe",
+      "exact_worst": "11132260339/12500000000",
+      "family": "queue",
+      "native": {
+        "contexts": {
+          "busy": [
+            0.8699326499154693,
+            0.9342665688345307
+          ],
+          "routine": [
+            0.8421006186654693,
+            0.9064345375845307
+          ]
+        },
+        "verdict": "unsafe",
+        "worst": [
+          0.8699326499154693,
+          0.9342665688345307
+        ]
+      },
+      "observed": {
+        "busy": {
+          "completed": 24412,
+          "enrollment_n": {
+            "novel": 0,
+            "priority": 2014,
+            "standard": 2082
+          },
+          "events": 3695,
+          "n": 4096,
+          "offered": 29601
+        },
+        "routine": {
+          "completed": 22662,
+          "enrollment_n": {
+            "novel": 0,
+            "priority": 1030,
+            "standard": 3066
+          },
+          "events": 3581,
+          "n": 4096,
+          "offered": 27497
+        }
+      },
+      "uncovered_mass": {
+        "busy": 0.0,
+        "routine": 0.0
+      }
+    },
+    "Q06": {
+      "admission": "valid",
+      "comparators": {
+        "anchored": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "safe",
+          "worst_interval": [
+            0.006941895182744774,
+            0.06971826106725523
+          ],
+          "worst_width": 0.06277636588451047
+        },
+        "eval_only": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "safe",
+          "worst_interval": [
+            0.006941895182744774,
+            0.06971826106725523
+          ],
+          "worst_width": 0.06277636588451047
+        },
+        "full": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "safe",
+          "worst_interval": [
+            0.0045075378339899524,
+            0.07142019654101005
+          ],
+          "worst_width": 0.0669126587070201
+        },
+        "ignore_fidelity": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "safe",
+          "worst_interval": [
+            0.006941895182744774,
+            0.06971826106725523
+          ],
+          "worst_width": 0.06277636588451047
+        },
+        "nonadaptive": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "safe",
+          "worst_interval": [
+            0.006941895182744774,
+            0.06971826106725523
+          ],
+          "worst_width": 0.06277636588451047
+        }
+      },
+      "control": "identical",
+      "cost": {
+        "anchored": 19,
+        "cheapest_first": 19,
+        "eval_only": 0,
+        "full": 65537,
+        "nonadaptive": 131091,
+        "restricted_minimum": 19,
+        "uniform_order_mean": 87400.33333333333,
+        "uniform_order_worst": 131091
+      },
+      "exact_context_risk": {
+        "busy": "4689798559/125000000000",
+        "routine": "848156519/32000000000"
+      },
+      "exact_covered_coupling": {
+        "busy": {
+          "priority": {
+            "conditional_risk_gap": "0",
+            "probability_of_any_seam_mismatch": "0",
+            "step_mismatch": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          "standard": {
+            "conditional_risk_gap": "0",
+            "probability_of_any_seam_mismatch": "0",
+            "step_mismatch": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          }
+        },
+        "routine": {
+          "priority": {
+            "conditional_risk_gap": "0",
+            "probability_of_any_seam_mismatch": "0",
+            "step_mismatch": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          "standard": {
+            "conditional_risk_gap": "0",
+            "probability_of_any_seam_mismatch": "0",
+            "step_mismatch": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          }
+        }
+      },
+      "exact_verdict": "safe",
+      "exact_worst": "4689798559/125000000000",
+      "family": "queue",
+      "native": {
+        "contexts": {
+          "busy": [
+            0.0046982749154693,
+            0.0690321938345307
+          ],
+          "routine": [
+            0.0,
+            0.0558486000845307
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.0046982749154693,
+          0.0690321938345307
+        ]
+      },
+      "observed": {
+        "busy": {
+          "completed": 26550,
+          "enrollment_n": {
+            "novel": 0,
+            "priority": 2037,
+            "standard": 2059
+          },
+          "events": 151,
+          "n": 4096,
+          "offered": 26701
+        },
+        "routine": {
+          "completed": 24531,
+          "enrollment_n": {
+            "novel": 0,
+            "priority": 1058,
+            "standard": 3038
+          },
+          "events": 97,
+          "n": 4096,
+          "offered": 24628
+        }
+      },
+      "uncovered_mass": {
+        "busy": 0.0,
+        "routine": 0.0
+      }
+    },
+    "S01": {
+      "admission": "fidelity_violation",
+      "comparators": {
+        "anchored": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": false,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "abstain",
+          "worst_interval": [
+            0.0,
+            1.0
+          ],
+          "worst_width": 1.0
+        },
+        "eval_only": {
+          "exact_contexts_inside": 0,
+          "native_confirmed": false,
+          "native_contexts_overlap": 0,
+          "native_opposed": true,
+          "verdict": "safe",
+          "worst_interval": [
+            0.09031591862024477,
+            0.15309228450475523
+          ],
+          "worst_width": 0.06277636588451047
+        },
+        "full": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "unsafe",
+          "worst_interval": [
+            0.9409089050214899,
+            1.0
+          ],
+          "worst_width": 0.05909109497851006
+        },
+        "ignore_fidelity": {
+          "exact_contexts_inside": 0,
+          "native_confirmed": false,
+          "native_contexts_overlap": 0,
+          "native_opposed": true,
+          "verdict": "safe",
+          "worst_interval": [
+            0.001642031837575067,
+            0.2512325378873499
+          ],
+          "worst_width": 0.24959050604977484
+        },
+        "nonadaptive": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": false,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "abstain",
+          "worst_interval": [
+            0.0,
+            1.0
+          ],
+          "worst_width": 1.0
+        }
+      },
+      "control": "fidelity_violation",
+      "cost": {
+        "anchored": 19,
+        "cheapest_first": 19,
+        "eval_only": 0,
+        "full": 65537,
+        "nonadaptive": 131091,
+        "restricted_minimum": 19,
+        "uniform_order_mean": 87400.33333333333,
+        "uniform_order_worst": 131091
+      },
+      "exact_context_risk": {
+        "busy": "19485702229/20000000000",
+        "routine": "19345085021/20000000000"
+      },
+      "exact_covered_coupling": {},
+      "exact_verdict": "unsafe",
+      "exact_worst": "19485702229/20000000000",
+      "family": "sorter",
+      "native": {
+        "contexts": {
+          "busy": [
+            0.9409775717904693,
+            1.0
+          ],
+          "routine": [
+            0.9312119467904693,
+            0.9955458657095307
+          ]
+        },
+        "verdict": "unsafe",
+        "worst": [
+          0.9409775717904693,
+          1.0
+        ]
+      },
+      "observed": {
+        "busy": {
+          "completed": 4289,
+          "enrollment_n": {
+            "novel": 0,
+            "priority": 2006,
+            "standard": 2090
+          },
+          "events": 3986,
+          "n": 4096,
+          "offered": 12288
+        },
+        "routine": {
+          "completed": 4472,
+          "enrollment_n": {
+            "novel": 0,
+            "priority": 1075,
+            "standard": 3021
+          },
+          "events": 3946,
+          "n": 4096,
+          "offered": 12288
+        }
+      },
+      "uncovered_mass": {
+        "busy": 0.0,
+        "routine": 0.0
+      }
+    },
+    "S02": {
+      "admission": "valid",
+      "comparators": {
+        "anchored": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "safe",
+          "worst_interval": [
+            0.0,
+            0.2822383972623499
+          ],
+          "worst_width": 0.2822383972623499
+        },
+        "eval_only": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "safe",
+          "worst_interval": [
+            0.09031591862024477,
+            0.15309228450475523
+          ],
+          "worst_width": 0.06277636588451047
+        },
+        "full": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "safe",
+          "worst_interval": [
+            0.11473703002148994,
+            0.18164968872851006
+          ],
+          "worst_width": 0.06691265870702012
+        },
+        "ignore_fidelity": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "safe",
+          "worst_interval": [
+            0.0,
+            0.2822383972623499
+          ],
+          "worst_width": 0.2822383972623499
+        },
+        "nonadaptive": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "safe",
+          "worst_interval": [
+            0.0,
+            0.2822383972623499
+          ],
+          "worst_width": 0.2822383972623499
+        }
+      },
+      "control": "bounded_drift",
+      "cost": {
+        "anchored": 131091,
+        "cheapest_first": 131091,
+        "eval_only": 0,
+        "full": 65537,
+        "nonadaptive": 131091,
+        "restricted_minimum": 131091,
+        "uniform_order_mean": 131091.0,
+        "uniform_order_worst": 131091
+      },
+      "exact_context_risk": {
+        "busy": "17387279603/125000000000",
+        "routine": "207474471461/2000000000000"
+      },
+      "exact_covered_coupling": {
+        "busy": {
+          "priority": {
+            "conditional_risk_gap": "416066103/15625000000",
+            "probability_of_any_seam_mismatch": "23179379/781250000",
+            "step_mismatch": [
+              "3/500",
+              "3/500",
+              "1/125",
+              "1/100"
+            ]
+          },
+          "standard": {
+            "conditional_risk_gap": "844349849/31250000000",
+            "probability_of_any_seam_mismatch": "23179379/781250000",
+            "step_mismatch": [
+              "3/500",
+              "3/500",
+              "1/125",
+              "1/100"
+            ]
+          }
+        },
+        "routine": {
+          "priority": {
+            "conditional_risk_gap": "6859217043/250000000000",
+            "probability_of_any_seam_mismatch": "23179379/781250000",
+            "step_mismatch": [
+              "3/500",
+              "3/500",
+              "1/125",
+              "1/100"
+            ]
+          },
+          "standard": {
+            "conditional_risk_gap": "5571657/200000000",
+            "probability_of_any_seam_mismatch": "23179379/781250000",
+            "step_mismatch": [
+              "3/500",
+              "3/500",
+              "1/125",
+              "1/100"
+            ]
+          }
+        }
+      },
+      "exact_verdict": "safe",
+      "exact_worst": "17387279603/125000000000",
+      "family": "sorter",
+      "native": {
+        "contexts": {
+          "busy": [
+            0.1067490561654693,
+            0.1710829750845307
+          ],
+          "routine": [
+            0.0711045249154693,
+            0.1354384438345307
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.1067490561654693,
+          0.1710829750845307
+        ]
+      },
+      "observed": {
+        "busy": {
+          "completed": 11688,
+          "enrollment_n": {
+            "novel": 0,
+            "priority": 2048,
+            "standard": 2048
+          },
+          "events": 569,
+          "n": 4096,
+          "offered": 12288
+        },
+        "routine": {
+          "completed": 11848,
+          "enrollment_n": {
+            "novel": 0,
+            "priority": 1029,
+            "standard": 3067
+          },
+          "events": 423,
+          "n": 4096,
+          "offered": 12288
+        }
+      },
+      "uncovered_mass": {
+        "busy": 0.0,
+        "routine": 0.0
+      }
+    },
+    "S03": {
+      "admission": "valid",
+      "comparators": {
+        "anchored": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "unsafe",
+          "worst_interval": [
+            0.8018070128939001,
+            1.0
+          ],
+          "worst_width": 0.1981929871060999
+        },
+        "eval_only": {
+          "exact_contexts_inside": 0,
+          "native_confirmed": false,
+          "native_contexts_overlap": 0,
+          "native_opposed": true,
+          "verdict": "safe",
+          "worst_interval": [
+            0.09031591862024477,
+            0.15309228450475523
+          ],
+          "worst_width": 0.06277636588451047
+        },
+        "full": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "unsafe",
+          "worst_interval": [
+            0.9416413268964899,
+            1.0
+          ],
+          "worst_width": 0.05835867310351006
+        },
+        "ignore_fidelity": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "unsafe",
+          "worst_interval": [
+            0.8018070128939001,
+            1.0
+          ],
+          "worst_width": 0.1981929871060999
+        },
+        "nonadaptive": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "unsafe",
+          "worst_interval": [
+            0.8018070128939001,
+            1.0
+          ],
+          "worst_width": 0.1981929871060999
+        }
+      },
+      "control": "changed_verdict",
+      "cost": {
+        "anchored": 131091,
+        "cheapest_first": 131091,
+        "eval_only": 0,
+        "full": 65537,
+        "nonadaptive": 131091,
+        "restricted_minimum": 131091,
+        "uniform_order_mean": 131091.0,
+        "uniform_order_worst": 131091
+      },
+      "exact_context_risk": {
+        "busy": "12139804553/12500000000",
+        "routine": "9639047353/10000000000"
+      },
+      "exact_covered_coupling": {
+        "busy": {
+          "priority": {
+            "conditional_risk_gap": "12890887/6250000000",
+            "probability_of_any_seam_mismatch": "30029387/781250000",
+            "step_mismatch": [
+              "3/250",
+              "1/125",
+              "9/1000",
+              "1/100"
+            ]
+          },
+          "standard": {
+            "conditional_risk_gap": "657953/312500000",
+            "probability_of_any_seam_mismatch": "30029387/781250000",
+            "step_mismatch": [
+              "3/250",
+              "1/125",
+              "9/1000",
+              "1/100"
+            ]
+          }
+        },
+        "routine": {
+          "priority": {
+            "conditional_risk_gap": "26957391/12500000000",
+            "probability_of_any_seam_mismatch": "30029387/781250000",
+            "step_mismatch": [
+              "3/250",
+              "1/125",
+              "9/1000",
+              "1/100"
+            ]
+          },
+          "standard": {
+            "conditional_risk_gap": "7116487/3125000000",
+            "probability_of_any_seam_mismatch": "30029387/781250000",
+            "step_mismatch": [
+              "3/250",
+              "1/125",
+              "9/1000",
+              "1/100"
+            ]
+          }
+        }
+      },
+      "exact_verdict": "unsafe",
+      "exact_worst": "12139804553/12500000000",
+      "family": "sorter",
+      "native": {
+        "contexts": {
+          "busy": [
+            0.9400010092904693,
+            1.0
+          ],
+          "routine": [
+            0.9317002280404693,
+            0.9960341469595307
+          ]
+        },
+        "verdict": "unsafe",
+        "worst": [
+          0.9400010092904693,
+          1.0
+        ]
+      },
+      "observed": {
+        "busy": {
+          "completed": 4314,
+          "enrollment_n": {
+            "novel": 0,
+            "priority": 2066,
+            "standard": 2030
+          },
+          "events": 3982,
+          "n": 4096,
+          "offered": 12288
+        },
+        "routine": {
+          "completed": 4510,
+          "enrollment_n": {
+            "novel": 0,
+            "priority": 1095,
+            "standard": 3001
+          },
+          "events": 3948,
+          "n": 4096,
+          "offered": 12288
+        }
+      },
+      "uncovered_mass": {
+        "busy": 0.0,
+        "routine": 0.0
+      }
+    },
+    "S04": {
+      "admission": "valid",
+      "comparators": {
+        "anchored": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": false,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "abstain",
+          "worst_interval": [
+            0.0,
+            0.6004093411505425
+          ],
+          "worst_width": 0.6004093411505425
+        },
+        "eval_only": {
+          "exact_contexts_inside": 0,
+          "native_confirmed": false,
+          "native_contexts_overlap": 0,
+          "native_opposed": true,
+          "verdict": "safe",
+          "worst_interval": [
+            0.09031591862024477,
+            0.15309228450475523
+          ],
+          "worst_width": 0.06277636588451047
+        },
+        "full": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": false,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "abstain",
+          "worst_interval": [
+            0.054597065730569466,
+            0.5413990280194305
+          ],
+          "worst_width": 0.4868019622888611
+        },
+        "ignore_fidelity": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": false,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "abstain",
+          "worst_interval": [
+            0.0,
+            0.6004093411505425
+          ],
+          "worst_width": 0.6004093411505425
+        },
+        "nonadaptive": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": false,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "abstain",
+          "worst_interval": [
+            0.0,
+            0.6004093411505425
+          ],
+          "worst_width": 0.6004093411505425
+        }
+      },
+      "control": "missing_support",
+      "cost": {
+        "anchored": 131091,
+        "cheapest_first": 131091,
+        "eval_only": 0,
+        "full": 65537,
+        "nonadaptive": 131091,
+        "restricted_minimum": 131091,
+        "uniform_order_mean": 131091.0,
+        "uniform_order_worst": 131091
+      },
+      "exact_context_risk": {
+        "busy": "130729334949/250000000000",
+        "routine": "43292935813/156250000000"
+      },
+      "exact_covered_coupling": {
+        "busy": {
+          "priority": {
+            "conditional_risk_gap": "1219673267/62500000000",
+            "probability_of_any_seam_mismatch": "545540929/25000000000",
+            "step_mismatch": [
+              "3/500",
+              "1/250",
+              "7/1000",
+              "1/200"
+            ]
+          },
+          "standard": {
+            "conditional_risk_gap": "1238064933/62500000000",
+            "probability_of_any_seam_mismatch": "545540929/25000000000",
+            "step_mismatch": [
+              "3/500",
+              "1/250",
+              "7/1000",
+              "1/200"
+            ]
+          }
+        },
+        "routine": {
+          "priority": {
+            "conditional_risk_gap": "10058786253/500000000000",
+            "probability_of_any_seam_mismatch": "545540929/25000000000",
+            "step_mismatch": [
+              "3/500",
+              "1/250",
+              "7/1000",
+              "1/200"
+            ]
+          },
+          "standard": {
+            "conditional_risk_gap": "127748237/6250000000",
+            "probability_of_any_seam_mismatch": "545540929/25000000000",
+            "step_mismatch": [
+              "3/500",
+              "1/250",
+              "7/1000",
+              "1/200"
+            ]
+          }
+        }
+      },
+      "exact_verdict": "unsafe",
+      "exact_worst": "130729334949/250000000000",
+      "family": "sorter",
+      "native": {
+        "contexts": {
+          "busy": [
+            0.4981064780404693,
+            0.5624403969595307
+          ],
+          "routine": [
+            0.2498154624154693,
+            0.3141493813345307
+          ]
+        },
+        "verdict": "unsafe",
+        "worst": [
+          0.4981064780404693,
+          0.5624403969595307
+        ]
+      },
+      "observed": {
+        "busy": {
+          "completed": 8219,
+          "enrollment_n": {
+            "novel": 1880,
+            "priority": 1216,
+            "standard": 1000
+          },
+          "events": 2172,
+          "n": 4096,
+          "offered": 12288
+        },
+        "routine": {
+          "completed": 10314,
+          "enrollment_n": {
+            "novel": 815,
+            "priority": 817,
+            "standard": 2464
+          },
+          "events": 1155,
+          "n": 4096,
+          "offered": 12288
+        }
+      },
+      "uncovered_mass": {
+        "busy": 0.45,
+        "routine": 0.2
+      }
+    },
+    "S05": {
+      "admission": "valid",
+      "comparators": {
+        "anchored": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": false,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "abstain",
+          "worst_interval": [
+            0.0,
+            1.0
+          ],
+          "worst_width": 1.0
+        },
+        "eval_only": {
+          "exact_contexts_inside": 0,
+          "native_confirmed": false,
+          "native_contexts_overlap": 0,
+          "native_opposed": true,
+          "verdict": "safe",
+          "worst_interval": [
+            0.09031591862024477,
+            0.15309228450475523
+          ],
+          "worst_width": 0.06277636588451047
+        },
+        "full": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "unsafe",
+          "worst_interval": [
+            0.8087067565839899,
+            0.8756194152910101
+          ],
+          "worst_width": 0.06691265870702012
+        },
+        "ignore_fidelity": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": false,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "abstain",
+          "worst_interval": [
+            0.0,
+            1.0
+          ],
+          "worst_width": 1.0
+        },
+        "nonadaptive": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": false,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "abstain",
+          "worst_interval": [
+            0.0,
+            1.0
+          ],
+          "worst_width": 1.0
+        }
+      },
+      "control": "vacuous",
+      "cost": {
+        "anchored": 131091,
+        "cheapest_first": 131091,
+        "eval_only": 0,
+        "full": 65537,
+        "nonadaptive": 131091,
+        "restricted_minimum": 131091,
+        "uniform_order_mean": 131091.0,
+        "uniform_order_worst": 131091
+      },
+      "exact_context_risk": {
+        "busy": "211102586791/250000000000",
+        "routine": "67034179/80000000"
+      },
+      "exact_covered_coupling": {
+        "busy": {
+          "priority": {
+            "conditional_risk_gap": "18148552101/25000000000",
+            "probability_of_any_seam_mismatch": "35395699/40000000",
+            "step_mismatch": [
+              "17/40",
+              "21/50",
+              "41/100",
+              "83/200"
+            ]
+          },
+          "standard": {
+            "conditional_risk_gap": "922911953/1250000000",
+            "probability_of_any_seam_mismatch": "35395699/40000000",
+            "step_mismatch": [
+              "17/40",
+              "21/50",
+              "41/100",
+              "83/200"
+            ]
+          }
+        },
+        "routine": {
+          "priority": {
+            "conditional_risk_gap": "15034459133/20000000000",
+            "probability_of_any_seam_mismatch": "35395699/40000000",
+            "step_mismatch": [
+              "17/40",
+              "21/50",
+              "41/100",
+              "83/200"
+            ]
+          },
+          "standard": {
+            "conditional_risk_gap": "956686989/1250000000",
+            "probability_of_any_seam_mismatch": "35395699/40000000",
+            "step_mismatch": [
+              "17/40",
+              "21/50",
+              "41/100",
+              "83/200"
+            ]
+          }
+        }
+      },
+      "exact_verdict": "unsafe",
+      "exact_worst": "211102586791/250000000000",
+      "family": "sorter",
+      "native": {
+        "contexts": {
+          "busy": [
+            0.8079209311654693,
+            0.8722548500845307
+          ],
+          "routine": [
+            0.8074326499154693,
+            0.8717665688345307
+          ]
+        },
+        "verdict": "unsafe",
+        "worst": [
+          0.8079209311654693,
+          0.8722548500845307
+        ]
+      },
+      "observed": {
+        "busy": {
+          "completed": 6673,
+          "enrollment_n": {
+            "novel": 0,
+            "priority": 2033,
+            "standard": 2063
+          },
+          "events": 3441,
+          "n": 4096,
+          "offered": 12288
+        },
+        "routine": {
+          "completed": 6689,
+          "enrollment_n": {
+            "novel": 0,
+            "priority": 1030,
+            "standard": 3066
+          },
+          "events": 3439,
+          "n": 4096,
+          "offered": 12288
+        }
+      },
+      "uncovered_mass": {
+        "busy": 0.0,
+        "routine": 0.0
+      }
+    },
+    "S06": {
+      "admission": "valid",
+      "comparators": {
+        "anchored": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "safe",
+          "worst_interval": [
+            0.09031591862024477,
+            0.15309228450475523
+          ],
+          "worst_width": 0.06277636588451047
+        },
+        "eval_only": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "safe",
+          "worst_interval": [
+            0.09031591862024477,
+            0.15309228450475523
+          ],
+          "worst_width": 0.06277636588451047
+        },
+        "full": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "safe",
+          "worst_interval": [
+            0.08177804564648995,
+            0.14869070435351006
+          ],
+          "worst_width": 0.06691265870702011
+        },
+        "ignore_fidelity": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "safe",
+          "worst_interval": [
+            0.09031591862024477,
+            0.15309228450475523
+          ],
+          "worst_width": 0.06277636588451047
+        },
+        "nonadaptive": {
+          "exact_contexts_inside": 2,
+          "native_confirmed": true,
+          "native_contexts_overlap": 2,
+          "native_opposed": false,
+          "verdict": "safe",
+          "worst_interval": [
+            0.09031591862024477,
+            0.15309228450475523
+          ],
+          "worst_width": 0.06277636588451047
+        }
+      },
+      "control": "identical",
+      "cost": {
+        "anchored": 19,
+        "cheapest_first": 19,
+        "eval_only": 0,
+        "full": 65537,
+        "nonadaptive": 131091,
+        "restricted_minimum": 19,
+        "uniform_order_mean": 87400.33333333333,
+        "uniform_order_worst": 131091
+      },
+      "exact_context_risk": {
+        "busy": "14034315493/125000000000",
+        "routine": "1215748879/16000000000"
+      },
+      "exact_covered_coupling": {
+        "busy": {
+          "priority": {
+            "conditional_risk_gap": "0",
+            "probability_of_any_seam_mismatch": "0",
+            "step_mismatch": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          "standard": {
+            "conditional_risk_gap": "0",
+            "probability_of_any_seam_mismatch": "0",
+            "step_mismatch": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          }
+        },
+        "routine": {
+          "priority": {
+            "conditional_risk_gap": "0",
+            "probability_of_any_seam_mismatch": "0",
+            "step_mismatch": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          "standard": {
+            "conditional_risk_gap": "0",
+            "probability_of_any_seam_mismatch": "0",
+            "step_mismatch": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          }
+        }
+      },
+      "exact_verdict": "safe",
+      "exact_worst": "14034315493/125000000000",
+      "family": "sorter",
+      "native": {
+        "contexts": {
+          "busy": [
+            0.0786728842904693,
+            0.1430068032095307
+          ],
+          "routine": [
+            0.0420517905404693,
+            0.1063857094595307
+          ]
+        },
+        "verdict": "safe",
+        "worst": [
+          0.0786728842904693,
+          0.1430068032095307
+        ]
+      },
+      "observed": {
+        "busy": {
+          "completed": 11813,
+          "enrollment_n": {
+            "novel": 0,
+            "priority": 2077,
+            "standard": 2019
+          },
+          "events": 454,
+          "n": 4096,
+          "offered": 12288
+        },
+        "routine": {
+          "completed": 11981,
+          "enrollment_n": {
+            "novel": 0,
+            "priority": 1018,
+            "standard": 3078
+          },
+          "events": 304,
+          "n": 4096,
+          "offered": 12288
+        }
+      },
+      "uncovered_mass": {
+        "busy": 0.0,
+        "routine": 0.0
+      }
+    }
+  }
+}
