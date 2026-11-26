@@ -1,0 +1,68 @@
+{
+  "additional_byte_matches": {},
+  "commit": "e288a6b5b8ddac24af349913bc68b640a691b2b2",
+  "completed_at_utc": "2026-11-26T15:52:27.996043+00:00",
+  "experiment": "X05",
+  "python_version": "3.13.7",
+  "source": "verified GitHub archive",
+  "stages": [
+    {
+      "argv": [
+        "python",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "cwd": "EXPERIMENTS/EXP-X05",
+      "exit_code": 0,
+      "seconds": 0.397,
+      "stage": "tests",
+      "test_count": 10,
+      "timed_out": false,
+      "transcript_sha256": "4dde9d3836c408ca1775ecd1bffae544d12cd42ec2260d127430d2b632127675",
+      "transcript_tail": [
+        "test_unsupported_numeric_range_and_observation_alias (test_x05.TestSymbolic.test_unsupported_numeric_range_and_observation_alias) ... ok",
+        "test_unverifiable_lower_bound_is_rejected (test_x05.TestSymbolic.test_unverifiable_lower_bound_is_rejected) ... ok",
+        "test_witness_cost_and_query_mutations_are_rejected (test_x05.TestSymbolic.test_witness_cost_and_query_mutations_are_rejected) ... ok",
+        "",
+        "----------------------------------------------------------------------",
+        "Ran 10 tests in 0.025s",
+        "",
+        "OK"
+      ]
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "EXPERIMENTS/EXP-X05/run.py",
+        "--check",
+        "--out",
+        "{source}\\scratch\\x15-replay\\fresh-timings",
+        "--measure"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "seconds": 196.683,
+      "stage": "check",
+      "test_count": null,
+      "timed_out": false,
+      "transcript_sha256": "67a7eaf753a4ef564cbd8f94335d9f0099ad76eaf45c00d6460e59f42b9f9891",
+      "transcript_tail": [
+        "Measured large-matched-w3-n24-dense",
+        "Measured large-matched-w3-n64-free",
+        "Measured large-matched-w3-n64-half",
+        "Measured large-matched-w3-n64-dense",
+        "Measured probes-w3-n24-free-R-tight",
+        "Measured probes-w3-n24-free-E-middle",
+        "Measured probes-w3-n24-free-A-middle",
+        "Committed evidence verified."
+      ]
+    }
+  ],
+  "system": "Windows"
+}

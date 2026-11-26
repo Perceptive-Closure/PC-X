@@ -1,0 +1,13 @@
+test_bench_authority_and_full_supported_utility (test_audit.IndependentLogicTests.test_bench_authority_and_full_supported_utility) ... ok
+test_committed_new_controls_and_distinct_canonical_formats (test_audit.IndependentLogicTests.test_committed_new_controls_and_distinct_canonical_formats) ... ok
+test_fixed_denominator_and_threshold_tie (test_audit.IndependentLogicTests.test_fixed_denominator_and_threshold_tie) ... ok
+test_weighted_refinement_requires_legal_coverage (test_audit.IndependentLogicTests.test_weighted_refinement_requires_legal_coverage) ... ok
+test_zero_cost_cycle_requires_a_proper_termination_branch (test_audit.IndependentLogicTests.test_zero_cost_cycle_requires_a_proper_termination_branch) ... ok
+test_all_branch_pins_complete_and_unique (test_audit.IntakeTests.test_all_branch_pins_complete_and_unique) ... ok
+test_archive_matches_full_or_abbreviated_root_and_blob_digest (test_audit.IntakeTests.test_archive_matches_full_or_abbreviated_root_and_blob_digest) ... ok
+test_reject_incomplete_archive (test_audit.IntakeTests.test_reject_incomplete_archive) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.006s
+
+OK

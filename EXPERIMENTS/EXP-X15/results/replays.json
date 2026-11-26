@@ -1,0 +1,1187 @@
+{
+  "X01": {
+    "additional_byte_matches": {},
+    "commit": "a52d45f1b8c0036b1a69b1fc024f95e48d4ce012",
+    "completed_at_utc": "2026-11-26T16:10:58.271309+00:00",
+    "experiment": "X01",
+    "python_version": "3.13.7",
+    "source": "verified GitHub archive",
+    "stages": [
+      {
+        "argv": [
+          "python",
+          "-B",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-v"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X01",
+        "exit_code": 0,
+        "seconds": 0.432,
+        "stage": "tests",
+        "test_count": 19,
+        "timed_out": false,
+        "transcript_sha256": "c1eac045ea29e000305a58553e183f4c93334515921f26f74bcbab457ce8e5f3",
+        "transcript_tail": [
+          "test_empty_catalog_and_contradictory_evidence_are_inconsistent (test_recovery.EvidenceTests.test_empty_catalog_and_contradictory_evidence_are_inconsistent) ... ok",
+          "test_invalid_resource_and_checkpoint_refused (test_recovery.EvidenceTests.test_invalid_resource_and_checkpoint_refused) ... ok",
+          "test_point_certificate_spans_genuinely_distinct_contracts (test_recovery.EvidenceTests.test_point_certificate_spans_genuinely_distinct_contracts) ... ok",
+          "",
+          "----------------------------------------------------------------------",
+          "Ran 19 tests in 0.072s",
+          "",
+          "OK"
+        ]
+      },
+      {
+        "argv": [
+          "python",
+          "-B",
+          "-m",
+          "src.run",
+          "--check",
+          "--details",
+          "{output}\\details.json"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X01",
+        "exit_code": 0,
+        "seconds": 2.168,
+        "stage": "check",
+        "test_count": null,
+        "timed_out": false,
+        "transcript_sha256": "b10966dda6f56cb6e68f22eb41f5d37795b5ec2e805004b0082d42cda0bc4459",
+        "transcript_tail": [
+          "      \"maximum_beliefs\": 3",
+          "    }",
+          "  },",
+          "  \"strict_nested_freeze_checks\": 4617,",
+          "  \"total_contracts\": 243,",
+          "  \"unexpected_discrepancies\": 0,",
+          "  \"unrestricted_behavior_identity_pairs\": 16",
+          "}"
+        ]
+      }
+    ],
+    "system": "Windows"
+  },
+  "X02": {
+    "additional_byte_matches": {
+      "scratch/x01/EXPERIMENTS/EXP-X01/src/model.py": "6a2b78ea1284ac7ccba1edc0ecc80a9cdbc2d9f2de57a06a6fa216b93a357a2e"
+    },
+    "commit": "18bc904d7073df3536d9794f18b868b9a3de53bc",
+    "completed_at_utc": "2026-11-26T16:11:03.155081+00:00",
+    "experiment": "X02",
+    "python_version": "3.13.7",
+    "source": "verified GitHub archive",
+    "stages": [
+      {
+        "argv": [
+          "pwsh",
+          "-NoProfile",
+          "-File",
+          "EXPERIMENTS/EXP-X02/prepare-x01.ps1"
+        ],
+        "cwd": ".",
+        "exit_code": 0,
+        "seconds": 6.27,
+        "stage": "prepare-x01",
+        "test_count": null,
+        "timed_out": false,
+        "transcript_sha256": "c0d87bc7ea8b822e619643bfeadef4a2eba4c76a049bb3555ffacb31404fde0c",
+        "transcript_tail": [
+          "Verified X01 a52d45f1b8c0036b1a69b1fc024f95e48d4ce012 and source digest 6A2B78EA1284AC7CCBA1EDC0ECC80A9CDBC2D9F2DE57A06A6FA216B93A357A2E"
+        ]
+      },
+      {
+        "argv": [
+          "python",
+          "-B",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-v"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X02",
+        "exit_code": 0,
+        "seconds": 0.485,
+        "stage": "tests",
+        "test_count": 10,
+        "timed_out": false,
+        "transcript_sha256": "26b9bc037c7c62065fbc7d8ce7b510933f3d76a452805a20bd44bdfa16ff7e51",
+        "transcript_tail": [
+          "test_rectangular_budget_overflow_is_refused (test_x02.NonrectangularEvidenceTests.test_rectangular_budget_overflow_is_refused) ... ok",
+          "test_refuses_unsupported_literal_and_cycle (test_x02.NonrectangularEvidenceTests.test_refuses_unsupported_literal_and_cycle) ... ok",
+          "test_rejects_inadmissible_assignment_and_corrupt_signature (test_x02.NonrectangularEvidenceTests.test_rejects_inadmissible_assignment_and_corrupt_signature) ... ok",
+          "",
+          "----------------------------------------------------------------------",
+          "Ran 10 tests in 0.090s",
+          "",
+          "OK"
+        ]
+      },
+      {
+        "argv": [
+          "python",
+          "-B",
+          "EXPERIMENTS/EXP-X02/run.py",
+          "--check",
+          "--details",
+          "{source}\\scratch\\x15-replay\\verified\\details.json"
+        ],
+        "cwd": ".",
+        "exit_code": 0,
+        "seconds": 0.725,
+        "stage": "check",
+        "test_count": null,
+        "timed_out": false,
+        "transcript_sha256": "7ca0b14119371eb3426ce01012bd0a321ecf1d0d84504d085f66da7ec953e608",
+        "transcript_tail": [
+          "{",
+          "  \"details_bytes\": 1250806,",
+          "  \"details_sha256\": \"1592f451b0bb64e0132b89d134995b2309659bbf90dc029c5edbed53469a0d92\",",
+          "  \"protocol_sha256\": \"f2acf7b305fa6ec074113e337db2ef7539e89e8ab1bb8e0061cf2681df240225\",",
+          "  \"schema\": \"pcx-exp-x02-evidence-v1\",",
+          "  \"summary_sha256\": \"ccb25a914e8e8587004d25a3cba508d894af6ae05662a5ba6ee26179a5a0ea4f\",",
+          "  \"x01_commit\": \"a52d45f1b8c0036b1a69b1fc024f95e48d4ce012\"",
+          "}"
+        ]
+      }
+    ],
+    "system": "Windows"
+  },
+  "X03": {
+    "additional_byte_matches": {},
+    "commit": "d85fe1cdb76cbc6d03e58e34f320c4c58a3f243c",
+    "completed_at_utc": "2026-11-26T16:10:58.874176+00:00",
+    "experiment": "X03",
+    "python_version": "3.13.7",
+    "source": "verified GitHub archive",
+    "stages": [
+      {
+        "argv": [
+          "python",
+          "-B",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-v"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X03",
+        "exit_code": 0,
+        "seconds": 0.381,
+        "stage": "tests",
+        "test_count": 12,
+        "timed_out": false,
+        "transcript_sha256": "5e9123dfd25e0a5590846f7bad9a649377290fd72b426bf66c1700463009428c",
+        "transcript_tail": [
+          "test_protocol_perturbations (test_experiment.CertificateTests.test_protocol_perturbations) ... ok",
+          "test_strict_global_realized_gap (test_experiment.CertificateTests.test_strict_global_realized_gap) ... ok",
+          "test_weighted_cost_is_distinct_from_inclusion_minimality (test_experiment.CertificateTests.test_weighted_cost_is_distinct_from_inclusion_minimality) ... ok",
+          "",
+          "----------------------------------------------------------------------",
+          "Ran 12 tests in 0.025s",
+          "",
+          "OK"
+        ]
+      },
+      {
+        "argv": [
+          "python",
+          "-B",
+          "run.py",
+          "--check"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X03",
+        "exit_code": 0,
+        "seconds": 2.821,
+        "stage": "check",
+        "test_count": null,
+        "timed_out": false,
+        "transcript_sha256": "49d78f7b4f7b8673961c56903eb4f156a71a244fd1fe28a3f75dbf983bb460a2",
+        "transcript_tail": [
+          "c5b70726ab883d0febbb18335a0a4a1f37741b5509943eeaa3d891a0a46850c9  scopes.csv",
+          "8c442a58174bcf166e1c1bda18584095222041ad84944d522c9f473f5ccda8c0  summary.json",
+          "865 domains, 3828 scopes, 59971 exact subset checks, Python 3.13.7, 2.503s"
+        ]
+      }
+    ],
+    "system": "Windows"
+  },
+  "X04": {
+    "additional_byte_matches": {
+      "authorization.py": "eb84ea449bc435d5f10b8bfdef45f21c766bcd66444cf469ac279a70f8f7962b",
+      "certificates.py": "16e818ff35f459847fbdf68c0be21be49069e94f6e85b941e5d701b7e9eb5a29"
+    },
+    "commit": "b6ce562aa91323f2913615b92e91ffb2b9cc4731",
+    "completed_at_utc": "2026-11-26T16:10:57.849710+00:00",
+    "experiment": "X04",
+    "python_version": "3.13.7",
+    "source": "verified GitHub archive",
+    "stages": [
+      {
+        "argv": [
+          "git",
+          "-c",
+          "credential.helper=",
+          "-c",
+          "credential.helper=!gh auth git-credential",
+          "fetch",
+          "--no-write-fetch-head",
+          "--no-tags",
+          "origin",
+          "d85fe1cdb76cbc6d03e58e34f320c4c58a3f243c"
+        ],
+        "cwd": ".",
+        "exit_code": 0,
+        "seconds": 0.204,
+        "stage": "fetch-x03",
+        "test_count": null,
+        "timed_out": false,
+        "transcript_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "transcript_tail": []
+      },
+      {
+        "argv": [
+          "python",
+          "-B",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-v"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X04",
+        "exit_code": 0,
+        "seconds": 0.384,
+        "stage": "tests",
+        "test_count": 15,
+        "timed_out": false,
+        "transcript_sha256": "71c1240fb8d0bc4f75af0b33f5ba2722641e109865a5b0b88a9feb869b8c3879",
+        "transcript_tail": [
+          "test_rejects_mixed_certification_and_premature_abstention (test_audit.PolicyAdversarialChecks.test_rejects_mixed_certification_and_premature_abstention) ... ok",
+          "test_rejects_repeated_query (test_audit.PolicyAdversarialChecks.test_rejects_repeated_query) ... ok",
+          "test_rejects_unavailable_query (test_audit.PolicyAdversarialChecks.test_rejects_unavailable_query) ... ok",
+          "",
+          "----------------------------------------------------------------------",
+          "Ran 15 tests in 0.029s",
+          "",
+          "OK"
+        ]
+      },
+      {
+        "argv": [
+          "python",
+          "-B",
+          "run.py",
+          "--check"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X04",
+        "exit_code": 0,
+        "seconds": 1.586,
+        "stage": "check",
+        "test_count": null,
+        "timed_out": false,
+        "transcript_sha256": "167203f72e27985128a86abc73bcec7814ddc920a2180fa97863bd2aa590d997",
+        "transcript_tail": [
+          "  \"independently_replayed_policy_paths\": 21062,",
+          "  \"measured_cases\": 88,",
+          "  \"measured_completion_rows\": 1038,",
+          "  \"routed_coordinate_checks\": 14416,",
+          "  \"schema\": \"pcx.exp-x04.results.v1\",",
+          "  \"validated_inaccessibility_witnesses\": 40,",
+          "  \"x03_scope_agreements\": 37",
+          "}"
+        ]
+      }
+    ],
+    "system": "Windows"
+  },
+  "X05": {
+    "additional_byte_matches": {},
+    "commit": "e288a6b5b8ddac24af349913bc68b640a691b2b2",
+    "completed_at_utc": "2026-11-26T16:11:27.321532+00:00",
+    "experiment": "X05",
+    "python_version": "3.13.7",
+    "source": "verified GitHub archive",
+    "stages": [
+      {
+        "argv": [
+          "python",
+          "-B",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-v"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X05",
+        "exit_code": 0,
+        "seconds": 0.606,
+        "stage": "tests",
+        "test_count": 10,
+        "timed_out": false,
+        "transcript_sha256": "27032f659fbb7363f18e8462e91453fb5ec2f8f4ab5f31fcbf0f879e7ceb8925",
+        "transcript_tail": [
+          "test_unsupported_numeric_range_and_observation_alias (test_x05.TestSymbolic.test_unsupported_numeric_range_and_observation_alias) ... ok",
+          "test_unverifiable_lower_bound_is_rejected (test_x05.TestSymbolic.test_unverifiable_lower_bound_is_rejected) ... ok",
+          "test_witness_cost_and_query_mutations_are_rejected (test_x05.TestSymbolic.test_witness_cost_and_query_mutations_are_rejected) ... ok",
+          "",
+          "----------------------------------------------------------------------",
+          "Ran 10 tests in 0.031s",
+          "",
+          "OK"
+        ]
+      },
+      {
+        "argv": [
+          "python",
+          "-B",
+          "EXPERIMENTS/EXP-X05/run.py",
+          "--check",
+          "--out",
+          "{source}\\scratch\\x15-replay\\verified"
+        ],
+        "cwd": ".",
+        "exit_code": 0,
+        "seconds": 28.775,
+        "stage": "check",
+        "test_count": null,
+        "timed_out": false,
+        "transcript_sha256": "1be711d2233bc970ae240da1f5f58e72bc9b0d7361fd7199ad4854adbbee0109",
+        "transcript_tail": [
+          "Checked large-matched-w3-n64-dense",
+          "Checked probes-w3-n24-free-R-tight",
+          "Checked probes-w3-n24-free-E-middle",
+          "Checked probes-w3-n24-free-A-middle",
+          "1d21391144a3033a1e67ba9b10b6cced758a0ef7483026a7c35560cc0d3ed4ab  summary.json",
+          "52cb11238066fc8fcf612508c4d062fe2cf5b2b086916811bab36c46ddb8431a  invariants.json",
+          "{\"beyond_explicit_cap_certified\": 35, \"cases\": 70, \"checked_symbolic_unsat_rounds\": 125, \"checked_witness_pairs\": 6446, \"false_certifications\": 0, \"largest_verified_case\": {\"audit_cost\": 254, \"case\": \"large-w3-n64-free\", \"compatible_count\": 6277101735386680763835789423207666416102355444464034512896, \"materialized_completions\": 0, \"oracle_calls\": 126, \"pivotal_independent_facts\": 64, \"witness_completions\": 126}, \"local_and_terminal_signature_checks\": 48616, \"methods\": {\"direct-partition\": {\"status\": {\"AUDIT_INACCESSIBLE\": 1, \"CERTIFIED\": 27, \"IDENTIFIED\": 3, \"INCONSISTENT\": 1, \"UNRESOLVED\": 38}, \"unresolved_reasons\": {\"completion-cap\": 35, \"query-subset-cap\": 2, \"unsupported\": 1}}, \"dominance [truncated]",
+          "Committed evidence verified."
+        ]
+      }
+    ],
+    "system": "Windows"
+  },
+  "X06": {
+    "additional_byte_matches": {},
+    "commit": "d3d8f0d6f14d548ce4b95dfa4341d8db54ad7876",
+    "completed_at_utc": "2026-11-26T16:11:08.451844+00:00",
+    "experiment": "X06",
+    "python_version": "3.13.7",
+    "source": "verified GitHub archive",
+    "stages": [
+      {
+        "argv": [
+          "python",
+          "-B",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-v"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X06",
+        "exit_code": 0,
+        "seconds": 0.467,
+        "stage": "tests",
+        "test_count": 9,
+        "timed_out": false,
+        "transcript_sha256": "d174689e4b7dc58b5bff442b092c5afd1a6e4c03a84bf01ac3919efaf0c8ba46",
+        "transcript_tail": [
+          "test_only_admission_counts_can_be_read (test_preflight.PreflightTests.test_only_admission_counts_can_be_read) ... ok",
+          "test_renderer_equality_is_extensional (test_preflight.PreflightTests.test_renderer_equality_is_extensional) ... ok",
+          "test_two_worlds_two_source_compatible_completions (test_preflight.PreflightTests.test_two_worlds_two_source_compatible_completions) ... ok",
+          "",
+          "----------------------------------------------------------------------",
+          "Ran 9 tests in 0.140s",
+          "",
+          "OK"
+        ]
+      },
+      {
+        "argv": [
+          "python",
+          "-B",
+          "x06.py",
+          "preaudit",
+          "--check",
+          "--deps",
+          "{output}\\deps"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X06",
+        "exit_code": 0,
+        "seconds": 0.31,
+        "stage": "preaudit",
+        "test_count": null,
+        "timed_out": false,
+        "transcript_sha256": "415f0785cac0db4c5d47c615eb12e6e2095dbd3d62bd963fba53b40f87c583de",
+        "transcript_tail": [
+          "  \"preaudit_sha256\": \"2527c719648ac860843656c3d42d17ecc82955189c290341b3189694d2b674f4\",",
+          "  \"queries\": [",
+          "    \"self.admission-count\",",
+          "    \"manager.admission-count\",",
+          "    \"second-manager.admission-count\",",
+          "    \"method.admission-count\"",
+          "  ]",
+          "}"
+        ]
+      },
+      {
+        "argv": [
+          "python",
+          "-B",
+          "x06.py",
+          "check-evidence"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X06",
+        "exit_code": 0,
+        "seconds": 0.239,
+        "stage": "check-evidence",
+        "test_count": null,
+        "timed_out": false,
+        "transcript_sha256": "2c7aeeafc0591d01bdb68dd00c53e6feb22f81227b89d49af530b369568ddb53",
+        "transcript_tail": [
+          "    }",
+          "  },",
+          "  \"native_invocations_excluding_version\": 117,",
+          "  \"no_audit_abstentions\": 8,",
+          "  \"primary_agree\": 8,",
+          "  \"signature_coordinates_agree\": 64,",
+          "  \"units\": 8",
+          "}"
+        ]
+      },
+      {
+        "argv": [
+          "python",
+          "-B",
+          "x06.py",
+          "replay",
+          "--opa",
+          "{scratch}\\runtime\\opa_windows_amd64.exe",
+          "--temp",
+          "{output}\\tmp"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X06",
+        "exit_code": 0,
+        "seconds": 8.32,
+        "stage": "replay",
+        "test_count": null,
+        "timed_out": false,
+        "transcript_sha256": "6de986063674277dc8ed903080b1ba2a5f0ccd13e828ec7376e30104a1ad65ee",
+        "transcript_tail": [
+          "    },",
+          "    \"native_invocations_excluding_version\": 117,",
+          "    \"no_audit_abstentions\": 8,",
+          "    \"primary_agree\": 8,",
+          "    \"signature_coordinates_agree\": 64,",
+          "    \"units\": 8",
+          "  }",
+          "}"
+        ]
+      },
+      {
+        "argv": [
+          "python",
+          "-B",
+          "x06.py",
+          "development",
+          "--opa",
+          "{scratch}\\runtime\\opa_windows_amd64.exe",
+          "--temp",
+          "{output}\\tmp"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X06",
+        "exit_code": 0,
+        "seconds": 0.59,
+        "stage": "development",
+        "test_count": null,
+        "timed_out": false,
+        "transcript_sha256": "c6e58bc139d0146c45395fc899ab6ae6f0f7a112688ab54b612d764057e26fe1",
+        "transcript_tail": [
+          "  ],",
+          "  \"engine\": {",
+          "    \"disposition\": \"exit\",",
+          "    \"returncode\": 0,",
+          "    \"stderr\": \"\",",
+          "    \"stdout\": \"Version: 1.22.4\\nBuild Commit: ba39415db4b3c90cd68942a74b3cc2223ec2b23c-dirty\\nBuild Timestamp: 2026-11-12T10:00:27Z\\nBuild Hostname: \\nGo Version: go1.27.4\\nPlatform: windows/amd64\\nRego Version: v1\\nWebAssembly: available\\n\"",
+          "  }",
+          "}"
+        ]
+      }
+    ],
+    "system": "Windows"
+  },
+  "X07": {
+    "additional_byte_matches": {
+      "certificate.json": "7d59bba5704c0c791e2267b3ef9d14dc9d5e3cd1f23e0728c495caa42ce91127"
+    },
+    "commit": "06242b250a7041d40f2f6af32bd8a11742813891",
+    "completed_at_utc": "2026-11-26T16:11:02.047834+00:00",
+    "experiment": "X07",
+    "python_version": "3.13.7",
+    "source": "verified GitHub archive",
+    "stages": [
+      {
+        "argv": [
+          "python",
+          "-B",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-v"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X07",
+        "exit_code": 0,
+        "seconds": 0.385,
+        "stage": "tests",
+        "test_count": 5,
+        "timed_out": false,
+        "transcript_sha256": "14d5ca3c4b5e048a4fd29a0aca8968216a83942f2d7ae17e768cf54548b569a6",
+        "transcript_tail": [
+          "test_refuse_ambiguity_and_inconsistent_evidence (test_experiment.ExperimentTests.test_refuse_ambiguity_and_inconsistent_evidence) ... ok",
+          "test_uniform_and_realized_minima (test_experiment.ExperimentTests.test_uniform_and_realized_minima) ... ok",
+          "test_wrong_forecast_digest_and_time_rejected (test_experiment.ExperimentTests.test_wrong_forecast_digest_and_time_rejected) ... ok",
+          "",
+          "----------------------------------------------------------------------",
+          "Ran 5 tests in 0.003s",
+          "",
+          "OK"
+        ]
+      },
+      {
+        "argv": [
+          "python",
+          "-B",
+          "run.py",
+          "solve",
+          "--x03-source",
+          "{scratch}\\inputs\\X03\\d85fe1cdb76cbc6d03e58e34f320c4c58a3f243c\\source\\EXPERIMENTS\\EXP-X03",
+          "--out",
+          "{output}\\x03-proof.json"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X07",
+        "exit_code": 0,
+        "seconds": 0.52,
+        "stage": "solve",
+        "test_count": null,
+        "timed_out": false,
+        "transcript_sha256": "e1eba21e09750ba90eda819ea8797c7d917f47afc12573de7a2c5e03cbc4b041",
+        "transcript_tail": [
+          "Uniform cost 4, saved 7d59bba5704c0c791e2267b3ef9d14dc9d5e3cd1f23e0728c495caa42ce91127"
+        ]
+      },
+      {
+        "argv": [
+          "python",
+          "-B",
+          "run.py",
+          "check",
+          "--evidence",
+          "evidence/pre-outcome",
+          "--post",
+          "evidence/post-outcome",
+          "--replay",
+          "--openssl",
+          "C:\\Program Files\\Git\\usr\\bin\\openssl.exe",
+          "--temp",
+          "{output}\\tmp"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X07",
+        "exit_code": 0,
+        "seconds": 2.261,
+        "stage": "replay",
+        "test_count": null,
+        "timed_out": false,
+        "transcript_sha256": "9994ca28c199d2a6fc742a19c3c5c0fe2452493dd6ad4c5eaec2d806f3ec8f95",
+        "transcript_tail": [
+          "SUPPORTED_IN_FROZEN_FIXTURE. Custody, native records and scores verified."
+        ]
+      }
+    ],
+    "system": "Windows"
+  },
+  "X08": {
+    "additional_byte_matches": {
+      "pre-audit.json": "932af51c57ec4bbd945a50b1749c9c077e0dd748a623636fe44b37c7cfeb65b5"
+    },
+    "commit": "a8c6650a7ff9901ca9ac5ed4036a37f6cb7c9200",
+    "completed_at_utc": "2026-11-26T16:11:03.853406+00:00",
+    "experiment": "X08",
+    "python_version": "3.13.7",
+    "source": "verified GitHub archive",
+    "stages": [
+      {
+        "argv": [
+          "python",
+          "-B",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-v"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X08",
+        "exit_code": 0,
+        "seconds": 0.873,
+        "stage": "tests",
+        "test_count": 7,
+        "timed_out": false,
+        "transcript_sha256": "c97a3f02e2702f84fc8ef46ddbc57f44df70f00b73d911fd8d5acda50f61f459",
+        "transcript_tail": [
+          "test_one_round_risk_by_hand (test_exp_x08.ExperimentalProtocolTests.test_one_round_risk_by_hand) ... ok",
+          "test_rejects_corrupt_audit_count_and_reveal (test_exp_x08.ExperimentalProtocolTests.test_rejects_corrupt_audit_count_and_reveal) ... ok",
+          "test_statistical_analysis_and_corrupt_logger (test_exp_x08.ExperimentalProtocolTests.test_statistical_analysis_and_corrupt_logger) ... ok",
+          "",
+          "----------------------------------------------------------------------",
+          "Ran 7 tests in 0.424s",
+          "",
+          "OK"
+        ]
+      },
+      {
+        "argv": [
+          "python",
+          "-B",
+          "src/x08.py",
+          "exact",
+          "--output",
+          "{output}\\pre-audit.json"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X08",
+        "exit_code": 0,
+        "seconds": 0.333,
+        "stage": "exact",
+        "test_count": null,
+        "timed_out": false,
+        "transcript_sha256": "9ce09fb160eaaaddcf66675a2aaf2ee98a113d7d7d79b1bc6d1ecdafef50fc6d",
+        "transcript_tail": [
+          "      ],",
+          "      \"target\": [",
+          "        false,",
+          "        true",
+          "      ]",
+          "    }",
+          "  ]",
+          "}"
+        ]
+      },
+      {
+        "argv": [
+          "python",
+          "-B",
+          "src/x08.py",
+          "replay",
+          "--output",
+          "{output}\\replay"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X08",
+        "exit_code": 0,
+        "seconds": 0.594,
+        "stage": "replay",
+        "test_count": null,
+        "timed_out": false,
+        "transcript_sha256": "7bb7d0d2bf58c01c4e406b88ea3a2a6f9d772f4ba45557b455d4ac13e3d4b3a3",
+        "transcript_tail": [
+          "    }",
+          "  ],",
+          "  \"native_verdict\": {",
+          "    \"parcel-A\": false,",
+          "    \"parcel-B\": true",
+          "  },",
+          "  \"simultaneous_alpha\": 0.05",
+          "}"
+        ]
+      }
+    ],
+    "system": "Windows"
+  },
+  "X09": {
+    "additional_byte_matches": {
+      "development.json": "42014163035549bf78dc1bacb0dac94d847ee5fe9e2e2010b77065d8de4a0a32",
+      "pre-audit.json": "da6ed411aa6217e0adc089e8bba0e39335a9d5a818d4e8104a5394427d56a196"
+    },
+    "commit": "68624c9a0eea93ec304be8e4349727eda3381c76",
+    "completed_at_utc": "2026-11-26T16:11:22.091560+00:00",
+    "experiment": "X09",
+    "python_version": "3.13.7",
+    "source": "verified GitHub archive",
+    "stages": [
+      {
+        "argv": [
+          "python",
+          "-B",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-v"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X09",
+        "exit_code": 0,
+        "seconds": 1.144,
+        "stage": "tests",
+        "test_count": 15,
+        "timed_out": false,
+        "transcript_sha256": "3fbd548ed4376f49af17b75152c58b6b9d3d652e7d09722a8a23ef580bdfd5f9",
+        "transcript_tail": [
+          "test_reset_clears_history (test_x09.RuntimeTests.test_reset_clears_history) ... ok",
+          "test_station_shift_changes_scores_without_observability (test_x09.RuntimeTests.test_station_shift_changes_scores_without_observability) ... ok",
+          "test_trim_preserves_full_law (test_x09.RuntimeTests.test_trim_preserves_full_law) ... ok",
+          "",
+          "----------------------------------------------------------------------",
+          "Ran 15 tests in 0.671s",
+          "",
+          "OK"
+        ]
+      },
+      {
+        "argv": [
+          "python",
+          "-B",
+          "src/x09.py",
+          "exact",
+          "--output",
+          "{output}\\pre-audit.json"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X09",
+        "exit_code": 0,
+        "seconds": 7.905,
+        "stage": "exact",
+        "test_count": null,
+        "timed_out": false,
+        "transcript_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "transcript_tail": []
+      },
+      {
+        "argv": [
+          "python",
+          "-B",
+          "src/x09.py",
+          "develop",
+          "--output",
+          "{output}\\development.json"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X09",
+        "exit_code": 0,
+        "seconds": 0.469,
+        "stage": "develop",
+        "test_count": null,
+        "timed_out": false,
+        "transcript_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "transcript_tail": []
+      },
+      {
+        "argv": [
+          "python",
+          "-B",
+          "src/x09.py",
+          "replay",
+          "--output",
+          "{output}\\replay"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X09",
+        "exit_code": 0,
+        "seconds": 9.382,
+        "stage": "replay",
+        "test_count": null,
+        "timed_out": false,
+        "transcript_sha256": "3d856d0c230ac2f6f133ea89087063f5eae2b665b2b37f6d41c2a70fd2c5d5e9",
+        "transcript_tail": [
+          "Verified 131072 native episodes and 65536 factorial draws"
+        ]
+      }
+    ],
+    "system": "Windows"
+  },
+  "X10": {
+    "additional_byte_matches": {
+      "pre-audit.json": "e094126a54b35abc2db1595e50743e595eb22ad5d1c59eace8b250053777d644"
+    },
+    "commit": "4a16ef37d0e90e856560ce153c0fd690c28016b6",
+    "completed_at_utc": "2026-11-26T16:11:05.798052+00:00",
+    "experiment": "X10",
+    "python_version": "3.13.7",
+    "source": "verified GitHub archive",
+    "stages": [
+      {
+        "argv": [
+          "python",
+          "-B",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-v"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X10",
+        "exit_code": 0,
+        "seconds": 1.053,
+        "stage": "tests",
+        "test_count": 8,
+        "timed_out": false,
+        "transcript_sha256": "32601382fd0bff503f72f6ecbef9646aa9302c4ac0fb1c113d821266759d757e",
+        "transcript_tail": [
+          "test_independent_card_and_false_alarm_counts (test_x10.MonitorTests.test_independent_card_and_false_alarm_counts) ... ok",
+          "test_minimum_audit_and_expected_random_cost (test_x10.MonitorTests.test_minimum_audit_and_expected_random_cost) ... ok",
+          "test_t25_attained_bounds (test_x10.MonitorTests.test_t25_attained_bounds) ... ok",
+          "",
+          "----------------------------------------------------------------------",
+          "Ran 8 tests in 0.469s",
+          "",
+          "OK"
+        ]
+      },
+      {
+        "argv": [
+          "python",
+          "-B",
+          "src/x10.py",
+          "exact",
+          "--output",
+          "{output}\\pre-audit.json"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X10",
+        "exit_code": 0,
+        "seconds": 0.359,
+        "stage": "exact",
+        "test_count": null,
+        "timed_out": false,
+        "transcript_sha256": "5c2e5b3d6c90050cf1ee71bd503cf446e1ad029910df7b3f61f4c551da53280f",
+        "transcript_tail": [
+          "      ],",
+          "      [",
+          "        \"intake-B\",",
+          "        \"label_revision\"",
+          "      ]",
+          "    ]",
+          "  }",
+          "}"
+        ]
+      },
+      {
+        "argv": [
+          "python",
+          "-B",
+          "src/x10.py",
+          "replay",
+          "--output",
+          "{output}\\replay-summary.json"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X10",
+        "exit_code": 0,
+        "seconds": 0.525,
+        "stage": "replay",
+        "test_count": null,
+        "timed_out": false,
+        "transcript_sha256": "67255bb4fa7b3e87e8b986653577361b7e93d5725a3dc15cea7d1d31f9b0dfb3",
+        "transcript_tail": [
+          "{",
+          "  \"heldout_trials\": 16384,",
+          "  \"threshold_confirmations\": 4,",
+          "  \"forecast_envelope_overlaps\": 8,",
+          "  \"episode_data_sha256\": \"1269290b40011c127201036e7789c8bfd4d9963b5ab2687a6b1df4711d8c0d71\"",
+          "}"
+        ]
+      }
+    ],
+    "system": "Windows"
+  },
+  "X11": {
+    "additional_byte_matches": {},
+    "commit": "01f174c14669c92cd1c06dbf5158db29c4720b6d",
+    "completed_at_utc": "2026-11-26T16:11:10.072320+00:00",
+    "experiment": "X11",
+    "python_version": "3.13.7",
+    "source": "verified GitHub archive",
+    "stages": [
+      {
+        "argv": [
+          "python",
+          "-B",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-v"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X11",
+        "exit_code": 0,
+        "seconds": 1.072,
+        "stage": "tests",
+        "test_count": 10,
+        "timed_out": false,
+        "transcript_sha256": "27572d5d3f2ed202c9a264fbc9e75b2cdbbeb7ec754727013fee8a68ff95bd04",
+        "transcript_tail": [
+          "test_paired_anchor_requires_own_state_correspondence (test_x11.FidelityExperimentTests.test_paired_anchor_requires_own_state_correspondence) ... ok",
+          "test_placebo_and_logger_installation_are_checked (test_x11.FidelityExperimentTests.test_placebo_and_logger_installation_are_checked) ... ok",
+          "test_receipt_forecast_and_reveal_bind_source (test_x11.FidelityExperimentTests.test_receipt_forecast_and_reveal_bind_source) ... ok",
+          "",
+          "----------------------------------------------------------------------",
+          "Ran 10 tests in 0.711s",
+          "",
+          "OK"
+        ]
+      },
+      {
+        "argv": [
+          "python",
+          "-B",
+          "src/x11.py",
+          "replay",
+          "--out-dir",
+          "{output}\\replay"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X11",
+        "exit_code": 0,
+        "seconds": 3.201,
+        "stage": "replay",
+        "test_count": null,
+        "timed_out": false,
+        "transcript_sha256": "97fd87e67be6df5a4be9243720a0061eb86578a59a212e2ffac096f51e57d19e",
+        "transcript_tail": [
+          "d8185fcdbbb84bbbe25d58038b738b7663e70859deb88017fca47cba963e1f88"
+        ]
+      }
+    ],
+    "system": "Windows"
+  },
+  "X12": {
+    "additional_byte_matches": {
+      "calibration.json": "0b16abd23e7358722553bcc4027ef32551dd0c9a5e883757e86b8e585c02598a",
+      "preflight.json": "1a2919d37d16ca43840041e1c8ac8bf2acd8226ac6e5dbbe39ab2e73c924b4d2"
+    },
+    "commit": "486671cfcb52405ad226de553ce1df992f66b4fc",
+    "completed_at_utc": "2026-11-26T16:11:14.957910+00:00",
+    "experiment": "X12",
+    "python_version": "3.13.7",
+    "source": "verified GitHub archive",
+    "stages": [
+      {
+        "argv": [
+          "python",
+          "-B",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-v"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X12",
+        "exit_code": 0,
+        "seconds": 0.961,
+        "stage": "tests",
+        "test_count": 15,
+        "timed_out": false,
+        "transcript_sha256": "6cd86ceecd99764c2b3eec8b7311aae72a7f46589536ff3707924550c9aca056",
+        "transcript_tail": [
+          "test_support_keeps_the_full_uncovered_contribution (test_x12.X12Tests.test_support_keeps_the_full_uncovered_contribution) ... ok",
+          "test_threshold_strictness_and_worst_context (test_x12.X12Tests.test_threshold_strictness_and_worst_context) ... ok",
+          "test_union_bound_matches_exact_covered_coupling (test_x12.X12Tests.test_union_bound_matches_exact_covered_coupling) ... ok",
+          "",
+          "----------------------------------------------------------------------",
+          "Ran 15 tests in 0.593s",
+          "",
+          "OK"
+        ]
+      },
+      {
+        "argv": [
+          "python",
+          "-B",
+          "src/x12.py",
+          "preflight",
+          "--exact",
+          "{output}\\preflight.json",
+          "--calibration",
+          "{output}\\calibration.json"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X12",
+        "exit_code": 0,
+        "seconds": 0.513,
+        "stage": "preflight",
+        "test_count": null,
+        "timed_out": false,
+        "transcript_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "transcript_tail": []
+      },
+      {
+        "argv": [
+          "python",
+          "-B",
+          "src/x12.py",
+          "replay",
+          "--out-dir",
+          "{output}\\replay"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X12",
+        "exit_code": 0,
+        "seconds": 5.022,
+        "stage": "replay",
+        "test_count": null,
+        "timed_out": false,
+        "transcript_sha256": "8b721a56059aff249003c77f497eaedf0143952ec54ec2e89953c6a65fc4ece9",
+        "transcript_tail": [
+          "{\"gates\": {\"correct_fidelity_refusals\": true, \"every_exact_risk_and_native_interval_covered\": true, \"full_uncovered_mass_retained\": true, \"independent_exact_covered_mismatch_check\": true, \"native_confirmation_of_each_anchored_decision\": true, \"preregistered_primary_control_decisions\": true}, \"manifest_sha256\": \"e92897932cd948fc2a9a2ce53a6313fc735f113c386ffed26fed9176c1cee7cd\", \"native_episodes\": 98304}"
+        ]
+      }
+    ],
+    "system": "Windows"
+  },
+  "X13": {
+    "additional_byte_matches": {},
+    "commit": "1b9e599a7333d9b9f85669298791557282a75c1b",
+    "completed_at_utc": "2026-11-26T16:11:11.332981+00:00",
+    "experiment": "X13",
+    "python_version": "3.13.7",
+    "source": "verified GitHub archive",
+    "stages": [
+      {
+        "argv": [
+          "python",
+          "-B",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-v"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X13",
+        "exit_code": 0,
+        "seconds": 0.636,
+        "stage": "tests",
+        "test_count": 7,
+        "timed_out": false,
+        "transcript_sha256": "fa1b54bc6faa43c6cff32148a922b068e867bcb222a0ace9e7b1bdcf8afcb89f",
+        "transcript_tail": [
+          "test_scorer_reads_occupancy_and_clock_instead_of_requests (test_x13.CompositionStudyTests.test_scorer_reads_occupancy_and_clock_instead_of_requests) ... ok",
+          "test_sentinel_budget_ablation (test_x13.CompositionStudyTests.test_sentinel_budget_ablation) ... ok",
+          "test_workshop_rejects_claims_outside_local_authority (test_x13.CompositionStudyTests.test_workshop_rejects_claims_outside_local_authority) ... ok",
+          "",
+          "----------------------------------------------------------------------",
+          "Ran 7 tests in 0.270s",
+          "",
+          "OK"
+        ]
+      },
+      {
+        "argv": [
+          "python",
+          "-B",
+          "src/x13.py",
+          "replay"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X13",
+        "exit_code": 0,
+        "seconds": 0.623,
+        "stage": "replay",
+        "test_count": null,
+        "timed_out": false,
+        "transcript_sha256": "ab605fddca9b64bffd6415c17b62b53dd146fb592627611c73266bf96b1a4888",
+        "transcript_tail": [
+          "{\"confirmed\":true,\"isolated_episodes\":1024,\"joint_episodes\":512,\"naive_false_certifications\":[\"A\",\"B\",\"D\"],\"raw_sha256\":\"1f26aa0f162ab34d8c225e9f85c10317d73dc73255f0287577c2e86f62763bdb\",\"regenerated_gzip_sha256\":\"58e0adce8b77ce21dc74f15c28984e1f32aae4505f60a225d2252c19dd0d9f86\",\"stored_gzip_sha256\":\"58e0adce8b77ce21dc74f15c28984e1f32aae4505f60a225d2252c19dd0d9f86\",\"useful_certified_ports\":[\"C\"]}"
+        ]
+      }
+    ],
+    "system": "Windows"
+  },
+  "X14": {
+    "additional_byte_matches": {
+      "exact.json": "93742d5e02358ed39099985ad262b315e326961b0a3103ca0fe168e539be464f",
+      "pre-audit.json": "fc950e37147645896db849a4603d0daff36613a35d85dcaf2c4191f4246f15fb"
+    },
+    "commit": "4ed49718f364afe9ba0723e96f4111c370a12101",
+    "completed_at_utc": "2026-11-26T16:11:54.955275+00:00",
+    "experiment": "X14",
+    "python_version": "3.13.7",
+    "source": "verified GitHub archive",
+    "stages": [
+      {
+        "argv": [
+          "python",
+          "-B",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-v"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X14",
+        "exit_code": 0,
+        "seconds": 0.627,
+        "stage": "tests",
+        "test_count": 10,
+        "timed_out": false,
+        "transcript_sha256": "1c2f9b449933c9deaaef0185d4b166271ab97f65416f00d1215e4dc78807ab9e",
+        "transcript_tail": [
+          "test_policy_mutations (test_x14.BoundedChecks.test_policy_mutations) ... ok",
+          "test_quantifier_gap_and_masked_world (test_x14.BoundedChecks.test_quantifier_gap_and_masked_world) ... ok",
+          "test_refusal_stall_and_authority (test_x14.BoundedChecks.test_refusal_stall_and_authority) ... ok",
+          "",
+          "----------------------------------------------------------------------",
+          "Ran 10 tests in 0.135s",
+          "",
+          "OK"
+        ]
+      },
+      {
+        "argv": [
+          "python",
+          "-B",
+          "run.py",
+          "prepare",
+          "--out-dir",
+          "{output}\\prepared"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X14",
+        "exit_code": 0,
+        "seconds": 35.074,
+        "stage": "prepare",
+        "test_count": null,
+        "timed_out": false,
+        "transcript_sha256": "7af3fa9abaf45ccb3bab8aaed14e31d19ac3320f75676a18c3eb5e2d7b71a246",
+        "transcript_tail": [
+          "{\"bounded\":{\"all_contracts_but_no_common_policy\":[\"quantifier-gap\",\"audit-horizon\",\"matrix-3-flex+relief-only\",\"matrix-3-left-indexed+relief-only\",\"matrix-2-left-indexed+right-indexed\",\"matrix-3-left-masked+relief-only\",\"matrix-3-left-masked+right-indexed\",\"matrix-3-relief-only+right-indexed\",\"matrix-3-flex+left-indexed+relief-only\",\"matrix-2-flex+left-indexed+right-indexed\",\"matrix-3-flex+left-masked+relief-only\",\"matrix-3-flex+left-masked+right-indexed\",\"matrix-3-flex+relief-only+right-indexed\",\"matrix-3-left-indexed+left-masked+relief-only\",\"matrix-3-left-indexed+left-masked+right-indexed\",\"matrix-3-left-indexed+relief-only+right-indexed\",\"matrix-3-left-masked+relief-only+right-indexed\"], [truncated]"
+        ]
+      },
+      {
+        "argv": [
+          "python",
+          "-B",
+          "run.py",
+          "replay"
+        ],
+        "cwd": "EXPERIMENTS/EXP-X14",
+        "exit_code": 0,
+        "seconds": 7.887,
+        "stage": "replay",
+        "test_count": null,
+        "timed_out": false,
+        "transcript_sha256": "bfb1b2108b9a0c53409ded70180dd8151afff32fa1e73cf7585ff65bb205c1a6",
+        "transcript_tail": [
+          "{\"bounded\":{\"all_contracts_but_no_common_policy\":[\"quantifier-gap\",\"audit-horizon\",\"matrix-3-flex+relief-only\",\"matrix-3-left-indexed+relief-only\",\"matrix-2-left-indexed+right-indexed\",\"matrix-3-left-masked+relief-only\",\"matrix-3-left-masked+right-indexed\",\"matrix-3-relief-only+right-indexed\",\"matrix-3-flex+left-indexed+relief-only\",\"matrix-2-flex+left-indexed+right-indexed\",\"matrix-3-flex+left-masked+relief-only\",\"matrix-3-flex+left-masked+right-indexed\",\"matrix-3-flex+relief-only+right-indexed\",\"matrix-3-left-indexed+left-masked+relief-only\",\"matrix-3-left-indexed+left-masked+right-indexed\",\"matrix-3-left-indexed+relief-only+right-indexed\",\"matrix-3-left-masked+relief-only+right-indexed\"], [truncated]"
+        ]
+      }
+    ],
+    "system": "Windows"
+  }
+}

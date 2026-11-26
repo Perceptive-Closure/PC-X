@@ -1,0 +1,280 @@
+{
+  "official_opa": {
+    "asset_size": 64720384,
+    "exe_sha256": "4cd179b95041aa50c44241324da3becf35d0b28dca92bf10a07f32d002724d5e",
+    "executable_version": [
+      "Version: 1.22.4",
+      "Build Commit: ba39415db4b3c90cd68942a74b3cc2223ec2b23c-dirty",
+      "Build Timestamp: 2026-11-12T10:00:27Z",
+      "Build Hostname: ",
+      "Go Version: go1.27.4",
+      "Platform: windows/amd64",
+      "Rego Version: v1",
+      "WebAssembly: available"
+    ],
+    "official_asset_id": 739019622,
+    "official_document_sha256": "5aabd3124df9d68168f56abd3c695f228ea57b4d62c0a04c419fab12caf28011",
+    "official_source_commit": "ba39415db4b3c90cd68942a74b3cc2223ec2b23c",
+    "vendored_sha256": {
+      "vendor/LICENSE": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08",
+      "vendor/example.rego": "6783c19d0b7aa5906f72b2530e6080b590a2a4625be8bef7998e209786286881"
+    }
+  },
+  "offline_openssl": {
+    "cryptography": "43.0.3",
+    "exe_sha256": "e7c10875d990b320a6000653b3a8c12f5aa06442c1937a246d2daeb342b7c9c5",
+    "openssl": "OpenSSL 3.2.4 11 Feb 2025 (Library: OpenSSL 3.2.4 11 Feb 2025)"
+  },
+  "original_stages": {
+    "X06": {
+      "commitment_recomputed_sha256": "d93c96bdfb2b0c080ce0fadc67a808e0b1540e0b08f68ae81e12a39ae8a10cd8",
+      "custodian_verification_utc": "2026-11-26T15:25:25.074999+00:00",
+      "forecast_commit": "068241d15abb189c01604b6959ce8fc33e35b576",
+      "forecast_committer_utc": "2026-11-26T15:23:15Z",
+      "forecast_sha256": "b83202ae8b410b2a26a6c50ec44bfb3eea1857d45e16650cc1c52b4a2f280e21",
+      "forecast_to_terminal_files": [
+        "EXPERIMENTS/EXP-X06/Path.md",
+        "EXPERIMENTS/EXP-X06/README.md",
+        "EXPERIMENTS/EXP-X06/results/manifest.json",
+        "EXPERIMENTS/EXP-X06/results/native.json",
+        "EXPERIMENTS/EXP-X06/results/release.json",
+        "EXPERIMENTS/EXP-X06/results/summary.json"
+      ],
+      "freeze_to_forecast_files": [
+        "EXPERIMENTS/EXP-X06/results/audit-receipt.json",
+        "EXPERIMENTS/EXP-X06/results/forecast.json"
+      ],
+      "opening_or_completion_utc": "2026-11-26T15:25:25.344036+00:00",
+      "pre_audit_commit": "8272ea71ab4242459968130b114bcc49fe20dca7",
+      "receipt_sha256": "e4c1fac960000f12ca66cf7e6c19ff6f92db3cd15741aace5e7ae790a93caf95",
+      "terminal_commit": "d3d8f0d6f14d548ce4b95dfa4341d8db54ad7876",
+      "time_evidence": "strict recorded order"
+    },
+    "X07": {
+      "commitment_recomputed_sha256": "e179b42c8bd144dfd38ba15a35a85d203e0f1b7f81f5c6431894679f2025e98d",
+      "custodian_verification_utc": "2026-11-26T15:52:12.2626262+00:00",
+      "forecast_commit": "31fc792c7f56e52159b85d88b8fdb4aa1c542661",
+      "forecast_committer_utc": "2026-11-26T15:49:12Z",
+      "forecast_sha256": "ee54cc6983d920468d480663cf7d084df3a3334db6707ac30a450c0f4393e1ac",
+      "forecast_to_terminal_files": [
+        "EXPERIMENTS/EXP-X07/Path.md",
+        "EXPERIMENTS/EXP-X07/README.md",
+        "EXPERIMENTS/EXP-X07/evidence/manifest.sha256",
+        "EXPERIMENTS/EXP-X07/evidence/post-outcome/native.json",
+        "EXPERIMENTS/EXP-X07/evidence/post-outcome/receipt.json",
+        "EXPERIMENTS/EXP-X07/evidence/post-outcome/results.json",
+        "EXPERIMENTS/EXP-X07/evidence/post-outcome/reveal.json"
+      ],
+      "freeze_to_forecast_files": [
+        "EXPERIMENTS/EXP-X07/Path.md",
+        "EXPERIMENTS/EXP-X07/evidence/pre-outcome/audit.json",
+        "EXPERIMENTS/EXP-X07/evidence/pre-outcome/commitment.json",
+        "EXPERIMENTS/EXP-X07/evidence/pre-outcome/diagnostics.json",
+        "EXPERIMENTS/EXP-X07/evidence/pre-outcome/prediction.json",
+        "EXPERIMENTS/EXP-X07/evidence/pre-outcome/public/approved-issuer.pem",
+        "EXPERIMENTS/EXP-X07/evidence/pre-outcome/public/approved-root.pem",
+        "EXPERIMENTS/EXP-X07/evidence/pre-outcome/public/case01.pem",
+        "EXPERIMENTS/EXP-X07/evidence/pre-outcome/public/case02.pem",
+        "EXPERIMENTS/EXP-X07/evidence/pre-outcome/public/case03.pem",
+        "EXPERIMENTS/EXP-X07/evidence/pre-outcome/public/case04.pem",
+        "EXPERIMENTS/EXP-X07/evidence/pre-outcome/public/case05.pem",
+        "EXPERIMENTS/EXP-X07/evidence/pre-outcome/public/case06.pem",
+        "EXPERIMENTS/EXP-X07/evidence/pre-outcome/public/case07.pem",
+        "EXPERIMENTS/EXP-X07/evidence/pre-outcome/public/case08.pem",
+        "EXPERIMENTS/EXP-X07/evidence/pre-outcome/public/control-expired.pem",
+        "EXPERIMENTS/EXP-X07/evidence/pre-outcome/public/control-valid.pem",
+        "EXPERIMENTS/EXP-X07/evidence/pre-outcome/public/other-issuer.pem",
+        "EXPERIMENTS/EXP-X07/evidence/pre-outcome/public/other-root.pem"
+      ],
+      "opening_or_completion_utc": "2026-11-26T15:52:13.111438+00:00",
+      "pre_audit_commit": "4933d82cab463dfee60b18843acc4d7b524fe90a",
+      "receipt_sha256": "8887e8dd87a843555f514645be5ed2353fdb569062e83971e76ad0f19afecefb",
+      "terminal_commit": "06242b250a7041d40f2f6af32bd8a11742813891",
+      "time_evidence": "strict recorded order"
+    },
+    "X08": {
+      "commitment_recomputed_sha256": "28097faa180957fde1494472c79acfb6f623f3c08754a6d1fb7735e716051460",
+      "custodian_verification_utc": "2026-11-26T12:58:45+00:00",
+      "forecast_commit": "ce5f10b0ff0e5d549eecf7cbd8c08a88ccae809e",
+      "forecast_committer_utc": "2026-11-26T12:57:50Z",
+      "forecast_sha256": "5cbc97e66f92700bcdd864b98b4a29eadc64aebab504254a1f339003acc67fc1",
+      "forecast_to_terminal_files": [
+        "EXPERIMENTS/EXP-X08/Path.md",
+        "EXPERIMENTS/EXP-X08/results/manifest.json",
+        "EXPERIMENTS/EXP-X08/results/opening.json"
+      ],
+      "freeze_to_forecast_files": [
+        "EXPERIMENTS/EXP-X08/Path.md",
+        "EXPERIMENTS/EXP-X08/results/audit-receipt.json",
+        "EXPERIMENTS/EXP-X08/results/forecast.json"
+      ],
+      "opening_or_completion_utc": "2026-11-26T12:58:45+00:00",
+      "pre_audit_commit": "52a04c5d65c196892d4c888e2a5e8b82d07d4fbf",
+      "receipt_sha256": "62be1855cda79d585f428d224f4639b66ea92780cc03af929db03652c4941a6d",
+      "terminal_commit": "a8c6650a7ff9901ca9ac5ed4036a37f6cb7c9200",
+      "time_evidence": "same-second verification and completion; execution order relies on runner and custodian"
+    },
+    "X09": {
+      "commitment_recomputed_sha256": "c9c8ec9370026dd18355a7d5456aad687a9ef7d247b19bc1ed707ae7adcca3da",
+      "custodian_verification_utc": "2026-11-26T15:02:40+00:00",
+      "forecast_commit": "e7f162b44b101173eb325d68b384d5aed7b7e64b",
+      "forecast_committer_utc": "2026-11-26T15:01:36Z",
+      "forecast_sha256": "0dc88aceeba20eff03e00192c04cd2b25c6ec3fab64075a8740244f8a1217a89",
+      "forecast_to_terminal_files": [
+        "EXPERIMENTS/EXP-X09/Path.md",
+        "EXPERIMENTS/EXP-X09/results/manifest.json",
+        "EXPERIMENTS/EXP-X09/results/opening.json",
+        "EXPERIMENTS/EXP-X09/results/raw-audits.json",
+        "EXPERIMENTS/EXP-X09/results/raw-factorial.jsonl.gz",
+        "EXPERIMENTS/EXP-X09/results/raw-native.jsonl.gz",
+        "EXPERIMENTS/EXP-X09/results/summary.json"
+      ],
+      "freeze_to_forecast_files": [
+        "EXPERIMENTS/EXP-X09/Path.md",
+        "EXPERIMENTS/EXP-X09/results/audit-receipt.json",
+        "EXPERIMENTS/EXP-X09/results/forecast.json"
+      ],
+      "opening_or_completion_utc": "2026-11-26T15:02:41+00:00",
+      "pre_audit_commit": "c547c7ad66e5e2603628c463f6c662b0575a5cfc",
+      "receipt_sha256": "f127405641bc3f41452bcdd5b42e443bd80d2cac973a7ff2d8dc28019f0fdee8",
+      "terminal_commit": "68624c9a0eea93ec304be8e4349727eda3381c76",
+      "time_evidence": "strict recorded order"
+    },
+    "X10": {
+      "commitment_recomputed_sha256": "cefc4b52e6abf870446c587b637d06801c4bd0f92d141f44623384efd359e846",
+      "custodian_verification_utc": "2026-11-26T14:32:54.742243Z",
+      "forecast_commit": "ae3665bf83ed4650d4acf19c00f5cca2eff4ae3a",
+      "forecast_committer_utc": "2026-11-26T14:31:15Z",
+      "forecast_sha256": "09fa53e3b1830156b551dea53412566e9a9676ccbb2d2664da836d721590dd4d",
+      "forecast_to_terminal_files": [
+        "EXPERIMENTS/EXP-X10/Path.md",
+        "EXPERIMENTS/EXP-X10/results/episodes.jsonl.gz",
+        "EXPERIMENTS/EXP-X10/results/manifest.json",
+        "EXPERIMENTS/EXP-X10/results/opening.json"
+      ],
+      "freeze_to_forecast_files": [
+        "EXPERIMENTS/EXP-X10/Path.md",
+        "EXPERIMENTS/EXP-X10/results/audit-receipt.json",
+        "EXPERIMENTS/EXP-X10/results/forecast.json"
+      ],
+      "opening_or_completion_utc": "2026-11-26T14:32:55.205462+00:00",
+      "pre_audit_commit": "558787d095716e21a6692f56a5eb3e886174f16f",
+      "receipt_sha256": "443eca2ee9f752c59a851f48ca748019cf534bb321ed9dcc4dd939a5e8d69344",
+      "terminal_commit": "4a16ef37d0e90e856560ce153c0fd690c28016b6",
+      "time_evidence": "strict recorded order"
+    },
+    "X11": {
+      "commitment_recomputed_sha256": "b4c535dfb45cbedb8aee3b028496683fd64a79acbef9584c803febeda920ce7a",
+      "custodian_verification_utc": null,
+      "forecast_commit": "1e8182a486241eecfdf6eaf1063cc5750203de2f",
+      "forecast_committer_utc": "2026-11-26T14:54:50Z",
+      "forecast_sha256": "cd7bcbf7f4ab414c63b5270b5f1634fd84cd1c41bc019ea80d7eb3b4b9ea5c97",
+      "forecast_to_terminal_files": [
+        "EXPERIMENTS/EXP-X11/Path.md",
+        "EXPERIMENTS/EXP-X11/README.md",
+        "EXPERIMENTS/EXP-X11/results/manifest.json",
+        "EXPERIMENTS/EXP-X11/results/observations.jsonl.gz",
+        "EXPERIMENTS/EXP-X11/results/opening.json"
+      ],
+      "freeze_to_forecast_files": [
+        "EXPERIMENTS/EXP-X11/Path.md",
+        "EXPERIMENTS/EXP-X11/results/audit-receipt.json",
+        "EXPERIMENTS/EXP-X11/results/forecast.json"
+      ],
+      "opening_or_completion_utc": null,
+      "pre_audit_commit": "e17e7c7a8673b9d88e19f5cd26d53f308a123664",
+      "receipt_sha256": "9c6f7b471c359f9b9143b705ff528578e6a507d3fb0b537a8211c8a20a2683a7",
+      "terminal_commit": "01f174c14669c92cd1c06dbf5158db29c4720b6d",
+      "time_evidence": "ledger attestation only; opening exposes no verification or opening timestamp"
+    },
+    "X12": {
+      "commitment_recomputed_sha256": "1ab286193a9a704c7d84b9ad7dcd52542004015a4361753302e14ce01c365f3a",
+      "custodian_verification_utc": "2026-11-26T15:29:16.376097Z",
+      "forecast_commit": "c9fe2f92102298c04fe086e75c993e47c6fc2f17",
+      "forecast_committer_utc": "2026-11-26T15:27:26Z",
+      "forecast_sha256": "2da0b2a9324f3d025f465e396df4da4485a830636ea39398425835f4b838ca37",
+      "forecast_to_terminal_files": [
+        "EXPERIMENTS/EXP-X12/Path.md",
+        "EXPERIMENTS/EXP-X12/results/manifest.json",
+        "EXPERIMENTS/EXP-X12/results/observations.jsonl.gz",
+        "EXPERIMENTS/EXP-X12/results/opening.json",
+        "EXPERIMENTS/EXP-X12/results/summary.json"
+      ],
+      "freeze_to_forecast_files": [
+        "EXPERIMENTS/EXP-X12/Path.md",
+        "EXPERIMENTS/EXP-X12/results/audit-receipt.json",
+        "EXPERIMENTS/EXP-X12/results/forecast.json"
+      ],
+      "opening_or_completion_utc": "2026-11-26T15:29:16.641839Z",
+      "pre_audit_commit": "7a742d9835fef3d42205d28f6ff967009207b9a9",
+      "receipt_sha256": "08fba0709bff95c5a189e87d1ecd0cbe739731603e7446757ac0be102e9e3530",
+      "terminal_commit": "486671cfcb52405ad226de553ce1df992f66b4fc",
+      "time_evidence": "strict recorded order"
+    },
+    "X13": {
+      "commitment_recomputed_sha256": "f4d95f896baea05b4c939e8542eef2dca04b6ef16493fe1915dd8758c296cffb",
+      "custodian_verification_utc": "2026-11-26T15:17:09.125404Z",
+      "forecast_commit": "3dfb6a1845da350cf94d510b21dbcefa99f69a8a",
+      "forecast_committer_utc": "2026-11-26T15:16:06Z",
+      "forecast_sha256": "609c2fe979835105995b3f7484ee4ce1b72fe4ac11f6655d678d5a0d1473c5b3",
+      "forecast_to_terminal_files": [
+        "EXPERIMENTS/EXP-X13/Path.md",
+        "EXPERIMENTS/EXP-X13/results/episodes.jsonl.gz",
+        "EXPERIMENTS/EXP-X13/results/manifest.json",
+        "EXPERIMENTS/EXP-X13/results/opening.json",
+        "EXPERIMENTS/EXP-X13/results/summary.json"
+      ],
+      "freeze_to_forecast_files": [
+        "EXPERIMENTS/EXP-X13/Path.md",
+        "EXPERIMENTS/EXP-X13/results/audit-receipt.json",
+        "EXPERIMENTS/EXP-X13/results/forecast.json"
+      ],
+      "opening_or_completion_utc": "2026-11-26T15:17:09.647860Z",
+      "pre_audit_commit": "8708fd1bd36e1eede87b951afe66ac468a324c3d",
+      "receipt_sha256": "330d7ba3a7dd6ff7fd7d6ab8f7d1300af268eb3ba3fce317aa1e1a93a30a1190",
+      "terminal_commit": "1b9e599a7333d9b9f85669298791557282a75c1b",
+      "time_evidence": "strict recorded order"
+    },
+    "X14": {
+      "commitment_recomputed_sha256": "f5494049166c0affa0a4bd3c411aae723a1ac5428f01a3ee84fed85d32659859",
+      "custodian_verification_utc": "2026-11-26T15:46:34.212365Z",
+      "forecast_commit": "26560eb729b5ab7e794c77066740ee24f8698e15",
+      "forecast_committer_utc": "2026-11-26T15:45:11Z",
+      "forecast_sha256": "1ac57f0d89c3884f769eee06c2c2a50bf73023ddf0fe7df5318609e935719f30",
+      "forecast_to_terminal_files": [
+        "EXPERIMENTS/EXP-X14/Path.md",
+        "EXPERIMENTS/EXP-X14/README.md",
+        "EXPERIMENTS/EXP-X14/results/ledger.jsonl",
+        "EXPERIMENTS/EXP-X14/results/manifest.json",
+        "EXPERIMENTS/EXP-X14/results/opening.json",
+        "EXPERIMENTS/EXP-X14/results/summary.json"
+      ],
+      "freeze_to_forecast_files": [
+        "EXPERIMENTS/EXP-X14/results/audit-receipt.json",
+        "EXPERIMENTS/EXP-X14/results/forecast.json"
+      ],
+      "opening_or_completion_utc": "2026-11-26T15:46:34.613809Z",
+      "pre_audit_commit": "40b9cf52ed50f56c453b32360de05158c2328091",
+      "receipt_sha256": "237942b4b0826ae1276df4a7db950dbe97f0e7c128ea068802d2034f44f97d0a",
+      "terminal_commit": "4ed49718f364afe9ba0723e96f4111c370a12101",
+      "time_evidence": "strict recorded order"
+    }
+  },
+  "x05_pre_outcome_amendment": {
+    "earliest_post_freeze_committer_utc": "2026-11-26T15:01:39Z",
+    "initial_protocol_commit": "088bb77896c712505dbf6bba4dfb1fb05cb2ab38",
+    "post_freeze_files": [
+      "EXPERIMENTS/EXP-X05/Path.md",
+      "EXPERIMENTS/EXP-X05/README.md",
+      "EXPERIMENTS/EXP-X05/results/invariants.json",
+      "EXPERIMENTS/EXP-X05/results/manifest.json",
+      "EXPERIMENTS/EXP-X05/results/measurements.csv",
+      "EXPERIMENTS/EXP-X05/results/performance.json",
+      "EXPERIMENTS/EXP-X05/results/summary.json"
+    ],
+    "pre_outcome_execution_commit": "c1b5773ae48d5f34c8af2ac98286476032ee312f",
+    "pre_outcome_execution_committer_utc": "2026-11-26T14:55:47Z",
+    "registered_protocol_sha256": "471178e5b3932de972a472b8b2ffc7dec9d4c693cf24c5b5d567efbbb9824445",
+    "terminal_commit": "e288a6b5b8ddac24af349913bc68b640a691b2b2"
+  }
+}

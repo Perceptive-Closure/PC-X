@@ -1,0 +1,133 @@
+{
+  "evaluation_monitor_fidelity_containment": {
+    "deployment": {
+      "A": {
+        "alarm_count": 1,
+        "common_n": 4,
+        "miss_count": 2,
+        "trusted_event_count": 3
+      },
+      "B": {
+        "alarm_count": 1,
+        "common_n": 4,
+        "miss_count": 0,
+        "trusted_event_count": 1
+      }
+    },
+    "disturbing_probe_minus_passive": "1/2",
+    "joint_cases_without_local_warning": 1,
+    "same_public_evaluation": [
+      "ok",
+      "alarm",
+      "ok",
+      "ok"
+    ]
+  },
+  "extensional_atomic_touch": {
+    "complete_atomic_action_available_when_R_frozen": false,
+    "full_touch": [
+      "E",
+      "R"
+    ],
+    "positive_support": [
+      "63/64",
+      "1/64"
+    ],
+    "representative_ablation_available_when_R_frozen": true,
+    "representative_touch": [
+      "E"
+    ],
+    "zero_support_touch": []
+  },
+  "nonrectangular_target": {
+    "joint": [
+      [
+        -1,
+        -1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "joint_target": [
+      0
+    ],
+    "rectangle_target": [
+      0,
+      1
+    ],
+    "relaxation_only": [
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        -1
+      ]
+    ]
+  },
+  "quantifier_order_utility": {
+    "each_completion": {
+      "left": [
+        "left"
+      ],
+      "right": [
+        "right"
+      ]
+    },
+    "refusal_completion_count": 0,
+    "safe_but_zero_utility": "refuse",
+    "with_admitted_discriminating_read": {
+      "left": [
+        "left"
+      ],
+      "right": [
+        "right"
+      ]
+    },
+    "without_admitted_read": []
+  },
+  "statistical_denominator_pairing_and_selection": {
+    "bound_n4_k12": 0.878477810185176,
+    "bounded_paired_interval_half_width": 1.756955620370352,
+    "duplicate_denominator_n8": 0.6211776167038466,
+    "independent_post_selection_family_false_positive_probability": 0.45963991233736334,
+    "paired_signed_block_differences": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "reordered_signed_block_differences": [
+      1,
+      1,
+      0,
+      -1
+    ],
+    "single_family_member": 0.6790507578703098
+  },
+  "weighted_legitimate_queries": {
+    "global": [
+      3,
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "illegitimate_ablation": [
+      0,
+      [
+        "forbidden"
+      ]
+    ],
+    "local_at_first_world": [
+      1,
+      [
+        "x"
+      ]
+    ],
+    "one_query_interface": null
+  }
+}
