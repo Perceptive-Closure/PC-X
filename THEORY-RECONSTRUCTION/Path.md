@@ -10,9 +10,9 @@ The parent established the proof dependency families and work plan. Two independ
 
 | Slot | Assignment | State |
 | --- | --- | --- |
-| 1 | Independent comparison of T01–T14 and P1–P7 | Active |
-| 2 | Deployment transport and statistical construction, T15–T24 | Active |
-| 3 | Monitoring, fidelity and governance construction, T25–T29 | Active |
+| 1 | Parent flagship construction and integration | Active |
+| 2 | Independent proof-blind verification of T15–T30 | Active |
+| 3 | Hostile review | Prepared |
 
 ## Acceptance register
 
@@ -38,3 +38,9 @@ The blind derivation seal ba490ac8ead7e4c40e7eb502c197d0e6dc5ee321 was verified 
 The original manuscript review supplement was located and its relevant native conformance/provenance records matched the constructor's source checks. No separately titled original extension charter was located in the exact repository source, local project document inventory or searched Notion records. The controlling charter's distinct references to the earlier charter remain attributed. No original source was modified.
 
 The app rejected immediate archival of the complete foundation constructor checkout because another active task still uses it. Source persistence and package replay are complete. The parent will retry archival once the relevant sessions are inactive.
+
+## Independent initial comparison and flagship seal
+
+The first independent comparison reached exact verified d110711ade3243ffb182840fad01492e70451290 after preserving its blind seal. It found common action-label injectivity essential in T03 and budget layers essential to T12's stated pruning. Both exact proof candidates use those restrictions. All other initial statements retain their checked scope. Hostile review is separate from this comparison.
+
+T15–T24 and T25–T29 reached published construction handoffs. The three precise late statement files, including parent T30.S sealed at a9f1d0026ff0f0a42154a5d8d65dca56a77be853, were copied by exact blob into the independent intake 9ae675c14606357a75e8bbe2c0b12c211554a793. The reviewer works from that intake. The parent completes T30.S and checks reproducibility in one slot. [Flagship results](WORKSTREAMS/flagship/Path.md)

@@ -1,0 +1,8 @@
+# T30.S boundary witnesses
+
+1. **Correlated modes.** Compatibilities {(0,0), (1,1)} with unit base and extra tariffs and deadline 2 give opposite targets. No valid one-coordinate move exists. The product crossing argument cannot be used.
+2. **Shared queries.** Independent bits at two unit-base stages and a deadline of 2 require both unit-price local readbacks for the threshold. One independently signed combined inventory exposing the two raw mode fields at unit cost changes the exact optimum to one.
+3. **Per-contract policies conflict.** Two hidden modes each enable a different one-step useful action at cost 1. No common action exists even though both known-mode optima are 1. The canonical slow action in T30.S supplies the missing robust choice.
+4. **Incomplete deployment correspondence.** A one-stage canonical R-frozen slow job costs 2. A concrete extra lawful one-unit shortcut invalidates a negative deadline-1 verdict. A concrete unreported trap or logger-only completion signal invalidates a positive verdict. Equal public readouts do not distinguish those cases.
+5. **History-dependent budgets and queries.** A readback unlocked or discounted after a previous answer does not have the fixed disjoint weighted problem in T30.S. With binary weights a numerical budget of order $2^k$ has only $k+1$ bits, invalidating any general polynomial-input claim for the capped algorithm.
+6. **Vacuity and uncertain probabilities.** Empty evidence supplies no target certificate and refusal supplies no completed job. A common support can carry different positive failure probabilities, so the projection alone does not identify nonzero risk.
