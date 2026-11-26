@@ -1,0 +1,687 @@
+{
+  "cases": {
+    "case01": {
+      "answers": {
+        "issuer_binding": false,
+        "leaf_validity": false
+      },
+      "coarse": "FAIL",
+      "native_fields": "FAIL",
+      "no_audit": {
+        "compatible": [
+          "approved-current",
+          "approved-expired",
+          "other-current",
+          "other-expired"
+        ],
+        "decision": "ABSTAIN",
+        "status": "UNDERIDENTIFIED",
+        "target_set": [
+          "FAIL",
+          "PASS"
+        ]
+      },
+      "omit_issuer_binding": {
+        "compatible": [
+          "approved-expired",
+          "other-expired"
+        ],
+        "decision": "FAIL",
+        "status": "IDENTIFIED",
+        "target_set": [
+          "FAIL"
+        ]
+      },
+      "omit_leaf_validity": {
+        "compatible": [
+          "other-current",
+          "other-expired"
+        ],
+        "decision": "FAIL",
+        "status": "IDENTIFIED",
+        "target_set": [
+          "FAIL"
+        ]
+      },
+      "pcx": {
+        "compatible": [
+          "other-expired"
+        ],
+        "decision": "FAIL",
+        "status": "IDENTIFIED",
+        "target_set": [
+          "FAIL"
+        ]
+      }
+    },
+    "case02": {
+      "answers": {
+        "issuer_binding": false,
+        "leaf_validity": false
+      },
+      "coarse": "FAIL",
+      "native_fields": "FAIL",
+      "no_audit": {
+        "compatible": [
+          "approved-current",
+          "approved-expired",
+          "other-current",
+          "other-expired"
+        ],
+        "decision": "ABSTAIN",
+        "status": "UNDERIDENTIFIED",
+        "target_set": [
+          "FAIL",
+          "PASS"
+        ]
+      },
+      "omit_issuer_binding": {
+        "compatible": [
+          "approved-expired",
+          "other-expired"
+        ],
+        "decision": "FAIL",
+        "status": "IDENTIFIED",
+        "target_set": [
+          "FAIL"
+        ]
+      },
+      "omit_leaf_validity": {
+        "compatible": [
+          "other-current",
+          "other-expired"
+        ],
+        "decision": "FAIL",
+        "status": "IDENTIFIED",
+        "target_set": [
+          "FAIL"
+        ]
+      },
+      "pcx": {
+        "compatible": [
+          "other-expired"
+        ],
+        "decision": "FAIL",
+        "status": "IDENTIFIED",
+        "target_set": [
+          "FAIL"
+        ]
+      }
+    },
+    "case03": {
+      "answers": {
+        "issuer_binding": true,
+        "leaf_validity": false
+      },
+      "coarse": "FAIL",
+      "native_fields": "FAIL",
+      "no_audit": {
+        "compatible": [
+          "approved-current",
+          "approved-expired",
+          "other-current",
+          "other-expired"
+        ],
+        "decision": "ABSTAIN",
+        "status": "UNDERIDENTIFIED",
+        "target_set": [
+          "FAIL",
+          "PASS"
+        ]
+      },
+      "omit_issuer_binding": {
+        "compatible": [
+          "approved-expired",
+          "other-expired"
+        ],
+        "decision": "FAIL",
+        "status": "IDENTIFIED",
+        "target_set": [
+          "FAIL"
+        ]
+      },
+      "omit_leaf_validity": {
+        "compatible": [
+          "approved-current",
+          "approved-expired"
+        ],
+        "decision": "ABSTAIN",
+        "status": "UNDERIDENTIFIED",
+        "target_set": [
+          "FAIL",
+          "PASS"
+        ]
+      },
+      "pcx": {
+        "compatible": [
+          "approved-expired"
+        ],
+        "decision": "FAIL",
+        "status": "IDENTIFIED",
+        "target_set": [
+          "FAIL"
+        ]
+      }
+    },
+    "case04": {
+      "answers": {
+        "issuer_binding": false,
+        "leaf_validity": true
+      },
+      "coarse": "FAIL",
+      "native_fields": "FAIL",
+      "no_audit": {
+        "compatible": [
+          "approved-current",
+          "approved-expired",
+          "other-current",
+          "other-expired"
+        ],
+        "decision": "ABSTAIN",
+        "status": "UNDERIDENTIFIED",
+        "target_set": [
+          "FAIL",
+          "PASS"
+        ]
+      },
+      "omit_issuer_binding": {
+        "compatible": [
+          "approved-current",
+          "other-current"
+        ],
+        "decision": "ABSTAIN",
+        "status": "UNDERIDENTIFIED",
+        "target_set": [
+          "FAIL",
+          "PASS"
+        ]
+      },
+      "omit_leaf_validity": {
+        "compatible": [
+          "other-current",
+          "other-expired"
+        ],
+        "decision": "FAIL",
+        "status": "IDENTIFIED",
+        "target_set": [
+          "FAIL"
+        ]
+      },
+      "pcx": {
+        "compatible": [
+          "other-current"
+        ],
+        "decision": "FAIL",
+        "status": "IDENTIFIED",
+        "target_set": [
+          "FAIL"
+        ]
+      }
+    },
+    "case05": {
+      "answers": {
+        "issuer_binding": true,
+        "leaf_validity": false
+      },
+      "coarse": "FAIL",
+      "native_fields": "FAIL",
+      "no_audit": {
+        "compatible": [
+          "approved-current",
+          "approved-expired",
+          "other-current",
+          "other-expired"
+        ],
+        "decision": "ABSTAIN",
+        "status": "UNDERIDENTIFIED",
+        "target_set": [
+          "FAIL",
+          "PASS"
+        ]
+      },
+      "omit_issuer_binding": {
+        "compatible": [
+          "approved-expired",
+          "other-expired"
+        ],
+        "decision": "FAIL",
+        "status": "IDENTIFIED",
+        "target_set": [
+          "FAIL"
+        ]
+      },
+      "omit_leaf_validity": {
+        "compatible": [
+          "approved-current",
+          "approved-expired"
+        ],
+        "decision": "ABSTAIN",
+        "status": "UNDERIDENTIFIED",
+        "target_set": [
+          "FAIL",
+          "PASS"
+        ]
+      },
+      "pcx": {
+        "compatible": [
+          "approved-expired"
+        ],
+        "decision": "FAIL",
+        "status": "IDENTIFIED",
+        "target_set": [
+          "FAIL"
+        ]
+      }
+    },
+    "case06": {
+      "answers": {
+        "issuer_binding": false,
+        "leaf_validity": true
+      },
+      "coarse": "FAIL",
+      "native_fields": "FAIL",
+      "no_audit": {
+        "compatible": [
+          "approved-current",
+          "approved-expired",
+          "other-current",
+          "other-expired"
+        ],
+        "decision": "ABSTAIN",
+        "status": "UNDERIDENTIFIED",
+        "target_set": [
+          "FAIL",
+          "PASS"
+        ]
+      },
+      "omit_issuer_binding": {
+        "compatible": [
+          "approved-current",
+          "other-current"
+        ],
+        "decision": "ABSTAIN",
+        "status": "UNDERIDENTIFIED",
+        "target_set": [
+          "FAIL",
+          "PASS"
+        ]
+      },
+      "omit_leaf_validity": {
+        "compatible": [
+          "other-current",
+          "other-expired"
+        ],
+        "decision": "FAIL",
+        "status": "IDENTIFIED",
+        "target_set": [
+          "FAIL"
+        ]
+      },
+      "pcx": {
+        "compatible": [
+          "other-current"
+        ],
+        "decision": "FAIL",
+        "status": "IDENTIFIED",
+        "target_set": [
+          "FAIL"
+        ]
+      }
+    },
+    "case07": {
+      "answers": {
+        "issuer_binding": true,
+        "leaf_validity": true
+      },
+      "coarse": "FAIL",
+      "native_fields": "PASS",
+      "no_audit": {
+        "compatible": [
+          "approved-current",
+          "approved-expired",
+          "other-current",
+          "other-expired"
+        ],
+        "decision": "ABSTAIN",
+        "status": "UNDERIDENTIFIED",
+        "target_set": [
+          "FAIL",
+          "PASS"
+        ]
+      },
+      "omit_issuer_binding": {
+        "compatible": [
+          "approved-current",
+          "other-current"
+        ],
+        "decision": "ABSTAIN",
+        "status": "UNDERIDENTIFIED",
+        "target_set": [
+          "FAIL",
+          "PASS"
+        ]
+      },
+      "omit_leaf_validity": {
+        "compatible": [
+          "approved-current",
+          "approved-expired"
+        ],
+        "decision": "ABSTAIN",
+        "status": "UNDERIDENTIFIED",
+        "target_set": [
+          "FAIL",
+          "PASS"
+        ]
+      },
+      "pcx": {
+        "compatible": [
+          "approved-current"
+        ],
+        "decision": "PASS",
+        "status": "IDENTIFIED",
+        "target_set": [
+          "PASS"
+        ]
+      }
+    },
+    "case08": {
+      "answers": {
+        "issuer_binding": true,
+        "leaf_validity": true
+      },
+      "coarse": "FAIL",
+      "native_fields": "PASS",
+      "no_audit": {
+        "compatible": [
+          "approved-current",
+          "approved-expired",
+          "other-current",
+          "other-expired"
+        ],
+        "decision": "ABSTAIN",
+        "status": "UNDERIDENTIFIED",
+        "target_set": [
+          "FAIL",
+          "PASS"
+        ]
+      },
+      "omit_issuer_binding": {
+        "compatible": [
+          "approved-current",
+          "other-current"
+        ],
+        "decision": "ABSTAIN",
+        "status": "UNDERIDENTIFIED",
+        "target_set": [
+          "FAIL",
+          "PASS"
+        ]
+      },
+      "omit_leaf_validity": {
+        "compatible": [
+          "approved-current",
+          "approved-expired"
+        ],
+        "decision": "ABSTAIN",
+        "status": "UNDERIDENTIFIED",
+        "target_set": [
+          "FAIL",
+          "PASS"
+        ]
+      },
+      "pcx": {
+        "compatible": [
+          "approved-current"
+        ],
+        "decision": "PASS",
+        "status": "IDENTIFIED",
+        "target_set": [
+          "PASS"
+        ]
+      }
+    }
+  },
+  "finite_proof": {
+    "initial_witness": [
+      "approved-current",
+      "approved-expired"
+    ],
+    "realized": {
+      "approved-current": {
+        "cost": 4,
+        "optima": [
+          [
+            "issuer_binding",
+            "leaf_validity"
+          ]
+        ],
+        "subsets": [
+          {
+            "conflict": [
+              "approved-current",
+              "approved-expired"
+            ],
+            "cost": 0,
+            "queries": []
+          },
+          {
+            "conflict": [
+              "approved-current",
+              "approved-expired"
+            ],
+            "cost": 3,
+            "queries": [
+              "issuer_binding"
+            ]
+          },
+          {
+            "conflict": [
+              "approved-current",
+              "other-current"
+            ],
+            "cost": 1,
+            "queries": [
+              "leaf_validity"
+            ]
+          },
+          {
+            "conflict": null,
+            "cost": 4,
+            "queries": [
+              "issuer_binding",
+              "leaf_validity"
+            ]
+          }
+        ]
+      },
+      "approved-expired": {
+        "cost": 1,
+        "optima": [
+          [
+            "leaf_validity"
+          ]
+        ],
+        "subsets": [
+          {
+            "conflict": [
+              "approved-expired",
+              "approved-current"
+            ],
+            "cost": 0,
+            "queries": []
+          },
+          {
+            "conflict": [
+              "approved-expired",
+              "approved-current"
+            ],
+            "cost": 3,
+            "queries": [
+              "issuer_binding"
+            ]
+          },
+          {
+            "conflict": null,
+            "cost": 1,
+            "queries": [
+              "leaf_validity"
+            ]
+          },
+          {
+            "conflict": null,
+            "cost": 4,
+            "queries": [
+              "issuer_binding",
+              "leaf_validity"
+            ]
+          }
+        ]
+      },
+      "other-current": {
+        "cost": 3,
+        "optima": [
+          [
+            "issuer_binding"
+          ]
+        ],
+        "subsets": [
+          {
+            "conflict": [
+              "other-current",
+              "approved-current"
+            ],
+            "cost": 0,
+            "queries": []
+          },
+          {
+            "conflict": null,
+            "cost": 3,
+            "queries": [
+              "issuer_binding"
+            ]
+          },
+          {
+            "conflict": [
+              "other-current",
+              "approved-current"
+            ],
+            "cost": 1,
+            "queries": [
+              "leaf_validity"
+            ]
+          },
+          {
+            "conflict": null,
+            "cost": 4,
+            "queries": [
+              "issuer_binding",
+              "leaf_validity"
+            ]
+          }
+        ]
+      },
+      "other-expired": {
+        "cost": 1,
+        "optima": [
+          [
+            "leaf_validity"
+          ]
+        ],
+        "subsets": [
+          {
+            "conflict": [
+              "other-expired",
+              "approved-current"
+            ],
+            "cost": 0,
+            "queries": []
+          },
+          {
+            "conflict": null,
+            "cost": 3,
+            "queries": [
+              "issuer_binding"
+            ]
+          },
+          {
+            "conflict": null,
+            "cost": 1,
+            "queries": [
+              "leaf_validity"
+            ]
+          },
+          {
+            "conflict": null,
+            "cost": 4,
+            "queries": [
+              "issuer_binding",
+              "leaf_validity"
+            ]
+          }
+        ]
+      }
+    },
+    "selected": [
+      "issuer_binding",
+      "leaf_validity"
+    ],
+    "uniform": {
+      "cost": 4,
+      "optima": [
+        [
+          "issuer_binding",
+          "leaf_validity"
+        ]
+      ],
+      "subsets": [
+        {
+          "conflict": [
+            "approved-current",
+            "approved-expired"
+          ],
+          "cost": 0,
+          "queries": []
+        },
+        {
+          "conflict": [
+            "approved-current",
+            "approved-expired"
+          ],
+          "cost": 3,
+          "queries": [
+            "issuer_binding"
+          ]
+        },
+        {
+          "conflict": [
+            "approved-current",
+            "other-current"
+          ],
+          "cost": 1,
+          "queries": [
+            "leaf_validity"
+          ]
+        },
+        {
+          "conflict": null,
+          "cost": 4,
+          "queries": [
+            "issuer_binding",
+            "leaf_validity"
+          ]
+        }
+      ]
+    }
+  },
+  "input_sha256": {
+    "audit.json": "ee132bca502de1a6d1101aae6d7e00b03dfb25ad31ec719d39cd6aed57485978",
+    "commitment.json": "8887e8dd87a843555f514645be5ed2353fdb569062e83971e76ad0f19afecefb",
+    "diagnostics.json": "284ee1f5733d43f1b61b63deaae2d987176b89d37760ab94efafa8c3b94cbac7"
+  },
+  "observed_ambiguity_witnesses": {
+    "FAIL": "case03",
+    "PASS": "case07"
+  },
+  "schema": 1,
+  "x03_proof_sha256": "7d59bba5704c0c791e2267b3ef9d14dc9d5e3cd1f23e0728c495caa42ce91127"
+}

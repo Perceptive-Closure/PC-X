@@ -1,0 +1,555 @@
+{
+  "approved_issuer_fields": {
+    "args": [
+      "x509",
+      "-in",
+      "approved-issuer.pem",
+      "-noout",
+      "-subject",
+      "-nameopt",
+      "RFC2253",
+      "-ext",
+      "subjectKeyIdentifier"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "subject=CN=PC-X07 Fixture Issuer\nX509v3 Subject Key Identifier: \n    9F:F8:B2:B7:ED:26:63:12:62:A3:8E:77:1D:31:13:A5:30:A0:59:65\n"
+  },
+  "cases": {
+    "case01": {
+      "initial": {
+        "args": [
+          "verify",
+          "-verbose",
+          "-show_chain",
+          "-attime",
+          "1893456000",
+          "-purpose",
+          "sslserver",
+          "-verify_hostname",
+          "service.pcx-x07.invalid",
+          "-x509_strict",
+          "-auth_level",
+          "2",
+          "-check_ss_sig",
+          "-trusted",
+          "other-root.pem",
+          "case01.pem"
+        ],
+        "depths": [
+          0
+        ],
+        "reason_codes": [
+          20
+        ],
+        "reasons": [
+          "unable to get local issuer certificate"
+        ],
+        "returncode": 2,
+        "stderr": "CN=service.pcx-x07.invalid\nerror 20 at 0 depth lookup: unable to get local issuer certificate\nerror case01.pem: verification failed\n",
+        "stdout": ""
+      },
+      "leaf_fields": {
+        "args": [
+          "x509",
+          "-in",
+          "case01.pem",
+          "-noout",
+          "-issuer",
+          "-nameopt",
+          "RFC2253",
+          "-dates",
+          "-dateopt",
+          "iso_8601",
+          "-ext",
+          "authorityKeyIdentifier"
+        ],
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "issuer=CN=PC-X07 Fixture Issuer\nnotBefore=2027-01-01 00:00:00Z\nnotAfter=2028-01-01 00:00:00Z\nX509v3 Authority Key Identifier: \n    ED:99:52:DA:3C:50:D1:78:01:97:48:CC:5F:74:69:67:C4:55:74:2D\n"
+      }
+    },
+    "case02": {
+      "initial": {
+        "args": [
+          "verify",
+          "-verbose",
+          "-show_chain",
+          "-attime",
+          "1893456000",
+          "-purpose",
+          "sslserver",
+          "-verify_hostname",
+          "service.pcx-x07.invalid",
+          "-x509_strict",
+          "-auth_level",
+          "2",
+          "-check_ss_sig",
+          "-trusted",
+          "other-root.pem",
+          "case02.pem"
+        ],
+        "depths": [
+          0
+        ],
+        "reason_codes": [
+          20
+        ],
+        "reasons": [
+          "unable to get local issuer certificate"
+        ],
+        "returncode": 2,
+        "stderr": "CN=service.pcx-x07.invalid\nerror 20 at 0 depth lookup: unable to get local issuer certificate\nerror case02.pem: verification failed\n",
+        "stdout": ""
+      },
+      "leaf_fields": {
+        "args": [
+          "x509",
+          "-in",
+          "case02.pem",
+          "-noout",
+          "-issuer",
+          "-nameopt",
+          "RFC2253",
+          "-dates",
+          "-dateopt",
+          "iso_8601",
+          "-ext",
+          "authorityKeyIdentifier"
+        ],
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "issuer=CN=PC-X07 Fixture Issuer\nnotBefore=2027-01-01 00:00:00Z\nnotAfter=2028-01-01 00:00:00Z\nX509v3 Authority Key Identifier: \n    ED:99:52:DA:3C:50:D1:78:01:97:48:CC:5F:74:69:67:C4:55:74:2D\n"
+      }
+    },
+    "case03": {
+      "initial": {
+        "args": [
+          "verify",
+          "-verbose",
+          "-show_chain",
+          "-attime",
+          "1893456000",
+          "-purpose",
+          "sslserver",
+          "-verify_hostname",
+          "service.pcx-x07.invalid",
+          "-x509_strict",
+          "-auth_level",
+          "2",
+          "-check_ss_sig",
+          "-trusted",
+          "other-root.pem",
+          "case03.pem"
+        ],
+        "depths": [
+          0
+        ],
+        "reason_codes": [
+          20
+        ],
+        "reasons": [
+          "unable to get local issuer certificate"
+        ],
+        "returncode": 2,
+        "stderr": "CN=service.pcx-x07.invalid\nerror 20 at 0 depth lookup: unable to get local issuer certificate\nerror case03.pem: verification failed\n",
+        "stdout": ""
+      },
+      "leaf_fields": {
+        "args": [
+          "x509",
+          "-in",
+          "case03.pem",
+          "-noout",
+          "-issuer",
+          "-nameopt",
+          "RFC2253",
+          "-dates",
+          "-dateopt",
+          "iso_8601",
+          "-ext",
+          "authorityKeyIdentifier"
+        ],
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "issuer=CN=PC-X07 Fixture Issuer\nnotBefore=2027-01-01 00:00:00Z\nnotAfter=2028-01-01 00:00:00Z\nX509v3 Authority Key Identifier: \n    9F:F8:B2:B7:ED:26:63:12:62:A3:8E:77:1D:31:13:A5:30:A0:59:65\n"
+      }
+    },
+    "case04": {
+      "initial": {
+        "args": [
+          "verify",
+          "-verbose",
+          "-show_chain",
+          "-attime",
+          "1893456000",
+          "-purpose",
+          "sslserver",
+          "-verify_hostname",
+          "service.pcx-x07.invalid",
+          "-x509_strict",
+          "-auth_level",
+          "2",
+          "-check_ss_sig",
+          "-trusted",
+          "other-root.pem",
+          "case04.pem"
+        ],
+        "depths": [
+          0
+        ],
+        "reason_codes": [
+          20
+        ],
+        "reasons": [
+          "unable to get local issuer certificate"
+        ],
+        "returncode": 2,
+        "stderr": "CN=service.pcx-x07.invalid\nerror 20 at 0 depth lookup: unable to get local issuer certificate\nerror case04.pem: verification failed\n",
+        "stdout": ""
+      },
+      "leaf_fields": {
+        "args": [
+          "x509",
+          "-in",
+          "case04.pem",
+          "-noout",
+          "-issuer",
+          "-nameopt",
+          "RFC2253",
+          "-dates",
+          "-dateopt",
+          "iso_8601",
+          "-ext",
+          "authorityKeyIdentifier"
+        ],
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "issuer=CN=PC-X07 Fixture Issuer\nnotBefore=2029-01-01 00:00:00Z\nnotAfter=2031-01-01 00:00:00Z\nX509v3 Authority Key Identifier: \n    ED:99:52:DA:3C:50:D1:78:01:97:48:CC:5F:74:69:67:C4:55:74:2D\n"
+      }
+    },
+    "case05": {
+      "initial": {
+        "args": [
+          "verify",
+          "-verbose",
+          "-show_chain",
+          "-attime",
+          "1893456000",
+          "-purpose",
+          "sslserver",
+          "-verify_hostname",
+          "service.pcx-x07.invalid",
+          "-x509_strict",
+          "-auth_level",
+          "2",
+          "-check_ss_sig",
+          "-trusted",
+          "other-root.pem",
+          "case05.pem"
+        ],
+        "depths": [
+          0
+        ],
+        "reason_codes": [
+          20
+        ],
+        "reasons": [
+          "unable to get local issuer certificate"
+        ],
+        "returncode": 2,
+        "stderr": "CN=service.pcx-x07.invalid\nerror 20 at 0 depth lookup: unable to get local issuer certificate\nerror case05.pem: verification failed\n",
+        "stdout": ""
+      },
+      "leaf_fields": {
+        "args": [
+          "x509",
+          "-in",
+          "case05.pem",
+          "-noout",
+          "-issuer",
+          "-nameopt",
+          "RFC2253",
+          "-dates",
+          "-dateopt",
+          "iso_8601",
+          "-ext",
+          "authorityKeyIdentifier"
+        ],
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "issuer=CN=PC-X07 Fixture Issuer\nnotBefore=2027-01-01 00:00:00Z\nnotAfter=2028-01-01 00:00:00Z\nX509v3 Authority Key Identifier: \n    9F:F8:B2:B7:ED:26:63:12:62:A3:8E:77:1D:31:13:A5:30:A0:59:65\n"
+      }
+    },
+    "case06": {
+      "initial": {
+        "args": [
+          "verify",
+          "-verbose",
+          "-show_chain",
+          "-attime",
+          "1893456000",
+          "-purpose",
+          "sslserver",
+          "-verify_hostname",
+          "service.pcx-x07.invalid",
+          "-x509_strict",
+          "-auth_level",
+          "2",
+          "-check_ss_sig",
+          "-trusted",
+          "other-root.pem",
+          "case06.pem"
+        ],
+        "depths": [
+          0
+        ],
+        "reason_codes": [
+          20
+        ],
+        "reasons": [
+          "unable to get local issuer certificate"
+        ],
+        "returncode": 2,
+        "stderr": "CN=service.pcx-x07.invalid\nerror 20 at 0 depth lookup: unable to get local issuer certificate\nerror case06.pem: verification failed\n",
+        "stdout": ""
+      },
+      "leaf_fields": {
+        "args": [
+          "x509",
+          "-in",
+          "case06.pem",
+          "-noout",
+          "-issuer",
+          "-nameopt",
+          "RFC2253",
+          "-dates",
+          "-dateopt",
+          "iso_8601",
+          "-ext",
+          "authorityKeyIdentifier"
+        ],
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "issuer=CN=PC-X07 Fixture Issuer\nnotBefore=2029-01-01 00:00:00Z\nnotAfter=2031-01-01 00:00:00Z\nX509v3 Authority Key Identifier: \n    ED:99:52:DA:3C:50:D1:78:01:97:48:CC:5F:74:69:67:C4:55:74:2D\n"
+      }
+    },
+    "case07": {
+      "initial": {
+        "args": [
+          "verify",
+          "-verbose",
+          "-show_chain",
+          "-attime",
+          "1893456000",
+          "-purpose",
+          "sslserver",
+          "-verify_hostname",
+          "service.pcx-x07.invalid",
+          "-x509_strict",
+          "-auth_level",
+          "2",
+          "-check_ss_sig",
+          "-trusted",
+          "other-root.pem",
+          "case07.pem"
+        ],
+        "depths": [
+          0
+        ],
+        "reason_codes": [
+          20
+        ],
+        "reasons": [
+          "unable to get local issuer certificate"
+        ],
+        "returncode": 2,
+        "stderr": "CN=service.pcx-x07.invalid\nerror 20 at 0 depth lookup: unable to get local issuer certificate\nerror case07.pem: verification failed\n",
+        "stdout": ""
+      },
+      "leaf_fields": {
+        "args": [
+          "x509",
+          "-in",
+          "case07.pem",
+          "-noout",
+          "-issuer",
+          "-nameopt",
+          "RFC2253",
+          "-dates",
+          "-dateopt",
+          "iso_8601",
+          "-ext",
+          "authorityKeyIdentifier"
+        ],
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "issuer=CN=PC-X07 Fixture Issuer\nnotBefore=2029-01-01 00:00:00Z\nnotAfter=2031-01-01 00:00:00Z\nX509v3 Authority Key Identifier: \n    9F:F8:B2:B7:ED:26:63:12:62:A3:8E:77:1D:31:13:A5:30:A0:59:65\n"
+      }
+    },
+    "case08": {
+      "initial": {
+        "args": [
+          "verify",
+          "-verbose",
+          "-show_chain",
+          "-attime",
+          "1893456000",
+          "-purpose",
+          "sslserver",
+          "-verify_hostname",
+          "service.pcx-x07.invalid",
+          "-x509_strict",
+          "-auth_level",
+          "2",
+          "-check_ss_sig",
+          "-trusted",
+          "other-root.pem",
+          "case08.pem"
+        ],
+        "depths": [
+          0
+        ],
+        "reason_codes": [
+          20
+        ],
+        "reasons": [
+          "unable to get local issuer certificate"
+        ],
+        "returncode": 2,
+        "stderr": "CN=service.pcx-x07.invalid\nerror 20 at 0 depth lookup: unable to get local issuer certificate\nerror case08.pem: verification failed\n",
+        "stdout": ""
+      },
+      "leaf_fields": {
+        "args": [
+          "x509",
+          "-in",
+          "case08.pem",
+          "-noout",
+          "-issuer",
+          "-nameopt",
+          "RFC2253",
+          "-dates",
+          "-dateopt",
+          "iso_8601",
+          "-ext",
+          "authorityKeyIdentifier"
+        ],
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "issuer=CN=PC-X07 Fixture Issuer\nnotBefore=2029-01-01 00:00:00Z\nnotAfter=2031-01-01 00:00:00Z\nX509v3 Authority Key Identifier: \n    9F:F8:B2:B7:ED:26:63:12:62:A3:8E:77:1D:31:13:A5:30:A0:59:65\n"
+      }
+    },
+    "control-expired": {
+      "initial": {
+        "args": [
+          "verify",
+          "-verbose",
+          "-show_chain",
+          "-attime",
+          "1893456000",
+          "-purpose",
+          "sslserver",
+          "-verify_hostname",
+          "service.pcx-x07.invalid",
+          "-x509_strict",
+          "-auth_level",
+          "2",
+          "-check_ss_sig",
+          "-trusted",
+          "other-root.pem",
+          "control-expired.pem"
+        ],
+        "depths": [
+          0
+        ],
+        "reason_codes": [
+          20
+        ],
+        "reasons": [
+          "unable to get local issuer certificate"
+        ],
+        "returncode": 2,
+        "stderr": "CN=service.pcx-x07.invalid\nerror 20 at 0 depth lookup: unable to get local issuer certificate\nerror control-expired.pem: verification failed\n",
+        "stdout": ""
+      },
+      "leaf_fields": {
+        "args": [
+          "x509",
+          "-in",
+          "control-expired.pem",
+          "-noout",
+          "-issuer",
+          "-nameopt",
+          "RFC2253",
+          "-dates",
+          "-dateopt",
+          "iso_8601",
+          "-ext",
+          "authorityKeyIdentifier"
+        ],
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "issuer=CN=PC-X07 Fixture Issuer\nnotBefore=2027-01-01 00:00:00Z\nnotAfter=2028-01-01 00:00:00Z\nX509v3 Authority Key Identifier: \n    9F:F8:B2:B7:ED:26:63:12:62:A3:8E:77:1D:31:13:A5:30:A0:59:65\n"
+      }
+    },
+    "control-valid": {
+      "initial": {
+        "args": [
+          "verify",
+          "-verbose",
+          "-show_chain",
+          "-attime",
+          "1893456000",
+          "-purpose",
+          "sslserver",
+          "-verify_hostname",
+          "service.pcx-x07.invalid",
+          "-x509_strict",
+          "-auth_level",
+          "2",
+          "-check_ss_sig",
+          "-trusted",
+          "other-root.pem",
+          "control-valid.pem"
+        ],
+        "depths": [
+          0
+        ],
+        "reason_codes": [
+          20
+        ],
+        "reasons": [
+          "unable to get local issuer certificate"
+        ],
+        "returncode": 2,
+        "stderr": "CN=service.pcx-x07.invalid\nerror 20 at 0 depth lookup: unable to get local issuer certificate\nerror control-valid.pem: verification failed\n",
+        "stdout": ""
+      },
+      "leaf_fields": {
+        "args": [
+          "x509",
+          "-in",
+          "control-valid.pem",
+          "-noout",
+          "-issuer",
+          "-nameopt",
+          "RFC2253",
+          "-dates",
+          "-dateopt",
+          "iso_8601",
+          "-ext",
+          "authorityKeyIdentifier"
+        ],
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "issuer=CN=PC-X07 Fixture Issuer\nnotBefore=2029-01-01 00:00:00Z\nnotAfter=2031-01-01 00:00:00Z\nX509v3 Authority Key Identifier: \n    9F:F8:B2:B7:ED:26:63:12:62:A3:8E:77:1D:31:13:A5:30:A0:59:65\n"
+      }
+    }
+  },
+  "openssl": {
+    "executable": "C:\\Program Files\\Git\\usr\\bin\\openssl.exe",
+    "sha256": "e7c10875d990b320a6000653b3a8c12f5aa06442c1937a246d2daeb342b7c9c5",
+    "version": "OpenSSL 3.2.4 11 Feb 2025 (Library: OpenSSL 3.2.4 11 Feb 2025)"
+  }
+}

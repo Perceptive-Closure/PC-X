@@ -1,0 +1,220 @@
+{
+  "authorities": {
+    "approved-issuer.pem": {
+      "dates": [
+        "2025-01-01T00:00:00+00:00",
+        "2040-01-01T00:00:00+00:00"
+      ],
+      "der_sha256": "2aad3bac61d12fd7f222e78ceff56c9e51004c228db8da2ba4fc093f9679fc09",
+      "issuer": "CN=PC-X07 Approved Root",
+      "ski": "9ff8b2b7ed26631262a38e771d3113a530a05965",
+      "subject": "CN=PC-X07 Fixture Issuer"
+    },
+    "approved-root.pem": {
+      "dates": [
+        "2025-01-01T00:00:00+00:00",
+        "2040-01-01T00:00:00+00:00"
+      ],
+      "der_sha256": "8bee0c43a60ff8685983447664eefcba4a42f5b28c3162d2eb0e882fad03871b",
+      "issuer": "CN=PC-X07 Approved Root",
+      "ski": "19834cb6601b4dc4f0e6da1cbeaf3340cfaa614b",
+      "subject": "CN=PC-X07 Approved Root"
+    },
+    "other-issuer.pem": {
+      "dates": [
+        "2025-01-01T00:00:00+00:00",
+        "2040-01-01T00:00:00+00:00"
+      ],
+      "der_sha256": "34849aced0660b4a57edc4b456370d4303d701ae83a594adba8d65fc70d8339c",
+      "issuer": "CN=PC-X07 Other Root",
+      "ski": "ed9952da3c50d178019748cc5f746967c455742d",
+      "subject": "CN=PC-X07 Fixture Issuer"
+    },
+    "other-root.pem": {
+      "dates": [
+        "2025-01-01T00:00:00+00:00",
+        "2040-01-01T00:00:00+00:00"
+      ],
+      "der_sha256": "ba0cebabd75eb175b17b950de7436d9bac9cc57912dff431d3173f68e3b30719",
+      "issuer": "CN=PC-X07 Other Root",
+      "ski": "f6c72bd6ba839e5d919b1bcfbd9c954b0613d5c3",
+      "subject": "CN=PC-X07 Other Root"
+    }
+  },
+  "cases": {
+    "case01": {
+      "aki": "ed9952da3c50d178019748cc5f746967c455742d",
+      "answers": {
+        "issuer_binding": false,
+        "leaf_validity": false
+      },
+      "dates": [
+        "2027-01-01T00:00:00+00:00",
+        "2028-01-01T00:00:00+00:00"
+      ],
+      "der_sha256": "80f7e5440522e027ec3e30ca069b2eb9bbb51382b5ae7f599aa7402b3ebc7518",
+      "direct_signature_checks": {
+        "approved": false,
+        "other": true
+      },
+      "issuer": "CN=PC-X07 Fixture Issuer"
+    },
+    "case02": {
+      "aki": "ed9952da3c50d178019748cc5f746967c455742d",
+      "answers": {
+        "issuer_binding": false,
+        "leaf_validity": false
+      },
+      "dates": [
+        "2027-01-01T00:00:00+00:00",
+        "2028-01-01T00:00:00+00:00"
+      ],
+      "der_sha256": "8ccb2755ebcd590e6c7897ed75f23fea541cf5361378d5474bbb1cbcf21f2bca",
+      "direct_signature_checks": {
+        "approved": false,
+        "other": true
+      },
+      "issuer": "CN=PC-X07 Fixture Issuer"
+    },
+    "case03": {
+      "aki": "9ff8b2b7ed26631262a38e771d3113a530a05965",
+      "answers": {
+        "issuer_binding": true,
+        "leaf_validity": false
+      },
+      "dates": [
+        "2027-01-01T00:00:00+00:00",
+        "2028-01-01T00:00:00+00:00"
+      ],
+      "der_sha256": "b926aab149a7ea42b9ac6d470eba0ffe1b7fc9b43e7de313637978d731ad9fce",
+      "direct_signature_checks": {
+        "approved": true,
+        "other": false
+      },
+      "issuer": "CN=PC-X07 Fixture Issuer"
+    },
+    "case04": {
+      "aki": "ed9952da3c50d178019748cc5f746967c455742d",
+      "answers": {
+        "issuer_binding": false,
+        "leaf_validity": true
+      },
+      "dates": [
+        "2029-01-01T00:00:00+00:00",
+        "2031-01-01T00:00:00+00:00"
+      ],
+      "der_sha256": "74b238aff48cc0bdfa5b0ea8aad77e10b0fbbc84c19c17cb5b352b2bb46d3cfd",
+      "direct_signature_checks": {
+        "approved": false,
+        "other": true
+      },
+      "issuer": "CN=PC-X07 Fixture Issuer"
+    },
+    "case05": {
+      "aki": "9ff8b2b7ed26631262a38e771d3113a530a05965",
+      "answers": {
+        "issuer_binding": true,
+        "leaf_validity": false
+      },
+      "dates": [
+        "2027-01-01T00:00:00+00:00",
+        "2028-01-01T00:00:00+00:00"
+      ],
+      "der_sha256": "2372559550993f2af55bb02eb460600c0ac967e2f2a32534791c71da8568d078",
+      "direct_signature_checks": {
+        "approved": true,
+        "other": false
+      },
+      "issuer": "CN=PC-X07 Fixture Issuer"
+    },
+    "case06": {
+      "aki": "ed9952da3c50d178019748cc5f746967c455742d",
+      "answers": {
+        "issuer_binding": false,
+        "leaf_validity": true
+      },
+      "dates": [
+        "2029-01-01T00:00:00+00:00",
+        "2031-01-01T00:00:00+00:00"
+      ],
+      "der_sha256": "d8497ca6155b0e97fca97bd73744dac931795c851934595039565d6e0864a195",
+      "direct_signature_checks": {
+        "approved": false,
+        "other": true
+      },
+      "issuer": "CN=PC-X07 Fixture Issuer"
+    },
+    "case07": {
+      "aki": "9ff8b2b7ed26631262a38e771d3113a530a05965",
+      "answers": {
+        "issuer_binding": true,
+        "leaf_validity": true
+      },
+      "dates": [
+        "2029-01-01T00:00:00+00:00",
+        "2031-01-01T00:00:00+00:00"
+      ],
+      "der_sha256": "430887b4a241c82300df616d923a638f951d8bc3b8f4ed392645c5c7ecc67f42",
+      "direct_signature_checks": {
+        "approved": true,
+        "other": false
+      },
+      "issuer": "CN=PC-X07 Fixture Issuer"
+    },
+    "case08": {
+      "aki": "9ff8b2b7ed26631262a38e771d3113a530a05965",
+      "answers": {
+        "issuer_binding": true,
+        "leaf_validity": true
+      },
+      "dates": [
+        "2029-01-01T00:00:00+00:00",
+        "2031-01-01T00:00:00+00:00"
+      ],
+      "der_sha256": "b010330c901c075a38a36fcc4756720fae23b236893e58cf7f6363ad8ebc0fc9",
+      "direct_signature_checks": {
+        "approved": true,
+        "other": false
+      },
+      "issuer": "CN=PC-X07 Fixture Issuer"
+    },
+    "control-expired": {
+      "aki": "9ff8b2b7ed26631262a38e771d3113a530a05965",
+      "answers": {
+        "issuer_binding": true,
+        "leaf_validity": false
+      },
+      "dates": [
+        "2027-01-01T00:00:00+00:00",
+        "2028-01-01T00:00:00+00:00"
+      ],
+      "der_sha256": "6ca876d5a64d19b1d0dd6fb5dba107dcddd2fa79c6a7a3df33588b97f7726142",
+      "direct_signature_checks": {
+        "approved": true,
+        "other": false
+      },
+      "issuer": "CN=PC-X07 Fixture Issuer"
+    },
+    "control-valid": {
+      "aki": "9ff8b2b7ed26631262a38e771d3113a530a05965",
+      "answers": {
+        "issuer_binding": true,
+        "leaf_validity": true
+      },
+      "dates": [
+        "2029-01-01T00:00:00+00:00",
+        "2031-01-01T00:00:00+00:00"
+      ],
+      "der_sha256": "12506d8d738e80c17030a25b51a9536909bbb71e6dc4c88a924efafe7353fd01",
+      "direct_signature_checks": {
+        "approved": true,
+        "other": false
+      },
+      "issuer": "CN=PC-X07 Fixture Issuer"
+    }
+  },
+  "library": "cryptography 43.0.3",
+  "method": "independent direct-signature, profile and signed-validity inspection",
+  "time": "2030-01-01T00:00:00+00:00",
+  "wrong_anchor_links_approved_issuer": false
+}
