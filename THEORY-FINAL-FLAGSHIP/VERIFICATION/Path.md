@@ -24,7 +24,15 @@ Proof-blind readiness established. The neutral intake and separate corroboration
 3. Derived the exact expected-cost bound as a stopped drift identity and a supporting line on the discrete Bayes-error grid. An exact Markov absorption solver checked lattice boundaries and an adjacent mixture. A pure policy enumeration independently corroborated hard-cap optima. Scoped Lean algebra passed. [Replay and primary-source checks](T30-A/CHECKS.md)
 4. Checked possible missing conditions for full deployment-event coverage and lawful terminal reports. Derived concrete failures for post-draw proposals, hidden signal carry, marginal-only matching and a forced local-risk mixture. These are separate operational limits and exact checks. [Countermodels](T30-A/CHECKS.md#exact-controls)
 
+## T30.P proof-blind phase
+
+1. Retrieved only the authenticated one-file statement from its independent GitHub revision. The copied contents reproduce the neutral source blob and the independent byte digest. [Neutral statement](T30-P/STATEMENTS.md) · [Provenance and proof](T30-P/BLIND-DERIVATION.md)
+2. Independently transported genuine conditional rows, derived realization flow and protected-marker equations, and dualized finite rational weight regions. Derived the normalized world multipliers directly from a Farkas certificate before applying Helly to grouped worlds. This avoids explicit vertex enumeration in block discovery.
+3. Proved the joint issuance bounds via selected-count supermartingales, stopped membership, and a separation tube in measured moments. Lower-bound coupling needs the full matched pre-verdict interface. The quota is an operationally authorized schedule. Kept the risk scope explicit for diagnostic activity and protected work.
+4. Recomputed all fixture risks, realized and prospective exact read costs, and the group blocker. Exact leaf and record enumerations and scaled Lean lemmas passed. [Controls and replay](T30-P/CHECKS.md)
+
 ## RESULTS
 
-- T30.A.1–A.4 have an independently proved guarded interpretation, including selective risk, receipt-fiber testing, exact finite cap and exact expected-cost frontier. A limited report menu or unscored deployment phases require explicit scope repair. The statement, proofs, exact tests and Lean kernels are sealed independently of later comparison.
-- T30.P and T30.U blind derivations are pending their separate intake phases. The next T30.A review step is an authenticated constructor proof release after verification of this seal.
+- T30.A's independent seal is eba38eedf9cac25c9545251c2e20d23103e18b20. Guarded conclusions use legal binary reports and complete actual deployment-event coverage. Comparison is pending authenticated release.
+- T30.P.1–P.4 follow in the stated finite linked class. The audit lower bound uses common initial audit information and a complete channel description. The quota requires genuine available repetitions. Include every relevant act in the declared risk scope or check its safety separately. The entire derivation is independent of later proof comparison.
+- T30.U proof-blind verification is next at its separately authenticated statement.
