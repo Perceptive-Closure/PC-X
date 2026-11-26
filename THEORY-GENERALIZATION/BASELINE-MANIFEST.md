@@ -37,7 +37,7 @@ D-35 main definitions and closure theorems are on pp. 3–7, with foundational a
 - X05 gives exact target and full-identity minimum prices of 677 on the largest matched instance. Its structural implementation avoids global catalog construction and was not universally faster than alternative structured methods.
 - X07 ties the richer native diagnostic comparator. X09's same shifted scoring rule produced two false favorable decisions when used in two held-out installations.
 - X12's direct trusted comparator certifies ten qualifying scenarios at 786,444 governed operations versus six at 1,048,804 for the primary anchored method. Keep the coverage, fidelity and joint comparability conditions explicit.
-- X08 logs verification and opening in the same whole second. X11 retains a ledger attestation and incomplete independent timing corroboration. X15's immutable replay preserves both limitations.
+- X08 logs custodian verification and the opening-or-completion time in the same whole second. X11 retains a ledger attestation and incomplete independent timing corroboration. X15's immutable replay preserves both limitations.
 - T23's anytime likelihood procedure and fixed-sample histogram issuance guarantee are separate. T29's useful realizability obstruction can be higher-order. T30.S needs literal or jointly executable lifted commands and has no prospective common-fragment validation.
 
 [Historical experiment reconstruction](https://github.com/Perceptive-Closure/PC-X/blob/39a0d0e5b3283835094d17603b84e706b968f443/THEORY-RECONSTRUCTION/EXPERIMENTAL-RECONSTRUCTION.md) · [Accepted hostile review](https://github.com/Perceptive-Closure/PC-X/blob/39a0d0e5b3283835094d17603b84e706b968f443/THEORY-RECONSTRUCTION/VERIFICATION/hostile/REVIEW.md)
