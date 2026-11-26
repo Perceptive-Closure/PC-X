@@ -10,6 +10,10 @@ The map at each public observation is injective on the union of action identitie
 
 Choose minimal policy supports within a fixed residual budget. A smaller support at a higher cost can fail the actual bound and must not prune a larger feasible support at a lower cost. Equivalently retain joint cost–support dominance. The original exact proof and first comparison already use the fixed-budget hypothesis. The boundary replay contains supports at costs 5 and 9 and an overall optimum of 9. [T12 proof](../THEOREMS/T12/PROOF.md) · [Boundary replay](initial/boundary_replay.py)
 
+## T18 · Surviving common mass and valid factors
+
+All component loss allowances in the product expression lie in [0,1]. A vacuous unsupported row can use loss 1. A lower mass such as 1 less an unbounded formal allowance cannot be multiplied as a probability factor. If the audited conditional primitive laws coincide exactly over all relevant represented checkpoints and lawful histories, choose those exact normalized laws as the common lower factors. The resulting common mass is one. An arbitrary looser lower envelope can still give mass below one even when the actual row laws coincide. The exact conclusion uses the verified values and the trusted common event map. [T18 proof](../THEOREMS/T18/PROOF.md)
+
 ## T22 · Stop and condition on everything observed
 
 Let $H_0$ be the initialization visible to the auditor. Under the stipulated stopping, integrability, absolute continuity and common protocol factor assumptions, the stopped chain rule reads
@@ -17,7 +21,7 @@ $$
 D(P^\sigma\|Q^\sigma)
  = D(P(H_0)\|Q(H_0)) + \mathbb E_P\sum_{t\le\tau}D(P_t(\cdot\mid H_{t-1},q_t)\|Q_t(\cdot\mid H_{t-1},q_t)).
 $$
-The initialization can instead be an explicit first response in the sum. The count-only reset allocation uses the equal-law, zero-information initialization or subtracts the initial information term before imposing the relevant constraint. Different deterministic initial labels can perfectly distinguish the hypotheses with zero probes, so omitting that contribution would be false. The changed-measure inequality itself is standard. [T22 proof](../THEOREMS/T22/PROOF.md)
+The initialization can instead be an explicit first response in the sum. The reset allocation lower bound uses non-strict constraints, each count-weighted divergence sum at least the required threshold after accounting for initialization. The count-only reset allocation uses the equal-law, zero-information initialization or subtracts the initial information term before imposing the relevant constraint. Different deterministic initial labels can perfectly distinguish the hypotheses with zero probes, so omitting that contribution would be false. The changed-measure inequality itself is standard. [T22 proof](../THEOREMS/T22/PROOF.md)
 
 ## T23 · Two distinct confidence constructions
 
@@ -36,6 +40,8 @@ Choose compatible admissible Bernoulli responders whose **entire** initial obser
 The independent stage correspondence verifies a conditional rule over **all** compatible installed modes. Given a mode, it certifies the enabledness, tariff, extensional resource-effect and actual job row for each relevant checkpoint. Checking this conditional rule is distinct from learning the installed bit. Any already public information such as the actual enabled menu restricts the initial evidence before prices are computed. For one stage with $a=w=B=1$, a free declaration of current fast availability resolves the deadline at zero external cost instead of the unit-priced readback. The acquisition separation applies to the named pure-read interface without that free revelation.
 
 Each chosen canonical action must have a **common public callable lift** across every relevant hidden checkpoint and compatible completion permitted at its observation and action history. Actual public commands can themselves be the abstract identities, or the anchor supplies a public lift and proves legality for all appropriate physical states. Merely projecting enabled classes does not give this. A one-stage hidden left/right fixture has public commands L/R both mapping to fast, but only L is legal on the left and only R on the right. S is the common slow command. Both menus project to {fast,slow}, although the common fast policy cannot execute. With costs 1 and 2 and deadline 1, the projected verdict is false in the concrete system. Complete interface anchors include this visibility and lift requirement.
+
+All base and slow-increment service tariffs are positive integers in the stated capped-grid algorithm. For exact rational input the same arithmetic can use a common denominator and a scaled numerical budget, which need not be polynomial in the input bit length.
 
 A full-menu collision concerns only fixed pure external readbacks, including their adaptive selection. Taking useful actions to reveal a signal, using a changing query menu, or feeding the hidden installation identity into a policy is a different acquisition/control model. Under the repaired assumption the proof's stage schedule invokes the common lift and the lower bound uses completeness of the projected exposed menu. [T30 proof](../THEOREMS/T30/PROOF.md)
 
