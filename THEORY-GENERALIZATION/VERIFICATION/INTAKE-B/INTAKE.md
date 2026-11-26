@@ -8,3 +8,4 @@ This intake binds only exact neutral statement files. These bytes were retrieved
 | M02 | `f85e982023fd4c23cc73e22f7dbff65a3a26c5a2` | `52aa6646f709017e148bc05d3dd3961bd79d07a7` | [Neutral statement](M02-STATEMENTS.md) |
 | M03 | `579b193936e0c508866f3c729d43b1d52a7dd991` | `93c0998cd51403262a740c0e37091ccf49846cc2` | [Neutral statement](M03-STATEMENTS.md) |
 | M04 | `5292828112de7214cdb7e0d0330bd86e6f3429f4` | `24d9e3ec1e3bfbd76f33a17c00772b25e0940459` | [Neutral statement](M04-STATEMENTS.md) |
+| M02 approximation supplement | `d726b585938564e8e9f36fc9f44fa2f80cbf0ae4` | `52f1e14040455b5ab41ff377e4cb9c0d070f93e6` | [Neutral supplement](M02-APPROXIMATION-STATEMENTS.md) |
