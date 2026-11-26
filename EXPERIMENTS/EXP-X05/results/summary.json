@@ -1,0 +1,87 @@
+{
+  "beyond_explicit_cap_certified": 35,
+  "cases": 70,
+  "checked_symbolic_unsat_rounds": 125,
+  "checked_witness_pairs": 6446,
+  "false_certifications": 0,
+  "largest_verified_case": {
+    "audit_cost": 254,
+    "case": "large-w3-n64-free",
+    "compatible_count": 6277101735386680763835789423207666416102355444464034512896,
+    "materialized_completions": 0,
+    "oracle_calls": 126,
+    "pivotal_independent_facts": 64,
+    "witness_completions": 126
+  },
+  "local_and_terminal_signature_checks": 48616,
+  "methods": {
+    "direct-partition": {
+      "status": {
+        "AUDIT_INACCESSIBLE": 1,
+        "CERTIFIED": 27,
+        "IDENTIFIED": 3,
+        "INCONSISTENT": 1,
+        "UNRESOLVED": 38
+      },
+      "unresolved_reasons": {
+        "completion-cap": 35,
+        "query-subset-cap": 2,
+        "unsupported": 1
+      }
+    },
+    "dominance-off": {
+      "status": {
+        "AUDIT_INACCESSIBLE": 1,
+        "CERTIFIED": 57,
+        "IDENTIFIED": 3,
+        "INCONSISTENT": 1,
+        "UNRESOLVED": 8
+      },
+      "unresolved_reasons": {
+        "deadline": 1,
+        "step-cap": 6,
+        "unsupported": 1
+      }
+    },
+    "eager-disagreement": {
+      "status": {
+        "AUDIT_INACCESSIBLE": 1,
+        "CERTIFIED": 27,
+        "IDENTIFIED": 3,
+        "INCONSISTENT": 1,
+        "UNRESOLVED": 38
+      },
+      "unresolved_reasons": {
+        "completion-cap": 35,
+        "opposite-pair-cap": 2,
+        "unsupported": 1
+      }
+    },
+    "lazy": {
+      "status": {
+        "AUDIT_INACCESSIBLE": 1,
+        "CERTIFIED": 62,
+        "IDENTIFIED": 3,
+        "INCONSISTENT": 1,
+        "UNRESOLVED": 3
+      },
+      "unresolved_reasons": {
+        "deadline": 1,
+        "step-cap": 1,
+        "unsupported": 1
+      }
+    }
+  },
+  "protocol_version": 1,
+  "strata": {
+    "bridge": 2,
+    "control": 11,
+    "large": 18,
+    "large-matched": 18,
+    "probes": 3,
+    "small": 18
+  },
+  "unexplained_discrepancies": 0,
+  "whole_completion_signature_checks": 8128,
+  "zero_gap_primary_cases": 65
+}

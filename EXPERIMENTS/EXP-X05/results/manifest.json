@@ -1,0 +1,15 @@
+{
+  "archived": {
+    "measurements.csv": "ffa386a35ab66b17992a45c6eb6fa511b35341f298d9f664ee7a57bda98d91de",
+    "performance.json": "d466396535a078e1c5bbff4f19605e0d692b77b296b875ccd619ca9305138a2b"
+  },
+  "initial_protocol_revision": "088bb77896c712505dbf6bba4dfb1fb05cb2ab38",
+  "pre_outcome_execution_revision": "c1b5773ae48d5f34c8af2ac98286476032ee312f",
+  "protocol_sha256": "471178e5b3932de972a472b8b2ffc7dec9d4c693cf24c5b5d567efbbb9824445",
+  "protocol_version": 1,
+  "raw_benchmark_rows": 1120,
+  "stable": {
+    "invariants.json": "52cb11238066fc8fcf612508c4d062fe2cf5b2b086916811bab36c46ddb8431a",
+    "summary.json": "1d21391144a3033a1e67ba9b10b6cced758a0ef7483026a7c35560cc0d3ed4ab"
+  }
+}

@@ -26,3 +26,10 @@ The main engine derives complete atomic effects from every source edge and solve
 The reference reconstructs all local source policies, complete support footprints, semantic query answers and attainable outside costs. It checks every reported witness and proves global sufficiency and cost by examining all locally reachable threshold crossings. [Independent verifier](reference.py) · [Symbolic engine](engine.py) · [Explicit baselines](baselines.py)
 
 The design uses synthetic, fully observable serial contracts with within-stage correlations and fixed source boundaries. It does not estimate native performance or settle unrestricted tractability.
+
+## Evidence
+
+- [Summary](results/summary.json) records the acceptance counts and refusal reasons.
+- [Invariants](results/invariants.json) retain the per-case input digest, exact cost projection, every proof round with assignment witnesses and acquisition comparator costs. A null witness cost denotes structural infinity.
+- [Raw resource runs](results/measurements.csv) and [per-case aggregates](results/performance.json) retain the original performance observations.
+- [Manifest](results/manifest.json) pins the two pre-outcome GitHub revisions and every evidence digest.

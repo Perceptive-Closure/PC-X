@@ -1,0 +1,2393 @@
+{
+  "cases": {
+    "blocked-but-consistent": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 494100,
+        "peak_python_bytes": 30632,
+        "status_counts": {
+          "IDENTIFIED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 643700,
+        "peak_python_bytes": 10736,
+        "status_counts": {
+          "IDENTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 314000,
+        "peak_python_bytes": 30368,
+        "status_counts": {
+          "IDENTIFIED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 620500,
+        "peak_python_bytes": 10736,
+        "status_counts": {
+          "IDENTIFIED": 4
+        }
+      }
+    },
+    "bridge-w2-n4-free": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 8106600,
+        "peak_python_bytes": 167776,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2139700,
+        "peak_python_bytes": 13960,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 5010600,
+        "peak_python_bytes": 85168,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2124400,
+        "peak_python_bytes": 13960,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "bridge-w3-n4-free": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 260332100,
+        "peak_python_bytes": 2121360,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 6078000,
+        "peak_python_bytes": 22488,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 194528300,
+        "peak_python_bytes": 882088,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 6385900,
+        "peak_python_bytes": 22016,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "contradictory-evidence": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 52200,
+        "peak_python_bytes": 2744,
+        "status_counts": {
+          "INCONSISTENT": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 85400,
+        "peak_python_bytes": 5056,
+        "status_counts": {
+          "INCONSISTENT": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 52000,
+        "peak_python_bytes": 2744,
+        "status_counts": {
+          "INCONSISTENT": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 91000,
+        "peak_python_bytes": 5056,
+        "status_counts": {
+          "INCONSISTENT": 4
+        }
+      }
+    },
+    "correlated-point": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 225200,
+        "peak_python_bytes": 19088,
+        "status_counts": {
+          "IDENTIFIED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 305500,
+        "peak_python_bytes": 9856,
+        "status_counts": {
+          "IDENTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 394400,
+        "peak_python_bytes": 19088,
+        "status_counts": {
+          "IDENTIFIED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 307800,
+        "peak_python_bytes": 9856,
+        "status_counts": {
+          "IDENTIFIED": 4
+        }
+      }
+    },
+    "correlation-pair-excluded": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 219900,
+        "peak_python_bytes": 19088,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 292800,
+        "peak_python_bytes": 9856,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 214900,
+        "peak_python_bytes": 19088,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 327900,
+        "peak_python_bytes": 9856,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "forced-deadline-refusal": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 757300,
+        "peak_python_bytes": 51992,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 57100,
+        "peak_python_bytes": 2520,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 740000,
+        "peak_python_bytes": 49878,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 103200,
+        "peak_python_bytes": 2520,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      }
+    },
+    "forced-work-refusal": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 696300,
+        "peak_python_bytes": 52272,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 52600,
+        "peak_python_bytes": 2520,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1146900,
+        "peak_python_bytes": 52272,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 144500,
+        "peak_python_bytes": 2520,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      }
+    },
+    "full-positive-support": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 342000,
+        "peak_python_bytes": 30368,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 575600,
+        "peak_python_bytes": 10736,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 329300,
+        "peak_python_bytes": 30368,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 551600,
+        "peak_python_bytes": 10736,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-matched-w2-n24-dense": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 733900,
+        "peak_python_bytes": 5512,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 11410100,
+        "peak_python_bytes": 51684,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 736400,
+        "peak_python_bytes": 5512,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 12010400,
+        "peak_python_bytes": 52940,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-matched-w2-n24-free": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 766500,
+        "peak_python_bytes": 5504,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 59694300,
+        "peak_python_bytes": 117528,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 751800,
+        "peak_python_bytes": 5504,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 34916800,
+        "peak_python_bytes": 114264,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-matched-w2-n24-half": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 798800,
+        "peak_python_bytes": 5632,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 40204300,
+        "peak_python_bytes": 78224,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 715000,
+        "peak_python_bytes": 5632,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 21292400,
+        "peak_python_bytes": 75632,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-matched-w2-n64-dense": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2370700,
+        "peak_python_bytes": 10640,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 91815800,
+        "peak_python_bytes": 196524,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2087900,
+        "peak_python_bytes": 10640,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 87057400,
+        "peak_python_bytes": 205436,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-matched-w2-n64-free": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2224400,
+        "peak_python_bytes": 29800,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1649020900,
+        "peak_python_bytes": 1502688,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2219600,
+        "peak_python_bytes": 11272,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 266585100,
+        "peak_python_bytes": 485644,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-matched-w2-n64-half": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1889600,
+        "peak_python_bytes": 29608,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1003819500,
+        "peak_python_bytes": 1252644,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2443700,
+        "peak_python_bytes": 11080,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 170307700,
+        "peak_python_bytes": 338536,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-matched-w2-n8-dense": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 135555100,
+        "peak_python_bytes": 4124680,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2538500,
+        "peak_python_bytes": 15944,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 4358900,
+        "peak_python_bytes": 145208,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2596200,
+        "peak_python_bytes": 16280,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-matched-w2-n8-free": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 350400,
+        "peak_python_bytes": 3208,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 5371700,
+        "peak_python_bytes": 25784,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 252000,
+        "peak_python_bytes": 3208,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 5861200,
+        "peak_python_bytes": 25736,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-matched-w2-n8-half": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 205252200,
+        "peak_python_bytes": 6059104,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 4149500,
+        "peak_python_bytes": 21728,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 277894000,
+        "peak_python_bytes": 1015408,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 3989100,
+        "peak_python_bytes": 21656,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-matched-w3-n24-dense": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1014300,
+        "peak_python_bytes": 5888,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 52414100,
+        "peak_python_bytes": 73428,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1002800,
+        "peak_python_bytes": 5888,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 33850300,
+        "peak_python_bytes": 69868,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-matched-w3-n24-free": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 940900,
+        "peak_python_bytes": 6248,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 238201900,
+        "peak_python_bytes": 246628,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 984900,
+        "peak_python_bytes": 6248,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 175903600,
+        "peak_python_bytes": 237824,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-matched-w3-n24-half": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 995400,
+        "peak_python_bytes": 6168,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 171055100,
+        "peak_python_bytes": 159924,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1132600,
+        "peak_python_bytes": 6168,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 77922300,
+        "peak_python_bytes": 151932,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-matched-w3-n64-dense": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2981500,
+        "peak_python_bytes": 30280,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1214389000,
+        "peak_python_bytes": 1136000,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2760500,
+        "peak_python_bytes": 11656,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 223834800,
+        "peak_python_bytes": 314268,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-matched-w3-n64-free": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2676100,
+        "peak_python_bytes": 31920,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1548172400,
+        "peak_python_bytes": 1595096,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2837700,
+        "peak_python_bytes": 13296,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1046377000,
+        "peak_python_bytes": 1208636,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-matched-w3-n64-half": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2675300,
+        "peak_python_bytes": 31200,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1815775200,
+        "peak_python_bytes": 1324348,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2443900,
+        "peak_python_bytes": 12576,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 649747900,
+        "peak_python_bytes": 742072,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-matched-w3-n8-dense": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 770900,
+        "peak_python_bytes": 3592,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 9127500,
+        "peak_python_bytes": 20232,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 425600,
+        "peak_python_bytes": 3592,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 16248100,
+        "peak_python_bytes": 20176,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-matched-w3-n8-free": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 333100,
+        "peak_python_bytes": 3440,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 20017700,
+        "peak_python_bytes": 45272,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 327500,
+        "peak_python_bytes": 3440,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 24931500,
+        "peak_python_bytes": 45232,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-matched-w3-n8-half": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 661100,
+        "peak_python_bytes": 3616,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 14351000,
+        "peak_python_bytes": 30840,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 679500,
+        "peak_python_bytes": 3616,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 11714800,
+        "peak_python_bytes": 30136,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-w2-n24-dense": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 796200,
+        "peak_python_bytes": 5512,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 12133200,
+        "peak_python_bytes": 50972,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 818800,
+        "peak_python_bytes": 5512,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 11820700,
+        "peak_python_bytes": 50988,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-w2-n24-free": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 699700,
+        "peak_python_bytes": 5504,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 21540100,
+        "peak_python_bytes": 72104,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 724600,
+        "peak_python_bytes": 5504,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 18967900,
+        "peak_python_bytes": 69760,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-w2-n24-half": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 838300,
+        "peak_python_bytes": 5632,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 36008800,
+        "peak_python_bytes": 80360,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 854500,
+        "peak_python_bytes": 5632,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 20608500,
+        "peak_python_bytes": 75352,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-w2-n64-dense": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2300500,
+        "peak_python_bytes": 10640,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 99242200,
+        "peak_python_bytes": 196524,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 3628300,
+        "peak_python_bytes": 10640,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 95709500,
+        "peak_python_bytes": 205436,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-w2-n64-free": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2368900,
+        "peak_python_bytes": 29800,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1569586600,
+        "peak_python_bytes": 1499160,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2478800,
+        "peak_python_bytes": 11272,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 257162700,
+        "peak_python_bytes": 485644,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-w2-n64-half": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2137700,
+        "peak_python_bytes": 29608,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 436964900,
+        "peak_python_bytes": 691900,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 3865100,
+        "peak_python_bytes": 11080,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 140034600,
+        "peak_python_bytes": 254088,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-w2-n8-dense": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 163250300,
+        "peak_python_bytes": 4124680,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2330100,
+        "peak_python_bytes": 15944,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 4404900,
+        "peak_python_bytes": 145208,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2619700,
+        "peak_python_bytes": 15944,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-w2-n8-free": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 465900,
+        "peak_python_bytes": 3208,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 5510800,
+        "peak_python_bytes": 25784,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 270300,
+        "peak_python_bytes": 3208,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 5695600,
+        "peak_python_bytes": 25736,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-w2-n8-half": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 257056900,
+        "peak_python_bytes": 6022792,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 3680000,
+        "peak_python_bytes": 18248,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 32964800,
+        "peak_python_bytes": 1014900,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 3689900,
+        "peak_python_bytes": 18096,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-w3-n24-dense": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 973700,
+        "peak_python_bytes": 5888,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 78005300,
+        "peak_python_bytes": 96596,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1591300,
+        "peak_python_bytes": 5888,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 38623900,
+        "peak_python_bytes": 84332,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-w3-n24-free": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 988600,
+        "peak_python_bytes": 6248,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 210034800,
+        "peak_python_bytes": 246628,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 883200,
+        "peak_python_bytes": 6248,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 113198900,
+        "peak_python_bytes": 237824,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-w3-n24-half": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 941000,
+        "peak_python_bytes": 6168,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 35933100,
+        "peak_python_bytes": 69900,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 946300,
+        "peak_python_bytes": 6168,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 30725500,
+        "peak_python_bytes": 67220,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-w3-n64-dense": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2647800,
+        "peak_python_bytes": 11656,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 450176200,
+        "peak_python_bytes": 592976,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2488200,
+        "peak_python_bytes": 11656,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 138683300,
+        "peak_python_bytes": 235956,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-w3-n64-free": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2345900,
+        "peak_python_bytes": 13296,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 223659700,
+        "peak_python_bytes": 345308,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2480000,
+        "peak_python_bytes": 13296,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 207893200,
+        "peak_python_bytes": 339340,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-w3-n64-half": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2683600,
+        "peak_python_bytes": 31200,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1718619900,
+        "peak_python_bytes": 1449268,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2607400,
+        "peak_python_bytes": 12576,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 642635900,
+        "peak_python_bytes": 803160,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-w3-n8-dense": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 351700,
+        "peak_python_bytes": 3592,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 7125000,
+        "peak_python_bytes": 16984,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 356800,
+        "peak_python_bytes": 3592,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 5948700,
+        "peak_python_bytes": 16984,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-w3-n8-free": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 375900,
+        "peak_python_bytes": 3440,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 16713500,
+        "peak_python_bytes": 21352,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 334800,
+        "peak_python_bytes": 3440,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 14907500,
+        "peak_python_bytes": 22000,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "large-w3-n8-half": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 334700,
+        "peak_python_bytes": 3616,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 13873700,
+        "peak_python_bytes": 33416,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 338300,
+        "peak_python_bytes": 3616,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 13675200,
+        "peak_python_bytes": 32312,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "missing-fast-fact": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 260900,
+        "peak_python_bytes": 24624,
+        "status_counts": {
+          "AUDIT_INACCESSIBLE": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 410400,
+        "peak_python_bytes": 8856,
+        "status_counts": {
+          "AUDIT_INACCESSIBLE": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 267200,
+        "peak_python_bytes": 18696,
+        "status_counts": {
+          "AUDIT_INACCESSIBLE": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 391200,
+        "peak_python_bytes": 8856,
+        "status_counts": {
+          "AUDIT_INACCESSIBLE": 4
+        }
+      }
+    },
+    "probes-w3-n24-free-A-middle": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1061400,
+        "peak_python_bytes": 6248,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 200280400,
+        "peak_python_bytes": 243292,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1074400,
+        "peak_python_bytes": 6248,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 115593800,
+        "peak_python_bytes": 236432,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "probes-w3-n24-free-E-middle": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1025100,
+        "peak_python_bytes": 6248,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 218473000,
+        "peak_python_bytes": 241980,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 904200,
+        "peak_python_bytes": 6248,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 105998000,
+        "peak_python_bytes": 237192,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "probes-w3-n24-free-R-tight": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 958700,
+        "peak_python_bytes": 6248,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 42850100,
+        "peak_python_bytes": 86368,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 869400,
+        "peak_python_bytes": 6248,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 40463200,
+        "peak_python_bytes": 81824,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "small-w2-n1-dense": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 238500,
+        "peak_python_bytes": 19600,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 329400,
+        "peak_python_bytes": 9856,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 225400,
+        "peak_python_bytes": 19600,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 400800,
+        "peak_python_bytes": 9856,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "small-w2-n1-free": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 322500,
+        "peak_python_bytes": 30368,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 481100,
+        "peak_python_bytes": 10736,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 324500,
+        "peak_python_bytes": 30368,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 498200,
+        "peak_python_bytes": 10736,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "small-w2-n1-half": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 516300,
+        "peak_python_bytes": 19088,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 351200,
+        "peak_python_bytes": 9856,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 218500,
+        "peak_python_bytes": 19088,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 675400,
+        "peak_python_bytes": 9856,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "small-w2-n2-dense": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 468100,
+        "peak_python_bytes": 29944,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 687500,
+        "peak_python_bytes": 11056,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 353500,
+        "peak_python_bytes": 30224,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 669800,
+        "peak_python_bytes": 11056,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "small-w2-n2-free": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 625800,
+        "peak_python_bytes": 52272,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 929000,
+        "peak_python_bytes": 11896,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 710800,
+        "peak_python_bytes": 52272,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1048800,
+        "peak_python_bytes": 11896,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "small-w2-n2-half": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 527000,
+        "peak_python_bytes": 34696,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1118800,
+        "peak_python_bytes": 11456,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 521600,
+        "peak_python_bytes": 41504,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 848700,
+        "peak_python_bytes": 11456,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "small-w2-n3-dense": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 676400,
+        "peak_python_bytes": 41376,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 942600,
+        "peak_python_bytes": 11840,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 541500,
+        "peak_python_bytes": 41824,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 810300,
+        "peak_python_bytes": 11840,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "small-w2-n3-free": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1927000,
+        "peak_python_bytes": 79592,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1924100,
+        "peak_python_bytes": 12928,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1460400,
+        "peak_python_bytes": 78296,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1719000,
+        "peak_python_bytes": 12928,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "small-w2-n3-half": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 749800,
+        "peak_python_bytes": 52080,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1096600,
+        "peak_python_bytes": 12184,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 673800,
+        "peak_python_bytes": 52080,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1167400,
+        "peak_python_bytes": 12184,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "small-w3-n1-dense": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 381400,
+        "peak_python_bytes": 34960,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 593400,
+        "peak_python_bytes": 12456,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 395500,
+        "peak_python_bytes": 34960,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 600000,
+        "peak_python_bytes": 12456,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "small-w3-n1-free": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 665400,
+        "peak_python_bytes": 61584,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1299000,
+        "peak_python_bytes": 12872,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 692100,
+        "peak_python_bytes": 61584,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1135900,
+        "peak_python_bytes": 12872,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "small-w3-n1-half": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 385900,
+        "peak_python_bytes": 23870,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 598600,
+        "peak_python_bytes": 12456,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 380700,
+        "peak_python_bytes": 34960,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 573900,
+        "peak_python_bytes": 12456,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "small-w3-n2-dense": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 830000,
+        "peak_python_bytes": 62008,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1267400,
+        "peak_python_bytes": 13208,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 783700,
+        "peak_python_bytes": 62008,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1398700,
+        "peak_python_bytes": 13208,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "small-w3-n2-free": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2433300,
+        "peak_python_bytes": 80840,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2349200,
+        "peak_python_bytes": 14008,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1781800,
+        "peak_python_bytes": 112270,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2345400,
+        "peak_python_bytes": 14008,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "small-w3-n2-half": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1240000,
+        "peak_python_bytes": 87728,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1539400,
+        "peak_python_bytes": 13624,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1120800,
+        "peak_python_bytes": 88120,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1650100,
+        "peak_python_bytes": 13624,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "small-w3-n3-dense": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1618100,
+        "peak_python_bytes": 91640,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1926300,
+        "peak_python_bytes": 13736,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1375800,
+        "peak_python_bytes": 79830,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2338400,
+        "peak_python_bytes": 13736,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "small-w3-n3-free": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 3923300,
+        "peak_python_bytes": 160464,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 3392400,
+        "peak_python_bytes": 15016,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 9239900,
+        "peak_python_bytes": 186186,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 3364200,
+        "peak_python_bytes": 15016,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "small-w3-n3-half": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2969600,
+        "peak_python_bytes": 131464,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2495100,
+        "peak_python_bytes": 14216,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2573100,
+        "peak_python_bytes": 132528,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 2684000,
+        "peak_python_bytes": 14216,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "unreachable-locator": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 577100,
+        "peak_python_bytes": 55680,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 1328000,
+        "peak_python_bytes": 12584,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 636900,
+        "peak_python_bytes": 55680,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 961400,
+        "peak_python_bytes": 12584,
+        "status_counts": {
+          "CERTIFIED": 4
+        }
+      }
+    },
+    "unsupported-observation": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 7400,
+        "peak_python_bytes": 2680,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 17900,
+        "peak_python_bytes": 3152,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 6800,
+        "peak_python_bytes": 2680,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 53000,
+        "peak_python_bytes": 3152,
+        "status_counts": {
+          "UNRESOLVED": 4
+        }
+      }
+    },
+    "worst-branch-cost": {
+      "direct-partition": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 317800,
+        "peak_python_bytes": 30368,
+        "status_counts": {
+          "IDENTIFIED": 4
+        }
+      },
+      "dominance-off": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 482300,
+        "peak_python_bytes": 10736,
+        "status_counts": {
+          "IDENTIFIED": 4
+        }
+      },
+      "eager-disagreement": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 315100,
+        "peak_python_bytes": 30368,
+        "status_counts": {
+          "IDENTIFIED": 4
+        }
+      },
+      "lazy": {
+        "extra_deadline_refusals": 0,
+        "median_wall_ns": 676600,
+        "peak_python_bytes": 10736,
+        "status_counts": {
+          "IDENTIFIED": 4
+        }
+      }
+    }
+  },
+  "host": {
+    "hash_seed": "0",
+    "logical_processors": 12,
+    "machine": "AMD64",
+    "python": "CPython 3.13.7",
+    "release": "11",
+    "system": "Windows",
+    "version": "10.0.26200"
+  }
+}
