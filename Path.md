@@ -9,8 +9,8 @@
 | Slot | Experiment | Agent | Lifecycle |
 | --- | --- | --- | --- |
 | 1 | X06 | exp_x06 | IMPLEMENTING |
-| 2 | X12 | exp_x12 | DISPATCHED |
-| 3 | X13 | exp_x13 | IMPLEMENTING |
+| 2 | X12 | exp_x12 | IMPLEMENTING |
+| 3 | X14 | exp_x14 | RESERVED |
 
 Each slot remains occupied through parent clean-checkout verification, safe cleanup, and independent verification of remote evidence and cleanup. Reserved slots count toward the concurrency ceiling.
 
@@ -29,8 +29,8 @@ Each slot remains occupied through parent clean-checkout verification, safe clea
 | X09 | COMPLETE | Admitted recovery supported and unanchored transport falsified | codex/exp-x09 | [68624c9a0eea93ec304be8e4349727eda3381c76](https://github.com/Perceptive-Closure/PC-X/tree/68624c9a0eea93ec304be8e4349727eda3381c76/EXPERIMENTS/EXP-X09) |
 | X10 | COMPLETE | Monitor ambiguity and bounded recovery supported | codex/exp-x10 | [4a16ef37d0e90e856560ce153c0fd690c28016b6](https://github.com/Perceptive-Closure/PC-X/tree/4a16ef37d0e90e856560ce153c0fd690c28016b6/EXPERIMENTS/EXP-X10) |
 | X11 | COMPLETE | Fidelity separated from measurement disturbance | codex/exp-x11 | [01f174c14669c92cd1c06dbf5158db29c4720b6d](https://github.com/Perceptive-Closure/PC-X/tree/01f174c14669c92cd1c06dbf5158db29c4720b6d/EXPERIMENTS/EXP-X11) |
-| X12 | DISPATCHED | Pending | codex/exp-x12 | X09–X11 approved and cleaned |
-| X13 | IMPLEMENTING | Pending | codex/exp-x13 | Protocol 577160f934d8d1dd4fcd3271f020df6b6e5f3dcd |
+| X12 | IMPLEMENTING | Pending | codex/exp-x12 | X09–X11 pinned |
+| X13 | COMPLETE | Independent conditions for local-to-joint composition verified | codex/exp-x13 | [1b9e599a7333d9b9f85669298791557282a75c1b](https://github.com/Perceptive-Closure/PC-X/tree/1b9e599a7333d9b9f85669298791557282a75c1b/EXPERIMENTS/EXP-X13) |
 | X14 | WORKPLAN_CREATED | Pending | codex/exp-x14 | Awaiting X04 and X13 |
 | X15 | WORKPLAN_CREATED | Pending | codex/exp-x15 | Awaiting all predecessor terminal outcomes |
 
@@ -80,6 +80,8 @@ Each slot remains occupied through parent clean-checkout verification, safe clea
 
 - X06 has an app-managed worktree and is preparing the pinned official OPA executable and upstream policy. X12 has been dispatched with independently measured X09–X11 inputs. X13 froze four offline joint scheduling modes and independent local and joint scoring before custody.
 
+- X13 independent parent custody ran only the isolated sentinel audit after verified pre-audit `8708fd1bd36e1eede87b951afe66ac468a324c3d`. Forecast `3dfb6a1845da350cf94d510b21dbcefa99f69a8a`, exact receipt and frozen files were confirmed at 20:17:09 Asia/Karachi before native sandbox opening. The parent independently calculated overlap, service shortages and useful job counts across the full 512 joint conditions and matched the official aggregates. Clean GitHub replay passed 7 tests, reproduced 512 joint and 1,024 isolated episodes and matched both trace hashes. In exclusive faithful mode C the joint bound was 1/4, worst measured risk 7/64 and qualification at least 121 of 128 jobs. Parallel allocation alone broke event containment and shared summaries alone invalidated local bounds. Combining both failure modes reached 15/16. Naive local aggregation falsely certified 3/4 modes. Managed checkout and scratch removed and remote SHA verified. Removed 1,650,844 logical bytes. X14 is eligible.
+
 ## First-wave cleanup and restart
 
 Automatic command approval rejected recursive removal and individually verified literal-path file removal for X03. Individually verified literal-path removal was also rejected for X08. The sole error detail was `blocked by policy` at process creation. Rejections occurred before execution and no files were deleted. X01 cleanup was held after the same methods were rejected for the other experiment roots. These directories were created for this program, contain the disposable clones, reproduction checkouts and scoped outputs, and have verified durable GitHub packages.
@@ -96,4 +98,4 @@ The next wave uses one managed Git worktree per experiment with all ignored scra
 
 ## Findings and outstanding obligations
 
-Operationally complete 9/15. X06, X12 and X13 are active. X07, X14 and X15 remain queued. Accepted claims remain bounded to the tested finite and sandbox systems. The general transport and flagship results remain open.
+Operationally complete 10/15. X06 and X12 remain active, X14 is reserved, and X07 and X15 remain queued. Accepted claims remain bounded to the tested finite and sandbox systems. The general transport and flagship results remain open.
