@@ -1,0 +1,135 @@
+{
+  "atomic_actions_blocked": 48,
+  "conventional_errors": [
+    "self-2",
+    "manager-2",
+    "second-manager-2",
+    "method-1"
+  ],
+  "conventional_terminal_only": {
+    "manager-1": true,
+    "manager-2": true,
+    "method-1": true,
+    "method-2": true,
+    "second-manager-1": true,
+    "second-manager-2": true,
+    "self-1": true,
+    "self-2": true
+  },
+  "development_controls_passed": 5,
+  "forecast_errors": [],
+  "freeze_coordinates": 64,
+  "heldout_native_allow": 56,
+  "heldout_native_deny": 56,
+  "measured": {
+    "manager-1": {
+      "holds": true,
+      "signature": [
+        1,
+        "inf",
+        1,
+        1,
+        "inf",
+        "inf",
+        1,
+        "inf"
+      ]
+    },
+    "manager-2": {
+      "holds": false,
+      "signature": [
+        1,
+        1,
+        "inf",
+        1,
+        "inf",
+        1,
+        "inf",
+        "inf"
+      ]
+    },
+    "method-1": {
+      "holds": false,
+      "signature": [
+        1,
+        1,
+        "inf",
+        1,
+        "inf",
+        1,
+        "inf",
+        "inf"
+      ]
+    },
+    "method-2": {
+      "holds": true,
+      "signature": [
+        1,
+        "inf",
+        1,
+        1,
+        "inf",
+        "inf",
+        1,
+        "inf"
+      ]
+    },
+    "second-manager-1": {
+      "holds": true,
+      "signature": [
+        1,
+        "inf",
+        1,
+        1,
+        "inf",
+        "inf",
+        1,
+        "inf"
+      ]
+    },
+    "second-manager-2": {
+      "holds": false,
+      "signature": [
+        1,
+        1,
+        5,
+        1,
+        "inf",
+        1,
+        5,
+        "inf"
+      ]
+    },
+    "self-1": {
+      "holds": true,
+      "signature": [
+        1,
+        "inf",
+        1,
+        1,
+        "inf",
+        "inf",
+        1,
+        "inf"
+      ]
+    },
+    "self-2": {
+      "holds": false,
+      "signature": [
+        1,
+        1,
+        3,
+        1,
+        "inf",
+        1,
+        3,
+        "inf"
+      ]
+    }
+  },
+  "native_invocations_excluding_version": 117,
+  "no_audit_abstentions": 8,
+  "primary_agree": 8,
+  "signature_coordinates_agree": 64,
+  "units": 8
+}

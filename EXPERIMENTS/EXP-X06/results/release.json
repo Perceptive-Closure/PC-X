@@ -1,0 +1,64 @@
+{
+  "assignment": {
+    "adapters": {
+      "manager-1": {
+        "receipt_marks": [],
+        "renderer": "exact"
+      },
+      "manager-2": {
+        "receipt_marks": [
+          "anonymous-ticket-admitted"
+        ],
+        "renderer": "merged"
+      },
+      "method-1": {
+        "receipt_marks": [
+          "anonymous-ticket-admitted"
+        ],
+        "renderer": "merged"
+      },
+      "method-2": {
+        "receipt_marks": [],
+        "renderer": "exact"
+      },
+      "second-manager-1": {
+        "receipt_marks": [],
+        "renderer": "exact"
+      },
+      "second-manager-2": {
+        "receipt_marks": [
+          "anonymous-ticket-admitted"
+        ],
+        "renderer": "merged"
+      },
+      "self-1": {
+        "receipt_marks": [],
+        "renderer": "exact"
+      },
+      "self-2": {
+        "receipt_marks": [
+          "anonymous-ticket-admitted"
+        ],
+        "renderer": "merged"
+      }
+    },
+    "created_utc": "2026-11-26T15:22:49.609229+00:00",
+    "freeze_commit": "8272ea71ab4242459968130b114bcc49fe20dca7",
+    "nonce": "bdf7cbe056c5dfa71e83947ce6898e23c9e5af5c18efeabd033a01d89f5662ac",
+    "preaudit_sha256": "2527c719648ac860843656c3d42d17ecc82955189c290341b3189694d2b674f4",
+    "version": 1
+  },
+  "authorization": {
+    "assignment_commitment": "d93c96bdfb2b0c080ce0fadc67a808e0b1540e0b08f68ae81e12a39ae8a10cd8",
+    "audit_receipt_sha256": "e4c1fac960000f12ca66cf7e6c19ff6f92db3cd15741aace5e7ae790a93caf95",
+    "forecast_commit": "068241d15abb189c01604b6959ce8fc33e35b576",
+    "forecast_sha256": "b83202ae8b410b2a26a6c50ec44bfb3eea1857d45e16650cc1c52b4a2f280e21",
+    "freeze_commit": "8272ea71ab4242459968130b114bcc49fe20dca7",
+    "runner_sha256": "f19624d3a3df83bda0a8143f09b555890793ff8a79707bd4f7d4425d50c8fd9f",
+    "verified_utc": "2026-11-26T15:25:25.074999+00:00"
+  },
+  "completed_utc": "2026-11-26T15:25:31.817551+00:00",
+  "native_sha256": "83ac818003be1a8e7a7dccf01bbc36a3cbe92a740d215b03c50e6094f717c2af",
+  "opened_utc": "2026-11-26T15:25:25.344036+00:00",
+  "summary_sha256": "2c7aeeafc0591d01bdb68dd00c53e6feb22f81227b89d49af530b369568ddb53"
+}

@@ -28,3 +28,9 @@ python -B x06.py replay --opa <verified-exe> --temp <temp-dir>
 ```
 
 The last stage replay compares every native raw input/output and checkpoint against the preserved SHA-256-bound trace. The evidence-only stage checks the commitment, receipt, forecast, authorization order and exact reconstruction independently of OPA. The native binary may also be exercised on the disjoint development controls with `python -B x06.py development --opa <verified-exe> --temp <temp-dir>`.
+
+## Results
+
+The parent authorized the native opening after independent GitHub verification of the frozen forecast. All eight primary verdicts and all 64 freeze costs matched. The terminal-only baseline falsely certified four instances. [Summary](results/summary.json) · [Raw trace](results/native.json) · [Custody release record](results/release.json)
+
+The [trace manifest](results/manifest.json) gives every evidence file hash and a canonical hash for each unit in the raw trace. Unit hashes cover the ASCII JSON object for the unit, sorted by key, formatted with two-space indentation and terminated by one LF byte.
