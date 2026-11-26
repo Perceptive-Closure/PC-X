@@ -9,3 +9,7 @@ The neutral statement seal is ae189e5c1aba20ba8ac2dc71d678def0ac236103. The blin
 T07.K gives a 1 versus (2^n) exact deterministic cost, optimal randomized hard-cap identity success (min(1,q/2^n)) for (qge1), and a fixed-confidence (Theta(2^n)) worst expected identity bound under the declared common bit flip model with a constant expected target cost. The noiseless expected target minimum under randomized success (1-delta) is (1-2delta). The classic search/test machinery is an adaptation. The positive policy completes both real jobs. An exact script confirms 49 optimal decision-tree counts and 75 drift/exit-error checks. No experiment measures this exponential separation. The historical X05 tie and X12 direct advantage are retained.
 
 [Exact statement](STATEMENTS.md) · [Proof, baseline and limits](PROOF.md) · [Finite checks](../../COMPUTATIONAL-CHECKS/oversight_counts.py) · [Primary comparisons](../../LITERATURE/M06-M08.md)
+
+## Integrated disposition
+
+Accept the exact and noisy T07.K results for the common implicit point menu and meaningful gateway/exception service. Exact and expected cost criteria retain separate fields. [Exact integrated scope](../../VERIFICATION/INTEGRATED-SCOPE.md) · [Verification and sources](../../FINAL-VERIFIED-PROOFS.md) · [Parent status](../../GENERALIZATION-LEDGER.md)

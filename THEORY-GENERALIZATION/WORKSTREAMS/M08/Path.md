@@ -13,3 +13,7 @@ T30.CG establishes all eight scoped support-robust obligations jointly: exact th
 T30.P/A/U receive an exact equal-law positive-risk obstruction and retain precise open hypotheses. The input size and context affect the computational scope. Existing X05, X06, X12 and X14 provide component correspondence and never joint prospective validation. The closest graph and partial-observation methods are established. General novelty beyond the governed threshold-specific combination remains unresolved.
 
 [Sealed statement](STATEMENTS.md) · [Scope and counterexamples](../../VERIFICATION/FLAGSHIP-SCOPE.md) · [Complete proof](PROOF.md) · [Flagship dossier](../../FLAGSHIP/T30-CG.md) · [Lean lemmas](../../FORMAL-PROOFS/Frontier.lean) · [Independent-style explicit path replay](../../COMPUTATIONAL-CHECKS/correlated_serial.py)
+
+## Integrated disposition
+
+Accept the exact online correlated T30.CG result, the separate pure static T30.C oracle, and the support-only positive-risk obstruction. Retain the broader P/A/U problem and timing boundaries. [Exact integrated scope](../../VERIFICATION/INTEGRATED-SCOPE.md) · [Verification and sources](../../FINAL-VERIFIED-PROOFS.md) · [Parent status](../../GENERALIZATION-LEDGER.md)

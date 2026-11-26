@@ -18,3 +18,7 @@
 - M04.4 approximates infinite expected-cost feasibility by finite caps at arbitrary positive error slack and proves a converse within a consistent finite-branching positive-price class. The finite expected optimum need not have a deterministic stopping deadline at exact error. [Proof](PROOF.md) · [Replay and formal scope](CHECKS.md)
 - Mathematical status UNDER_VERIFICATION pending independent blind comparison and hostile verification. Novelty ADAPTATION with novelty of the particular operational combination still unresolved, historical evidence RETROSPECTIVE_CORRESPONDENCE, new assurance claims FUTURE_PROSPECTIVE_VALIDATION_REQUIRED, integration CONDITIONAL.
 - Remaining obligations include source-level extraction of the real information partitions and admissible responders, reliable independent deployment label assignment, efficient solutions from succinct dynamics, and operational time-valid fit/shift validation. Exact unconstrained sequential statistical complexity, atomless computational inference and generally adaptive changes to the deployment target remain outside the proved scope. [Dossier](DOSSIER.md) · [Primary-source comparison](LITERATURE.md)
+
+## Integrated disposition
+
+Accept the fixed-label finite perfect-recall claims, composite impossibility, interval specialization and legal limiting procedure with a positive per-probe lower price. [Exact integrated scope](../../VERIFICATION/INTEGRATED-SCOPE.md) · [Verification and sources](../../FINAL-VERIFIED-PROOFS.md) · [Parent status](../../GENERALIZATION-LEDGER.md)

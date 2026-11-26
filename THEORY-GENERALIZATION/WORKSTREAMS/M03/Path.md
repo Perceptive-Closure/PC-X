@@ -17,3 +17,7 @@
 - Constructor finite replay passed. It confirms joint risk bounds, strict witnesses, exact anchor cost, a case of adaptive gain, and limiting counterexamples. No external measurement or altered source evidence was needed. [Replay](CHECKS.md)
 - Mathematical status UNDER_VERIFICATION pending proof-blind and hostile gates. Novelty ADAPTATION. Experiments provide RETROSPECTIVE_CORRESPONDENCE and any new operational claim requires FUTURE_PROSPECTIVE_VALIDATION_REQUIRED. Integration CONDITIONAL.
 - Open scope includes constructive derivation of actual bridges from arbitrary source, exact unknown cross-policy kernel coherence beyond mass polytopes, time-valid calibration of arbitrary carried-state probes, general fidelity and real-world cost superiority. New validation requires independent semantics, actual support challenges and matched direct comparators. [Dossier](DOSSIER.md) · [Novelty](LITERATURE.md)
+
+## Integrated disposition
+
+Accept the completed affine risk and minimum-anchor results only for frozen conditional controller laws and verified cross-policy source links. Physical exactness follows from realizability, while a justified inclusion supports outer bounds. [Exact integrated scope](../../VERIFICATION/INTEGRATED-SCOPE.md) · [Verification and sources](../../FINAL-VERIFIED-PROOFS.md) · [Parent status](../../GENERALIZATION-LEDGER.md)

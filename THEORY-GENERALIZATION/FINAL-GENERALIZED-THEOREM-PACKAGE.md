@@ -1,0 +1,33 @@
+# Final generalized theorem package
+
+27 November 2026. The accepted foundation is the independently checked D-35 theory and original T01–T30 reconstruction at its immutable pinned revision. Its E/R/A interventions, public controller information, actual closure and source-relative counterfactual identification remain the starting objects. The generalization works on provably adequate semantic families and separates exact identified images from sound encodings that contain extra candidates. [Governing baseline](BASELINE-MANIFEST.md)
+
+## 1. Source-grounded recovery and constructive evidence
+
+A finite typed source interpreter plus a constrained environmental interface yields explicit admissible contracts, complete occurrence-level support and correct extensional interventions. Compatibility and emptiness have replayable certificates, and an unbounded source problem has a matching undecidability boundary. A directed observable belief cover gives policy transport and a one-way value inequality, with equality from bilateral covers under the declared freezes. A counterexample can preserve values without such a cover. Preserve actionable stop and report behavior to carry the original T03 scope. [M01](WORKSTREAMS/M01/PROOFS.md) · [Integrated statement conditions](VERIFICATION/INTEGRATED-SCOPE.md)
+
+An exact staged separator representation plus explicit public state yields minimum worst supported dynamic evidence acquisition for a fixed target graph. It retains correlated posterior labels, proof-producing feasible continuations and unreachable clocks. Cost expression gates remove complete occurrences; genuine quote and permission changes are modeled as part of the public state. Checkable partial bounds are valid for approximate cost reporting when a feasible policy reaches the reported upper bound. The representation analysis proves NP/coNP, PSPACE and approximation boundaries for different succinct inputs and preserves the earlier binary score limit. [M02](WORKSTREAMS/M02/PROOFS.md) · [Complexity boundaries](COMPLEXITY-BOUNDARIES.md)
+
+## 2. From full records to measured events
+
+An explicit finite linked trajectory representation derives risk certificates from independently admissible conditional event and row restrictions, preserves correlations across contexts and named deployment policies, and gives minimum anchor facts for realized and prospective finite interfaces. The statistical guarantee conditions on valid source membership assumptions, known operator fidelity and the registered fresh batch plan. A linked finite model that is a sound overapproximation may provide conservative sufficient evidence. [M03](WORKSTREAMS/M03/PROOF.md)
+
+Finite complete record games give exact robust feasibility and minimum cost for declared nonanticipating responders. The fixed-design composite criterion at a class cap uses whole-record mixtures, including the correct private-information order. The original interval condition is recovered with complete co-observation and conditional score restrictions. Legal finite truncations of an expected-budget audit approximate the frontier with explicitly bounded slack; arbitrary exact stopping is a separate question. [M04](WORKSTREAMS/M04/PROOF.md)
+
+Finite joint monitor constraints give sharp event probabilities and defined-positive-denominator rates. Conditional native-row pairing quantifies fidelity of selected actual policies. Complete joint causal and event semantics allow sharper composition than unlinked isolated marginals. Give the monitor, actual event, policy authority and intervention fidelity their own roles on the evidence side. [M05](WORKSTREAMS/M05/PROOFS.md)
+
+## 3. Executable joint planning and exact acquisition separation
+
+T29.J solves one supported finite control problem that simultaneously decides a target, preserves physical safety under legitimate callable commands, and completes useful work on positive branches. Costs of work and acquisition are budgeted separately. A negative certificate is available only to a truly negative cell. Refusal cannot meet a positive useful objective. [T29.J](WORKSTREAMS/M06/PROOF.md)
+
+For a real context-dependent frozen service and one unobserved exceptional key, T07.K proves exact same-interface acquisition costs and randomized hard-cap success, along with matched expected fixed-confidence growth under a specified noisy interface. The model has exponentially many implicit point queries and linear-size stored parameters. Complete explicit cheap menus and more informative native readouts affect the result. [T07.K](WORKSTREAMS/M07/PROOF.md)
+
+## 4. Strongest common flagship
+
+T30.CG broadens the allowed compatible installations and the useful policy mechanism. Leading genuine work can identify later lawful options through an exact correlated graph and declared public receipts. A dynamic optimizer certifies the minimum worst supported read cost subject to the actual work and move bounds. Attained per-edge score extrema preserve all required online distinctions for the threshold. Thus the eight obligations hold together in the finite serial online class. T30.C separately computes exact static pure target acquisition with an implicit pair oracle and weighted cover. The original static timing, positive chance risk, and broad strategic or unified T30 remain separately scoped. [T30.CG](FLAGSHIP/T30-CG.md) · [Eight obligations](FLAGSHIP-OBLIGATION-MATRIX.md)
+
+## 5. Acceptance and remaining scope
+
+The 21-package ledger records each original target's exact change, proof, remaining restrictions and separate novelty and experimental status. Three independent before-proof derivations, subsequent comparisons and a distinct hostile pass verify these scoped results. Lean verifies selected support, separator, terminal mass and statistical lemmas; the complete new arguments include prose. The accepted original experimental packages retain their measured outcomes and limitations. [Generalization ledger](GENERALIZATION-LEDGER.md) · [Verified proofs](FINAL-VERIFIED-PROOFS.md) · [Novelty boundary](NOVELTY-BOUNDARY.md)
+
+Consequential assumptions that fail when weakened are documented as countermodels. Broader statistical transport, scalable oversight in richer lawful interfaces, source-level native extraction, complex interaction and flagship strategic generality retain explicit obligations. X16 is a prospective design for the strongest common fragment. [Counterexamples](COUNTEREXAMPLE-LEDGER.md) · [Open obligations](OPEN-PROOF-OBLIGATIONS.md) · [Proposed X16](PROSPECTIVE-VALIDATION-REQUIREMENTS.md) · [Final mathematical analysis](FINAL-MATHEMATICAL-ANALYSIS.md)
