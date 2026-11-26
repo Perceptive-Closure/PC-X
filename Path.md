@@ -10,7 +10,7 @@
 | --- | --- | --- | --- |
 | 1 | X05 | exp_x05 | IMPLEMENTING |
 | 2 | X09 | exp_x09 | IMPLEMENTING |
-| 3 | X11 | exp_x11 | IMPLEMENTING |
+| 3 | X13 | exp_x13 | RESERVED |
 
 Each slot remains occupied through parent clean-checkout verification, safe cleanup, and independent verification of remote evidence and cleanup. Reserved slots count toward the concurrency ceiling.
 
@@ -26,9 +26,9 @@ Each slot remains occupied through parent clean-checkout verification, safe clea
 | X06 | WORKPLAN_CREATED | Pending | codex/exp-x06 | Awaiting X01 and X03 |
 | X07 | WORKPLAN_CREATED | Pending | codex/exp-x07 | Awaiting X03 |
 | X08 | COMPLETE | Bounded transcript equivalence and forecast supported | codex/exp-x08 | [a8c6650a7ff9901ca9ac5ed4036a37f6cb7c9200](https://github.com/Perceptive-Closure/PC-X/tree/a8c6650a7ff9901ca9ac5ed4036a37f6cb7c9200/EXPERIMENTS/EXP-X08) |
-| X09 | IMPLEMENTING | Pending | codex/exp-x09 | X04 and X08 pinned |
+| X09 | IMPLEMENTING | Pending | codex/exp-x09 | Protocol eaa43c81db023c47f4210fc49cdfb5a75aeb95d5 |
 | X10 | COMPLETE | Monitor ambiguity and bounded recovery supported | codex/exp-x10 | [4a16ef37d0e90e856560ce153c0fd690c28016b6](https://github.com/Perceptive-Closure/PC-X/tree/4a16ef37d0e90e856560ce153c0fd690c28016b6/EXPERIMENTS/EXP-X10) |
-| X11 | IMPLEMENTING | Pending | codex/exp-x11 | Protocol f493e4cb367a09e3db3f24ca49e54a6d6ff887f7 |
+| X11 | COMPLETE | Fidelity separated from measurement disturbance | codex/exp-x11 | [01f174c14669c92cd1c06dbf5158db29c4720b6d](https://github.com/Perceptive-Closure/PC-X/tree/01f174c14669c92cd1c06dbf5158db29c4720b6d/EXPERIMENTS/EXP-X11) |
 | X12 | WORKPLAN_CREATED | Pending | codex/exp-x12 | Awaiting X09–X11 |
 | X13 | WORKPLAN_CREATED | Pending | codex/exp-x13 | Awaiting X10 and X11 |
 | X14 | WORKPLAN_CREATED | Pending | codex/exp-x14 | Awaiting X04 and X13 |
@@ -65,6 +65,10 @@ Each slot remains occupied through parent clean-checkout verification, safe clea
 - X05 sealed its 49-case study of correlated serial authorization stages, lazy exact certificate search, exhaustive baselines, scalability ablations and forced-unresolved controls. X09 pinned the predecessor methods and is preparing a benign three-round cue-and-history study. X11 sealed its four-arm, paired intervention-fidelity study. X09 and X11 holdout outcomes remain unopened.
 - App-managed archive checks removed each prior checkout and its scratch. Git's worktree list contains only the parent checkout and the three current experiments. The app retains a small `.codex-worktree-name` marker beside each archived attachment. The marker contains the app's persistent lifecycle metadata rather than research files or caches.
 
+- X05 parent approved a pre-outcome matched-grid amendment to remove freeze/correlation confounding. All initial 49 conditions were retained. Executable protocol and amendment `c1b5773ae48d5f34c8af2ac98286476032ee312f` added 21 points. All 10 preregistered tests passed. The full scientific package and performance checks are pending terminal review.
+- X11 parent independently ran the isolated capacity read at 19:54:23 Asia/Karachi using verified GitHub snapshot `e17e7c7a8673b9d88e19f5cd26d53f308a123664`. The holdout remained sealed until the exact forecast `1e8182a486241eecfdf6eaf1063cc5750203de2f`, source/config invariance and receipt bytes were confirmed at 19:55:45. The parent reconstructed every backlog label and paired difference from the raw ledgers and recomputed all interval widths. The terminal archive passed 10 tests and reproduced the raw gzip hash. All 4 threshold and 3 fidelity predictions matched across 8,192 paired blocks. Passive/placebo matched in all blocks. The disturbed port increased label risk by 69.56 percentage points in steady and 66.63 in burst, while public transcripts remained equal. Naive transfer gave a wrong original verdict for that port. Claims are confined to the declared sandbox and lawful capacity anchor.
+- X11 managed worktree and scratch removed after acceptance, accounting for 2,669,858 logical bytes. Parent verified the checkout absent and remote commit unchanged. X13 now eligible from X10 and X11.
+
 ## First-wave cleanup and restart
 
 Automatic command approval rejected recursive removal and individually verified literal-path file removal for X03. Individually verified literal-path removal was also rejected for X08. The sole error detail was `blocked by policy` at process creation. Rejections occurred before execution and no files were deleted. X01 cleanup was held after the same methods were rejected for the other experiment roots. These directories were created for this program, contain the disposable clones, reproduction checkouts and scoped outputs, and have verified durable GitHub packages.
@@ -81,4 +85,4 @@ The next wave uses one managed Git worktree per experiment with all ignored scra
 
 ## Findings and outstanding obligations
 
-Operationally complete 6/15. X05, X09 and X11 are implementing and six experiments are queued. Accepted claims remain bounded to the tested finite and sandbox systems. The general transport and flagship results remain open.
+Operationally complete 7/15. X05 and X09 are active, X13 is reserved, and five experiments are queued. Accepted claims remain bounded to the tested finite and sandbox systems. The general transport and flagship results remain open.
