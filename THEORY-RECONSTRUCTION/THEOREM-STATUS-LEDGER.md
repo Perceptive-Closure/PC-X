@@ -6,20 +6,20 @@ The charter numbers are retained. Statuses below cover the staged candidate scop
 
 | ID | Charter package | Mathematics | Novelty | Experiments | Integration |
 | --- | --- | --- | --- | --- | --- |
-| T01 | Behavioral non-identifiability | RECONSTRUCTED | NOVELTY_UNRESOLVED | — | PENDING |
-| T02 | Source-semantic non-identifiability | RECONSTRUCTED | NOVELTY_UNRESOLVED | — | PENDING |
-| T03 | Conditional anchored recovery | RECONSTRUCTED | NOVELTY_UNRESOLVED | — | PENDING |
-| T04 | Exact target-disagreement characterization | RECONSTRUCTED | NOVELTY_UNRESOLVED | — | PENDING |
-| T05 | Audit-interface impossibility | RECONSTRUCTED | NOVELTY_UNRESOLVED | — | PENDING |
-| T06 | Global and local minimum certificates | RECONSTRUCTED | NOVELTY_UNRESOLVED | — | PENDING |
-| T07 | Target versus full-contract identification | RECONSTRUCTED | NOVELTY_UNRESOLVED | — | PENDING |
-| T08 | Exact adaptive semantic audit complexity | RECONSTRUCTED | NOVELTY_UNRESOLVED | — | PENDING |
-| T09 | Static–adaptive acquisition separation | RECONSTRUCTED | NOVELTY_UNRESOLVED | — | PENDING |
-| T10 | Computational hardness and tractability | RECONSTRUCTED | NOVELTY_UNRESOLVED | — | PENDING |
-| T11 | Exact nonrectangular partial identification | RECONSTRUCTED | NOVELTY_UNRESOLVED | — | PENDING |
-| T12 | Closure-support and intervention-barrier duality | RECONSTRUCTED | NOVELTY_UNRESOLVED | — | PENDING |
-| T13 | Constructive ambiguity or certificate | RECONSTRUCTED | NOVELTY_UNRESOLVED | — | PENDING |
-| T14 | Counterexample-guided minimum audit synthesis | RECONSTRUCTED | NOVELTY_UNRESOLVED | — | PENDING |
+| T01 | Behavioral non-identifiability | UNDER_VERIFICATION | NOVELTY_UNRESOLVED | — | PENDING |
+| T02 | Source-semantic non-identifiability | UNDER_VERIFICATION | NOVELTY_UNRESOLVED | — | PENDING |
+| T03 | Conditional anchored recovery | UNDER_VERIFICATION | NOVELTY_UNRESOLVED | — | PENDING |
+| T04 | Exact target-disagreement characterization | UNDER_VERIFICATION | NOVELTY_UNRESOLVED | — | PENDING |
+| T05 | Audit-interface impossibility | UNDER_VERIFICATION | NOVELTY_UNRESOLVED | — | PENDING |
+| T06 | Global and local minimum certificates | UNDER_VERIFICATION | NOVELTY_UNRESOLVED | — | PENDING |
+| T07 | Target versus full-contract identification | UNDER_VERIFICATION | NOVELTY_UNRESOLVED | — | PENDING |
+| T08 | Exact adaptive semantic audit complexity | UNDER_VERIFICATION | NOVELTY_UNRESOLVED | — | PENDING |
+| T09 | Static–adaptive acquisition separation | UNDER_VERIFICATION | NOVELTY_UNRESOLVED | — | PENDING |
+| T10 | Computational hardness and tractability | UNDER_VERIFICATION | NOVELTY_UNRESOLVED | — | PENDING |
+| T11 | Exact nonrectangular partial identification | UNDER_VERIFICATION | NOVELTY_UNRESOLVED | — | PENDING |
+| T12 | Closure-support and intervention-barrier duality | UNDER_VERIFICATION | NOVELTY_UNRESOLVED | — | PENDING |
+| T13 | Constructive ambiguity or certificate | UNDER_VERIFICATION | NOVELTY_UNRESOLVED | — | PENDING |
+| T14 | Counterexample-guided minimum audit synthesis | UNDER_VERIFICATION | NOVELTY_UNRESOLVED | — | PENDING |
 | T15 | Evaluation-to-deployment non-identifiability | UNSTARTED | NOVELTY_UNRESOLVED | — | PENDING |
 | T16 | Implementation-relative alignment non-identifiability | UNSTARTED | NOVELTY_UNRESOLVED | — | PENDING |
 | T17 | Exact evaluation sufficiency | UNSTARTED | NOVELTY_UNRESOLVED | — | PENDING |
