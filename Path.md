@@ -8,9 +8,9 @@
 
 | Slot | Experiment | Agent | Lifecycle |
 | --- | --- | --- | --- |
-| 1 | X02 | exp_x02 | DISPATCHED |
-| 2 | X04 | exp_x04 | DISPATCHED |
-| 3 | X10 | exp_x10 | DISPATCHED |
+| 1 | X02 | exp_x02 | IMPLEMENTING |
+| 2 | X04 | exp_x04 | IMPLEMENTING |
+| 3 | X10 | exp_x10 | IMPLEMENTING |
 
 Each slot remains occupied through parent clean-checkout verification, safe cleanup, and independent verification of remote evidence and cleanup. Reserved slots count toward the concurrency ceiling.
 
@@ -19,15 +19,15 @@ Each slot remains occupied through parent clean-checkout verification, safe clea
 | Experiment | State | Scientific verdict | Branch | Commit and verification |
 | --- | --- | --- | --- | --- |
 | X01 | COMPLETE | Finite agreement supported | codex/exp-x01 | [a52d45f1b8c0036b1a69b1fc024f95e48d4ce012](https://github.com/Perceptive-Closure/PC-X/tree/a52d45f1b8c0036b1a69b1fc024f95e48d4ce012/EXPERIMENTS/EXP-X01) |
-| X02 | DISPATCHED | Pending | codex/exp-x02 | X01 accepted and cleaned |
+| X02 | IMPLEMENTING | Pending | codex/exp-x02 | Protocol 9c1444f4fcaa0b28220cccca29e6a6e39f6b20f1 |
 | X03 | COMPLETE | Finite minimum-cost correctness supported | codex/exp-x03 | [d85fe1cdb76cbc6d03e58e34f320c4c58a3f243c](https://github.com/Perceptive-Closure/PC-X/tree/d85fe1cdb76cbc6d03e58e34f320c4c58a3f243c/EXPERIMENTS/EXP-X03) |
-| X04 | DISPATCHED | Pending | codex/exp-x04 | X03 accepted and cleaned |
+| X04 | IMPLEMENTING | Pending | codex/exp-x04 | Exact X03 package retrieved |
 | X05 | WORKPLAN_CREATED | Pending | codex/exp-x05 | Awaiting X01–X03 |
 | X06 | WORKPLAN_CREATED | Pending | codex/exp-x06 | Awaiting X01 and X03 |
 | X07 | WORKPLAN_CREATED | Pending | codex/exp-x07 | Awaiting X03 |
 | X08 | COMPLETE | Bounded transcript equivalence and forecast supported | codex/exp-x08 | [a8c6650a7ff9901ca9ac5ed4036a37f6cb7c9200](https://github.com/Perceptive-Closure/PC-X/tree/a8c6650a7ff9901ca9ac5ed4036a37f6cb7c9200/EXPERIMENTS/EXP-X08) |
 | X09 | WORKPLAN_CREATED | Pending | codex/exp-x09 | Awaiting X04 and X08 |
-| X10 | DISPATCHED | Pending | codex/exp-x10 | X08 accepted and cleaned |
+| X10 | IMPLEMENTING | Pending | codex/exp-x10 | Protocol afa0323512fcd0363eee62d944b851776d8c3b4e |
 | X11 | WORKPLAN_CREATED | Pending | codex/exp-x11 | Awaiting X08 |
 | X12 | WORKPLAN_CREATED | Pending | codex/exp-x12 | Awaiting X09–X11 |
 | X13 | WORKPLAN_CREATED | Pending | codex/exp-x13 | Awaiting X10 and X11 |
@@ -46,6 +46,11 @@ Each slot remains occupied through parent clean-checkout verification, safe clea
 - X01 parent reproduced candidate `ad6124afbb662e385ecdc695e6fcfa3d58fe3570` in a clean GitHub checkout. All 19 tests and the full evidence digest check passed. The corpus had 243 contracts, 1,944 freeze-coordinate evaluations, 1,378 evidence cases, 1,155 independently checked witnesses and zero unexpected discrepancies. The hidden-state oracle and representative-only touch ablations failed on 6/18 and 3/6 intended examples. The terminal revision adds only the verification ledger.
 - X03 parent reproduced candidate `540c680b095ad59ed42fcb2edc70fcba94241d57` from a clean GitHub checkout. All 12 tests and two evidence hashes matched. An independent CSV aggregation checked 59,971 subset checks over 3,828 scopes, 3,102 accepted certificates, 725 inaccessibility scopes, one inconsistent case, and exact cost no greater than every comparator for all 645 finite uniform scopes. Mean optimum was 2.131783 cost units versus greedy's 2.207752. The terminal revision adds only the verification ledger.
 - X08 parent reproduced candidate `6f17f4cd603199a76beda5c8db105806c2727844` from a clean GitHub checkout. All seven tests passed and all 8,192 episodes reproduced with SHA-256 `72a5ce71dd8f654ffbf9dacc5938352cef7fe45783fa16aa5a87bbc9cddc925f`. A separate computation checked native retry flags from facility tickets, trial counts, both threshold conclusions and simultaneous intervals. The parent first misread the Boolean as delivery. Rechecking the schema and reconstructing from tickets corrected the verification. Worst observed deployment risk was 651/1,024 for parcel-A and 128/1,024 for parcel-B. The two forecasts resolved correctly relative to the 40% threshold. The exact minimum audit cost was 2 versus cheapest-first 6 and exhaustive cost 8. The terminal revision adds only the verification ledger.
+
+## Second-wave implementation
+
+- X02, X04 and X10 created isolated, app-managed worktrees. Their attachment paths are `pcx-x02/PC-X`, `pcx-x04/PC-X` and `pcx-x10/PC-X` under the app's worktree directory. Scratch and caches are scoped to each checkout.
+- X02 fetched the verified X01 package and froze its finite fixed-skeleton protocol. X04 fetched the verified X03 exact certificate fixtures. X10 froze its passive independent route-card audit before any holdout assignment or measurement.
 
 ## First-wave cleanup and restart
 
