@@ -1,0 +1,299 @@
+{
+  "version": 1,
+  "date": "2026-11-26",
+  "base": "a3b2f2d23b514182d35fbf469ff9b52b39a68243",
+  "charter": {
+    "pages": [
+      30,
+      31,
+      32,
+      34,
+      35,
+      36
+    ],
+    "sha256": "3110e8020cc1b86cdf7ba389602fb0ce0b941be84dfdef05d3eeb5580dec06bc"
+  },
+  "predecessors": {
+    "X04": "b6ce562aa91323f2913615b92e91ffb2b9cc4731",
+    "X13": "1b9e599a7333d9b9f85669298791557282a75c1b"
+  },
+  "jobs": [
+    "order-1",
+    "order-2"
+  ],
+  "slips": [
+    0,
+    1
+  ],
+  "profiles": {
+    "flex": {
+      "entry": "both",
+      "panel": "indexed",
+      "relief": false
+    },
+    "left-indexed": {
+      "entry": "left",
+      "panel": "indexed",
+      "relief": false
+    },
+    "right-indexed": {
+      "entry": "right",
+      "panel": "indexed",
+      "relief": false
+    },
+    "left-masked": {
+      "entry": "left",
+      "panel": "masked",
+      "relief": false
+    },
+    "closed": {
+      "entry": "closed",
+      "panel": "masked",
+      "relief": false
+    },
+    "relief-only": {
+      "entry": "closed",
+      "panel": "masked",
+      "relief": true
+    }
+  },
+  "action_order": [
+    "left",
+    "right",
+    "relief",
+    "buffer",
+    "refuse",
+    "layout",
+    "plate",
+    "refine",
+    "grant"
+  ],
+  "cost": {
+    "layout": 2,
+    "plate": 1,
+    "refine": 3,
+    "grant": 4
+  },
+  "controls": {
+    "common": {
+      "profiles": [
+        "flex",
+        "left-indexed"
+      ],
+      "horizon": 2,
+      "actions": [
+        "left",
+        "right",
+        "relief",
+        "buffer",
+        "refuse"
+      ],
+      "evidence": "two-slots"
+    },
+    "quantifier-gap": {
+      "profiles": [
+        "left-indexed",
+        "right-indexed"
+      ],
+      "horizon": 3,
+      "actions": [
+        "left",
+        "right",
+        "relief",
+        "buffer",
+        "refuse"
+      ],
+      "evidence": "two-slots"
+    },
+    "audit-enabled": {
+      "profiles": [
+        "left-indexed",
+        "right-indexed"
+      ],
+      "horizon": 3,
+      "actions": [
+        "left",
+        "right",
+        "relief",
+        "buffer",
+        "refuse",
+        "layout",
+        "plate"
+      ],
+      "evidence": "two-slots"
+    },
+    "audit-horizon": {
+      "profiles": [
+        "left-indexed",
+        "right-indexed"
+      ],
+      "horizon": 2,
+      "actions": [
+        "left",
+        "right",
+        "relief",
+        "buffer",
+        "refuse",
+        "layout",
+        "plate"
+      ],
+      "evidence": "two-slots"
+    },
+    "observation-alias": {
+      "profiles": [
+        "left-masked"
+      ],
+      "horizon": 3,
+      "actions": [
+        "left",
+        "right",
+        "relief",
+        "buffer",
+        "refuse",
+        "plate"
+      ],
+      "evidence": "two-slots"
+    },
+    "refined-view": {
+      "profiles": [
+        "left-masked"
+      ],
+      "horizon": 3,
+      "actions": [
+        "left",
+        "right",
+        "relief",
+        "buffer",
+        "refuse",
+        "refine",
+        "plate"
+      ],
+      "evidence": "two-slots"
+    },
+    "authority-enabled": {
+      "profiles": [
+        "relief-only"
+      ],
+      "horizon": 3,
+      "actions": [
+        "left",
+        "right",
+        "relief",
+        "buffer",
+        "refuse",
+        "grant"
+      ],
+      "evidence": "two-slots"
+    },
+    "authority-withheld": {
+      "profiles": [
+        "relief-only"
+      ],
+      "horizon": 3,
+      "actions": [
+        "left",
+        "right",
+        "relief",
+        "buffer",
+        "refuse"
+      ],
+      "evidence": "two-slots"
+    },
+    "mixed-acquisition": {
+      "profiles": [
+        "left-masked",
+        "relief-only"
+      ],
+      "horizon": 4,
+      "actions": [
+        "left",
+        "right",
+        "relief",
+        "buffer",
+        "refuse",
+        "layout",
+        "refine",
+        "grant",
+        "plate"
+      ],
+      "evidence": "two-slots"
+    },
+    "impossible-evidence": {
+      "profiles": [
+        "flex",
+        "left-indexed"
+      ],
+      "horizon": 3,
+      "actions": [
+        "left",
+        "right",
+        "relief",
+        "buffer",
+        "refuse"
+      ],
+      "evidence": "third-slot"
+    }
+  },
+  "matrix": {
+    "max_profiles": 3,
+    "horizons": [
+      2,
+      3
+    ]
+  },
+  "heldout": {
+    "ports": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "profiles": [
+      "flex",
+      "left-indexed",
+      "right-indexed",
+      "left-masked",
+      "closed"
+    ],
+    "horizon": 3,
+    "actions": [
+      "left",
+      "right",
+      "buffer",
+      "refuse",
+      "plate",
+      "refine"
+    ],
+    "query_cost": {
+      "layout": 2,
+      "viewer": 3,
+      "roster": 5,
+      "nameplate": 1
+    },
+    "arms": [
+      "governed",
+      "fixed-left",
+      "single-contract",
+      "refuse"
+    ],
+    "random_baselines_seeds": [
+      14001,
+      14002,
+      14003,
+      14004,
+      14005,
+      14006,
+      14007,
+      14008,
+      14009,
+      14010,
+      14011,
+      14012,
+      14013,
+      14014,
+      14015,
+      14016
+    ]
+  }
+}
