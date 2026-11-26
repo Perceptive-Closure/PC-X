@@ -9,7 +9,7 @@
 | Slot | Experiment | Agent | Lifecycle |
 | --- | --- | --- | --- |
 | 1 | X07 | exp_x07 | IMPLEMENTING |
-| 2 | X15 | exp_x15 | RESERVED |
+| 2 | X15 | exp_x15 | IMPLEMENTING, local replay |
 | 3 | X14 | exp_x14 | IMPLEMENTING |
 
 Each slot remains occupied through parent clean-checkout verification, safe cleanup, and independent verification of remote evidence and cleanup. Reserved slots count toward the concurrency ceiling.
@@ -32,7 +32,7 @@ Each slot remains occupied through parent clean-checkout verification, safe clea
 | X12 | COMPLETE | Bounded anchored transfer supported, cost advantage absent versus full audit | codex/exp-x12 | [486671cfcb52405ad226de553ce1df992f66b4fc](https://github.com/Perceptive-Closure/PC-X/tree/486671cfcb52405ad226de553ce1df992f66b4fc/EXPERIMENTS/EXP-X12) |
 | X13 | COMPLETE | Independent conditions for local-to-joint composition verified | codex/exp-x13 | [1b9e599a7333d9b9f85669298791557282a75c1b](https://github.com/Perceptive-Closure/PC-X/tree/1b9e599a7333d9b9f85669298791557282a75c1b/EXPERIMENTS/EXP-X13) |
 | X14 | IMPLEMENTING | Pending | codex/exp-x14 | Protocol e5a082b4e0e9109e27ba422df06829067830c6ea |
-| X15 | WORKPLAN_CREATED | Pending | codex/exp-x15 | Twelve terminal inputs ready. X07 and X14 required before final acceptance. |
+| X15 | IMPLEMENTING | Pending | codex/exp-x15 | Twelve exact terminal inputs ready. X07 and X14 required before final acceptance. |
 
 ## Parent verification ledger
 
@@ -90,6 +90,10 @@ Each slot remains occupied through parent clean-checkout verification, safe clea
 - X12 exact GitHub archive replay passed 15 tests, reproduced the raw gzip, summary and manifest, and satisfied all six preregistered gates. Independent readback reproduced all 98,304 queue/sorter episode scores in 24 cells and cost totals. Six decisions confirmed, six abstentions, zero false certifications, and coverage and interval overlap in all 24 cells. The evaluation-only method falsely certified seven of twelve. Omitting fidelity falsely certified two. Full trusted acquisition confirmed ten at 786,444 configured operations, versus six at 1,048,804 anchored operations. The fixed nonadaptive comparator confirmed six at 1,573,092 operations. No universal transfer claim or advantage over full audit follows. Parent verified managed worktree removal and unchanged remote tip. 7,903,693 logical bytes removed.
 - X07 and X14 are active. Before X15 dispatch, the parent approved staged retrieval of the twelve immutable terminal packages already available. The scope, independent falsification and full-program acceptance gates are unchanged. The complete audited input manifest and final acceptance require X07 and X14 terminal packages. This uses the third slot while those two finish.
 
+## GitHub visibility change
+
+On 2026-11-26 at 20:39 Asia/Karachi the parent independently confirmed GitHub GraphQL, REST and connector responses report public visibility for the existing Perceptive-Closure/PC-X repository. The repository was created and previously verified private. The responses do not attribute the change. The parent paused GitHub writes and prospective openings pending Infernus's sharing decision. X07 and X14 continue local preparation and development-only tests. X15 continues independent read-only retrieval and local reproduction of the twelve immutable terminal packages.
+
 ## First-wave cleanup and restart
 
 Automatic command approval rejected recursive removal and individually verified literal-path file removal for X03. Individually verified literal-path removal was also rejected for X08. The sole error detail was `blocked by policy` at process creation. Rejections occurred before execution and no files were deleted. X01 cleanup was held after the same methods were rejected for the other experiment roots. These directories were created for this program, contain the disposable clones, reproduction checkouts and scoped outputs, and have verified durable GitHub packages.
@@ -106,4 +110,4 @@ The next wave uses one managed Git worktree per experiment with all ignored scra
 
 ## Findings and outstanding obligations
 
-Operationally complete 12/15. X07 and X14 remain active. X15 is reserved to start the independent replay of accepted preceding packages. Accepted claims remain bounded to the tested finite and sandbox systems. The general transport and flagship results remain open.
+Operationally complete 12/15. X07, X14 and X15 are working locally while GitHub writes and prospective openings await visibility direction. Accepted claims remain bounded to the tested finite and sandbox systems. The general transport and flagship results remain open.
