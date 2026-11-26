@@ -1,0 +1,11 @@
+{
+  "format": 1,
+  "python": "3.13.7",
+  "result_file_sha256": {
+    "audit-receipt.json": "443eca2ee9f752c59a851f48ca748019cf534bb321ed9dcc4dd939a5e8d69344",
+    "episodes.jsonl.gz": "565afd3b42b3d9557be3949df05ec7073f7e49158ba24b83bad05a5f71130711",
+    "forecast.json": "09fa53e3b1830156b551dea53412566e9a9676ccbb2d2664da836d721590dd4d",
+    "opening.json": "1beb20c7ca42ebfe610d026c0a44c34fcef16c2da9e96fcf2aaaeee57e35b4cb",
+    "pre-audit.json": "e094126a54b35abc2db1595e50743e595eb22ad5d1c59eace8b250053777d644"
+  }
+}
