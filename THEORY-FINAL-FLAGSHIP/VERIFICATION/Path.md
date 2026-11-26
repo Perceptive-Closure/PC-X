@@ -13,6 +13,18 @@
 - X05's matched target and minimum full-identity values both equal 677. X09 observed two false favorable decisions under unsupported score shifts and uses separate confidence families. X12's trusted full measurement was both cheaper and more decisive: 786,444 versus 1,048,804 operations and 10 versus 6 certificates. X08 and X11 retain separate temporal custody qualifications. [Frozen reconstruction](https://github.com/Perceptive-Closure/PC-X/blob/39a0d0e5b3283835094d17603b84e706b968f443/THEORY-RECONSTRUCTION/EXPERIMENTAL-RECONSTRUCTION.md)
 - X16 matched 178 path verdicts and 70 comparator values in 22 admitted held-outs with 10 additional control installations. Its separate reproduction ran 649 native trials. The seven controls preserve graph-compatible installation, useful feedback, literal callability, informative initialization, support completeness, carried state, and actual instrument effects. The one-host distinct roles were independently anchored by the future round and readbacks. Gateway acquisition gaps of 1 versus 3, 5 and 7 and the mixed runtime comparisons refer to the specified synthetic protocol and exact support objectives. X16 does not validate numerical deployment risk or broad strategy. [X16 results](https://github.com/Perceptive-Closure/PC-X/blob/a6bf9cefb59f63b8c9dea59daf7e588a82ba07eb/EXPERIMENTS/EXP-X16/RESULTS.md)
 
-## RESULTS
+## Readiness disposition
 
 Proof-blind readiness established. The neutral intake and separate corroboration plan are ready. No flagship statement was received or assessed in this phase. The next gate is an exact per-claim STATEMENTS.md seal from the parent. The proofs, counterexamples, checks and theorem dispositions remain open at this stage.
+
+## T30.A proof-blind phase
+
+1. Authenticated the one-file neutral delta from the exact common plan through GitHub. Verified and copied only the exact source bytes, commit metadata and separately computed SHA-256. [Neutral packet](T30-A/STATEMENTS.md) · [Origin and derivation](T30-A/BLIND-DERIVATION.md)
+2. Independently conditioned on the physical post-proposal, pre-draw cut, then represented matched ordinary records by paired native marginals whose only weight ratio comes from authenticated bits. This respects both honest law and complete strategic information. The finite hard cap uses reflected Bayes optimization and public resource monotonicity.
+3. Derived the exact expected-cost bound as a stopped drift identity and a supporting line on the discrete Bayes-error grid. An exact Markov absorption solver checked lattice boundaries and an adjacent mixture. A pure policy enumeration independently corroborated hard-cap optima. Scoped Lean algebra passed. [Replay and primary-source checks](T30-A/CHECKS.md)
+4. Checked possible missing conditions for full deployment-event coverage and lawful terminal reports. Derived concrete failures for post-draw proposals, hidden signal carry, marginal-only matching and a forced local-risk mixture. These are separate operational limits and exact checks. [Countermodels](T30-A/CHECKS.md#exact-controls)
+
+## RESULTS
+
+- T30.A.1–A.4 have an independently proved guarded interpretation, including selective risk, receipt-fiber testing, exact finite cap and exact expected-cost frontier. A limited report menu or unscored deployment phases require explicit scope repair. The statement, proofs, exact tests and Lean kernels are sealed independently of later comparison.
+- T30.P and T30.U blind derivations are pending their separate intake phases. The next T30.A review step is an authenticated constructor proof release after verification of this seal.
