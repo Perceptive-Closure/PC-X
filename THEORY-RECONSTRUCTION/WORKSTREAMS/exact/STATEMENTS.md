@@ -31,9 +31,9 @@ For identity $I$ on the declared semantic quotient, $S_f(\mathcal C)\le S_I(\mat
 ## T08 · Exact adaptive minimax and product identification
 
 For finite nonempty $B$, the proper worst-case adaptive cost $V(B)$ is zero if $|f(B)|=1$. Otherwise it equals
-$
+$$
 \min_{j\text{ splits }B}\left(w_j+\max_{a:q_j^{-1}(a)\cap B\ne\varnothing}V(q_j^{-1}(a)\cap B)\right),
-$
+$$
 with $+\infty$ when no split exists. Finite optima have deterministic decision trees. This minimax objective is the supremum over all supported randomization branches if randomized policies are admitted. If independent factors have disjoint local query menus and the target is the whole tuple of their factor targets, the uniform static and adaptive optima add across factors, and the realized optimum adds at the specified tuple.
 
 ## T09 · Hierarchy and routed separation
