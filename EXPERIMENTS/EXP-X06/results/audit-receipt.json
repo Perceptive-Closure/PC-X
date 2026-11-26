@@ -1,0 +1,22 @@
+{
+  "answers": {
+    "manager.admission-count": "0",
+    "method.admission-count": "1",
+    "second-manager.admission-count": "0",
+    "self.admission-count": "0"
+  },
+  "audited_utc": "2026-11-26T15:22:49.832637+00:00",
+  "commitment": {
+    "assignment_sha256": "d93c96bdfb2b0c080ce0fadc67a808e0b1540e0b08f68ae81e12a39ae8a10cd8",
+    "committed_utc": "2026-11-26T15:22:49.610696+00:00",
+    "freeze_commit": "8272ea71ab4242459968130b114bcc49fe20dca7",
+    "preaudit_sha256": "2527c719648ac860843656c3d42d17ecc82955189c290341b3189694d2b674f4"
+  },
+  "interface": "custodian anonymous receipt-mark count at received checkpoint",
+  "selected": [
+    "self.admission-count",
+    "manager.admission-count",
+    "second-manager.admission-count",
+    "method.admission-count"
+  ]
+}
