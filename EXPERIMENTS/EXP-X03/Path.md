@@ -7,7 +7,7 @@
 - Starting revision `91c2158877e5440aedafd76a2b16f6bfa389c330` on `codex/pc-x-orchestration`.
 - [Work plan](WorkPlan.md) and [frozen protocol](configs/protocol.json), schema v1. Protocol commit `f5d23f4e8c3ff673c182f7f2ca9366251bba81a9`.
 - Theorem packages T04–T07, with finite exact components relevant to T14.
-- State RESULTS_DOCUMENTED. Independent local mathematical checks and evidence replay passed. Final remote verification and parent acceptance are tracked in Section 10.
+- State REMOTE_VERIFIED for the immutable experimental evidence revision. Parent clean-checkout verification passed and the parent accepted the scientific package. The master execution record captures cleanup and closure.
 
 ## 2. Scope
 
@@ -29,7 +29,7 @@ The constituent audit probes inspect modeled history admission, archival represe
 - Phase 2. Implemented the weighted reduced-edge solver in [certificates.py](src/certificates.py) and an independent direct partition in [reference.py](src/reference.py). Implemented greedy weighted pair coverage, deletion, exhaustive acquisition and random ordering in [baselines.py](src/baselines.py). Added authorization fixtures with extensional touch and an independent direct action-sequence cost calculation in [authorization.py](src/authorization.py).
 - Phase 2. Implemented workload generation in [corpus.py](src/corpus.py), verification and evidence serialization in [run.py](run.py), and targeted [tests](tests/test_experiment.py). A pre-execution code review found the drafted correlated fixture's target equal to the XOR query expression. The frozen protocol specified a correlated stratum and the work plan excluded answer-revealing queries. The target implementation was corrected to a sum before any run.
 - Phase 3. Ran the full workload, directly checked every supported subset and scope, and replayed artifact serialization byte for byte. Hardened the public verifier to recompute its independent optimum on every call. The hardening changed no scope result and preserved both original artifact hashes.
-- Phase 4. Prepared [reproduction commands](README.md) and computed evidence digests for repository persistence. The parent must complete a remote clean-checkout replay before authorizing deletion.
+- Phase 4. Prepared [reproduction commands](README.md) and computed evidence digests for repository persistence. The parent completed the clean-checkout replay of the evidence revision, reviewed its scope and independently checked reported results.
 
 ## 5. Experimental execution ledger
 
@@ -112,11 +112,11 @@ The full-grid R-freeze cost set is `{1,2,4}`. The combined inspection of fast ad
 
 - **Correctness and validity passed.** Direct projected partitions agreed exactly with all candidate statuses, selected minima and subset characterizations.
 - **Falsification and baseline comparison passed.** The named structural counterexamples, perturbations, forged proofs, illegal inputs and changed artifact all behaved as preregistered. All comparators used the same available answers and cost model.
-- **Results completeness passed.** Every preregistered domain and its realized scopes are in the CSV, with deterministic aggregate metrics and evidence hashes. Parent clean-checkout review is the remaining lifecycle gate.
+- **Results completeness passed.** Every preregistered domain and its realized scopes are in the CSV, with deterministic aggregate metrics and evidence hashes. The parent clean-checkout review reproduced the exact evidence.
 - **Scientific verdict.** This is finite empirical support for the T04 characterization, T05 interface impossibility, T06 weighted minima, and a bounded structured T07 separation. It independently checks components relevant to T14's conditional algorithm. It leaves symbolic scalability, asymptotic separation, source completeness for external engines, and deployment claims open.
 
 Use the two reproduction commands in [README.md](README.md). The complete measurements are [scopes.csv](results/scopes.csv) and [summary.json](results/summary.json).
 
 ## 10. GitHub persistence and cleanup record
 
-Repository [Perceptive-Closure/PC-X](https://github.com/Perceptive-Closure/PC-X), branch `codex/exp-x03`. The protocol commit was pushed before execution. The candidate includes the versioned protocol, solver, independent oracle, baselines, fixtures, runner, tests, README, execution record and deterministic evidence manifest. Scratch corruption copies, Python cache, PDF sources and isolated checkout metadata are excluded. All experiment inputs and evidence replay from the frozen manifest. Independent remote replay, exact remote commit verification and authorized cleanup are pending.
+Repository [Perceptive-Closure/PC-X](https://github.com/Perceptive-Closure/PC-X), branch `codex/exp-x03`. The protocol commit was pushed before execution. The candidate includes the versioned protocol, solver, independent oracle, baselines, fixtures, runner, tests, README, execution record and deterministic evidence manifest. Scratch corruption copies, Python cache, PDF sources and isolated checkout metadata are excluded. All experiment inputs and evidence replay from the frozen manifest. The scientific evidence commit `540c680b095ad59ed42fcb2edc70fcba94241d57` was pushed and its branch ref verified using `git ls-remote`. The parent cloned this exact GitHub revision and confirmed 12 passing tests, 865 domains, 3,828 scopes, 59,971 exact subset checks and byte-identical SHA-256 outputs. Parent review separately reconstructed the CSV counts, 645 finite uniform scopes, baseline inequalities and mean. The parent accepted the package and authorized cleanup after verifying the ledger-only update. The final ledger tip and experiment-owned cleanup measurement are recorded in the master Path.md.
