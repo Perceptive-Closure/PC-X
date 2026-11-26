@@ -10,7 +10,7 @@ The parent established the proof dependency families and work plan. Two independ
 
 | Slot | Assignment | State |
 | --- | --- | --- |
-| 1 | Parent independent foundation check | Initial derivation complete. Slot reserved for blind verification next. |
+| 1 | Blind independent verification of T01–T14 and P1–P7 | Active |
 | 2 | Foundation construction | Active |
 | 3 | Exact and constructive audit | Active |
 
@@ -24,3 +24,7 @@ No theorem is accepted at intake. Candidate proofs remain distinct from empirica
 - The parent independently reconstructed D-35 T01–T03 and P1–P7. D-35 Appendix D's checkpointwise induction omits a common policy continuation argument. Two-way coverage of reachable information sets repairs this under the original observation-consistent label hypothesis. Appendix A's split case needs an explicit whole-history witness. [Parent derivation](VERIFICATION/PARENT-FOUNDATION-DERIVATION.md)
 - Lean 4.21.0 checked the budgeted typed support invariance and deterministic disagreement lemmas. The first invocation found that the selected Lean toolchain's Std does not include the shorthand contradiction tactic. Rewriting the two uses to explicit classical reasoning passed without altering the statements. The separate Python evaluator passed 16,384 graph/lift comparisons and three stated boundary controls. [Checks](COMPUTATIONAL-CHECKS/README.md)
 - Constructor statement-only packages for foundation and exact audit were retrieved at the published seals and copied by exact Git blob for the blind verifier. The parent will release its own active research slot during the three-agent blind review phase.
+
+## Independent-review transition
+
+The first complete statement-only intake binds D-35 and T01–T14 to the two constructor seals. The verifier receives a separate managed checkout of the intake commit and has no proof-path handoff until the independent record is sealed. Slots 1–3 are occupied by blind verification, foundation construction and exact-audit construction. For this phase the parent coordinates the program and suspends its own research workstream. [Intake hashes](WORKSTREAMS/verify-initial/INTAKE.md) · [Current theorem tracking](THEOREM-STATUS-LEDGER.md)
