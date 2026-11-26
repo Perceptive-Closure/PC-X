@@ -1,0 +1,88 @@
+{
+  "anchor_or_label_invariance_pairs": 9,
+  "counts": {
+    "IDENTIFIED": 1147,
+    "INCONSISTENT": 227,
+    "UNDERIDENTIFIED": 4,
+    "hidden_state_oracle_examples": 18,
+    "hidden_state_oracle_wrong": 6,
+    "point_with_multiple_contract_ids": 47,
+    "representative_touch_examples": 6,
+    "representative_touch_wrong": 3,
+    "strict_nested_evidence_checks": 2306,
+    "witnesses": 1155
+  },
+  "evidence_cases": 1378,
+  "factorial_contracts": 40,
+  "freeze_order": [
+    "none",
+    "E",
+    "R",
+    "A",
+    "ER",
+    "EA",
+    "RA",
+    "ERA"
+  ],
+  "generated_contracts": 192,
+  "hand_and_factorial_precalculated_comparisons": 408,
+  "hand_controls": 11,
+  "intentionally_malformed_conditions": 9,
+  "protocol": "X01.1",
+  "public_source_groups": 227,
+  "signature_coordinate_comparisons": 1944,
+  "strata": {
+    "boundary": {
+      "contracts": 16,
+      "finite_coordinates": 76,
+      "finite_unrestricted": 16,
+      "maximum_beliefs": 3
+    },
+    "generated/gated_cyclic": {
+      "contracts": 48,
+      "finite_coordinates": 26,
+      "finite_unrestricted": 15,
+      "maximum_beliefs": 9
+    },
+    "generated/merged_cyclic": {
+      "contracts": 48,
+      "finite_coordinates": 86,
+      "finite_unrestricted": 30,
+      "maximum_beliefs": 11
+    },
+    "generated/observed_acyclic": {
+      "contracts": 48,
+      "finite_coordinates": 130,
+      "finite_unrestricted": 48,
+      "maximum_beliefs": 7
+    },
+    "generated/split_cyclic": {
+      "contracts": 48,
+      "finite_coordinates": 90,
+      "finite_unrestricted": 30,
+      "maximum_beliefs": 9
+    },
+    "hand": {
+      "contracts": 11,
+      "finite_coordinates": 40,
+      "finite_unrestricted": 10,
+      "maximum_beliefs": 4
+    },
+    "hidden": {
+      "contracts": 18,
+      "finite_coordinates": 60,
+      "finite_unrestricted": 15,
+      "maximum_beliefs": 4
+    },
+    "mixed": {
+      "contracts": 6,
+      "finite_coordinates": 20,
+      "finite_unrestricted": 6,
+      "maximum_beliefs": 3
+    }
+  },
+  "strict_nested_freeze_checks": 4617,
+  "total_contracts": 243,
+  "unexpected_discrepancies": 0,
+  "unrestricted_behavior_identity_pairs": 16
+}
