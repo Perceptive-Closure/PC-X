@@ -2,7 +2,7 @@
 
 ## Source and scope
 
-Execute EXP-X01 through EXP-X15 from Perceptive Closure X — Final Theorem Package (43 pages, SHA-256 `3110e8020cc1b86cdf7ba389602fb0ce0b941be84dfdef05d3eeb5580dec06bc`) and the accompanying experimental execution directive. The charter and original 18-page Perceptive Closure manuscript are read-only source material. The program tests implementations, checks mathematical consequences in declared fragments, and measures prospective interventions. Original theorem status, derivable conditions, and open research targets retain the distinctions on charter pp. 2 and 38–40.
+Execute EXP-X01 through EXP-X15 from Perceptive Closure X — Final Theorem Package (43 pages, SHA-256 `3110e8020cc1b86cdf7ba389602fb0ce0b941be84dfdef05d3eeb5580dec06bc`) and the accompanying experimental execution directive. The charter and original 18-page Perceptive Closure manuscript (SHA-256 `f27b6f6e593129592577a0863f46853540b4377ec9393a4f28d48026dd2ebcd4`) are read-only source material. The program tests implementations, checks mathematical consequences in declared fragments, and measures prospective interventions. Original theorem status, derivable conditions, and open research targets retain the distinctions on charter pp. 2 and 38–40.
 
 ## Dependencies and acceptance gates
 
