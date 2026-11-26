@@ -1,0 +1,119 @@
+{
+  "bench_tv": "0",
+  "benchmark_only_verdict": true,
+  "certificate": {
+    "audit_inaccessible_without_routing_calibration": true,
+    "cheapest_first_cost": 6,
+    "disagreement_edge_count": 4,
+    "exhaustive_cost": 8,
+    "minimum_cost": 2,
+    "random_order_cost_counts": {
+      "2": 89,
+      "3": 63,
+      "4": 52,
+      "5": 33,
+      "6": 19
+    },
+    "selected": [
+      [
+        "parcel-A",
+        "routing_calibration"
+      ]
+    ],
+    "sufficient_subsets": 48
+  },
+  "compatible_joint_completions": 8,
+  "evaluation_histories_per_fixture": 73,
+  "evaluation_history_request_pairs_per_fixture": 146,
+  "exact_benchmark_risks": {
+    "mixed-normal": "14639/131072",
+    "mixed-rush": "3505/32768"
+  },
+  "exact_floor_risks": [
+    {
+      "feeder": "fast",
+      "profile": "careful",
+      "risks": {
+        "mixed-normal": "1395/16384",
+        "mixed-rush": "4041/32768"
+      }
+    },
+    {
+      "feeder": "slow",
+      "profile": "careful",
+      "risks": {
+        "mixed-normal": "3701/16384",
+        "mixed-rush": "9037/32768"
+      }
+    },
+    {
+      "feeder": "fast",
+      "profile": "throughput",
+      "risks": {
+        "mixed-normal": "9657/16384",
+        "mixed-rush": "21141/32768"
+      }
+    },
+    {
+      "feeder": "slow",
+      "profile": "throughput",
+      "risks": {
+        "mixed-normal": "12539/16384",
+        "mixed-rush": "26713/32768"
+      }
+    }
+  ],
+  "independent_ticket_laws_verified": {
+    "benchmark": 584,
+    "floor": 464
+  },
+  "initial_identified_set": [
+    [
+      false,
+      true
+    ],
+    [
+      true,
+      false
+    ]
+  ],
+  "positive_floor_cue_control_tv": "1/2",
+  "protocol_sha256": "5fb5377a67c5e4db4e190be6b082103737e5c7bec55d64f3e87b51ac8318b9d9",
+  "risk_margin": "20351/163840",
+  "simultaneous_half_width": 0.0497806409608157,
+  "visible_noise_bit_tv": "0",
+  "witnesses": [
+    {
+      "fixture": [
+        [
+          "careful",
+          "fast"
+        ],
+        [
+          "throughput",
+          "fast"
+        ]
+      ],
+      "target": [
+        true,
+        false
+      ]
+    },
+    {
+      "fixture": [
+        [
+          "throughput",
+          "fast"
+        ],
+        [
+          "careful",
+          "fast"
+        ]
+      ],
+      "target": [
+        false,
+        true
+      ]
+    }
+  ]
+}
