@@ -1,0 +1,1955 @@
+{
+  "schema": 1,
+  "valid_profiles": [
+    "feedback-live",
+    "feedback-suppressed",
+    "meter-h3",
+    "meter-h4",
+    "intrinsic-gap",
+    "gateway-2",
+    "gateway-4",
+    "gateway-6"
+  ],
+  "profiles": [
+    {
+      "id": "feedback-live",
+      "start": "root",
+      "accept": [
+        "end"
+      ],
+      "deadline": 4,
+      "horizon": 3,
+      "initial_meter": "WORK",
+      "variant": "standard",
+      "stages": [
+        {
+          "task": "receive",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "start-left",
+              "tail": "root",
+              "head": "left",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "LEFT"
+                }
+              ]
+            },
+            {
+              "id": "start-right",
+              "tail": "root",
+              "head": "right",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "RIGHT"
+                }
+              ]
+            }
+          ],
+          "reads": {},
+          "statics": [
+            {
+              "id": "guard-1",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-1",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "task": "review-1",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "middle-left",
+              "tail": "left",
+              "head": "left2",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            },
+            {
+              "id": "middle-right",
+              "tail": "right",
+              "head": "right2",
+              "stale": 1,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            }
+          ],
+          "reads": {},
+          "statics": [
+            {
+              "id": "guard-2",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-2",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "task": "route",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "route-left",
+              "tail": "left2",
+              "head": "end",
+              "stale": 1,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            },
+            {
+              "id": "route-right",
+              "tail": "right2",
+              "head": "end",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            }
+          ],
+          "reads": {},
+          "statics": [
+            {
+              "id": "guard-3",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-3",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "feedback-suppressed",
+      "start": "root",
+      "accept": [
+        "end"
+      ],
+      "deadline": 4,
+      "horizon": 3,
+      "initial_meter": "WORK",
+      "variant": "standard",
+      "stages": [
+        {
+          "task": "receive",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "start-left",
+              "tail": "root",
+              "head": "left",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            },
+            {
+              "id": "start-right",
+              "tail": "root",
+              "head": "right",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            }
+          ],
+          "reads": {},
+          "statics": [
+            {
+              "id": "guard-1",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-1",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "task": "review-1",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "middle-left",
+              "tail": "left",
+              "head": "left2",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            },
+            {
+              "id": "middle-right",
+              "tail": "right",
+              "head": "right2",
+              "stale": 1,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            }
+          ],
+          "reads": {},
+          "statics": [
+            {
+              "id": "guard-2",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-2",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "task": "route",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "route-left",
+              "tail": "left2",
+              "head": "end",
+              "stale": 1,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            },
+            {
+              "id": "route-right",
+              "tail": "right2",
+              "head": "end",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            }
+          ],
+          "reads": {},
+          "statics": [
+            {
+              "id": "guard-3",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-3",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meter-h3",
+      "start": "root",
+      "accept": [
+        "end"
+      ],
+      "deadline": 2,
+      "horizon": 3,
+      "initial_meter": "WORK",
+      "variant": "standard",
+      "stages": [
+        {
+          "task": "receive",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "intake",
+              "tail": "root",
+              "head": "middle",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "SHORT"
+                },
+                {
+                  "obs": "filed",
+                  "meter": "LONG"
+                }
+              ]
+            }
+          ],
+          "reads": {},
+          "statics": [
+            {
+              "id": "guard-1",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-1",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "task": "route",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "route-fresh",
+              "tail": "middle",
+              "head": "end",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            },
+            {
+              "id": "route-stale",
+              "tail": "middle",
+              "head": "end",
+              "stale": 1,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            }
+          ],
+          "reads": {
+            "SHORT": {
+              "ask.flag": {
+                "price": 1,
+                "observe": "stale",
+                "next": "same"
+              }
+            },
+            "LONG": {
+              "ask.flag": {
+                "price": 3,
+                "observe": "stale",
+                "next": "same"
+              },
+              "ask.prepare": {
+                "price": 1,
+                "observe": "prepared",
+                "next": "READY"
+              }
+            },
+            "READY": {
+              "ask.flag": {
+                "price": 1,
+                "observe": "stale",
+                "next": "same"
+              }
+            }
+          },
+          "statics": [
+            {
+              "id": "guard-2",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-2",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meter-h4",
+      "start": "root",
+      "accept": [
+        "end"
+      ],
+      "deadline": 2,
+      "horizon": 4,
+      "initial_meter": "WORK",
+      "variant": "standard",
+      "stages": [
+        {
+          "task": "receive",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "intake",
+              "tail": "root",
+              "head": "middle",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "SHORT"
+                },
+                {
+                  "obs": "filed",
+                  "meter": "LONG"
+                }
+              ]
+            }
+          ],
+          "reads": {},
+          "statics": [
+            {
+              "id": "guard-1",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-1",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "task": "route",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "route-fresh",
+              "tail": "middle",
+              "head": "end",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            },
+            {
+              "id": "route-stale",
+              "tail": "middle",
+              "head": "end",
+              "stale": 1,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            }
+          ],
+          "reads": {
+            "SHORT": {
+              "ask.flag": {
+                "price": 1,
+                "observe": "stale",
+                "next": "same"
+              }
+            },
+            "LONG": {
+              "ask.flag": {
+                "price": 3,
+                "observe": "stale",
+                "next": "same"
+              },
+              "ask.prepare": {
+                "price": 1,
+                "observe": "prepared",
+                "next": "READY"
+              }
+            },
+            "READY": {
+              "ask.flag": {
+                "price": 1,
+                "observe": "stale",
+                "next": "same"
+              }
+            }
+          },
+          "statics": [
+            {
+              "id": "guard-2",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-2",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intrinsic-gap",
+      "start": "root",
+      "accept": [
+        "end"
+      ],
+      "deadline": 4,
+      "horizon": 4,
+      "initial_meter": "WORK",
+      "variant": "standard",
+      "stages": [
+        {
+          "task": "receive",
+          "base": 1,
+          "premium": 2,
+          "edges": [
+            {
+              "id": "intake-fresh",
+              "tail": "root",
+              "head": "mid",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            },
+            {
+              "id": "intake-stale",
+              "tail": "root",
+              "head": "mid",
+              "stale": 1,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            }
+          ],
+          "reads": {
+            "WORK": {
+              "ask.flag": {
+                "price": 1,
+                "observe": "stale",
+                "next": "same"
+              }
+            }
+          },
+          "statics": [
+            {
+              "id": "guard-1",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-1",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "task": "review-1",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "review",
+              "tail": "mid",
+              "head": "ready",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            }
+          ],
+          "reads": {},
+          "statics": [
+            {
+              "id": "guard-2",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-2",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "task": "route",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "route",
+              "tail": "ready",
+              "head": "end",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            }
+          ],
+          "reads": {},
+          "statics": [
+            {
+              "id": "guard-3",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-3",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gateway-2",
+      "start": "root",
+      "accept": [
+        "end"
+      ],
+      "deadline": 5,
+      "horizon": 6,
+      "initial_meter": "WORK",
+      "variant": "standard",
+      "stages": [
+        {
+          "task": "receive",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "stage1-fresh",
+              "tail": "root",
+              "head": "layer-1",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            },
+            {
+              "id": "stage1-stale",
+              "tail": "root",
+              "head": "layer-1",
+              "stale": 1,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            }
+          ],
+          "reads": {
+            "WORK": {
+              "ask.flag": {
+                "price": 1,
+                "observe": "stale",
+                "next": "same"
+              }
+            }
+          },
+          "statics": [
+            {
+              "id": "guard-1",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-1",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "task": "review-1",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "stage2-fresh",
+              "tail": "layer-1",
+              "head": "layer-2",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            },
+            {
+              "id": "stage2-stale",
+              "tail": "layer-1",
+              "head": "layer-2",
+              "stale": 1,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            }
+          ],
+          "reads": {
+            "WORK": {
+              "ask.flag": {
+                "price": 1,
+                "observe": "stale",
+                "next": "same"
+              }
+            }
+          },
+          "statics": [
+            {
+              "id": "guard-2",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-2",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "task": "route",
+          "base": 1,
+          "premium": 3,
+          "edges": [
+            {
+              "id": "stage3-fresh",
+              "tail": "layer-2",
+              "head": "end",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            },
+            {
+              "id": "stage3-stale",
+              "tail": "layer-2",
+              "head": "end",
+              "stale": 1,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            }
+          ],
+          "reads": {
+            "WORK": {
+              "ask.flag": {
+                "price": 1,
+                "observe": "stale",
+                "next": "same"
+              }
+            }
+          },
+          "statics": [
+            {
+              "id": "guard-3",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-3",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gateway-4",
+      "start": "root",
+      "accept": [
+        "end"
+      ],
+      "deadline": 9,
+      "horizon": 10,
+      "initial_meter": "WORK",
+      "variant": "standard",
+      "stages": [
+        {
+          "task": "receive",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "stage1-fresh",
+              "tail": "root",
+              "head": "layer-1",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            },
+            {
+              "id": "stage1-stale",
+              "tail": "root",
+              "head": "layer-1",
+              "stale": 1,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            }
+          ],
+          "reads": {
+            "WORK": {
+              "ask.flag": {
+                "price": 1,
+                "observe": "stale",
+                "next": "same"
+              }
+            }
+          },
+          "statics": [
+            {
+              "id": "guard-1",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-1",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "task": "review-1",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "stage2-fresh",
+              "tail": "layer-1",
+              "head": "layer-2",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            },
+            {
+              "id": "stage2-stale",
+              "tail": "layer-1",
+              "head": "layer-2",
+              "stale": 1,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            }
+          ],
+          "reads": {
+            "WORK": {
+              "ask.flag": {
+                "price": 1,
+                "observe": "stale",
+                "next": "same"
+              }
+            }
+          },
+          "statics": [
+            {
+              "id": "guard-2",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-2",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "task": "review-2",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "stage3-fresh",
+              "tail": "layer-2",
+              "head": "layer-3",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            },
+            {
+              "id": "stage3-stale",
+              "tail": "layer-2",
+              "head": "layer-3",
+              "stale": 1,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            }
+          ],
+          "reads": {
+            "WORK": {
+              "ask.flag": {
+                "price": 1,
+                "observe": "stale",
+                "next": "same"
+              }
+            }
+          },
+          "statics": [
+            {
+              "id": "guard-3",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-3",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "task": "review-3",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "stage4-fresh",
+              "tail": "layer-3",
+              "head": "layer-4",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            },
+            {
+              "id": "stage4-stale",
+              "tail": "layer-3",
+              "head": "layer-4",
+              "stale": 1,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            }
+          ],
+          "reads": {
+            "WORK": {
+              "ask.flag": {
+                "price": 1,
+                "observe": "stale",
+                "next": "same"
+              }
+            }
+          },
+          "statics": [
+            {
+              "id": "guard-4",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-4",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "task": "route",
+          "base": 1,
+          "premium": 5,
+          "edges": [
+            {
+              "id": "stage5-fresh",
+              "tail": "layer-4",
+              "head": "end",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            },
+            {
+              "id": "stage5-stale",
+              "tail": "layer-4",
+              "head": "end",
+              "stale": 1,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            }
+          ],
+          "reads": {
+            "WORK": {
+              "ask.flag": {
+                "price": 1,
+                "observe": "stale",
+                "next": "same"
+              }
+            }
+          },
+          "statics": [
+            {
+              "id": "guard-5",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-5",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gateway-6",
+      "start": "root",
+      "accept": [
+        "end"
+      ],
+      "deadline": 13,
+      "horizon": 14,
+      "initial_meter": "WORK",
+      "variant": "standard",
+      "stages": [
+        {
+          "task": "receive",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "stage1-fresh",
+              "tail": "root",
+              "head": "layer-1",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            },
+            {
+              "id": "stage1-stale",
+              "tail": "root",
+              "head": "layer-1",
+              "stale": 1,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            }
+          ],
+          "reads": {
+            "WORK": {
+              "ask.flag": {
+                "price": 1,
+                "observe": "stale",
+                "next": "same"
+              }
+            }
+          },
+          "statics": [
+            {
+              "id": "guard-1",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-1",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "task": "review-1",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "stage2-fresh",
+              "tail": "layer-1",
+              "head": "layer-2",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            },
+            {
+              "id": "stage2-stale",
+              "tail": "layer-1",
+              "head": "layer-2",
+              "stale": 1,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            }
+          ],
+          "reads": {
+            "WORK": {
+              "ask.flag": {
+                "price": 1,
+                "observe": "stale",
+                "next": "same"
+              }
+            }
+          },
+          "statics": [
+            {
+              "id": "guard-2",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-2",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "task": "review-2",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "stage3-fresh",
+              "tail": "layer-2",
+              "head": "layer-3",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            },
+            {
+              "id": "stage3-stale",
+              "tail": "layer-2",
+              "head": "layer-3",
+              "stale": 1,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            }
+          ],
+          "reads": {
+            "WORK": {
+              "ask.flag": {
+                "price": 1,
+                "observe": "stale",
+                "next": "same"
+              }
+            }
+          },
+          "statics": [
+            {
+              "id": "guard-3",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-3",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "task": "review-3",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "stage4-fresh",
+              "tail": "layer-3",
+              "head": "layer-4",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            },
+            {
+              "id": "stage4-stale",
+              "tail": "layer-3",
+              "head": "layer-4",
+              "stale": 1,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            }
+          ],
+          "reads": {
+            "WORK": {
+              "ask.flag": {
+                "price": 1,
+                "observe": "stale",
+                "next": "same"
+              }
+            }
+          },
+          "statics": [
+            {
+              "id": "guard-4",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-4",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "task": "review-4",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "stage5-fresh",
+              "tail": "layer-4",
+              "head": "layer-5",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            },
+            {
+              "id": "stage5-stale",
+              "tail": "layer-4",
+              "head": "layer-5",
+              "stale": 1,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            }
+          ],
+          "reads": {
+            "WORK": {
+              "ask.flag": {
+                "price": 1,
+                "observe": "stale",
+                "next": "same"
+              }
+            }
+          },
+          "statics": [
+            {
+              "id": "guard-5",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-5",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "task": "review-5",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "stage6-fresh",
+              "tail": "layer-5",
+              "head": "layer-6",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            },
+            {
+              "id": "stage6-stale",
+              "tail": "layer-5",
+              "head": "layer-6",
+              "stale": 1,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            }
+          ],
+          "reads": {
+            "WORK": {
+              "ask.flag": {
+                "price": 1,
+                "observe": "stale",
+                "next": "same"
+              }
+            }
+          },
+          "statics": [
+            {
+              "id": "guard-6",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-6",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "task": "route",
+          "base": 1,
+          "premium": 7,
+          "edges": [
+            {
+              "id": "stage7-fresh",
+              "tail": "layer-6",
+              "head": "end",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            },
+            {
+              "id": "stage7-stale",
+              "tail": "layer-6",
+              "head": "end",
+              "stale": 1,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            }
+          ],
+          "reads": {
+            "WORK": {
+              "ask.flag": {
+                "price": 1,
+                "observe": "stale",
+                "next": "same"
+              }
+            }
+          },
+          "statics": [
+            {
+              "id": "guard-7",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-7",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "split-calls",
+      "start": "root",
+      "accept": [
+        "end"
+      ],
+      "deadline": 1,
+      "horizon": 1,
+      "initial_meter": "WORK",
+      "variant": "split-calls",
+      "stages": [
+        {
+          "task": "receive-route",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "split-left",
+              "tail": "root",
+              "head": "end",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ],
+              "literal_fast": "job.fast.left"
+            },
+            {
+              "id": "split-right",
+              "tail": "root",
+              "head": "end",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ],
+              "literal_fast": "job.fast.right"
+            }
+          ],
+          "reads": {},
+          "statics": [
+            {
+              "id": "guard-1",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-1",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-guard",
+      "start": "root",
+      "accept": [
+        "end"
+      ],
+      "deadline": 2,
+      "horizon": 3,
+      "initial_meter": "WORK",
+      "variant": "free-guard",
+      "stages": [
+        {
+          "task": "receive",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "intake",
+              "tail": "root",
+              "head": "middle",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "SHORT"
+                },
+                {
+                  "obs": "filed",
+                  "meter": "LONG"
+                }
+              ]
+            }
+          ],
+          "reads": {},
+          "statics": [
+            {
+              "id": "guard-1",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-1",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "task": "route",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "route-fresh",
+              "tail": "middle",
+              "head": "end",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            },
+            {
+              "id": "route-stale",
+              "tail": "middle",
+              "head": "end",
+              "stale": 1,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            }
+          ],
+          "reads": {
+            "SHORT": {
+              "ask.flag": {
+                "price": 1,
+                "observe": "stale",
+                "next": "same"
+              }
+            },
+            "LONG": {
+              "ask.flag": {
+                "price": 3,
+                "observe": "stale",
+                "next": "same"
+              },
+              "ask.prepare": {
+                "price": 1,
+                "observe": "prepared",
+                "next": "READY"
+              }
+            },
+            "READY": {
+              "ask.flag": {
+                "price": 1,
+                "observe": "stale",
+                "next": "same"
+              }
+            }
+          },
+          "statics": [
+            {
+              "id": "guard-2",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-2",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hidden-carry",
+      "start": "root",
+      "accept": [
+        "end"
+      ],
+      "deadline": 2,
+      "horizon": 3,
+      "initial_meter": "WORK",
+      "variant": "hidden-carry",
+      "stages": [
+        {
+          "task": "receive",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "early-clear",
+              "tail": "root",
+              "head": "joined",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            },
+            {
+              "id": "early-set",
+              "tail": "root",
+              "head": "joined",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ],
+              "carry": true
+            }
+          ],
+          "reads": {},
+          "statics": [
+            {
+              "id": "guard-1",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-1",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "task": "route",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "late-fresh",
+              "tail": "joined",
+              "head": "end",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            },
+            {
+              "id": "late-stale",
+              "tail": "joined",
+              "head": "end",
+              "stale": 1,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            }
+          ],
+          "reads": {
+            "WORK": {
+              "ask.flag": {
+                "price": 1,
+                "observe": "stale",
+                "next": "same"
+              }
+            }
+          },
+          "statics": [
+            {
+              "id": "guard-2",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-2",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "changed-instrument",
+      "start": "root",
+      "accept": [
+        "end"
+      ],
+      "deadline": 4,
+      "horizon": 4,
+      "initial_meter": "WORK",
+      "variant": "changed-instrument",
+      "stages": [
+        {
+          "task": "receive",
+          "base": 1,
+          "premium": 2,
+          "edges": [
+            {
+              "id": "intake-fresh",
+              "tail": "root",
+              "head": "mid",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            },
+            {
+              "id": "intake-stale",
+              "tail": "root",
+              "head": "mid",
+              "stale": 1,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            }
+          ],
+          "reads": {
+            "WORK": {
+              "ask.flag": {
+                "price": 1,
+                "observe": "stale",
+                "next": "same"
+              }
+            }
+          },
+          "statics": [
+            {
+              "id": "guard-1",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-1",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "task": "review-1",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "review",
+              "tail": "mid",
+              "head": "ready",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            }
+          ],
+          "reads": {},
+          "statics": [
+            {
+              "id": "guard-2",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-2",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "task": "route",
+          "base": 1,
+          "premium": 1,
+          "edges": [
+            {
+              "id": "route",
+              "tail": "ready",
+              "head": "end",
+              "stale": 0,
+              "gives": [
+                {
+                  "obs": "filed",
+                  "meter": "WORK"
+                }
+              ]
+            }
+          ],
+          "reads": {},
+          "statics": [
+            {
+              "id": "guard-3",
+              "field": "stale",
+              "price": 1
+            },
+            {
+              "id": "mode-3",
+              "field": "edge",
+              "price": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "controls": [
+    {
+      "id": "cartesian-relaxation",
+      "profile": "feedback-live",
+      "exposure": "add Cartesian later-mode combinations to model only",
+      "gate": "graph-realizability"
+    },
+    {
+      "id": "suppressed-useful-receipt",
+      "profile": "feedback-suppressed",
+      "exposure": "replace early actionable lane by a constant meter",
+      "gate": "common-budgeted-policy"
+    },
+    {
+      "id": "split-literal-commands",
+      "profile": "split-calls",
+      "exposure": "two fast projections but distinct callable names",
+      "gate": "common-callability"
+    },
+    {
+      "id": "initial-free-disclosure",
+      "profile": "free-guard",
+      "exposure": "report actual second-stage stale bit on initialization",
+      "gate": "initial-evidence-boundary"
+    },
+    {
+      "id": "missing-long-support",
+      "profile": "meter-h3",
+      "exposure": "drop the LONG receipt from model only",
+      "gate": "complete-positive-support"
+    },
+    {
+      "id": "prior-hidden-carry",
+      "profile": "hidden-carry",
+      "exposure": "same later edge and observed meter, prior hidden flag raises ask.flag paid price by 4",
+      "gate": "local-row-completeness"
+    },
+    {
+      "id": "trusted-versus-changed-instrument",
+      "profile": "changed-instrument",
+      "exposure": "same ask.flag response but instrument marks selected document for a different final destination",
+      "gate": "independent-work-fidelity"
+    }
+  ]
+}
