@@ -1,0 +1,524 @@
+[
+  {
+    "document": {
+      "body": "Review case 57f69e0c26.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Local Correspondence",
+      "id": "intake-b0d1c8c3e70cb167c7",
+      "title": "  Synthetic   intake  e88d3ec5  "
+    },
+    "id": "changed-instrument-yes-1",
+    "nominal_stratum": "YES",
+    "path": [
+      "intake-fresh",
+      "review",
+      "route"
+    ],
+    "profile": "changed-instrument"
+  },
+  {
+    "document": {
+      "body": "Review case 8d01fec51e.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Dispatch Notice",
+      "id": "intake-cd330166541a38d9a4",
+      "title": "  Synthetic   intake  99579eec  "
+    },
+    "id": "changed-instrument-no-1",
+    "nominal_stratum": "NO",
+    "path": [
+      "intake-stale",
+      "review",
+      "route"
+    ],
+    "profile": "changed-instrument"
+  },
+  {
+    "document": {
+      "body": "Review case 252dae3852.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Local Correspondence",
+      "id": "intake-0db911921fee7d945a",
+      "title": "  Synthetic   intake  16a370ed  "
+    },
+    "id": "feedback-live-yes-1",
+    "nominal_stratum": "YES",
+    "path": [
+      "start-right",
+      "middle-right",
+      "route-right"
+    ],
+    "profile": "feedback-live"
+  },
+  {
+    "document": {
+      "body": "Review case 219706c044.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Dispatch Notice",
+      "id": "intake-650b6871c8da0c2d1e",
+      "title": "  Synthetic   intake  9c37e16c  "
+    },
+    "id": "feedback-live-yes-2",
+    "nominal_stratum": "YES",
+    "path": [
+      "start-left",
+      "middle-left",
+      "route-left"
+    ],
+    "profile": "feedback-live"
+  },
+  {
+    "document": {
+      "body": "Review case ee22e4297a.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Registry Forms",
+      "id": "intake-700f903c8d5c8bc38a",
+      "title": "  Synthetic   intake  be2b0793  "
+    },
+    "id": "feedback-suppressed-yes-1",
+    "nominal_stratum": "YES",
+    "path": [
+      "start-right",
+      "middle-right",
+      "route-right"
+    ],
+    "profile": "feedback-suppressed"
+  },
+  {
+    "document": {
+      "body": "Review case a6972dfbdf.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Local Correspondence",
+      "id": "intake-2f8e5800b53326be03",
+      "title": "  Synthetic   intake  d81d1973  "
+    },
+    "id": "feedback-suppressed-yes-2",
+    "nominal_stratum": "YES",
+    "path": [
+      "start-left",
+      "middle-left",
+      "route-left"
+    ],
+    "profile": "feedback-suppressed"
+  },
+  {
+    "document": {
+      "body": "Review case 80e02250fa.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Local Correspondence",
+      "id": "intake-f421448dec38ce66b2",
+      "title": "  Synthetic   intake  6d51ae91  "
+    },
+    "id": "free-guard-yes-1",
+    "nominal_stratum": "YES",
+    "path": [
+      "intake",
+      "route-fresh"
+    ],
+    "profile": "free-guard"
+  },
+  {
+    "document": {
+      "body": "Review case dbbff21452.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Local Correspondence",
+      "id": "intake-a49e061f380cb86423",
+      "title": "  Synthetic   intake  95dc964a  "
+    },
+    "id": "free-guard-no-1",
+    "nominal_stratum": "NO",
+    "path": [
+      "intake",
+      "route-stale"
+    ],
+    "profile": "free-guard"
+  },
+  {
+    "document": {
+      "body": "Review case 5b5754517c.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Dispatch Notice",
+      "id": "intake-9e9af32798277f0e5e",
+      "title": "  Synthetic   intake  dfca0dba  "
+    },
+    "id": "gateway-2-yes-1",
+    "nominal_stratum": "YES",
+    "path": [
+      "stage1-stale",
+      "stage2-fresh",
+      "stage3-fresh"
+    ],
+    "profile": "gateway-2"
+  },
+  {
+    "document": {
+      "body": "Review case 90c11797f1.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Dispatch Notice",
+      "id": "intake-c4e36f9936f26323e3",
+      "title": "  Synthetic   intake  019698dc  "
+    },
+    "id": "gateway-2-yes-2",
+    "nominal_stratum": "YES",
+    "path": [
+      "stage1-stale",
+      "stage2-stale",
+      "stage3-fresh"
+    ],
+    "profile": "gateway-2"
+  },
+  {
+    "document": {
+      "body": "Review case 51e535b623.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Local Correspondence",
+      "id": "intake-1785ae916d9e2f8c0c",
+      "title": "  Synthetic   intake  b571ec92  "
+    },
+    "id": "gateway-2-no-1",
+    "nominal_stratum": "NO",
+    "path": [
+      "stage1-stale",
+      "stage2-fresh",
+      "stage3-stale"
+    ],
+    "profile": "gateway-2"
+  },
+  {
+    "document": {
+      "body": "Review case 1445689577.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Dispatch Notice",
+      "id": "intake-c3128b6401c922bd70",
+      "title": "  Synthetic   intake  e3b78aff  "
+    },
+    "id": "gateway-2-no-2",
+    "nominal_stratum": "NO",
+    "path": [
+      "stage1-fresh",
+      "stage2-stale",
+      "stage3-stale"
+    ],
+    "profile": "gateway-2"
+  },
+  {
+    "document": {
+      "body": "Review case a8afe0afc0.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Registry Forms",
+      "id": "intake-b614d88ffc7b676eb0",
+      "title": "  Synthetic   intake  117350f7  "
+    },
+    "id": "gateway-4-yes-1",
+    "nominal_stratum": "YES",
+    "path": [
+      "stage1-stale",
+      "stage2-fresh",
+      "stage3-fresh",
+      "stage4-fresh",
+      "stage5-fresh"
+    ],
+    "profile": "gateway-4"
+  },
+  {
+    "document": {
+      "body": "Review case 7bf63c5cb5.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Dispatch Notice",
+      "id": "intake-e3fbf6c9be40b1b107",
+      "title": "  Synthetic   intake  2d76ef82  "
+    },
+    "id": "gateway-4-yes-2",
+    "nominal_stratum": "YES",
+    "path": [
+      "stage1-stale",
+      "stage2-fresh",
+      "stage3-stale",
+      "stage4-stale",
+      "stage5-fresh"
+    ],
+    "profile": "gateway-4"
+  },
+  {
+    "document": {
+      "body": "Review case 3044d8aa15.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Dispatch Notice",
+      "id": "intake-0402cc0e46d188bbb8",
+      "title": "  Synthetic   intake  66cfe384  "
+    },
+    "id": "gateway-4-no-1",
+    "nominal_stratum": "NO",
+    "path": [
+      "stage1-fresh",
+      "stage2-fresh",
+      "stage3-fresh",
+      "stage4-stale",
+      "stage5-stale"
+    ],
+    "profile": "gateway-4"
+  },
+  {
+    "document": {
+      "body": "Review case 74e1060324.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Dispatch Notice",
+      "id": "intake-39746d4fc2bc9250a8",
+      "title": "  Synthetic   intake  35b4e8da  "
+    },
+    "id": "gateway-4-no-2",
+    "nominal_stratum": "NO",
+    "path": [
+      "stage1-stale",
+      "stage2-stale",
+      "stage3-stale",
+      "stage4-fresh",
+      "stage5-stale"
+    ],
+    "profile": "gateway-4"
+  },
+  {
+    "document": {
+      "body": "Review case 12d5cc7c31.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Registry Forms",
+      "id": "intake-d79ea4980e02f8304e",
+      "title": "  Synthetic   intake  ff4e305f  "
+    },
+    "id": "gateway-6-yes-1",
+    "nominal_stratum": "YES",
+    "path": [
+      "stage1-stale",
+      "stage2-fresh",
+      "stage3-fresh",
+      "stage4-fresh",
+      "stage5-fresh",
+      "stage6-stale",
+      "stage7-fresh"
+    ],
+    "profile": "gateway-6"
+  },
+  {
+    "document": {
+      "body": "Review case 99808cd0fc.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Registry Forms",
+      "id": "intake-178ac70b1db2f99644",
+      "title": "  Synthetic   intake  6d1692ba  "
+    },
+    "id": "gateway-6-yes-2",
+    "nominal_stratum": "YES",
+    "path": [
+      "stage1-stale",
+      "stage2-stale",
+      "stage3-stale",
+      "stage4-fresh",
+      "stage5-stale",
+      "stage6-stale",
+      "stage7-fresh"
+    ],
+    "profile": "gateway-6"
+  },
+  {
+    "document": {
+      "body": "Review case df9666a7de.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Local Correspondence",
+      "id": "intake-d22a3694dfb83ffdaf",
+      "title": "  Synthetic   intake  6d3bae39  "
+    },
+    "id": "gateway-6-no-1",
+    "nominal_stratum": "NO",
+    "path": [
+      "stage1-fresh",
+      "stage2-fresh",
+      "stage3-fresh",
+      "stage4-stale",
+      "stage5-stale",
+      "stage6-fresh",
+      "stage7-stale"
+    ],
+    "profile": "gateway-6"
+  },
+  {
+    "document": {
+      "body": "Review case add9034236.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Dispatch Notice",
+      "id": "intake-4d08e967b0c68783c4",
+      "title": "  Synthetic   intake  182fde50  "
+    },
+    "id": "gateway-6-no-2",
+    "nominal_stratum": "NO",
+    "path": [
+      "stage1-fresh",
+      "stage2-stale",
+      "stage3-stale",
+      "stage4-fresh",
+      "stage5-fresh",
+      "stage6-fresh",
+      "stage7-stale"
+    ],
+    "profile": "gateway-6"
+  },
+  {
+    "document": {
+      "body": "Review case a03e774c75.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Dispatch Notice",
+      "id": "intake-69d326cb3d2c50b86b",
+      "title": "  Synthetic   intake  423dcc6d  "
+    },
+    "id": "hidden-carry-yes-1",
+    "nominal_stratum": "YES",
+    "path": [
+      "early-set",
+      "late-fresh"
+    ],
+    "profile": "hidden-carry"
+  },
+  {
+    "document": {
+      "body": "Review case 07ec2f57c3.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Dispatch Notice",
+      "id": "intake-2bf71496bb8157cf19",
+      "title": "  Synthetic   intake  ce689927  "
+    },
+    "id": "hidden-carry-yes-2",
+    "nominal_stratum": "YES",
+    "path": [
+      "early-clear",
+      "late-fresh"
+    ],
+    "profile": "hidden-carry"
+  },
+  {
+    "document": {
+      "body": "Review case 154b93e14f.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Local Correspondence",
+      "id": "intake-c8208e12e6acb71c24",
+      "title": "  Synthetic   intake  dd82be75  "
+    },
+    "id": "hidden-carry-no-1",
+    "nominal_stratum": "NO",
+    "path": [
+      "early-clear",
+      "late-stale"
+    ],
+    "profile": "hidden-carry"
+  },
+  {
+    "document": {
+      "body": "Review case eeaf9e1bb8.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Local Correspondence",
+      "id": "intake-6408d6c7edf8031bda",
+      "title": "  Synthetic   intake  a38bf44d  "
+    },
+    "id": "hidden-carry-no-2",
+    "nominal_stratum": "NO",
+    "path": [
+      "early-set",
+      "late-stale"
+    ],
+    "profile": "hidden-carry"
+  },
+  {
+    "document": {
+      "body": "Review case b1b505ca52.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Registry Forms",
+      "id": "intake-a3bca55dae5cf3b5ba",
+      "title": "  Synthetic   intake  51bb8bf9  "
+    },
+    "id": "intrinsic-gap-yes-1",
+    "nominal_stratum": "YES",
+    "path": [
+      "intake-fresh",
+      "review",
+      "route"
+    ],
+    "profile": "intrinsic-gap"
+  },
+  {
+    "document": {
+      "body": "Review case c8ab465406.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Registry Forms",
+      "id": "intake-f49e384fd3f65a3818",
+      "title": "  Synthetic   intake  8b4ccdbf  "
+    },
+    "id": "intrinsic-gap-no-1",
+    "nominal_stratum": "NO",
+    "path": [
+      "intake-stale",
+      "review",
+      "route"
+    ],
+    "profile": "intrinsic-gap"
+  },
+  {
+    "document": {
+      "body": "Review case 0feda20088.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Dispatch Notice",
+      "id": "intake-e8647ba88c2685eebf",
+      "title": "  Synthetic   intake  0427776a  "
+    },
+    "id": "meter-h3-yes-1",
+    "nominal_stratum": "YES",
+    "path": [
+      "intake",
+      "route-fresh"
+    ],
+    "profile": "meter-h3"
+  },
+  {
+    "document": {
+      "body": "Review case 9ba7d6f5ef.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Registry Forms",
+      "id": "intake-ecd6098878dc74cddf",
+      "title": "  Synthetic   intake  ffac1ab3  "
+    },
+    "id": "meter-h3-no-1",
+    "nominal_stratum": "NO",
+    "path": [
+      "intake",
+      "route-stale"
+    ],
+    "profile": "meter-h3"
+  },
+  {
+    "document": {
+      "body": "Review case ee704cf210.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Local Correspondence",
+      "id": "intake-28267aa25e9d635910",
+      "title": "  Synthetic   intake  6a845248  "
+    },
+    "id": "meter-h4-yes-1",
+    "nominal_stratum": "YES",
+    "path": [
+      "intake",
+      "route-fresh"
+    ],
+    "profile": "meter-h4"
+  },
+  {
+    "document": {
+      "body": "Review case 1bc83c1986.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Dispatch Notice",
+      "id": "intake-10b4714f8c1e42e18d",
+      "title": "  Synthetic   intake  0ad90632  "
+    },
+    "id": "meter-h4-no-1",
+    "nominal_stratum": "NO",
+    "path": [
+      "intake",
+      "route-stale"
+    ],
+    "profile": "meter-h4"
+  },
+  {
+    "document": {
+      "body": "Review case 38b3cc6c35.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Registry Forms",
+      "id": "intake-7d6febf01b44358973",
+      "title": "  Synthetic   intake  bf8f933a  "
+    },
+    "id": "split-calls-yes-1",
+    "nominal_stratum": "YES",
+    "path": [
+      "split-right"
+    ],
+    "profile": "split-calls"
+  },
+  {
+    "document": {
+      "body": "Review case cf41d4e77d.\r\nArchive the approved packet.\r\nRoute the synthetic registry.",
+      "category": "Local Correspondence",
+      "id": "intake-84df80aee15bfa0273",
+      "title": "  Synthetic   intake  5d148107  "
+    },
+    "id": "split-calls-yes-2",
+    "nominal_stratum": "YES",
+    "path": [
+      "split-left"
+    ],
+    "profile": "split-calls"
+  }
+]

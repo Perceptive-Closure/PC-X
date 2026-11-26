@@ -1,0 +1,34 @@
+{
+  "authority_sha256": "5377b65f20a5ae3fd65ea8b0fc8b575be8b7f451f72dd4b50cf53f4387a6fa15",
+  "beacon_sha256": "ac1df0d4cc60f31526026a9a070ba65d86cabf218ebf7318c7287d614465da26",
+  "commitment_commit": "06f728b0ae8c09bc7b18c8014ec66df39a710a9c",
+  "commitment_github_ref": {
+    "http_date": "Thu, 26 Nov 2026 21:59:35 GMT",
+    "object_sha": "06f728b0ae8c09bc7b18c8014ec66df39a710a9c",
+    "observed_utc": "2026-11-26T21:59:35.504475+00:00",
+    "request_id": "B1EF:351AAC:6CA81D:A6EA58:6B08ABC6",
+    "resource": "git/ref/heads/codex/exp-x16-custody",
+    "status": 200
+  },
+  "draw_sha256": "61ac9dd0bd65cb1a59bf3c45a06ecce0b9647538cb5920b2e6159eb05eef1c4d",
+  "forecast_commit": "cd3fcd3a385d85236275024f7dc704b1b1e71775",
+  "forecast_git_blob": "0a30878080b8107ea3915b89ded461f064aec87e",
+  "forecast_sha256": "168c601d797c9d7143f32733b19d4d2eaf5667f719cef8f26d776bbf976fe7ee",
+  "heldout_sha256": "346c0c9c2f760de1542e15d39e727f3e6e086e28f11aa8927dfded3f245abfb2",
+  "parent_forecast_receipt_commit": "42196a0c83649b50fad124c67c302ea845a5fc6e",
+  "parent_forecast_receipt_sha256": "87f9d923fa3f011da6f800902d02fa299aba9a9b1bc6f01af1c6a4315de20c16",
+  "prerelease_commit": "77b4d9fa3f0a5ee3bb9bd6b23378ac3a68b570bf",
+  "prerelease_github_ref": {
+    "http_date": "Thu, 26 Nov 2026 22:01:28 GMT",
+    "object_sha": "77b4d9fa3f0a5ee3bb9bd6b23378ac3a68b570bf",
+    "observed_utc": "2026-11-26T22:01:29.256446+00:00",
+    "request_id": "B292:123409:6CB3F3:A71C73:6B08AC38",
+    "resource": "git/ref/heads/codex/exp-x16-custody",
+    "status": 200
+  },
+  "prerelease_receipt_sha256": "bdf6feba5c27efd6d68c849b08317df01a74bbdaa70dd6ba284cafd48d5d97fa",
+  "round": 34309120,
+  "scheduled_utc": "2026-11-26T22:05:24.000Z",
+  "schema": 1,
+  "source_commit": "861bc00b5836aabb8aea9dc129f0674afbe30fc2"
+}
