@@ -8,7 +8,7 @@
 
 | Slot | Experiment | Agent | Lifecycle |
 | --- | --- | --- | --- |
-| 1 | X07 | exp_x07 | OPENED, terminal package pending |
+| 1 | — | — | FREE |
 | 2 | X15 | exp_x15 | IMPLEMENTING, hostile replay |
 | 3 | — | — | FREE |
 
@@ -24,7 +24,7 @@ Each slot remains occupied through parent clean-checkout verification, safe clea
 | X04 | COMPLETE | Exact minimax supported with conditional cost savings | codex/exp-x04 | [b6ce562aa91323f2913615b92e91ffb2b9cc4731](https://github.com/Perceptive-Closure/PC-X/tree/b6ce562aa91323f2913615b92e91ffb2b9cc4731/EXPERIMENTS/EXP-X04) |
 | X05 | COMPLETE | Structured symbolic scalability supported under frozen bounds | codex/exp-x05 | [e288a6b5b8ddac24af349913bc68b640a691b2b2](https://github.com/Perceptive-Closure/PC-X/tree/e288a6b5b8ddac24af349913bc68b640a691b2b2/EXPERIMENTS/EXP-X05) |
 | X06 | COMPLETE | Native OPA authorization predictions confirmed in the declared adapter | codex/exp-x06 | [d3d8f0d6f14d548ce4b95dfa4341d8db54ad7876](https://github.com/Perceptive-Closure/PC-X/tree/d3d8f0d6f14d548ce4b95dfa4341d8db54ad7876/EXPERIMENTS/EXP-X06) |
-| X07 | OPENED | Pending | codex/exp-x07 | Forecast verified and native measurements complete. Awaiting exact terminal package. |
+| X07 | COMPLETE | `06242b250a7041d40f2f6af32bd8a11742813891` | codex/exp-x07 | 5 tests, 8/8 forecasts, native-fields tie and managed checkout removed. |
 | X08 | COMPLETE | Bounded transcript equivalence and forecast supported | codex/exp-x08 | [a8c6650a7ff9901ca9ac5ed4036a37f6cb7c9200](https://github.com/Perceptive-Closure/PC-X/tree/a8c6650a7ff9901ca9ac5ed4036a37f6cb7c9200/EXPERIMENTS/EXP-X08) |
 | X09 | COMPLETE | Admitted recovery supported and unanchored transport falsified | codex/exp-x09 | [68624c9a0eea93ec304be8e4349727eda3381c76](https://github.com/Perceptive-Closure/PC-X/tree/68624c9a0eea93ec304be8e4349727eda3381c76/EXPERIMENTS/EXP-X09) |
 | X10 | COMPLETE | Monitor ambiguity and bounded recovery supported | codex/exp-x10 | [4a16ef37d0e90e856560ce153c0fd690c28016b6](https://github.com/Perceptive-Closure/PC-X/tree/4a16ef37d0e90e856560ce153c0fd690c28016b6/EXPERIMENTS/EXP-X10) |
@@ -32,7 +32,7 @@ Each slot remains occupied through parent clean-checkout verification, safe clea
 | X12 | COMPLETE | Bounded anchored transfer supported, cost advantage absent versus full audit | codex/exp-x12 | [486671cfcb52405ad226de553ce1df992f66b4fc](https://github.com/Perceptive-Closure/PC-X/tree/486671cfcb52405ad226de553ce1df992f66b4fc/EXPERIMENTS/EXP-X12) |
 | X13 | COMPLETE | Independent conditions for local-to-joint composition verified | codex/exp-x13 | [1b9e599a7333d9b9f85669298791557282a75c1b](https://github.com/Perceptive-Closure/PC-X/tree/1b9e599a7333d9b9f85669298791557282a75c1b/EXPERIMENTS/EXP-X13) |
 | X14 | COMPLETE | `4ed49718f364afe9ba0723e96f4111c370a12101` | codex/exp-x14 | 10 tests, all 40 held-out matches and managed checkout removed. |
-| X15 | IMPLEMENTING | Pending | codex/exp-x15 | Frozen at `79b1ac6f701f7fc4aa748815a0b7c8f9a893303c`. X14 added to twelve terminal inputs. X07 outstanding. |
+| X15 | IMPLEMENTING | Pending | codex/exp-x15 | Frozen at `79b1ac6f701f7fc4aa748815a0b7c8f9a893303c`. All 14 independently verified terminal pins delivered. |
 
 ## Parent verification ledger
 
@@ -96,6 +96,8 @@ Each slot remains occupied through parent clean-checkout verification, safe clea
 
 - X07 independent parent replay reproduced the X03 minimum-certificate proof from the pinned predecessor and downloaded pre-audit `4933d82cab463dfee60b18843acc4d7b524fe90a`. The parent seeded inert fixtures and obtained native diagnostic evidence only. The published forecast `31fc792c7f56e52159b85d88b8fdb4aa1c542661`, direct frozen parent, scope, prior commitment and prediction hash were verified at 15:52:12.2626262Z. Native opening completed at 15:52:13.6082487Z. Initial result was 8/8 for the independent audit, 6/8 coarse and 8/8 richer native fields. Terminal package and independent replay are pending.
 
+- X07 exact terminal GitHub archive passed all 5 tests, reproduced the OpenSSL 3.2.4 raw records, matched all 23 evidence digests and regenerated the pinned X03 proof. Independent scoring from return codes matched all eight outcomes plus the three native controls. Two corrected rejections and six retained failures gave 8/8 versus 6/8 coarse. The richer native diagnosis also scored 8/8. Each one-probe omission yielded four abstentions and no audit yielded eight. Uniform minimum cost was 4 with realized minima 4, 1, 3 and 1 across the four compatible types. The scope audit found 36 experiment paths and only public certificates. Managed checkout and scratch removed, 2,118,620 logical bytes, with unchanged GitHub head. X15 received this final pin after closure.
+
 ## GitHub visibility change
 
 On 2026-11-26 at 20:39 Asia/Karachi the parent independently confirmed GitHub GraphQL, REST and connector responses report public visibility for the existing Perceptive-Closure/PC-X repository. The repository was created and previously verified private. The responses do not attribute the change. The parent paused GitHub writes and prospective openings pending Infernus's sharing decision. X07 and X14 continue local preparation and development-only tests. X15 continues independent read-only retrieval and local reproduction of the twelve immutable terminal packages.
@@ -118,4 +120,4 @@ The next wave uses one managed Git worktree per experiment with all ignored scra
 
 ## Findings and outstanding obligations
 
-Operationally complete 13/15. X07 and X15 remain active. Accepted claims remain bounded to the tested finite and sandbox systems. The general transport and flagship results remain open.
+Operationally complete 14/15. X15 is independently checking all 14 pinned primary packages. Accepted claims remain bounded to the tested finite and sandbox systems. The general transport and flagship results remain open.
