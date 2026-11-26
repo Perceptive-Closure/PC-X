@@ -22,7 +22,7 @@ Execute EXP-X01 through EXP-X15 from Perceptive Closure X — Final Theorem Pack
 | X12 Deployment generalization | X09 statistical design, X10 trusted measurement, X11 fidelity | Prediction seals, legitimate transfer anchors and coverage limits |
 | X13 Multi-agent composition | X10 local vs trusted joint events and X11 intervention fidelity | Measured counterexample and independently checked joint-deployment conditions |
 | X14 Governed alignment realizability | X04 observation-only policies and X13 joint-state semantics | Verified robust useful policy or a checkable impossibility certificate |
-| X15 Independent hostile reproduction | Terminal evidence for all of X01–X14 | Independent retrieval, execution, auditing and discrepancy report |
+| X15 Independent hostile reproduction | Each replay needs its terminal GitHub package. Final acceptance requires all of X01–X14. | Independent retrieval, execution, auditing and discrepancy report |
 
 Dependencies refer to required evidence or validated methods. A negative result can supply a prerequisite. Any substitution of a prerequisite method requires a scientific review and a dated ledger entry. Figure 3 of the charter gives high-level theorem families, and the table above records the experiment execution dependencies. The initial eligible set is X01, X03 and X08.
 

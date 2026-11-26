@@ -9,7 +9,7 @@
 | Slot | Experiment | Agent | Lifecycle |
 | --- | --- | --- | --- |
 | 1 | X07 | exp_x07 | IMPLEMENTING |
-| 2 | — | — | AVAILABLE |
+| 2 | X15 | exp_x15 | RESERVED |
 | 3 | X14 | exp_x14 | IMPLEMENTING |
 
 Each slot remains occupied through parent clean-checkout verification, safe cleanup, and independent verification of remote evidence and cleanup. Reserved slots count toward the concurrency ceiling.
@@ -32,7 +32,7 @@ Each slot remains occupied through parent clean-checkout verification, safe clea
 | X12 | COMPLETE | Bounded anchored transfer supported, cost advantage absent versus full audit | codex/exp-x12 | [486671cfcb52405ad226de553ce1df992f66b4fc](https://github.com/Perceptive-Closure/PC-X/tree/486671cfcb52405ad226de553ce1df992f66b4fc/EXPERIMENTS/EXP-X12) |
 | X13 | COMPLETE | Independent conditions for local-to-joint composition verified | codex/exp-x13 | [1b9e599a7333d9b9f85669298791557282a75c1b](https://github.com/Perceptive-Closure/PC-X/tree/1b9e599a7333d9b9f85669298791557282a75c1b/EXPERIMENTS/EXP-X13) |
 | X14 | IMPLEMENTING | Pending | codex/exp-x14 | Protocol e5a082b4e0e9109e27ba422df06829067830c6ea |
-| X15 | WORKPLAN_CREATED | Pending | codex/exp-x15 | Awaiting all predecessor terminal outcomes |
+| X15 | WORKPLAN_CREATED | Pending | codex/exp-x15 | Twelve terminal inputs ready. X07 and X14 required before final acceptance. |
 
 ## Parent verification ledger
 
@@ -88,7 +88,7 @@ Each slot remains occupied through parent clean-checkout verification, safe clea
 - X14 entered implementation and froze its solver/held-out protocol after X13 closure. X07 is reserved after X06 cleanup.
 
 - X12 exact GitHub archive replay passed 15 tests, reproduced the raw gzip, summary and manifest, and satisfied all six preregistered gates. Independent readback reproduced all 98,304 queue/sorter episode scores in 24 cells and cost totals. Six decisions confirmed, six abstentions, zero false certifications, and coverage and interval overlap in all 24 cells. The evaluation-only method falsely certified seven of twelve. Omitting fidelity falsely certified two. Full trusted acquisition confirmed ten at 786,444 configured operations, versus six at 1,048,804 anchored operations. The fixed nonadaptive comparator confirmed six at 1,573,092 operations. No universal transfer claim or advantage over full audit follows. Parent verified managed worktree removal and unchanged remote tip. 7,903,693 logical bytes removed.
-- X07 is active in its isolated managed worktree. X14 is active. The free slot remains idle while X15 waits for all 14 terminal packages.
+- X07 and X14 are active. Before X15 dispatch, the parent approved staged retrieval of the twelve immutable terminal packages already available. The scope, independent falsification and full-program acceptance gates are unchanged. The complete audited input manifest and final acceptance require X07 and X14 terminal packages. This uses the third slot while those two finish.
 
 ## First-wave cleanup and restart
 
@@ -106,4 +106,4 @@ The next wave uses one managed Git worktree per experiment with all ignored scra
 
 ## Findings and outstanding obligations
 
-Operationally complete 12/15. X07 and X14 remain active. X15 awaits both terminal packages. Accepted claims remain bounded to the tested finite and sandbox systems. The general transport and flagship results remain open.
+Operationally complete 12/15. X07 and X14 remain active. X15 is reserved to start the independent replay of accepted preceding packages. Accepted claims remain bounded to the tested finite and sandbox systems. The general transport and flagship results remain open.
