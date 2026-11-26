@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "base_commit": "e9db51532f6e66cb35a66b932fccd0edc87c363d",
+    "charter_sha256": "3110e8020cc1b86cdf7ba389602fb0ce0b941be84dfdef05d3eeb5580dec06bc",
+    "charter_pages": [21, 22, 23, 28, 29, 34, 35, 36],
+    "x08_commit": "a8c6650a7ff9901ca9ac5ed4036a37f6cb7c9200",
+    "x08_raw_sha256": "72a5ce71dd8f654ffbf9dacc5938352cef7fe45783fa16aa5a87bbc9cddc925f"
+  },
+  "requests": ["regular", "surge"],
+  "contexts": {
+    "steady": ["regular", "surge", "regular"],
+    "burst": ["surge", "regular", "surge"]
+  },
+  "horizon": 3,
+  "tickets": 4,
+  "arms": ["original", "placebo", "probe_a", "probe_b"],
+  "ports": ["probe_a", "probe_b"],
+  "advertised_slots": 3,
+  "normal_capacity": 3,
+  "disturbed_capacity": 2,
+  "pulse_work": 4,
+  "label_backlogged_rounds": 2,
+  "paired_episodes_per_context": 4096,
+  "risk_threshold": "3/10",
+  "fidelity_margin": "3/25",
+  "family_alpha": "1/20",
+  "query_costs": {
+    "display_slots": 1,
+    "original_capacity": 3,
+    "probe_a_capacity": 2,
+    "probe_b_capacity": 3
+  },
+  "random_query_baseline_seed": 1103
+}
