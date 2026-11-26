@@ -1,0 +1,47 @@
+{
+  "authority_sha256": "5377b65f20a5ae3fd65ea8b0fc8b575be8b7f451f72dd4b50cf53f4387a6fa15",
+  "before_commitment_publication": {
+    "receipts": [
+      {
+        "http_date": "Thu, 26 Nov 2026 21:59:26 GMT",
+        "observed_utc": "2026-11-26T21:59:27.024Z",
+        "reason": "Requested future beacon",
+        "status": 425,
+        "url": "https://api.drand.sh/52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971/public/34309120"
+      },
+      {
+        "http_date": "Thu, 26 Nov 2026 21:59:27 GMT",
+        "observed_utc": "2026-11-26T21:59:27.774Z",
+        "reason": "",
+        "status": 404,
+        "url": "https://drand.cloudflare.com/52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971/public/34309120"
+      }
+    ],
+    "round": 34309120,
+    "schema": 1
+  },
+  "catalogue_sha256": "49a46449bbd1f710127b7ac41a86308e723bf0ed61fd84946f6c3156a4aba847",
+  "draw_sha256": "61ac9dd0bd65cb1a59bf3c45a06ecce0b9647538cb5920b2e6159eb05eef1c4d",
+  "draw_signature_sha256": "918ed3d3bf7bec5110ac869e64eb3c877b913d6e345a5f841cb715a50b710852",
+  "frozen_manifest_sha256": "41edd889cd77606d54c7c25979fc21df028f3091b20aae81acb17432a7707b91",
+  "github_source_commit": {
+    "http_date": "Thu, 26 Nov 2026 21:58:33 GMT",
+    "observed_utc": "2026-11-26T21:58:33.697754+00:00",
+    "request_id": "B185:3A14AC:6CA4A5:A667B4:6B08AB88",
+    "resource": "git/commits/861bc00b5836aabb8aea9dc129f0674afbe30fc2",
+    "status": 200
+  },
+  "github_source_ref": {
+    "http_date": "Thu, 26 Nov 2026 21:58:32 GMT",
+    "observed_utc": "2026-11-26T21:58:32.623973+00:00",
+    "request_id": "B184:123409:6BF7C4:A5ED64:6B08AB87",
+    "resource": "git/ref/heads/codex/exp-x16",
+    "status": 200
+  },
+  "package_lock_sha256": "97d135cbce80159bee33ba95590dd52273c86b59312931a845ff47594d3224a9",
+  "prepared_utc": "2026-11-26T21:59:28.371573+00:00",
+  "round": 34309120,
+  "scheduled_utc": "2026-11-26T22:05:24.000Z",
+  "schema": 1,
+  "source_commit": "861bc00b5836aabb8aea9dc129f0674afbe30fc2"
+}

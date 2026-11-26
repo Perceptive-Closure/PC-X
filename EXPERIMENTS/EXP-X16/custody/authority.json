@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "catalogue_sha256": "49a46449bbd1f710127b7ac41a86308e723bf0ed61fd84946f6c3156a4aba847",
+  "source_commit": "861bc00b5836aabb8aea9dc129f0674afbe30fc2",
+  "frozen_manifest_sha256": "41edd889cd77606d54c7c25979fc21df028f3091b20aae81acb17432a7707b91",
+  "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAyov+/+nzQS2SFStMIzkBc5tuJcNlmsMDTUJhFINNTMs=\n-----END PUBLIC KEY-----\n",
+  "signature": "swPEZhQIHW9+v+cdydhunHlvv6ySVGzgn/6TPW5dF1deDbBCmpCXzqT8c/49SeZRSn1QTOirEpv666U0dskVAw=="
+}
