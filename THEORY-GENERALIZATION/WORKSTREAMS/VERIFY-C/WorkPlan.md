@@ -1,0 +1,7 @@
+# Independent monitoring and composition verification work plan
+
+27 November 2026. Verify the exact M05 extensions of T25, T26 and T27. An isolated checkout holds the exact statement-only intake and the original accepted D-35 and PC-X reconstruction. The complete constructor proof remains outside the review scope until a signed independent derivation has been published and independently read back. A distinct host attachment and branch will be assigned.
+
+Restate the admitted plant, actual truth, monitor observation, probe, policy and joint-law types with their quantifiers. Independently derive the extremal/risk bounds and substantive synthesis/propagation claims, or give the smallest precise counterexample. Verify genuine feasible underlying joint laws, zero violation denominators, implications of shared latent state, separately verified conditional rows, history-dependent interaction and observation-policy correspondence. Use finite exact control and primary prior sources where helpful. Distinguish a sound outer bound from an attainable extreme.
+
+Publish an immutable blind derivation and stage Path. Under an explicit later release, read and compare the exact proofs line by line. Keep failed assumptions and open obligations. End with RESULTS containing a proposed parent disposition and novelty and empirical boundaries. Only WORKSTREAMS/VERIFY-C/Path.md and VERIFICATION/VERIFY-C are writable. The original history, sources and experimental families are read-only. No new experimental work or branch integration. [Baseline](../../BASELINE-MANIFEST.md)
