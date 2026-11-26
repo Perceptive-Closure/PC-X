@@ -1,0 +1,36 @@
+{
+  "opa": {
+    "asset": "https://github.com/open-policy-agent/opa/releases/download/v1.22.4/opa_windows_amd64.exe",
+    "commit": "ba39415db4b3c90cd68942a74b3cc2223ec2b23c",
+    "document": {
+      "path": "docs/docs/http-api-authorization.md",
+      "section": "Steps / 1. Create a policy bundle / first example.rego fenced block",
+      "sha256": "5aabd3124df9d68168f56abd3c695f228ea57b4d62c0a04c419fab12caf28011"
+    },
+    "platform": "windows/amd64",
+    "release": "https://github.com/open-policy-agent/opa/releases/tag/v1.22.4",
+    "sha256": "4cd179b95041aa50c44241324da3becf35d0b28dca92bf10a07f32d002724d5e",
+    "vendored": {
+      "vendor/LICENSE": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08",
+      "vendor/example.rego": "6783c19d0b7aa5906f72b2530e6080b590a2a4625be8bef7998e209786286881"
+    },
+    "version": "1.22.4"
+  },
+  "reference_hash_format": "Git blob bytes with CRLF checkout line endings normalized to LF",
+  "references": {
+    "X01": {
+      "commit": "a52d45f1b8c0036b1a69b1fc024f95e48d4ce012",
+      "source_files": {
+        "EXPERIMENTS/EXP-X01/src/model.py": "43bf43b4ba082a251746c946915ef49eaf413fbcead81e3d2e877b090d12a452",
+        "EXPERIMENTS/EXP-X01/src/reference.py": "fe11c22d017f3b2fa9508e2a2b953878c8c59bede788be7b8164a79f8a60ae7d"
+      }
+    },
+    "X03": {
+      "commit": "d85fe1cdb76cbc6d03e58e34f320c4c58a3f243c",
+      "source_files": {
+        "EXPERIMENTS/EXP-X03/src/certificates.py": "16e818ff35f459847fbdf68c0be21be49069e94f6e85b941e5d701b7e9eb5a29",
+        "EXPERIMENTS/EXP-X03/src/reference.py": "b5584db4e3696a098b7f77852e102179a063a0fef5ce044ff7a5d2b4a7c6547e"
+      }
+    }
+  }
+}

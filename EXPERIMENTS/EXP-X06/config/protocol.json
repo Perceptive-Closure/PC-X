@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "charter_sha256": "3110e8020cc1b86cdf7ba389602fb0ce0b941be84dfdef05d3eeb5580dec06bc",
+  "freeze_order": ["none", "E", "R", "A", "ER", "EA", "RA", "ERA"],
+  "primary_budget": 1,
+  "query_families": [
+    {"id": "envelope-schema", "cost": 1},
+    {"id": "admission-count", "cost": 2},
+    {"id": "renderer-partition", "cost": 4}
+  ],
+  "strata": [
+    {"id": "self", "backup_cost": 3, "requests": [["alice", "GET", "alice"], ["alice", "GET", "charlie"]]},
+    {"id": "manager", "backup_cost": null, "requests": [["bob", "GET", "alice"], ["bob", "GET", "charlie"]]},
+    {"id": "second-manager", "backup_cost": 5, "requests": [["betty", "GET", "betty"], ["betty", "GET", "alice"]]},
+    {"id": "method", "backup_cost": null, "requests": [["charlie", "GET", "charlie"], ["charlie", "POST", "charlie"]]}
+  ],
+  "development_controls": [
+    {"id": "dev-self", "request": ["demo-reader", "GET", "demo-reader"], "expected": true},
+    {"id": "dev-manager", "request": ["betty", "GET", "charlie"], "expected": true},
+    {"id": "dev-unrelated", "request": ["charlie", "GET", "alice"], "expected": false},
+    {"id": "dev-method", "request": ["alice", "POST", "alice"], "expected": false}
+  ]
+}

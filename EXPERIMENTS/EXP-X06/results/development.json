@@ -1,0 +1,70 @@
+{
+  "development": [
+    {
+      "expected": true,
+      "id": "dev-self",
+      "native": {
+        "decision": true,
+        "disposition": "exit",
+        "returncode": 0,
+        "stderr": "",
+        "stdin": "{\"method\":\"GET\",\"path\":[\"finance\",\"salary\",\"demo-reader\"],\"user\":\"demo-reader\"}",
+        "stdout": "{\n  \"result\": [\n    {\n      \"expressions\": [\n        {\n          \"value\": true,\n          \"text\": \"data.httpapi.authz.allow\",\n          \"location\": {\n            \"row\": 1,\n            \"col\": 1\n          }\n        }\n      ]\n    }\n  ]\n}\n"
+      }
+    },
+    {
+      "expected": true,
+      "id": "dev-manager",
+      "native": {
+        "decision": true,
+        "disposition": "exit",
+        "returncode": 0,
+        "stderr": "",
+        "stdin": "{\"method\":\"GET\",\"path\":[\"finance\",\"salary\",\"charlie\"],\"user\":\"betty\"}",
+        "stdout": "{\n  \"result\": [\n    {\n      \"expressions\": [\n        {\n          \"value\": true,\n          \"text\": \"data.httpapi.authz.allow\",\n          \"location\": {\n            \"row\": 1,\n            \"col\": 1\n          }\n        }\n      ]\n    }\n  ]\n}\n"
+      }
+    },
+    {
+      "expected": false,
+      "id": "dev-unrelated",
+      "native": {
+        "decision": false,
+        "disposition": "exit",
+        "returncode": 0,
+        "stderr": "",
+        "stdin": "{\"method\":\"GET\",\"path\":[\"finance\",\"salary\",\"alice\"],\"user\":\"charlie\"}",
+        "stdout": "{\n  \"result\": [\n    {\n      \"expressions\": [\n        {\n          \"value\": false,\n          \"text\": \"data.httpapi.authz.allow\",\n          \"location\": {\n            \"row\": 1,\n            \"col\": 1\n          }\n        }\n      ]\n    }\n  ]\n}\n"
+      }
+    },
+    {
+      "expected": false,
+      "id": "dev-method",
+      "native": {
+        "decision": false,
+        "disposition": "exit",
+        "returncode": 0,
+        "stderr": "",
+        "stdin": "{\"method\":\"POST\",\"path\":[\"finance\",\"salary\",\"alice\"],\"user\":\"alice\"}",
+        "stdout": "{\n  \"result\": [\n    {\n      \"expressions\": [\n        {\n          \"value\": false,\n          \"text\": \"data.httpapi.authz.allow\",\n          \"location\": {\n            \"row\": 1,\n            \"col\": 1\n          }\n        }\n      ]\n    }\n  ]\n}\n"
+      }
+    },
+    {
+      "expected": "input-error",
+      "id": "invalid-json",
+      "native": {
+        "decision": null,
+        "disposition": "exit",
+        "returncode": 2,
+        "stderr": "unable to parse input: yaml: line 1: did not find expected node content\n",
+        "stdin": "{\"user\":",
+        "stdout": ""
+      }
+    }
+  ],
+  "engine": {
+    "disposition": "exit",
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "Version: 1.22.4\nBuild Commit: ba39415db4b3c90cd68942a74b3cc2223ec2b23c-dirty\nBuild Timestamp: 2026-11-12T10:00:27Z\nBuild Hostname: \nGo Version: go1.27.4\nPlatform: windows/amd64\nRego Version: v1\nWebAssembly: available\n"
+  }
+}
