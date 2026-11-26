@@ -8,9 +8,9 @@
 
 | Slot | Experiment | Agent | Lifecycle |
 | --- | --- | --- | --- |
-| 1 | X02 | exp_x02 | RESERVED |
-| 2 | X04 | exp_x04 | RESERVED |
-| 3 | X10 | exp_x10 | RESERVED |
+| 1 | X02 | exp_x02 | DISPATCHED |
+| 2 | X04 | exp_x04 | DISPATCHED |
+| 3 | X10 | exp_x10 | DISPATCHED |
 
 Each slot remains occupied through parent clean-checkout verification, safe cleanup, and independent verification of remote evidence and cleanup. Reserved slots count toward the concurrency ceiling.
 
@@ -19,15 +19,15 @@ Each slot remains occupied through parent clean-checkout verification, safe clea
 | Experiment | State | Scientific verdict | Branch | Commit and verification |
 | --- | --- | --- | --- | --- |
 | X01 | COMPLETE | Finite agreement supported | codex/exp-x01 | [a52d45f1b8c0036b1a69b1fc024f95e48d4ce012](https://github.com/Perceptive-Closure/PC-X/tree/a52d45f1b8c0036b1a69b1fc024f95e48d4ce012/EXPERIMENTS/EXP-X01) |
-| X02 | WORKPLAN_CREATED | Pending | codex/exp-x02 | X01 accepted and cleaned |
+| X02 | DISPATCHED | Pending | codex/exp-x02 | X01 accepted and cleaned |
 | X03 | COMPLETE | Finite minimum-cost correctness supported | codex/exp-x03 | [d85fe1cdb76cbc6d03e58e34f320c4c58a3f243c](https://github.com/Perceptive-Closure/PC-X/tree/d85fe1cdb76cbc6d03e58e34f320c4c58a3f243c/EXPERIMENTS/EXP-X03) |
-| X04 | WORKPLAN_CREATED | Pending | codex/exp-x04 | X03 accepted and cleaned |
+| X04 | DISPATCHED | Pending | codex/exp-x04 | X03 accepted and cleaned |
 | X05 | WORKPLAN_CREATED | Pending | codex/exp-x05 | Awaiting X01–X03 |
 | X06 | WORKPLAN_CREATED | Pending | codex/exp-x06 | Awaiting X01 and X03 |
 | X07 | WORKPLAN_CREATED | Pending | codex/exp-x07 | Awaiting X03 |
 | X08 | COMPLETE | Bounded transcript equivalence and forecast supported | codex/exp-x08 | [a8c6650a7ff9901ca9ac5ed4036a37f6cb7c9200](https://github.com/Perceptive-Closure/PC-X/tree/a8c6650a7ff9901ca9ac5ed4036a37f6cb7c9200/EXPERIMENTS/EXP-X08) |
 | X09 | WORKPLAN_CREATED | Pending | codex/exp-x09 | Awaiting X04 and X08 |
-| X10 | WORKPLAN_CREATED | Pending | codex/exp-x10 | X08 accepted and cleaned |
+| X10 | DISPATCHED | Pending | codex/exp-x10 | X08 accepted and cleaned |
 | X11 | WORKPLAN_CREATED | Pending | codex/exp-x11 | Awaiting X08 |
 | X12 | WORKPLAN_CREATED | Pending | codex/exp-x12 | Awaiting X09–X11 |
 | X13 | WORKPLAN_CREATED | Pending | codex/exp-x13 | Awaiting X10 and X11 |
@@ -59,6 +59,8 @@ Automatic command approval rejected recursive removal and individually verified 
 
 On 2026-11-26 at 19:17 Asia/Karachi, Infernus explicitly directed the parent to perform the cleanup. The parent used File Explorer's permanent-delete workflow after verifying the exact targets, absence of reparse points, and all three remote commits. Independent filesystem readback confirmed the three roots and every nested experiment-owned file and cache were absent. All three remote heads were unchanged on readback. The removed files accounted for 14,155,777 logical bytes. Slots 1–3 were released. X02, X04 and X10 were selected for the next wave.
 
+The next wave uses one managed Git worktree per experiment with all ignored scratch and caches scoped inside the managed checkout. Parent reproducibility checks retrieve the exact committed source independently from GitHub. This permits scoped checkout cleanup through the app's worktree lifecycle.
+
 ## Findings and outstanding obligations
 
-Operationally complete 3/15. Three next-wave slots reserved and nine experiments awaiting prerequisites. Accepted claims remain bounded to the tested finite and sandbox systems. The general transport and flagship results remain open.
+Operationally complete 3/15. X02, X04 and X10 have been dispatched, and nine experiments are queued. Accepted claims remain bounded to the tested finite and sandbox systems. The general transport and flagship results remain open.
