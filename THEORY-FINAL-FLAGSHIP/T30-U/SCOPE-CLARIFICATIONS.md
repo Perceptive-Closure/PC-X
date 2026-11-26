@@ -1,0 +1,9 @@
+# T30.U scope clarifications after independent derivation
+
+The original statement-only seal retains its exact bytes. The proof-blind derivation was retrieved before release of the constructor argument. [Statement seal](https://github.com/Perceptive-Closure/PC-X/commit/8f352f3410c69d439ead403672cad365aaa7ac38) · [Blind proof](https://github.com/Perceptive-Closure/PC-X/commit/9c057892f47964b8ef2047395aedded81f39a31b)
+
+- U.2 requires the actual allowed stop and action rules, the hard-budget indicators and every event variable used by the objective to be compiled into the complete time, recorded and hidden state. Equal posterior supports alone do not carry these semantics or numeric likelihoods.
+- In U.4 the number of reachable decision states is quadratic over the prelude regardless of whether the terminal true hazard is private to the scorer. If the hazard remains hidden, an action/letter pair can reach multiple hidden terminal states. The uniform unifilar bound from U.2 is then used for the prelude, and the fixed-size ending supplies a direct bounded extension. If actual terminal scoring is allowed to disclose that risk indicator after the last action, no earlier decision gains information and the full instantiation is unifilar. An equivalent terminal-payoff representation applies when the exact conditional event and utility laws are separately verified.
+- Every positive route in the worked classes reaches one legal finalizer. Other counted occurrences are safe or have their actual event included. The general U model has no implicit law forcing this behavior and instead takes the count, guard and loss rules as explicit compilation obligations.
+
+The independent check of these readings and the two constructor arguments is recorded separately. A missing physical correspondence, extra source-compatible behavior or an untracked allowed stop prevents automatic use of the exact optimum.
