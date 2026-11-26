@@ -1,0 +1,274 @@
+{
+  "protocol_version": 1,
+  "base_commit": "003e4e580d729b84fb7086d8912a1e34327c3199",
+  "charter_sha256": "3110e8020cc1b86cdf7ba389602fb0ce0b941be84dfdef05d3eeb5580dec06bc",
+  "charter_pages": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    34,
+    35,
+    36
+  ],
+  "predecessors": {
+    "EXP-X01": {
+      "sha": "a52d45f1b8c0036b1a69b1fc024f95e48d4ce012",
+      "method": "Checkpoint contracts, observable proper minimax policies and extensional full-support touch in src/model.py and src/reference.py"
+    },
+    "EXP-X02": {
+      "sha": "18bc904d7073df3536d9794f18b868b9a3de53bc",
+      "method": "Local Boolean evidence, source-preserving completions and independent policy support catalogs in model.py and reference.py"
+    },
+    "EXP-X03": {
+      "sha": "d85fe1cdb76cbc6d03e58e34f320c4c58a3f243c",
+      "method": "Uniform weighted disagreement transversals and independent direct partition optimum in src/certificates.py and src/reference.py"
+    }
+  },
+  "environment": {
+    "python": "CPython 3.13.7",
+    "dependencies": "standard library",
+    "python_hash_seed": 0,
+    "workers_per_method": 1
+  },
+  "source": {
+    "fragment": "observable-serial-authority-dag-v1",
+    "history_ids": [
+      "request",
+      "review",
+      "approved",
+      "service",
+      "exception"
+    ],
+    "sealed_classes": [
+      "permit",
+      "deny"
+    ],
+    "route_costs": "start=1+stage_surcharge+2*i; continuations 1 and 2; fallback uses i=width; terminal cost=1",
+    "max_stages": 64,
+    "max_stage_width": 3,
+    "cost_upper_bound": 10000
+  },
+  "grid": {
+    "small": {
+      "widths": [
+        2,
+        3
+      ],
+      "stages": [
+        1,
+        2,
+        3
+      ],
+      "correlations": [
+        "free",
+        "half",
+        "dense"
+      ],
+      "seed": 51117
+    },
+    "bridge": [
+      {
+        "width": 2,
+        "stages": 4,
+        "correlation": "free",
+        "seed": 51141,
+        "freeze": "R",
+        "threshold": "middle"
+      },
+      {
+        "width": 3,
+        "stages": 4,
+        "correlation": "free",
+        "seed": 51142,
+        "freeze": "A",
+        "threshold": "middle"
+      }
+    ],
+    "large": {
+      "widths": [
+        2,
+        3
+      ],
+      "stages": [
+        8,
+        24,
+        64
+      ],
+      "correlations": [
+        "free",
+        "half",
+        "dense"
+      ],
+      "seed": 51601
+    },
+    "factorial_order": [
+      "width",
+      "stages",
+      "correlation"
+    ],
+    "freeze_cycle": [
+      "R",
+      "E",
+      "A"
+    ],
+    "threshold_cycle": [
+      "middle",
+      "tight"
+    ],
+    "seed_rule": "base_seed + zero-based ordered factorial index",
+    "local_correlation": "half correlates even-index stages; dense correlates every stage; at a correlated stage, select equality or XOR of the first two facts from its seeded generator; other facts remain free",
+    "threshold_rule": "terminal cost plus all public minimum stage costs, plus stage count for middle and zero for tight"
+  },
+  "controls": [
+    {
+      "name": "correlated-point",
+      "width": 2,
+      "stages": 1,
+      "correlation": "xor",
+      "seed": 51001,
+      "freeze": "R",
+      "threshold": "top"
+    },
+    {
+      "name": "blocked-but-consistent",
+      "width": 2,
+      "stages": 1,
+      "correlation": "free",
+      "seed": 51002,
+      "freeze": "ER",
+      "threshold": "top"
+    },
+    {
+      "name": "contradictory-evidence",
+      "width": 2,
+      "stages": 1,
+      "correlation": "contradiction",
+      "seed": 51003,
+      "freeze": "R",
+      "threshold": "middle"
+    },
+    {
+      "name": "missing-fast-fact",
+      "width": 2,
+      "stages": 1,
+      "correlation": "free",
+      "seed": 51004,
+      "freeze": "R",
+      "threshold": "tight",
+      "fallback": false,
+      "hidden": [
+        0
+      ],
+      "omit_parity": true
+    },
+    {
+      "name": "full-positive-support",
+      "width": 2,
+      "stages": 1,
+      "correlation": "free",
+      "seed": 51005,
+      "freeze": "R",
+      "threshold": "tight"
+    },
+    {
+      "name": "worst-branch-cost",
+      "width": 2,
+      "stages": 1,
+      "correlation": "free",
+      "seed": 51006,
+      "freeze": "A",
+      "threshold": "below"
+    },
+    {
+      "name": "unreachable-locator",
+      "width": 3,
+      "stages": 1,
+      "correlation": "free",
+      "seed": 51007,
+      "freeze": "R",
+      "threshold": "middle",
+      "unreachable": true
+    },
+    {
+      "name": "correlation-pair-excluded",
+      "width": 2,
+      "stages": 1,
+      "correlation": "xor",
+      "seed": 51008,
+      "freeze": "R",
+      "threshold": "tight"
+    },
+    {
+      "name": "forced-work-refusal",
+      "width": 2,
+      "stages": 2,
+      "correlation": "free",
+      "seed": 51009,
+      "freeze": "R",
+      "threshold": "middle",
+      "symbolic_step_cap": 0
+    },
+    {
+      "name": "forced-deadline-refusal",
+      "width": 2,
+      "stages": 2,
+      "correlation": "free",
+      "seed": 51010,
+      "freeze": "R",
+      "threshold": "tight",
+      "symbolic_deadline_seconds": 0
+    },
+    {
+      "name": "unsupported-observation",
+      "width": 2,
+      "stages": 1,
+      "correlation": "free",
+      "seed": 51011,
+      "freeze": "R",
+      "threshold": "middle",
+      "alias_observations": true
+    }
+  ],
+  "budgets": {
+    "symbolic_steps": 5000000,
+    "eager_opposite_pairs": 1000000,
+    "explicit_completions": 8192,
+    "partition_row_visits": 2000000,
+    "query_subsets": 65536,
+    "run_wall_seconds": 20,
+    "traced_run_wall_seconds": 60
+  },
+  "sampling": {
+    "time_repetitions": 3,
+    "allocation_repetitions": 1,
+    "random_query_permutations": 8,
+    "random_query_seed": 51591
+  },
+  "methods": [
+    "lazy",
+    "dominance-off",
+    "direct-partition",
+    "eager-disagreement"
+  ],
+  "results": {
+    "timing": "uncached end-to-end solve in a single Python process, without allocation tracing; medians plus individual wall times",
+    "memory": "independent solve with tracemalloc enabled; peak Python-traced allocations, excluding input construction, imports and process RSS",
+    "counter_keys": [
+      "compiled_modes",
+      "materialized_completions",
+      "oracle_calls",
+      "pair_transitions",
+      "state_prunes",
+      "peak_pair_states",
+      "optimizer_searches",
+      "lower_bound",
+      "upper_bound",
+      "explicit_rows",
+      "opposite_pairs",
+      "query_subsets"
+    ],
+    "reproducibility": "stable evidence excludes clocks, allocation bytes and host fields; raw benchmark bytes have a separate archival digest"
+  }
+}
