@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "experiment": "EXP-X03",
+  "python": "3.13.7",
+  "exhaustive": {
+    "answer_profiles": [["0", "0"], ["0", "1"], ["1", "0"], ["1", "1"]],
+    "distinct_profile_costs": [[1, 1], [1, 3], [3, 1]],
+    "three_slot_alias_costs": [2, 3]
+  },
+  "seeded": {
+    "base_seed": 712003,
+    "cases_per_stratum": 24,
+    "strata": ["binary_sparse", "categorical", "forced_alias", "correlated"],
+    "completion_min": 4,
+    "completion_max": 11,
+    "query_min": 4,
+    "query_max": 7,
+    "cost_min": 1,
+    "cost_max": 9
+  },
+  "comparators": {
+    "random_permutations": 16,
+    "random_seed": 390031,
+    "greedy_tiebreak": "least cost; then input query order",
+    "deletion_order": "input query order",
+    "inaccessible_reporting": "full attempted cost and abstention, excluded from finite optimality gaps"
+  },
+  "controls": [
+    "empty_evidence",
+    "homogeneous_distinct_contracts",
+    "no_queries_heterogeneous",
+    "localized_inaccessibility",
+    "weighted_deletion_trap",
+    "greedy_cover_trap",
+    "strict_local_global",
+    "categorical_query",
+    "equal_cost_ties",
+    "cost_perturbation",
+    "missing_query_perturbation",
+    "answer_perturbation"
+  ],
+  "authorization": {
+    "freeze_order": ["none", "E", "R", "A", "ER", "EA", "RA", "ERA"],
+    "action_costs": {"fast": 1, "archive": 5, "grant": 2, "certified": 2},
+    "query_costs": {"fast_admission": 3, "archive_mapping": 2, "entry_license": 4, "fast_and_license": 6},
+    "fixtures": ["pc_grid_rfreeze", "pc_grid_signature", "pc_correlated_rfreeze", "pc_missing_fast_rfreeze", "pc_homogeneous_rfreeze"]
+  },
+  "acceptance": {
+    "allowed_unexplained_cost_or_status_mismatches": 0,
+    "allowed_invalid_witnesses_or_certificates": 0,
+    "check_every_scope_and_subset_with_independent_partition": true,
+    "require_named_controls_and_perturbations": true
+  }
+}
