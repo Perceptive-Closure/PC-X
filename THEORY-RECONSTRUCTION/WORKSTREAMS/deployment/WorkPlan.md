@@ -1,0 +1,17 @@
+# Deployment transport and statistical audits work plan
+
+## Scope
+
+Constructor for T15–T24. Write only `THEORY-RECONSTRUCTION/THEOREMS/T15` through `T24` and `WORKSTREAMS/deployment`. The parent owns the shared registry. Read the whole charter pp. 18–27 and related summaries, D-35 contract semantics, and exact X08, X09, X11, X12 and X15 methods, counters, configs, tests and data. Deadline-preserving checks on finite scripts are authorized. Do not modify source history or run a new deployment study. General malicious evasion, unrestricted intelligence claims and a publication draft are outside the scope.
+
+## Mathematical questions and proof gates
+
+Type the complete source/evaluator/monitor/trusted instrumentation/governance/deployment contract. Retain D-35 by a substantive positive-support zero-risk and cost-budget specialization, or give the exact recovery map. For T15–T17 prove indistinguishability for all allowed combined interactive protocols via equality of conditional response laws on reachable histories, and show the converse when histories can lawfully be reached and extended. Build an explicit source-identical, evaluator-law-identical but deployment-risk-different controlled family with a distinct missing semantic anchor.
+
+T18 is a proof priority. Derive independently inspectable structural conditions (for example a supported observation/resource relation, common action authorization, conditional transition-table checks and target-event preservation) that entail the required transport law or comparison. Distinguish a measured reference outcome from the target instrument and deployment environment. Provide a usable exact special case, an approximate variant with audited quantities and a counterexample for each material missing anchor. Do not assume the equality that the conclusion needs. Develop attainment-aware sharp range/threshold conclusions and support-gap limits for T19–T20. Record the precise cost and evidence conditions under which direct trusted measurement is preferable to semantic auditing, including X12's lower-cost/high-coverage comparator.
+
+T21–T24 require the total-variation lower bound, legitimate stopped adaptive KL decomposition (resettable and history-dependent forms), and a time-valid certification scheme with explicit abstention. For T24 show a nontrivial positive finite-cost strategy under explicit trusted cue/response/reset restrictions, with robust validity against an articulated history-dependent nuisance class or an honest unresolved boundary. Keep expected, maximal and fixed-budget costs separate. Preserve the X09 two false favorable shift cases and all separate-family confidence and combined-upper-error qualifications. Preserve the X08/X11 custody chronology limitations.
+
+## Literature and execution
+
+Use primary papers on partial reward identifiability, causal abstraction/transportability, approximate bisimulation, controlled sensing, change of measure, confidence sequences and evaluation awareness. State the nearest results and why each mechanism is shared or extra. Log what could not be established. First seal `WORKSTREAMS/deployment/STATEMENTS.md` containing only exact statements, assumptions and dependencies. Then write complete proofs, failure cases and independent-replay resources with every theorem dossier. Maintain Path.md as results develop. Safely scoped commit and exact GitHub readback precede handoff. Independent derivation, hostile review and parent decision remain prerequisites for acceptance.
