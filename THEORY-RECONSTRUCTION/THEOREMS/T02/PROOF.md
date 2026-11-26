@@ -1,0 +1,16 @@
+# T02 proof candidate · Source-semantic boundary non-identifiability
+
+D-35 p. 5 and Appendix C pp. 12–13, carried into PC-X charter p. 5, assert pure-E and pure-R alternatives for the same fast atom of one partially specified implementation. Fix any finite real $g>0$.
+
+Let $X=\{0,1\}$ with $a(i)=i$. Use $U=\{u,h_\star,h_0,h_1,b_0,b_1\}$. Both worlds are compatible with $u$, no world is directly compatible with $h_\star$, and each $h_i,b_i$ is compatible exactly with $i$. This same compatibility relation serves both completions. D-35 p. 11 requires nonempty represented cells rather than universal direct compatibility of each chosen name.
+
+The partial source has an open entry, the fast atom $q$ at cost $1$, the optional backup $b$ at cost $1+g$, and named terminal locators for all supported branches. In world $i$ the raw record $d_i$ exists in implementation memory before $q$. The fast implementation copies it into the authorization-interface payload and gives the documented outcome and target class $i$. The backup gives a separately signed record and class $i$. The source evidence pins that data flow, the physical graph, action and checkpoint locators, observations, outcomes, costs and terminal classes. Constant authority permits both ordinary source actions at entry. The partial description permits two semantics of admission and certificate equality.
+
+- In $C_E$, use identity partition throughout and $H=u$ at entry. On a $q$ terminal of class $i$ use $H=h_i$, and on a $b$ terminal use $H=b_i$. The atoms both touch only E.
+- In $C_R$, set $H=h_\star$ at entry and at both $q$ terminals. Initially the sole nonsingleton block is $\{h_\star,h_0,h_1\}$. At the $q$ terminal of class $i$ it is $\{h_\star,h_i\}$. The initial represented fiber contains both worlds via the two witnesses. Each new cell contains only its respective target world. The backup changes $H$ to $b_i$ and preserves the initial partition. Thus $q$ is pure R and $b$ pure E.
+
+All source-projected facts, including the visible support, costs, terminal labels and declared raw copying operation, agree. The difference is whether the pre-call context already belongs to the certificate-represented set of admitted histories or only enters admission at the call. The unrestricted value is $1$ in both. Under R freeze $q$ survives in $C_E$ for value $1$. In $C_R$ the only surviving closer is $b$ for value $1+g$. Omitting $b$ gives the structural $1$ versus $+\infty$ pair.
+
+Corollary 1 follows on this fixed input. Exact evaluation given each complete contract returns its own correct signature. Any function of the partial $\Omega$ receives the same input for these two required answers. Their R coordinates differ, so exact evaluation given a contract cannot furnish point identification from the omitted semantic evidence.
+
+If $h_\star$ were directly compatible with both target classes, no refinement preserving $H=h_\star$ could close the cell, since an equivalence class always contains its own representative. The explicit nonempty witness cells avoid that error. An independently justified governing anchor can exclude one interpretation and sharpen the identified set. Native X06 and X07 comparisons instantiate only their declared finite adapters and targets. [Evidence and native scope](../../WORKSTREAMS/foundation/EVIDENCE.md)

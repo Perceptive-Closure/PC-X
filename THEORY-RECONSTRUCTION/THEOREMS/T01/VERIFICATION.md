@@ -1,0 +1,3 @@
+# T01 verification intake
+
+The [exact statement](../../WORKSTREAMS/foundation/STATEMENTS.md#t01--d-35-theorem-1) is sealed separately from the [constructor proof](PROOF.md). The constructor checks the actual represented fibers, every touch, whole positive support, identical observations and ordinary menus, all-policy equivalence, initial openness and both finite and infinite R-frozen optima. Target classes remain visible with the same labels at the same action/outcome locations. The [bounded controls](../../WORKSTREAMS/foundation/check_foundation.py) exercise the explicit witness. Constructor status is PROOF_CANDIDATE. A blind derivation, hostile review and parent decision remain separate gates.
