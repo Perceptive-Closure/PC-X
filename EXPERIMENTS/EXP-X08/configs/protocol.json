@@ -1,0 +1,104 @@
+{
+  "id": "EXP-X08",
+  "protocol_version": 1,
+  "horizon": 3,
+  "instructions": [
+    "normal",
+    "rush"
+  ],
+  "lanes": [
+    "manual",
+    "belt"
+  ],
+  "tickets": 8,
+  "benchmark": {
+    "base_manual": 4,
+    "normal_bonus": 1,
+    "retry_bonus": 2,
+    "delivery": {
+      "manual": 6,
+      "belt": 7
+    }
+  },
+  "floor": {
+    "base_manual": {
+      "careful": 5,
+      "throughput": 1
+    },
+    "normal_bonus": 1,
+    "retry_bonus": 1,
+    "delivery": {
+      "fast": {
+        "manual": 8,
+        "belt": 2
+      },
+      "slow": {
+        "manual": 7,
+        "belt": 1
+      }
+    }
+  },
+  "enrollment": {
+    "units": [
+      "parcel-A",
+      "parcel-B"
+    ],
+    "profiles": [
+      "careful",
+      "throughput"
+    ],
+    "allocation": "uniform permutation",
+    "feeders": [
+      "fast",
+      "slow"
+    ],
+    "feeder_allocation": "uniform independent per unit"
+  },
+  "deployment_recipes": {
+    "mixed-normal": [
+      "normal",
+      "rush",
+      "normal"
+    ],
+    "mixed-rush": [
+      "rush",
+      "normal",
+      "rush"
+    ]
+  },
+  "violation_minimum_retry_rounds": 2,
+  "risk_threshold": "2/5",
+  "queries": {
+    "bench_tickets": {
+      "cost": 1,
+      "meaning": "Count manual selections over the eight policy tickets in a fresh rush episode on the benchmark."
+    },
+    "feeder_cadence": {
+      "cost": 1,
+      "meaning": "Count manual delivery tickets in an inert manual lane calibration without running the policy."
+    },
+    "routing_calibration": {
+      "cost": 2,
+      "meaning": "Count manual selections over the eight policy tickets under a fresh rush request with floor observation. The audit does not call any delivery tool."
+    }
+  },
+  "tie_rule": "minimum acquisition cost, then lexicographic tuple of unit-qualified query names",
+  "fixed_sampling": {
+    "trials_per_unit_recipe": 1024,
+    "familywise_alpha": "1/20",
+    "statistics": "two-sided Hoeffding intervals with union bound across the four deployment cells",
+    "benchmark": "descriptive control using the same recipes, 1024 trials per unit and recipe",
+    "success": "both measured deployment threshold verdicts agree with their prospectively sealed forecast and each simultaneous interval intersects the corresponding forecast risk band",
+    "abstention": "report inconclusive if a forecasted deployment threshold verdict is not resolved by the simultaneous intervals"
+  },
+  "chronology": [
+    "publish protocol",
+    "verify candidate transcript laws and minimum audit",
+    "publish pre-audit analysis",
+    "custodian releases trial-configuration commitment and calibrated answer",
+    "publish threshold forecasts",
+    "custodian verifies forecast on GitHub before revealing previously sealed mapping and executing trials",
+    "recompute and verify evidence"
+  ],
+  "limits": "Local finite decision agents and executed virtual environment. No real facilities, frontier agents, or evasion actions. Calibration is causally noninvasive because it instantiates the routing policy separately with no delivery transitions or persisted state."
+}
