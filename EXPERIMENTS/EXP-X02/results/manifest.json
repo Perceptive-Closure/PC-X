@@ -1,0 +1,8 @@
+{
+  "details_bytes": 1250806,
+  "details_sha256": "1592f451b0bb64e0132b89d134995b2309659bbf90dc029c5edbed53469a0d92",
+  "protocol_sha256": "f2acf7b305fa6ec074113e337db2ef7539e89e8ab1bb8e0061cf2681df240225",
+  "schema": "pcx-exp-x02-evidence-v1",
+  "summary_sha256": "ccb25a914e8e8587004d25a3cba508d894af6ae05662a5ba6ee26179a5a0ea4f",
+  "x01_commit": "a52d45f1b8c0036b1a69b1fc024f95e48d4ce012"
+}

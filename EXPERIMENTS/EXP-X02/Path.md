@@ -15,3 +15,36 @@ Controls freeze the charter XOR pair, its unconstrained counterpart, co-occurrin
 The corpus is ten hand controls, the 16 arbitrary truth masks of the two Boolean features with each of three action cost pairs, and 36 seeded cases. Each seed uses Python's `random.Random(seed)` for 12 instances with 3 or 4 features alternating by instance parity, topologies cycling by parity in pairs, and the cost and CNF ranges in [protocol.json](protocol.json). Seeded direct cases offer one route per feature with a constant E-only fallback. Seeded forks inspect two distinct open checkpoints whose downstream action sets offer a feature-conditioned route and a fallback. Each case tests both polarities of its first feature and then both polarities of its second under each first-feature refinement. Every case is exact over its declared finite support. The seeded workload is a deterministic coverage panel with no population inference. No production systems or paid dependencies are in scope.
 
 The design and generator parameters were frozen before generating results. Independent verification failures, unsupported cases and any deviations will be entered here before acceptance.
+
+## Phase 2 · Implementation and validation
+
+Implemented compact Boolean enumeration and the fixed-skeleton model, a separate truth-table and exhaustive policy support reference, the pinned X01 bridge, and endpoint and joint-set checks. Running test discovery from the repository root initially failed to import the local modules. Discovery from the experiment directory uses the intended module roots, and the reproduction steps now specify that directory.
+
+The all-infinite control exposed a missing X01 interface declaration when a graph offered no routes. Both declared interfaces now have unused action declarations even in such graphs. The ordinary candidate tables govern availability. This fixes contract well-formedness and preserves the frozen rules.
+
+## Phase 3 · Results
+
+All three freeze evaluators agreed on 1,992 cells from 249 compatible completions and eight freezes. Both evidence enumerators agreed on every case and refinement. Independent round-trip checks covered 1,328 endpoint witnesses, 191 joint-signature witnesses, all target-disagreement pairs, and all definite/possible removal extrema. All 564 nested refinements obeyed identified-set inclusion, with 304 strict reductions. The suite returned 22 point-identified, 61 partially identified, and 11 inconsistent cases. Contradictory evidence and an all-infinite signature were distinguished by a dedicated test. Source support, ordinary action availability, action location, and checkpoint-closure mutations were all refused.
+
+The rectangular relaxation contained every exact signature and agreed with the exact joint set in 54 of 83 nonempty cases. It strictly enlarged the set in the remaining 29 cases, adding 43 joint signatures across the corpus. It added attainable values in 76 of 664 defined freeze coordinates and widened bounds in 51. Nineteen point-identified coordinates appeared ambiguous after relaxation, and 36 finite upper bounds relaxed to infinity. The joint product of exact coordinate marginals omitted cross-freeze dependence in 58 cases, introducing 1,582 unattainable combinations across them. These are counts on the frozen designed panel rather than prevalence estimates.
+
+| Control | Exact attained R-frozen costs | Rectangular attained R-frozen costs |
+| --- | --- | --- |
+| Complementary unit actions | {1} | {1, ∞} |
+| Independent unit actions | {1, ∞} | {1, ∞} |
+| Co-occurring actions | {1, ∞} | {1, 3, ∞} |
+| Asymmetric joint trade-off | {1, 3} | {1, 3, ∞} |
+| Finite fixed fallback | {1, 2} | {1, 2, 5} |
+| Dependency chain | {1, ∞} | {1, 2, 4, ∞} |
+| Mixed positive support | {1, 3} | {1, 3, 6} |
+| First-support-only ablation | {1} | {1} |
+| Observable contingent branches | {7, 8} | {5, 7, 8} |
+| Contradictory evidence | Inconsistent | Undefined |
+
+The co-occurrence condition demonstrates added interior costs with unchanged endpoints. In the joint trade-off, the attainable E/R pairs are (1, 3) and (3, 1). Separately choosing marginal values would also include (1, 1) and (3, 3). The fixed fallback bounds the comparator at 5, while the correlation guarantees an attainable upper bound of 2. In the mixed case the second successor adds R to the entire atomic intervention. Dropping that successor changes the feasible source interface and the result. For the observable fork, a proper policy must close both branches, so its value uses the more costly branch. The independent policy catalogs validated the correspondence between proper-policy survival and disjointness of its whole support.
+
+In this fixed-kernel finite fragment, the results reproduce the non-identifiability and conditional source anchoring in T02–T03, exhibit T04 disagreement witnesses on finite source-compatible catalogs, and validate exact nonrectangular target sets and bounds for T11. The support computations check T12 for the specified policy family. Enumeration supplies constructive certificates or compatible target-distinct witnesses for the bounded T13 setting. Anchor changes are reported as unsupported. The study leaves general nonrectangular tractability, unrestricted policy semantics and deployment claims open.
+
+## Phase 4 · Reproduction
+
+The package retains the frozen protocol, code and ten passing tests. [summary.json](results/summary.json) stores aggregate results and key control witnesses. [manifest.json](results/manifest.json) pins the canonical summary and the complete regenerated details containing assignments, semantic touch sets, signatures, attainment and disagreement witnesses, and refinement checks. The full result is 1,250,806 canonical bytes with SHA-256 `1592f451b0bb64e0132b89d134995b2309659bbf90dc029c5edbed53469a0d92`. [README.md](README.md) gives the exact environment and independent reproduction commands.
