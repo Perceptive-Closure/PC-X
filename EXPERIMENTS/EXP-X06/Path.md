@@ -1,8 +1,8 @@
 # EXP-X06 execution record
 
-The experiment is running on `codex/exp-x06` from orchestration revision `4303e9eeaa1ba8218b43737826f46ce091e5f141`. The charter digest in [the configuration](config/protocol.json) was verified against the supplied 43-page PDF. Its source is read-only. The protocol uses the foundational resource freeze in pp. 2–9, the target-relative solver obligations in pp. 13–17, and the prospective custody and reproduction sequence in pp. 34–36.
+The experiment ran on `codex/exp-x06` from orchestration revision `4303e9eeaa1ba8218b43737826f46ce091e5f141`. The charter digest in [the configuration](config/protocol.json) was verified against the supplied 43-page PDF. Its source is read-only. The protocol uses the foundational resource freeze in pp. 2–9, the target-relative solver obligations in pp. 13–17, and the prospective custody and reproduction sequence in pp. 34–36.
 
-[The frozen protocol](Protocol.md) defines the common checkpoint graph, the two boundary witnesses and the primary budgeted closure endpoint. [The source manifest](config/provenance.json) pins X01, X03, the official OPA CLI binary, the byte-identical upstream example policy and the Apache 2.0 license. All experiments use inert offline fixture decisions.
+[The frozen protocol](Protocol.md) defines the common checkpoint graph, the two boundary witnesses and the primary budgeted closure endpoint. [The source manifest](config/provenance.json) pins X01, X03, the official OPA CLI binary, the byte-identical upstream example policy and the Apache 2.0 license. The experiment uses inert offline fixture decisions.
 
 ## Preaudit
 
@@ -39,3 +39,7 @@ All 8 primary verdicts and all 64 freeze coordinates matched the sealed forecast
 The opening recorded 117 offline OPA evaluations across the frozen coverage and five controls. There were 56 native allows and 56 native denies in the held-out evidence. All five controls passed, including the malformed request's diagnostic and exit code 2. The raw trace includes 48 prospective atomic transitions blocked before their native calls. The independent result validator reconstructed touch, the feasible actions and both target classes from the normalized checkpoints and raw native output. [Summary](results/summary.json) · [Per-instance trace hashes](results/manifest.json)
 
 A local fresh native replay reproduced the complete raw trace SHA-256 `83ac818003be1a8e7a7dccf01bbc36a3cbe92a740d215b03c50e6094f717c2af`. All traces measure coverage of the frozen finite workload. The adapter constructs the two admission semantics while the engine and policy come from upstream. The result supports prospective source-anchored recovery for the declared adapter and policy. General cross-system transport under T30 remains open.
+
+## Exact GitHub replay
+
+The experiment agent retrieved the [native-evidence revision](https://github.com/Perceptive-Closure/PC-X/commit/fb353b91905240a78af3b31d2f2e6010e02d0c99) and both pinned reference revisions in fresh GitHub archives without Git metadata. All nine tests passed. The preaudit, seven evidence file hashes and eight instance hashes matched. The fresh run executed 117 native evaluations and reproduced the raw trace and all 64 coordinate comparisons byte for byte. This ledger entry is the only change after the replayed evidence revision.
