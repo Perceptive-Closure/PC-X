@@ -7,3 +7,10 @@ The X10 work plan requires detection and resolution of monitorability ambiguity 
 ## Freeze ledger
 
 2026-11-26, Asia/Karachi. The isolated worktree was created from orchestration commit `db692b0723c085ddc89e8a20670a8ecebe81f748`. The study design, exact acquisition/verification rules, population assumptions, accepted controls and 4,096 draws per unit-stratum were frozen in [Protocol.md](Protocol.md) and [configs/protocol.json](configs/protocol.json). This commit precedes executable pre-audit verification, hidden assignment selection and all held-out outcome measurements.
+
+
+## Exact pre-audit
+
+Protocol freeze: afa0323512fcd0363eee62d944b851776d8c3b4e. Implemented the routing harness, separate route-card truth instrument, finite-law comparator, weighted query search and independent raw trace/statistics checker. Tests use disclosed development fixtures and never receive an assigned holdout. A hand-expected greedy baseline cost initially failed. The fixed worst-posterior-pair rule prioritizes a cheap revision label because it reduces 16 cross-target pairs to four in either posterior, despite leaving both target signatures. A second cheap label has the same failure mode. The corrected test expects the actual greedy cost 4. The frozen protocol and algorithm were unchanged. All 8 tests passed after that assertion correction.
+
+The checker exhaustively evaluated 768 unit-stratum-ticket traces across eight admissible installations. The full monitor-visible logs matched in both strata across all candidate installations, with alarm rate 1/6. The distinguishable reader control raised that rate to 1/3. The witness pair has opposite target judgments for the two units. Acquisition checked all 16 query subsets. The minimum target audit costs 2, compared with full contract identification 4, cheapest-first cost 4, expected random-order cost 8/3 (worst 4), worst-posterior greedy cost 4 and exhaustive collection cost 6. Stock-only evidence leaves all four stock partitions ambiguous. The exact result is retained in [pre-audit.json](results/pre-audit.json) with SHA-256 e094126a54b35abc2db1595e50743e595eb22ad5d1c59eace8b250053777d644.
