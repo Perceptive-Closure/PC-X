@@ -9,7 +9,7 @@
 | Slot | Experiment | Agent | Lifecycle |
 | --- | --- | --- | --- |
 | 1 | — | — | FREE |
-| 2 | X15 | exp_x15 | IMPLEMENTING, hostile replay |
+| 2 | — | — | FREE |
 | 3 | — | — | FREE |
 
 Each slot remains occupied through parent clean-checkout verification, safe cleanup, and independent verification of remote evidence and cleanup. Reserved slots count toward the concurrency ceiling.
@@ -32,7 +32,7 @@ Each slot remains occupied through parent clean-checkout verification, safe clea
 | X12 | COMPLETE | Bounded anchored transfer supported, cost advantage absent versus full audit | codex/exp-x12 | [486671cfcb52405ad226de553ce1df992f66b4fc](https://github.com/Perceptive-Closure/PC-X/tree/486671cfcb52405ad226de553ce1df992f66b4fc/EXPERIMENTS/EXP-X12) |
 | X13 | COMPLETE | Independent conditions for local-to-joint composition verified | codex/exp-x13 | [1b9e599a7333d9b9f85669298791557282a75c1b](https://github.com/Perceptive-Closure/PC-X/tree/1b9e599a7333d9b9f85669298791557282a75c1b/EXPERIMENTS/EXP-X13) |
 | X14 | COMPLETE | `4ed49718f364afe9ba0723e96f4111c370a12101` | codex/exp-x14 | 10 tests, all 40 held-out matches and managed checkout removed. |
-| X15 | IMPLEMENTING | Pending | codex/exp-x15 | Frozen at `79b1ac6f701f7fc4aa748815a0b7c8f9a893303c`. All 14 independently verified terminal pins delivered. |
+| X15 | COMPLETE | `9c3884846c895ead014ba06895cf74da2d15e726` | codex/exp-x15 | 14 exact inputs, 152 predecessor tests, 8 audit tests, 6 falsification control groups and managed checkout removed. |
 
 ## Parent verification ledger
 
@@ -90,13 +90,19 @@ Each slot remains occupied through parent clean-checkout verification, safe clea
 - X12 exact GitHub archive replay passed 15 tests, reproduced the raw gzip, summary and manifest, and satisfied all six preregistered gates. Independent readback reproduced all 98,304 queue/sorter episode scores in 24 cells and cost totals. Six decisions confirmed, six abstentions, zero false certifications, and coverage and interval overlap in all 24 cells. The evaluation-only method falsely certified seven of twelve. Omitting fidelity falsely certified two. Full trusted acquisition confirmed ten at 786,444 configured operations, versus six at 1,048,804 anchored operations. The fixed nonadaptive comparator confirmed six at 1,573,092 operations. No universal transfer claim or advantage over full audit follows. Parent verified managed worktree removal and unchanged remote tip. 7,903,693 logical bytes removed.
 - X07 and X14 are active. Before X15 dispatch, the parent approved staged retrieval of the twelve immutable terminal packages already available. The scope, independent falsification and full-program acceptance gates are unchanged. The complete audited input manifest and final acceptance require X07 and X14 terminal packages. This uses the third slot while those two finish.
 
-- X14 independent source retrieval verified the pre-audit executable `40b9cf52ed50f56c453b32360de05158c2328091`, 10 tests and both deterministic preflight digests. The parent verified forecast `26560eb729b5ab7e794c77066740ee24f8698e15`, its exact bytes and direct ancestry before opening the committed installation at 15:46:34.212365Z. Opening completed at 15:46:34.6824535Z. The local archive was regenerated with LF bytes after a Windows line-ending discrepancy. No experimental definition or control changed.
+- X14 independent source retrieval verified the pre-audit executable `40b9cf52ed50f56c453b32360de05158c2328091`, 10 tests and both deterministic preflight digests. The parent verified forecast `26560eb729b5ab7e794c77066740ee24f8698e15`, its exact bytes and direct ancestry at 15:46:34.212365Z. The opening record gives 15:46:34.613809Z and execution completed at 15:46:34.6824535Z. The local archive was regenerated with LF bytes after a Windows line-ending discrepancy. No experimental definition or control changed.
 
 - X14 terminal GitHub replay passed 10 tests and matched the manifest, opening, summary and raw ledger digests. An independent reconstruction checked each physical event and all 40 forecasts. Governed safety was 10/10 and utility 8/10, with 16 of 20 jobs qualified and two justified refusals. Fixed-left finished four tickets safely, single contract finished four and refused two safely, and refusal qualified zero jobs. Of 92 bounded cases, 22 were winning, 69 infeasible and one inconsistent. Seventeen scopes had individual policies for each compatible contract and no common policy. External acquisition cost 9 on the realized branch, with exact and greedy worst cost 11 against minimum static cost 20. Clean scope and reparse audit, managed checkout removal and unchanged GitHub head verified. Removed 15,269,812 logical bytes. X15 received the exact pin after closure.
 
 - X07 independent parent replay reproduced the X03 minimum-certificate proof from the pinned predecessor and downloaded pre-audit `4933d82cab463dfee60b18843acc4d7b524fe90a`. The parent seeded inert fixtures and obtained native diagnostic evidence only. The published forecast `31fc792c7f56e52159b85d88b8fdb4aa1c542661`, direct frozen parent, scope, prior commitment and prediction hash were verified at 15:52:12.2626262Z. Native opening completed at 15:52:13.6082487Z. Initial result was 8/8 for the independent audit, 6/8 coarse and 8/8 richer native fields. Terminal package and independent replay are pending.
 
 - X07 exact terminal GitHub archive passed all 5 tests, reproduced the OpenSSL 3.2.4 raw records, matched all 23 evidence digests and regenerated the pinned X03 proof. Independent scoring from return codes matched all eight outcomes plus the three native controls. Two corrected rejections and six retained failures gave 8/8 versus 6/8 coarse. The richer native diagnosis also scored 8/8. Each one-probe omission yielded four abstentions and no audit yielded eight. Uniform minimum cost was 4 with realized minima 4, 1, 3 and 1 across the four compatible types. The scope audit found 36 experiment paths and only public certificates. Managed checkout and scratch removed, 2,118,620 logical bytes, with unchanged GitHub head. X15 received this final pin after closure.
+
+- X15 froze its initial twelve input pins and independent rubric at `79b1ac6f701f7fc4aa748815a0b7c8f9a893303c`. After X14 and X07 each passed the terminal and cleanup gates, the auditor pinned and fetched it. The authenticated trees matched all fourteen archives. The source, commitment, exact/native replay and raw result checks reproduced all fourteen published packages and all 152 predecessor tests. Six falsification groups and eight audit harness tests passed.
+
+- X15 found a matched largest-case target and full-identity optimum of 677 each in X05. Buying every query cost 1,070. The 2^192 catalog-free computation and archived measured resource comparisons reproduced. The independent audit reaffirmed X07's richer native baseline tie and X12's cheaper and more informative trusted comparator. All nine commitment, source and ancestry checks passed. X08 and X11 retain qualifications on independently timestamping verification and opening.
+
+- The parent checked all 46 blobs of the exact X15 GitHub archive, verified the package manifest `5716b0a8859175030e5c0cb63932a0080ac888ecbe208048e4dd4f9203c4d34b` and passed all eight harness tests. A fresh parent replay reacquired the exact 14 input trees, reran all predecessor checks, reconstructed the full published independent result map and reproduced all nine remote custody-stage records and native runtime provenance. The scope and cleanup audit accounted for 333,712,019 logical bytes. The managed checkout and its scratch were removed. A fresh readback found all fifteen experimental workspace paths absent and all fifteen GitHub branch tips equal to their recorded SHAs.
 
 ## GitHub visibility change
 
@@ -120,4 +126,4 @@ The next wave uses one managed Git worktree per experiment with all ignored scra
 
 ## Findings and outstanding obligations
 
-Operationally complete 14/15. X15 is independently checking all 14 pinned primary packages. Accepted claims remain bounded to the tested finite and sandbox systems. The general transport and flagship results remain open.
+Operationally complete 15/15. All experimental checkouts and experiment-owned caches have been removed. The quantified results, negative findings, remaining proof obligations and reproducibility qualifications are in [FINAL-RESULTS.md](FINAL-RESULTS.md). The 12 generated parent PDF page renders are eligible for cleanup after the report and this ledger are pushed and verified.
