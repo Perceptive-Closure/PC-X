@@ -8,9 +8,9 @@
 
 | Slot | Experiment | Agent | Lifecycle |
 | --- | --- | --- | --- |
-| 1 | X01 | exp_x01 | DISPATCHED |
-| 2 | X03 | exp_x03 | DISPATCHED |
-| 3 | X08 | exp_x08 | DISPATCHED |
+| 1 | X01 | exp_x01 | IMPLEMENTING |
+| 2 | X03 | exp_x03 | IMPLEMENTING |
+| 3 | X08 | exp_x08 | IMPLEMENTING |
 
 Each slot remains occupied through parent clean-checkout verification, safe cleanup, and independent verification of remote evidence and cleanup. Reserved slots count toward the concurrency ceiling.
 
@@ -18,26 +18,27 @@ Each slot remains occupied through parent clean-checkout verification, safe clea
 
 | Experiment | State | Scientific verdict | Branch | Commit and verification |
 | --- | --- | --- | --- | --- |
-| X01 | DISPATCHED | Pending | codex/exp-x01 | Pending |
-| X02 | UNSTARTED | Pending | codex/exp-x02 | Pending |
-| X03 | DISPATCHED | Pending | codex/exp-x03 | Pending |
-| X04 | UNSTARTED | Pending | codex/exp-x04 | Pending |
-| X05 | UNSTARTED | Pending | codex/exp-x05 | Pending |
-| X06 | UNSTARTED | Pending | codex/exp-x06 | Pending |
-| X07 | UNSTARTED | Pending | codex/exp-x07 | Pending |
-| X08 | DISPATCHED | Pending | codex/exp-x08 | Pending |
-| X09 | UNSTARTED | Pending | codex/exp-x09 | Pending |
-| X10 | UNSTARTED | Pending | codex/exp-x10 | Pending |
-| X11 | UNSTARTED | Pending | codex/exp-x11 | Pending |
-| X12 | UNSTARTED | Pending | codex/exp-x12 | Pending |
-| X13 | UNSTARTED | Pending | codex/exp-x13 | Pending |
-| X14 | UNSTARTED | Pending | codex/exp-x14 | Pending |
-| X15 | UNSTARTED | Pending | codex/exp-x15 | Pending |
+| X01 | IMPLEMENTING | Pending | codex/exp-x01 | Protocol df82c2ffb97387fb0ac2e00dd53b741bf7e4408c |
+| X02 | WORKPLAN_CREATED | Pending | codex/exp-x02 | Awaiting X01 |
+| X03 | IMPLEMENTING | Pending | codex/exp-x03 | Protocol f5d23f4e8c3ff673c182f7f2ca9366251bba81a9 |
+| X04 | WORKPLAN_CREATED | Pending | codex/exp-x04 | Awaiting X03 |
+| X05 | WORKPLAN_CREATED | Pending | codex/exp-x05 | Awaiting X01–X03 |
+| X06 | WORKPLAN_CREATED | Pending | codex/exp-x06 | Awaiting X01 and X03 |
+| X07 | WORKPLAN_CREATED | Pending | codex/exp-x07 | Awaiting X03 |
+| X08 | IMPLEMENTING | Pending | codex/exp-x08 | Protocol 100cddd656a94e7ebdc3341df13b857c3ff030f4 |
+| X09 | WORKPLAN_CREATED | Pending | codex/exp-x09 | Awaiting X04 and X08 |
+| X10 | WORKPLAN_CREATED | Pending | codex/exp-x10 | Awaiting X08 |
+| X11 | WORKPLAN_CREATED | Pending | codex/exp-x11 | Awaiting X08 |
+| X12 | WORKPLAN_CREATED | Pending | codex/exp-x12 | Awaiting X09–X11 |
+| X13 | WORKPLAN_CREATED | Pending | codex/exp-x13 | Awaiting X10 and X11 |
+| X14 | WORKPLAN_CREATED | Pending | codex/exp-x14 | Awaiting X04 and X13 |
+| X15 | WORKPLAN_CREATED | Pending | codex/exp-x15 | Awaiting all predecessor terminal outcomes |
 
 ## Parent verification ledger
 
 - Repository metadata confirmed correct owner, private visibility and administrator access. Starting checkout and source PDFs are outside cleanup scope.
 - Verified the first remote protocol commit at `91c2158877e5440aedafd76a2b16f6bfa389c330`. Dispatched one isolated agent each for X01, X03 and X08, with disposable clones, isolated caches and independent parent review before cleanup.
+- All fifteen experiment work plans are versioned. X01 froze a cyclic finite positive-support fragment, X03 froze an exact weighted certificate corpus, and X08 froze independently assigned three-round parcel routing profiles. X08 assigned the parent prospective custodian. Held-out outcomes are sealed.
 
 ## Findings and outstanding obligations
 

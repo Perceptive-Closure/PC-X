@@ -16,6 +16,8 @@ Use belief update by realized query answer and stop on nonempty target-homogeneo
 
 Use a finite address family as structural control and a PC workflow that routes requests to genuinely consequential domain-specific evidence, representation and authority branches under an authorized checkpoint query. Include constant, unreadable, all-query and strict/weak savings cases. Freeze widths, seeds, comparators and budgets. Compare with exact static/local costs, full acquisition, greedy partitioning, a prior-weighted cross-target edge-cut or comparable disjoint decision-region baseline, and seeded random acquisition. Validate on tractable instances with independently enumerated deterministic trees or a decision-at-budget recursion. For larger closed-form controls give algebraic checks and distinguish extrapolated values from measurements.
 
+Decision-region precedent and the distinction between disjoint and overlapping regions are in [Javdani et al., AISTATS 2014](https://proceedings.mlr.press/v33/javdani14.html).
+
 ## E. Implementation
 
 Provide query/contract fixture generator, exact optimizer, policy replay verifier, independent reference, baseline algorithms and pinned seeds/configs. Retain raw case outcomes, time/memory and decisions at each reachable leaf. Supply reproduction commands and explicit policy acceptance.
