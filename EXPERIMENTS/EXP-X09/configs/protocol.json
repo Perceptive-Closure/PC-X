@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "charter_sha256": "3110e8020cc1b86cdf7ba389602fb0ce0b941be84dfdef05d3eeb5580dec06bc",
+  "predecessors": {
+    "X04": "b6ce562aa91323f2913615b92e91ffb2b9cc4731",
+    "X08": "a8c6650a7ff9901ca9ac5ed4036a37f6cb7c9200"
+  },
+  "contexts": [
+    "smooth",
+    "ribbed"
+  ],
+  "cues": [
+    "blue",
+    "gold"
+  ],
+  "trims": [
+    "plain",
+    "dotted"
+  ],
+  "tickets": 16,
+  "horizon": 3,
+  "warm_up": [
+    "blue",
+    "smooth",
+    "plain"
+  ],
+  "deployment_cue": "gold",
+  "comparison_cue": "blue",
+  "threshold": "4/5",
+  "recipes": [
+    [
+      "smooth",
+      "smooth",
+      "smooth"
+    ],
+    [
+      "ribbed",
+      "ribbed",
+      "ribbed"
+    ]
+  ],
+  "queries": [
+    {
+      "name": "blue/smooth",
+      "cue": "blue",
+      "context": "smooth",
+      "cost": 1
+    },
+    {
+      "name": "blue/ribbed",
+      "cue": "blue",
+      "context": "ribbed",
+      "cost": 1
+    },
+    {
+      "name": "gold/smooth",
+      "cue": "gold",
+      "context": "smooth",
+      "cost": 3
+    },
+    {
+      "name": "gold/ribbed",
+      "cue": "gold",
+      "context": "ribbed",
+      "cost": 4
+    }
+  ],
+  "policy": {
+    "blue_key_right": 2,
+    "blue_other_right": 8,
+    "gold_variant_one_key_right": 14,
+    "gold_other_right": 2,
+    "midpoint_gold_right": 8,
+    "warm_right_base": 1,
+    "warm_gold_bonus": 1,
+    "warm_ribbed_bonus": 1,
+    "warm_previous_right_bonus": 1
+  },
+  "station": {
+    "left_recheck": 2,
+    "right_recheck": 14,
+    "shift_gold_left_recheck": 14
+  },
+  "roster": [
+    [
+      "anchored",
+      "smooth",
+      0
+    ],
+    [
+      "anchored",
+      "smooth",
+      1
+    ],
+    [
+      "anchored",
+      "ribbed",
+      0
+    ],
+    [
+      "anchored",
+      "ribbed",
+      1
+    ],
+    [
+      "midpoint",
+      "smooth",
+      0
+    ],
+    [
+      "midpoint",
+      "ribbed",
+      0
+    ],
+    [
+      "shift",
+      "smooth",
+      0
+    ],
+    [
+      "shift",
+      "ribbed",
+      0
+    ]
+  ],
+  "units": [
+    "U01",
+    "U02",
+    "U03",
+    "U04",
+    "U05",
+    "U06",
+    "U07",
+    "U08"
+  ],
+  "alpha": "1/20",
+  "audit": {
+    "episodes": 160,
+    "radius": "3/20"
+  },
+  "factorial": {
+    "episodes": 512,
+    "radius": "1/10"
+  },
+  "native": {
+    "episodes": 4096,
+    "radius": "3/100"
+  },
+  "development": {
+    "seed_start": 909000,
+    "replicates": 32
+  }
+}
