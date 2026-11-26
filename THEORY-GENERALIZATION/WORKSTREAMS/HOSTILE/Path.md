@@ -1,3 +1,46 @@
 # Hostile mathematical review execution record
 
-Scheduled. Await exact scoped intake.
+27 November 2026, Asia/Karachi. Work began from the parent-provisioned detached pin `46edd86eec402fd3c357c77e37c8eb6d7cd00fbe` and then switched to `codex/pcx-gen-hostile`. The exact accepted baseline is `39a0d0e5b3283835094d17603b84e706b968f443`. See the assigned [work plan](WorkPlan.md) and the immutable [baseline manifest](../../BASELINE-MANIFEST.md).
+
+## Intake and accepted statements
+
+I checked the directive's hostile criteria, novelty and evidence qualifications against the accepted T03 repair, typed source and stopping definitions, T10/T14 structural identification boundary, T18–T27 risk/evaluation scope, T29 useful-policy distinction and T30.S obligations. The original setting joins all bounded progress jobs with a product completion class and pure predeployment reads. The flagship release retains mandatory jobs and actual frozen actions and models correlations, history-dependent meter updates and evidence during the job stream. It changes audit timing and uses a joint policy objective. The accepted experiments were consulted as frozen correspondence through their exact reconstruction and immutable source pins.
+
+| Packet | Exact constructor tip | Gates and qualifications examined |
+| --- | --- | --- |
+| M01 and M02 | `d3eee8044cca3e7dd1f1eee02b78144cf9c9556b` | Finite typed extraction, belief cover/cost and report transport, source-relative boundary, factor separators, archive/route prices, noisy matching, succinct hardness and approximation. Reviewed the Boolean-to-cost keep-mask clarification. |
+| M03 and M04 | `1dc1bbb04dcf5236da0c9112695cc0b528561ba0` | Realizable closed mass and conditional rows, anchor costs, exact policy law, complete strategic initialization, likelihood confidence, finite and infinite stopping. Reviewed fixed numerical coefficient and fixed-label-before-initialization clarifications. |
+| M05 | `b7856c33e3574988c2ccdae2c36462d3f2b64a16` | Source/action marginals, paired native conditional rows through the initial step, label/monitor/probe effect, signed and conditional discrepancies, common law witnesses and zero denominators. |
+| M06–M08 | `92c398536f123473b7f3945a62ade3c3f96c7d0c` | Finite callable commands, all-safe beliefs and actual stops, comparator scope, graph correspondence, dynamic prices, complete public records and the eight same-class obligations. Reviewed exact M08 scope note and M06/M07 cost repairs. |
+
+The independently published comparisons used for reconciliation are A at `7b042f5ce05a904758a1a9b01c69bf849b1db180`, B at `fa5d4009ea71380ce463fc91c810946525889547` and C at `c4e1d00114432577dfc188e850015d5380709630`. The hostile record uses the constructor release proofs and does not serve as the blind seal. [Accepted T30.S](https://github.com/Perceptive-Closure/PC-X/blob/39a0d0e5b3283835094d17603b84e706b968f443/THEORY-RECONSTRUCTION/THEOREMS/T30/PROOF.md) · [Exact theorem-by-theorem review](../../HOSTILE-REVIEW/RESULTS.md)
+
+## Failed readings and corrected proof scopes
+
+1. Edge safety alone would appear to deliver a zero-cost YES for an unsafe useful terminal reached by a safe edge in T29.J. This is false. A nonempty all-safe belief test precedes either verdict and movement, including at terminal children. The parent was notified with the exact two-state countermodel.
+2. An unchanged record letter could seem sufficient for T30.CG. An observed meter changes both eligibility and rational price. The independent complete-path control gives \(3/2\) with three moves, \(2/3\) with four and a spurious \(1/3\) after omitting one supported meter. Propagate the whole actionable record and test every supported successor.
+3. Applying the Cartesian common-schedule proof after static target identification on correlated paths fails. Two opposite stale coordinates, each on different paths, give two individually passing installations and an impossible common service budget. The integrated matrix uses the online objective for every obligation. Pure static timing and its result remain separate.
+4. An initially callable predeployment read of a later bit breaks first-edge locality if two compatible paths share their first edge. For \(r\) independent later bits and an emulated deterministic complete predeployment read vector at fixed first-stage meter, the width lower bound is \(2^r\) first edges. This concerns preserving that exact timing and records.
+5. Restricting an arbitrary initial suffix with just the current-edge set can invent paths. Unmodeled commands that rewrite a future guard and terminal moves reading discarded old edges similarly violate the sufficient-state proof. Exact initialization, stage-local nonservice actions and exhaustive supported rows close these cases.
+6. Equal benchmark marginals can mask perfect joint dependence. An incomplete installation prior can mask a supported failure. Two identical complete allowed laws with hidden actual violation rates \(1/4\) and \(3/4\) yield a valid no-uniform-confidence obstruction. Its exact scope and the countermodel to marginals-only reasoning are retained in the reviews.
+7. A fixed-cost expected frontier argument at zero price fails to enforce proper stopping. Independent Bernoulli probes with overlapping finite support can approach zero error at zero price without any a.s.-finite zero-error protocol. Positive probe cost and compatible truncations are essential in the released M04.4.
+8. Separate per-policy mass feasibility can create different certain replies at one common physical action before the actual policies diverge. The exact shared-source feasibility premise must include these common conditional rows. Couplings over matched native terminal marginals can likewise fail paired-prefix conditional row projection.
+9. A noiseless one-call target lower bound is correct for hard-path cost. With error \(\delta\) and randomization, the worst expected target optimum is \(1-2\delta\). The pure gateway/point access model gives exponential matched identity acquisition, while an independent checked supporting example in T30.CG has matched online costs 1 versus \(n+1\), with useful YES and lawful NO within the same work and move budgets. Neither changes X05's or X12's measured comparison.
+
+[Flagship countermodels and comparator](../../HOSTILE-REVIEW/FLAGSHIP.md) · [Complete result dispositions](../../HOSTILE-REVIEW/RESULTS.md)
+
+## Corroboration, literature and remaining obligations
+
+The exact constructor Python replays and six Lean streams completed successfully. I implemented a stand-alone exact Fraction-based path enumerator for the rational meter, correlation and matched-service controls. Small state and law countermodels check distinction of safety from terminal utility, mixture equivalence from pure-record equivalence and full initial support from a favorable mixture. No experimental reruns or new empirical measurements enter this review. Formal checks are restricted to the lemmas reported in the replay. [Commands and results](../../HOSTILE-REVIEW/REPLAY.md)
+
+I compared alternate refinement, ordered elimination, noisy decision trees, feasible-law optimization, sequence form, confidence sequences, bicausal coupling, knowledge-state games, marked-index search, sequential testing and implicit hitting set to the exact new scopes. Standard methods account for the general primitives. Claims of priority for their application to source-atomic governed objectives remain unresolved. The frozen X05 677/677 tie, X07 comparator tie, X09 false favorable shifted-score decisions, X12 direct comparator advantage and X08/X11 custody qualifications remain controlling for their records. T23's anytime likelihood and fixed-sample deadlines remain distinct, and T29's common policy can fail despite pairwise realizations. The T30.CG correspondence with X05 and X14 is retrospective.
+
+## RESULTS
+
+- M01.1–M01.3, M02.1–M02.5, M03.1–M03.2, M04.1–M04.4, T25.J, T26.C and T27.J withstand hostile review in the checked finite, structural or positive-price classes in the dossier.
+- T29.J withstands review with the safe-state check before both moves and stops, finite exhaustive actual command catalog and proper supported termination. The residual grid uses integral or exactly rescaled charges, and exact physical optimum needs both directions of observable correspondence.
+- T07.K withstands review for exact shared acquisition and confidence on the declared pure point/gateway menu and genuine source route realization. Hard-path and expected costs have different exact claims.
+- T30.CG withstands review with all eight obligations in one correlated serial support model with complete observations, proper initialization, lawful and exhaustive modeled commands, real useful work and the explicit joint acquisition objective. T30.C withstands review as the separate correlated static pure audit. The broader implication from static target identification to useful common policy is refuted.
+- The equal-full-record positive-risk obstruction stands. General constructive T30.P/A/U, unrestricted operational assumptions, general empirical superiority and external originality remain open. Prospective validation for the common class is a future obligation. Independent parent acceptance remains required.
+
+[Theorem verdicts and source comparisons](../../HOSTILE-REVIEW/RESULTS.md) · [Flagship scope, derivations and limits](../../HOSTILE-REVIEW/FLAGSHIP.md) · [Replay](../../HOSTILE-REVIEW/REPLAY.md)
