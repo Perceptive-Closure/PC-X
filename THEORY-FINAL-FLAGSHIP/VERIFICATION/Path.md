@@ -38,8 +38,21 @@ Proof-blind readiness established. The neutral intake and separate corroboration
 3. Derived the calibrated marginal, union and selective error envelopes separately. Constructed the two-world lower testing bound and exact routing match. The optional terminal event flag can create a non-unifilar last row when hidden; the polynomial family bound follows by counting its decision-state prefixes and constant last-stage extensions. A literal unifilar-bound application needs a checked interpretation for that row.
 4. Executed the exact independently authored Python expansion and Lean arithmetic. Added controls for excluded information, conditional calibration failure and the different objective of event-free useful completion. [Checks and literature](T30-U/CHECKS.md)
 
+## Authorized proof comparisons
+
+Each constructor release below was opened only after the corresponding independent proof and exact GitHub byte readback. All copies of the neutral statements retained their original blob and raw digest. The workstreams' complete proof and scope files were reconstructed or compared line by line; individual records describe the exact proof overlap, differences and premises.
+
+| Claim | Independently read back blind seal | Authorized constructor proof revision | Comparison |
+| --- | --- | --- | --- |
+| T30.A | eba38eedf9cac25c9545251c2e20d23103e18b20 | 81c4261f347044b156cbd848d10191a44e584dc5 | [A comparison](T30-A/COMPARISON.md) |
+| T30.P | 853f404f83ed58d00d8c3c6d8e61bd92e9d60838 | e621b15a007dbf3a4586fd9eb6c49633ec06e7ae | [P comparison](T30-P/COMPARISON.md) |
+| T30.U | 9c057892f47964b8ef2047395aedded81f39a31b | 25b11bda9fc82eb72eac033cd9475b5ebabab3ef | [U comparison](T30-U/COMPARISON.md) |
+
+Independently reproduced the supplementary A fixture arithmetic, safe-abort obstruction, P finite stopped-data continuity examples, U common guarded source and exact two-piece operating characteristic. These computations concern the posed finite models. [Supplemental replay](check_comparisons.py)
+
 ## RESULTS
 
-- T30.A independent GitHub seal eba38eedf9cac25c9545251c2e20d23103e18b20. Guarded claims require legal verdict menus at the used stops and complete deployment-event coverage.
-- T30.P independent GitHub seal 853f404f83ed58d00d8c3c6d8e61bd92e9d60838. Quotas must be callable, the lower bound uses the full matched pre-verdict channel and each in-scope act needs real risk accounting.
-- T30.U U.1–U.4 are independently derived for complete finite compiled state and the explicitly scoped event-count and locality conditions. The polynomial routing-family bound survives a hidden terminal risk flag, but its final row must be handled separately from the unifilar bound. Separate published constructor comparisons follow authenticated release.
+- T30.A A.1–A.4 pass the independent comparison with legal binary reports at planned stops, actual exactly-once finalization under the direct reference and every counted positive activation, and complete event coverage or independently safe other steps. Otherwise the direct 3/8 cancellation example defeats the lower risk claim, and the positive usefulness identity changes. [A proof review and adverse control](T30-A/COMPARISON.md)
+- T30.P P1–P4 pass within the finite linked exact class. Keep the complete hard guard during calibration, authorize the quotas, match the entire pre-verdict interface and account for every in-scope event. At a positive law with accumulating opposite diagnostic means, even a nonuniform a.s.-finite stop at that law cannot give uniform wrong-or-abstain error below one-half. [P proof review and continuity bound](T30-P/COMPARISON.md)
+- T30.U U.1–U.4 pass with complete compiled legality and score state and the qualified terminal count. A hidden terminal flag may break last-row unifilarity while preserving the direct polynomial count. The sharp selective tradeoff and the separately scoped guarded finite instance check. [U proof review and common instance](T30-U/COMPARISON.md)
+- There is independent support for the three scoped mathematical contributions and their common finite example. Extrapolation to arbitrary source models, responders or calibrated deployments, matching paid and physical resource costs outside the validated menu, and external stochastic or strategic validation remain separate research obligations. Parent acceptance is a separate disposition.
