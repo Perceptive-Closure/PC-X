@@ -1,0 +1,151 @@
+{
+  "schema": 1,
+  "repository": "Perceptive-Closure/PC-X",
+  "base": "07e91bec6f906eb460f025255e20e8e470adf3f2",
+  "common_contract_commit": "6bd31d6930c224e30f076eaa9faac16e5aa2371a",
+  "theorem_units": {
+    "P": {
+      "statement": {
+        "blob": "c25e03ae1861e423664758f81e4d1712156b175a",
+        "branch": "codex/pcx-flagship-p",
+        "commit": "92f2babe7a3c770eaaf9f3cdc85f4ed0f00c67b0",
+        "file": "THEORY-FINAL-FLAGSHIP/T30-P/STATEMENTS.md",
+        "sha256": "d2b557f7956a94a9e0d850b52696ee44548becf84de97dd8f598b907f098664f"
+      },
+      "blind_derivation": {
+        "files": [
+          {
+            "filename": "THEORY-FINAL-FLAGSHIP/VERIFICATION/Path.md",
+            "sha": "32ebd69295341cd6c4e369d2d76122df3f50fce1"
+          },
+          {
+            "filename": "THEORY-FINAL-FLAGSHIP/VERIFICATION/T30-P/BLIND-DERIVATION.md",
+            "sha": "6cb2fc6282db2a2ac45b727de59bf4ed481b2711"
+          },
+          {
+            "filename": "THEORY-FINAL-FLAGSHIP/VERIFICATION/T30-P/CHECKS.md",
+            "sha": "a9bc7fbf596c3975d2e8acb89e6a06a761b7bd3b"
+          },
+          {
+            "filename": "THEORY-FINAL-FLAGSHIP/VERIFICATION/T30-P/RobustGuard.lean",
+            "sha": "33722abf170e9779146eb1f47fbec7e60669d853"
+          },
+          {
+            "filename": "THEORY-FINAL-FLAGSHIP/VERIFICATION/T30-P/STATEMENTS.md",
+            "sha": "c25e03ae1861e423664758f81e4d1712156b175a"
+          },
+          {
+            "filename": "THEORY-FINAL-FLAGSHIP/VERIFICATION/T30-P/check_transport.py",
+            "sha": "72fd4b28142d63cd0008677c06afae4a3545f3c1"
+          }
+        ],
+        "sha": "853f404f83ed58d00d8c3c6d8e61bd92e9d60838"
+      },
+      "constructor": {
+        "letter": "P",
+        "sha": "e621b15a007dbf3a4586fd9eb6c49633ec06e7ae",
+        "branch": "codex/pcx-flagship-p",
+        "label": "constructor-p"
+      }
+    },
+    "A": {
+      "statement": {
+        "blob": "992c4bdaacd5ac603c9a246590e724dfd823d27d",
+        "branch": "codex/pcx-flagship-a",
+        "commit": "6b8469acbc837a98f13f0d7f2a217db47d46effd",
+        "file": "THEORY-FINAL-FLAGSHIP/T30-A/STATEMENTS.md",
+        "sha256": "9676271175aa2b7b33df306fc726f3d2578df88c35f8ee1895fbd779ea3c4b35"
+      },
+      "blind_derivation": {
+        "files": [
+          {
+            "filename": "THEORY-FINAL-FLAGSHIP/VERIFICATION/Path.md",
+            "sha": "25f7f3c57e792ab0afd210b3cd7c5f4ea2293b05"
+          },
+          {
+            "filename": "THEORY-FINAL-FLAGSHIP/VERIFICATION/T30-A/BLIND-DERIVATION.md",
+            "sha": "9fdf0796bcec408995d584598f2f4c3f25b039de"
+          },
+          {
+            "filename": "THEORY-FINAL-FLAGSHIP/VERIFICATION/T30-A/CHECKS.md",
+            "sha": "324fd788969d68cc96f97e514f7c75d418d07fa6"
+          },
+          {
+            "filename": "THEORY-FINAL-FLAGSHIP/VERIFICATION/T30-A/ReceiptOdds.lean",
+            "sha": "c2d02f313ea04b970dade6cd5347c0452bcd6f96"
+          },
+          {
+            "filename": "THEORY-FINAL-FLAGSHIP/VERIFICATION/T30-A/STATEMENTS.md",
+            "sha": "992c4bdaacd5ac603c9a246590e724dfd823d27d"
+          },
+          {
+            "filename": "THEORY-FINAL-FLAGSHIP/VERIFICATION/T30-A/check_receipts.py",
+            "sha": "d72852c8649b2861f27c8c479bb6ddbcb31f6817"
+          }
+        ],
+        "sha": "eba38eedf9cac25c9545251c2e20d23103e18b20"
+      },
+      "constructor": {
+        "letter": "A",
+        "sha": "81c4261f347044b156cbd848d10191a44e584dc5",
+        "branch": "codex/pcx-flagship-a",
+        "label": "constructor-a"
+      }
+    },
+    "U": {
+      "statement": {
+        "blob": "a7af9908c77ac351ba58ce2399812399052eee8d",
+        "branch": "codex/pcx-flagship-u",
+        "commit": "8f352f3410c69d439ead403672cad365aaa7ac38",
+        "file": "THEORY-FINAL-FLAGSHIP/T30-U/STATEMENTS.md",
+        "sha256": "9a13ae591ed198f78bd48f90eb776abab991413eeb7d30e574ef985345218e26"
+      },
+      "blind_derivation": {
+        "files": [
+          {
+            "filename": "THEORY-FINAL-FLAGSHIP/VERIFICATION/Path.md",
+            "sha": "1f4fe87d91c3f06fb3d6469232a3042730ee8350"
+          },
+          {
+            "filename": "THEORY-FINAL-FLAGSHIP/VERIFICATION/T30-U/BLIND-DERIVATION.md",
+            "sha": "e29b1157ebd414450fed706f89de03c564b8ab4f"
+          },
+          {
+            "filename": "THEORY-FINAL-FLAGSHIP/VERIFICATION/T30-U/CHECKS.md",
+            "sha": "2698112ba4d62a05773b3c8fe5699c14a280be94"
+          },
+          {
+            "filename": "THEORY-FINAL-FLAGSHIP/VERIFICATION/T30-U/STATEMENTS.md",
+            "sha": "a7af9908c77ac351ba58ce2399812399052eee8d"
+          },
+          {
+            "filename": "THEORY-FINAL-FLAGSHIP/VERIFICATION/T30-U/UnifiedBounds.lean",
+            "sha": "e8ca2f1d1e6ad807bde0fe1d4c26ea2ae50476cd"
+          },
+          {
+            "filename": "THEORY-FINAL-FLAGSHIP/VERIFICATION/T30-U/check_unified.py",
+            "sha": "b74413169c7ab25d5dc0634779db421c1951802f"
+          }
+        ],
+        "sha": "9c057892f47964b8ef2047395aedded81f39a31b"
+      },
+      "constructor": {
+        "letter": "U",
+        "sha": "25b11bda9fc82eb72eac033cd9475b5ebabab3ef",
+        "branch": "codex/pcx-flagship-u",
+        "label": "constructor-u"
+      }
+    }
+  },
+  "joint_independent_comparison": {
+    "sha": "6d02c6ebbab0cb4e63242853f8921be65b8e1d0b",
+    "branch": "codex/pcx-flagship-blind",
+    "label": "blind-and-comparisons"
+  },
+  "separate_hostile_review": {
+    "sha": "7ea42d261532aa57283a0c397ccf355e46b839db",
+    "branch": "codex/pcx-flagship-hostile",
+    "label": "hostile-complete"
+  },
+  "witness": "Exact statement-only branches were read from GitHub. Each independent derivation was hosted and read before the corresponding constructor release. Comparison and hostile review are separate records under a single host account."
+}

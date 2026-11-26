@@ -1,0 +1,23 @@
+{
+  "A": {
+    "blob": "992c4bdaacd5ac603c9a246590e724dfd823d27d",
+    "branch": "codex/pcx-flagship-a",
+    "commit": "6b8469acbc837a98f13f0d7f2a217db47d46effd",
+    "file": "THEORY-FINAL-FLAGSHIP/T30-A/STATEMENTS.md",
+    "sha256": "9676271175aa2b7b33df306fc726f3d2578df88c35f8ee1895fbd779ea3c4b35"
+  },
+  "P": {
+    "blob": "c25e03ae1861e423664758f81e4d1712156b175a",
+    "branch": "codex/pcx-flagship-p",
+    "commit": "92f2babe7a3c770eaaf9f3cdc85f4ed0f00c67b0",
+    "file": "THEORY-FINAL-FLAGSHIP/T30-P/STATEMENTS.md",
+    "sha256": "d2b557f7956a94a9e0d850b52696ee44548becf84de97dd8f598b907f098664f"
+  },
+  "U": {
+    "blob": "a7af9908c77ac351ba58ce2399812399052eee8d",
+    "branch": "codex/pcx-flagship-u",
+    "commit": "8f352f3410c69d439ead403672cad365aaa7ac38",
+    "file": "THEORY-FINAL-FLAGSHIP/T30-U/STATEMENTS.md",
+    "sha256": "9a13ae591ed198f78bd48f90eb776abab991413eeb7d30e574ef985345218e26"
+  }
+}

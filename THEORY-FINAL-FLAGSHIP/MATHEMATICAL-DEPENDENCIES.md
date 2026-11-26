@@ -10,3 +10,7 @@
     EXP-X16 → support-robust correspondence and explicit scope controls
 
 An arrow from a new workstream is provisional until its exact statement passes independent verification and acceptance. An accepted known implication can be used as a lemma without carrying over unrelated empirical or complexity claims.
+
+## Accepted composition
+
+P's locally checked conditional row semantics and A's protected linked guard combine in the exact finite U class. Carry is retained by the reached state, and the next chance draw occurs at the guarded cut. P's separate reset and A's unbounded expected-cost representation are excluded from the compact U dependency. The proof of source correspondence is a prerequisite for attaching actual physical conclusions. [Common instance](T30-U/COMPATIBILITY.md) · [Scope](VERIFICATION/SCOPE-ADDENDUM.md)

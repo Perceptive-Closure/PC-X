@@ -1,0 +1,28 @@
+# T30.P proof-blind checks and limits
+
+## Mathematical controls and scope
+
+- **Unseen hard support.** Two components physically differ in the legality of the proposed command. Its forbidden-occurrence marker is 0 and 1. Both endpoints are in the hard guard. A confidence set containing only component 0 passes its own marker test, but the command remains illegal in component 1. This is why statistical evidence optimizes payoff constraints on C and keeps unconditional support obligations on W.
+- **Whole episode and resource semantics.** A two-step component emits its mode bit twice. If the bits independently redraw the component from the same p at each step, their one-step marginals stay unchanged and the joint probability of unequal bits rises from 0 to 1/2 at p=(1/2,1/2). A complete row calculation retains the latent component and controller record. A visible prefix also cannot justify changing physical event or authority.
+- **Local legality versus outer submeasure.** Two laws can share all mass on the observed common path of a strict minorant while a positive residual branch causes a forbidden action or real violation in one law. Minorants give a probability discrepancy envelope, never universal support legality. Sound outer classes can supply false blockers for the physical class unless the excluded witnesses are physically realized.
+- **Genuine group obstruction.** Three individually useful positive modes retain a feasible controller on every pair and have no joint feasible policy. The three cap inequalities are t_i≤3/10 and total probability one. A sum certificate gives 1≤9/10. This witnesses the need for a group blocker rather than any assumption of pairwise sufficiency.
+- **No free additional information in testing.** Take same exact reports and diagnostic laws but a free initial bit with respective means 1/4 and 3/4. The support-based compatible set is unchanged on either result. Already at H=0 its record TV is 1/2. The converse is applicable only with common initial audit law and with all remaining delivered information covered by its coupled interface.
+- **Real quota authorization.** Two opposite worlds have means 1/10 and 2/5 and a joint decision margin below 3/10. If one permits only a single diagnostic observation, there is equal-prior error at least 7/20 even granting perfect positive protection; positive and negative signs cannot uniformly be identified at 1/10 failure. The sufficient time bound needs actual access to all prescribed quotas. Source scoring of an external diagnostic with harmful in-scope effects would also need its effects included in the risk bound or certified safe separately.
+- **Selective calibration mass.** At q=1/4, δ=1/10, ε=1/5 and u=3/5, the joint inequalities allow violation mass 13/100 and utility at least 9/100. They permit much looser conditional risk than ε without stronger coverage. The good conditional-controller guarantee is distinct from the rate conditional on selecting an activation.
+
+## Independent replay
+
+From the repository root run:
+
+    py -B THEORY-FINAL-FLAGSHIP/VERIFICATION/T30-P/check_transport.py
+    lean THEORY-FINAL-FLAGSHIP/VERIFICATION/T30-P/RobustGuard.lean
+
+Python enumerates native work leaves for 25 route mixtures, includes all deterministic choices and derives best deterministic risk 7/30 versus 1/5 randomized. It enumerates the eight report tuples and all exact read subsets, solves prospective read recurrence, checks the explicit triple infeasibility and hard-guard distinction, and compares exact stopped adaptive laws at eight horizons. Lean 4.21.0 checks a scaled nonnegative marker implication and the scaled three-command incompatibility certificate. The complete transport, robust optimization, Helly and probability proofs are in the [independent derivation](BLIND-DERIVATION.md).
+
+## Primary comparisons
+
+Koller, Megiddo and von Stengel (1996), §2, use flow-consistent realization weights, local probability recovery and chance-weighted terminal sums to avoid a normal-form expansion of imperfect-information games. Ben-Tal and Nemirovski formulate uniform robust counterparts for uncertain linear systems and distinguish different uncertainty geometries. P1 uses these standard exact techniques with one whole-component law, typed support legality and separate probability guard constraints. [Sequence form](https://ai.stanford.edu/~koller/Papers/Koller%2Bal%3AGEB96.pdf) · [Robust linear programming](https://www2.isye.gatech.edu/~nemirovs/stablpn.pdf)
+
+P2 uses ordinary finite Helly in the affine hull of the policy region, applied to sets grouped by actual worlds. Amenta treats more general Helly-type certificates for generalized linear programs. The hit-and-separate loop falls within the generic implicit hitting set constructions of Chandrasekaran, Karp, Moreno-Centeno and Vempala. P2's problem-specific adaptation extracts real rational group blockers from a dualized robust LP and then projects to exact report disagreements. [Amenta, primary paper](https://web.cs.ucdavis.edu/~amenta/pubs/helly.pdf) · [Implicit hitting sets, primary paper](https://arxiv.org/abs/1102.1472)
+
+Howard, Ramdas, McAuliffe and Sekhon (2021) establish broad time-uniform confidence sequences using nonnegative supermartingales. P3 uses elementary stopped Hoeffding with summable count-wise spending instead. The new scoped combination is a shared confidence event for label and feasible actual utility/risk, retained hard authority guard, and a genuinely operational positive policy. The mathematical mechanisms are adaptations. Broader priority and operational relevance to probabilistic deployment require additional evidence. [Primary confidence sequences paper](https://doi.org/10.1214/20-AOS1991)
