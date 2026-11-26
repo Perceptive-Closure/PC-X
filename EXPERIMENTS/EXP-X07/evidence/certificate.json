@@ -1,0 +1,240 @@
+{
+  "agreement": true,
+  "initial_witness": [
+    "approved-current",
+    "approved-expired"
+  ],
+  "realized": {
+    "approved-current": {
+      "cost": 4,
+      "optima": [
+        [
+          "issuer_binding",
+          "leaf_validity"
+        ]
+      ],
+      "subsets": [
+        {
+          "conflict": [
+            "approved-current",
+            "approved-expired"
+          ],
+          "cost": 0,
+          "queries": []
+        },
+        {
+          "conflict": [
+            "approved-current",
+            "approved-expired"
+          ],
+          "cost": 3,
+          "queries": [
+            "issuer_binding"
+          ]
+        },
+        {
+          "conflict": [
+            "approved-current",
+            "other-current"
+          ],
+          "cost": 1,
+          "queries": [
+            "leaf_validity"
+          ]
+        },
+        {
+          "conflict": null,
+          "cost": 4,
+          "queries": [
+            "issuer_binding",
+            "leaf_validity"
+          ]
+        }
+      ]
+    },
+    "approved-expired": {
+      "cost": 1,
+      "optima": [
+        [
+          "leaf_validity"
+        ]
+      ],
+      "subsets": [
+        {
+          "conflict": [
+            "approved-expired",
+            "approved-current"
+          ],
+          "cost": 0,
+          "queries": []
+        },
+        {
+          "conflict": [
+            "approved-expired",
+            "approved-current"
+          ],
+          "cost": 3,
+          "queries": [
+            "issuer_binding"
+          ]
+        },
+        {
+          "conflict": null,
+          "cost": 1,
+          "queries": [
+            "leaf_validity"
+          ]
+        },
+        {
+          "conflict": null,
+          "cost": 4,
+          "queries": [
+            "issuer_binding",
+            "leaf_validity"
+          ]
+        }
+      ]
+    },
+    "other-current": {
+      "cost": 3,
+      "optima": [
+        [
+          "issuer_binding"
+        ]
+      ],
+      "subsets": [
+        {
+          "conflict": [
+            "other-current",
+            "approved-current"
+          ],
+          "cost": 0,
+          "queries": []
+        },
+        {
+          "conflict": null,
+          "cost": 3,
+          "queries": [
+            "issuer_binding"
+          ]
+        },
+        {
+          "conflict": [
+            "other-current",
+            "approved-current"
+          ],
+          "cost": 1,
+          "queries": [
+            "leaf_validity"
+          ]
+        },
+        {
+          "conflict": null,
+          "cost": 4,
+          "queries": [
+            "issuer_binding",
+            "leaf_validity"
+          ]
+        }
+      ]
+    },
+    "other-expired": {
+      "cost": 1,
+      "optima": [
+        [
+          "leaf_validity"
+        ]
+      ],
+      "subsets": [
+        {
+          "conflict": [
+            "other-expired",
+            "approved-current"
+          ],
+          "cost": 0,
+          "queries": []
+        },
+        {
+          "conflict": null,
+          "cost": 3,
+          "queries": [
+            "issuer_binding"
+          ]
+        },
+        {
+          "conflict": null,
+          "cost": 1,
+          "queries": [
+            "leaf_validity"
+          ]
+        },
+        {
+          "conflict": null,
+          "cost": 4,
+          "queries": [
+            "issuer_binding",
+            "leaf_validity"
+          ]
+        }
+      ]
+    }
+  },
+  "selected": [
+    "issuer_binding",
+    "leaf_validity"
+  ],
+  "uniform": {
+    "cost": 4,
+    "optima": [
+      [
+        "issuer_binding",
+        "leaf_validity"
+      ]
+    ],
+    "subsets": [
+      {
+        "conflict": [
+          "approved-current",
+          "approved-expired"
+        ],
+        "cost": 0,
+        "queries": []
+      },
+      {
+        "conflict": [
+          "approved-current",
+          "approved-expired"
+        ],
+        "cost": 3,
+        "queries": [
+          "issuer_binding"
+        ]
+      },
+      {
+        "conflict": [
+          "approved-current",
+          "other-current"
+        ],
+        "cost": 1,
+        "queries": [
+          "leaf_validity"
+        ]
+      },
+      {
+        "conflict": null,
+        "cost": 4,
+        "queries": [
+          "issuer_binding",
+          "leaf_validity"
+        ]
+      }
+    ]
+  },
+  "x03": {
+    "commit": "d85fe1cdb76cbc6d03e58e34f320c4c58a3f243c",
+    "source_sha256": {
+      "certificates.py": "16e818ff35f459847fbdf68c0be21be49069e94f6e85b941e5d701b7e9eb5a29",
+      "reference.py": "b5584db4e3696a098b7f77852e102179a063a0fef5ce044ff7a5d2b4a7c6547e"
+    }
+  }
+}
