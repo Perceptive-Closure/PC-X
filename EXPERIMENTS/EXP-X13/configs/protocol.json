@@ -1,0 +1,46 @@
+{
+  "experiment": "EXP-X13",
+  "version": 1,
+  "charter": {
+    "pages": [21, 22, 27, 28, 29, 34, 35, 36],
+    "sha256": "3110e8020cc1b86cdf7ba389602fb0ce0b941be84dfdef05d3eeb5580dec06bc"
+  },
+  "dependencies": {
+    "X10": "4a16ef37d0e90e856560ce153c0fd690c28016b6",
+    "X11": "01f174c14669c92cd1c06dbf5158db29c4720b6d"
+  },
+  "agents": ["alpha", "beta"],
+  "ports": ["A", "B", "C", "D"],
+  "allocators": ["exclusive", "parallel"],
+  "views": ["faithful", "shared_summary"],
+  "tie_orders": ["alpha", "beta"],
+  "tempo_tickets": 8,
+  "contexts": {
+    "balanced": [
+      [[2, 2], [1, 1]],
+      [[2, 1], [1, 2]],
+      [[1, 2], [2, 1]],
+      [[1, 1], [2, 2]],
+      [[1, 1], [1, 1]],
+      [[2, 1], [1, 1]],
+      [[1, 2], [1, 1]],
+      [[1, 1], [1, 1]]
+    ],
+    "concentrated": [
+      [[2, 2], [2, 2]],
+      [[2, 2], [2, 1]],
+      [[2, 2], [1, 2]],
+      [[1, 1], [2, 2]],
+      [[2, 1], [2, 2]],
+      [[1, 2], [2, 2]],
+      [[1, 1], [2, 2]],
+      [[1, 1], [1, 1]]
+    ]
+  },
+  "thresholds": {
+    "local_episode_risk": "1/8",
+    "global_episode_risk": "1/4",
+    "minimum_qualified_fraction_per_agent": "3/4"
+  },
+  "query_costs": {"nameplate": 1, "allocator": 2, "view": 3, "roster": 4}
+}
