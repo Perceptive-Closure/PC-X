@@ -4,7 +4,7 @@ The experiment routes two workshop orders under finite uncertainty about bench c
 
 ## Reproduce the study
 
-Use Python 3.13.7 and its standard library from this experiment directory. The commands also run in a GitHub source archive. On Windows, use process-local scratch for temporary files and the Python cache.
+Use Python 3.13.7 and its standard library from this experiment directory. The commands also run in a GitHub source archive. For a Windows local archive created with Git, use `git -c core.autocrlf=false archive` to preserve the canonical LF bytes. On Windows, use process-local scratch for temporary files and the Python cache.
 
 ```powershell
 New-Item -ItemType Directory -Force -Path scratch/tmp,scratch/cache | Out-Null
@@ -39,3 +39,22 @@ The [exact results](results/exact.json) retain each scenario, policy, concrete p
 The common-action control finishes both orders with zero audit cost across eight starting states. In the quantifier-gap control, each contract can finish at cost zero when it is known, but the only universally safe first actions buffer or refuse. A lawful layout read restores a common policy at cost two with three ticks. With two ticks, that same read leaves insufficient time. A masked panel requires cost-three codec refinement even when the contract is known. The relief control requires a cost-four lawful grant. The heterogeneous control requires a cost-six worst branch because the evidence directs different later interventions.
 
 The external acquisition effort and in-task acquisition effort are reported in separate design units. The support is finite and exhausted. The result provides a bounded synthesis and validation example for T28–T29. T30 and general deployment control remain open.
+
+## Held-out results
+
+The custodian independently opened 40 support tickets from the frozen source and all 40 matched the sealed forecast. The external receipt cost 9 units on this branch of the exact audit tree. The authorized reads identified the deployment vector while two compatible installations remained. The unmeasured signature distinguishes their plate-read authorization. The governed policy completed both jobs on every slip at each of the four feasible ports. At the closed port, the retained bounded impossibility certificate justified safe refusal for both slips.
+
+| Policy arm | Safe tickets out of 10 | Completed tickets out of 10 | Qualified jobs out of 20 | Worst in-task audit cost |
+| --- | ---: | ---: | ---: | ---: |
+| Governed | 10 | 8 | 16 | 3 |
+| Fixed left | 4 | 4 | 10 | 0 |
+| Single contract | 6 | 4 | 10 | 0 |
+| Refusal | 10 | 0 | 0 | 0 |
+
+The two unsafe-capable comparator arms made six and four unsafe attempts, respectively. The masked feasible port used one codec refinement per slip. Every other feasible governed run needed zero in-task audit units. The full external audit cost 31, the cheapest-first baseline had a worst cost of 23, and the 16 seeded orders had worst costs from 21 to 29. The greedy target-pair rule tied the adaptive optimum of 11 in the worst case. The independently checked static optimum was 20 for targeting and 25 for full identity.
+
+[Receipt](results/audit-receipt.json) · [Policy and forecast](results/forecast.json) · [Opening](results/opening.json) · [Physical event ledger](results/ledger.jsonl) · [Scores](results/summary.json) · [SHA-256 manifest](results/manifest.json)
+
+## Why the bounds are exact
+
+With a nonempty belief and zero ticks, the task can succeed exactly when both orders have already been qualified in every state. At a nonterminal decision, an observation-only policy takes one shared action. That action must be lawful and safe for every compatible state, and each supported observation must leave a winning successor belief. Conversely, a lawful first action and winning continuations for every supported observation form an implementable policy. Minimizing the charge of the first action plus the largest continuation cost therefore gives the minimum worst-path cost by induction over the remaining ticks. The independent checker evaluates the finite budget decision problem and verifies every supported branch of each asserted policy. Every losing proof covers all available first actions at each of its referenced decisions.
