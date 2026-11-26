@@ -1,0 +1,21 @@
+# Proof-blind intake protocol
+
+27 November 2026. Scope T30.P, T30.A and T30.U. The reviewer begins from common-plan commit 6bd31d6930c224e30f076eaa9faac16e5aa2371a. A received statement is an object at an exact GitHub commit. Its path, Git blob, original byte count, independent raw-byte digest, and declared accepted prerequisites identify the intake. [Work plan](WorkPlan.md) · [Common contract](../COMMON-CONTRACT.md)
+
+## Authorization and sequence
+
+1. Use the global common contract and the three immutable baseline pins before intake. For each assignment, receive from the parent the exact commit, statement path and expected blob, plus any separate neutral definitions or previously accepted prerequisites that the argument needs. A provisional result from another strand is not a granted lemma.
+2. Retrieve only that statement path at its exact revision using the GitHub Contents API. Verify the response path, base64 content, and blob internally. Compute the Git object digest on the bytes headed by blob, a space, the decimal byte count and a terminal NUL, then compare it to the independently supplied blob. Record the raw-byte SHA-256 separately. Store the exact neutral bytes and receipt below this verification directory. Read no constructor worktree, proof, unpublished argument, or statement discussion containing a derivation. A later candidate revision needs its own exact identity and disposition.
+3. Derive the assertion independently at the stated quantifier order. If a claim fails, isolate the exact unsatisfied premise or supply a concrete counterexample and the strongest corrected conclusion. Keep any dependence on another unsettled candidate conditional. Use a separate finite calculation and a scoped formal lemma where appropriate.
+4. Publish the independent derivation before requesting or receiving proof access. Independently retrieve its exact GitHub bytes, record the seal and tell the parent. Keep the same draft sealed if the comparison later corrects the verification. After parent-authorized proof release, retrieve only the specified proof snapshots and publish a separate line comparison, discrepancy log and final scope.
+
+## Independent checks to select after intake
+
+| Question | Required discrimination | Candidate check method |
+| --- | --- | --- |
+| Probabilistic transport | Actual membership in a declared whole-world row class, reachable conditional law and physical event, confidence versus deployed risk, complete versus partially covered observations, outer soundness versus exact realizability | Exact leaf probabilities under two matched mechanisms, separate bad/good/issued event counts, and direct endpoint checks. Exercise a supported but unseen branch and a shared visible trajectory with differing physical events. |
+| Strategic auditing | Fixed world before private draws, legal conditioned response information and memory, joint complete records, initial/terminal cues and class label, wrong issuance versus failure with abstention | Enumerate tiny response and auditor choice tables on genuine information sets. Compare conditioning and convex mixtures on full records; add a hidden carry or protected-bit perturbation. |
+| Unified governed synthesis | One common callable policy across worlds, supported authority and budgets, physically useful positive issuance, separate intrinsic label and joint feasibility, scope of exact optimum and source compilation | Exhaust small finite pure policies on the complete record and compare a separate rational mass or optimization calculation, including a mixed-only, infeasible or zero-issuance boundary. Check actual outcomes and verify any numerical certificate on the typed tree. |
+| Complexity and scientific scope | Explicit rational input size, history expansion and price categories, declared quantifiers and evidence model, matched comparators and experimental scope | Check algorithm dimensions against the representation and record precise retained assumptions. Test exact arithmetic independently and distinguish symbolic proof from finite corroboration. |
+
+A result will identify all needed acceptance prerequisites, open conditions and limits of extrapolation. The actual claims and test fixtures depend on the authenticated neutral statements. Receipt and verification records will remain separate from the later constructor comparison.
