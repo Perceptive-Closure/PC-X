@@ -12,7 +12,7 @@ The parent established the proof dependency families and work plan. Two independ
 | --- | --- | --- |
 | 1 | Parent flagship construction and integration | Active |
 | 2 | Independent proof-blind verification of T15–T30 | Active |
-| 3 | Hostile review | Prepared |
+| 3 | Hostile review of T01–T30 and P1–P7 | Active |
 
 ## Acceptance register
 
@@ -44,3 +44,10 @@ The app rejected immediate archival of the complete foundation constructor check
 The first independent comparison reached exact verified d110711ade3243ffb182840fad01492e70451290 after preserving its blind seal. It found common action-label injectivity essential in T03 and budget layers essential to T12's stated pruning. Both exact proof candidates use those restrictions. All other initial statements retain their checked scope. Hostile review is separate from this comparison.
 
 T15–T24 and T25–T29 reached published construction handoffs. The three precise late statement files, including parent T30.S sealed at a9f1d0026ff0f0a42154a5d8d65dca56a77be853, were copied by exact blob into the independent intake 9ae675c14606357a75e8bbe2c0b12c211554a793. The reviewer works from that intake. The parent completes T30.S and checks reproducibility in one slot. [Flagship results](WORKSTREAMS/flagship/Path.md)
+
+
+## Integrated candidates, replay and open review findings
+
+The parent integrated exact candidate branches for deployment/statistics (bedb356fd9837a548b7ee2bbdb2883c20e2de99d) and governance (21a2509669c40db20bbd0d4358c3ea4adff5e508), plus the initial independent comparison d110711ade3243ffb182840fad01492e70451290. Exact GitHub manifests verified respectively 83, 64 and 32 archive blobs. The programs reran the four decompressed archived ledger hashes, the 729 T18 and 1,296 T24 cases, the stopped KL witness, 64,472 governance comparisons, Lean readiness cover and four independent initial boundary families. The archive is a finite evidence check. The 15 original measured packages remain unchanged.
+
+The parent proof candidate T30.S was published at b17aec727810d28d8931ab29836d1f90123cea26 and passed Lean capped arithmetic and finite support/readback checks. The proof-blind late review has all three independent statement seals. Hostile review of all 30 topics began from the exact proof revisions. The source correspondence in T30 needs conditional validity for all compatible modes without leaking the installed bit, and common public action lifts, rather than equality of projected enabled classes alone. T23's fixed-sample histogram and anytime likelihood mixture are separate procedures. T24's necessity requires a jointly common complete observable kernel. T22 accounts for informative initialization. Rejected readings and exact counterexamples are recorded for further comparison. [Scope and failed readings](VERIFICATION/SCOPE-CLARIFICATIONS.md)

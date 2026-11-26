@@ -11,3 +11,5 @@
 **Novelty** · This is a governed-stage specialization combining established target-fiber and minimum-query ideas with a proved feasible common controller. Wider novelty remains unresolved. [Javdani et al., decision-region determination](https://proceedings.mlr.press/v33/javdani14.html) · [Rubenstein et al., exact causal transformations](https://arxiv.org/abs/1707.00819)
 
 **Disposition before review** · Restricted proof candidate. The charter's unrestricted T30, stochastic/strategic scope and exponential oversight claim remain open. [Boundary cases](COUNTEREXAMPLES.md) · [Verification record](VERIFICATION.md)
+
+[Explicit statement scope and preserved rejected readings](../../VERIFICATION/SCOPE-CLARIFICATIONS.md)

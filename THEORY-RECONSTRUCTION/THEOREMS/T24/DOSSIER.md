@@ -25,3 +25,5 @@ Conditional concentration and minimax uncertainty classes are known. The separat
 ## Status at handoff
 
 Constructor proof candidate under the declared conditions. Independent derivation, comparison to this proof, hostile assessment and integration decisions are handled by the distinct verification and parent roles. Broader formulations remain restricted or open as described above. [Verification record](VERIFICATION.md)
+
+[Explicit statement scope and preserved rejected readings](../../VERIFICATION/SCOPE-CLARIFICATIONS.md)
