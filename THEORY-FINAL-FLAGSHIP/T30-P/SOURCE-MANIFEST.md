@@ -1,0 +1,20 @@
+# T30.P · Scoped source manifest
+
+Research date 27 November 2026. The mathematical campaign directive, Part II and §§13–18, fixes the probability research scope and verification gates. The controlled replay uses only the model in [the immutable statement seal](STATEMENTS.md). The listed repository blobs are exact inputs or scoped comparisons. X16 supplies historical correspondence only.
+
+| Repository document | Governing commit | Git blob |
+| --- | --- | --- |
+| [THEORY-FINAL-FLAGSHIP/COMMON-CONTRACT.md](https://github.com/Perceptive-Closure/PC-X/blob/6bd31d6930c224e30f076eaa9faac16e5aa2371a/THEORY-FINAL-FLAGSHIP/COMMON-CONTRACT.md) | `6bd31d6930c224e30f076eaa9faac16e5aa2371a` | `8fc9a3a2f0c7131944f7b0d1d73dc78328a79c26` |
+| [THEORY-FINAL-FLAGSHIP/BASELINE-MANIFEST.md](https://github.com/Perceptive-Closure/PC-X/blob/6bd31d6930c224e30f076eaa9faac16e5aa2371a/THEORY-FINAL-FLAGSHIP/BASELINE-MANIFEST.md) | `6bd31d6930c224e30f076eaa9faac16e5aa2371a` | `b98664a7672c99c07933eb2c9f1797c3d19689c9` |
+| [THEORY-FINAL-FLAGSHIP/T30-P/WorkPlan.md](https://github.com/Perceptive-Closure/PC-X/blob/6bd31d6930c224e30f076eaa9faac16e5aa2371a/THEORY-FINAL-FLAGSHIP/T30-P/WorkPlan.md) | `6bd31d6930c224e30f076eaa9faac16e5aa2371a` | `59c8ce7dd19e8a1db79f5dca5609be37634b8242` |
+| [THEORY-RECONSTRUCTION/THEOREMS/T14/PROOF.md](https://github.com/Perceptive-Closure/PC-X/blob/39a0d0e5b3283835094d17603b84e706b968f443/THEORY-RECONSTRUCTION/THEOREMS/T14/PROOF.md) | `39a0d0e5b3283835094d17603b84e706b968f443` | `6cde65023954eccf0e047fa1d0fe81e1829045de` |
+| [THEORY-RECONSTRUCTION/THEOREMS/T18/PROOF.md](https://github.com/Perceptive-Closure/PC-X/blob/39a0d0e5b3283835094d17603b84e706b968f443/THEORY-RECONSTRUCTION/THEOREMS/T18/PROOF.md) | `39a0d0e5b3283835094d17603b84e706b968f443` | `bea00264f38f59cc7d495821aaf8451ed1e46835` |
+| [THEORY-GENERALIZATION/WORKSTREAMS/M03/STATEMENTS.md](https://github.com/Perceptive-Closure/PC-X/blob/07e91bec6f906eb460f025255e20e8e470adf3f2/THEORY-GENERALIZATION/WORKSTREAMS/M03/STATEMENTS.md) | `07e91bec6f906eb460f025255e20e8e470adf3f2` | `93c0998cd51403262a740c0e37091ccf49846cc2` |
+| [THEORY-GENERALIZATION/WORKSTREAMS/M04/STATEMENTS.md](https://github.com/Perceptive-Closure/PC-X/blob/07e91bec6f906eb460f025255e20e8e470adf3f2/THEORY-GENERALIZATION/WORKSTREAMS/M04/STATEMENTS.md) | `07e91bec6f906eb460f025255e20e8e470adf3f2` | `24d9e3ec1e3bfbd76f33a17c00772b25e0940459` |
+| [THEORY-GENERALIZATION/WORKSTREAMS/M06/STATEMENTS.md](https://github.com/Perceptive-Closure/PC-X/blob/07e91bec6f906eb460f025255e20e8e470adf3f2/THEORY-GENERALIZATION/WORKSTREAMS/M06/STATEMENTS.md) | `07e91bec6f906eb460f025255e20e8e470adf3f2` | `9c87f8fd904b858e8794d557d263186e74c3106e` |
+| [THEORY-GENERALIZATION/FLAGSHIP/T30-CG.md](https://github.com/Perceptive-Closure/PC-X/blob/07e91bec6f906eb460f025255e20e8e470adf3f2/THEORY-GENERALIZATION/FLAGSHIP/T30-CG.md) | `07e91bec6f906eb460f025255e20e8e470adf3f2` | `be4c7c339f21ac7d07efa44920538610a81f6408` |
+| [THEORY-GENERALIZATION/WORKSTREAMS/M08/STATEMENTS.md](https://github.com/Perceptive-Closure/PC-X/blob/07e91bec6f906eb460f025255e20e8e470adf3f2/THEORY-GENERALIZATION/WORKSTREAMS/M08/STATEMENTS.md) | `07e91bec6f906eb460f025255e20e8e470adf3f2` | `0013ebcf6c71a6698d5b947abba37ffc43821682` |
+| [EXPERIMENTS/EXP-X16/RESULTS.md](https://github.com/Perceptive-Closure/PC-X/blob/a6bf9cefb59f63b8c9dea59daf7e588a82ba07eb/EXPERIMENTS/EXP-X16/RESULTS.md) | `a6bf9cefb59f63b8c9dea59daf7e588a82ba07eb` | `e30aa21d35370566b4a353959df5aff80a66e933` |
+| [THEORY-FINAL-FLAGSHIP/T30-P/STATEMENTS.md](https://github.com/Perceptive-Closure/PC-X/blob/92f2babe7a3c770eaaf9f3cdc85f4ed0f00c67b0/THEORY-FINAL-FLAGSHIP/T30-P/STATEMENTS.md) | `92f2babe7a3c770eaaf9f3cdc85f4ed0f00c67b0` | `c25e03ae1861e423664758f81e4d1712156b175a` |
+
+The statement-only publication was authenticated independently through GitHub's commit and content endpoints. The [shared baseline manifest](../BASELINE-MANIFEST.md) records the accepted historical branch and tree pins, and the [literature record](LITERATURE.md) identifies public primary papers separately.
