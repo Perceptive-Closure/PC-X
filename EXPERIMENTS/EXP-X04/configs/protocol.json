@@ -1,0 +1,163 @@
+{
+  "schema": "pcx.exp-x04.protocol.v1",
+  "charter_sha256": "3110e8020cc1b86cdf7ba389602fb0ce0b941be84dfdef05d3eeb5580dec06bc",
+  "x03": {
+    "commit": "d85fe1cdb76cbc6d03e58e34f320c4c58a3f243c",
+    "protocol_sha256": "ec439570e083860794a31e15a12420fa064f38716fee393cb54472d7357832d8",
+    "scopes_sha256": "c5b70726ab883d0febbb18335a0a4a1f37741b5509943eeaa3d891a0a46850c9",
+    "structured_cases": 5
+  },
+  "controls": [
+    "empty_domain",
+    "constant_target",
+    "no_queries",
+    "full_answer_alias",
+    "majority_of_three",
+    "categorical_weighted",
+    "all_queries_required",
+    "cost_scale_three"
+  ],
+  "address": {
+    "explicit_widths": [
+      1,
+      2
+    ],
+    "derived_widths": [
+      3,
+      4,
+      5,
+      6,
+      8,
+      10
+    ],
+    "query_cost": 1
+  },
+  "routed": {
+    "dispatch_cost": 1,
+    "fast_cost": 1,
+    "fallback_cost": 4,
+    "grant_cost": 4,
+    "conditions": [
+      {
+        "name": "route_1",
+        "route_cost": 1,
+        "site_costs": [
+          2
+        ]
+      },
+      {
+        "name": "route_2",
+        "route_cost": 1,
+        "site_costs": [
+          1,
+          1
+        ]
+      },
+      {
+        "name": "route_3",
+        "route_cost": 1,
+        "site_costs": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "name": "route_4",
+        "route_cost": 1,
+        "site_costs": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "name": "route_5",
+        "route_cost": 1,
+        "site_costs": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "name": "route_3_weighted",
+        "route_cost": 2,
+        "site_costs": [
+          1,
+          3,
+          2
+        ]
+      },
+      {
+        "name": "route_4_skewed",
+        "route_cost": 3,
+        "site_costs": [
+          1,
+          1,
+          3,
+          4
+        ],
+        "route_prior_weights": [
+          12,
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "name": "route_3_without_dispatch",
+        "route_cost": null,
+        "site_costs": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "name": "route_4_without_authority",
+        "route_cost": 1,
+        "site_costs": [
+          1,
+          1,
+          null,
+          1
+        ]
+      }
+    ]
+  },
+  "seeded": {
+    "seed": 404273,
+    "conditions": [
+      "binary",
+      "categorical",
+      "correlated",
+      "aliased"
+    ],
+    "cases_per_condition": 16,
+    "minimum_queries": 3,
+    "maximum_queries": 6,
+    "minimum_completions": 4,
+    "maximum_completions": 10,
+    "minimum_cost": 1,
+    "maximum_cost": 6,
+    "minimum_prior_weight": 1,
+    "maximum_prior_weight": 5
+  },
+  "random_baseline": {
+    "seed": 405011,
+    "trials": 16
+  },
+  "sample_budget": {
+    "maximum_explicit_queries": 6,
+    "maximum_explicit_completions": 160
+  },
+  "gate": {
+    "unexplained_disagreements": 0,
+    "unsound_determinations": 0,
+    "invalid_inaccessibility_witnesses": 0
+  }
+}
