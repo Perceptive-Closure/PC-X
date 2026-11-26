@@ -10,7 +10,7 @@ For general observed standard Borel records, use regular conditional kernels. Fi
 
 ## T23.a with measurable likelihood ratios
 
-Fix a common allowed audit protocol with its full recorded filtration $(\mathcal F_t)$ and resulting padded path laws $P_i$, one per finite candidate. The same protocol's own randomization, initialization and observed effects belong in these laws. Choose fixed positive weights and the mixture $M=\sum_i w_iP_i$. Set $p_{i,t}=d(P_i|_{\mathcal F_t})/d(M|_{\mathcal F_t})$, which exists because $P_i\ll M$. On $\{p_{i,t}>0\}$ put $Z_{i,t}=1/p_{i,t}$ and use zero elsewhere. The zero set is $P_i$-null. This definition is the reciprocal density on the supported part, rather than a ratio of two zero atom probabilities.
+Fix a common allowed audit protocol with its full recorded filtration $(\mathcal F_t)$ and resulting padded path laws $P_i$, one per finite candidate. The same protocol's own randomization, initialization and observed effects belong in these laws. Choose fixed positive weights summing to one and the mixture $M=\sum_i w_iP_i$. Set $p_{i,t}=d(P_i|_{\mathcal F_t})/d(M|_{\mathcal F_t})$, which exists because $P_i\ll M$. On $\{p_{i,t}>0\}$ put $Z_{i,t}=1/p_{i,t}$ and use zero elsewhere. The zero set is $P_i$-null. This definition is the reciprocal density on the supported part, rather than a ratio of two zero atom probabilities.
 
 The restrictions give $p_{i,t}=\mathbb E_M[p_{i,t+1}\mid\mathcal F_t]$ almost surely. Thus $\{p_{i,t}=0\}$ implies $p_{i,t+1}=0$ up to an $M$-null set. For every $A\in\mathcal F_t$,
 $$
