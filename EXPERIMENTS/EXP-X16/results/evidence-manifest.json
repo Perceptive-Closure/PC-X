@@ -1,0 +1,19 @@
+{
+  "independent_result_commit": "2912de224021dba41f20362b44b4cdb1c53164df",
+  "opening_commit": "bf91bb5f48549853ee614361d4bc0f9f917e08b6",
+  "schema": 1,
+  "sha256": {
+    "RESULTS.md": "3cb1cc3638e4bd3e33dfbdd4f68de8ac941ad9275c146da3a61a93bf5cc1e443",
+    "results/anchor-ledger.json": "c6773ddeb867138257bdc3498da0923182500bcf25658ea6ce4a6f38fe5c1083",
+    "results/artifact-examples.json": "41ba35f1aa71ffe7e746c020f1a312154715d1b2d79c479a8336de1034170e01",
+    "results/forecast-agreement.json": "aa98f698d4d41ea594a485b4b7bec939a3e66e45e47a2f4149ec4babab11c297",
+    "results/forecast-receipt.json": "87f9d923fa3f011da6f800902d02fa299aba9a9b1bc6f01af1c6a4315de20c16",
+    "results/forecast.json": "168c601d797c9d7143f32733b19d4d2eaf5667f719cef8f26d776bbf976fe7ee",
+    "results/independent/explicit-history-timing.json": "94a0deb3c92e14d81cca5f1bbb003a311475766baa69b66f4939c19407249793",
+    "results/independent/report.json": "20068297fc51a3aaba42e3eb9e45469033d6ec96ed13500eb348b4a34a429818",
+    "results/raw-benchmarks.json": "edd1a3b62bf3f11418979a1c9358eccee480a5374cce711f16939c13742998f5",
+    "results/runs.jsonl": "3654146d9d073d138d562f020ae2e29a5f11dfa71b1ef915931b069937b90def",
+    "results/summary.json": "9cdc38e708d58a7f76bd77c042ee62db48eb52c7f8b35035fd8f5b9a43e4e481"
+  },
+  "source_commit": "861bc00b5836aabb8aea9dc129f0674afbe30fc2"
+}

@@ -1,0 +1,423 @@
+{
+  "controls": {
+    "cartesian": {
+      "actual_work": 4,
+      "native": {
+        "reason": "invalid-installation",
+        "status": "denied"
+      },
+      "nominal_work": 5,
+      "phantom": [
+        "start-left",
+        "middle-right",
+        "route-left"
+      ]
+    },
+    "changed-instrument": {
+      "disturbed_destination": "quarantine",
+      "ordinary_destination": "routed/category-local-correspondence",
+      "paid": 1,
+      "public_trace_equal": true
+    },
+    "free-guard": {
+      "initial_disclosed_paid": 0,
+      "uniform_initial_projection_paid": 3
+    },
+    "hidden-carry": {
+      "actual_quotes_by_suffix_and_history": {
+        "late-fresh": {
+          "early-clear": 1,
+          "early-set": 5
+        },
+        "late-stale": {
+          "early-clear": 1,
+          "early-set": 5
+        }
+      },
+      "same_meter": "WORK"
+    },
+    "missing-long": {
+      "four_move_paid": 2,
+      "observed_missing_branches": 2,
+      "short_only_paid": 1,
+      "three_move_paid": 3
+    },
+    "split-calls": {
+      "known_fast_calls": [
+        "job.fast.right",
+        "job.fast.left"
+      ],
+      "native_denials": 2,
+      "projection_paid": 0
+    },
+    "suppressed-receipt": {
+      "individually_complete": 2,
+      "joint_worst_paid": null,
+      "ordinary_first_meters": [
+        "LEFT",
+        "RIGHT"
+      ],
+      "suppressed_meter": "WORK"
+    }
+  },
+  "counts": {
+    "artifacts_read_back": 359,
+    "deliberate_control_runs": 14,
+    "diagnostic_stage_guard_pairs": 1126,
+    "heldout_installations": 32,
+    "literal_command_rows": 3388,
+    "native_batch_processes": 4,
+    "native_heldout_work_runs": 118,
+    "native_tasks": 1210,
+    "pure_native_runs": 890,
+    "source_paths": 188,
+    "supported_source_successor_checks": 3400,
+    "valid_heldout_installations": 22,
+    "valid_source_paths": 178
+  },
+  "profiles": {
+    "feedback-live": {
+      "eligible_paths": 2,
+      "heldout_targets": {
+        "NO": 0,
+        "YES": 2
+      },
+      "known_work_window": [
+        4,
+        4
+      ],
+      "online": {
+        "online": {
+          "heldout_runs": 2,
+          "heldout_worst_paid": 0,
+          "native_support_paths": 2,
+          "value": 0
+        },
+        "online_fixed": {
+          "heldout_runs": 0,
+          "heldout_worst_paid": null,
+          "native_support_paths": 0,
+          "value": null
+        },
+        "online_identity": {
+          "heldout_runs": 2,
+          "heldout_worst_paid": 0,
+          "native_support_paths": 2,
+          "value": 0
+        },
+        "structured_scores": {
+          "heldout_runs": 2,
+          "heldout_worst_paid": 0,
+          "native_support_paths": 2,
+          "value": 0
+        }
+      },
+      "pure": {
+        "adaptive_pure_identity": 1,
+        "adaptive_pure_target": 0,
+        "static_all": 12,
+        "static_identity": 1,
+        "static_target": 0
+      }
+    },
+    "feedback-suppressed": {
+      "eligible_paths": 2,
+      "heldout_targets": {
+        "NO": 0,
+        "YES": 2
+      },
+      "known_work_window": [
+        4,
+        4
+      ],
+      "online": {
+        "online": {
+          "heldout_runs": 0,
+          "heldout_worst_paid": null,
+          "native_support_paths": 0,
+          "value": null
+        },
+        "online_fixed": {
+          "heldout_runs": 0,
+          "heldout_worst_paid": null,
+          "native_support_paths": 0,
+          "value": null
+        },
+        "online_identity": {
+          "heldout_runs": 0,
+          "heldout_worst_paid": null,
+          "native_support_paths": 0,
+          "value": null
+        },
+        "structured_scores": {
+          "heldout_runs": 0,
+          "heldout_worst_paid": null,
+          "native_support_paths": 0,
+          "value": null
+        }
+      },
+      "pure": {
+        "adaptive_pure_identity": 1,
+        "adaptive_pure_target": 0,
+        "static_all": 12,
+        "static_identity": 1,
+        "static_target": 0
+      }
+    },
+    "gateway-2": {
+      "eligible_paths": 8,
+      "heldout_targets": {
+        "NO": 2,
+        "YES": 2
+      },
+      "known_work_window": [
+        3,
+        8
+      ],
+      "online": {
+        "online": {
+          "heldout_runs": 4,
+          "heldout_worst_paid": 1,
+          "native_support_paths": 8,
+          "value": 1
+        },
+        "online_fixed": {
+          "heldout_runs": 4,
+          "heldout_worst_paid": 1,
+          "native_support_paths": 8,
+          "value": 1
+        },
+        "online_identity": {
+          "heldout_runs": 4,
+          "heldout_worst_paid": 3,
+          "native_support_paths": 8,
+          "value": 3
+        },
+        "structured_scores": {
+          "heldout_runs": 4,
+          "heldout_worst_paid": 1,
+          "native_support_paths": 8,
+          "value": 1
+        }
+      },
+      "pure": {
+        "adaptive_pure_identity": 3,
+        "adaptive_pure_target": 1,
+        "static_all": 12,
+        "static_identity": 3,
+        "static_target": 1
+      }
+    },
+    "gateway-4": {
+      "eligible_paths": 32,
+      "heldout_targets": {
+        "NO": 2,
+        "YES": 2
+      },
+      "known_work_window": [
+        5,
+        14
+      ],
+      "online": {
+        "online": {
+          "heldout_runs": 4,
+          "heldout_worst_paid": 1,
+          "native_support_paths": 32,
+          "value": 1
+        },
+        "online_identity": {
+          "heldout_runs": 4,
+          "heldout_worst_paid": 5,
+          "native_support_paths": 32,
+          "value": 5
+        },
+        "structured_scores": {
+          "heldout_runs": 4,
+          "heldout_worst_paid": 1,
+          "native_support_paths": 32,
+          "value": 1
+        }
+      },
+      "pure": {
+        "adaptive_pure_identity": 5,
+        "adaptive_pure_target": 1,
+        "static_all": 20,
+        "static_identity": 5,
+        "static_target": 1
+      }
+    },
+    "gateway-6": {
+      "eligible_paths": 128,
+      "heldout_targets": {
+        "NO": 2,
+        "YES": 2
+      },
+      "known_work_window": [
+        7,
+        20
+      ],
+      "online": {
+        "online": {
+          "heldout_runs": 4,
+          "heldout_worst_paid": 1,
+          "native_support_paths": 128,
+          "value": 1
+        },
+        "online_identity": {
+          "heldout_runs": 4,
+          "heldout_worst_paid": 7,
+          "native_support_paths": 128,
+          "value": 7
+        },
+        "structured_scores": {
+          "heldout_runs": 4,
+          "heldout_worst_paid": 1,
+          "native_support_paths": 128,
+          "value": 1
+        }
+      },
+      "pure": {
+        "adaptive_pure_identity": 7,
+        "adaptive_pure_target": 1,
+        "static_all": 28,
+        "static_identity": 7,
+        "static_target": 1
+      }
+    },
+    "intrinsic-gap": {
+      "eligible_paths": 2,
+      "heldout_targets": {
+        "NO": 1,
+        "YES": 1
+      },
+      "known_work_window": [
+        3,
+        5
+      ],
+      "online": {
+        "online": {
+          "heldout_runs": 2,
+          "heldout_worst_paid": 1,
+          "native_support_paths": 2,
+          "value": 1
+        },
+        "online_fixed": {
+          "heldout_runs": 2,
+          "heldout_worst_paid": 1,
+          "native_support_paths": 2,
+          "value": 1
+        },
+        "online_identity": {
+          "heldout_runs": 2,
+          "heldout_worst_paid": 1,
+          "native_support_paths": 2,
+          "value": 1
+        },
+        "structured_scores": {
+          "heldout_runs": 2,
+          "heldout_worst_paid": 1,
+          "native_support_paths": 2,
+          "value": 1
+        }
+      },
+      "pure": {
+        "adaptive_pure_identity": 1,
+        "adaptive_pure_target": 1,
+        "static_all": 12,
+        "static_identity": 1,
+        "static_target": 1
+      }
+    },
+    "meter-h3": {
+      "eligible_paths": 2,
+      "heldout_targets": {
+        "NO": 1,
+        "YES": 1
+      },
+      "known_work_window": [
+        2,
+        3
+      ],
+      "online": {
+        "online": {
+          "heldout_runs": 4,
+          "heldout_worst_paid": 3,
+          "native_support_paths": 4,
+          "value": 3
+        },
+        "online_fixed": {
+          "heldout_runs": 4,
+          "heldout_worst_paid": 3,
+          "native_support_paths": 4,
+          "value": 3
+        },
+        "online_identity": {
+          "heldout_runs": 4,
+          "heldout_worst_paid": 3,
+          "native_support_paths": 4,
+          "value": 3
+        },
+        "structured_scores": {
+          "heldout_runs": 4,
+          "heldout_worst_paid": 3,
+          "native_support_paths": 4,
+          "value": 3
+        }
+      },
+      "pure": {
+        "adaptive_pure_identity": 1,
+        "adaptive_pure_target": 1,
+        "static_all": 8,
+        "static_identity": 1,
+        "static_target": 1
+      }
+    },
+    "meter-h4": {
+      "eligible_paths": 2,
+      "heldout_targets": {
+        "NO": 1,
+        "YES": 1
+      },
+      "known_work_window": [
+        2,
+        3
+      ],
+      "online": {
+        "online": {
+          "heldout_runs": 4,
+          "heldout_worst_paid": 2,
+          "native_support_paths": 4,
+          "value": 2
+        },
+        "online_fixed": {
+          "heldout_runs": 4,
+          "heldout_worst_paid": 3,
+          "native_support_paths": 4,
+          "value": 3
+        },
+        "online_identity": {
+          "heldout_runs": 4,
+          "heldout_worst_paid": 2,
+          "native_support_paths": 4,
+          "value": 2
+        },
+        "structured_scores": {
+          "heldout_runs": 4,
+          "heldout_worst_paid": 2,
+          "native_support_paths": 4,
+          "value": 2
+        }
+      },
+      "pure": {
+        "adaptive_pure_identity": 1,
+        "adaptive_pure_target": 1,
+        "static_all": 8,
+        "static_identity": 1,
+        "static_target": 1
+      }
+    }
+  },
+  "schema": 1,
+  "source_commit": "861bc00b5836aabb8aea9dc129f0674afbe30fc2",
+  "training": false
+}

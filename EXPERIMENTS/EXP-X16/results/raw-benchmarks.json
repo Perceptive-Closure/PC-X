@@ -1,0 +1,1196 @@
+{
+  "clock": "perf_counter_ns",
+  "explicit_import_elapsed_ns": 36025700,
+  "instrumentation": "Measured with tracing enabled. The native child has separate batch elapsed time.",
+  "memory": "tracemalloc, peak Python allocations within each separate invocation",
+  "node": "v22.15.0",
+  "os": "Windows",
+  "python": "3.13.7",
+  "samples": [
+    {
+      "elapsed_ns": 176600,
+      "phase": "frontier_extrema:source_compile",
+      "profile": "feedback-live",
+      "python_traced_peak_bytes": 1584,
+      "repeat": 1
+    },
+    {
+      "elapsed_ns": 839400,
+      "phase": "frontier_extrema:online_solve",
+      "profile": "feedback-live",
+      "python_traced_peak_bytes": 10992,
+      "repeat": 1,
+      "states": 11,
+      "value": 0
+    },
+    {
+      "elapsed_ns": 101000,
+      "phase": "frontier_full_scores:source_compile",
+      "profile": "feedback-live",
+      "python_traced_peak_bytes": 2192,
+      "repeat": 1
+    },
+    {
+      "elapsed_ns": 815300,
+      "phase": "frontier_full_scores:online_solve",
+      "profile": "feedback-live",
+      "python_traced_peak_bytes": 11944,
+      "repeat": 1,
+      "states": 11,
+      "value": 0
+    },
+    {
+      "elapsed_ns": 81300,
+      "phase": "explicit:enumerate_paths",
+      "profile": "feedback-live",
+      "python_traced_peak_bytes": 1976,
+      "repeat": 1
+    },
+    {
+      "action_trials": 7,
+      "elapsed_ns": 1001400,
+      "phase": "explicit:online_solve",
+      "profile": "feedback-live",
+      "python_traced_peak_bytes": 11333,
+      "repeat": 1,
+      "states": 7,
+      "value": 0
+    },
+    {
+      "elapsed_ns": 109500,
+      "phase": "frontier_full_scores:source_compile",
+      "profile": "feedback-live",
+      "python_traced_peak_bytes": 1640,
+      "repeat": 2
+    },
+    {
+      "elapsed_ns": 863900,
+      "phase": "frontier_full_scores:online_solve",
+      "profile": "feedback-live",
+      "python_traced_peak_bytes": 10544,
+      "repeat": 2,
+      "states": 11,
+      "value": 0
+    },
+    {
+      "elapsed_ns": 99600,
+      "phase": "frontier_extrema:source_compile",
+      "profile": "feedback-live",
+      "python_traced_peak_bytes": 1560,
+      "repeat": 2
+    },
+    {
+      "elapsed_ns": 791300,
+      "phase": "frontier_extrema:online_solve",
+      "profile": "feedback-live",
+      "python_traced_peak_bytes": 11160,
+      "repeat": 2,
+      "states": 11,
+      "value": 0
+    },
+    {
+      "elapsed_ns": 73300,
+      "phase": "explicit:enumerate_paths",
+      "profile": "feedback-live",
+      "python_traced_peak_bytes": 1960,
+      "repeat": 2
+    },
+    {
+      "action_trials": 7,
+      "elapsed_ns": 513600,
+      "phase": "explicit:online_solve",
+      "profile": "feedback-live",
+      "python_traced_peak_bytes": 9853,
+      "repeat": 2,
+      "states": 7,
+      "value": 0
+    },
+    {
+      "elapsed_ns": 80900,
+      "phase": "frontier_extrema:source_compile",
+      "profile": "feedback-live",
+      "python_traced_peak_bytes": 1552,
+      "repeat": 3
+    },
+    {
+      "elapsed_ns": 1034500,
+      "phase": "frontier_extrema:online_solve",
+      "profile": "feedback-live",
+      "python_traced_peak_bytes": 10544,
+      "repeat": 3,
+      "states": 11,
+      "value": 0
+    },
+    {
+      "elapsed_ns": 93400,
+      "phase": "frontier_full_scores:source_compile",
+      "profile": "feedback-live",
+      "python_traced_peak_bytes": 1616,
+      "repeat": 3
+    },
+    {
+      "elapsed_ns": 851500,
+      "phase": "frontier_full_scores:online_solve",
+      "profile": "feedback-live",
+      "python_traced_peak_bytes": 11160,
+      "repeat": 3,
+      "states": 11,
+      "value": 0
+    },
+    {
+      "elapsed_ns": 79400,
+      "phase": "explicit:enumerate_paths",
+      "profile": "feedback-live",
+      "python_traced_peak_bytes": 1944,
+      "repeat": 3
+    },
+    {
+      "action_trials": 7,
+      "elapsed_ns": 594700,
+      "phase": "explicit:online_solve",
+      "profile": "feedback-live",
+      "python_traced_peak_bytes": 8677,
+      "repeat": 3,
+      "states": 7,
+      "value": 0
+    },
+    {
+      "elapsed_ns": 90100,
+      "phase": "frontier_extrema:source_compile",
+      "profile": "feedback-suppressed",
+      "python_traced_peak_bytes": 1528,
+      "repeat": 1
+    },
+    {
+      "elapsed_ns": 595100,
+      "phase": "frontier_extrema:online_solve",
+      "profile": "feedback-suppressed",
+      "python_traced_peak_bytes": 9492,
+      "repeat": 1,
+      "states": 5,
+      "value": null
+    },
+    {
+      "elapsed_ns": 84900,
+      "phase": "frontier_full_scores:source_compile",
+      "profile": "feedback-suppressed",
+      "python_traced_peak_bytes": 1592,
+      "repeat": 1
+    },
+    {
+      "elapsed_ns": 964200,
+      "phase": "frontier_full_scores:online_solve",
+      "profile": "feedback-suppressed",
+      "python_traced_peak_bytes": 9580,
+      "repeat": 1,
+      "states": 5,
+      "value": null
+    },
+    {
+      "elapsed_ns": 85200,
+      "phase": "explicit:enumerate_paths",
+      "profile": "feedback-suppressed",
+      "python_traced_peak_bytes": 1920,
+      "repeat": 1
+    },
+    {
+      "action_trials": 3,
+      "elapsed_ns": 312100,
+      "phase": "explicit:online_solve",
+      "profile": "feedback-suppressed",
+      "python_traced_peak_bytes": 4427,
+      "repeat": 1,
+      "states": 4,
+      "value": null
+    },
+    {
+      "elapsed_ns": 93200,
+      "phase": "frontier_full_scores:source_compile",
+      "profile": "feedback-suppressed",
+      "python_traced_peak_bytes": 1584,
+      "repeat": 2
+    },
+    {
+      "elapsed_ns": 639700,
+      "phase": "frontier_full_scores:online_solve",
+      "profile": "feedback-suppressed",
+      "python_traced_peak_bytes": 9092,
+      "repeat": 2,
+      "states": 5,
+      "value": null
+    },
+    {
+      "elapsed_ns": 88900,
+      "phase": "frontier_extrema:source_compile",
+      "profile": "feedback-suppressed",
+      "python_traced_peak_bytes": 1704,
+      "repeat": 2
+    },
+    {
+      "elapsed_ns": 603200,
+      "phase": "frontier_extrema:online_solve",
+      "profile": "feedback-suppressed",
+      "python_traced_peak_bytes": 10588,
+      "repeat": 2,
+      "states": 5,
+      "value": null
+    },
+    {
+      "elapsed_ns": 70300,
+      "phase": "explicit:enumerate_paths",
+      "profile": "feedback-suppressed",
+      "python_traced_peak_bytes": 1904,
+      "repeat": 2
+    },
+    {
+      "action_trials": 3,
+      "elapsed_ns": 272200,
+      "phase": "explicit:online_solve",
+      "profile": "feedback-suppressed",
+      "python_traced_peak_bytes": 4547,
+      "repeat": 2,
+      "states": 4,
+      "value": null
+    },
+    {
+      "elapsed_ns": 81600,
+      "phase": "frontier_extrema:source_compile",
+      "profile": "feedback-suppressed",
+      "python_traced_peak_bytes": 1496,
+      "repeat": 3
+    },
+    {
+      "elapsed_ns": 809500,
+      "phase": "frontier_extrema:online_solve",
+      "profile": "feedback-suppressed",
+      "python_traced_peak_bytes": 8932,
+      "repeat": 3,
+      "states": 5,
+      "value": null
+    },
+    {
+      "elapsed_ns": 85200,
+      "phase": "frontier_full_scores:source_compile",
+      "profile": "feedback-suppressed",
+      "python_traced_peak_bytes": 1560,
+      "repeat": 3
+    },
+    {
+      "elapsed_ns": 586900,
+      "phase": "frontier_full_scores:online_solve",
+      "profile": "feedback-suppressed",
+      "python_traced_peak_bytes": 8860,
+      "repeat": 3,
+      "states": 5,
+      "value": null
+    },
+    {
+      "elapsed_ns": 66700,
+      "phase": "explicit:enumerate_paths",
+      "profile": "feedback-suppressed",
+      "python_traced_peak_bytes": 1888,
+      "repeat": 3
+    },
+    {
+      "action_trials": 3,
+      "elapsed_ns": 266000,
+      "phase": "explicit:online_solve",
+      "profile": "feedback-suppressed",
+      "python_traced_peak_bytes": 3763,
+      "repeat": 3,
+      "states": 4,
+      "value": null
+    },
+    {
+      "elapsed_ns": 59500,
+      "phase": "frontier_extrema:source_compile",
+      "profile": "meter-h3",
+      "python_traced_peak_bytes": 1352,
+      "repeat": 1
+    },
+    {
+      "elapsed_ns": 1053600,
+      "phase": "frontier_extrema:online_solve",
+      "profile": "meter-h3",
+      "python_traced_peak_bytes": 11592,
+      "repeat": 1,
+      "states": 24,
+      "value": 3
+    },
+    {
+      "elapsed_ns": 57000,
+      "phase": "frontier_full_scores:source_compile",
+      "profile": "meter-h3",
+      "python_traced_peak_bytes": 1408,
+      "repeat": 1
+    },
+    {
+      "elapsed_ns": 1241100,
+      "phase": "frontier_full_scores:online_solve",
+      "profile": "meter-h3",
+      "python_traced_peak_bytes": 11592,
+      "repeat": 1,
+      "states": 24,
+      "value": 3
+    },
+    {
+      "elapsed_ns": 63000,
+      "phase": "explicit:enumerate_paths",
+      "profile": "meter-h3",
+      "python_traced_peak_bytes": 1784,
+      "repeat": 1
+    },
+    {
+      "action_trials": 11,
+      "elapsed_ns": 926700,
+      "phase": "explicit:online_solve",
+      "profile": "meter-h3",
+      "python_traced_peak_bytes": 7618,
+      "repeat": 1,
+      "states": 13,
+      "value": 3
+    },
+    {
+      "elapsed_ns": 69400,
+      "phase": "frontier_full_scores:source_compile",
+      "profile": "meter-h3",
+      "python_traced_peak_bytes": 1392,
+      "repeat": 2
+    },
+    {
+      "elapsed_ns": 1115600,
+      "phase": "frontier_full_scores:online_solve",
+      "profile": "meter-h3",
+      "python_traced_peak_bytes": 11592,
+      "repeat": 2,
+      "states": 24,
+      "value": 3
+    },
+    {
+      "elapsed_ns": 63100,
+      "phase": "frontier_extrema:source_compile",
+      "profile": "meter-h3",
+      "python_traced_peak_bytes": 1320,
+      "repeat": 2
+    },
+    {
+      "elapsed_ns": 1044400,
+      "phase": "frontier_extrema:online_solve",
+      "profile": "meter-h3",
+      "python_traced_peak_bytes": 12712,
+      "repeat": 2,
+      "states": 24,
+      "value": 3
+    },
+    {
+      "elapsed_ns": 62100,
+      "phase": "explicit:enumerate_paths",
+      "profile": "meter-h3",
+      "python_traced_peak_bytes": 1760,
+      "repeat": 2
+    },
+    {
+      "action_trials": 11,
+      "elapsed_ns": 799600,
+      "phase": "explicit:online_solve",
+      "profile": "meter-h3",
+      "python_traced_peak_bytes": 10604,
+      "repeat": 2,
+      "states": 13,
+      "value": 3
+    },
+    {
+      "elapsed_ns": 59200,
+      "phase": "frontier_extrema:source_compile",
+      "profile": "meter-h3",
+      "python_traced_peak_bytes": 1312,
+      "repeat": 3
+    },
+    {
+      "elapsed_ns": 1494700,
+      "phase": "frontier_extrema:online_solve",
+      "profile": "meter-h3",
+      "python_traced_peak_bytes": 13592,
+      "repeat": 3,
+      "states": 24,
+      "value": 3
+    },
+    {
+      "elapsed_ns": 90200,
+      "phase": "frontier_full_scores:source_compile",
+      "profile": "meter-h3",
+      "python_traced_peak_bytes": 1368,
+      "repeat": 3
+    },
+    {
+      "elapsed_ns": 1575600,
+      "phase": "frontier_full_scores:online_solve",
+      "profile": "meter-h3",
+      "python_traced_peak_bytes": 14600,
+      "repeat": 3,
+      "states": 24,
+      "value": 3
+    },
+    {
+      "elapsed_ns": 101400,
+      "phase": "explicit:enumerate_paths",
+      "profile": "meter-h3",
+      "python_traced_peak_bytes": 1744,
+      "repeat": 3
+    },
+    {
+      "action_trials": 11,
+      "elapsed_ns": 1576100,
+      "phase": "explicit:online_solve",
+      "profile": "meter-h3",
+      "python_traced_peak_bytes": 11684,
+      "repeat": 3,
+      "states": 13,
+      "value": 3
+    },
+    {
+      "elapsed_ns": 91200,
+      "phase": "frontier_extrema:source_compile",
+      "profile": "meter-h4",
+      "python_traced_peak_bytes": 1296,
+      "repeat": 1
+    },
+    {
+      "elapsed_ns": 1903000,
+      "phase": "frontier_extrema:online_solve",
+      "profile": "meter-h4",
+      "python_traced_peak_bytes": 16694,
+      "repeat": 1,
+      "states": 31,
+      "value": 2
+    },
+    {
+      "elapsed_ns": 71800,
+      "phase": "frontier_full_scores:source_compile",
+      "profile": "meter-h4",
+      "python_traced_peak_bytes": 1352,
+      "repeat": 1
+    },
+    {
+      "elapsed_ns": 1620300,
+      "phase": "frontier_full_scores:online_solve",
+      "profile": "meter-h4",
+      "python_traced_peak_bytes": 18518,
+      "repeat": 1,
+      "states": 31,
+      "value": 2
+    },
+    {
+      "elapsed_ns": 64200,
+      "phase": "explicit:enumerate_paths",
+      "profile": "meter-h4",
+      "python_traced_peak_bytes": 1728,
+      "repeat": 1
+    },
+    {
+      "action_trials": 15,
+      "elapsed_ns": 1420800,
+      "phase": "explicit:online_solve",
+      "profile": "meter-h4",
+      "python_traced_peak_bytes": 12395,
+      "repeat": 1,
+      "states": 16,
+      "value": 2
+    },
+    {
+      "elapsed_ns": 90600,
+      "phase": "frontier_full_scores:source_compile",
+      "profile": "meter-h4",
+      "python_traced_peak_bytes": 1344,
+      "repeat": 2
+    },
+    {
+      "elapsed_ns": 1633300,
+      "phase": "frontier_full_scores:online_solve",
+      "profile": "meter-h4",
+      "python_traced_peak_bytes": 16670,
+      "repeat": 2,
+      "states": 31,
+      "value": 2
+    },
+    {
+      "elapsed_ns": 60900,
+      "phase": "frontier_extrema:source_compile",
+      "profile": "meter-h4",
+      "python_traced_peak_bytes": 1272,
+      "repeat": 2
+    },
+    {
+      "elapsed_ns": 1718200,
+      "phase": "frontier_extrema:online_solve",
+      "profile": "meter-h4",
+      "python_traced_peak_bytes": 15915,
+      "repeat": 2,
+      "states": 31,
+      "value": 2
+    },
+    {
+      "elapsed_ns": 62900,
+      "phase": "explicit:enumerate_paths",
+      "profile": "meter-h4",
+      "python_traced_peak_bytes": 1712,
+      "repeat": 2
+    },
+    {
+      "action_trials": 15,
+      "elapsed_ns": 961900,
+      "phase": "explicit:online_solve",
+      "profile": "meter-h4",
+      "python_traced_peak_bytes": 8073,
+      "repeat": 2,
+      "states": 16,
+      "value": 2
+    },
+    {
+      "elapsed_ns": 58900,
+      "phase": "frontier_extrema:source_compile",
+      "profile": "meter-h4",
+      "python_traced_peak_bytes": 1256,
+      "repeat": 3
+    },
+    {
+      "elapsed_ns": 2113100,
+      "phase": "frontier_extrema:online_solve",
+      "profile": "meter-h4",
+      "python_traced_peak_bytes": 13990,
+      "repeat": 3,
+      "states": 31,
+      "value": 2
+    },
+    {
+      "elapsed_ns": 122000,
+      "phase": "frontier_full_scores:source_compile",
+      "profile": "meter-h4",
+      "python_traced_peak_bytes": 1320,
+      "repeat": 3
+    },
+    {
+      "elapsed_ns": 1755400,
+      "phase": "frontier_full_scores:online_solve",
+      "profile": "meter-h4",
+      "python_traced_peak_bytes": 13971,
+      "repeat": 3,
+      "states": 31,
+      "value": 2
+    },
+    {
+      "elapsed_ns": 70500,
+      "phase": "explicit:enumerate_paths",
+      "profile": "meter-h4",
+      "python_traced_peak_bytes": 1688,
+      "repeat": 3
+    },
+    {
+      "action_trials": 15,
+      "elapsed_ns": 969300,
+      "phase": "explicit:online_solve",
+      "profile": "meter-h4",
+      "python_traced_peak_bytes": 8065,
+      "repeat": 3,
+      "states": 16,
+      "value": 2
+    },
+    {
+      "elapsed_ns": 82300,
+      "phase": "frontier_extrema:source_compile",
+      "profile": "intrinsic-gap",
+      "python_traced_peak_bytes": 1360,
+      "repeat": 1
+    },
+    {
+      "elapsed_ns": 1156300,
+      "phase": "frontier_extrema:online_solve",
+      "profile": "intrinsic-gap",
+      "python_traced_peak_bytes": 12076,
+      "repeat": 1,
+      "states": 22,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 78200,
+      "phase": "frontier_full_scores:source_compile",
+      "profile": "intrinsic-gap",
+      "python_traced_peak_bytes": 1424,
+      "repeat": 1
+    },
+    {
+      "elapsed_ns": 1093700,
+      "phase": "frontier_full_scores:online_solve",
+      "profile": "intrinsic-gap",
+      "python_traced_peak_bytes": 12167,
+      "repeat": 1,
+      "states": 22,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 69400,
+      "phase": "explicit:enumerate_paths",
+      "profile": "intrinsic-gap",
+      "python_traced_peak_bytes": 1760,
+      "repeat": 1
+    },
+    {
+      "action_trials": 9,
+      "elapsed_ns": 605300,
+      "phase": "explicit:online_solve",
+      "profile": "intrinsic-gap",
+      "python_traced_peak_bytes": 5155,
+      "repeat": 1,
+      "states": 7,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 125500,
+      "phase": "frontier_full_scores:source_compile",
+      "profile": "intrinsic-gap",
+      "python_traced_peak_bytes": 1424,
+      "repeat": 2
+    },
+    {
+      "elapsed_ns": 1219800,
+      "phase": "frontier_full_scores:online_solve",
+      "profile": "intrinsic-gap",
+      "python_traced_peak_bytes": 12167,
+      "repeat": 2,
+      "states": 22,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 77700,
+      "phase": "frontier_extrema:source_compile",
+      "profile": "intrinsic-gap",
+      "python_traced_peak_bytes": 1360,
+      "repeat": 2
+    },
+    {
+      "elapsed_ns": 1106200,
+      "phase": "frontier_extrema:online_solve",
+      "profile": "intrinsic-gap",
+      "python_traced_peak_bytes": 12076,
+      "repeat": 2,
+      "states": 22,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 78200,
+      "phase": "explicit:enumerate_paths",
+      "profile": "intrinsic-gap",
+      "python_traced_peak_bytes": 1760,
+      "repeat": 2
+    },
+    {
+      "action_trials": 9,
+      "elapsed_ns": 511000,
+      "phase": "explicit:online_solve",
+      "profile": "intrinsic-gap",
+      "python_traced_peak_bytes": 5403,
+      "repeat": 2,
+      "states": 7,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 70900,
+      "phase": "frontier_extrema:source_compile",
+      "profile": "intrinsic-gap",
+      "python_traced_peak_bytes": 1360,
+      "repeat": 3
+    },
+    {
+      "elapsed_ns": 1112000,
+      "phase": "frontier_extrema:online_solve",
+      "profile": "intrinsic-gap",
+      "python_traced_peak_bytes": 12076,
+      "repeat": 3,
+      "states": 22,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 71900,
+      "phase": "frontier_full_scores:source_compile",
+      "profile": "intrinsic-gap",
+      "python_traced_peak_bytes": 1424,
+      "repeat": 3
+    },
+    {
+      "elapsed_ns": 1140500,
+      "phase": "frontier_full_scores:online_solve",
+      "profile": "intrinsic-gap",
+      "python_traced_peak_bytes": 12332,
+      "repeat": 3,
+      "states": 22,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 69000,
+      "phase": "explicit:enumerate_paths",
+      "profile": "intrinsic-gap",
+      "python_traced_peak_bytes": 1760,
+      "repeat": 3
+    },
+    {
+      "action_trials": 9,
+      "elapsed_ns": 498600,
+      "phase": "explicit:online_solve",
+      "profile": "intrinsic-gap",
+      "python_traced_peak_bytes": 6387,
+      "repeat": 3,
+      "states": 7,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 80800,
+      "phase": "frontier_extrema:source_compile",
+      "profile": "gateway-2",
+      "python_traced_peak_bytes": 1384,
+      "repeat": 1
+    },
+    {
+      "elapsed_ns": 9589300,
+      "phase": "frontier_extrema:online_solve",
+      "profile": "gateway-2",
+      "python_traced_peak_bytes": 58642,
+      "repeat": 1,
+      "states": 156,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 95900,
+      "phase": "frontier_full_scores:source_compile",
+      "profile": "gateway-2",
+      "python_traced_peak_bytes": 1384,
+      "repeat": 1
+    },
+    {
+      "elapsed_ns": 7954900,
+      "phase": "frontier_full_scores:online_solve",
+      "profile": "gateway-2",
+      "python_traced_peak_bytes": 41586,
+      "repeat": 1,
+      "states": 156,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 185200,
+      "phase": "explicit:enumerate_paths",
+      "profile": "gateway-2",
+      "python_traced_peak_bytes": 3232,
+      "repeat": 1
+    },
+    {
+      "action_trials": 83,
+      "elapsed_ns": 5846400,
+      "phase": "explicit:online_solve",
+      "profile": "gateway-2",
+      "python_traced_peak_bytes": 30294,
+      "repeat": 1,
+      "states": 79,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 98900,
+      "phase": "frontier_full_scores:source_compile",
+      "profile": "gateway-2",
+      "python_traced_peak_bytes": 1384,
+      "repeat": 2
+    },
+    {
+      "elapsed_ns": 8616400,
+      "phase": "frontier_full_scores:online_solve",
+      "profile": "gateway-2",
+      "python_traced_peak_bytes": 55218,
+      "repeat": 2,
+      "states": 156,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 95000,
+      "phase": "frontier_extrema:source_compile",
+      "profile": "gateway-2",
+      "python_traced_peak_bytes": 1384,
+      "repeat": 2
+    },
+    {
+      "elapsed_ns": 8186000,
+      "phase": "frontier_extrema:online_solve",
+      "profile": "gateway-2",
+      "python_traced_peak_bytes": 52722,
+      "repeat": 2,
+      "states": 156,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 175200,
+      "phase": "explicit:enumerate_paths",
+      "profile": "gateway-2",
+      "python_traced_peak_bytes": 3232,
+      "repeat": 2
+    },
+    {
+      "action_trials": 83,
+      "elapsed_ns": 5510600,
+      "phase": "explicit:online_solve",
+      "profile": "gateway-2",
+      "python_traced_peak_bytes": 22398,
+      "repeat": 2,
+      "states": 79,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 95200,
+      "phase": "frontier_extrema:source_compile",
+      "profile": "gateway-2",
+      "python_traced_peak_bytes": 1384,
+      "repeat": 3
+    },
+    {
+      "elapsed_ns": 8505300,
+      "phase": "frontier_extrema:online_solve",
+      "profile": "gateway-2",
+      "python_traced_peak_bytes": 38898,
+      "repeat": 3,
+      "states": 156,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 93500,
+      "phase": "frontier_full_scores:source_compile",
+      "profile": "gateway-2",
+      "python_traced_peak_bytes": 1456,
+      "repeat": 3
+    },
+    {
+      "elapsed_ns": 11128700,
+      "phase": "frontier_full_scores:online_solve",
+      "profile": "gateway-2",
+      "python_traced_peak_bytes": 47650,
+      "repeat": 3,
+      "states": 156,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 326200,
+      "phase": "explicit:enumerate_paths",
+      "profile": "gateway-2",
+      "python_traced_peak_bytes": 3232,
+      "repeat": 3
+    },
+    {
+      "action_trials": 83,
+      "elapsed_ns": 7117900,
+      "phase": "explicit:online_solve",
+      "profile": "gateway-2",
+      "python_traced_peak_bytes": 31174,
+      "repeat": 3,
+      "states": 79,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 130800,
+      "phase": "frontier_extrema:source_compile",
+      "profile": "gateway-4",
+      "python_traced_peak_bytes": 1640,
+      "repeat": 1
+    },
+    {
+      "elapsed_ns": 76543200,
+      "phase": "frontier_extrema:online_solve",
+      "profile": "gateway-4",
+      "python_traced_peak_bytes": 313662,
+      "repeat": 1,
+      "states": 1019,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 138200,
+      "phase": "frontier_full_scores:source_compile",
+      "profile": "gateway-4",
+      "python_traced_peak_bytes": 1728,
+      "repeat": 1
+    },
+    {
+      "elapsed_ns": 83822000,
+      "phase": "frontier_full_scores:online_solve",
+      "profile": "gateway-4",
+      "python_traced_peak_bytes": 385958,
+      "repeat": 1,
+      "states": 1019,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 731100,
+      "phase": "explicit:enumerate_paths",
+      "profile": "gateway-4",
+      "python_traced_peak_bytes": 12640,
+      "repeat": 1
+    },
+    {
+      "action_trials": 1363,
+      "elapsed_ns": 113831000,
+      "phase": "explicit:online_solve",
+      "profile": "gateway-4",
+      "python_traced_peak_bytes": 237019,
+      "repeat": 1,
+      "states": 1279,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 130000,
+      "phase": "frontier_full_scores:source_compile",
+      "profile": "gateway-4",
+      "python_traced_peak_bytes": 1640,
+      "repeat": 2
+    },
+    {
+      "elapsed_ns": 70768900,
+      "phase": "frontier_full_scores:online_solve",
+      "profile": "gateway-4",
+      "python_traced_peak_bytes": 228126,
+      "repeat": 2,
+      "states": 1019,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 125000,
+      "phase": "frontier_extrema:source_compile",
+      "profile": "gateway-4",
+      "python_traced_peak_bytes": 1640,
+      "repeat": 2
+    },
+    {
+      "elapsed_ns": 75456600,
+      "phase": "frontier_extrema:online_solve",
+      "profile": "gateway-4",
+      "python_traced_peak_bytes": 329510,
+      "repeat": 2,
+      "states": 1019,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 766300,
+      "phase": "explicit:enumerate_paths",
+      "profile": "gateway-4",
+      "python_traced_peak_bytes": 14896,
+      "repeat": 2
+    },
+    {
+      "action_trials": 1363,
+      "elapsed_ns": 117262500,
+      "phase": "explicit:online_solve",
+      "profile": "gateway-4",
+      "python_traced_peak_bytes": 295267,
+      "repeat": 2,
+      "states": 1279,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 141900,
+      "phase": "frontier_extrema:source_compile",
+      "profile": "gateway-4",
+      "python_traced_peak_bytes": 1640,
+      "repeat": 3
+    },
+    {
+      "elapsed_ns": 80660800,
+      "phase": "frontier_extrema:online_solve",
+      "profile": "gateway-4",
+      "python_traced_peak_bytes": 319126,
+      "repeat": 3,
+      "states": 1019,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 143800,
+      "phase": "frontier_full_scores:source_compile",
+      "profile": "gateway-4",
+      "python_traced_peak_bytes": 1728,
+      "repeat": 3
+    },
+    {
+      "elapsed_ns": 76809400,
+      "phase": "frontier_full_scores:online_solve",
+      "profile": "gateway-4",
+      "python_traced_peak_bytes": 390854,
+      "repeat": 3,
+      "states": 1019,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 790100,
+      "phase": "explicit:enumerate_paths",
+      "profile": "gateway-4",
+      "python_traced_peak_bytes": 12192,
+      "repeat": 3
+    },
+    {
+      "action_trials": 1363,
+      "elapsed_ns": 113694800,
+      "phase": "explicit:online_solve",
+      "profile": "gateway-4",
+      "python_traced_peak_bytes": 235203,
+      "repeat": 3,
+      "states": 1279,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 161900,
+      "phase": "frontier_extrema:source_compile",
+      "profile": "gateway-6",
+      "python_traced_peak_bytes": 1896,
+      "repeat": 1
+    },
+    {
+      "elapsed_ns": 334792700,
+      "phase": "frontier_extrema:online_solve",
+      "profile": "gateway-6",
+      "python_traced_peak_bytes": 1108682,
+      "repeat": 1,
+      "states": 3864,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 187700,
+      "phase": "frontier_full_scores:source_compile",
+      "profile": "gateway-6",
+      "python_traced_peak_bytes": 1968,
+      "repeat": 1
+    },
+    {
+      "elapsed_ns": 406301700,
+      "phase": "frontier_full_scores:online_solve",
+      "profile": "gateway-6",
+      "python_traced_peak_bytes": 1140794,
+      "repeat": 1,
+      "states": 3864,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 3389800,
+      "phase": "explicit:enumerate_paths",
+      "profile": "gateway-6",
+      "python_traced_peak_bytes": 53572,
+      "repeat": 1
+    },
+    {
+      "action_trials": 21843,
+      "elapsed_ns": 2606671900,
+      "phase": "explicit:online_solve",
+      "profile": "gateway-6",
+      "python_traced_peak_bytes": 1367765,
+      "repeat": 1,
+      "states": 20479,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 389900,
+      "phase": "frontier_full_scores:source_compile",
+      "profile": "gateway-6",
+      "python_traced_peak_bytes": 1896,
+      "repeat": 2
+    },
+    {
+      "elapsed_ns": 448179600,
+      "phase": "frontier_full_scores:online_solve",
+      "profile": "gateway-6",
+      "python_traced_peak_bytes": 1275282,
+      "repeat": 2,
+      "states": 3864,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 211200,
+      "phase": "frontier_extrema:source_compile",
+      "profile": "gateway-6",
+      "python_traced_peak_bytes": 1896,
+      "repeat": 2
+    },
+    {
+      "elapsed_ns": 397169100,
+      "phase": "frontier_extrema:online_solve",
+      "profile": "gateway-6",
+      "python_traced_peak_bytes": 1105026,
+      "repeat": 2,
+      "states": 3864,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 3092300,
+      "phase": "explicit:enumerate_paths",
+      "profile": "gateway-6",
+      "python_traced_peak_bytes": 52708,
+      "repeat": 2
+    },
+    {
+      "action_trials": 21843,
+      "elapsed_ns": 2433650200,
+      "phase": "explicit:online_solve",
+      "profile": "gateway-6",
+      "python_traced_peak_bytes": 946341,
+      "repeat": 2,
+      "states": 20479,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 193100,
+      "phase": "frontier_extrema:source_compile",
+      "profile": "gateway-6",
+      "python_traced_peak_bytes": 1896,
+      "repeat": 3
+    },
+    {
+      "elapsed_ns": 479224800,
+      "phase": "frontier_extrema:online_solve",
+      "profile": "gateway-6",
+      "python_traced_peak_bytes": 1268050,
+      "repeat": 3,
+      "states": 3864,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 210900,
+      "phase": "frontier_full_scores:source_compile",
+      "profile": "gateway-6",
+      "python_traced_peak_bytes": 1968,
+      "repeat": 3
+    },
+    {
+      "elapsed_ns": 376203800,
+      "phase": "frontier_full_scores:online_solve",
+      "profile": "gateway-6",
+      "python_traced_peak_bytes": 1435706,
+      "repeat": 3,
+      "states": 3864,
+      "value": 1
+    },
+    {
+      "elapsed_ns": 3074800,
+      "phase": "explicit:enumerate_paths",
+      "profile": "gateway-6",
+      "python_traced_peak_bytes": 41668,
+      "repeat": 3
+    },
+    {
+      "action_trials": 21843,
+      "elapsed_ns": 2303653600,
+      "phase": "explicit:online_solve",
+      "profile": "gateway-6",
+      "python_traced_peak_bytes": 965285,
+      "repeat": 3,
+      "states": 20479,
+      "value": 1
+    }
+  ],
+  "source": {
+    "external_row_verification_ns": 233837400,
+    "full_support_policy_checks_ns": 9664200,
+    "native_control_trials_and_verification_ns": 351421100,
+    "native_heldout_work_and_file_verification_ns": 5014671800,
+    "native_static_all_trials_and_readback_ns": 204393300,
+    "signed_native_inventory_batch_ns": 355006000,
+    "source_request_compile_ns": 337300
+  }
+}
