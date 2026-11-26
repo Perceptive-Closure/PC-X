@@ -1,0 +1,3 @@
+configs/*.json text eol=lf
+results/*.csv text eol=lf
+results/*.json text eol=lf

@@ -1,0 +1,1305 @@
+{
+  "controls_and_structured": {
+    "answer_perturbation": {
+      "full_contract_cost": null,
+      "local_certified": 1,
+      "local_cost_range": [
+        3,
+        3
+      ],
+      "local_unresolved": 2,
+      "selected_queries": "",
+      "uniform_comparators": {
+        "deletion": "4",
+        "exhaustive": "4",
+        "greedy": "4",
+        "random": "4"
+      },
+      "uniform_cost": null,
+      "uniform_impossibility_witness": "c0|c1",
+      "uniform_optimal_count": 0,
+      "uniform_status": "AUDIT_INACCESSIBLE"
+    },
+    "categorical_query": {
+      "full_contract_cost": "3",
+      "local_certified": 3,
+      "local_cost_range": [
+        3,
+        3
+      ],
+      "local_unresolved": 0,
+      "selected_queries": "q0",
+      "uniform_comparators": {
+        "deletion": "3",
+        "exhaustive": "4",
+        "greedy": "3",
+        "random": "29/8"
+      },
+      "uniform_cost": "3",
+      "uniform_impossibility_witness": null,
+      "uniform_optimal_count": 1,
+      "uniform_status": "CERTIFIED"
+    },
+    "cost_perturbation": {
+      "full_contract_cost": "3",
+      "local_certified": 3,
+      "local_cost_range": [
+        1,
+        1
+      ],
+      "local_unresolved": 0,
+      "selected_queries": "q2",
+      "uniform_comparators": {
+        "deletion": "1",
+        "exhaustive": "5",
+        "greedy": "1",
+        "random": "11/4"
+      },
+      "uniform_cost": "1",
+      "uniform_impossibility_witness": null,
+      "uniform_optimal_count": 1,
+      "uniform_status": "CERTIFIED"
+    },
+    "empty_evidence": {
+      "full_contract_cost": null,
+      "local_certified": 0,
+      "local_cost_range": null,
+      "local_unresolved": 0,
+      "selected_queries": "",
+      "uniform_comparators": {
+        "deletion": "0",
+        "exhaustive": "0",
+        "greedy": "0",
+        "random": "0"
+      },
+      "uniform_cost": null,
+      "uniform_impossibility_witness": null,
+      "uniform_optimal_count": 0,
+      "uniform_status": "INCONSISTENT"
+    },
+    "equal_cost_ties": {
+      "full_contract_cost": "2",
+      "local_certified": 2,
+      "local_cost_range": [
+        2,
+        2
+      ],
+      "local_unresolved": 0,
+      "selected_queries": "q0",
+      "uniform_comparators": {
+        "deletion": "2",
+        "exhaustive": "4",
+        "greedy": "2",
+        "random": "2"
+      },
+      "uniform_cost": "2",
+      "uniform_impossibility_witness": null,
+      "uniform_optimal_count": 2,
+      "uniform_status": "CERTIFIED"
+    },
+    "greedy_cover_trap": {
+      "full_contract_cost": null,
+      "local_certified": 7,
+      "local_cost_range": [
+        1,
+        2
+      ],
+      "local_unresolved": 0,
+      "selected_queries": "q1|q2",
+      "uniform_comparators": {
+        "deletion": "2",
+        "exhaustive": "3",
+        "greedy": "3",
+        "random": "45/16"
+      },
+      "uniform_cost": "2",
+      "uniform_impossibility_witness": null,
+      "uniform_optimal_count": 1,
+      "uniform_status": "CERTIFIED"
+    },
+    "homogeneous_distinct_contracts": {
+      "full_contract_cost": "5",
+      "local_certified": 3,
+      "local_cost_range": [
+        0,
+        0
+      ],
+      "local_unresolved": 0,
+      "selected_queries": "",
+      "uniform_comparators": {
+        "deletion": "0",
+        "exhaustive": "5",
+        "greedy": "0",
+        "random": "0"
+      },
+      "uniform_cost": "0",
+      "uniform_impossibility_witness": null,
+      "uniform_optimal_count": 1,
+      "uniform_status": "CERTIFIED"
+    },
+    "localized_inaccessibility": {
+      "full_contract_cost": null,
+      "local_certified": 1,
+      "local_cost_range": [
+        2,
+        2
+      ],
+      "local_unresolved": 2,
+      "selected_queries": "",
+      "uniform_comparators": {
+        "deletion": "2",
+        "exhaustive": "2",
+        "greedy": "2",
+        "random": "2"
+      },
+      "uniform_cost": null,
+      "uniform_impossibility_witness": "c0|c1",
+      "uniform_optimal_count": 0,
+      "uniform_status": "AUDIT_INACCESSIBLE"
+    },
+    "missing_query_perturbation": {
+      "full_contract_cost": null,
+      "local_certified": 0,
+      "local_cost_range": null,
+      "local_unresolved": 3,
+      "selected_queries": "",
+      "uniform_comparators": {
+        "deletion": "1",
+        "exhaustive": "1",
+        "greedy": "1",
+        "random": "1"
+      },
+      "uniform_cost": null,
+      "uniform_impossibility_witness": "c1|c2",
+      "uniform_optimal_count": 0,
+      "uniform_status": "AUDIT_INACCESSIBLE"
+    },
+    "no_queries_heterogeneous": {
+      "full_contract_cost": null,
+      "local_certified": 0,
+      "local_cost_range": null,
+      "local_unresolved": 2,
+      "selected_queries": "",
+      "uniform_comparators": {
+        "deletion": "0",
+        "exhaustive": "0",
+        "greedy": "0",
+        "random": "0"
+      },
+      "uniform_cost": null,
+      "uniform_impossibility_witness": "c0|c1",
+      "uniform_optimal_count": 0,
+      "uniform_status": "AUDIT_INACCESSIBLE"
+    },
+    "pc_correlated_rfreeze": {
+      "full_contract_cost": "6",
+      "local_certified": 4,
+      "local_cost_range": [
+        2,
+        6
+      ],
+      "local_unresolved": 0,
+      "selected_queries": "archive_mapping|entry_license",
+      "uniform_comparators": {
+        "deletion": "6",
+        "exhaustive": "15",
+        "greedy": "6",
+        "random": "31/4"
+      },
+      "uniform_cost": "6",
+      "uniform_impossibility_witness": null,
+      "uniform_optimal_count": 2,
+      "uniform_status": "CERTIFIED"
+    },
+    "pc_grid_rfreeze": {
+      "full_contract_cost": "8",
+      "local_certified": 8,
+      "local_cost_range": [
+        3,
+        6
+      ],
+      "local_unresolved": 0,
+      "selected_queries": "fast_and_license",
+      "uniform_comparators": {
+        "deletion": "6",
+        "exhaustive": "15",
+        "greedy": "9",
+        "random": "31/4"
+      },
+      "uniform_cost": "6",
+      "uniform_impossibility_witness": null,
+      "uniform_optimal_count": 1,
+      "uniform_status": "CERTIFIED"
+    },
+    "pc_grid_signature": {
+      "full_contract_cost": "8",
+      "local_certified": 8,
+      "local_cost_range": [
+        5,
+        8
+      ],
+      "local_unresolved": 0,
+      "selected_queries": "archive_mapping|fast_and_license",
+      "uniform_comparators": {
+        "deletion": "8",
+        "exhaustive": "15",
+        "greedy": "9",
+        "random": "81/8"
+      },
+      "uniform_cost": "8",
+      "uniform_impossibility_witness": null,
+      "uniform_optimal_count": 1,
+      "uniform_status": "CERTIFIED"
+    },
+    "pc_homogeneous_rfreeze": {
+      "full_contract_cost": "6",
+      "local_certified": 4,
+      "local_cost_range": [
+        0,
+        0
+      ],
+      "local_unresolved": 0,
+      "selected_queries": "",
+      "uniform_comparators": {
+        "deletion": "0",
+        "exhaustive": "15",
+        "greedy": "0",
+        "random": "0"
+      },
+      "uniform_cost": "0",
+      "uniform_impossibility_witness": null,
+      "uniform_optimal_count": 1,
+      "uniform_status": "CERTIFIED"
+    },
+    "pc_missing_fast_rfreeze": {
+      "full_contract_cost": null,
+      "local_certified": 0,
+      "local_cost_range": null,
+      "local_unresolved": 8,
+      "selected_queries": "",
+      "uniform_comparators": {
+        "deletion": "6",
+        "exhaustive": "6",
+        "greedy": "6",
+        "random": "6"
+      },
+      "uniform_cost": null,
+      "uniform_impossibility_witness": "E/R/1|R/R/1",
+      "uniform_optimal_count": 0,
+      "uniform_status": "AUDIT_INACCESSIBLE"
+    },
+    "strict_local_global": {
+      "full_contract_cost": "3",
+      "local_certified": 4,
+      "local_cost_range": [
+        1,
+        1
+      ],
+      "local_unresolved": 0,
+      "selected_queries": "q0|q1",
+      "uniform_comparators": {
+        "deletion": "2",
+        "exhaustive": "4",
+        "greedy": "2",
+        "random": "21/8"
+      },
+      "uniform_cost": "2",
+      "uniform_impossibility_witness": null,
+      "uniform_optimal_count": 2,
+      "uniform_status": "CERTIFIED"
+    },
+    "weighted_deletion_trap": {
+      "full_contract_cost": "4",
+      "local_certified": 3,
+      "local_cost_range": [
+        2,
+        4
+      ],
+      "local_unresolved": 0,
+      "selected_queries": "q0|q1",
+      "uniform_comparators": {
+        "deletion": "9",
+        "exhaustive": "13",
+        "greedy": "4",
+        "random": "119/16"
+      },
+      "uniform_cost": "4",
+      "uniform_impossibility_witness": null,
+      "uniform_optimal_count": 1,
+      "uniform_status": "CERTIFIED"
+    }
+  },
+  "domains_by_stratum": {
+    "binary_sparse": 24,
+    "categorical": 24,
+    "control": 12,
+    "correlated": 24,
+    "exhaustive_alias": 512,
+    "exhaustive_distinct": 240,
+    "forced_alias": 24,
+    "pc_authorization": 5
+  },
+  "experiment": "EXP-X03",
+  "overall": {
+    "realized": {
+      "baselines": {
+        "deletion": {
+          "above_optimum": 587,
+          "certified": 2457,
+          "mean_absolute_gap": 0.768824,
+          "mean_attempt_cost_when_inaccessible": 10.247036,
+          "mean_finite_cost": 3.208791,
+          "worst_gap": 22.0
+        },
+        "exhaustive": {
+          "above_optimum": 2336,
+          "certified": 2457,
+          "mean_absolute_gap": 7.564103,
+          "mean_attempt_cost_when_inaccessible": 10.247036,
+          "mean_finite_cost": 10.00407,
+          "worst_gap": 43.0
+        },
+        "greedy": {
+          "above_optimum": 178,
+          "certified": 2457,
+          "mean_absolute_gap": 0.120065,
+          "mean_attempt_cost_when_inaccessible": 10.247036,
+          "mean_finite_cost": 2.560033,
+          "worst_gap": 5.0
+        },
+        "random": {
+          "above_optimum": 1707,
+          "certified": 2457,
+          "mean_absolute_gap": 2.16743,
+          "mean_attempt_cost_when_inaccessible": 10.247036,
+          "mean_finite_cost": 4.607397,
+          "worst_gap": 24.75
+        }
+      },
+      "feasible_with_multiple_optima": 98,
+      "mean_attempt_cost_inaccessible": {
+        "deletion": 10.247036,
+        "exhaustive": 10.247036,
+        "greedy": 10.247036,
+        "random": 10.247036
+      },
+      "mean_finite_optimum": 2.439967,
+      "outcomes": {
+        "AUDIT_INACCESSIBLE": 506,
+        "CERTIFIED": 2457
+      },
+      "same_scope_full_contract_finite": 1970,
+      "scopes": 2963,
+      "target_only_identifiable": 487,
+      "target_strictly_cheaper_than_finite_full_contract": 911
+    },
+    "uniform": {
+      "baselines": {
+        "deletion": {
+          "above_optimum": 61,
+          "certified": 645,
+          "mean_absolute_gap": 0.28062,
+          "mean_attempt_cost_when_inaccessible": 9.383562,
+          "mean_finite_cost": 2.412403,
+          "worst_gap": 16.0
+        },
+        "exhaustive": {
+          "above_optimum": 543,
+          "certified": 645,
+          "mean_absolute_gap": 4.130233,
+          "mean_attempt_cost_when_inaccessible": 9.383562,
+          "mean_finite_cost": 6.262016,
+          "worst_gap": 43.0
+        },
+        "greedy": {
+          "above_optimum": 33,
+          "certified": 645,
+          "mean_absolute_gap": 0.075969,
+          "mean_attempt_cost_when_inaccessible": 9.383562,
+          "mean_finite_cost": 2.207752,
+          "worst_gap": 6.0
+        },
+        "random": {
+          "above_optimum": 315,
+          "certified": 645,
+          "mean_absolute_gap": 0.963663,
+          "mean_attempt_cost_when_inaccessible": 9.383562,
+          "mean_finite_cost": 3.095446,
+          "worst_gap": 22.9375
+        }
+      },
+      "feasible_with_multiple_optima": 14,
+      "mean_attempt_cost_inaccessible": {
+        "deletion": 9.383562,
+        "exhaustive": 9.383562,
+        "greedy": 9.383562,
+        "random": 9.383562
+      },
+      "mean_finite_optimum": 2.131783,
+      "outcomes": {
+        "AUDIT_INACCESSIBLE": 219,
+        "CERTIFIED": 645,
+        "INCONSISTENT": 1
+      },
+      "same_scope_full_contract_finite": 465,
+      "scopes": 865,
+      "target_only_identifiable": 180,
+      "target_strictly_cheaper_than_finite_full_contract": 287
+    }
+  },
+  "per_stratum": {
+    "binary_sparse": {
+      "realized": {
+        "baselines": {
+          "deletion": {
+            "above_optimum": 37,
+            "certified": 112,
+            "mean_absolute_gap": 1.375,
+            "mean_attempt_cost_when_inaccessible": 26.575758,
+            "mean_finite_cost": 6.714286,
+            "worst_gap": 14.0
+          },
+          "exhaustive": {
+            "above_optimum": 112,
+            "certified": 112,
+            "mean_absolute_gap": 26.517857,
+            "mean_attempt_cost_when_inaccessible": 26.575758,
+            "mean_finite_cost": 31.857143,
+            "worst_gap": 43.0
+          },
+          "greedy": {
+            "above_optimum": 24,
+            "certified": 112,
+            "mean_absolute_gap": 0.375,
+            "mean_attempt_cost_when_inaccessible": 26.575758,
+            "mean_finite_cost": 5.714286,
+            "worst_gap": 4.0
+          },
+          "random": {
+            "above_optimum": 100,
+            "certified": 112,
+            "mean_absolute_gap": 9.363281,
+            "mean_attempt_cost_when_inaccessible": 26.575758,
+            "mean_finite_cost": 14.702567,
+            "worst_gap": 24.75
+          }
+        },
+        "feasible_with_multiple_optima": 6,
+        "mean_attempt_cost_inaccessible": {
+          "deletion": 26.575758,
+          "exhaustive": 26.575758,
+          "greedy": 26.575758,
+          "random": 26.575758
+        },
+        "mean_finite_optimum": 5.339286,
+        "outcomes": {
+          "AUDIT_INACCESSIBLE": 66,
+          "CERTIFIED": 112
+        },
+        "same_scope_full_contract_finite": 101,
+        "scopes": 178,
+        "target_only_identifiable": 11,
+        "target_strictly_cheaper_than_finite_full_contract": 44
+      },
+      "uniform": {
+        "baselines": {
+          "deletion": {
+            "above_optimum": 1,
+            "certified": 8,
+            "mean_absolute_gap": 0.25,
+            "mean_attempt_cost_when_inaccessible": 27.625,
+            "mean_finite_cost": 7.75,
+            "worst_gap": 2.0
+          },
+          "exhaustive": {
+            "above_optimum": 8,
+            "certified": 8,
+            "mean_absolute_gap": 28.375,
+            "mean_attempt_cost_when_inaccessible": 27.625,
+            "mean_finite_cost": 35.875,
+            "worst_gap": 43.0
+          },
+          "greedy": {
+            "above_optimum": 5,
+            "certified": 8,
+            "mean_absolute_gap": 1.375,
+            "mean_attempt_cost_when_inaccessible": 27.625,
+            "mean_finite_cost": 8.875,
+            "worst_gap": 5.0
+          },
+          "random": {
+            "above_optimum": 5,
+            "certified": 8,
+            "mean_absolute_gap": 7.9375,
+            "mean_attempt_cost_when_inaccessible": 27.625,
+            "mean_finite_cost": 15.4375,
+            "worst_gap": 22.9375
+          }
+        },
+        "feasible_with_multiple_optima": 0,
+        "mean_attempt_cost_inaccessible": {
+          "deletion": 27.625,
+          "exhaustive": 27.625,
+          "greedy": 27.625,
+          "random": 27.625
+        },
+        "mean_finite_optimum": 7.5,
+        "outcomes": {
+          "AUDIT_INACCESSIBLE": 16,
+          "CERTIFIED": 8
+        },
+        "same_scope_full_contract_finite": 5,
+        "scopes": 24,
+        "target_only_identifiable": 3,
+        "target_strictly_cheaper_than_finite_full_contract": 5
+      }
+    },
+    "categorical": {
+      "realized": {
+        "baselines": {
+          "deletion": {
+            "above_optimum": 96,
+            "certified": 167,
+            "mean_absolute_gap": 2.526946,
+            "mean_attempt_cost_when_inaccessible": 21.166667,
+            "mean_finite_cost": 8.796407,
+            "worst_gap": 14.0
+          },
+          "exhaustive": {
+            "above_optimum": 167,
+            "certified": 167,
+            "mean_absolute_gap": 21.203593,
+            "mean_attempt_cost_when_inaccessible": 21.166667,
+            "mean_finite_cost": 27.473054,
+            "worst_gap": 38.0
+          },
+          "greedy": {
+            "above_optimum": 46,
+            "certified": 167,
+            "mean_absolute_gap": 0.526946,
+            "mean_attempt_cost_when_inaccessible": 21.166667,
+            "mean_finite_cost": 6.796407,
+            "worst_gap": 5.0
+          },
+          "random": {
+            "above_optimum": 167,
+            "certified": 167,
+            "mean_absolute_gap": 6.936377,
+            "mean_attempt_cost_when_inaccessible": 21.166667,
+            "mean_finite_cost": 13.205838,
+            "worst_gap": 15.6875
+          }
+        },
+        "feasible_with_multiple_optima": 25,
+        "mean_attempt_cost_inaccessible": {
+          "deletion": 21.166667,
+          "exhaustive": 21.166667,
+          "greedy": 21.166667,
+          "random": 21.166667
+        },
+        "mean_finite_optimum": 6.269461,
+        "outcomes": {
+          "AUDIT_INACCESSIBLE": 12,
+          "CERTIFIED": 167
+        },
+        "same_scope_full_contract_finite": 167,
+        "scopes": 179,
+        "target_only_identifiable": 0,
+        "target_strictly_cheaper_than_finite_full_contract": 55
+      },
+      "uniform": {
+        "baselines": {
+          "deletion": {
+            "above_optimum": 12,
+            "certified": 18,
+            "mean_absolute_gap": 3.611111,
+            "mean_attempt_cost_when_inaccessible": 21.166667,
+            "mean_finite_cost": 13.388889,
+            "worst_gap": 16.0
+          },
+          "exhaustive": {
+            "above_optimum": 18,
+            "certified": 18,
+            "mean_absolute_gap": 19.277778,
+            "mean_attempt_cost_when_inaccessible": 21.166667,
+            "mean_finite_cost": 29.055556,
+            "worst_gap": 29.0
+          },
+          "greedy": {
+            "above_optimum": 4,
+            "certified": 18,
+            "mean_absolute_gap": 0.555556,
+            "mean_attempt_cost_when_inaccessible": 21.166667,
+            "mean_finite_cost": 10.333333,
+            "worst_gap": 6.0
+          },
+          "random": {
+            "above_optimum": 18,
+            "certified": 18,
+            "mean_absolute_gap": 8.142361,
+            "mean_attempt_cost_when_inaccessible": 21.166667,
+            "mean_finite_cost": 17.920139,
+            "worst_gap": 13.75
+          }
+        },
+        "feasible_with_multiple_optima": 3,
+        "mean_attempt_cost_inaccessible": {
+          "deletion": 21.166667,
+          "exhaustive": 21.166667,
+          "greedy": 21.166667,
+          "random": 21.166667
+        },
+        "mean_finite_optimum": 9.777778,
+        "outcomes": {
+          "AUDIT_INACCESSIBLE": 6,
+          "CERTIFIED": 18
+        },
+        "same_scope_full_contract_finite": 18,
+        "scopes": 24,
+        "target_only_identifiable": 0,
+        "target_strictly_cheaper_than_finite_full_contract": 7
+      }
+    },
+    "control": {
+      "realized": {
+        "baselines": {
+          "deletion": {
+            "above_optimum": 5,
+            "certified": 27,
+            "mean_absolute_gap": 0.777778,
+            "mean_attempt_cost_when_inaccessible": 1.666667,
+            "mean_finite_cost": 2.296296,
+            "worst_gap": 7.0
+          },
+          "exhaustive": {
+            "above_optimum": 26,
+            "certified": 27,
+            "mean_absolute_gap": 3.37037,
+            "mean_attempt_cost_when_inaccessible": 1.666667,
+            "mean_finite_cost": 4.888889,
+            "worst_gap": 11.0
+          },
+          "greedy": {
+            "above_optimum": 1,
+            "certified": 27,
+            "mean_absolute_gap": 0.037037,
+            "mean_attempt_cost_when_inaccessible": 1.666667,
+            "mean_finite_cost": 1.555556,
+            "worst_gap": 1.0
+          },
+          "random": {
+            "above_optimum": 21,
+            "certified": 27,
+            "mean_absolute_gap": 0.993056,
+            "mean_attempt_cost_when_inaccessible": 1.666667,
+            "mean_finite_cost": 2.511574,
+            "worst_gap": 4.6875
+          }
+        },
+        "feasible_with_multiple_optima": 6,
+        "mean_attempt_cost_inaccessible": {
+          "deletion": 1.666667,
+          "exhaustive": 1.666667,
+          "greedy": 1.666667,
+          "random": 1.666667
+        },
+        "mean_finite_optimum": 1.518519,
+        "outcomes": {
+          "AUDIT_INACCESSIBLE": 9,
+          "CERTIFIED": 27
+        },
+        "same_scope_full_contract_finite": 23,
+        "scopes": 36,
+        "target_only_identifiable": 4,
+        "target_strictly_cheaper_than_finite_full_contract": 7
+      },
+      "uniform": {
+        "baselines": {
+          "deletion": {
+            "above_optimum": 1,
+            "certified": 7,
+            "mean_absolute_gap": 0.714286,
+            "mean_attempt_cost_when_inaccessible": 1.75,
+            "mean_finite_cost": 2.714286,
+            "worst_gap": 5.0
+          },
+          "exhaustive": {
+            "above_optimum": 7,
+            "certified": 7,
+            "mean_absolute_gap": 3.428571,
+            "mean_attempt_cost_when_inaccessible": 1.75,
+            "mean_finite_cost": 5.428571,
+            "worst_gap": 9.0
+          },
+          "greedy": {
+            "above_optimum": 1,
+            "certified": 7,
+            "mean_absolute_gap": 0.142857,
+            "mean_attempt_cost_when_inaccessible": 1.75,
+            "mean_finite_cost": 2.142857,
+            "worst_gap": 1.0
+          },
+          "random": {
+            "above_optimum": 5,
+            "certified": 7,
+            "mean_absolute_gap": 1.035714,
+            "mean_attempt_cost_when_inaccessible": 1.75,
+            "mean_finite_cost": 3.035714,
+            "worst_gap": 3.4375
+          }
+        },
+        "feasible_with_multiple_optima": 2,
+        "mean_attempt_cost_inaccessible": {
+          "deletion": 1.75,
+          "exhaustive": 1.75,
+          "greedy": 1.75,
+          "random": 1.75
+        },
+        "mean_finite_optimum": 2.0,
+        "outcomes": {
+          "AUDIT_INACCESSIBLE": 4,
+          "CERTIFIED": 7,
+          "INCONSISTENT": 1
+        },
+        "same_scope_full_contract_finite": 6,
+        "scopes": 12,
+        "target_only_identifiable": 1,
+        "target_strictly_cheaper_than_finite_full_contract": 3
+      }
+    },
+    "correlated": {
+      "realized": {
+        "baselines": {
+          "deletion": {
+            "above_optimum": 125,
+            "certified": 184,
+            "mean_absolute_gap": 3.440217,
+            "mean_attempt_cost_when_inaccessible": null,
+            "mean_finite_cost": 7.652174,
+            "worst_gap": 13.0
+          },
+          "exhaustive": {
+            "above_optimum": 184,
+            "certified": 184,
+            "mean_absolute_gap": 21.690217,
+            "mean_attempt_cost_when_inaccessible": null,
+            "mean_finite_cost": 25.902174,
+            "worst_gap": 40.0
+          },
+          "greedy": {
+            "above_optimum": 38,
+            "certified": 184,
+            "mean_absolute_gap": 0.342391,
+            "mean_attempt_cost_when_inaccessible": null,
+            "mean_finite_cost": 4.554348,
+            "worst_gap": 3.0
+          },
+          "random": {
+            "above_optimum": 184,
+            "certified": 184,
+            "mean_absolute_gap": 5.454484,
+            "mean_attempt_cost_when_inaccessible": null,
+            "mean_finite_cost": 9.66644,
+            "worst_gap": 12.8125
+          }
+        },
+        "feasible_with_multiple_optima": 12,
+        "mean_attempt_cost_inaccessible": {
+          "deletion": null,
+          "exhaustive": null,
+          "greedy": null,
+          "random": null
+        },
+        "mean_finite_optimum": 4.211957,
+        "outcomes": {
+          "CERTIFIED": 184
+        },
+        "same_scope_full_contract_finite": 24,
+        "scopes": 184,
+        "target_only_identifiable": 160,
+        "target_strictly_cheaper_than_finite_full_contract": 6
+      },
+      "uniform": {
+        "baselines": {
+          "deletion": {
+            "above_optimum": 19,
+            "certified": 24,
+            "mean_absolute_gap": 3.208333,
+            "mean_attempt_cost_when_inaccessible": null,
+            "mean_finite_cost": 8.416667,
+            "worst_gap": 10.0
+          },
+          "exhaustive": {
+            "above_optimum": 24,
+            "certified": 24,
+            "mean_absolute_gap": 20.25,
+            "mean_attempt_cost_when_inaccessible": null,
+            "mean_finite_cost": 25.458333,
+            "worst_gap": 37.0
+          },
+          "greedy": {
+            "above_optimum": 1,
+            "certified": 24,
+            "mean_absolute_gap": 0.125,
+            "mean_attempt_cost_when_inaccessible": null,
+            "mean_finite_cost": 5.333333,
+            "worst_gap": 3.0
+          },
+          "random": {
+            "above_optimum": 24,
+            "certified": 24,
+            "mean_absolute_gap": 5.341146,
+            "mean_attempt_cost_when_inaccessible": null,
+            "mean_finite_cost": 10.549479,
+            "worst_gap": 10.8125
+          }
+        },
+        "feasible_with_multiple_optima": 4,
+        "mean_attempt_cost_inaccessible": {
+          "deletion": null,
+          "exhaustive": null,
+          "greedy": null,
+          "random": null
+        },
+        "mean_finite_optimum": 5.208333,
+        "outcomes": {
+          "CERTIFIED": 24
+        },
+        "same_scope_full_contract_finite": 0,
+        "scopes": 24,
+        "target_only_identifiable": 24,
+        "target_strictly_cheaper_than_finite_full_contract": 0
+      }
+    },
+    "exhaustive_alias": {
+      "realized": {
+        "baselines": {
+          "deletion": {
+            "above_optimum": 216,
+            "certified": 1176,
+            "mean_absolute_gap": 0.183673,
+            "mean_attempt_cost_when_inaccessible": 5.0,
+            "mean_finite_cost": 1.877551,
+            "worst_gap": 1.0
+          },
+          "exhaustive": {
+            "above_optimum": 1128,
+            "certified": 1176,
+            "mean_absolute_gap": 3.306122,
+            "mean_attempt_cost_when_inaccessible": 5.0,
+            "mean_finite_cost": 5.0,
+            "worst_gap": 5.0
+          },
+          "greedy": {
+            "above_optimum": 0,
+            "certified": 1176,
+            "mean_absolute_gap": 0.0,
+            "mean_attempt_cost_when_inaccessible": 5.0,
+            "mean_finite_cost": 1.693878,
+            "worst_gap": 0.0
+          },
+          "random": {
+            "above_optimum": 744,
+            "certified": 1176,
+            "mean_absolute_gap": 0.63632,
+            "mean_attempt_cost_when_inaccessible": 5.0,
+            "mean_finite_cost": 2.330198,
+            "worst_gap": 2.25
+          }
+        },
+        "feasible_with_multiple_optima": 0,
+        "mean_attempt_cost_inaccessible": {
+          "deletion": 5.0,
+          "exhaustive": 5.0,
+          "greedy": 5.0,
+          "random": 5.0
+        },
+        "mean_finite_optimum": 1.693878,
+        "outcomes": {
+          "AUDIT_INACCESSIBLE": 360,
+          "CERTIFIED": 1176
+        },
+        "same_scope_full_contract_finite": 864,
+        "scopes": 1536,
+        "target_only_identifiable": 312,
+        "target_strictly_cheaper_than_finite_full_contract": 360
+      },
+      "uniform": {
+        "baselines": {
+          "deletion": {
+            "above_optimum": 24,
+            "certified": 344,
+            "mean_absolute_gap": 0.069767,
+            "mean_attempt_cost_when_inaccessible": 5.0,
+            "mean_finite_cost": 1.953488,
+            "worst_gap": 1.0
+          },
+          "exhaustive": {
+            "above_optimum": 296,
+            "certified": 344,
+            "mean_absolute_gap": 3.116279,
+            "mean_attempt_cost_when_inaccessible": 5.0,
+            "mean_finite_cost": 5.0,
+            "worst_gap": 5.0
+          },
+          "greedy": {
+            "above_optimum": 0,
+            "certified": 344,
+            "mean_absolute_gap": 0.0,
+            "mean_attempt_cost_when_inaccessible": 5.0,
+            "mean_finite_cost": 1.883721,
+            "worst_gap": 0.0
+          },
+          "random": {
+            "above_optimum": 168,
+            "certified": 344,
+            "mean_absolute_gap": 0.554506,
+            "mean_attempt_cost_when_inaccessible": 5.0,
+            "mean_finite_cost": 2.438227,
+            "worst_gap": 2.25
+          }
+        },
+        "feasible_with_multiple_optima": 0,
+        "mean_attempt_cost_inaccessible": {
+          "deletion": 5.0,
+          "exhaustive": 5.0,
+          "greedy": 5.0,
+          "random": 5.0
+        },
+        "mean_finite_optimum": 1.883721,
+        "outcomes": {
+          "AUDIT_INACCESSIBLE": 168,
+          "CERTIFIED": 344
+        },
+        "same_scope_full_contract_finite": 192,
+        "scopes": 512,
+        "target_only_identifiable": 152,
+        "target_strictly_cheaper_than_finite_full_contract": 144
+      }
+    },
+    "exhaustive_distinct": {
+      "realized": {
+        "baselines": {
+          "deletion": {
+            "above_optimum": 32,
+            "certified": 648,
+            "mean_absolute_gap": 0.098765,
+            "mean_attempt_cost_when_inaccessible": null,
+            "mean_finite_cost": 1.358025,
+            "worst_gap": 2.0
+          },
+          "exhaustive": {
+            "above_optimum": 576,
+            "certified": 648,
+            "mean_absolute_gap": 2.074074,
+            "mean_attempt_cost_when_inaccessible": null,
+            "mean_finite_cost": 3.333333,
+            "worst_gap": 4.0
+          },
+          "greedy": {
+            "above_optimum": 32,
+            "certified": 648,
+            "mean_absolute_gap": 0.049383,
+            "mean_attempt_cost_when_inaccessible": null,
+            "mean_finite_cost": 1.308642,
+            "worst_gap": 1.0
+          },
+          "random": {
+            "above_optimum": 352,
+            "certified": 648,
+            "mean_absolute_gap": 0.481771,
+            "mean_attempt_cost_when_inaccessible": null,
+            "mean_finite_cost": 1.74103,
+            "worst_gap": 2.25
+          }
+        },
+        "feasible_with_multiple_optima": 32,
+        "mean_attempt_cost_inaccessible": {
+          "deletion": null,
+          "exhaustive": null,
+          "greedy": null,
+          "random": null
+        },
+        "mean_finite_optimum": 1.259259,
+        "outcomes": {
+          "CERTIFIED": 648
+        },
+        "same_scope_full_contract_finite": 648,
+        "scopes": 648,
+        "target_only_identifiable": 0,
+        "target_strictly_cheaper_than_finite_full_contract": 352
+      },
+      "uniform": {
+        "baselines": {
+          "deletion": {
+            "above_optimum": 4,
+            "certified": 240,
+            "mean_absolute_gap": 0.033333,
+            "mean_attempt_cost_when_inaccessible": null,
+            "mean_finite_cost": 1.416667,
+            "worst_gap": 2.0
+          },
+          "exhaustive": {
+            "above_optimum": 186,
+            "certified": 240,
+            "mean_absolute_gap": 1.95,
+            "mean_attempt_cost_when_inaccessible": null,
+            "mean_finite_cost": 3.333333,
+            "worst_gap": 4.0
+          },
+          "greedy": {
+            "above_optimum": 20,
+            "certified": 240,
+            "mean_absolute_gap": 0.083333,
+            "mean_attempt_cost_when_inaccessible": null,
+            "mean_finite_cost": 1.466667,
+            "worst_gap": 1.0
+          },
+          "random": {
+            "above_optimum": 92,
+            "certified": 240,
+            "mean_absolute_gap": 0.332031,
+            "mean_attempt_cost_when_inaccessible": null,
+            "mean_finite_cost": 1.715365,
+            "worst_gap": 2.0625
+          }
+        },
+        "feasible_with_multiple_optima": 4,
+        "mean_attempt_cost_inaccessible": {
+          "deletion": null,
+          "exhaustive": null,
+          "greedy": null,
+          "random": null
+        },
+        "mean_finite_optimum": 1.383333,
+        "outcomes": {
+          "CERTIFIED": 240
+        },
+        "same_scope_full_contract_finite": 240,
+        "scopes": 240,
+        "target_only_identifiable": 0,
+        "target_strictly_cheaper_than_finite_full_contract": 126
+      }
+    },
+    "forced_alias": {
+      "realized": {
+        "baselines": {
+          "deletion": {
+            "above_optimum": 66,
+            "certified": 119,
+            "mean_absolute_gap": 2.915966,
+            "mean_attempt_cost_when_inaccessible": 25.764706,
+            "mean_finite_cost": 8.176471,
+            "worst_gap": 22.0
+          },
+          "exhaustive": {
+            "above_optimum": 119,
+            "certified": 119,
+            "mean_absolute_gap": 21.008403,
+            "mean_attempt_cost_when_inaccessible": 25.764706,
+            "mean_finite_cost": 26.268908,
+            "worst_gap": 40.0
+          },
+          "greedy": {
+            "above_optimum": 29,
+            "certified": 119,
+            "mean_absolute_gap": 0.411765,
+            "mean_attempt_cost_when_inaccessible": 25.764706,
+            "mean_finite_cost": 5.672269,
+            "worst_gap": 5.0
+          },
+          "random": {
+            "above_optimum": 119,
+            "certified": 119,
+            "mean_absolute_gap": 8.141807,
+            "mean_attempt_cost_when_inaccessible": 25.764706,
+            "mean_finite_cost": 13.402311,
+            "worst_gap": 21.125
+          }
+        },
+        "feasible_with_multiple_optima": 15,
+        "mean_attempt_cost_inaccessible": {
+          "deletion": 25.764706,
+          "exhaustive": 25.764706,
+          "greedy": 25.764706,
+          "random": 25.764706
+        },
+        "mean_finite_optimum": 5.260504,
+        "outcomes": {
+          "AUDIT_INACCESSIBLE": 51,
+          "CERTIFIED": 119
+        },
+        "same_scope_full_contract_finite": 119,
+        "scopes": 170,
+        "target_only_identifiable": 0,
+        "target_strictly_cheaper_than_finite_full_contract": 67
+      },
+      "uniform": {
+        "baselines": {
+          "deletion": {
+            "above_optimum": 0,
+            "certified": 0,
+            "mean_absolute_gap": null,
+            "mean_attempt_cost_when_inaccessible": 26.375,
+            "mean_finite_cost": null,
+            "worst_gap": null
+          },
+          "exhaustive": {
+            "above_optimum": 0,
+            "certified": 0,
+            "mean_absolute_gap": null,
+            "mean_attempt_cost_when_inaccessible": 26.375,
+            "mean_finite_cost": null,
+            "worst_gap": null
+          },
+          "greedy": {
+            "above_optimum": 0,
+            "certified": 0,
+            "mean_absolute_gap": null,
+            "mean_attempt_cost_when_inaccessible": 26.375,
+            "mean_finite_cost": null,
+            "worst_gap": null
+          },
+          "random": {
+            "above_optimum": 0,
+            "certified": 0,
+            "mean_absolute_gap": null,
+            "mean_attempt_cost_when_inaccessible": 26.375,
+            "mean_finite_cost": null,
+            "worst_gap": null
+          }
+        },
+        "feasible_with_multiple_optima": 0,
+        "mean_attempt_cost_inaccessible": {
+          "deletion": 26.375,
+          "exhaustive": 26.375,
+          "greedy": 26.375,
+          "random": 26.375
+        },
+        "mean_finite_optimum": null,
+        "outcomes": {
+          "AUDIT_INACCESSIBLE": 24
+        },
+        "same_scope_full_contract_finite": 0,
+        "scopes": 24,
+        "target_only_identifiable": 0,
+        "target_strictly_cheaper_than_finite_full_contract": 0
+      }
+    },
+    "pc_authorization": {
+      "realized": {
+        "baselines": {
+          "deletion": {
+            "above_optimum": 10,
+            "certified": 24,
+            "mean_absolute_gap": 1.333333,
+            "mean_attempt_cost_when_inaccessible": 6.0,
+            "mean_finite_cost": 5.5,
+            "worst_gap": 4.0
+          },
+          "exhaustive": {
+            "above_optimum": 24,
+            "certified": 24,
+            "mean_absolute_gap": 10.833333,
+            "mean_attempt_cost_when_inaccessible": 6.0,
+            "mean_finite_cost": 15.0,
+            "worst_gap": 15.0
+          },
+          "greedy": {
+            "above_optimum": 8,
+            "certified": 24,
+            "mean_absolute_gap": 0.833333,
+            "mean_attempt_cost_when_inaccessible": 6.0,
+            "mean_finite_cost": 5.0,
+            "worst_gap": 3.0
+          },
+          "random": {
+            "above_optimum": 20,
+            "certified": 24,
+            "mean_absolute_gap": 2.4375,
+            "mean_attempt_cost_when_inaccessible": 6.0,
+            "mean_finite_cost": 6.604167,
+            "worst_gap": 5.6875
+          }
+        },
+        "feasible_with_multiple_optima": 2,
+        "mean_attempt_cost_inaccessible": {
+          "deletion": 6.0,
+          "exhaustive": 6.0,
+          "greedy": 6.0,
+          "random": 6.0
+        },
+        "mean_finite_optimum": 4.166667,
+        "outcomes": {
+          "AUDIT_INACCESSIBLE": 8,
+          "CERTIFIED": 24
+        },
+        "same_scope_full_contract_finite": 24,
+        "scopes": 32,
+        "target_only_identifiable": 0,
+        "target_strictly_cheaper_than_finite_full_contract": 20
+      },
+      "uniform": {
+        "baselines": {
+          "deletion": {
+            "above_optimum": 0,
+            "certified": 4,
+            "mean_absolute_gap": 0.0,
+            "mean_attempt_cost_when_inaccessible": 6.0,
+            "mean_finite_cost": 5.0,
+            "worst_gap": 0.0
+          },
+          "exhaustive": {
+            "above_optimum": 4,
+            "certified": 4,
+            "mean_absolute_gap": 10.0,
+            "mean_attempt_cost_when_inaccessible": 6.0,
+            "mean_finite_cost": 15.0,
+            "worst_gap": 15.0
+          },
+          "greedy": {
+            "above_optimum": 2,
+            "certified": 4,
+            "mean_absolute_gap": 1.0,
+            "mean_attempt_cost_when_inaccessible": 6.0,
+            "mean_finite_cost": 6.0,
+            "worst_gap": 3.0
+          },
+          "random": {
+            "above_optimum": 3,
+            "certified": 4,
+            "mean_absolute_gap": 1.40625,
+            "mean_attempt_cost_when_inaccessible": 6.0,
+            "mean_finite_cost": 6.40625,
+            "worst_gap": 2.125
+          }
+        },
+        "feasible_with_multiple_optima": 1,
+        "mean_attempt_cost_inaccessible": {
+          "deletion": 6.0,
+          "exhaustive": 6.0,
+          "greedy": 6.0,
+          "random": 6.0
+        },
+        "mean_finite_optimum": 5.0,
+        "outcomes": {
+          "AUDIT_INACCESSIBLE": 1,
+          "CERTIFIED": 4
+        },
+        "same_scope_full_contract_finite": 4,
+        "scopes": 5,
+        "target_only_identifiable": 0,
+        "target_strictly_cheaper_than_finite_full_contract": 2
+      }
+    }
+  },
+  "proof_checks": {
+    "all_subsets_characterization_checks": 59971,
+    "certificate_sufficiency_and_minimality": 3102,
+    "scopes_with_verified_status_and_cost": 3828,
+    "strict_uniform_worst_realized_gap": 12,
+    "verified_complete_interface_impossibility_witnesses": 725,
+    "verified_partition_conflicts": 27297
+  },
+  "protocol_sha256": "ec439570e083860794a31e15a12420fa064f38716fee393cb54472d7357832d8"
+}
