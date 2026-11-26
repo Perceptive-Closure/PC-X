@@ -126,4 +126,4 @@ The next wave uses one managed Git worktree per experiment with all ignored scra
 
 ## Findings and outstanding obligations
 
-Operationally complete 15/15. All experimental checkouts and experiment-owned caches have been removed. The quantified results, negative findings, remaining proof obligations and reproducibility qualifications are in [FINAL-RESULTS.md](FINAL-RESULTS.md). The 12 generated parent PDF page renders are eligible for cleanup after the report and this ledger are pushed and verified.
+Operationally complete 15/15. All experimental checkouts and experiment-owned caches have been removed. The quantified results, negative findings, remaining proof obligations and reproducibility qualifications are in [FINAL-RESULTS.md](FINAL-RESULTS.md). The report and this ledger were pushed and verified before parent reference scratch cleanup. Automatic approval rejected the scoped shell command before execution with `blocked by policy`. The 12 generated page renders remain in the dedicated temporary folder pending File Explorer confirmation.
