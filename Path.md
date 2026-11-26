@@ -8,8 +8,8 @@
 
 | Slot | Experiment | Agent | Lifecycle |
 | --- | --- | --- | --- |
-| 1 | X07 | exp_x07 | RESERVED |
-| 2 | X12 | exp_x12 | RESULTS_DOCUMENTED |
+| 1 | X07 | exp_x07 | IMPLEMENTING |
+| 2 | — | — | AVAILABLE |
 | 3 | X14 | exp_x14 | IMPLEMENTING |
 
 Each slot remains occupied through parent clean-checkout verification, safe cleanup, and independent verification of remote evidence and cleanup. Reserved slots count toward the concurrency ceiling.
@@ -24,12 +24,12 @@ Each slot remains occupied through parent clean-checkout verification, safe clea
 | X04 | COMPLETE | Exact minimax supported with conditional cost savings | codex/exp-x04 | [b6ce562aa91323f2913615b92e91ffb2b9cc4731](https://github.com/Perceptive-Closure/PC-X/tree/b6ce562aa91323f2913615b92e91ffb2b9cc4731/EXPERIMENTS/EXP-X04) |
 | X05 | COMPLETE | Structured symbolic scalability supported under frozen bounds | codex/exp-x05 | [e288a6b5b8ddac24af349913bc68b640a691b2b2](https://github.com/Perceptive-Closure/PC-X/tree/e288a6b5b8ddac24af349913bc68b640a691b2b2/EXPERIMENTS/EXP-X05) |
 | X06 | COMPLETE | Native OPA authorization predictions confirmed in the declared adapter | codex/exp-x06 | [d3d8f0d6f14d548ce4b95dfa4341d8db54ad7876](https://github.com/Perceptive-Closure/PC-X/tree/d3d8f0d6f14d548ce4b95dfa4341d8db54ad7876/EXPERIMENTS/EXP-X06) |
-| X07 | WORKPLAN_CREATED | Pending | codex/exp-x07 | Awaiting X03 |
+| X07 | IMPLEMENTING | Pending | codex/exp-x07 | X03 pinned, native OpenSSL fixture preparation |
 | X08 | COMPLETE | Bounded transcript equivalence and forecast supported | codex/exp-x08 | [a8c6650a7ff9901ca9ac5ed4036a37f6cb7c9200](https://github.com/Perceptive-Closure/PC-X/tree/a8c6650a7ff9901ca9ac5ed4036a37f6cb7c9200/EXPERIMENTS/EXP-X08) |
 | X09 | COMPLETE | Admitted recovery supported and unanchored transport falsified | codex/exp-x09 | [68624c9a0eea93ec304be8e4349727eda3381c76](https://github.com/Perceptive-Closure/PC-X/tree/68624c9a0eea93ec304be8e4349727eda3381c76/EXPERIMENTS/EXP-X09) |
 | X10 | COMPLETE | Monitor ambiguity and bounded recovery supported | codex/exp-x10 | [4a16ef37d0e90e856560ce153c0fd690c28016b6](https://github.com/Perceptive-Closure/PC-X/tree/4a16ef37d0e90e856560ce153c0fd690c28016b6/EXPERIMENTS/EXP-X10) |
 | X11 | COMPLETE | Fidelity separated from measurement disturbance | codex/exp-x11 | [01f174c14669c92cd1c06dbf5158db29c4720b6d](https://github.com/Perceptive-Closure/PC-X/tree/01f174c14669c92cd1c06dbf5158db29c4720b6d/EXPERIMENTS/EXP-X11) |
-| X12 | RESULTS_DOCUMENTED | Under review | codex/exp-x12 | Forecast c9fe2f92102298c04fe086e75c993e47c6fc2f17 |
+| X12 | COMPLETE | Bounded anchored transfer supported, cost advantage absent versus full audit | codex/exp-x12 | [486671cfcb52405ad226de553ce1df992f66b4fc](https://github.com/Perceptive-Closure/PC-X/tree/486671cfcb52405ad226de553ce1df992f66b4fc/EXPERIMENTS/EXP-X12) |
 | X13 | COMPLETE | Independent conditions for local-to-joint composition verified | codex/exp-x13 | [1b9e599a7333d9b9f85669298791557282a75c1b](https://github.com/Perceptive-Closure/PC-X/tree/1b9e599a7333d9b9f85669298791557282a75c1b/EXPERIMENTS/EXP-X13) |
 | X14 | IMPLEMENTING | Pending | codex/exp-x14 | Protocol e5a082b4e0e9109e27ba422df06829067830c6ea |
 | X15 | WORKPLAN_CREATED | Pending | codex/exp-x15 | Awaiting all predecessor terminal outcomes |
@@ -87,6 +87,9 @@ Each slot remains occupied through parent clean-checkout verification, safe clea
 - X12 parent reproduced all 15 tests and both preflight digests from the exact freeze `7a742d9835fef3d42205d28f6ff967009207b9a9`, took only admitted audit observations, and checked forecast `c9fe2f92102298c04fe086e75c993e47c6fc2f17`, receipt and source invariance at 20:29:16 Asia/Karachi. Native sandbox opening completed at 20:29:19. The initial readback found 6 decisions confirmed and 6 abstentions. It preserved a lower-cost but more comprehensive full-audit comparator and seven false favorable evaluation-only results. Terminal verification is pending.
 - X14 entered implementation and froze its solver/held-out protocol after X13 closure. X07 is reserved after X06 cleanup.
 
+- X12 exact GitHub archive replay passed 15 tests, reproduced the raw gzip, summary and manifest, and satisfied all six preregistered gates. Independent readback reproduced all 98,304 queue/sorter episode scores in 24 cells and cost totals. Six decisions confirmed, six abstentions, zero false certifications, and coverage and interval overlap in all 24 cells. The evaluation-only method falsely certified seven of twelve. Omitting fidelity falsely certified two. Full trusted acquisition confirmed ten at 786,444 configured operations, versus six at 1,048,804 anchored operations. The fixed nonadaptive comparator confirmed six at 1,573,092 operations. No universal transfer claim or advantage over full audit follows. Parent verified managed worktree removal and unchanged remote tip. 7,903,693 logical bytes removed.
+- X07 is active in its isolated managed worktree. X14 is active. The free slot remains idle while X15 waits for all 14 terminal packages.
+
 ## First-wave cleanup and restart
 
 Automatic command approval rejected recursive removal and individually verified literal-path file removal for X03. Individually verified literal-path removal was also rejected for X08. The sole error detail was `blocked by policy` at process creation. Rejections occurred before execution and no files were deleted. X01 cleanup was held after the same methods were rejected for the other experiment roots. These directories were created for this program, contain the disposable clones, reproduction checkouts and scoped outputs, and have verified durable GitHub packages.
@@ -103,4 +106,4 @@ The next wave uses one managed Git worktree per experiment with all ignored scra
 
 ## Findings and outstanding obligations
 
-Operationally complete 11/15. X12 and X14 remain active, X07 is reserved, and X15 awaits all preceding terminal results. Accepted claims remain bounded to the tested finite and sandbox systems. The general transport and flagship results remain open.
+Operationally complete 12/15. X07 and X14 remain active. X15 awaits both terminal packages. Accepted claims remain bounded to the tested finite and sandbox systems. The general transport and flagship results remain open.
