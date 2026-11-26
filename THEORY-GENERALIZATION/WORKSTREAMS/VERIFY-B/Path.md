@@ -20,3 +20,25 @@ The four initial blobs were read by exact Git object from the assigned checkout 
 | Scope restrictions | T03 transport of common reports uses preserved stopping menus. M02 value-DAG leaves encode keep decisions as costs \(0,+\infty\), with supports projected to any designated removable occurrences. M03 row restrictions use fixed finite linear maps and exact physical witnesses need realization. M04 masked class caps use fixed-class pure plans, and exact rational LP certificates use rational tree data. |
 | Rejected broader readings | Raw numeric keep bits and only min/max/add do not express deletion at infinite cost. Arbitrary nonlinear row restrictions need not give interval risk images. Separate marginal score/cue matching does not give a full-record alias. Class-conditional caps under label-randomizing initialization cannot be imposed by the unnormalized masked row. |
 | Genuinely open in this scope | Physical membership, trusted instrument fidelity and operational realization of proposed deployment arrays need external evidence at the actual installations. Proof, scope and computational-evidence comparison against the exact released constructor revisions is pending explicit release. |
+
+## Released comparison
+
+The parent authenticated the published blind seal `9ca605af24358e4ba7c401a83bda008bf64d272d` before releasing the constructor proofs on 27 November 2026. The four blind derivations are unchanged. Constructor statement blobs at the terminal revisions equal the independently sealed intake blobs, including M02.5. Each proof and terminal clarification was retrieved from GitHub at its full revision and the blob hash was recomputed from the returned bytes.
+
+| Module | Terminal constructor revision | Proof blob | Scope note blob |
+| --- | --- | --- | --- |
+| M01 | `d3eee8044cca3e7dd1f1eee02b78144cf9c9556b` | `3317382e7d10a8324375ba1e7b88b4a4cfa43be0` | Accepted T03 variant retained in the proof |
+| M02 and M02.5 | `d3eee8044cca3e7dd1f1eee02b78144cf9c9556b` | `8a06656e7defc803e30452d05b0bd8f02d869810` | `e7d503b781ea0920a702500ab5af51c91f1cca87` |
+| M03 | `1dc1bbb04dcf5236da0c9112695cc0b528561ba0` | `67bd16d35ba399b6e437c9b6dac949ec5ae51727` | `9c1fdb6c13e27457c0d58cd163997051ab7013d5` |
+| M04 | `1dc1bbb04dcf5236da0c9112695cc0b528561ba0` | `68a4b9464cad551005fb1002fa7148c2ab0aa9a6` | `cde7547a9580031f48ecfb29d2a709d5d023008e` |
+
+The original M01, M03 and M04 proof revisions at `a1b72883c64cb645ab7dd59a35a650385d3ca4e8`, `b3a7acb16bca664cf7d1a36087d5b499628dee64` and `cc5f03cdc8a3ab65df004db5624255244b4d2b24` yield the same proof blobs as their terminal rows above. The comparisons review every numbered part and its assumptions, source realizability, quantitative bounds, certificate replay and counterexamples. Python 3.13.7 and Lean 4.21.0 independently replayed the eight pinned local checks. [M01 and M02.1–M02.5 comparison](../../VERIFICATION/VERIFY-B/COMPARISON-M01-M02.md) · [M03 and M04 comparison](../../VERIFICATION/VERIFY-B/COMPARISON-M03-M04.md) · [Exact replay and evidence limits](../../VERIFICATION/VERIFY-B/REPLAY.md)
+
+## Comparison results
+
+| Disposition | Finding |
+| --- | --- |
+| Supported in the stated or clarified model | M01 finite extraction, exact certification, directed transport and interpretation boundaries. M02 exact staging, realizable routed and noisy separations, and succinct exact and approximation boundaries. M03 operationally anchored coupled risk and anchor acquisition inside the represented class. M04 exact finite minimax, composite obstruction, conditional-mean identification, anytime retention and expected-cost horizon approximation. |
+| Material restrictions | T03 lifting preserves the admitted reporting menus. M02 uses \(0,+\infty\) switch costs on removable occurrences and shares policy decisions by exact information state. M03 uses fixed linear rows and linked physical/policy realization, and its statistical issuance assumes the faithful registered calibration design. M04 assumes a fixed class per pure responder, declared information timing, joint response-law matching for the converse, and cap declarations legal as infinite-model stops. |
+| Rejected extensions | Raw arithmetic-only keep bits, stop menus independent of the T03 report correspondence, exact linked transport from separately fitted policy arrays, isolated record marginals as a full alias, unnormalized class-conditional constraints under chance-mixed labels, and termination rights inserted by announcing a cap. |
+| Open or external | Prospective physical source and scorer membership, automatic linked transport with unknown shared stochastic rows, calibration outside the justified batch/interval regime, and exact optimization beyond the declared finite or consistently truncated strategic classes remain unresolved here. The replays supply no new deployment experiment or change to the X05 tie, X12 comparator result or original chronology qualifications. |
