@@ -17,8 +17,8 @@ On PowerShell use `New-Item -ItemType Directory -Force scratch | Out-Null` for t
 ## Evidence and stage commands
 
 - [Pre-audit](results/pre-audit.json) contains compatible completions, exhaustive scoring, the mismatch witness, independent pulse controls and query selection.
-- The audit receipt records the parent custodian's chosen query, raw isolated readback and assignment commitment. The later forecast records risk and fidelity predictions and the no-anchor and no-enrollment ablations.
-- The opening contains the assignment, seed and nonce. Each line of the compressed observation archive contains a context, paired block index, three request/ticket tuples, and the four traces. A trace row has public request/display/route/acknowledgement, machine arrivals/completions, tick/last-request/backlog state, and a logger copy or placebo lamp event when applicable. The independent event label uses only arrivals and completions.
+- The [audit receipt](results/audit-receipt.json) records the parent custodian's chosen query, raw isolated readback and assignment commitment. The [forecast](results/forecast.json) records risk and fidelity predictions and the no-anchor and no-enrollment ablations.
+- The [opening](results/opening.json) contains the assignment, seed and nonce. Each line of the [compressed observation archive](results/observations.jsonl.gz) contains a context, paired block index, three request/ticket tuples, and the four traces. A trace row has public request/display/route/acknowledgement, machine arrivals/completions, tick/last-request/backlog state, and a logger copy or placebo lamp event when applicable. The independent event label uses only arrivals and completions.
 
 The forecaster uses `python -B src/x11.py pre-audit --out results/pre-audit.json` to build pre-audit evidence prior to custody. After the custodian verifies the frozen source from GitHub, use the following commands from their immutable source archive. Substitute full paths for the parent-owned scratch files and full commits for the named parameters. The opening directory must be new and its parent must already exist.
 
