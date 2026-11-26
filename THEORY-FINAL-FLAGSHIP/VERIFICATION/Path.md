@@ -31,8 +31,15 @@ Proof-blind readiness established. The neutral intake and separate corroboration
 3. Proved the joint issuance bounds via selected-count supermartingales, stopped membership, and a separation tube in measured moments. Lower-bound coupling needs the full matched pre-verdict interface. The quota is an operationally authorized schedule. Kept the risk scope explicit for diagnostic activity and protected work.
 4. Recomputed all fixture risks, realized and prospective exact read costs, and the group blocker. Exact leaf and record enumerations and scaled Lean lemmas passed. [Controls and replay](T30-P/CHECKS.md)
 
+## T30.U proof-blind phase
+
+1. Authenticated the self-contained neutral statement and copied its exact original bytes. Kept it independent of provisional P/A extension claims. [Neutral packet](T30-U/STATEMENTS.md) · [Source provenance and proof](T30-U/BLIND-DERIVATION.md)
+2. Established the shared realization-flow program, posterior sufficiency under private randomization, occupation equivalence, and worldwise simultaneity. Compiled lawful reports, path flags and written physical-event markers are part of the retained-information premise. A naive scalar expected-risk or approximate observation summary would fail for supported authority.
+3. Derived the calibrated marginal, union and selective error envelopes separately. Constructed the two-world lower testing bound and exact routing match. The optional terminal event flag can create a non-unifilar last row when hidden; the polynomial family bound follows by counting its decision-state prefixes and constant last-stage extensions. A literal unifilar-bound application needs a checked interpretation for that row.
+4. Executed the exact independently authored Python expansion and Lean arithmetic. Added controls for excluded information, conditional calibration failure and the different objective of event-free useful completion. [Checks and literature](T30-U/CHECKS.md)
+
 ## RESULTS
 
-- T30.A's independent seal is eba38eedf9cac25c9545251c2e20d23103e18b20. Guarded conclusions use legal binary reports and complete actual deployment-event coverage. Comparison is pending authenticated release.
-- T30.P.1–P.4 follow in the stated finite linked class. The audit lower bound uses common initial audit information and a complete channel description. The quota requires genuine available repetitions. Include every relevant act in the declared risk scope or check its safety separately. The entire derivation is independent of later proof comparison.
-- T30.U proof-blind verification is next at its separately authenticated statement.
+- T30.A independent GitHub seal eba38eedf9cac25c9545251c2e20d23103e18b20. Guarded claims require legal verdict menus at the used stops and complete deployment-event coverage.
+- T30.P independent GitHub seal 853f404f83ed58d00d8c3c6d8e61bd92e9d60838. Quotas must be callable, the lower bound uses the full matched pre-verdict channel and each in-scope act needs real risk accounting.
+- T30.U U.1–U.4 are independently derived for complete finite compiled state and the explicitly scoped event-count and locality conditions. The polynomial routing-family bound survives a hidden terminal risk flag, but its final row must be handled separately from the unifilar bound. Separate published constructor comparisons follow authenticated release.
