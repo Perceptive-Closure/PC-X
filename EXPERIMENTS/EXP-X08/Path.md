@@ -2,7 +2,7 @@
 
 ## 1. Experiment identification
 
-EXP-X08 — Evaluation-equivalent AI agents. Assigned agent exp_x08. Parent custodian /root. Initial checkout `91c2158877e5440aedafd76a2b16f6bfa389c330`. [Work plan](WorkPlan.md), [protocol v1](Protocol.md), [parameters](configs/protocol.json). Relevant packages T15–T17, the finite T19 threshold formulation and the T21 indistinguishability bound. State `RESULTS_DOCUMENTED`.
+EXP-X08 — Evaluation-equivalent AI agents. Assigned agent exp_x08. Parent custodian /root. Initial checkout `91c2158877e5440aedafd76a2b16f6bfa389c330`. [Work plan](WorkPlan.md), [protocol v1](Protocol.md), [parameters](configs/protocol.json). Relevant packages T15–T17, the finite T19 threshold formulation and the T21 indistinguishability bound. State `REPRODUCIBILITY_VERIFIED`.
 
 ## 2. Explicit scope declaration
 
@@ -32,7 +32,7 @@ The early floor-cue control yielded total variation 1/2. The independently logge
 
 ## 7. Testing and independent verification
 
-Python 3.13.7 `-B -m unittest discover -s tests -v` passed 7/7 tests. Exact rational law, risk and witness checks passed. A separately defined development seed exercised the trusted logger and threshold-analysis stages. The separate parent runner verified original custody chronology and source revision. The author replay checked the original outcome commitment and full raw SHA-256. A terminal remote clean-checkout reproduction is a parent gate.
+Python 3.13.7 `-B -m unittest discover -s tests -v` passed 7/7 tests. Exact rational law, risk and witness checks passed. A separately defined development seed exercised the trusted logger and threshold-analysis stages. The separate parent runner verified original custody chronology and source revision. The author replay checked the original outcome commitment and full raw SHA-256. The parent independently cloned evidence commit `6f17f4cd603199a76beda5c8db105806c2727844` from GitHub, passed 7/7 tests, reproduced the full raw hash, and verified the forecast ancestry. The parent separately verified every native retry against its facility ticket and recomputed all 8,192 episode outcomes and simultaneous bounds.
 
 ## 8. Deviations and scope compliance
 
@@ -89,4 +89,4 @@ Reproduce with the test and replay commands in [README.md](README.md). See [pre-
 
 ## 10. GitHub persistence and cleanup record
 
-Repository `Perceptive-Closure/PC-X`. Branch `codex/exp-x08`. Protocol freeze `100cddd656a94e7ebdc3341df13b857c3ff030f4`, pre-audit runner `52a04c5d65c196892d4c888e2a5e8b82d07d4fbf`, and forecast seal `ce5f10b0ff0e5d549eecf7cbd8c08a88ccae809e` were individually pushed and verified. The final package includes its protocol, source, tests, exact enumeration, receipt, forecast, opening and evidence manifest. The essential held-out records are committed. Raw deterministic outputs and development/reproduction scratch files regenerate from the pinned package. The master Path records the terminal Git SHA, independent acceptance and cleanup confirmation.
+Repository `Perceptive-Closure/PC-X`. Branch `codex/exp-x08`. Protocol freeze `100cddd656a94e7ebdc3341df13b857c3ff030f4`, pre-audit runner `52a04c5d65c196892d4c888e2a5e8b82d07d4fbf`, and forecast seal `ce5f10b0ff0e5d549eecf7cbd8c08a88ccae809e` were individually pushed and verified. The final package includes its protocol, source, tests, exact enumeration, receipt, forecast, opening and evidence manifest. The essential held-out records are committed. Raw deterministic outputs and development/reproduction scratch files regenerate from the pinned package. The parent accepted the reproduced evidence SHA `6f17f4cd603199a76beda5c8db105806c2727844` and authorized cleanup after verification of this Path-only handoff commit. The master Path records the final remote tip and independent local cleanup verification.
