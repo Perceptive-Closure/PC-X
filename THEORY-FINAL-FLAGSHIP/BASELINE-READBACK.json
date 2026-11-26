@@ -1,0 +1,17 @@
+{
+  "reconstruction": {
+    "commit": "39a0d0e5b3283835094d17603b84e706b968f443",
+    "blobs": 228,
+    "archive_sha256": "951b66af3adade7a25bded382453ce89c9d8f22d4d5a25a58173d585d9d09014"
+  },
+  "generalization": {
+    "commit": "07e91bec6f906eb460f025255e20e8e470adf3f2",
+    "blobs": 369,
+    "archive_sha256": "0567ffb7464f06735e7261edd74de5dcd979741ae007951907a7ac994ceae221"
+  },
+  "exp-x16": {
+    "commit": "a6bf9cefb59f63b8c9dea59daf7e588a82ba07eb",
+    "blobs": 427,
+    "archive_sha256": "d80a96e515a58271f6a1145182f00f0e7eeb2ddf83379a0dc2f18bd6fa30b4f5"
+  }
+}

@@ -5,3 +5,7 @@
 ## Mathematical starting point
 
 Finite costs, event markers and actually callable actions must have source witnesses. A stopped confidence audit may justify a conditional statement for compatible source models. A no-common-policy witness says something different from an intrinsically negative target. A whole-history bound cannot be obtained by freely replacing linked local rows. These issues set the tests for all three strands. [Shared definitions](COMMON-CONTRACT.md)
+
+## Governing source readback
+
+Exact GitHub archives matched all 228 reconstruction, 369 generalization and 427 EXP-X16 Git blobs and lengths. The original manuscript definitions and flagship obligation table were read at the verified PDF pins. The accepted finite prerequisites were replayed from the authenticated generalization snapshot. Lean 4.21.0 verified the original three frontier-extrema lemmas. M03 recovered the linked risk interval and the adaptive-price 3 versus fixed-price 4 example. M04 recovered its distinct nonanticipating and anticipating failure bounds, its full-law intersection 1/2, and its stopped-cost cases. The prior T30.CG executable mathematical checker compared 998 compressed and explicit values and 63,424 static pairs. These are prerequisite replays and source controls. The new campaign must independently establish its own statements. [Exact archive hashes](BASELINE-READBACK.json) · [Primary literature intake](LITERATURE/BASELINES.md)
