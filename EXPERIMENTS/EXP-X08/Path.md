@@ -2,7 +2,7 @@
 
 ## 1. Experiment identification
 
-EXP-X08 — Evaluation-equivalent AI agents. Assigned agent exp_x08. Parent custodian /root. Initial checkout `91c2158877e5440aedafd76a2b16f6bfa389c330`. [Work plan](WorkPlan.md), [protocol v1](Protocol.md), [parameters](configs/protocol.json). Relevant packages T15–T17, the finite T19 threshold formulation and the T21 indistinguishability bound. State `PRE_AUDIT_VERIFIED`.
+EXP-X08 — Evaluation-equivalent AI agents. Assigned agent exp_x08. Parent custodian /root. Initial checkout `91c2158877e5440aedafd76a2b16f6bfa389c330`. [Work plan](WorkPlan.md), [protocol v1](Protocol.md), [parameters](configs/protocol.json). Relevant packages T15–T17, the finite T19 threshold formulation and the T21 indistinguishability bound. State `FORECAST_SEALED`.
 
 ## 2. Explicit scope declaration
 
@@ -22,7 +22,7 @@ Charter pp. 18–26 give deployment relative threshold risk, evaluation-law equi
 
 Ran `python -B src/x08.py exact --output results/pre-audit.json`. It compared all four fixtures, 73 permitted histories and 146 history/request pairs per benchmark fixture. The independent runtime was checked on 584 benchmark and 464 floor history/request laws. The two exact risk calculations agreed on all 8 fixture/recipe risks per site. Two source-compatible witnesses have opposite threshold vectors. An independent exhaustive pair-disagreement computation checks the minimum cost 2 route calibration. Benchmark-only risk concludes both pass. Random-order cost counts are preserved in the pre-audit result. The configured holdout interval half-width is 0.049781. The minimum exact threshold clearance is 0.124213.
 
-No held-out episodes have been opened. The parent custodian will obtain the selected action-only measurement from this revised, pre-audit-pinned checkout.
+The parent independently checked out GitHub revision `52a04c5d65c196892d4c888e2a5e8b82d07d4fbf` and ran the selected action-only measurement. The receipt measured 1 manual choice across the eight tickets on parcel-A at 12:57:25 UTC (17:57:25 Asia/Karachi), independently of delivery. The concealed fixture commitment is `28097faa180957fde1494472c79acfb6f623f3c08754a6d1fb7735e716051460`. The protocol ran `python -B src/x08.py predict --receipt results/audit-receipt.json --output results/forecast.json`, conditioned on the answer and preserved the four compatible feeder assignments. The prediction for parcel-A is above threshold, and for parcel-B it meets the threshold. Exact forecast bands are in `results/forecast.json`. Removing enrollment parity leaves the second unit unclassified. This commit seals the forecast before any held-out episodes open.
 
 ## 6. Falsification and negative results
 

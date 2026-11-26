@@ -1,0 +1,1 @@
+{"answer":1,"commitment_sha256":"28097faa180957fde1494472c79acfb6f623f3c08754a6d1fb7735e716051460","custody":"parent custodian","measured_at_utc":"2026-11-26T12:57:25+00:00","pre_audit_commit":"52a04c5d65c196892d4c888e2a5e8b82d07d4fbf","protocol_sha256":"5fb5377a67c5e4db4e190be6b082103737e5c7bec55d64f3e87b51ac8318b9d9","selected_query":["parcel-A","routing_calibration"]}

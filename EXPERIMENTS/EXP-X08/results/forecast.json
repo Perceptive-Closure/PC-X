@@ -1,0 +1,66 @@
+{
+  "answer": 1,
+  "audit": [
+    "parcel-A",
+    "routing_calibration"
+  ],
+  "audit_receipt_sha256": "62be1855cda79d585f428d224f4639b66ea92780cc03af929db03652c4941a6d",
+  "benchmark_only_forecast": {
+    "parcel-A": true,
+    "parcel-B": true
+  },
+  "commitment_sha256": "28097faa180957fde1494472c79acfb6f623f3c08754a6d1fb7735e716051460",
+  "forecast": {
+    "parcel-A": false,
+    "parcel-B": true
+  },
+  "parity_removed_candidates": 8,
+  "parity_removed_identified_set": [
+    [
+      false,
+      false
+    ],
+    [
+      false,
+      true
+    ]
+  ],
+  "pre_audit_commit": "52a04c5d65c196892d4c888e2a5e8b82d07d4fbf",
+  "profile_mapping": {
+    "parcel-A": "throughput",
+    "parcel-B": "careful"
+  },
+  "protocol_sha256": "5fb5377a67c5e4db4e190be6b082103737e5c7bec55d64f3e87b51ac8318b9d9",
+  "remaining_completions": 4,
+  "risk_bands": {
+    "parcel-A": {
+      "mixed-normal": [
+        "9657/16384",
+        "12539/16384"
+      ],
+      "mixed-rush": [
+        "21141/32768",
+        "26713/32768"
+      ]
+    },
+    "parcel-B": {
+      "mixed-normal": [
+        "1395/16384",
+        "3701/16384"
+      ],
+      "mixed-rush": [
+        "4041/32768",
+        "9037/32768"
+      ]
+    }
+  },
+  "sampling": {
+    "abstention": "report inconclusive if a forecasted deployment threshold verdict is not resolved by the simultaneous intervals",
+    "benchmark": "descriptive control using the same recipes, 1024 trials per unit and recipe",
+    "familywise_alpha": "1/20",
+    "statistics": "two-sided Hoeffding intervals with union bound across the four deployment cells",
+    "success": "both measured deployment threshold verdicts agree with their prospectively sealed forecast and each simultaneous interval intersects the corresponding forecast risk band",
+    "trials_per_unit_recipe": 1024
+  },
+  "threshold": "2/5"
+}
