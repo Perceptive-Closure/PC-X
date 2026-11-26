@@ -9,8 +9,8 @@
 | Slot | Experiment | Agent | Lifecycle |
 | --- | --- | --- | --- |
 | 1 | X05 | exp_x05 | DISPATCHED |
-| 2 | X09 | exp_x09 | RESERVED |
-| 3 | X11 | exp_x11 | RESERVED |
+| 2 | X09 | exp_x09 | DISPATCHED |
+| 3 | X11 | exp_x11 | DISPATCHED |
 
 Each slot remains occupied through parent clean-checkout verification, safe cleanup, and independent verification of remote evidence and cleanup. Reserved slots count toward the concurrency ceiling.
 
@@ -26,9 +26,9 @@ Each slot remains occupied through parent clean-checkout verification, safe clea
 | X06 | WORKPLAN_CREATED | Pending | codex/exp-x06 | Awaiting X01 and X03 |
 | X07 | WORKPLAN_CREATED | Pending | codex/exp-x07 | Awaiting X03 |
 | X08 | COMPLETE | Bounded transcript equivalence and forecast supported | codex/exp-x08 | [a8c6650a7ff9901ca9ac5ed4036a37f6cb7c9200](https://github.com/Perceptive-Closure/PC-X/tree/a8c6650a7ff9901ca9ac5ed4036a37f6cb7c9200/EXPERIMENTS/EXP-X08) |
-| X09 | WORKPLAN_CREATED | Pending | codex/exp-x09 | Awaiting X04 and X08 |
+| X09 | DISPATCHED | Pending | codex/exp-x09 | X04 and X08 accepted and cleaned |
 | X10 | COMPLETE | Monitor ambiguity and bounded recovery supported | codex/exp-x10 | [4a16ef37d0e90e856560ce153c0fd690c28016b6](https://github.com/Perceptive-Closure/PC-X/tree/4a16ef37d0e90e856560ce153c0fd690c28016b6/EXPERIMENTS/EXP-X10) |
-| X11 | WORKPLAN_CREATED | Pending | codex/exp-x11 | Awaiting X08 |
+| X11 | DISPATCHED | Pending | codex/exp-x11 | X08 accepted and cleaned |
 | X12 | WORKPLAN_CREATED | Pending | codex/exp-x12 | Awaiting X09–X11 |
 | X13 | WORKPLAN_CREATED | Pending | codex/exp-x13 | Awaiting X10 and X11 |
 | X14 | WORKPLAN_CREATED | Pending | codex/exp-x14 | Awaiting X04 and X13 |
@@ -76,4 +76,4 @@ The next wave uses one managed Git worktree per experiment with all ignored scra
 
 ## Findings and outstanding obligations
 
-Operationally complete 6/15. X05 is dispatched, X09 and X11 are reserved, and six experiments are queued. Accepted claims remain bounded to the tested finite and sandbox systems. The general transport and flagship results remain open.
+Operationally complete 6/15. X05, X09 and X11 are dispatched and six experiments are queued. Accepted claims remain bounded to the tested finite and sandbox systems. The general transport and flagship results remain open.
