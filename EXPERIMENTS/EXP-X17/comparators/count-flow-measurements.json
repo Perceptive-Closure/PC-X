@@ -1,0 +1,715 @@
+{
+  "large_measured_counted_only": [
+    {
+      "N": 16,
+      "count_compile": {
+        "elapsed_ns": 167200,
+        "peak_traced_bytes": 41856
+      },
+      "count_prefix_arcs": 272,
+      "count_prefix_nodes": 153,
+      "count_terminal_route_groups": 34,
+      "explicit_run": null,
+      "max_exact_per_history_weight_bits": 273,
+      "single_world_cost": "7/12",
+      "single_world_exact_count_evaluation": {
+        "elapsed_ns": 743600,
+        "peak_traced_bytes": 10068
+      },
+      "supported_full_words_per_route_exact": "65536"
+    },
+    {
+      "N": 32,
+      "count_compile": {
+        "elapsed_ns": 581200,
+        "peak_traced_bytes": 175904
+      },
+      "count_prefix_arcs": 1056,
+      "count_prefix_nodes": 561,
+      "count_terminal_route_groups": 66,
+      "explicit_run": null,
+      "max_exact_per_history_weight_bits": 545,
+      "single_world_cost": "7/12",
+      "single_world_exact_count_evaluation": {
+        "elapsed_ns": 1693100,
+        "peak_traced_bytes": 15948
+      },
+      "supported_full_words_per_route_exact": "4294967296"
+    },
+    {
+      "N": 64,
+      "count_compile": {
+        "elapsed_ns": 2276700,
+        "peak_traced_bytes": 732128
+      },
+      "count_prefix_arcs": 4160,
+      "count_prefix_nodes": 2145,
+      "count_terminal_route_groups": 130,
+      "explicit_run": null,
+      "max_exact_per_history_weight_bits": 1089,
+      "single_world_cost": "7/12",
+      "single_world_exact_count_evaluation": {
+        "elapsed_ns": 5414400,
+        "peak_traced_bytes": 34460
+      },
+      "supported_full_words_per_route_exact": "18446744073709551616"
+    },
+    {
+      "N": 128,
+      "count_compile": {
+        "elapsed_ns": 15167100,
+        "peak_traced_bytes": 2960124
+      },
+      "count_prefix_arcs": 16512,
+      "count_prefix_nodes": 8385,
+      "count_terminal_route_groups": 258,
+      "explicit_run": null,
+      "max_exact_per_history_weight_bits": 2177,
+      "single_world_cost": "7/12",
+      "single_world_exact_count_evaluation": {
+        "elapsed_ns": 30950900,
+        "peak_traced_bytes": 99312
+      },
+      "supported_full_words_per_route_exact": "340282366920938463463374607431768211456"
+    },
+    {
+      "N": 256,
+      "count_compile": {
+        "elapsed_ns": 53683100,
+        "peak_traced_bytes": 12077556
+      },
+      "count_prefix_arcs": 65792,
+      "count_prefix_nodes": 33153,
+      "count_terminal_route_groups": 514,
+      "explicit_run": null,
+      "max_exact_per_history_weight_bits": 4353,
+      "single_world_cost": "7/12",
+      "single_world_exact_count_evaluation": {
+        "elapsed_ns": 134153800,
+        "peak_traced_bytes": 338224
+      },
+      "supported_full_words_per_route_exact": "115792089237316195423570985008687907853269984665640564039457584007913129639936"
+    }
+  ],
+  "runtime": {
+    "logical_counters": "Python tracemalloc",
+    "machine": "AMD64",
+    "method": "one wall time and a second invocation for traced peak",
+    "python": "3.13.7",
+    "system": "Windows"
+  },
+  "small_measured_optimization": [
+    {
+      "N": 1,
+      "count_compile": {
+        "elapsed_ns": 33400,
+        "peak_traced_bytes": 2152
+      },
+      "count_finite_grid_solve_and_check": {
+        "elapsed_ns": 37690100,
+        "peak_traced_bytes": 77848
+      },
+      "count_prefix_arcs": 2,
+      "count_prefix_nodes": 3,
+      "count_terminal_route_groups": 4,
+      "explicit_compile": {
+        "elapsed_ns": 19300,
+        "peak_traced_bytes": 1168
+      },
+      "explicit_finite_grid_solve_and_check": {
+        "elapsed_ns": 40082400,
+        "peak_traced_bytes": 77848
+      },
+      "explicit_prefix_nodes_per_route": 3,
+      "explicit_terminal_route_records": 4,
+      "optimality_certificate": {
+        "alpha": "1/128",
+        "column_slacks": [
+          "5/8",
+          "5/4",
+          "0",
+          "5/8",
+          "5/4",
+          "5/2",
+          "0",
+          "5/4",
+          "1/4",
+          "1/4"
+        ],
+        "grid_worlds": 120,
+        "lower": "7/12",
+        "lower_argmax": {
+          "Z": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "7/8"
+          },
+          "cost": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "1/8"
+          },
+          "negative_coverage_all": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "7/8"
+          },
+          "negative_coverage_positive": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "1/4"
+          },
+          "negative_utility_all": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "3/4"
+          },
+          "negative_utility_positive": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "1/4"
+          },
+          "wrong": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "1/4"
+          }
+        },
+        "lower_maxima": {
+          "Z": "-199/8192",
+          "cost": "7/12",
+          "negative_coverage_all": "-1/4",
+          "negative_coverage_positive": "-2/3",
+          "negative_utility_all": "-1/2",
+          "negative_utility_positive": "-1219/1536",
+          "wrong": "1/3"
+        },
+        "modulus": "7/4",
+        "radius": "1/224",
+        "subdivisions_per_stratum": 14,
+        "tightened_actual_policy_cost": "239/384",
+        "tightened_argmax": {
+          "Z": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "7/8"
+          },
+          "cost": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "1/8"
+          },
+          "negative_coverage_all": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "7/8"
+          },
+          "negative_coverage_positive": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "1/4"
+          },
+          "negative_utility_all": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "3/4"
+          },
+          "negative_utility_positive": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "1/4"
+          },
+          "wrong": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "1/4"
+          }
+        },
+        "tightened_high": "19/48",
+        "tightened_maxima": {
+          "Z": "-12139/524288",
+          "cost": "239/384",
+          "negative_coverage_all": "-61/256",
+          "negative_coverage_positive": "-259/384",
+          "negative_utility_all": "-1/2",
+          "negative_utility_positive": "-313417/393216",
+          "wrong": "125/384"
+        },
+        "upper": "121/192"
+      }
+    },
+    {
+      "N": 3,
+      "count_compile": {
+        "elapsed_ns": 40700,
+        "peak_traced_bytes": 3912
+      },
+      "count_finite_grid_solve_and_check": {
+        "elapsed_ns": 80339500,
+        "peak_traced_bytes": 116684
+      },
+      "count_prefix_arcs": 12,
+      "count_prefix_nodes": 10,
+      "count_terminal_route_groups": 8,
+      "explicit_compile": {
+        "elapsed_ns": 29700,
+        "peak_traced_bytes": 3040
+      },
+      "explicit_finite_grid_solve_and_check": {
+        "elapsed_ns": 99806700,
+        "peak_traced_bytes": 116748
+      },
+      "explicit_prefix_nodes_per_route": 15,
+      "explicit_terminal_route_records": 16,
+      "optimality_certificate": {
+        "alpha": "1/128",
+        "column_slacks": [
+          "5/8",
+          "5/4",
+          "0",
+          "5/8",
+          "5/4",
+          "5/2",
+          "0",
+          "5/4",
+          "1/4",
+          "1/4"
+        ],
+        "grid_worlds": 184,
+        "lower": "7/12",
+        "lower_argmax": {
+          "Z": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "7/8"
+          },
+          "cost": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "1/8"
+          },
+          "negative_coverage_all": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "7/8"
+          },
+          "negative_coverage_positive": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "1/4"
+          },
+          "negative_utility_all": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "3/4"
+          },
+          "negative_utility_positive": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "1/4"
+          },
+          "wrong": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "1/4"
+          }
+        },
+        "lower_maxima": {
+          "Z": "-786775/33554432",
+          "cost": "7/12",
+          "negative_coverage_all": "-1/4",
+          "negative_coverage_positive": "-2/3",
+          "negative_utility_all": "-1/2",
+          "negative_utility_positive": "-311323/393216",
+          "wrong": "1/3"
+        },
+        "modulus": "11/4",
+        "radius": "1/352",
+        "subdivisions_per_stratum": 22,
+        "tightened_actual_policy_cost": "239/384",
+        "tightened_argmax": {
+          "Z": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "7/8"
+          },
+          "cost": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "1/8"
+          },
+          "negative_coverage_all": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "7/8"
+          },
+          "negative_coverage_positive": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "1/4"
+          },
+          "negative_utility_all": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "3/4"
+          },
+          "negative_utility_positive": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "1/4"
+          },
+          "wrong": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "1/4"
+          }
+        },
+        "tightened_high": "19/48",
+        "tightened_maxima": {
+          "Z": "-47993275/2147483648",
+          "cost": "239/384",
+          "negative_coverage_all": "-61/256",
+          "negative_coverage_positive": "-259/384",
+          "negative_utility_all": "-1/2",
+          "negative_utility_positive": "-80042833/100663296",
+          "wrong": "125/384"
+        },
+        "upper": "121/192"
+      }
+    },
+    {
+      "N": 5,
+      "count_compile": {
+        "elapsed_ns": 40000,
+        "peak_traced_bytes": 6720
+      },
+      "count_finite_grid_solve_and_check": {
+        "elapsed_ns": 119089200,
+        "peak_traced_bytes": 159668
+      },
+      "count_prefix_arcs": 30,
+      "count_prefix_nodes": 21,
+      "count_terminal_route_groups": 12,
+      "explicit_compile": {
+        "elapsed_ns": 54200,
+        "peak_traced_bytes": 11360
+      },
+      "explicit_finite_grid_solve_and_check": {
+        "elapsed_ns": 329176800,
+        "peak_traced_bytes": 160072
+      },
+      "explicit_prefix_nodes_per_route": 63,
+      "explicit_terminal_route_records": 64,
+      "optimality_certificate": {
+        "alpha": "1/128",
+        "column_slacks": [
+          "5/8",
+          "5/4",
+          "0",
+          "5/8",
+          "5/4",
+          "5/2",
+          "0",
+          "5/4",
+          "1/4",
+          "1/4"
+        ],
+        "grid_worlds": 248,
+        "lower": "7/12",
+        "lower_argmax": {
+          "Z": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "7/8"
+          },
+          "cost": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "1/8"
+          },
+          "negative_coverage_all": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "7/8"
+          },
+          "negative_coverage_positive": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "1/4"
+          },
+          "negative_utility_all": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "3/4"
+          },
+          "negative_utility_positive": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "1/4"
+          },
+          "wrong": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "1/4"
+          }
+        },
+        "lower_maxima": {
+          "Z": "-3221242279/137438953472",
+          "cost": "7/12",
+          "negative_coverage_all": "-1/4",
+          "negative_coverage_positive": "-2/3",
+          "negative_utility_all": "-1/2",
+          "negative_utility_positive": "-79692019/100663296",
+          "wrong": "1/3"
+        },
+        "modulus": "15/4",
+        "radius": "1/480",
+        "subdivisions_per_stratum": 30,
+        "tightened_actual_policy_cost": "239/384",
+        "tightened_argmax": {
+          "Z": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "7/8"
+          },
+          "cost": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "1/8"
+          },
+          "negative_coverage_all": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "7/8"
+          },
+          "negative_coverage_positive": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "1/4"
+          },
+          "negative_utility_all": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "3/4"
+          },
+          "negative_utility_positive": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "1/4"
+          },
+          "wrong": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "1/4"
+          }
+        },
+        "tightened_high": "19/48",
+        "tightened_maxima": {
+          "Z": "-196495779019/8796093022208",
+          "cost": "239/384",
+          "negative_coverage_all": "-61/256",
+          "negative_coverage_positive": "-259/384",
+          "negative_utility_all": "-1/2",
+          "negative_utility_positive": "-20489237977/25769803776",
+          "wrong": "125/384"
+        },
+        "upper": "121/192"
+      }
+    },
+    {
+      "N": 6,
+      "count_compile": {
+        "elapsed_ns": 82400,
+        "peak_traced_bytes": 8456
+      },
+      "count_finite_grid_solve_and_check": {
+        "elapsed_ns": 269054800,
+        "peak_traced_bytes": 183652
+      },
+      "count_prefix_arcs": 42,
+      "count_prefix_nodes": 28,
+      "count_terminal_route_groups": 14,
+      "explicit_compile": {
+        "elapsed_ns": 178300,
+        "peak_traced_bytes": 23232
+      },
+      "explicit_finite_grid_solve_and_check": {
+        "elapsed_ns": 1191163700,
+        "peak_traced_bytes": 184564
+      },
+      "explicit_prefix_nodes_per_route": 127,
+      "explicit_terminal_route_records": 128,
+      "optimality_certificate": {
+        "alpha": "1/128",
+        "column_slacks": [
+          "5/8",
+          "5/4",
+          "0",
+          "5/8",
+          "5/4",
+          "5/2",
+          "0",
+          "5/4",
+          "1/4",
+          "1/4"
+        ],
+        "grid_worlds": 280,
+        "lower": "7/12",
+        "lower_argmax": {
+          "Z": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 1,
+            "theta": "7/8"
+          },
+          "cost": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "1/8"
+          },
+          "negative_coverage_all": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "7/8"
+          },
+          "negative_coverage_positive": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "1/4"
+          },
+          "negative_utility_all": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "3/4"
+          },
+          "negative_utility_positive": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 1,
+            "theta": "1/4"
+          },
+          "wrong": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "1/4"
+          }
+        },
+        "lower_maxima": {
+          "Z": "-206158312559/8796093022208",
+          "cost": "7/12",
+          "negative_coverage_all": "-1/4",
+          "negative_coverage_positive": "-2/3",
+          "negative_utility_all": "-1/2",
+          "negative_utility_positive": "-1275067687/1610612736",
+          "wrong": "1/3"
+        },
+        "modulus": "17/4",
+        "radius": "1/544",
+        "subdivisions_per_stratum": 34,
+        "tightened_actual_policy_cost": "239/384",
+        "tightened_argmax": {
+          "Z": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 1,
+            "theta": "7/8"
+          },
+          "cost": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "1/8"
+          },
+          "negative_coverage_all": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "7/8"
+          },
+          "negative_coverage_positive": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "1/4"
+          },
+          "negative_utility_all": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "3/4"
+          },
+          "negative_utility_positive": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 1,
+            "theta": "1/4"
+          },
+          "wrong": {
+            "beta": "1/32",
+            "route": "L",
+            "tag": 0,
+            "theta": "1/4"
+          }
+        },
+        "tightened_high": "19/48",
+        "tightened_maxima": {
+          "Z": "-12575657066099/562949953421312",
+          "cost": "239/384",
+          "negative_coverage_all": "-61/256",
+          "negative_coverage_positive": "-259/384",
+          "negative_utility_all": "-1/2",
+          "negative_utility_positive": "-327826611829/412316860416",
+          "wrong": "125/384"
+        },
+        "upper": "121/192"
+      }
+    }
+  ]
+}
