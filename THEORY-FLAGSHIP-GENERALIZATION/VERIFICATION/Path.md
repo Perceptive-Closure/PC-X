@@ -23,6 +23,10 @@ Received the exact U statements and independently reconstructed U.G1–U.G4. The
 
 After the U archive, retrieved the exact A statement only. Reconstructed simultaneous minimax over all legal design laws, finite higher-order certificate blockers and the matched acquisition and useful governed activation bounds. Preserved the distinction between equal prior weights across signs and equal atomic weights within a sign. Replayed both example Bayes values, the minimum paid and live constraints, and exact maintenance fact cost. [Before-proof derivation](A-BLIND.md)
 
+## P neutral receipt
+
+After the A archive, retrieved the exact P statement. Reconstructed algebraic feasibility, finite Helly witnesses, semialgebraic infeasibility and optimization distinctions, and state-specific submeasure transport. Independently reconstructed the information fragment hitting oracle, adaptive bounded-score confidence, and sharp signed selection in the source fixture. Preserved exact boundary examples and replayed the core numerical assertions. [Before-proof derivation](P-BLIND.md)
+
 ## RESULTS
 
-The U and A before-proof records are complete. Other theorem packets enter only under separately received neutral seals. Constructor proofs remain unopened in this stage.
+The U, A and P independent before-proof records and exact computational replays are complete. The original seals and applicable scope amendments remain immutable. No constructor proof has been opened in this stage. Each subsequent proof comparison requires parent authorization on an independently verified published evidence commit.
