@@ -1,0 +1,9 @@
+{
+  "authorization_commit": "19c9bc68a9f9f98d99a96a6fb662ded73d50e75c",
+  "commitment_commit": "15ced39e31514bdded53c8e68ef256b05498d374",
+  "commitment_sha256": "e45df0291fb04cd3133adb0fef6a8ef75d664864ebef9be632574d47f8445e38",
+  "opening_commit": "b9840c50a4e409446ed97a335c7179c48f08b596",
+  "role": "independent",
+  "schema": 1,
+  "seed_hex": "e3e89d093c92bd8f9fe6a401fbd47bc28ec2ef7fa9a984f87319e8cb70cdea54"
+}
