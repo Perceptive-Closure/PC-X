@@ -27,6 +27,10 @@ After the U archive, retrieved the exact A statement only. Reconstructed simulta
 
 After the A archive, retrieved the exact P statement. Reconstructed algebraic feasibility, finite Helly witnesses, semialgebraic infeasibility and optimization distinctions, and state-specific submeasure transport. Independently reconstructed the information fragment hitting oracle, adaptive bounded-score confidence, and sharp signed selection in the source fixture. Preserved exact boundary examples and replayed the core numerical assertions. [Before-proof derivation](P-BLIND.md)
 
+## A authorized proof comparison
+
+After the independent derivations had been published, opened only the authorized A constructor proof and scope at 95b3576a3bf65824b9e09e689aad80f6ae4f46df. Compared every proof paragraph with the preserved blind argument and replayed the exact constructor Python and Lean artifacts. The original neutral statement is unchanged. The matched-sign prior clarification agrees with the earlier independent derivation. [Comparison](A-COMPARISON.md)
+
 ## RESULTS
 
-The U, A and P independent before-proof records and exact computational replays are complete. The original seals and applicable scope amendments remain immutable. No constructor proof has been opened in this stage. Each subsequent proof comparison requires parent authorization on an independently verified published evidence commit.
+The U, A and P before-proof records and exact replays are preserved. A has completed its authorized line-by-line proof comparison, with scope and formal limits recorded. Additional comparisons require independent parent authorization of exact proof releases.
