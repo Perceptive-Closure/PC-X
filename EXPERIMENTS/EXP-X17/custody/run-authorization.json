@@ -1,0 +1,21 @@
+{
+  "draw_commit": "43c1f0c8f90a87b3f5f0e66b1a0722816b9cac1c",
+  "files": {
+    "draw-plan.json": "4f710b29fee4f6bf57c90194c3f9546400b9ec09bf625c9da2374f2ab889f3f3",
+    "independent-prerelease.json": "dd89f89a69c533d016ba9fe243edf3620292d3fcf1a1a94214886e66a394e187",
+    "opening-roster.json": "9357e8b3bc5dcc6262669657b0970bae164d0d7a620199e305dbd9d48e4415c1",
+    "pre-opening-pending.json": "098359cf5dcb1f1e719272670f33bcd0338bd534a10bec4ac7012c80d774afc6",
+    "primary-seed-reveal.json": "553e5cdf417672be131b706d72c43cc6a528e291226c62ac79809acbbfbf2542",
+    "registered-freeze-readback.json": "697b6e829f160f08c85969b22c059eb91a137bbe582eebe27ab94656b8cc4320",
+    "registered-independence-readback.json": "65bbd4b0eab01ea4f2759f327abc6b47f803aa51b10382723277c9a69e3ea352",
+    "registered-readback.json": "abfc421f39faa2de3c6b59d16cb007639d840d231297e29f87be91a6b5e71ba4",
+    "selected-forecasts.json": "db09ee13290110acab4c36ebc1d2676f353139998f8bbc434b54614381bcaf7d",
+    "verified-beacon.json": "6ae9cf59d04513cf41fcd3fc338c486652da87dab0c82e3e217548e4619673a4"
+  },
+  "freeze_commit": "be574f4eaba8a52b50c5604e87075ab4cac81b79",
+  "opening_commit": "b9840c50a4e409446ed97a335c7179c48f08b596",
+  "phase": "PH-06-VERIFIED",
+  "preopening_commit": "bae5fd2832a9d7ff7d43678b2d166d943335062f",
+  "round": 34323065,
+  "schema": 1
+}
