@@ -1,0 +1,21 @@
+{
+  "actual_and_nominal_selected_forecasts_checked": 80,
+  "actual_artifact_witnesses_checked": 64,
+  "authorization_commit": "19c9bc68a9f9f98d99a96a6fb662ded73d50e75c",
+  "authorized_round": 34323065,
+  "cells": 40,
+  "control_artifact_rows_checked": 261,
+  "controls_checked": 19,
+  "fixed_rows_checked": 163840,
+  "opening_commit": "b9840c50a4e409446ed97a335c7179c48f08b596",
+  "paired_witness_counts": {
+    "ordinary": 512,
+    "paired": 1024,
+    "paired_issues": 477,
+    "strip": 6
+  },
+  "pcx_actual_paid_cap": "1",
+  "prerelease_git_file_receipts_checked": 14,
+  "primary_commit": "3110f43916eb4d0f617ae44e117a9e45a041c821",
+  "release_files": 10
+}

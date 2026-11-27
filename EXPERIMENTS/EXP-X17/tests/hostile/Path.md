@@ -24,6 +24,21 @@ The development procedure uses WSL Ubuntu 24.04 with installed Bubblewrap and st
 & EXPERIMENTS/EXP-X17/tests/hostile/run_development.ps1
 ```
 
+## Separate post-opening work
+
+Independently fetched the authorized opening b9840c50a4e409446ed97a335c7179c48f08b596, execution authorization 19c9bc68a9f9f98d99a96a6fb662ded73d50e75c, primary archive 3110f43916eb4d0f617ae44e117a9e45a041c821 and public independent archive 952708cc2713387612edc008f122564733d3b7a3. The first independently written selector replay omitted the final newline of the frozen selection hash input. Comparing the exact Git blob identified and corrected the replay code. The independent relay file records a separate request with its own receipt metadata. Comparing its signed beacon object with the authorized object establishes agreement. These corrections are confined to the hostile verifier.
+
+The final checker recomputes chronology from archived receipts, reproduces all eight selected worlds, verifies both seed commitments and all selected actual and nominal forecasts, inspects actual artifact bytes, reduces both fixed raw indexes and reruns the registered comparisons. Independent BLS verification is documented in the custody role's archived receipt. The supplemental development source retains its separate pre-opening commit and disjoint installation. [Primary archive check](primary-review.json) · [Final matrix](evidence-matrix.json)
+
+Run from the repository root with both exact input commits available in Git and choose a fresh output path.
+
+```powershell
+python -B EXPERIMENTS/EXP-X17/tests/hostile/review_release.py
+python -B EXPERIMENTS/EXP-X17/tests/hostile/review_statistics.py --output fresh-x17-review-matrix.json
+```
+
 ## RESULTS
 
-The independent verifier checked all 71 registered input files and agreed with all 10,480 frozen exact forecasts over 2,096 public candidate rows. The offline development check found a genuine matched surcharge-strip difference and reproduced selected C10, C11 and C13 witnesses. It additionally exercised the registered C16 monitor-dependent quality rule and C17 direct-or-fair-skip rule. The C11 whole-attempt utility difference is reproduced on the issued altered fixture and surfaced as a limitation. This preliminary work uses one disjoint development installation and is ready for the next verified phase. [Exact freeze record](freeze-checks.json) · [Deterministic development record](development-checks.json)
+The before-opening verifier checked all 71 frozen inputs and 10,480 predictions independently. The final review authenticated 10 authorization file hashes, 14 earlier Git file attestations, and 80 selected actual and nominal forecasts. It recomputed both sets of 163,840 fixed main observations and confirmed selected-risk denominators, all-role physical artifact linkage and the per-attempt paid cap of one. Primary native artifact replay covered 64 archived examples and 261 control records. The independent archive contributed 1,536 separately reviewed diagnostic index rows, six material records, 70 control records, 20 exact finite optimizer cases and eight grid certificates. All 640 forecast points were compatible, 626 equivalence intervals were supported, 14 equivalence intervals remained inconclusive and all 320 paired role intervals overlapped.
+
+The scoped scientific disposition is acceptance with the per-cell threshold decisions, the aggregate maximum display issue, the alternate C11 utility reading after invalid intake, and the continuous, comparator, timing and information boundaries explicit. [Hostile review and hypothesis dispositions](HOSTILE-REVIEW.md) · [Reproducible evidence matrix](evidence-matrix.json)
