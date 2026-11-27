@@ -248,6 +248,39 @@ def check_acquisition():
     assert can_stop(fixed_reports, (0, 1))
 
 
+def check_fixed_guard_report_cell():
+    # The report retains only w0 for performance. The compiled guard still uses w1.
+    guard = ("w0", "w1")
+    retained = ("w0",)
+    marker_coefficients = {
+        "w0": {"A": F(0), "stop": F(0)},
+        "w1": {"A": F(1), "stop": F(0)},
+    }
+    forbidden = {
+        action for action in ("A", "stop")
+        if any(marker_coefficients[world][action] > 0 for world in guard)
+    }
+    assert forbidden == {"A"}
+    assert all(marker_coefficients[world]["A"] == 0 for world in retained)
+    floor = F(1, 2)
+    always_a = {"A": F(1), "stop": F(0)}
+    assert all(sum(marker_coefficients[world][a] * mass for a, mass in always_a.items()) == 0
+               for world in retained)
+    assert sum(marker_coefficients["w1"][a] * mass for a, mass in always_a.items()) == 1
+    assert always_a["A"] >= floor  # In w0 precisely A activates.
+
+    # Fixed guard row x_A <= 0 plus retained-world coverage -x_A <= -floor.
+    fixed_row, coverage_row = (F(1), F(0)), (F(-1), -floor)
+    coefficient, bound = tuple(a + b for a, b in zip(fixed_row, coverage_row))
+    assert coefficient == 0 and bound < 0
+
+    # Inclusive normalized score ranges cover zero; arbitrary thresholds need min/max.
+    for threshold in (F(-1, 2), F(0), F(1, 2), F(1), F(3, 2)):
+        possible = {active * (event - threshold) for active, event in product((0, 1), repeat=2)}
+        assert min(possible) == min(0, -threshold)
+        assert max(possible) == max(0, 1 - threshold)
+
+
 def check_calibration_limits():
     # Same unconditional mean on each draw, but one hidden bit is then retained forever.
     # The observed average stays 0 or 1 with equal prior masses, not near 1/2.
@@ -268,11 +301,13 @@ def main():
     cases = check_transport()
     check_matched_score_disagreement()
     check_acquisition()
+    check_fixed_guard_report_cell()
     check_calibration_limits()
     print("PASS: nonpolyhedral example, false endpoint mesh, and linked box cut examples")
     print(f"PASS: exact nonlinear algebraic policy and polynomial certificate {root}")
     print(f"PASS: {cases} raw source/fragment checks, sharp selective rates, optimal audit cost three")
     print("PASS: source-evidence refinement and dependent-calibration counterexamples")
+    print("PASS: fixed guard survives a narrower report, with exact linear refutation")
 
 
 if __name__ == "__main__":

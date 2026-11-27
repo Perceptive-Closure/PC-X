@@ -36,6 +36,8 @@ The exact checks include nonlinear algebraic membership for the irrational examp
 
 The authenticated statement commit is `69b137e57300fbd4af3380d254fb9ab32eee32c1`, with sole neutral blob `ca351458a79432703267849fa395d6971930c233`. All constructor proofs, samples and literature stayed local until the parent authenticated the [independent derivation](https://github.com/Perceptive-Closure/PC-X/blob/19cd95ccfb3b0c4e4f6eb24132516a488d723f84/THEORY-FLAGSHIP-GENERALIZATION/VERIFICATION/P-BLIND.md) at blob 5eef5641b40ace31701316ebd2b8072de935c465 and released the gate. Its two scope conventions are recorded separately in the proof. Survival factors are nonnegative fractions, and exact acquisition uses a charged finite enumeration of explicitly represented full reports. No historical protected source was touched. [Independent gate protocol](../WorkPlan.md)
 
+The hostile two-world example exposed a distinction between an unchanged hard guard and a narrowed performance cell. The post-review proof compiles the original guard into fixed zero-sequence constraints and includes those rows in any retained-world receipt. This preserves the group bound without treating an excluded report world as a member of the narrower cell. [Post-review addendum](POST-REVIEW-ADDENDUM.md)
+
 ## RESULTS
 
 - G01 proves exact semialgebraic synthesis with algebraic feasibility receipts, finite original-world blockers, attainable policy optimization under bounded coefficients, a sharp mesh repair and explicit nonpolyhedral and hardness barriers.
