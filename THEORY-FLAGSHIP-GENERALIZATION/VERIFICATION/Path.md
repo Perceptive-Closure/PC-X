@@ -19,6 +19,10 @@ Use one installed world \(\omega=(\theta,\nu)\) before controller randomization,
 
 Received the exact U statements and independently reconstructed U.G1–U.G4. The independent objections to public-state update, installed-target leakage, bad-only cells, initial-law matching and arbitrary reported calibration were preserved and resolved by a separate exact neutral correction before proof exposure. Replayed exact flow multiplicity, directional LP bounds, routed fixture, and truncation arithmetic. [Before-proof derivation](U-BLIND.md)
 
+## A neutral receipt
+
+After the U archive, retrieved the exact A statement only. Reconstructed simultaneous minimax over all legal design laws, finite higher-order certificate blockers and the matched acquisition and useful governed activation bounds. Preserved the distinction between equal prior weights across signs and equal atomic weights within a sign. Replayed both example Bayes values, the minimum paid and live constraints, and exact maintenance fact cost. [Before-proof derivation](A-BLIND.md)
+
 ## RESULTS
 
-The U before-proof record is complete with its original and amended scope. Other theorem packets enter only under separately received neutral seals. Constructor proofs remain unopened in this stage.
+The U and A before-proof records are complete. Other theorem packets enter only under separately received neutral seals. Constructor proofs remain unopened in this stage.
