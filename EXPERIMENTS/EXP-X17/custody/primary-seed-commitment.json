@@ -1,0 +1,6 @@
+{
+  "algorithm": "SHA-256 of 32 bytes from operating-system CSPRNG",
+  "role": "primary",
+  "sha256": "c7b36705d2230f2bfa4df69e03365ded65e4c190f5c33f816e9dd054596284fc",
+  "disclosure": "after verified opening"
+}

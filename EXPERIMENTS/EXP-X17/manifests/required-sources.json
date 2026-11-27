@@ -1,0 +1,146 @@
+{
+  "advanced": {
+    "THEORY-FLAGSHIP-GENERALIZATION/ACCEPTANCE-SCOPE.md": {
+      "sha256": "1adac3584f5acd466917cdbb83b27c72c0472e2d84e682e15d01e4c5c88eef04",
+      "size": 5956
+    },
+    "THEORY-FLAGSHIP-GENERALIZATION/COMMON-CONTRACT.md": {
+      "sha256": "25975acde468ccff6a58ca0172f64cd206efdce98af133f58616fa4668711183",
+      "size": 5071
+    },
+    "THEORY-FLAGSHIP-GENERALIZATION/COUNTEREXAMPLE-LEDGER.md": {
+      "sha256": "7ff6f920f6eb95cb91611d19f046273d9389bddf04aba1d2d4838e1baf253825",
+      "size": 9574
+    },
+    "THEORY-FLAGSHIP-GENERALIZATION/FINAL-GENERALIZED-FLAGSHIP.md": {
+      "sha256": "da2c71e3b79bf0dc7c4305221a5a374bbe7675cc9a91cec14bd3088c1d84333a",
+      "size": 7087
+    },
+    "THEORY-FLAGSHIP-GENERALIZATION/FINAL-MATHEMATICAL-ANALYSIS.md": {
+      "sha256": "01de99b29cdd1365558fa03e9e56716cf187c12ef6827a911c855eb203ffd6e1",
+      "size": 14273
+    },
+    "THEORY-FLAGSHIP-GENERALIZATION/FINAL-VERIFIED-PROOFS.md": {
+      "sha256": "32ee93c364900b12c1a07452a81b2c5cec165595e56efe1fb0c03d03e3a79bf6",
+      "size": 6501
+    },
+    "THEORY-FLAGSHIP-GENERALIZATION/FLAGSHIP-OBLIGATION-MATRIX.md": {
+      "sha256": "98b3f61a300266262084252ec8790952189648cf73867285dba299a8ffebd97a",
+      "size": 5210
+    },
+    "THEORY-FLAGSHIP-GENERALIZATION/FUTURE-VALIDATION-REQUIREMENTS.md": {
+      "sha256": "c8304c7511c96bebaf1a08f1a4e41fbdb5b72d69c9f5422f30ddfc0e9a72f817",
+      "size": 7012
+    },
+    "THEORY-FLAGSHIP-GENERALIZATION/HOSTILE-REVIEW/FAILURE-MATRIX.md": {
+      "sha256": "b7c35febf2e55694ba0979bb9a37ca21337ed02bffe8f51b89adda090094213a",
+      "size": 19220
+    },
+    "THEORY-FLAGSHIP-GENERALIZATION/HOSTILE-REVIEW/U-REVIEW.md": {
+      "sha256": "cbe662630db14e778c902ea52a8cb6b225b5c626b429aca31b2c46e223c5c937",
+      "size": 15669
+    },
+    "THEORY-FLAGSHIP-GENERALIZATION/OPEN-PROOF-OBLIGATIONS.md": {
+      "sha256": "002e7c82d0291f3a56011e20fc1263b4ca098f3981dbee8fe0fa1f466b66691b",
+      "size": 2763
+    },
+    "THEORY-FLAGSHIP-GENERALIZATION/T30-A-GENERALIZED/PROOFS.md": {
+      "sha256": "0feebf99b698745af33767400c4940af738bf867d31c804f18754c899d7019ab",
+      "size": 20328
+    },
+    "THEORY-FLAGSHIP-GENERALIZATION/T30-P-GENERALIZED/POST-REVIEW-ADDENDUM.md": {
+      "sha256": "29b615136ac80463e604edf4f206851cc7171e086a5314e954a0ff9913f6fa0a",
+      "size": 4020
+    },
+    "THEORY-FLAGSHIP-GENERALIZATION/T30-P-GENERALIZED/PROOFS.md": {
+      "sha256": "b551905911529ee9dde463e2f296dc2c08aab5d2af9ff440a414238522c70488",
+      "size": 29920
+    },
+    "THEORY-FLAGSHIP-GENERALIZATION/T30-U-GENERALIZED/COMPATIBILITY.md": {
+      "sha256": "90d52eeb24a0d5e3596e9afc5a0692603b9d36d646a5bf537d1fe9ae2ac09c2d",
+      "size": 4680
+    },
+    "THEORY-FLAGSHIP-GENERALIZATION/T30-U-GENERALIZED/GRID-SCOPE-ADDENDUM.md": {
+      "sha256": "10ff6920eb51fdef28a8359463a6a38a61c3d55433ce239510e91f4ecc531e6d",
+      "size": 1533
+    },
+    "THEORY-FLAGSHIP-GENERALIZATION/T30-U-GENERALIZED/PROOFS.md": {
+      "sha256": "a0be1af3d4890dcb7db83073f7e0b9334f6a0d40532edf02bb1fd8dd2ec473c2",
+      "size": 16475
+    },
+    "THEORY-FLAGSHIP-GENERALIZATION/T30-U-GENERALIZED/SCOPE-STATEMENT.md": {
+      "sha256": "6c6a518f33342711e49fc2ff80bfba9b1310c7283205d535a377c14436531847",
+      "size": 3140
+    },
+    "THEORY-FLAGSHIP-GENERALIZATION/T30-U-GENERALIZED/STATEMENTS.md": {
+      "sha256": "65d988bd36aa7cf4ba8d8548bf8ee82ca749cc28a2fa54793a196add5b454ae4",
+      "size": 16540
+    },
+    "THEORY-FLAGSHIP-GENERALIZATION/T30-U-GENERALIZED/TRANSPORT-SCOPE-ADDENDUM.md": {
+      "sha256": "e329e83f59301ada3c4ffb537797c3f394e3519ad1369f5ba84e1d2004be3225",
+      "size": 2082
+    },
+    "THEORY-FLAGSHIP-GENERALIZATION/VERIFICATION/SCOPE-COMPARISON.md": {
+      "sha256": "80462cb69a6533a12fb446c5071d1d8a6636593d5574b8a8ead25d52f383683c",
+      "size": 5352
+    }
+  },
+  "x16": {
+    "EXPERIMENTS/EXP-X16/Protocol.md": {
+      "sha256": "9a602e321ce232cdbb5c5e538270302f89db2ea5e428b4270973703dd7732f5d",
+      "size": 5627
+    },
+    "EXPERIMENTS/EXP-X16/RESULTS.md": {
+      "sha256": "5089c6d4be0b81f187ff47dec9f8bea1968e5c18e100445f4c238d3659949805",
+      "size": 10133
+    },
+    "EXPERIMENTS/EXP-X16/custody/beacon.mjs": {
+      "sha256": "250fe17b5c4c731e579859ab71aac8eb144ea130a513102c246c602880a51b80",
+      "size": 7958
+    },
+    "EXPERIMENTS/EXP-X16/custody/chronology.py": {
+      "sha256": "81597c952c15a2f30652c9c09cf5869cb2955a33040c4a9c8443a801bcec900a",
+      "size": 7481
+    },
+    "EXPERIMENTS/EXP-X16/custody/draw-plan.json": {
+      "sha256": "61ac9dd0bd65cb1a59bf3c45a06ecce0b9647538cb5920b2e6159eb05eef1c4d",
+      "size": 2710
+    },
+    "EXPERIMENTS/EXP-X16/custody/opening.json": {
+      "sha256": "c3a2ed5f5dfe9d79ec90e83cf134e85e8110c0a5bec997db5e05e7130dffc780",
+      "size": 1799
+    },
+    "EXPERIMENTS/EXP-X16/custody/prerelease-receipt.json": {
+      "sha256": "bdf6feba5c27efd6d68c849b08317df01a74bbdaa70dd6ba284cafd48d5d97fa",
+      "size": 1896
+    },
+    "EXPERIMENTS/EXP-X16/independent/evidence.py": {
+      "sha256": "ff56064e479212c3f8bcd3071d50d0ae5962782f6849503195834dc8b642060c",
+      "size": 18612
+    },
+    "EXPERIMENTS/EXP-X16/independent/reference.py": {
+      "sha256": "9ae0e5267fda7c202c62c1221f968a2b4f89088baeddb08a54e628993f80f3ba",
+      "size": 19261
+    },
+    "EXPERIMENTS/EXP-X16/independent/reproduce.py": {
+      "sha256": "62a87c552dc0b5c0f102e8be42d9da8c40526c8b5b1bfcb962c8923af5352ca6",
+      "size": 25605
+    },
+    "EXPERIMENTS/EXP-X16/results/independent/report.json": {
+      "sha256": "20068297fc51a3aaba42e3eb9e45469033d6ec96ed13500eb348b4a34a429818",
+      "size": 255897
+    },
+    "EXPERIMENTS/EXP-X16/service/document.mjs": {
+      "sha256": "32fef468b2fb2a774852998d49624c06a2b86ba1ddd4576e37dfd0fec7c5b5b2",
+      "size": 6169
+    },
+    "EXPERIMENTS/EXP-X16/service/native.mjs": {
+      "sha256": "cbd9bc3b77176dbe515be0d7ef45653eb1d4021f493250f9d6c399ca98daaaba",
+      "size": 5413
+    },
+    "EXPERIMENTS/EXP-X16/service/source.mjs": {
+      "sha256": "570a59b85f4ab7ace82817e549afb3d6e7d3013c5b361380431232842807e170",
+      "size": 10703
+    }
+  }
+}

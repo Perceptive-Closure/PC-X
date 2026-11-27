@@ -1,0 +1,37 @@
+[
+  {
+    "label": "reconstruction",
+    "commit": "39a0d0e5b3283835094d17603b84e706b968f443",
+    "tree": "d78010747396150c9c8bc3ab24b5266bc3ae94e3",
+    "blobs": 228,
+    "archive_sha256": "951b66af3adade7a25bded382453ce89c9d8f22d4d5a25a58173d585d9d09014"
+  },
+  {
+    "label": "generalization",
+    "commit": "07e91bec6f906eb460f025255e20e8e470adf3f2",
+    "tree": "385057bf8dd66f91051703813516e64c3c7cf03c",
+    "blobs": 369,
+    "archive_sha256": "0567ffb7464f06735e7261edd74de5dcd979741ae007951907a7ac994ceae221"
+  },
+  {
+    "label": "x16",
+    "commit": "a6bf9cefb59f63b8c9dea59daf7e588a82ba07eb",
+    "tree": "2b316bc1be855364dbe920b07c2054134f76ba48",
+    "blobs": 427,
+    "archive_sha256": "d80a96e515a58271f6a1145182f00f0e7eeb2ddf83379a0dc2f18bd6fa30b4f5"
+  },
+  {
+    "label": "final",
+    "commit": "1842ad6f8de5f7358b59e599d9c31b2a34a760fb",
+    "tree": "03722d1d982ad5907626ef34558945f2eee8c5d3",
+    "blobs": 469,
+    "archive_sha256": "7b9bed856dc24a51b7f04b09362b0eed34f76e6710d5af7980859bc428a2103c"
+  },
+  {
+    "label": "advanced",
+    "commit": "109eac055f466c609c0dcb9ba880827a0fde675f",
+    "tree": "c0ff307be72edc0cee92d1bbc35b2427c2ebc415",
+    "blobs": 565,
+    "archive_sha256": "daa679021b1ad8d1edc9e4a7239e525240a9a1ee136d2f8c8d62e7b4a252b128"
+  }
+]
