@@ -1,0 +1,250 @@
+{
+  "direct_changed_menu_optimum": "1/6",
+  "grid_certificates": [
+    {
+      "N": 1,
+      "alpha": "1/128",
+      "explicit_upper_price": "239/384",
+      "lower": "7/12",
+      "mesh_radius": "1/224",
+      "minimum_slack": {
+        "lower": {
+          "error": "0",
+          "positive_exposure": "0",
+          "positive_utility": "19/1536",
+          "signed_risk": "199/8192"
+        },
+        "upper": {
+          "error": "1/128",
+          "positive_exposure": "1/128",
+          "positive_utility": "6217/393216",
+          "signed_risk": "12139/524288"
+        }
+      },
+      "refinement": 1,
+      "upper_epigraph": "121/192",
+      "worlds": 120
+    },
+    {
+      "N": 1,
+      "alpha": "1/256",
+      "explicit_upper_price": "463/768",
+      "lower": "7/12",
+      "mesh_radius": "1/448",
+      "minimum_slack": {
+        "lower": {
+          "error": "0",
+          "positive_exposure": "0",
+          "positive_utility": "19/1536",
+          "signed_risk": "199/8192"
+        },
+        "upper": {
+          "error": "1/256",
+          "positive_exposure": "1/256",
+          "positive_utility": "11081/786432",
+          "signed_risk": "24875/1048576"
+        }
+      },
+      "refinement": 2,
+      "upper_epigraph": "233/384",
+      "worlds": 232
+    },
+    {
+      "N": 2,
+      "alpha": "1/128",
+      "explicit_upper_price": "239/384",
+      "lower": "7/12",
+      "mesh_radius": "1/288",
+      "minimum_slack": {
+        "lower": {
+          "error": "0",
+          "positive_exposure": "0",
+          "positive_utility": "247/24576",
+          "signed_risk": "12239/524288"
+        },
+        "upper": {
+          "error": "1/128",
+          "positive_exposure": "1/128",
+          "positive_utility": "84709/6291456",
+          "signed_risk": "746579/33554432"
+        }
+      },
+      "refinement": 1,
+      "upper_epigraph": "121/192",
+      "worlds": 152
+    },
+    {
+      "N": 2,
+      "alpha": "1/256",
+      "explicit_upper_price": "463/768",
+      "lower": "7/12",
+      "mesh_radius": "1/576",
+      "minimum_slack": {
+        "lower": {
+          "error": "0",
+          "positive_exposure": "0",
+          "positive_utility": "247/24576",
+          "signed_risk": "12239/524288"
+        },
+        "upper": {
+          "error": "1/256",
+          "positive_exposure": "1/256",
+          "positive_utility": "147941/12582912",
+          "signed_risk": "1529875/67108864"
+        }
+      },
+      "refinement": 2,
+      "upper_epigraph": "233/384",
+      "worlds": 296
+    },
+    {
+      "N": 4,
+      "alpha": "1/128",
+      "explicit_upper_price": "239/384",
+      "lower": "7/12",
+      "mesh_radius": "1/416",
+      "minimum_slack": {
+        "lower": {
+          "error": "0",
+          "positive_exposure": "0",
+          "positive_utility": "65455/6291456",
+          "signed_risk": "50329247/2147483648"
+        },
+        "upper": {
+          "error": "1/128",
+          "positive_exposure": "1/128",
+          "positive_utility": "22261261/1610612736",
+          "signed_risk": "3070084067/137438953472"
+        }
+      },
+      "refinement": 1,
+      "upper_epigraph": "121/192",
+      "worlds": 216
+    },
+    {
+      "N": 4,
+      "alpha": "1/256",
+      "explicit_upper_price": "463/768",
+      "lower": "7/12",
+      "mesh_radius": "1/832",
+      "minimum_slack": {
+        "lower": {
+          "error": "0",
+          "positive_exposure": "0",
+          "positive_utility": "65455/6291456",
+          "signed_risk": "50329247/2147483648"
+        },
+        "upper": {
+          "error": "1/256",
+          "positive_exposure": "1/256",
+          "positive_utility": "39017741/3221225472",
+          "signed_risk": "6291155875/274877906944"
+        }
+      },
+      "refinement": 2,
+      "upper_epigraph": "233/384",
+      "worlds": 424
+    },
+    {
+      "N": 6,
+      "alpha": "1/128",
+      "explicit_upper_price": "239/384",
+      "lower": "7/12",
+      "mesh_radius": "1/544",
+      "minimum_slack": {
+        "lower": {
+          "error": "0",
+          "positive_exposure": "0",
+          "positive_utility": "16776487/1610612736",
+          "signed_risk": "206158312559/8796093022208"
+        },
+        "upper": {
+          "error": "1/128",
+          "positive_exposure": "1/128",
+          "positive_utility": "5704064629/412316860416",
+          "signed_risk": "12575657066099/562949953421312"
+        }
+      },
+      "refinement": 1,
+      "upper_epigraph": "121/192",
+      "worlds": 280
+    },
+    {
+      "N": 6,
+      "alpha": "1/256",
+      "explicit_upper_price": "463/768",
+      "lower": "7/12",
+      "mesh_radius": "1/1088",
+      "minimum_slack": {
+        "lower": {
+          "error": "0",
+          "positive_exposure": "0",
+          "positive_utility": "16776487/1610612736",
+          "signed_risk": "206158312559/8796093022208"
+        },
+        "upper": {
+          "error": "1/256",
+          "positive_exposure": "1/256",
+          "positive_utility": "9998845301/824633720832",
+          "signed_risk": "25769789069875/1125899906842624"
+        }
+      },
+      "refinement": 2,
+      "upper_epigraph": "233/384",
+      "worlds": 552
+    }
+  ],
+  "matched_sign_gap_floor": "1/3",
+  "reduction": [
+    {
+      "N": 2,
+      "id": "s01",
+      "per_route_complete_histories": 4,
+      "per_route_count_states": 3
+    },
+    {
+      "N": 2,
+      "id": "s02",
+      "per_route_complete_histories": 4,
+      "per_route_count_states": 3
+    },
+    {
+      "N": 4,
+      "id": "s03",
+      "per_route_complete_histories": 16,
+      "per_route_count_states": 5
+    },
+    {
+      "N": 4,
+      "id": "s04",
+      "per_route_complete_histories": 16,
+      "per_route_count_states": 5
+    },
+    {
+      "N": 6,
+      "id": "s05",
+      "per_route_complete_histories": 64,
+      "per_route_count_states": 7
+    },
+    {
+      "N": 2,
+      "id": "s06",
+      "per_route_complete_histories": 4,
+      "per_route_count_states": 3
+    },
+    {
+      "N": 1,
+      "id": "s07",
+      "per_route_complete_histories": 2,
+      "per_route_count_states": 2
+    },
+    {
+      "N": 2,
+      "id": "s08",
+      "per_route_complete_histories": 4,
+      "per_route_count_states": 3
+    }
+  ],
+  "schema": 1,
+  "scope": "base uncalibrated, positive-only coverage"
+}

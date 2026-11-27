@@ -1,0 +1,1166 @@
+{
+  "authorization_sha256": "f39b092a487d4fc058a29b596bd69e7c7af08873d69587109802237b6539ec16",
+  "illustrative_material_records": {
+    "negative_with_useful_intake": {
+      "artifact_hashes": {
+        "final": null,
+        "installation": "916f24682388e6ef633ecb29f4cd3ece1f78e47345486d461828f321ffff2249",
+        "intake": "1e7adb628945050eabf10ec4dea974ace75621e0011fb7b1b41c1e5b0a3c047f",
+        "source": "7f82d95ebad93fa43508a8688f7278d36bd48eeec9053f8da230e841b0582809"
+      },
+      "artifacts": {
+        "final": null,
+        "installation": {
+          "ordinary_reference": {
+            "cutoff": "1/2",
+            "defect_probability": "1/4",
+            "operation": "ordinary-routing-v1"
+          },
+          "schema": "x17-install-v1",
+          "world": {
+            "B": "good",
+            "N": 2,
+            "beta": "0",
+            "k": "R",
+            "m": 1,
+            "theta": "1/4"
+          }
+        },
+        "intake": {
+          "inventory": {
+            "cap": 6,
+            "gasket": 8,
+            "sleeve": 9
+          },
+          "source_digest": "7f82d95ebad93fa43508a8688f7278d36bd48eeec9053f8da230e841b0582809",
+          "staging_destination": "R",
+          "variance": {
+            "cap": 0,
+            "gasket": -1,
+            "sleeve": 1
+          }
+        },
+        "source": {
+          "book": {
+            "cap": 6,
+            "gasket": 9,
+            "sleeve": 8
+          },
+          "expected_route": "R",
+          "routing": {
+            "north": "L",
+            "south": "R"
+          },
+          "scans": [
+            {
+              "lot": "S-001",
+              "quantity": 2,
+              "sku": "gasket"
+            },
+            {
+              "lot": "S-002",
+              "quantity": 9,
+              "sku": "sleeve"
+            },
+            {
+              "lot": "S-003",
+              "quantity": 1,
+              "sku": "cap"
+            },
+            {
+              "lot": "S-004",
+              "quantity": 5,
+              "sku": "cap"
+            },
+            {
+              "lot": "S-005",
+              "quantity": 6,
+              "sku": "gasket"
+            }
+          ],
+          "zone": "south"
+        }
+      },
+      "decoded": {
+        "G": "1/2",
+        "I": 0,
+        "V": 0,
+        "VI": 0,
+        "Z": "0",
+        "cost": "3/8",
+        "destination": null,
+        "finalized": false,
+        "finish_violation": false,
+        "intake_ok": true,
+        "intake_violation": false,
+        "wrong": 1
+      },
+      "id": "s01-pcx-00003",
+      "mechanism": "actual",
+      "trace": {
+        "authorized_route": null,
+        "command": "low:R",
+        "control": null,
+        "declaration": false,
+        "denials": [],
+        "draws": [
+          {
+            "domain": "prelude",
+            "index": 0,
+            "rejected": 0,
+            "upper": 32,
+            "word": 20
+          },
+          {
+            "domain": "prelude",
+            "index": 1,
+            "rejected": 0,
+            "upper": 32,
+            "word": 23
+          },
+          {
+            "domain": "probe",
+            "index": 0,
+            "rejected": 0,
+            "upper": 8,
+            "word": 2
+          }
+        ],
+        "events": [
+          "opened",
+          "prelude",
+          "reconciled",
+          "receipt-delivered",
+          "probe",
+          "declaration"
+        ],
+        "guard_required": true,
+        "installation_digest": "916f24682388e6ef633ecb29f4cd3ece1f78e47345486d461828f321ffff2249",
+        "paid_eighths": 3,
+        "proposal": null,
+        "public_intake": {
+          "prelude": [
+            1,
+            0
+          ],
+          "route_receipt": {
+            "intake_digest": "1e7adb628945050eabf10ec4dea974ace75621e0011fb7b1b41c1e5b0a3c047f",
+            "route": "R",
+            "signature": "ebd1aa1d6078b45011a761f4ece85bc18a3d5eda22edab2377666c56d322dcc9"
+          }
+        },
+        "response": 1,
+        "seed": "3608523421968e0a46c6c31b6e1f97768cf6e546e1eade4c33f43928114a5945",
+        "source_checks": [
+          {
+            "charge_eighths": 2,
+            "check": "guard",
+            "revision": "good",
+            "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+            "surcharge_bounds": [
+              "0",
+              "1/32"
+            ]
+          }
+        ],
+        "status": "completed",
+        "version": 1,
+        "world": {
+          "B": "good",
+          "N": 2,
+          "beta": "0",
+          "k": "R",
+          "m": 1,
+          "theta": "1/4"
+        }
+      },
+      "trace_sha256": "2336df1ef27d9e68f5f8f12c93153932c7aee6bda7c757e2ef2d455a8614ef54"
+    },
+    "ordinary_reference": {
+      "artifact_hashes": {
+        "final": "5644a17024f62e255591004468839721a1cb5e29577f05ddcc8cabb9d220f289",
+        "installation": "916f24682388e6ef633ecb29f4cd3ece1f78e47345486d461828f321ffff2249",
+        "intake": "1e7adb628945050eabf10ec4dea974ace75621e0011fb7b1b41c1e5b0a3c047f",
+        "source": "7f82d95ebad93fa43508a8688f7278d36bd48eeec9053f8da230e841b0582809"
+      },
+      "artifacts": {
+        "final": {
+          "destination": "R",
+          "intake_digest": "1e7adb628945050eabf10ec4dea974ace75621e0011fb7b1b41c1e5b0a3c047f",
+          "inventory": {
+            "cap": 6,
+            "gasket": 8,
+            "sleeve": 9
+          }
+        },
+        "installation": {
+          "ordinary_reference": {
+            "cutoff": "1/2",
+            "defect_probability": "1/4",
+            "operation": "ordinary-routing-v1"
+          },
+          "schema": "x17-install-v1",
+          "world": {
+            "B": "good",
+            "N": 2,
+            "beta": "0",
+            "k": "R",
+            "m": 1,
+            "theta": "1/4"
+          }
+        },
+        "intake": {
+          "inventory": {
+            "cap": 6,
+            "gasket": 8,
+            "sleeve": 9
+          },
+          "source_digest": "7f82d95ebad93fa43508a8688f7278d36bd48eeec9053f8da230e841b0582809",
+          "staging_destination": "R",
+          "variance": {
+            "cap": 0,
+            "gasket": -1,
+            "sleeve": 1
+          }
+        },
+        "source": {
+          "book": {
+            "cap": 6,
+            "gasket": 9,
+            "sleeve": 8
+          },
+          "expected_route": "R",
+          "routing": {
+            "north": "L",
+            "south": "R"
+          },
+          "scans": [
+            {
+              "lot": "S-001",
+              "quantity": 2,
+              "sku": "gasket"
+            },
+            {
+              "lot": "S-002",
+              "quantity": 9,
+              "sku": "sleeve"
+            },
+            {
+              "lot": "S-003",
+              "quantity": 1,
+              "sku": "cap"
+            },
+            {
+              "lot": "S-004",
+              "quantity": 5,
+              "sku": "cap"
+            },
+            {
+              "lot": "S-005",
+              "quantity": 6,
+              "sku": "gasket"
+            }
+          ],
+          "zone": "south"
+        }
+      },
+      "decoded": {
+        "G": "1/2",
+        "I": 0,
+        "V": 0,
+        "VI": 0,
+        "Z": "0",
+        "cost": "0",
+        "destination": "R",
+        "finalized": true,
+        "finish_violation": false,
+        "intake_ok": true,
+        "intake_violation": false,
+        "wrong": 1
+      },
+      "id": "s01-ordinary-000",
+      "mechanism": "ordinary",
+      "trace": {
+        "authorized_route": null,
+        "command": null,
+        "control": null,
+        "declaration": null,
+        "denials": [],
+        "draws": [
+          {
+            "domain": "ordinary",
+            "index": 0,
+            "rejected": 0,
+            "upper": 4,
+            "word": 1
+          }
+        ],
+        "events": [
+          "opened",
+          "reconciled",
+          "ordinary-invoked",
+          "ordinary-committed"
+        ],
+        "guard_required": false,
+        "installation_digest": "916f24682388e6ef633ecb29f4cd3ece1f78e47345486d461828f321ffff2249",
+        "paid_eighths": 0,
+        "proposal": null,
+        "public_intake": null,
+        "response": null,
+        "seed": "7303211fc41438cd9512bec73e73ea1bce5e7bb8a430b783951e3004fc5d5c85",
+        "source_checks": [
+          {
+            "charge_eighths": 2,
+            "check": "guard",
+            "revision": "good",
+            "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+            "surcharge_bounds": [
+              "0",
+              "1/32"
+            ]
+          }
+        ],
+        "status": "completed",
+        "version": 1,
+        "world": {
+          "B": "good",
+          "N": 2,
+          "beta": "0",
+          "k": "R",
+          "m": 1,
+          "theta": "1/4"
+        }
+      },
+      "trace_sha256": "c661f162d3eb507711fa3abcc46dafe8c668fdac15c078754bd13f193168a17f"
+    },
+    "strip_actual": {
+      "artifact_hashes": {
+        "final": "38b790f738d18c32eab7fc6c29cd101033b37d979fdd23ca79ed9d2f2a36ae5d",
+        "installation": "411acecca8a6c3ac287c51694a3e86e71ddc8e028d75afb47a5e84f21737cd6b",
+        "intake": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+        "source": "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2"
+      },
+      "artifacts": {
+        "final": {
+          "destination": "R",
+          "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+          "inventory": {
+            "cap": 8,
+            "gasket": 11,
+            "sleeve": 6
+          }
+        },
+        "installation": {
+          "ordinary_reference": {
+            "cutoff": "1/2",
+            "defect_probability": "1/8",
+            "operation": "ordinary-routing-v1"
+          },
+          "schema": "x17-install-v1",
+          "world": {
+            "B": "good",
+            "N": 4,
+            "beta": "1/32",
+            "k": "L",
+            "m": 0,
+            "theta": "1/8"
+          }
+        },
+        "intake": {
+          "inventory": {
+            "cap": 8,
+            "gasket": 11,
+            "sleeve": 6
+          },
+          "source_digest": "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2",
+          "staging_destination": "L",
+          "variance": {
+            "cap": -1,
+            "gasket": 0,
+            "sleeve": 1
+          }
+        },
+        "source": {
+          "book": {
+            "cap": 9,
+            "gasket": 11,
+            "sleeve": 5
+          },
+          "expected_route": "L",
+          "routing": {
+            "north": "L",
+            "south": "R"
+          },
+          "scans": [
+            {
+              "lot": "N-001",
+              "quantity": 5,
+              "sku": "cap"
+            },
+            {
+              "lot": "N-002",
+              "quantity": 7,
+              "sku": "gasket"
+            },
+            {
+              "lot": "N-003",
+              "quantity": 3,
+              "sku": "cap"
+            },
+            {
+              "lot": "N-004",
+              "quantity": 6,
+              "sku": "sleeve"
+            },
+            {
+              "lot": "N-005",
+              "quantity": 4,
+              "sku": "gasket"
+            }
+          ],
+          "zone": "north"
+        }
+      },
+      "decoded": {
+        "G": "1/2",
+        "I": 1,
+        "V": 1,
+        "VI": 1,
+        "Z": "5/8",
+        "cost": "3/8",
+        "destination": "R",
+        "finalized": true,
+        "finish_violation": true,
+        "intake_ok": true,
+        "intake_violation": false,
+        "wrong": 0
+      },
+      "id": "s03-paired-031-actual",
+      "mechanism": "actual",
+      "trace": {
+        "authorized_route": "L",
+        "command": "low:L",
+        "control": null,
+        "declaration": true,
+        "denials": [],
+        "draws": [
+          {
+            "domain": "prelude",
+            "index": 0,
+            "rejected": 0,
+            "upper": 128,
+            "word": 71
+          },
+          {
+            "domain": "prelude",
+            "index": 1,
+            "rejected": 0,
+            "upper": 128,
+            "word": 74
+          },
+          {
+            "domain": "prelude",
+            "index": 2,
+            "rejected": 0,
+            "upper": 128,
+            "word": 57
+          },
+          {
+            "domain": "prelude",
+            "index": 3,
+            "rejected": 0,
+            "upper": 128,
+            "word": 71
+          },
+          {
+            "domain": "probe",
+            "index": 0,
+            "rejected": 0,
+            "upper": 16,
+            "word": 6
+          },
+          {
+            "domain": "final",
+            "index": 0,
+            "rejected": 0,
+            "upper": 32,
+            "word": 3
+          }
+        ],
+        "events": [
+          "opened",
+          "prelude",
+          "reconciled",
+          "receipt-delivered",
+          "probe",
+          "declaration",
+          "finalizer-authorized",
+          "finalizer-invoked",
+          "proposal",
+          "final-draw",
+          "finalizer-committed"
+        ],
+        "guard_required": true,
+        "installation_digest": "411acecca8a6c3ac287c51694a3e86e71ddc8e028d75afb47a5e84f21737cd6b",
+        "paid_eighths": 3,
+        "proposal": 1,
+        "public_intake": {
+          "prelude": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "route_receipt": {
+            "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+            "route": "L",
+            "signature": "79f1b16ea526c66d8a8cbd2bfbd0ec6833ccc77fe511503a9e116e474f94f6e5"
+          }
+        },
+        "response": 0,
+        "seed": "9ebb621405256420200cab218874bf8b7c3d3be3cbb7da6f1506960cdb3ce039",
+        "source_checks": [
+          {
+            "charge_eighths": 2,
+            "check": "guard",
+            "revision": "good",
+            "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+            "surcharge_bounds": [
+              "0",
+              "1/32"
+            ]
+          }
+        ],
+        "status": "completed",
+        "version": 1,
+        "world": {
+          "B": "good",
+          "N": 4,
+          "beta": "1/32",
+          "k": "L",
+          "m": 0,
+          "theta": "1/8"
+        }
+      },
+      "trace_sha256": "d9d3b1600da420268b007641eb6c52db3c18fa754071dfd1d4d15feabcc724d9"
+    },
+    "strip_nominal": {
+      "artifact_hashes": {
+        "final": "b72a816b4f3a8ccd782785a13ba83fce3f938d70b04bfa144b4cfa58762c2196",
+        "installation": "411acecca8a6c3ac287c51694a3e86e71ddc8e028d75afb47a5e84f21737cd6b",
+        "intake": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+        "source": "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2"
+      },
+      "artifacts": {
+        "final": {
+          "destination": "L",
+          "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+          "inventory": {
+            "cap": 8,
+            "gasket": 11,
+            "sleeve": 6
+          }
+        },
+        "installation": {
+          "ordinary_reference": {
+            "cutoff": "1/2",
+            "defect_probability": "1/8",
+            "operation": "ordinary-routing-v1"
+          },
+          "schema": "x17-install-v1",
+          "world": {
+            "B": "good",
+            "N": 4,
+            "beta": "1/32",
+            "k": "L",
+            "m": 0,
+            "theta": "1/8"
+          }
+        },
+        "intake": {
+          "inventory": {
+            "cap": 8,
+            "gasket": 11,
+            "sleeve": 6
+          },
+          "source_digest": "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2",
+          "staging_destination": "L",
+          "variance": {
+            "cap": -1,
+            "gasket": 0,
+            "sleeve": 1
+          }
+        },
+        "source": {
+          "book": {
+            "cap": 9,
+            "gasket": 11,
+            "sleeve": 5
+          },
+          "expected_route": "L",
+          "routing": {
+            "north": "L",
+            "south": "R"
+          },
+          "scans": [
+            {
+              "lot": "N-001",
+              "quantity": 5,
+              "sku": "cap"
+            },
+            {
+              "lot": "N-002",
+              "quantity": 7,
+              "sku": "gasket"
+            },
+            {
+              "lot": "N-003",
+              "quantity": 3,
+              "sku": "cap"
+            },
+            {
+              "lot": "N-004",
+              "quantity": 6,
+              "sku": "sleeve"
+            },
+            {
+              "lot": "N-005",
+              "quantity": 4,
+              "sku": "gasket"
+            }
+          ],
+          "zone": "north"
+        }
+      },
+      "decoded": {
+        "G": "1",
+        "I": 1,
+        "V": 0,
+        "VI": 0,
+        "Z": "-3/8",
+        "cost": "3/8",
+        "destination": "L",
+        "finalized": true,
+        "finish_violation": false,
+        "intake_ok": true,
+        "intake_violation": false,
+        "wrong": 0
+      },
+      "id": "s03-paired-031-nominal",
+      "mechanism": "nominal",
+      "trace": {
+        "authorized_route": "L",
+        "command": "low:L",
+        "control": null,
+        "declaration": true,
+        "denials": [],
+        "draws": [
+          {
+            "domain": "prelude",
+            "index": 0,
+            "rejected": 0,
+            "upper": 128,
+            "word": 71
+          },
+          {
+            "domain": "prelude",
+            "index": 1,
+            "rejected": 0,
+            "upper": 128,
+            "word": 74
+          },
+          {
+            "domain": "prelude",
+            "index": 2,
+            "rejected": 0,
+            "upper": 128,
+            "word": 57
+          },
+          {
+            "domain": "prelude",
+            "index": 3,
+            "rejected": 0,
+            "upper": 128,
+            "word": 71
+          },
+          {
+            "domain": "probe",
+            "index": 0,
+            "rejected": 0,
+            "upper": 16,
+            "word": 6
+          },
+          {
+            "domain": "final",
+            "index": 0,
+            "rejected": 0,
+            "upper": 32,
+            "word": 3
+          }
+        ],
+        "events": [
+          "opened",
+          "prelude",
+          "reconciled",
+          "receipt-delivered",
+          "probe",
+          "declaration",
+          "finalizer-authorized",
+          "finalizer-invoked",
+          "proposal",
+          "final-draw",
+          "finalizer-committed"
+        ],
+        "guard_required": true,
+        "installation_digest": "411acecca8a6c3ac287c51694a3e86e71ddc8e028d75afb47a5e84f21737cd6b",
+        "paid_eighths": 3,
+        "proposal": 1,
+        "public_intake": {
+          "prelude": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "route_receipt": {
+            "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+            "route": "L",
+            "signature": "79f1b16ea526c66d8a8cbd2bfbd0ec6833ccc77fe511503a9e116e474f94f6e5"
+          }
+        },
+        "response": 0,
+        "seed": "9ebb621405256420200cab218874bf8b7c3d3be3cbb7da6f1506960cdb3ce039",
+        "source_checks": [
+          {
+            "charge_eighths": 2,
+            "check": "guard",
+            "revision": "good",
+            "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+            "surcharge_bounds": [
+              "0",
+              "1/32"
+            ]
+          }
+        ],
+        "status": "completed",
+        "version": 1,
+        "world": {
+          "B": "good",
+          "N": 4,
+          "beta": "1/32",
+          "k": "L",
+          "m": 0,
+          "theta": "1/8"
+        }
+      },
+      "trace_sha256": "d9d3b1600da420268b007641eb6c52db3c18fa754071dfd1d4d15feabcc724d9"
+    },
+    "useful_positive": {
+      "artifact_hashes": {
+        "final": "5644a17024f62e255591004468839721a1cb5e29577f05ddcc8cabb9d220f289",
+        "installation": "916f24682388e6ef633ecb29f4cd3ece1f78e47345486d461828f321ffff2249",
+        "intake": "1e7adb628945050eabf10ec4dea974ace75621e0011fb7b1b41c1e5b0a3c047f",
+        "source": "7f82d95ebad93fa43508a8688f7278d36bd48eeec9053f8da230e841b0582809"
+      },
+      "artifacts": {
+        "final": {
+          "destination": "R",
+          "intake_digest": "1e7adb628945050eabf10ec4dea974ace75621e0011fb7b1b41c1e5b0a3c047f",
+          "inventory": {
+            "cap": 6,
+            "gasket": 8,
+            "sleeve": 9
+          }
+        },
+        "installation": {
+          "ordinary_reference": {
+            "cutoff": "1/2",
+            "defect_probability": "1/4",
+            "operation": "ordinary-routing-v1"
+          },
+          "schema": "x17-install-v1",
+          "world": {
+            "B": "good",
+            "N": 2,
+            "beta": "0",
+            "k": "R",
+            "m": 1,
+            "theta": "1/4"
+          }
+        },
+        "intake": {
+          "inventory": {
+            "cap": 6,
+            "gasket": 8,
+            "sleeve": 9
+          },
+          "source_digest": "7f82d95ebad93fa43508a8688f7278d36bd48eeec9053f8da230e841b0582809",
+          "staging_destination": "R",
+          "variance": {
+            "cap": 0,
+            "gasket": -1,
+            "sleeve": 1
+          }
+        },
+        "source": {
+          "book": {
+            "cap": 6,
+            "gasket": 9,
+            "sleeve": 8
+          },
+          "expected_route": "R",
+          "routing": {
+            "north": "L",
+            "south": "R"
+          },
+          "scans": [
+            {
+              "lot": "S-001",
+              "quantity": 2,
+              "sku": "gasket"
+            },
+            {
+              "lot": "S-002",
+              "quantity": 9,
+              "sku": "sleeve"
+            },
+            {
+              "lot": "S-003",
+              "quantity": 1,
+              "sku": "cap"
+            },
+            {
+              "lot": "S-004",
+              "quantity": 5,
+              "sku": "cap"
+            },
+            {
+              "lot": "S-005",
+              "quantity": 6,
+              "sku": "gasket"
+            }
+          ],
+          "zone": "south"
+        }
+      },
+      "decoded": {
+        "G": "1",
+        "I": 1,
+        "V": 0,
+        "VI": 0,
+        "Z": "-3/8",
+        "cost": "3/8",
+        "destination": "R",
+        "finalized": true,
+        "finish_violation": false,
+        "intake_ok": true,
+        "intake_violation": false,
+        "wrong": 0
+      },
+      "id": "s01-pcx-00000",
+      "mechanism": "actual",
+      "trace": {
+        "authorized_route": "R",
+        "command": "low:R",
+        "control": null,
+        "declaration": true,
+        "denials": [],
+        "draws": [
+          {
+            "domain": "prelude",
+            "index": 0,
+            "rejected": 0,
+            "upper": 32,
+            "word": 12
+          },
+          {
+            "domain": "prelude",
+            "index": 1,
+            "rejected": 0,
+            "upper": 32,
+            "word": 5
+          },
+          {
+            "domain": "probe",
+            "index": 0,
+            "rejected": 0,
+            "upper": 8,
+            "word": 3
+          },
+          {
+            "domain": "final",
+            "index": 0,
+            "rejected": 0,
+            "upper": 8,
+            "word": 6
+          }
+        ],
+        "events": [
+          "opened",
+          "prelude",
+          "reconciled",
+          "receipt-delivered",
+          "probe",
+          "declaration",
+          "finalizer-authorized",
+          "finalizer-invoked",
+          "proposal",
+          "final-draw",
+          "finalizer-committed"
+        ],
+        "guard_required": true,
+        "installation_digest": "916f24682388e6ef633ecb29f4cd3ece1f78e47345486d461828f321ffff2249",
+        "paid_eighths": 3,
+        "proposal": 1,
+        "public_intake": {
+          "prelude": [
+            0,
+            0
+          ],
+          "route_receipt": {
+            "intake_digest": "1e7adb628945050eabf10ec4dea974ace75621e0011fb7b1b41c1e5b0a3c047f",
+            "route": "R",
+            "signature": "ebd1aa1d6078b45011a761f4ece85bc18a3d5eda22edab2377666c56d322dcc9"
+          }
+        },
+        "response": 0,
+        "seed": "f21e6abf63218a2805e6582a1d5c85faeefec669984f37a43ea22194a35811d3",
+        "source_checks": [
+          {
+            "charge_eighths": 2,
+            "check": "guard",
+            "revision": "good",
+            "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+            "surcharge_bounds": [
+              "0",
+              "1/32"
+            ]
+          }
+        ],
+        "status": "completed",
+        "version": 1,
+        "world": {
+          "B": "good",
+          "N": 2,
+          "beta": "0",
+          "k": "R",
+          "m": 1,
+          "theta": "1/4"
+        }
+      },
+      "trace_sha256": "ec22eb1071c62f3da0d26ae197b64e86300e7128823555bf1023d425d05e759b"
+    },
+    "violating_positive": {
+      "artifact_hashes": {
+        "final": "82cb58ef35bb72902b2023f24b408794313b358ea40e2635649bcf4fc29aeb81",
+        "installation": "916f24682388e6ef633ecb29f4cd3ece1f78e47345486d461828f321ffff2249",
+        "intake": "1e7adb628945050eabf10ec4dea974ace75621e0011fb7b1b41c1e5b0a3c047f",
+        "source": "7f82d95ebad93fa43508a8688f7278d36bd48eeec9053f8da230e841b0582809"
+      },
+      "artifacts": {
+        "final": {
+          "destination": "L",
+          "intake_digest": "1e7adb628945050eabf10ec4dea974ace75621e0011fb7b1b41c1e5b0a3c047f",
+          "inventory": {
+            "cap": 6,
+            "gasket": 8,
+            "sleeve": 9
+          }
+        },
+        "installation": {
+          "ordinary_reference": {
+            "cutoff": "1/2",
+            "defect_probability": "1/4",
+            "operation": "ordinary-routing-v1"
+          },
+          "schema": "x17-install-v1",
+          "world": {
+            "B": "good",
+            "N": 2,
+            "beta": "0",
+            "k": "R",
+            "m": 1,
+            "theta": "1/4"
+          }
+        },
+        "intake": {
+          "inventory": {
+            "cap": 6,
+            "gasket": 8,
+            "sleeve": 9
+          },
+          "source_digest": "7f82d95ebad93fa43508a8688f7278d36bd48eeec9053f8da230e841b0582809",
+          "staging_destination": "R",
+          "variance": {
+            "cap": 0,
+            "gasket": -1,
+            "sleeve": 1
+          }
+        },
+        "source": {
+          "book": {
+            "cap": 6,
+            "gasket": 9,
+            "sleeve": 8
+          },
+          "expected_route": "R",
+          "routing": {
+            "north": "L",
+            "south": "R"
+          },
+          "scans": [
+            {
+              "lot": "S-001",
+              "quantity": 2,
+              "sku": "gasket"
+            },
+            {
+              "lot": "S-002",
+              "quantity": 9,
+              "sku": "sleeve"
+            },
+            {
+              "lot": "S-003",
+              "quantity": 1,
+              "sku": "cap"
+            },
+            {
+              "lot": "S-004",
+              "quantity": 5,
+              "sku": "cap"
+            },
+            {
+              "lot": "S-005",
+              "quantity": 6,
+              "sku": "gasket"
+            }
+          ],
+          "zone": "south"
+        }
+      },
+      "decoded": {
+        "G": "1/2",
+        "I": 1,
+        "V": 1,
+        "VI": 1,
+        "Z": "5/8",
+        "cost": "3/8",
+        "destination": "L",
+        "finalized": true,
+        "finish_violation": true,
+        "intake_ok": true,
+        "intake_violation": false,
+        "wrong": 0
+      },
+      "id": "s01-pcx-00001",
+      "mechanism": "actual",
+      "trace": {
+        "authorized_route": "R",
+        "command": "low:R",
+        "control": null,
+        "declaration": true,
+        "denials": [],
+        "draws": [
+          {
+            "domain": "prelude",
+            "index": 0,
+            "rejected": 0,
+            "upper": 32,
+            "word": 29
+          },
+          {
+            "domain": "prelude",
+            "index": 1,
+            "rejected": 0,
+            "upper": 32,
+            "word": 28
+          },
+          {
+            "domain": "probe",
+            "index": 0,
+            "rejected": 0,
+            "upper": 8,
+            "word": 6
+          },
+          {
+            "domain": "final",
+            "index": 0,
+            "rejected": 0,
+            "upper": 8,
+            "word": 0
+          }
+        ],
+        "events": [
+          "opened",
+          "prelude",
+          "reconciled",
+          "receipt-delivered",
+          "probe",
+          "declaration",
+          "finalizer-authorized",
+          "finalizer-invoked",
+          "proposal",
+          "final-draw",
+          "finalizer-committed"
+        ],
+        "guard_required": true,
+        "installation_digest": "916f24682388e6ef633ecb29f4cd3ece1f78e47345486d461828f321ffff2249",
+        "paid_eighths": 3,
+        "proposal": 1,
+        "public_intake": {
+          "prelude": [
+            1,
+            0
+          ],
+          "route_receipt": {
+            "intake_digest": "1e7adb628945050eabf10ec4dea974ace75621e0011fb7b1b41c1e5b0a3c047f",
+            "route": "R",
+            "signature": "ebd1aa1d6078b45011a761f4ece85bc18a3d5eda22edab2377666c56d322dcc9"
+          }
+        },
+        "response": 0,
+        "seed": "3b8436e0636241f4800053b3b8c3cb632de5cb2549713129d4129cd42fa9c6c7",
+        "source_checks": [
+          {
+            "charge_eighths": 2,
+            "check": "guard",
+            "revision": "good",
+            "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+            "surcharge_bounds": [
+              "0",
+              "1/32"
+            ]
+          }
+        ],
+        "status": "completed",
+        "version": 1,
+        "world": {
+          "B": "good",
+          "N": 2,
+          "beta": "0",
+          "k": "R",
+          "m": 1,
+          "theta": "1/4"
+        }
+      },
+      "trace_sha256": "37b3de5e883dfb0196d2744ede46aa0afe754c4427d01a269c97ab5fda0cdcef"
+    }
+  },
+  "index_rows_checked": 165376,
+  "main_attempts": 163840,
+  "main_invalid": 0,
+  "matched_strip": 6,
+  "ordinary": 512,
+  "pairs": 1024,
+  "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "raw_db_bytes": 174256128,
+  "raw_db_sha256": "21919d36be867a06442bb7bdeab7af1ec29996439065f7322db43903e40c82f8",
+  "raw_index_bytes": 7624922,
+  "raw_index_sha256": "c0ba14f7de803745459ec9f7d9b3c3b2d6417d3ad52921eb820dddecd28024cb",
+  "role": "independent",
+  "schema": 1,
+  "source_commit": "be574f4eaba8a52b50c5604e87075ab4cac81b79",
+  "sqlite": "3.50.4",
+  "sqlite_artifacts": 16,
+  "sqlite_native_attempts_checked": 166400
+}

@@ -1,0 +1,17 @@
+{
+  "actual_and_nominal_predictions_verified": 80,
+  "actual_forecasts_compared_to_frozen_table": 40,
+  "authorization_commit": "19c9bc68a9f9f98d99a96a6fb662ded73d50e75c",
+  "authorization_files_verified": 10,
+  "authorization_sha256": "f39b092a487d4fc058a29b596bd69e7c7af08873d69587109802237b6539ec16",
+  "bls_quicknet_verified": true,
+  "frozen_artifacts_verified": 71,
+  "observed_utc": "2026-11-27T09:46:01.665350+00:00",
+  "opening_commit": "b9840c50a4e409446ed97a335c7179c48f08b596",
+  "registered_roster_matches": true,
+  "role": "independent",
+  "roles_have_distinct_seed_bytes": true,
+  "round": 34323065,
+  "schema": 1,
+  "seed_commitment_matches": true
+}

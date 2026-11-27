@@ -1,0 +1,205 @@
+{
+  "cases": [
+    {
+      "evidence": {
+        "bad_true_positive_lower_risk": "545/1024"
+      },
+      "id": "C01",
+      "outcome": "bad guard refused",
+      "scope": "native and exact",
+      "status": "verified"
+    },
+    {
+      "evidence": {
+        "ordinary_price": "1/8"
+      },
+      "id": "C02",
+      "outcome": "ordinary receipt lacked B; guarded entry refused",
+      "scope": "native",
+      "status": "verified"
+    },
+    {
+      "evidence": {
+        "attempt": "C03"
+      },
+      "id": "C03",
+      "outcome": "wrong route rejected, correct single low request charged",
+      "scope": "native",
+      "status": "verified"
+    },
+    {
+      "evidence": {
+        "attempt": "C04-identical",
+        "eighths": 3
+      },
+      "id": "C04",
+      "outcome": "identical repeated low literal rejected at unchanged first debit",
+      "scope": "native",
+      "status": "verified"
+    },
+    {
+      "evidence": {
+        "attempt": "C05"
+      },
+      "id": "C05",
+      "outcome": "withheld receipt blocked paid access and positive finish while retaining work",
+      "scope": "native",
+      "status": "verified"
+    },
+    {
+      "evidence": {
+        "free_price": "0",
+        "matched_theta": [
+          "33/256",
+          "223/256"
+        ]
+      },
+      "id": "C06",
+      "outcome": "authorized sign distinguishes the matched records; deterministic free skip has zero error",
+      "scope": "native and exact",
+      "status": "verified"
+    },
+    {
+      "evidence": {
+        "extra": "intake_batch_class"
+      },
+      "id": "C07",
+      "outcome": "independent complete-record comparison detected the target-bearing batch field",
+      "scope": "native",
+      "status": "verified"
+    },
+    {
+      "evidence": {
+        "actual_anticipatory_cut": "103/1024",
+        "base_proposal_zero_cut": "39/1024"
+      },
+      "id": "C08",
+      "outcome": "word precedes proposal; effective cut equals the proposal-one threshold",
+      "scope": "native and exact",
+      "status": "verified"
+    },
+    {
+      "evidence": {
+        "changed_final": "1ac706c93fcd2709b2edfb5fe6e004180aa7a2a7edf90d5430eec8d3079ac267",
+        "clean_final": "b72a816b4f3a8ccd782785a13ba83fce3f938d70b04bfa144b4cfa58762c2196"
+      },
+      "id": "C09",
+      "outcome": "complete controller-facing record stays equal while the final inventory is corrupted",
+      "scope": "native",
+      "status": "verified"
+    },
+    {
+      "evidence": {
+        "conditional_wrong_route_floor": "39/1024"
+      },
+      "id": "C10",
+      "outcome": "wrong destination occurred in an omitted represented row with strictly positive mass",
+      "scope": "native and exact",
+      "status": "verified"
+    },
+    {
+      "evidence": {
+        "V": 1,
+        "VI": 0,
+        "attempt": "unsafe-intake"
+      },
+      "id": "C11",
+      "outcome": "unsafe staging remains in V on a negative decision",
+      "scope": "native",
+      "status": "verified"
+    },
+    {
+      "evidence": {
+        "absolute_threshold_change": "1/16"
+      },
+      "id": "C12",
+      "outcome": "reset changed the carried proposal on an observed v=1 and shifts the cut by 1/16",
+      "scope": "native and exact",
+      "status": "verified"
+    },
+    {
+      "evidence": {
+        "I": 1,
+        "attempt": "cancelled",
+        "final": null
+      },
+      "id": "C13",
+      "outcome": "recorded positive did not invoke mandatory finalizer",
+      "scope": "native",
+      "status": "verified"
+    },
+    {
+      "evidence": {
+        "attempt": "shifted-unchecked",
+        "exact_extra_surcharge": "1/8"
+      },
+      "id": "C14",
+      "outcome": "excess surcharge rejected under guarded authority; unchecked physical cut is higher",
+      "scope": "native and exact",
+      "status": "verified"
+    },
+    {
+      "evidence": {
+        "candidate_bound": "1/32",
+        "two_read_difference": "63/1024"
+      },
+      "id": "C15",
+      "outcome": "omitting matched monitor tolerance invalidates a finalizer-only transport bound",
+      "scope": "native and exact",
+      "status": "verified"
+    },
+    {
+      "evidence": {
+        "beta_max_cost": "7/12",
+        "beta_zero_issuance": "247/372",
+        "positive_issuance_floor": "2/3"
+      },
+      "id": "C16",
+      "outcome": "checking only the largest surcharge misses the failure at beta=0",
+      "scope": "exact scope fixture",
+      "status": "verified"
+    },
+    {
+      "evidence": {
+        "base_direct": "unavailable",
+        "direct_and_fair_skip_optimum": "1/6",
+        "direct_one_read": "1/2"
+      },
+      "id": "C17",
+      "outcome": "authorized direct bit has price 1/2 and TV efficiency 2",
+      "scope": "native and exact changed menu",
+      "status": "verified"
+    },
+    {
+      "evidence": {
+        "one_neighborhood_probability": "1/4",
+        "singleton_probability": "0",
+        "uniform_singleton": "1/2"
+      },
+      "id": "C18",
+      "outcome": "literal denial remains required on supported paths",
+      "scope": "native and exact continuous scope fixture",
+      "status": "verified"
+    },
+    {
+      "evidence": {
+        "conditional_risk": "1",
+        "issued": 1,
+        "tickets": 20,
+        "unconditional_bad_mass": "1/20",
+        "violating_issued": 1
+      },
+      "id": "C19",
+      "outcome": "selective issuance occurs only in the failing calibration ticket",
+      "scope": "exact scope fixture",
+      "status": "verified"
+    }
+  ],
+  "control_archive_sha256": "fbc38f493697a17a798aacbcbdd748d6d4961985ccf72a721f400f5c66cca47c",
+  "control_native_artifacts_archived": 9,
+  "control_native_attempts_archived": 70,
+  "controls_verified": 19,
+  "least_sufficient_guard_price": "1/4",
+  "role": "independent",
+  "schema": 1
+}

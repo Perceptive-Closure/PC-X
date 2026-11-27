@@ -8,4 +8,6 @@ The registered selector uses eight good installations, retains the exact matched
 
 ## RESULTS
 
-The independent seed commitment, signed-round verification, future unavailability and GitHub byte-verification mechanisms are prepared. Historical BLS verification and roster invariants passed. The actual source/forecast freeze and chosen Quicknet round will enter the next authorized stage.
+Authenticated the frozen source and direct draw child on GitHub before Quicknet round 34323065 at 09:42:39 UTC. The independent model reproduced all 10,480 exact forecasts and verified 71 frozen file digests. The pinned official BLS verifier authenticated the prior signed reference. Both registered relays returned before-round unavailability during independent readback. This receipt contains no target randomness or roster. [Independent before-opening receipt](independent-prerelease.json)
+
+GitHub recorded the independent before-opening push at 09:38:56 UTC and the authenticated receipt byte response at 09:39:14 UTC, both before the target 09:42:39 UTC. The independent PH-06 replay verified the released signature, exact roster, all linked inputs and predictions, and both seed commitments. After that authorization both registered relays independently returned a matching signed result. The separate seed was revealed then used for the registered independent run. [Opening checks](independent-opening-checks.json) · [Independent seed reveal](independent-seed-reveal.json) · [Independent relay readback](../results/independent/relay-readback.json)

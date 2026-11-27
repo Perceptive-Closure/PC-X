@@ -1,0 +1,4850 @@
+{
+  "auth_inputs": {
+    "authorization_sha256": "f39b092a487d4fc058a29b596bd69e7c7af08873d69587109802237b6539ec16",
+    "beacon_sha256": "6ae9cf59d04513cf41fcd3fc338c486652da87dab0c82e3e217548e4619673a4",
+    "draw_sha256": "4f710b29fee4f6bf57c90194c3f9546400b9ec09bf625c9da2374f2ab889f3f3",
+    "opening_sha256": "9357e8b3bc5dcc6262669657b0970bae164d0d7a620199e305dbd9d48e4415c1",
+    "source_commit": "be574f4eaba8a52b50c5604e87075ab4cac81b79"
+  },
+  "cells": [
+    {
+      "arm": "pcx",
+      "counts": {
+        "G_halves": 6588,
+        "I": 2751,
+        "V": 259,
+        "VI": 259,
+        "Z_eighths": -6181,
+        "cost_eighths": 19008,
+        "wrong": 1345
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "1647/2048",
+          "forecast": "19703/24576",
+          "forecast_in_interval": true,
+          "interval": [
+            "39127/51200",
+            "43223/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "2751/4096",
+          "forecast": "2/3",
+          "forecast_in_interval": true,
+          "interval": [
+            "64679/102400",
+            "72871/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "259/4096",
+          "forecast": "259/4096",
+          "forecast_in_interval": true,
+          "interval": [
+            "2379/102400",
+            "10571/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "259/4096",
+          "forecast": "259/4096",
+          "forecast_in_interval": true,
+          "interval": [
+            "2379/102400",
+            "10571/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-6181/32768",
+          "forecast": "-765/4096",
+          "forecast_in_interval": true,
+          "interval": [
+            "-187293/819200",
+            "-121757/819200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "37/393",
+          "forecast": "777/8192",
+          "forecast_in_interval": true,
+          "interval": [
+            "2007875227/39300000000",
+            "5392124773/39300000000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "4305661/100000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "297/512",
+          "forecast": "7/12",
+          "forecast_in_interval": true,
+          "interval": [
+            "6913/12800",
+            "7937/12800"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "1345/4096",
+          "forecast": "1/3",
+          "forecast_in_interval": true,
+          "interval": [
+            "29529/102400",
+            "37721/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s01",
+      "invalid": 0,
+      "issued": 2751,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "high_skip",
+      "counts": {
+        "G_halves": 6593,
+        "I": 2736,
+        "V": 239,
+        "VI": 239,
+        "Z_eighths": -6296,
+        "cost_eighths": 22312,
+        "wrong": 1360
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "6593/8192",
+          "forecast": "19703/24576",
+          "forecast_in_interval": true,
+          "interval": [
+            "156633/204800",
+            "173017/204800"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "171/256",
+          "forecast": "2/3",
+          "forecast_in_interval": true,
+          "interval": [
+            "4019/6400",
+            "4531/6400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "239/4096",
+          "forecast": "259/4096",
+          "forecast_in_interval": true,
+          "interval": [
+            "1879/102400",
+            "10071/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "239/4096",
+          "forecast": "259/4096",
+          "forecast_in_interval": true,
+          "interval": [
+            "1879/102400",
+            "10071/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-787/4096",
+          "forecast": "-765/4096",
+          "forecast_in_interval": true,
+          "interval": [
+            "-23771/102400",
+            "-15579/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "239/2736",
+          "forecast": "777/8192",
+          "forecast_in_interval": true,
+          "interval": [
+            "94433299/2137500000",
+            "279004201/2137500000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "539681/12500000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "2789/4096",
+          "forecast": "2/3",
+          "forecast_in_interval": true,
+          "interval": [
+            "65629/102400",
+            "73821/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "85/256",
+          "forecast": "1/3",
+          "forecast_in_interval": true,
+          "interval": [
+            "1869/6400",
+            "2381/6400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s01",
+      "invalid": 0,
+      "issued": 2736,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "low_only",
+      "counts": {
+        "G_halves": 6378,
+        "I": 2510,
+        "V": 228,
+        "VI": 228,
+        "Z_eighths": -5706,
+        "cost_eighths": 12288,
+        "wrong": 1586
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "3189/4096",
+          "forecast": "102611/131072",
+          "forecast_in_interval": true,
+          "interval": [
+            "75629/102400",
+            "83821/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "1255/2048",
+          "forecast": "5/8",
+          "forecast_in_interval": true,
+          "interval": [
+            "29327/51200",
+            "33423/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "57/1024",
+          "forecast": "3885/65536",
+          "forecast_in_interval": true,
+          "interval": [
+            "401/25600",
+            "2449/25600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "57/1024",
+          "forecast": "3885/65536",
+          "forecast_in_interval": true,
+          "interval": [
+            "401/25600",
+            "2449/25600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-2853/16384",
+          "forecast": "-11475/65536",
+          "forecast_in_interval": true,
+          "interval": [
+            "-87709/409600",
+            "-54941/409600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "114/1255",
+          "forecast": "777/8192",
+          "forecast_in_interval": true,
+          "interval": [
+            "114858487/2510000000",
+            "341141513/2510000000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "450763/10000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "3/8",
+          "forecast": "3/8",
+          "forecast_in_interval": true,
+          "interval": [
+            "67/200",
+            "83/200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "793/2048",
+          "forecast": "3/8",
+          "forecast_in_interval": true,
+          "interval": [
+            "17777/51200",
+            "21873/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s01",
+      "invalid": 0,
+      "issued": 2510,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "always_high",
+      "counts": {
+        "G_halves": 6830,
+        "I": 3064,
+        "V": 330,
+        "VI": 330,
+        "Z_eighths": -6552,
+        "cost_eighths": 32768,
+        "wrong": 1032
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "3415/4096",
+          "forecast": "55013/65536",
+          "forecast_in_interval": true,
+          "interval": [
+            "81279/102400",
+            "89471/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "383/512",
+          "forecast": "3/4",
+          "forecast_in_interval": true,
+          "interval": [
+            "9063/12800",
+            "10087/12800"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "165/2048",
+          "forecast": "2331/32768",
+          "forecast_in_interval": true,
+          "interval": [
+            "2077/51200",
+            "6173/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "165/2048",
+          "forecast": "2331/32768",
+          "forecast_in_interval": true,
+          "interval": [
+            "2077/51200",
+            "6173/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-819/4096",
+          "forecast": "-6885/32768",
+          "forecast_in_interval": true,
+          "interval": [
+            "-24571/102400",
+            "-16379/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "165/1532",
+          "forecast": "777/8192",
+          "forecast_in_interval": true,
+          "interval": [
+            "1281214853/19150000000",
+            "2843785147/19150000000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "2039909/50000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "1",
+          "forecast": "1",
+          "forecast_in_interval": true,
+          "interval": [
+            "24/25",
+            "1"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "129/512",
+          "forecast": "1/4",
+          "forecast_in_interval": true,
+          "interval": [
+            "2713/12800",
+            "3737/12800"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s01",
+      "invalid": 0,
+      "issued": 3064,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "no_paid",
+      "counts": {
+        "G_halves": 5931,
+        "I": 2022,
+        "V": 187,
+        "VI": 187,
+        "Z_eighths": -4570,
+        "cost_eighths": 0,
+        "wrong": 2074
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "5931/8192",
+          "forecast": "23799/32768",
+          "forecast_in_interval": true,
+          "interval": [
+            "140083/204800",
+            "156467/204800"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "1011/2048",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "23227/51200",
+            "27323/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "187/4096",
+          "forecast": "777/16384",
+          "forecast_in_interval": true,
+          "interval": [
+            "579/102400",
+            "8771/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "187/4096",
+          "forecast": "777/16384",
+          "forecast_in_interval": true,
+          "interval": [
+            "579/102400",
+            "8771/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-2285/16384",
+          "forecast": "-2295/16384",
+          "forecast_in_interval": true,
+          "interval": [
+            "-73509/409600",
+            "-40741/409600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "187/2022",
+          "forecast": "777/8192",
+          "forecast_in_interval": true,
+          "interval": [
+            "2136274867/50550000000",
+            "7213725133/50550000000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "2511103/50000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "0",
+          "forecast": "0",
+          "forecast_in_interval": true,
+          "interval": [
+            "0",
+            "1/25"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "1037/2048",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "23877/51200",
+            "27973/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s01",
+      "invalid": 0,
+      "issued": 2022,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "pcx",
+      "counts": {
+        "G_halves": 4096,
+        "I": 1370,
+        "V": 318,
+        "VI": 318,
+        "Z_eighths": -1566,
+        "cost_eighths": 19123,
+        "wrong": 1370
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "1/2",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "23/50",
+            "27/50"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "685/2048",
+          "forecast": "1/3",
+          "forecast_in_interval": true,
+          "interval": [
+            "15077/51200",
+            "19173/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "159/2048",
+          "forecast": "1801/24576",
+          "forecast_in_interval": true,
+          "interval": [
+            "1927/51200",
+            "6023/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "159/2048",
+          "forecast": "1801/24576",
+          "forecast_in_interval": true,
+          "interval": [
+            "1927/51200",
+            "6023/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-783/16384",
+          "forecast": "-1271/24576",
+          "forecast_in_interval": true,
+          "interval": [
+            "-35959/409600",
+            "-3191/409600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "159/685",
+          "forecast": "1801/8192",
+          "forecast_in_interval": true,
+          "interval": [
+            "468823421/2740000000",
+            "803176579/2740000000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1220267/20000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "19123/32768",
+          "forecast": "7/12",
+          "forecast_in_interval": true,
+          "interval": [
+            "445307/819200",
+            "510843/819200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "685/2048",
+          "forecast": "1/3",
+          "forecast_in_interval": true,
+          "interval": [
+            "15077/51200",
+            "19173/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s02",
+      "invalid": 0,
+      "issued": 1370,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "high_skip",
+      "counts": {
+        "G_halves": 4096,
+        "I": 1325,
+        "V": 264,
+        "VI": 264,
+        "Z_eighths": -1863,
+        "cost_eighths": 22496,
+        "wrong": 1325
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "1/2",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "23/50",
+            "27/50"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "1325/4096",
+          "forecast": "1/3",
+          "forecast_in_interval": true,
+          "interval": [
+            "29029/102400",
+            "37221/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "33/512",
+          "forecast": "1801/24576",
+          "forecast_in_interval": true,
+          "interval": [
+            "313/12800",
+            "1337/12800"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "33/512",
+          "forecast": "1801/24576",
+          "forecast_in_interval": true,
+          "interval": [
+            "313/12800",
+            "1337/12800"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-1863/32768",
+          "forecast": "-1271/24576",
+          "forecast_in_interval": true,
+          "interval": [
+            "-79343/819200",
+            "-13807/819200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "264/1325",
+          "forecast": "1801/8192",
+          "forecast_in_interval": true,
+          "interval": [
+            "727183919/5300000000",
+            "1384816081/5300000000"
+          ],
+          "interval_inside_equivalence_band": false,
+          "radius": "6204077/100000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "703/1024",
+          "forecast": "2/3",
+          "forecast_in_interval": true,
+          "interval": [
+            "16551/25600",
+            "18599/25600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "1325/4096",
+          "forecast": "1/3",
+          "forecast_in_interval": true,
+          "interval": [
+            "29029/102400",
+            "37221/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s02",
+      "invalid": 0,
+      "issued": 1325,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "low_only",
+      "counts": {
+        "G_halves": 4096,
+        "I": 1490,
+        "V": 343,
+        "VI": 343,
+        "Z_eighths": -1726,
+        "cost_eighths": 12288,
+        "wrong": 1490
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "1/2",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "23/50",
+            "27/50"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "745/2048",
+          "forecast": "3/8",
+          "forecast_in_interval": true,
+          "interval": [
+            "16577/51200",
+            "20673/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "343/4096",
+          "forecast": "5403/65536",
+          "forecast_in_interval": true,
+          "interval": [
+            "4479/102400",
+            "12671/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "343/4096",
+          "forecast": "5403/65536",
+          "forecast_in_interval": true,
+          "interval": [
+            "4479/102400",
+            "12671/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-863/16384",
+          "forecast": "-3813/65536",
+          "forecast_in_interval": true,
+          "interval": [
+            "-37959/409600",
+            "-5191/409600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "343/1490",
+          "forecast": "1801/8192",
+          "forecast_in_interval": true,
+          "interval": [
+            "2558277437/14900000000",
+            "4301722563/14900000000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "5850487/100000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "3/8",
+          "forecast": "3/8",
+          "forecast_in_interval": true,
+          "interval": [
+            "67/200",
+            "83/200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "745/2048",
+          "forecast": "3/8",
+          "forecast_in_interval": true,
+          "interval": [
+            "16577/51200",
+            "20673/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s02",
+      "invalid": 0,
+      "issued": 1490,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "always_high",
+      "counts": {
+        "G_halves": 4096,
+        "I": 1026,
+        "V": 222,
+        "VI": 222,
+        "Z_eighths": -1302,
+        "cost_eighths": 32768,
+        "wrong": 1026
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "1/2",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "23/50",
+            "27/50"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "513/2048",
+          "forecast": "1/4",
+          "forecast_in_interval": true,
+          "interval": [
+            "10777/51200",
+            "14873/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "111/2048",
+          "forecast": "1801/32768",
+          "forecast_in_interval": true,
+          "interval": [
+            "727/51200",
+            "4823/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "111/2048",
+          "forecast": "1801/32768",
+          "forecast_in_interval": true,
+          "interval": [
+            "727/51200",
+            "4823/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-651/16384",
+          "forecast": "-1271/32768",
+          "forecast_in_interval": true,
+          "interval": [
+            "-32659/409600",
+            "109/409600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "37/171",
+          "forecast": "1801/8192",
+          "forecast_in_interval": true,
+          "interval": [
+            "1247194049/8550000000",
+            "2452805951/8550000000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "3525181/50000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "1",
+          "forecast": "1",
+          "forecast_in_interval": true,
+          "interval": [
+            "24/25",
+            "1"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "513/2048",
+          "forecast": "1/4",
+          "forecast_in_interval": true,
+          "interval": [
+            "10777/51200",
+            "14873/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s02",
+      "invalid": 0,
+      "issued": 1026,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "no_paid",
+      "counts": {
+        "G_halves": 4096,
+        "I": 2059,
+        "V": 470,
+        "VI": 470,
+        "Z_eighths": -2417,
+        "cost_eighths": 0,
+        "wrong": 2059
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "1/2",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "23/50",
+            "27/50"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "2059/4096",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "47379/102400",
+            "55571/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "235/2048",
+          "forecast": "1801/16384",
+          "forecast_in_interval": true,
+          "interval": [
+            "3827/51200",
+            "7923/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "235/2048",
+          "forecast": "1801/16384",
+          "forecast_in_interval": true,
+          "interval": [
+            "3827/51200",
+            "7923/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-2417/32768",
+          "forecast": "-1271/16384",
+          "forecast_in_interval": true,
+          "interval": [
+            "-93193/819200",
+            "-27657/819200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "470/2059",
+          "forecast": "1801/8192",
+          "forecast_in_interval": true,
+          "interval": [
+            "18376304099/102950000000",
+            "28623695901/102950000000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "2488439/50000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "0",
+          "forecast": "0",
+          "forecast_in_interval": true,
+          "interval": [
+            "0",
+            "1/25"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "2059/4096",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "47379/102400",
+            "55571/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s02",
+      "invalid": 0,
+      "issued": 2059,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "pcx",
+      "counts": {
+        "G_halves": 6919,
+        "I": 3096,
+        "V": 273,
+        "VI": 273,
+        "Z_eighths": -7104,
+        "cost_eighths": 19058,
+        "wrong": 1000
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "6919/8192",
+          "forecast": "3607108643/4294967296",
+          "forecast_in_interval": true,
+          "interval": [
+            "164783/204800",
+            "181167/204800"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "387/512",
+          "forecast": "3/4",
+          "forecast_in_interval": true,
+          "interval": [
+            "9163/12800",
+            "10187/12800"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "273/4096",
+          "forecast": "150987741/2147483648",
+          "forecast_in_interval": true,
+          "interval": [
+            "2729/102400",
+            "10921/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "273/4096",
+          "forecast": "150987741/2147483648",
+          "forecast_in_interval": true,
+          "interval": [
+            "2729/102400",
+            "10921/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-111/512",
+          "forecast": "-452992035/2147483648",
+          "forecast_in_interval": true,
+          "interval": [
+            "-3287/12800",
+            "-2263/12800"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "91/1032",
+          "forecast": "50329247/536870912",
+          "forecast_in_interval": true,
+          "interval": [
+            "613930409/12900000000",
+            "1661069591/12900000000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "4058679/100000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "9529/16384",
+          "forecast": "7/12",
+          "forecast_in_interval": true,
+          "interval": [
+            "221841/409600",
+            "254609/409600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "125/512",
+          "forecast": "1/4",
+          "forecast_in_interval": true,
+          "interval": [
+            "2613/12800",
+            "3637/12800"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s03",
+      "invalid": 0,
+      "issued": 3096,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "high_skip",
+      "counts": {
+        "G_halves": 6878,
+        "I": 3061,
+        "V": 279,
+        "VI": 279,
+        "Z_eighths": -6951,
+        "cost_eighths": 21752,
+        "wrong": 1035
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "3439/4096",
+          "forecast": "3607108643/4294967296",
+          "forecast_in_interval": true,
+          "interval": [
+            "81879/102400",
+            "90071/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "3061/4096",
+          "forecast": "3/4",
+          "forecast_in_interval": true,
+          "interval": [
+            "72429/102400",
+            "80621/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "279/4096",
+          "forecast": "150987741/2147483648",
+          "forecast_in_interval": true,
+          "interval": [
+            "2879/102400",
+            "11071/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "279/4096",
+          "forecast": "150987741/2147483648",
+          "forecast_in_interval": true,
+          "interval": [
+            "2879/102400",
+            "11071/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-6951/32768",
+          "forecast": "-452992035/2147483648",
+          "forecast_in_interval": true,
+          "interval": [
+            "-206543/819200",
+            "-141007/819200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "279/3061",
+          "forecast": "50329247/536870912",
+          "forecast_in_interval": true,
+          "interval": [
+            "1925695153/38262500000",
+            "5049304847/38262500000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "510227/12500000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "2719/4096",
+          "forecast": "2/3",
+          "forecast_in_interval": true,
+          "interval": [
+            "63879/102400",
+            "72071/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "1035/4096",
+          "forecast": "1/4",
+          "forecast_in_interval": true,
+          "interval": [
+            "21779/102400",
+            "29971/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s03",
+      "invalid": 0,
+      "issued": 3061,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "low_only",
+      "counts": {
+        "G_halves": 6674,
+        "I": 2822,
+        "V": 244,
+        "VI": 244,
+        "Z_eighths": -6514,
+        "cost_eighths": 12288,
+        "wrong": 1274
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "3337/4096",
+          "forecast": "13941892907/17179869184",
+          "forecast_in_interval": true,
+          "interval": [
+            "79329/102400",
+            "87521/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "1411/2048",
+          "forecast": "11/16",
+          "forecast_in_interval": true,
+          "interval": [
+            "33227/51200",
+            "37323/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "61/1024",
+          "forecast": "553621717/8589934592",
+          "forecast_in_interval": true,
+          "interval": [
+            "501/25600",
+            "2549/25600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "61/1024",
+          "forecast": "553621717/8589934592",
+          "forecast_in_interval": true,
+          "interval": [
+            "501/25600",
+            "2549/25600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-3257/16384",
+          "forecast": "-1660970795/8589934592",
+          "forecast_in_interval": true,
+          "interval": [
+            "-97809/409600",
+            "-65041/409600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "122/1411",
+          "forecast": "50329247/536870912",
+          "forecast_in_interval": true,
+          "interval": [
+            "387601533/8818750000",
+            "1137398467/8818750000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "265697/6250000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "3/8",
+          "forecast": "3/8",
+          "forecast_in_interval": true,
+          "interval": [
+            "67/200",
+            "83/200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "637/2048",
+          "forecast": "5/16",
+          "forecast_in_interval": true,
+          "interval": [
+            "13877/51200",
+            "17973/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s03",
+      "invalid": 0,
+      "issued": 2822,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "always_high",
+      "counts": {
+        "G_halves": 7298,
+        "I": 3581,
+        "V": 379,
+        "VI": 379,
+        "Z_eighths": -7711,
+        "cost_eighths": 32768,
+        "wrong": 515
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "3649/4096",
+          "forecast": "7700758951/8589934592",
+          "forecast_in_interval": true,
+          "interval": [
+            "87129/102400",
+            "95321/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "3581/4096",
+          "forecast": "7/8",
+          "forecast_in_interval": true,
+          "interval": [
+            "85429/102400",
+            "93621/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "379/4096",
+          "forecast": "352304729/4294967296",
+          "forecast_in_interval": true,
+          "interval": [
+            "5379/102400",
+            "13571/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "379/4096",
+          "forecast": "352304729/4294967296",
+          "forecast_in_interval": true,
+          "interval": [
+            "5379/102400",
+            "13571/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-7711/32768",
+          "forecast": "-1056981415/4294967296",
+          "forecast_in_interval": true,
+          "interval": [
+            "-225543/819200",
+            "-160007/819200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "379/3581",
+          "forecast": "50329247/536870912",
+          "forecast_in_interval": true,
+          "interval": [
+            "6096473321/89525000000",
+            "12853526679/89525000000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "943459/25000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "1",
+          "forecast": "1",
+          "forecast_in_interval": true,
+          "interval": [
+            "24/25",
+            "1"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "515/4096",
+          "forecast": "1/8",
+          "forecast_in_interval": true,
+          "interval": [
+            "8779/102400",
+            "16971/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s03",
+      "invalid": 0,
+      "issued": 3581,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "no_paid",
+      "counts": {
+        "G_halves": 5906,
+        "I": 2010,
+        "V": 200,
+        "VI": 200,
+        "Z_eighths": -4430,
+        "cost_eighths": 0,
+        "wrong": 2086
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "2953/4096",
+          "forecast": "1560283489/2147483648",
+          "forecast_in_interval": true,
+          "interval": [
+            "69729/102400",
+            "77921/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "1005/2048",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "23077/51200",
+            "27173/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "25/512",
+          "forecast": "50329247/1073741824",
+          "forecast_in_interval": true,
+          "interval": [
+            "113/12800",
+            "1137/12800"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "25/512",
+          "forecast": "50329247/1073741824",
+          "forecast_in_interval": true,
+          "interval": [
+            "113/12800",
+            "1137/12800"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-2215/16384",
+          "forecast": "-150997345/1073741824",
+          "forecast_in_interval": true,
+          "interval": [
+            "-71759/409600",
+            "-38991/409600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "20/201",
+          "forecast": "50329247/536870912",
+          "forecast_in_interval": true,
+          "interval": [
+            "123440953/2512500000",
+            "376559047/2512500000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "629647/12500000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "0",
+          "forecast": "0",
+          "forecast_in_interval": true,
+          "interval": [
+            "0",
+            "1/25"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "1043/2048",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "24027/51200",
+            "28123/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s03",
+      "invalid": 0,
+      "issued": 2010,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "pcx",
+      "counts": {
+        "G_halves": 4096,
+        "I": 1036,
+        "V": 295,
+        "VI": 295,
+        "Z_eighths": -748,
+        "cost_eighths": 19043,
+        "wrong": 1036
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "1/2",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "23/50",
+            "27/50"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "259/1024",
+          "forecast": "1/4",
+          "forecast_in_interval": true,
+          "interval": [
+            "5451/25600",
+            "7499/25600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "295/4096",
+          "forecast": "150992543/2147483648",
+          "forecast_in_interval": true,
+          "interval": [
+            "3279/102400",
+            "11471/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "295/4096",
+          "forecast": "150992543/2147483648",
+          "forecast_in_interval": true,
+          "interval": [
+            "3279/102400",
+            "11471/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-187/8192",
+          "forecast": "-50334049/2147483648",
+          "forecast_in_interval": true,
+          "interval": [
+            "-12867/204800",
+            "3517/204800"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "295/1036",
+          "forecast": "150992543/536870912",
+          "forecast_in_interval": true,
+          "interval": [
+            "5557790473/25900000000",
+            "9192209527/25900000000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "7016253/100000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "19043/32768",
+          "forecast": "7/12",
+          "forecast_in_interval": true,
+          "interval": [
+            "443307/819200",
+            "508843/819200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "259/1024",
+          "forecast": "1/4",
+          "forecast_in_interval": true,
+          "interval": [
+            "5451/25600",
+            "7499/25600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s04",
+      "invalid": 0,
+      "issued": 1036,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "high_skip",
+      "counts": {
+        "G_halves": 4096,
+        "I": 998,
+        "V": 293,
+        "VI": 293,
+        "Z_eighths": -650,
+        "cost_eighths": 21648,
+        "wrong": 998
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "1/2",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "23/50",
+            "27/50"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "499/2048",
+          "forecast": "1/4",
+          "forecast_in_interval": true,
+          "interval": [
+            "10427/51200",
+            "14523/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "293/4096",
+          "forecast": "150992543/2147483648",
+          "forecast_in_interval": true,
+          "interval": [
+            "3229/102400",
+            "11421/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "293/4096",
+          "forecast": "150992543/2147483648",
+          "forecast_in_interval": true,
+          "interval": [
+            "3229/102400",
+            "11421/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-325/16384",
+          "forecast": "-50334049/2147483648",
+          "forecast_in_interval": true,
+          "interval": [
+            "-24509/409600",
+            "8259/409600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "293/998",
+          "forecast": "150992543/536870912",
+          "forecast_in_interval": true,
+          "interval": [
+            "11082858081/49900000000",
+            "18217141919/49900000000"
+          ],
+          "interval_inside_equivalence_band": false,
+          "radius": "7148581/100000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "1353/2048",
+          "forecast": "2/3",
+          "forecast_in_interval": true,
+          "interval": [
+            "31777/51200",
+            "35873/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "499/2048",
+          "forecast": "1/4",
+          "forecast_in_interval": true,
+          "interval": [
+            "10427/51200",
+            "14523/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s04",
+      "invalid": 0,
+      "issued": 998,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "low_only",
+      "counts": {
+        "G_halves": 4096,
+        "I": 1271,
+        "V": 399,
+        "VI": 399,
+        "Z_eighths": -621,
+        "cost_eighths": 12288,
+        "wrong": 1271
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "1/2",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "23/50",
+            "27/50"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "1271/4096",
+          "forecast": "5/16",
+          "forecast_in_interval": true,
+          "interval": [
+            "27679/102400",
+            "35871/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "399/4096",
+          "forecast": "754962715/8589934592",
+          "forecast_in_interval": true,
+          "interval": [
+            "5879/102400",
+            "14071/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "399/4096",
+          "forecast": "754962715/8589934592",
+          "forecast_in_interval": true,
+          "interval": [
+            "5879/102400",
+            "14071/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-621/32768",
+          "forecast": "-251670245/8589934592",
+          "forecast_in_interval": true,
+          "interval": [
+            "-48293/819200",
+            "17243/819200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "399/1271",
+          "forecast": "150992543/536870912",
+          "forecast_in_interval": true,
+          "interval": [
+            "63697701/254200000",
+            "95902299/254200000"
+          ],
+          "interval_inside_equivalence_band": false,
+          "radius": "12669/200000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "3/8",
+          "forecast": "3/8",
+          "forecast_in_interval": true,
+          "interval": [
+            "67/200",
+            "83/200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "1271/4096",
+          "forecast": "5/16",
+          "forecast_in_interval": true,
+          "interval": [
+            "27679/102400",
+            "35871/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s04",
+      "invalid": 0,
+      "issued": 1271,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "always_high",
+      "counts": {
+        "G_halves": 4096,
+        "I": 529,
+        "V": 161,
+        "VI": 161,
+        "Z_eighths": -299,
+        "cost_eighths": 32768,
+        "wrong": 529
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "1/2",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "23/50",
+            "27/50"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "529/4096",
+          "forecast": "1/8",
+          "forecast_in_interval": true,
+          "interval": [
+            "9129/102400",
+            "17321/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "161/4096",
+          "forecast": "150992543/4294967296",
+          "forecast_in_interval": true,
+          "interval": [
+            "0",
+            "8121/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "161/4096",
+          "forecast": "150992543/4294967296",
+          "forecast_in_interval": true,
+          "interval": [
+            "0",
+            "8121/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-299/32768",
+          "forecast": "-50334049/4294967296",
+          "forecast_in_interval": true,
+          "interval": [
+            "-40243/819200",
+            "25293/819200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "7/23",
+          "forecast": "150992543/536870912",
+          "forecast_in_interval": true,
+          "interval": [
+            "237084099/1150000000",
+            "462915901/1150000000"
+          ],
+          "interval_inside_equivalence_band": false,
+          "radius": "4909387/50000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "1",
+          "forecast": "1",
+          "forecast_in_interval": true,
+          "interval": [
+            "24/25",
+            "1"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "529/4096",
+          "forecast": "1/8",
+          "forecast_in_interval": true,
+          "interval": [
+            "9129/102400",
+            "17321/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s04",
+      "invalid": 0,
+      "issued": 529,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "no_paid",
+      "counts": {
+        "G_halves": 4096,
+        "I": 2081,
+        "V": 569,
+        "VI": 569,
+        "Z_eighths": -1691,
+        "cost_eighths": 0,
+        "wrong": 2081
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "1/2",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "23/50",
+            "27/50"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "2081/4096",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "47929/102400",
+            "56121/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "569/4096",
+          "forecast": "150992543/1073741824",
+          "forecast_in_interval": true,
+          "interval": [
+            "10129/102400",
+            "18321/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "569/4096",
+          "forecast": "150992543/1073741824",
+          "forecast_in_interval": true,
+          "interval": [
+            "10129/102400",
+            "18321/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-1691/32768",
+          "forecast": "-50334049/1073741824",
+          "forecast_in_interval": true,
+          "interval": [
+            "-75043/819200",
+            "-9507/819200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "569/2081",
+          "forecast": "150992543/536870912",
+          "forecast_in_interval": true,
+          "interval": [
+            "93196019/416200000",
+            "134403981/416200000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "9901/200000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "0",
+          "forecast": "0",
+          "forecast_in_interval": true,
+          "interval": [
+            "0",
+            "1/25"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "2081/4096",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "47929/102400",
+            "56121/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s04",
+      "invalid": 0,
+      "issued": 2081,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "pcx",
+      "counts": {
+        "G_halves": 6782,
+        "I": 2985,
+        "V": 299,
+        "VI": 299,
+        "Z_eighths": -6563,
+        "cost_eighths": 19143,
+        "wrong": 1111
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "3391/4096",
+          "forecast": "7971945822001228445575047/9671406556917033397649408",
+          "forecast_in_interval": true,
+          "interval": [
+            "80679/102400",
+            "88871/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "2985/4096",
+          "forecast": "23/32",
+          "forecast_in_interval": true,
+          "interval": [
+            "70529/102400",
+            "78721/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "299/4096",
+          "forecast": "339419187849347130529913/4835703278458516698824704",
+          "forecast_in_interval": true,
+          "interval": [
+            "3379/102400",
+            "11571/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "299/4096",
+          "forecast": "339419187849347130529913/4835703278458516698824704",
+          "forecast_in_interval": true,
+          "interval": [
+            "3379/102400",
+            "11571/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-6563/32768",
+          "forecast": "-963953961422674948450183/4835703278458516698824704",
+          "forecast_in_interval": true,
+          "interval": [
+            "-196843/819200",
+            "-131307/819200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "299/2985",
+          "forecast": "14757355993449875240431/151115727451828646838272",
+          "forecast_in_interval": true,
+          "interval": [
+            "3512328559/59700000000",
+            "8447671441/59700000000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "4133453/100000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "19143/32768",
+          "forecast": "7/12",
+          "forecast_in_interval": true,
+          "interval": [
+            "445807/819200",
+            "511343/819200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "1111/4096",
+          "forecast": "9/32",
+          "forecast_in_interval": true,
+          "interval": [
+            "23679/102400",
+            "31871/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s05",
+      "invalid": 0,
+      "issued": 2985,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "high_skip",
+      "counts": {
+        "G_halves": 6717,
+        "I": 2908,
+        "V": 287,
+        "VI": 287,
+        "Z_eighths": -6428,
+        "cost_eighths": 21312,
+        "wrong": 1188
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "6717/8192",
+          "forecast": "7971945822001228445575047/9671406556917033397649408",
+          "forecast_in_interval": true,
+          "interval": [
+            "159733/204800",
+            "176117/204800"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "727/1024",
+          "forecast": "23/32",
+          "forecast_in_interval": true,
+          "interval": [
+            "17151/25600",
+            "19199/25600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "287/4096",
+          "forecast": "339419187849347130529913/4835703278458516698824704",
+          "forecast_in_interval": true,
+          "interval": [
+            "3079/102400",
+            "11271/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "287/4096",
+          "forecast": "339419187849347130529913/4835703278458516698824704",
+          "forecast_in_interval": true,
+          "interval": [
+            "3079/102400",
+            "11271/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-1607/8192",
+          "forecast": "-963953961422674948450183/4835703278458516698824704",
+          "forecast_in_interval": true,
+          "interval": [
+            "-48367/204800",
+            "-31983/204800"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "287/2908",
+          "forecast": "14757355993449875240431/151115727451828646838272",
+          "forecast_in_interval": true,
+          "interval": [
+            "4130455587/72700000000",
+            "10219544413/72700000000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "4187819/100000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "333/512",
+          "forecast": "2/3",
+          "forecast_in_interval": true,
+          "interval": [
+            "7813/12800",
+            "8837/12800"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "297/1024",
+          "forecast": "9/32",
+          "forecast_in_interval": true,
+          "interval": [
+            "6401/25600",
+            "8449/25600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s05",
+      "invalid": 0,
+      "issued": 2908,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "low_only",
+      "counts": {
+        "G_halves": 6546,
+        "I": 2718,
+        "V": 268,
+        "VI": 268,
+        "Z_eighths": -6010,
+        "cost_eighths": 12288,
+        "wrong": 1378
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "3273/4096",
+          "forecast": "30933274687796262381115301/38685626227668133590597632",
+          "forecast_in_interval": true,
+          "interval": [
+            "77729/102400",
+            "85921/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "1359/2048",
+          "forecast": "85/128",
+          "forecast_in_interval": true,
+          "interval": [
+            "31927/51200",
+            "36023/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "67/1024",
+          "forecast": "1254375259443239395436635/19342813113834066795298816",
+          "forecast_in_interval": true,
+          "interval": [
+            "651/25600",
+            "2699/25600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "67/1024",
+          "forecast": "1254375259443239395436635/19342813113834066795298816",
+          "forecast_in_interval": true,
+          "interval": [
+            "651/25600",
+            "2699/25600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-3005/16384",
+          "forecast": "-3562438553083798722533285/19342813113834066795298816",
+          "forecast_in_interval": true,
+          "interval": [
+            "-91509/409600",
+            "-58741/409600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "134/1359",
+          "forecast": "14757355993449875240431/151115727451828646838272",
+          "forecast_in_interval": true,
+          "interval": [
+            "187829813/3397500000",
+            "482170187/3397500000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "108293/2500000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "3/8",
+          "forecast": "3/8",
+          "forecast_in_interval": true,
+          "interval": [
+            "67/200",
+            "83/200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "689/2048",
+          "forecast": "43/128",
+          "forecast_in_interval": true,
+          "interval": [
+            "15177/51200",
+            "19273/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s05",
+      "invalid": 0,
+      "issued": 2718,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "always_high",
+      "counts": {
+        "G_halves": 7191,
+        "I": 3404,
+        "V": 309,
+        "VI": 309,
+        "Z_eighths": -7740,
+        "cost_eighths": 32768,
+        "wrong": 692
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "7191/8192",
+          "forecast": "16898400244211108292334981/19342813113834066795298816",
+          "forecast_in_interval": true,
+          "interval": [
+            "171583/204800",
+            "187967/204800"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "851/1024",
+          "forecast": "53/64",
+          "forecast_in_interval": true,
+          "interval": [
+            "20251/25600",
+            "22299/25600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "309/4096",
+          "forecast": "782139867652843387742843/9671406556917033397649408",
+          "forecast_in_interval": true,
+          "interval": [
+            "3629/102400",
+            "11821/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "309/4096",
+          "forecast": "782139867652843387742843/9671406556917033397649408",
+          "forecast_in_interval": true,
+          "interval": [
+            "3629/102400",
+            "11821/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-1935/8192",
+          "forecast": "-2221285215452250968167813/9671406556917033397649408",
+          "forecast_in_interval": true,
+          "interval": [
+            "-56567/204800",
+            "-40183/204800"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "309/3404",
+          "forecast": "14757355993449875240431/151115727451828646838272",
+          "forecast_in_interval": true,
+          "interval": [
+            "1107756873/21275000000",
+            "2754743127/21275000000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "967677/25000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "1",
+          "forecast": "1",
+          "forecast_in_interval": true,
+          "interval": [
+            "24/25",
+            "1"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "173/1024",
+          "forecast": "11/64",
+          "forecast_in_interval": true,
+          "interval": [
+            "3301/25600",
+            "5349/25600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s05",
+      "invalid": 0,
+      "issued": 3404,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "no_paid",
+      "counts": {
+        "G_halves": 5965,
+        "I": 2054,
+        "V": 185,
+        "VI": 185,
+        "Z_eighths": -4682,
+        "cost_eighths": 0,
+        "wrong": 2042
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "5965/8192",
+          "forecast": "438589826362036065274385/604462909807314587353088",
+          "forecast_in_interval": true,
+          "interval": [
+            "140933/204800",
+            "157317/204800"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "1027/2048",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "23627/51200",
+            "27723/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "185/4096",
+          "forecast": "14757355993449875240431/302231454903657293676544",
+          "forecast_in_interval": true,
+          "interval": [
+            "529/102400",
+            "8721/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "185/4096",
+          "forecast": "14757355993449875240431/302231454903657293676544",
+          "forecast_in_interval": true,
+          "interval": [
+            "529/102400",
+            "8721/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-2341/16384",
+          "forecast": "-41911041800985867323921/302231454903657293676544",
+          "forecast_in_interval": true,
+          "interval": [
+            "-74909/409600",
+            "-42141/409600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "185/2054",
+          "forecast": "14757355993449875240431/151115727451828646838272",
+          "forecast_in_interval": true,
+          "interval": [
+            "4132529863/102700000000",
+            "14367470137/102700000000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "4982931/100000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "0",
+          "forecast": "0",
+          "forecast_in_interval": true,
+          "interval": [
+            "0",
+            "1/25"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "1021/2048",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "23477/51200",
+            "27573/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s05",
+      "invalid": 0,
+      "issued": 2054,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "pcx",
+      "counts": {
+        "G_halves": 6620,
+        "I": 2768,
+        "V": 244,
+        "VI": 244,
+        "Z_eighths": -6352,
+        "cost_eighths": 19158,
+        "wrong": 1328
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "1655/2048",
+          "forecast": "83199774337/103079215104",
+          "forecast_in_interval": true,
+          "interval": [
+            "39327/51200",
+            "43423/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "173/256",
+          "forecast": "65/96",
+          "forecast_in_interval": true,
+          "interval": [
+            "4069/6400",
+            "4581/6400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "61/1024",
+          "forecast": "1078814165/17179869184",
+          "forecast_in_interval": true,
+          "interval": [
+            "501/25600",
+            "2549/25600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "61/1024",
+          "forecast": "1078814165/17179869184",
+          "forecast_in_interval": true,
+          "interval": [
+            "501/25600",
+            "2549/25600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-397/2048",
+          "forecast": "-3283261995/17179869184",
+          "forecast_in_interval": true,
+          "interval": [
+            "-11973/51200",
+            "-7877/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "61/692",
+          "forecast": "49791423/536870912",
+          "forecast_in_interval": true,
+          "interval": [
+            "782411513/17300000000",
+            "2267588487/17300000000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "4292419/100000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "9579/16384",
+          "forecast": "7/12",
+          "forecast_in_interval": true,
+          "interval": [
+            "223091/409600",
+            "255859/409600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "83/256",
+          "forecast": "31/96",
+          "forecast_in_interval": true,
+          "interval": [
+            "1819/6400",
+            "2331/6400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s06",
+      "invalid": 0,
+      "issued": 2768,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "high_skip",
+      "counts": {
+        "G_halves": 6554,
+        "I": 2735,
+        "V": 277,
+        "VI": 277,
+        "Z_eighths": -5989,
+        "cost_eighths": 21488,
+        "wrong": 1361
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "3277/4096",
+          "forecast": "83199774337/103079215104",
+          "forecast_in_interval": true,
+          "interval": [
+            "77829/102400",
+            "86021/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "2735/4096",
+          "forecast": "65/96",
+          "forecast_in_interval": true,
+          "interval": [
+            "64279/102400",
+            "72471/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "277/4096",
+          "forecast": "1078814165/17179869184",
+          "forecast_in_interval": true,
+          "interval": [
+            "2829/102400",
+            "11021/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "277/4096",
+          "forecast": "1078814165/17179869184",
+          "forecast_in_interval": true,
+          "interval": [
+            "2829/102400",
+            "11021/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-5989/32768",
+          "forecast": "-3283261995/17179869184",
+          "forecast_in_interval": true,
+          "interval": [
+            "-182493/819200",
+            "-116957/819200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "277/2735",
+          "forecast": "49791423/536870912",
+          "forecast_in_interval": true,
+          "interval": [
+            "3177924361/54700000000",
+            "7902075639/54700000000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "4318237/100000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "1343/2048",
+          "forecast": "2/3",
+          "forecast_in_interval": true,
+          "interval": [
+            "31527/51200",
+            "35623/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "1361/4096",
+          "forecast": "31/96",
+          "forecast_in_interval": true,
+          "interval": [
+            "29929/102400",
+            "38121/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s06",
+      "invalid": 0,
+      "issued": 2735,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "low_only",
+      "counts": {
+        "G_halves": 6460,
+        "I": 2595,
+        "V": 231,
+        "VI": 231,
+        "Z_eighths": -5937,
+        "cost_eighths": 12288,
+        "wrong": 1501
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "1615/2048",
+          "forecast": "108172915345/137438953472",
+          "forecast_in_interval": true,
+          "interval": [
+            "38327/51200",
+            "42423/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "2595/4096",
+          "forecast": "81/128",
+          "forecast_in_interval": true,
+          "interval": [
+            "60779/102400",
+            "68971/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "231/4096",
+          "forecast": "4033105263/68719476736",
+          "forecast_in_interval": true,
+          "interval": [
+            "1679/102400",
+            "9871/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "231/4096",
+          "forecast": "4033105263/68719476736",
+          "forecast_in_interval": true,
+          "interval": [
+            "1679/102400",
+            "9871/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-5937/32768",
+          "forecast": "-12274348689/68719476736",
+          "forecast_in_interval": true,
+          "interval": [
+            "-181193/819200",
+            "-115657/819200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "77/865",
+          "forecast": "49791423/536870912",
+          "forecast_in_interval": true,
+          "interval": [
+            "773057957/17300000000",
+            "2306942043/17300000000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "4433191/100000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "3/8",
+          "forecast": "3/8",
+          "forecast_in_interval": true,
+          "interval": [
+            "67/200",
+            "83/200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "1501/4096",
+          "forecast": "47/128",
+          "forecast_in_interval": true,
+          "interval": [
+            "33429/102400",
+            "41621/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s06",
+      "invalid": 0,
+      "issued": 2595,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "always_high",
+      "counts": {
+        "G_halves": 6980,
+        "I": 3169,
+        "V": 285,
+        "VI": 285,
+        "Z_eighths": -7227,
+        "cost_eighths": 32768,
+        "wrong": 927
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "1745/2048",
+          "forecast": "58226633329/68719476736",
+          "forecast_in_interval": true,
+          "interval": [
+            "41577/51200",
+            "45673/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "3169/4096",
+          "forecast": "49/64",
+          "forecast_in_interval": true,
+          "interval": [
+            "75129/102400",
+            "83321/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "285/4096",
+          "forecast": "2439779727/34359738368",
+          "forecast_in_interval": true,
+          "interval": [
+            "3029/102400",
+            "11221/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "285/4096",
+          "forecast": "2439779727/34359738368",
+          "forecast_in_interval": true,
+          "interval": [
+            "3029/102400",
+            "11221/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-7227/32768",
+          "forecast": "-7425223281/34359738368",
+          "forecast_in_interval": true,
+          "interval": [
+            "-213443/819200",
+            "-147907/819200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "285/3169",
+          "forecast": "49791423/536870912",
+          "forecast_in_interval": true,
+          "interval": [
+            "15787052629/316900000000",
+            "41212947371/316900000000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "4011659/100000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "1",
+          "forecast": "1",
+          "forecast_in_interval": true,
+          "interval": [
+            "24/25",
+            "1"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "927/4096",
+          "forecast": "15/64",
+          "forecast_in_interval": true,
+          "interval": [
+            "19079/102400",
+            "27271/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s06",
+      "invalid": 0,
+      "issued": 3169,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "no_paid",
+      "counts": {
+        "G_halves": 5930,
+        "I": 2028,
+        "V": 194,
+        "VI": 194,
+        "Z_eighths": -4532,
+        "cost_eighths": 0,
+        "wrong": 2068
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "2965/4096",
+          "forecast": "1560821313/2147483648",
+          "forecast_in_interval": true,
+          "interval": [
+            "70029/102400",
+            "78221/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "507/1024",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "11651/25600",
+            "13699/25600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "97/2048",
+          "forecast": "49791423/1073741824",
+          "forecast_in_interval": true,
+          "interval": [
+            "377/51200",
+            "4473/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "97/2048",
+          "forecast": "49791423/1073741824",
+          "forecast_in_interval": true,
+          "interval": [
+            "377/51200",
+            "4473/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-1133/8192",
+          "forecast": "-151535169/1073741824",
+          "forecast_in_interval": true,
+          "interval": [
+            "-36517/204800",
+            "-20133/204800"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "97/1014",
+          "forecast": "49791423/536870912",
+          "forecast_in_interval": true,
+          "interval": [
+            "576877649/12675000000",
+            "1848122351/12675000000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1253693/25000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "0",
+          "forecast": "0",
+          "forecast_in_interval": true,
+          "interval": [
+            "0",
+            "1/25"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "517/1024",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "11901/25600",
+            "13949/25600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s06",
+      "invalid": 0,
+      "issued": 2028,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "pcx",
+      "counts": {
+        "G_halves": 4096,
+        "I": 1260,
+        "V": 315,
+        "VI": 315,
+        "Z_eighths": -1260,
+        "cost_eighths": 19093,
+        "wrong": 1260
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "1/2",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "23/50",
+            "27/50"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "315/1024",
+          "forecast": "5/16",
+          "forecast_in_interval": true,
+          "interval": [
+            "6851/25600",
+            "8899/25600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "315/4096",
+          "forecast": "38805/524288",
+          "forecast_in_interval": true,
+          "interval": [
+            "3779/102400",
+            "11971/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "315/4096",
+          "forecast": "38805/524288",
+          "forecast_in_interval": true,
+          "interval": [
+            "3779/102400",
+            "11971/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-315/8192",
+          "forecast": "-22635/524288",
+          "forecast_in_interval": true,
+          "interval": [
+            "-16067/204800",
+            "317/204800"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "1/4",
+          "forecast": "7761/32768",
+          "forecast_in_interval": true,
+          "interval": [
+            "18637909/100000000",
+            "31362091/100000000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "6362091/100000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "19093/32768",
+          "forecast": "7/12",
+          "forecast_in_interval": true,
+          "interval": [
+            "444557/819200",
+            "510093/819200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "315/1024",
+          "forecast": "5/16",
+          "forecast_in_interval": true,
+          "interval": [
+            "6851/25600",
+            "8899/25600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s07",
+      "invalid": 0,
+      "issued": 1260,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "high_skip",
+      "counts": {
+        "G_halves": 4096,
+        "I": 1256,
+        "V": 285,
+        "VI": 285,
+        "Z_eighths": -1488,
+        "cost_eighths": 21600,
+        "wrong": 1256
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "1/2",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "23/50",
+            "27/50"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "157/512",
+          "forecast": "5/16",
+          "forecast_in_interval": true,
+          "interval": [
+            "3413/12800",
+            "4437/12800"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "285/4096",
+          "forecast": "38805/524288",
+          "forecast_in_interval": true,
+          "interval": [
+            "3029/102400",
+            "11221/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "285/4096",
+          "forecast": "38805/524288",
+          "forecast_in_interval": true,
+          "interval": [
+            "3029/102400",
+            "11221/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-93/2048",
+          "forecast": "-22635/524288",
+          "forecast_in_interval": true,
+          "interval": [
+            "-4373/51200",
+            "-277/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "285/1256",
+          "forecast": "7761/32768",
+          "forecast_in_interval": true,
+          "interval": [
+            "2562062559/15700000000",
+            "4562937441/15700000000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "6372213/100000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "675/1024",
+          "forecast": "2/3",
+          "forecast_in_interval": true,
+          "interval": [
+            "15851/25600",
+            "17899/25600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "157/512",
+          "forecast": "5/16",
+          "forecast_in_interval": true,
+          "interval": [
+            "3413/12800",
+            "4437/12800"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s07",
+      "invalid": 0,
+      "issued": 1256,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "low_only",
+      "counts": {
+        "G_halves": 4096,
+        "I": 1486,
+        "V": 339,
+        "VI": 339,
+        "Z_eighths": -1746,
+        "cost_eighths": 12288,
+        "wrong": 1486
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "1/2",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "23/50",
+            "27/50"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "743/2048",
+          "forecast": "23/64",
+          "forecast_in_interval": true,
+          "interval": [
+            "16527/51200",
+            "20623/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "339/4096",
+          "forecast": "178503/2097152",
+          "forecast_in_interval": true,
+          "interval": [
+            "4379/102400",
+            "12571/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "339/4096",
+          "forecast": "178503/2097152",
+          "forecast_in_interval": true,
+          "interval": [
+            "4379/102400",
+            "12571/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-873/16384",
+          "forecast": "-104121/2097152",
+          "forecast_in_interval": true,
+          "interval": [
+            "-38209/409600",
+            "-5441/409600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "339/1486",
+          "forecast": "7761/32768",
+          "forecast_in_interval": true,
+          "interval": [
+            "2519448447/14860000000",
+            "4260551553/14860000000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1171671/20000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "3/8",
+          "forecast": "3/8",
+          "forecast_in_interval": true,
+          "interval": [
+            "67/200",
+            "83/200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "743/2048",
+          "forecast": "23/64",
+          "forecast_in_interval": true,
+          "interval": [
+            "16527/51200",
+            "20623/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s07",
+      "invalid": 0,
+      "issued": 1486,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "always_high",
+      "counts": {
+        "G_halves": 4096,
+        "I": 916,
+        "V": 231,
+        "VI": 231,
+        "Z_eighths": -900,
+        "cost_eighths": 32768,
+        "wrong": 916
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "1/2",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "23/50",
+            "27/50"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "229/1024",
+          "forecast": "7/32",
+          "forecast_in_interval": true,
+          "interval": [
+            "4701/25600",
+            "6749/25600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "231/4096",
+          "forecast": "54327/1048576",
+          "forecast_in_interval": true,
+          "interval": [
+            "1679/102400",
+            "9871/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "231/4096",
+          "forecast": "54327/1048576",
+          "forecast_in_interval": true,
+          "interval": [
+            "1679/102400",
+            "9871/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-225/8192",
+          "forecast": "-31689/1048576",
+          "forecast_in_interval": true,
+          "interval": [
+            "-13817/204800",
+            "2567/204800"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "231/916",
+          "forecast": "7761/32768",
+          "forecast_in_interval": true,
+          "interval": [
+            "4066272303/22900000000",
+            "7483727697/22900000000"
+          ],
+          "interval_inside_equivalence_band": false,
+          "radius": "7461693/100000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "1",
+          "forecast": "1",
+          "forecast_in_interval": true,
+          "interval": [
+            "24/25",
+            "1"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "229/1024",
+          "forecast": "7/32",
+          "forecast_in_interval": true,
+          "interval": [
+            "4701/25600",
+            "6749/25600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s07",
+      "invalid": 0,
+      "issued": 916,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "no_paid",
+      "counts": {
+        "G_halves": 4096,
+        "I": 2064,
+        "V": 514,
+        "VI": 514,
+        "Z_eighths": -2080,
+        "cost_eighths": 0,
+        "wrong": 2064
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "1/2",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "23/50",
+            "27/50"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "129/256",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "2969/6400",
+            "3481/6400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "257/2048",
+          "forecast": "7761/65536",
+          "forecast_in_interval": true,
+          "interval": [
+            "4377/51200",
+            "8473/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "257/2048",
+          "forecast": "7761/65536",
+          "forecast_in_interval": true,
+          "interval": [
+            "4377/51200",
+            "8473/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-65/1024",
+          "forecast": "-4527/65536",
+          "forecast_in_interval": true,
+          "interval": [
+            "-2649/25600",
+            "-601/25600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "257/1032",
+          "forecast": "7761/32768",
+          "forecast_in_interval": true,
+          "interval": [
+            "1285630433/6450000000",
+            "1926869567/6450000000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "2485423/50000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "0",
+          "forecast": "0",
+          "forecast_in_interval": true,
+          "interval": [
+            "0",
+            "1/25"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "129/256",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "2969/6400",
+            "3481/6400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s07",
+      "invalid": 0,
+      "issued": 2064,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "pcx",
+      "counts": {
+        "G_halves": 4096,
+        "I": 1108,
+        "V": 271,
+        "VI": 271,
+        "Z_eighths": -1156,
+        "cost_eighths": 19143,
+        "wrong": 1108
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "1/2",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "23/50",
+            "27/50"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "277/1024",
+          "forecast": "13/48",
+          "forecast_in_interval": true,
+          "interval": [
+            "5901/25600",
+            "7949/25600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "271/4096",
+          "forecast": "37565567/536870912",
+          "forecast_in_interval": true,
+          "interval": [
+            "2679/102400",
+            "10871/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "271/4096",
+          "forecast": "37565567/536870912",
+          "forecast_in_interval": true,
+          "interval": [
+            "2679/102400",
+            "10871/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-289/8192",
+          "forecast": "-16960385/536870912",
+          "forecast_in_interval": true,
+          "interval": [
+            "-15417/204800",
+            "967/204800"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "271/1108",
+          "forecast": "8668977/33554432",
+          "forecast_in_interval": true,
+          "interval": [
+            "4895704857/27700000000",
+            "8654295143/27700000000"
+          ],
+          "interval_inside_equivalence_band": false,
+          "radius": "6784459/100000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "19143/32768",
+          "forecast": "7/12",
+          "forecast_in_interval": true,
+          "interval": [
+            "445807/819200",
+            "511343/819200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "277/1024",
+          "forecast": "13/48",
+          "forecast_in_interval": true,
+          "interval": [
+            "5901/25600",
+            "7949/25600"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s08",
+      "invalid": 0,
+      "issued": 1108,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "high_skip",
+      "counts": {
+        "G_halves": 4096,
+        "I": 1123,
+        "V": 302,
+        "VI": 302,
+        "Z_eighths": -953,
+        "cost_eighths": 21632,
+        "wrong": 1123
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "1/2",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "23/50",
+            "27/50"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "1123/4096",
+          "forecast": "13/48",
+          "forecast_in_interval": true,
+          "interval": [
+            "23979/102400",
+            "32171/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "151/2048",
+          "forecast": "37565567/536870912",
+          "forecast_in_interval": true,
+          "interval": [
+            "1727/51200",
+            "5823/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "151/2048",
+          "forecast": "37565567/536870912",
+          "forecast_in_interval": true,
+          "interval": [
+            "1727/51200",
+            "5823/51200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-953/32768",
+          "forecast": "-16960385/536870912",
+          "forecast_in_interval": true,
+          "interval": [
+            "-56593/819200",
+            "8943/819200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "302/1123",
+          "forecast": "8668977/33554432",
+          "forecast_in_interval": true,
+          "interval": [
+            "22632106369/112300000000",
+            "37767893631/112300000000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "6738997/100000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "169/256",
+          "forecast": "2/3",
+          "forecast_in_interval": true,
+          "interval": [
+            "3969/6400",
+            "4481/6400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "1123/4096",
+          "forecast": "13/48",
+          "forecast_in_interval": true,
+          "interval": [
+            "23979/102400",
+            "32171/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s08",
+      "invalid": 0,
+      "issued": 1123,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "low_only",
+      "counts": {
+        "G_halves": 4096,
+        "I": 1269,
+        "V": 357,
+        "VI": 357,
+        "Z_eighths": -951,
+        "cost_eighths": 12288,
+        "wrong": 1269
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "1/2",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "23/50",
+            "27/50"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "1269/4096",
+          "forecast": "21/64",
+          "forecast_in_interval": true,
+          "interval": [
+            "27629/102400",
+            "35821/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "357/4096",
+          "forecast": "182048517/2147483648",
+          "forecast_in_interval": true,
+          "interval": [
+            "4829/102400",
+            "13021/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "357/4096",
+          "forecast": "182048517/2147483648",
+          "forecast_in_interval": true,
+          "interval": [
+            "4829/102400",
+            "13021/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-951/32768",
+          "forecast": "-82192635/2147483648",
+          "forecast_in_interval": true,
+          "interval": [
+            "-56543/819200",
+            "8993/819200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "119/423",
+          "forecast": "8668977/33554432",
+          "forecast_in_interval": true,
+          "interval": [
+            "921839573/4230000000",
+            "1458160427/4230000000"
+          ],
+          "interval_inside_equivalence_band": false,
+          "radius": "633949/10000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "3/8",
+          "forecast": "3/8",
+          "forecast_in_interval": true,
+          "interval": [
+            "67/200",
+            "83/200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "1269/4096",
+          "forecast": "21/64",
+          "forecast_in_interval": true,
+          "interval": [
+            "27629/102400",
+            "35821/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s08",
+      "invalid": 0,
+      "issued": 1269,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "always_high",
+      "counts": {
+        "G_halves": 4096,
+        "I": 589,
+        "V": 152,
+        "VI": 152,
+        "Z_eighths": -551,
+        "cost_eighths": 32768,
+        "wrong": 589
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "1/2",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "23/50",
+            "27/50"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "589/4096",
+          "forecast": "5/32",
+          "forecast_in_interval": true,
+          "interval": [
+            "10629/102400",
+            "18821/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "19/512",
+          "forecast": "43344885/1073741824",
+          "forecast_in_interval": true,
+          "interval": [
+            "0",
+            "987/12800"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "19/512",
+          "forecast": "43344885/1073741824",
+          "forecast_in_interval": true,
+          "interval": [
+            "0",
+            "987/12800"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-551/32768",
+          "forecast": "-19569675/1073741824",
+          "forecast_in_interval": true,
+          "interval": [
+            "-46543/819200",
+            "18993/819200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "8/31",
+          "forecast": "8668977/33554432",
+          "forecast_in_interval": true,
+          "interval": [
+            "255768811/1550000000",
+            "544231189/1550000000"
+          ],
+          "interval_inside_equivalence_band": false,
+          "radius": "4652619/50000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "1",
+          "forecast": "1",
+          "forecast_in_interval": true,
+          "interval": [
+            "24/25",
+            "1"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "589/4096",
+          "forecast": "5/32",
+          "forecast_in_interval": true,
+          "interval": [
+            "10629/102400",
+            "18821/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s08",
+      "invalid": 0,
+      "issued": 589,
+      "planned": 4096,
+      "valid": 4096
+    },
+    {
+      "arm": "no_paid",
+      "counts": {
+        "G_halves": 4096,
+        "I": 1979,
+        "V": 531,
+        "VI": 531,
+        "Z_eighths": -1689,
+        "cost_eighths": 0,
+        "wrong": 1979
+      },
+      "endpoint": {
+        "G": {
+          "estimate": "1/2",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "23/50",
+            "27/50"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "I": {
+          "estimate": "1979/4096",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "45379/102400",
+            "53571/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "V": {
+          "estimate": "531/4096",
+          "forecast": "8668977/67108864",
+          "forecast_in_interval": true,
+          "interval": [
+            "9179/102400",
+            "17371/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "VI": {
+          "estimate": "531/4096",
+          "forecast": "8668977/67108864",
+          "forecast_in_interval": true,
+          "interval": [
+            "9179/102400",
+            "17371/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "Z": {
+          "estimate": "-1689/32768",
+          "forecast": "-3913935/67108864",
+          "forecast_in_interval": true,
+          "interval": [
+            "-74993/819200",
+            "-9457/819200"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "conditional_risk": {
+          "estimate": "531/1979",
+          "forecast": "8668977/33554432",
+          "forecast_in_interval": true,
+          "interval": [
+            "1722146239/7916000000",
+            "2525853761/7916000000"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "203059/4000000",
+          "status": "analyzed"
+        },
+        "cost": {
+          "estimate": "0",
+          "forecast": "0",
+          "forecast_in_interval": true,
+          "interval": [
+            "0",
+            "1/25"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        },
+        "wrong": {
+          "estimate": "1979/4096",
+          "forecast": "1/2",
+          "forecast_in_interval": true,
+          "interval": [
+            "45379/102400",
+            "53571/102400"
+          ],
+          "interval_inside_equivalence_band": true,
+          "radius": "1/25",
+          "status": "analyzed"
+        }
+      },
+      "id": "s08",
+      "invalid": 0,
+      "issued": 1979,
+      "planned": 4096,
+      "valid": 4096
+    }
+  ],
+  "confidence_error": "1/20",
+  "diagnostics": [
+    {
+      "id": "s01",
+      "ordinary_count": 64,
+      "ordinary_violation": 16,
+      "paired_count": 128,
+      "paired_disagreement": 0,
+      "paired_issued": 80,
+      "strip_count": 0,
+      "strip_examples": []
+    },
+    {
+      "id": "s02",
+      "ordinary_count": 64,
+      "ordinary_violation": 52,
+      "paired_count": 128,
+      "paired_disagreement": 0,
+      "paired_issued": 52,
+      "strip_count": 0,
+      "strip_examples": []
+    },
+    {
+      "id": "s03",
+      "ordinary_count": 64,
+      "ordinary_violation": 8,
+      "paired_count": 128,
+      "paired_disagreement": 4,
+      "paired_issued": 94,
+      "strip_count": 4,
+      "strip_examples": [
+        {
+          "I": 1,
+          "actual_V": 1,
+          "actual_final": "38b790f738d18c32eab7fc6c29cd101033b37d979fdd23ca79ed9d2f2a36ae5d",
+          "actual_trace": "d9d3b1600da420268b007641eb6c52db3c18fa754071dfd1d4d15feabcc724d9",
+          "id": "s03-paired-031",
+          "in_strip": 1,
+          "kind": "paired",
+          "nominal_V": 0,
+          "nominal_final": "b72a816b4f3a8ccd782785a13ba83fce3f938d70b04bfa144b4cfa58762c2196",
+          "nominal_trace": "d9d3b1600da420268b007641eb6c52db3c18fa754071dfd1d4d15feabcc724d9"
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "ordinary_count": 64,
+      "ordinary_violation": 53,
+      "paired_count": 128,
+      "paired_disagreement": 1,
+      "paired_issued": 32,
+      "strip_count": 1,
+      "strip_examples": [
+        {
+          "I": 1,
+          "actual_V": 1,
+          "actual_final": "38b790f738d18c32eab7fc6c29cd101033b37d979fdd23ca79ed9d2f2a36ae5d",
+          "actual_trace": "d903e233eeb434ad6b662921094c18228a57847c2d59529cc0d5d63659e593f8",
+          "id": "s04-paired-093",
+          "in_strip": 1,
+          "kind": "paired",
+          "nominal_V": 0,
+          "nominal_final": "b72a816b4f3a8ccd782785a13ba83fce3f938d70b04bfa144b4cfa58762c2196",
+          "nominal_trace": "d903e233eeb434ad6b662921094c18228a57847c2d59529cc0d5d63659e593f8"
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "ordinary_count": 64,
+      "ordinary_violation": 13,
+      "paired_count": 128,
+      "paired_disagreement": 1,
+      "paired_issued": 87,
+      "strip_count": 1,
+      "strip_examples": [
+        {
+          "I": 1,
+          "actual_V": 1,
+          "actual_final": "38b790f738d18c32eab7fc6c29cd101033b37d979fdd23ca79ed9d2f2a36ae5d",
+          "actual_trace": "c9ca480bbdcf5e8d06fff0035c7b99286605efc983cca23a9c12a971b1f11e73",
+          "id": "s05-paired-111",
+          "in_strip": 1,
+          "kind": "paired",
+          "nominal_V": 0,
+          "nominal_final": "b72a816b4f3a8ccd782785a13ba83fce3f938d70b04bfa144b4cfa58762c2196",
+          "nominal_trace": "c9ca480bbdcf5e8d06fff0035c7b99286605efc983cca23a9c12a971b1f11e73"
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "ordinary_count": 64,
+      "ordinary_violation": 18,
+      "paired_count": 128,
+      "paired_disagreement": 0,
+      "paired_issued": 97,
+      "strip_count": 0,
+      "strip_examples": []
+    },
+    {
+      "id": "s07",
+      "ordinary_count": 64,
+      "ordinary_violation": 54,
+      "paired_count": 128,
+      "paired_disagreement": 0,
+      "paired_issued": 36,
+      "strip_count": 0,
+      "strip_examples": []
+    },
+    {
+      "id": "s08",
+      "ordinary_count": 64,
+      "ordinary_violation": 50,
+      "paired_count": 128,
+      "paired_disagreement": 0,
+      "paired_issued": 26,
+      "strip_count": 0,
+      "strip_examples": []
+    }
+  ],
+  "duration_s": 99.12166440000874,
+  "equivalence_tolerance": "2/25",
+  "family_size": 640,
+  "fixed_radius": "1/25",
+  "planned_per_cell": 4096,
+  "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "raw_db_sha256": "21919d36be867a06442bb7bdeab7af1ec29996439065f7322db43903e40c82f8",
+  "raw_index_sha256": "c0ba14f7de803745459ec9f7d9b3c3b2d6417d3ad52921eb820dddecd28024cb",
+  "role": "independent",
+  "schema": 1,
+  "seed_commitment": "e45df0291fb04cd3133adb0fef6a8ef75d664864ebef9be632574d47f8445e38",
+  "setup_receipts": [
+    {
+      "id": "s01",
+      "receipt": {
+        "charge_eighths": 2,
+        "check": "guard",
+        "revision": "good",
+        "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+        "surcharge_bounds": [
+          "0",
+          "1/32"
+        ]
+      }
+    },
+    {
+      "id": "s02",
+      "receipt": {
+        "charge_eighths": 2,
+        "check": "guard",
+        "revision": "good",
+        "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+        "surcharge_bounds": [
+          "0",
+          "1/32"
+        ]
+      }
+    },
+    {
+      "id": "s03",
+      "receipt": {
+        "charge_eighths": 2,
+        "check": "guard",
+        "revision": "good",
+        "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+        "surcharge_bounds": [
+          "0",
+          "1/32"
+        ]
+      }
+    },
+    {
+      "id": "s04",
+      "receipt": {
+        "charge_eighths": 2,
+        "check": "guard",
+        "revision": "good",
+        "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+        "surcharge_bounds": [
+          "0",
+          "1/32"
+        ]
+      }
+    },
+    {
+      "id": "s05",
+      "receipt": {
+        "charge_eighths": 2,
+        "check": "guard",
+        "revision": "good",
+        "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+        "surcharge_bounds": [
+          "0",
+          "1/32"
+        ]
+      }
+    },
+    {
+      "id": "s06",
+      "receipt": {
+        "charge_eighths": 2,
+        "check": "guard",
+        "revision": "good",
+        "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+        "surcharge_bounds": [
+          "0",
+          "1/32"
+        ]
+      }
+    },
+    {
+      "id": "s07",
+      "receipt": {
+        "charge_eighths": 2,
+        "check": "guard",
+        "revision": "good",
+        "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+        "surcharge_bounds": [
+          "0",
+          "1/32"
+        ]
+      }
+    },
+    {
+      "id": "s08",
+      "receipt": {
+        "charge_eighths": 2,
+        "check": "guard",
+        "revision": "good",
+        "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+        "surcharge_bounds": [
+          "0",
+          "1/32"
+        ]
+      }
+    }
+  ]
+}

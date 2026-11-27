@@ -1,0 +1,107 @@
+{
+  "actual_trial_path_cap_eighths": 8,
+  "calibration_in_main_trials": false,
+  "guard_setup_eighths_per_role": 16,
+  "guard_setup_eighths_per_world": 2,
+  "independent": {
+    "always_high": {
+      "actual_finalizations": 16278,
+      "actual_intake": 32768,
+      "actual_max_paid_eighths": 8,
+      "declared_logical_moves": 208790,
+      "positive_tariff": 32768,
+      "total_paid_eighths": 262144,
+      "valid": 32768
+    },
+    "high_skip": {
+      "actual_finalizations": 16142,
+      "actual_intake": 32768,
+      "actual_max_paid_eighths": 8,
+      "declared_logical_moves": 208654,
+      "positive_tariff": 21780,
+      "total_paid_eighths": 174240,
+      "valid": 32768
+    },
+    "low_only": {
+      "actual_finalizations": 16161,
+      "actual_intake": 32768,
+      "actual_max_paid_eighths": 3,
+      "declared_logical_moves": 208673,
+      "positive_tariff": 32768,
+      "total_paid_eighths": 98304,
+      "valid": 32768
+    },
+    "no_paid": {
+      "actual_finalizations": 16297,
+      "actual_intake": 32768,
+      "actual_max_paid_eighths": 0,
+      "declared_logical_moves": 208809,
+      "positive_tariff": 0,
+      "total_paid_eighths": 0,
+      "valid": 32768
+    },
+    "pcx": {
+      "actual_finalizations": 16374,
+      "actual_intake": 32768,
+      "actual_max_paid_eighths": 8,
+      "declared_logical_moves": 208886,
+      "positive_tariff": 32768,
+      "total_paid_eighths": 152769,
+      "valid": 32768
+    }
+  },
+  "notes": {
+    "declared_logical_moves": "Different instrument, one independent declared move per prelude step and emitted intake, paid choice including skip, report and finalization if authorized.",
+    "guard": "Eight once-per-world audited guard acquisitions per role; this charge is separate from per-attempt paid cost.",
+    "hard_cap": "Maximum across actual paths, not the sum of per-cell maxima.",
+    "instrumented_events": "Actual primary trace event count, including bookkeeping."
+  },
+  "primary": {
+    "always_high": {
+      "actual_finalizations": 16250,
+      "actual_intake": 32768,
+      "actual_max_paid_eighths": 8,
+      "instrumented_events": 277858,
+      "positive_tariff": 32768,
+      "total_paid_eighths": 262144,
+      "valid": 32768
+    },
+    "high_skip": {
+      "actual_finalizations": 16383,
+      "actual_intake": 32768,
+      "actual_max_paid_eighths": 8,
+      "instrumented_events": 278523,
+      "positive_tariff": 21873,
+      "total_paid_eighths": 174984,
+      "valid": 32768
+    },
+    "low_only": {
+      "actual_finalizations": 16413,
+      "actual_intake": 32768,
+      "actual_max_paid_eighths": 3,
+      "instrumented_events": 278673,
+      "positive_tariff": 32768,
+      "total_paid_eighths": 98304,
+      "valid": 32768
+    },
+    "no_paid": {
+      "actual_finalizations": 16420,
+      "actual_intake": 32768,
+      "actual_max_paid_eighths": 0,
+      "instrumented_events": 278708,
+      "positive_tariff": 0,
+      "total_paid_eighths": 0,
+      "valid": 32768
+    },
+    "pcx": {
+      "actual_finalizations": 16243,
+      "actual_intake": 32768,
+      "actual_max_paid_eighths": 8,
+      "instrumented_events": 277823,
+      "positive_tariff": 32768,
+      "total_paid_eighths": 153039,
+      "valid": 32768
+    }
+  },
+  "schema": 1
+}

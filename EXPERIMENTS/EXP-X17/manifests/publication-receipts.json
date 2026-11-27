@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "repository": "Perceptive-Closure/PC-X",
+  "publication_branch": "codex/exp-x17",
+  "scope": "EXPERIMENTS/EXP-X17/",
+  "baseline": {
+    "branch": "codex/pcx-flagship-generalization",
+    "commit": "109eac055f466c609c0dcb9ba880827a0fde675f"
+  },
+  "historical_ref_count": 48,
+  "stages": {
+    "registration": "16e4885c09a5e18d91fbd995380bbaf92c17a898",
+    "design_ready": "a3b31173b22cd9cf41203cb522b48a709a8619b7",
+    "native_engineering": "3e4ddbaad5cf3170cdafa0c4f615b4b0f98b9316",
+    "mathematical_constructor": "5e53d51d7f498fec06eae594077252994960fec5",
+    "independent_reference": "8473631ebe0491d081d26264ebf961669bc55504",
+    "source_freeze": "be574f4eaba8a52b50c5604e87075ab4cac81b79",
+    "future_draw_plan": "43c1f0c8f90a87b3f5f0e66b1a0722816b9cac1c",
+    "independent_preopening_receipt": "0c4d02f1444200a377a382f6ed628e2239960fdf",
+    "combined_preopening_receipt": "bae5fd2832a9d7ff7d43678b2d166d943335062f",
+    "hostile_preopening_receipt": "06d225889b8729b6a9c3d6a9af18a6e00605a4c7",
+    "signed_opening": "b9840c50a4e409446ed97a335c7179c48f08b596",
+    "trial_authorization": "19c9bc68a9f9f98d99a96a6fb662ded73d50e75c",
+    "primary_and_controls": "3110f43916eb4d0f617ae44e117a9e45a041c821",
+    "independent_reproduction": "952708cc2713387612edc008f122564733d3b7a3",
+    "hostile_acceptance": "14b15749cbea97c696b63367e42a0d6d14d38cc2"
+  },
+  "supporting_refs": {
+    "codex/exp-x17-native": "3e4ddbaad5cf3170cdafa0c4f615b4b0f98b9316",
+    "codex/exp-x17-controller": "5e53d51d7f498fec06eae594077252994960fec5",
+    "codex/exp-x17-independent": "952708cc2713387612edc008f122564733d3b7a3",
+    "codex/exp-x17-hostile": "14b15749cbea97c696b63367e42a0d6d14d38cc2"
+  },
+  "selector": {
+    "chain": "Quicknet",
+    "round": 34323065,
+    "scheduled_utc": "2026-11-27T09:42:39.000Z"
+  },
+  "history_manifest": "historical-refs.json"
+}
