@@ -2,7 +2,7 @@
 
 **Mathematical Foundations for AI Assurance under Incomplete Understanding**
 
-Extended research manuscript, 27 November 2026. [Read the 125-page paper](PC-X-FULL-PAPER.pdf) · [Edit the LaTeX source](manuscript/main.tex)
+Saif Malik · Extended research manuscript, 27 November 2026. [Read the 125-page paper](PC-X-FULL-PAPER.pdf) · [Edit the LaTeX source](manuscript/main.tex)
 
 A rehearsal can leave open which guard will handle a real deployment. The paper asks which observations settle the relevant property, what they cost, and whether one lawful policy can still deliver useful work. The main argument occupies pages 1–15. The mathematical and experimental appendices begin on page 19.
 
@@ -35,10 +35,10 @@ $env:SOURCE_DATE_EPOCH = '1795737600'
 tectonic --keep-logs --keep-intermediates --outdir build/pcx-paper PAPER/manuscript/main.tex
 ```
 
-The build writes `build/pcx-paper/main.pdf`. To check its labels, destinations, bibliography, local theorem index and figure inputs, run the following with Python 3.10 or newer and the `pypdf` package. Different TeX engines, bundles, metadata or resource paths can yield different PDF bytes. The SHA-256 of the distributed PDF is `1bbb8d8b78fb2537cf7a4a8845453d6522ae3c317a09f0e10535b4435a92adfb`.
+The build writes `build/pcx-paper/main.pdf`. To check its labels, destinations, bibliography, local theorem index and figure inputs, run the following with Python 3.10 or newer and the `pypdf` package. Different TeX engines, bundles, metadata or resource paths can yield different PDF bytes. The SHA-256 of the distributed PDF is `19f7354e022fa6d5eb60b8205afb349711030c120a48d9acef71ab8373247a73`.
 
 ```sh
 python PAPER/review/check_manuscript.py --pdf build/pcx-paper/main.pdf --aux build/pcx-paper/main.aux
 ```
 
-To refresh the diagrams, run `python PAPER/manuscript/figures/draw.py` before compiling again. The X17 risk plot uses the archived issued-run intervals. Appendix H and the evidence map give immutable, study-specific replay instructions. The paper has no personal byline. The original D-35 source was anonymous, and the two internal manuscript reviews have disclosed their roles.
+To refresh the diagrams, run `python PAPER/manuscript/figures/draw.py` before compiling again. The X17 risk plot uses the archived issued-run intervals. Appendix H and the evidence map give immutable, study-specific replay instructions. The original D-35 source was anonymous, and the two internal manuscript reviews have disclosed their roles.
