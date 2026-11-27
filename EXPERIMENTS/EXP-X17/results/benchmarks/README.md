@@ -1,0 +1,5 @@
+# Measured counted and explicit computation
+
+The frozen [measurement records](../../comparators/count-flow-measurements.json) distinguish graph construction, exact coefficient evaluation, grid certification and peak traced Python allocation. Explicit and counted runtimes were both measured only at the small depths 1, 3, 5 and 6 in the constructor benchmark. At depth 6 the exact finite-grid procedure took about 269 ms counted and 1,191 ms explicit on the recorded host. At depth 1 counted compilation used more peak traced memory than the explicit-word representation.
+
+At depth 256, compact compilation alone created 33,153 prelude nodes, with up to 4,353 bits in per-history weight values. Its single evaluated-world policy cost was still exactly 7/12. There is no runtime or memory measurement for an explicit depth-256 graph. Its full history count (2^{256}) per route is structural. These work and cost measurements are separate from the timed native run and independent reference solver. [Reproduction method](../../controller/CHECKS.md)

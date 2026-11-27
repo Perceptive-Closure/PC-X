@@ -1,0 +1,12 @@
+{
+  "attempts": 166400,
+  "bytes": 178798592,
+  "mechanism_counts": {
+    "actual": 164864,
+    "nominal": 1024,
+    "ordinary": 512
+  },
+  "retention": "canonical raw index, full exemplars, exact archive reconstruction via role seed",
+  "sha256": "65b2b9ae67c885507f90becac8fd4065551763efb08f2237e1275fac796984bc",
+  "sqlite_version": "3.50.4"
+}

@@ -1,0 +1,1484 @@
+{
+  "cells": [
+    {
+      "arm": "pcx",
+      "counts": {
+        "G2": 6517,
+        "I": 2669,
+        "V": 248,
+        "VI": 248,
+        "attempts": 4096,
+        "cost8": 19203,
+        "finish": 2669,
+        "intake": 4096,
+        "max_cost8": 8,
+        "operations": 37921,
+        "proposal_one": 1366,
+        "proposal_zero": 1303,
+        "valid": 4096,
+        "wrong": 1427
+      },
+      "forecast": {
+        "G": "19703/24576",
+        "I": "2/3",
+        "V": "259/4096",
+        "VI": "259/4096",
+        "Z": "-765/4096",
+        "cost": "7/12",
+        "wrong": "1/3"
+      },
+      "record_chain_sha256": "e2770834d1d4941cec74ffd52b989ab7e37930bb661c282fbe9392f37c5bf558",
+      "seconds": 1.4258390000031795,
+      "world": "s01"
+    },
+    {
+      "arm": "high_skip",
+      "counts": {
+        "G2": 6606,
+        "I": 2747,
+        "V": 237,
+        "VI": 237,
+        "attempts": 4096,
+        "cost8": 22112,
+        "finish": 2747,
+        "intake": 4096,
+        "max_cost8": 8,
+        "operations": 38311,
+        "proposal_one": 1400,
+        "proposal_zero": 1347,
+        "valid": 4096,
+        "wrong": 1349
+      },
+      "forecast": {
+        "G": "19703/24576",
+        "I": "2/3",
+        "V": "259/4096",
+        "VI": "259/4096",
+        "Z": "-765/4096",
+        "cost": "2/3",
+        "wrong": "1/3"
+      },
+      "record_chain_sha256": "c9c303569aecf776aa64f1ae4fcf552ebdaabfd2ded8f4560aaebac31c1d4d21",
+      "seconds": 1.3363357999915024,
+      "world": "s01"
+    },
+    {
+      "arm": "low_only",
+      "counts": {
+        "G2": 6382,
+        "I": 2547,
+        "V": 261,
+        "VI": 261,
+        "attempts": 4096,
+        "cost8": 12288,
+        "finish": 2547,
+        "intake": 4096,
+        "max_cost8": 3,
+        "operations": 37311,
+        "proposal_one": 1309,
+        "proposal_zero": 1238,
+        "valid": 4096,
+        "wrong": 1549
+      },
+      "forecast": {
+        "G": "102611/131072",
+        "I": "5/8",
+        "V": "3885/65536",
+        "VI": "3885/65536",
+        "Z": "-11475/65536",
+        "cost": "3/8",
+        "wrong": "3/8"
+      },
+      "record_chain_sha256": "68fd588cc81ead4fa2b4e8abab83c0764a4b2f41d1c388dd5b8d028083712099",
+      "seconds": 1.350205199996708,
+      "world": "s01"
+    },
+    {
+      "arm": "always_high",
+      "counts": {
+        "G2": 6901,
+        "I": 3096,
+        "V": 291,
+        "VI": 291,
+        "attempts": 4096,
+        "cost8": 32768,
+        "finish": 3096,
+        "intake": 4096,
+        "max_cost8": 8,
+        "operations": 40056,
+        "proposal_one": 1605,
+        "proposal_zero": 1491,
+        "valid": 4096,
+        "wrong": 1000
+      },
+      "forecast": {
+        "G": "55013/65536",
+        "I": "3/4",
+        "V": "2331/32768",
+        "VI": "2331/32768",
+        "Z": "-6885/32768",
+        "cost": "1",
+        "wrong": "1/4"
+      },
+      "record_chain_sha256": "10df10e9c498df6cfb5adbaf5d7b8ba17112805386f34b26ba5d7457a027c874",
+      "seconds": 1.8848281999962637,
+      "world": "s01"
+    },
+    {
+      "arm": "no_paid",
+      "counts": {
+        "G2": 6000,
+        "I": 2098,
+        "V": 194,
+        "VI": 194,
+        "attempts": 4096,
+        "cost8": 0,
+        "finish": 2098,
+        "intake": 4096,
+        "max_cost8": 0,
+        "operations": 35066,
+        "proposal_one": 1122,
+        "proposal_zero": 976,
+        "valid": 4096,
+        "wrong": 1998
+      },
+      "forecast": {
+        "G": "23799/32768",
+        "I": "1/2",
+        "V": "777/16384",
+        "VI": "777/16384",
+        "Z": "-2295/16384",
+        "cost": "0",
+        "wrong": "1/2"
+      },
+      "record_chain_sha256": "307b8cdf4c4d958f28bf01d8ef9b62b4d36b2bbdb7bbf2248ffef784fd8fedd4",
+      "seconds": 1.303824300004635,
+      "world": "s01"
+    },
+    {
+      "arm": "pcx",
+      "counts": {
+        "G2": 4096,
+        "I": 1349,
+        "V": 264,
+        "VI": 264,
+        "attempts": 4096,
+        "cost8": 19108,
+        "finish": 1349,
+        "intake": 4096,
+        "max_cost8": 8,
+        "operations": 31321,
+        "proposal_one": 711,
+        "proposal_zero": 638,
+        "valid": 4096,
+        "wrong": 1349
+      },
+      "forecast": {
+        "G": "1/2",
+        "I": "1/3",
+        "V": "1801/24576",
+        "VI": "1801/24576",
+        "Z": "-1271/24576",
+        "cost": "7/12",
+        "wrong": "1/3"
+      },
+      "record_chain_sha256": "991f8feeaee3733cac178cd28f010168f48425b9078d22dee4d2e5e79616f3f9",
+      "seconds": 1.281355800005258,
+      "world": "s02"
+    },
+    {
+      "arm": "high_skip",
+      "counts": {
+        "G2": 4096,
+        "I": 1373,
+        "V": 304,
+        "VI": 304,
+        "attempts": 4096,
+        "cost8": 22304,
+        "finish": 1373,
+        "intake": 4096,
+        "max_cost8": 8,
+        "operations": 31441,
+        "proposal_one": 720,
+        "proposal_zero": 653,
+        "valid": 4096,
+        "wrong": 1373
+      },
+      "forecast": {
+        "G": "1/2",
+        "I": "1/3",
+        "V": "1801/24576",
+        "VI": "1801/24576",
+        "Z": "-1271/24576",
+        "cost": "2/3",
+        "wrong": "1/3"
+      },
+      "record_chain_sha256": "fdc13471254ce19b9d47e112f703120c73969d2d021ea3d7aca49775317b7281",
+      "seconds": 1.2883339999971213,
+      "world": "s02"
+    },
+    {
+      "arm": "low_only",
+      "counts": {
+        "G2": 4096,
+        "I": 1554,
+        "V": 326,
+        "VI": 326,
+        "attempts": 4096,
+        "cost8": 12288,
+        "finish": 1554,
+        "intake": 4096,
+        "max_cost8": 3,
+        "operations": 32346,
+        "proposal_one": 803,
+        "proposal_zero": 751,
+        "valid": 4096,
+        "wrong": 1554
+      },
+      "forecast": {
+        "G": "1/2",
+        "I": "3/8",
+        "V": "5403/65536",
+        "VI": "5403/65536",
+        "Z": "-3813/65536",
+        "cost": "3/8",
+        "wrong": "3/8"
+      },
+      "record_chain_sha256": "8b78cc7f6fcfcea3d6f5f90522d7d5d781daa80b7f3d72d35ee01de2d6a38840",
+      "seconds": 1.294155600000522,
+      "world": "s02"
+    },
+    {
+      "arm": "always_high",
+      "counts": {
+        "G2": 4096,
+        "I": 1020,
+        "V": 203,
+        "VI": 203,
+        "attempts": 4096,
+        "cost8": 32768,
+        "finish": 1020,
+        "intake": 4096,
+        "max_cost8": 8,
+        "operations": 29676,
+        "proposal_one": 532,
+        "proposal_zero": 488,
+        "valid": 4096,
+        "wrong": 1020
+      },
+      "forecast": {
+        "G": "1/2",
+        "I": "1/4",
+        "V": "1801/32768",
+        "VI": "1801/32768",
+        "Z": "-1271/32768",
+        "cost": "1",
+        "wrong": "1/4"
+      },
+      "record_chain_sha256": "801c67bde0074d7f21ee3cd30dd0779134725062d815f9902b70a57185adc797",
+      "seconds": 1.3775779999996303,
+      "world": "s02"
+    },
+    {
+      "arm": "no_paid",
+      "counts": {
+        "G2": 4096,
+        "I": 2029,
+        "V": 476,
+        "VI": 476,
+        "attempts": 4096,
+        "cost8": 0,
+        "finish": 2029,
+        "intake": 4096,
+        "max_cost8": 0,
+        "operations": 34721,
+        "proposal_one": 1030,
+        "proposal_zero": 999,
+        "valid": 4096,
+        "wrong": 2029
+      },
+      "forecast": {
+        "G": "1/2",
+        "I": "1/2",
+        "V": "1801/16384",
+        "VI": "1801/16384",
+        "Z": "-1271/16384",
+        "cost": "0",
+        "wrong": "1/2"
+      },
+      "record_chain_sha256": "1e4f458ee8e1873fbcd72203ae510c82309e48056fbbcd39627bcc8ff5444bc3",
+      "seconds": 2.055579599997145,
+      "world": "s02"
+    },
+    {
+      "arm": "pcx",
+      "counts": {
+        "G2": 6915,
+        "I": 3081,
+        "V": 262,
+        "VI": 262,
+        "attempts": 4096,
+        "cost8": 19203,
+        "finish": 3081,
+        "intake": 4096,
+        "max_cost8": 8,
+        "operations": 39981,
+        "proposal_one": 1500,
+        "proposal_zero": 1581,
+        "valid": 4096,
+        "wrong": 1015
+      },
+      "forecast": {
+        "G": "3607108643/4294967296",
+        "I": "3/4",
+        "V": "150987741/2147483648",
+        "VI": "150987741/2147483648",
+        "Z": "-452992035/2147483648",
+        "cost": "7/12",
+        "wrong": "1/4"
+      },
+      "record_chain_sha256": "00aeef7b2e868aedde06b892c018d3403e8dccfed0cfc1f2e6d9834f9623712c",
+      "seconds": 2.5509217999933753,
+      "world": "s03"
+    },
+    {
+      "arm": "high_skip",
+      "counts": {
+        "G2": 6884,
+        "I": 3060,
+        "V": 272,
+        "VI": 272,
+        "attempts": 4096,
+        "cost8": 21912,
+        "finish": 3060,
+        "intake": 4096,
+        "max_cost8": 8,
+        "operations": 39876,
+        "proposal_one": 1526,
+        "proposal_zero": 1534,
+        "valid": 4096,
+        "wrong": 1036
+      },
+      "forecast": {
+        "G": "3607108643/4294967296",
+        "I": "3/4",
+        "V": "150987741/2147483648",
+        "VI": "150987741/2147483648",
+        "Z": "-452992035/2147483648",
+        "cost": "2/3",
+        "wrong": "1/4"
+      },
+      "record_chain_sha256": "e676fb7585e8bcee61a5826e13d615cdd1db27732548d3ec9e1cbb27d2e9909d",
+      "seconds": 2.821048600002541,
+      "world": "s03"
+    },
+    {
+      "arm": "low_only",
+      "counts": {
+        "G2": 6664,
+        "I": 2817,
+        "V": 249,
+        "VI": 249,
+        "attempts": 4096,
+        "cost8": 12288,
+        "finish": 2817,
+        "intake": 4096,
+        "max_cost8": 3,
+        "operations": 38661,
+        "proposal_one": 1401,
+        "proposal_zero": 1416,
+        "valid": 4096,
+        "wrong": 1279
+      },
+      "forecast": {
+        "G": "13941892907/17179869184",
+        "I": "11/16",
+        "V": "553621717/8589934592",
+        "VI": "553621717/8589934592",
+        "Z": "-1660970795/8589934592",
+        "cost": "3/8",
+        "wrong": "5/16"
+      },
+      "record_chain_sha256": "cee2bcc4919b91ecb7e7c04ba6c1a6593ad986d2b8150a0d8a9a0f3ddcb1a112",
+      "seconds": 2.5916532000119332,
+      "world": "s03"
+    },
+    {
+      "arm": "always_high",
+      "counts": {
+        "G2": 7347,
+        "I": 3590,
+        "V": 339,
+        "VI": 339,
+        "attempts": 4096,
+        "cost8": 32768,
+        "finish": 3590,
+        "intake": 4096,
+        "max_cost8": 8,
+        "operations": 42526,
+        "proposal_one": 1769,
+        "proposal_zero": 1821,
+        "valid": 4096,
+        "wrong": 506
+      },
+      "forecast": {
+        "G": "7700758951/8589934592",
+        "I": "7/8",
+        "V": "352304729/4294967296",
+        "VI": "352304729/4294967296",
+        "Z": "-1056981415/4294967296",
+        "cost": "1",
+        "wrong": "1/8"
+      },
+      "record_chain_sha256": "e08e68505aaada3360421cd2ec8151fa0da20d942665f49870eea9558210bd57",
+      "seconds": 2.494103400007589,
+      "world": "s03"
+    },
+    {
+      "arm": "no_paid",
+      "counts": {
+        "G2": 5978,
+        "I": 2072,
+        "V": 190,
+        "VI": 190,
+        "attempts": 4096,
+        "cost8": 0,
+        "finish": 2072,
+        "intake": 4096,
+        "max_cost8": 0,
+        "operations": 34936,
+        "proposal_one": 1042,
+        "proposal_zero": 1030,
+        "valid": 4096,
+        "wrong": 2024
+      },
+      "forecast": {
+        "G": "1560283489/2147483648",
+        "I": "1/2",
+        "V": "50329247/1073741824",
+        "VI": "50329247/1073741824",
+        "Z": "-150997345/1073741824",
+        "cost": "0",
+        "wrong": "1/2"
+      },
+      "record_chain_sha256": "791cd57f0d5894cd9cbb499f901f7a7bd3f04c4a126f70c3eb0f90a944100952",
+      "seconds": 2.642494700005045,
+      "world": "s03"
+    },
+    {
+      "arm": "pcx",
+      "counts": {
+        "G2": 4096,
+        "I": 1017,
+        "V": 269,
+        "VI": 269,
+        "attempts": 4096,
+        "cost8": 19108,
+        "finish": 1017,
+        "intake": 4096,
+        "max_cost8": 8,
+        "operations": 29661,
+        "proposal_one": 531,
+        "proposal_zero": 486,
+        "valid": 4096,
+        "wrong": 1017
+      },
+      "forecast": {
+        "G": "1/2",
+        "I": "1/4",
+        "V": "150992543/2147483648",
+        "VI": "150992543/2147483648",
+        "Z": "-50334049/2147483648",
+        "cost": "7/12",
+        "wrong": "1/4"
+      },
+      "record_chain_sha256": "e7aca0c2889c44d5fa33b4a217d37f25939ed71202deb6467de411528ed9b530",
+      "seconds": 2.687944299992523,
+      "world": "s04"
+    },
+    {
+      "arm": "high_skip",
+      "counts": {
+        "G2": 4096,
+        "I": 1069,
+        "V": 333,
+        "VI": 333,
+        "attempts": 4096,
+        "cost8": 21512,
+        "finish": 1069,
+        "intake": 4096,
+        "max_cost8": 8,
+        "operations": 29921,
+        "proposal_one": 578,
+        "proposal_zero": 491,
+        "valid": 4096,
+        "wrong": 1069
+      },
+      "forecast": {
+        "G": "1/2",
+        "I": "1/4",
+        "V": "150992543/2147483648",
+        "VI": "150992543/2147483648",
+        "Z": "-50334049/2147483648",
+        "cost": "2/3",
+        "wrong": "1/4"
+      },
+      "record_chain_sha256": "7edeacde5f0228dc26db59aca22f1164edf2bae81e8a38ea493a3495b486e14d",
+      "seconds": 2.830907200012007,
+      "world": "s04"
+    },
+    {
+      "arm": "low_only",
+      "counts": {
+        "G2": 4096,
+        "I": 1294,
+        "V": 352,
+        "VI": 352,
+        "attempts": 4096,
+        "cost8": 12288,
+        "finish": 1294,
+        "intake": 4096,
+        "max_cost8": 3,
+        "operations": 31046,
+        "proposal_one": 643,
+        "proposal_zero": 651,
+        "valid": 4096,
+        "wrong": 1294
+      },
+      "forecast": {
+        "G": "1/2",
+        "I": "5/16",
+        "V": "754962715/8589934592",
+        "VI": "754962715/8589934592",
+        "Z": "-251670245/8589934592",
+        "cost": "3/8",
+        "wrong": "5/16"
+      },
+      "record_chain_sha256": "532c021ffbaf2434eb33da0ae407c9d1001610eaca3a12b058d06c2959c71604",
+      "seconds": 2.673275299996021,
+      "world": "s04"
+    },
+    {
+      "arm": "always_high",
+      "counts": {
+        "G2": 4096,
+        "I": 514,
+        "V": 141,
+        "VI": 141,
+        "attempts": 4096,
+        "cost8": 32768,
+        "finish": 514,
+        "intake": 4096,
+        "max_cost8": 8,
+        "operations": 27146,
+        "proposal_one": 257,
+        "proposal_zero": 257,
+        "valid": 4096,
+        "wrong": 514
+      },
+      "forecast": {
+        "G": "1/2",
+        "I": "1/8",
+        "V": "150992543/4294967296",
+        "VI": "150992543/4294967296",
+        "Z": "-50334049/4294967296",
+        "cost": "1",
+        "wrong": "1/8"
+      },
+      "record_chain_sha256": "485f9328e60d3b1490a1bf576629c3ea679a4c0aa7cd42d4ba29b506dacb45ec",
+      "seconds": 2.310784800007241,
+      "world": "s04"
+    },
+    {
+      "arm": "no_paid",
+      "counts": {
+        "G2": 4096,
+        "I": 2077,
+        "V": 597,
+        "VI": 597,
+        "attempts": 4096,
+        "cost8": 0,
+        "finish": 2077,
+        "intake": 4096,
+        "max_cost8": 0,
+        "operations": 34961,
+        "proposal_one": 1034,
+        "proposal_zero": 1043,
+        "valid": 4096,
+        "wrong": 2077
+      },
+      "forecast": {
+        "G": "1/2",
+        "I": "1/2",
+        "V": "150992543/1073741824",
+        "VI": "150992543/1073741824",
+        "Z": "-50334049/1073741824",
+        "cost": "0",
+        "wrong": "1/2"
+      },
+      "record_chain_sha256": "23e01a8b4fd86ee2056fa2a37e9bb8dfedf13158708b322a7b218b1d2a695918",
+      "seconds": 2.728139300001203,
+      "world": "s04"
+    },
+    {
+      "arm": "pcx",
+      "counts": {
+        "G2": 6770,
+        "I": 2969,
+        "V": 295,
+        "VI": 295,
+        "attempts": 4096,
+        "cost8": 19053,
+        "finish": 2969,
+        "intake": 4096,
+        "max_cost8": 8,
+        "operations": 39421,
+        "proposal_one": 1532,
+        "proposal_zero": 1437,
+        "valid": 4096,
+        "wrong": 1127
+      },
+      "forecast": {
+        "G": "7971945822001228445575047/9671406556917033397649408",
+        "I": "23/32",
+        "V": "339419187849347130529913/4835703278458516698824704",
+        "VI": "339419187849347130529913/4835703278458516698824704",
+        "Z": "-963953961422674948450183/4835703278458516698824704",
+        "cost": "7/12",
+        "wrong": "9/32"
+      },
+      "record_chain_sha256": "78f07687f5536fd3931d82a321e80971dc9aa95105c23c1e458c8ea9ceff5862",
+      "seconds": 3.138447899997118,
+      "world": "s05"
+    },
+    {
+      "arm": "high_skip",
+      "counts": {
+        "G2": 6811,
+        "I": 3011,
+        "V": 296,
+        "VI": 296,
+        "attempts": 4096,
+        "cost8": 22296,
+        "finish": 3011,
+        "intake": 4096,
+        "max_cost8": 8,
+        "operations": 39631,
+        "proposal_one": 1524,
+        "proposal_zero": 1487,
+        "valid": 4096,
+        "wrong": 1085
+      },
+      "forecast": {
+        "G": "7971945822001228445575047/9671406556917033397649408",
+        "I": "23/32",
+        "V": "339419187849347130529913/4835703278458516698824704",
+        "VI": "339419187849347130529913/4835703278458516698824704",
+        "Z": "-963953961422674948450183/4835703278458516698824704",
+        "cost": "2/3",
+        "wrong": "9/32"
+      },
+      "record_chain_sha256": "270989b38c0b7584083674fd49e440787d4f46082d5ad2780aeff12c46d1ab95",
+      "seconds": 2.9235767999925883,
+      "world": "s05"
+    },
+    {
+      "arm": "low_only",
+      "counts": {
+        "G2": 6532,
+        "I": 2715,
+        "V": 279,
+        "VI": 279,
+        "attempts": 4096,
+        "cost8": 12288,
+        "finish": 2715,
+        "intake": 4096,
+        "max_cost8": 3,
+        "operations": 38151,
+        "proposal_one": 1381,
+        "proposal_zero": 1334,
+        "valid": 4096,
+        "wrong": 1381
+      },
+      "forecast": {
+        "G": "30933274687796262381115301/38685626227668133590597632",
+        "I": "85/128",
+        "V": "1254375259443239395436635/19342813113834066795298816",
+        "VI": "1254375259443239395436635/19342813113834066795298816",
+        "Z": "-3562438553083798722533285/19342813113834066795298816",
+        "cost": "3/8",
+        "wrong": "43/128"
+      },
+      "record_chain_sha256": "b7ac6346b163c9754aa3f0e612dcc5fdb58a7cc58a37e4631ad6ea1f2273c7e5",
+      "seconds": 3.1213370000041323,
+      "world": "s05"
+    },
+    {
+      "arm": "always_high",
+      "counts": {
+        "G2": 7157,
+        "I": 3384,
+        "V": 323,
+        "VI": 323,
+        "attempts": 4096,
+        "cost8": 32768,
+        "finish": 3384,
+        "intake": 4096,
+        "max_cost8": 8,
+        "operations": 41496,
+        "proposal_one": 1655,
+        "proposal_zero": 1729,
+        "valid": 4096,
+        "wrong": 712
+      },
+      "forecast": {
+        "G": "16898400244211108292334981/19342813113834066795298816",
+        "I": "53/64",
+        "V": "782139867652843387742843/9671406556917033397649408",
+        "VI": "782139867652843387742843/9671406556917033397649408",
+        "Z": "-2221285215452250968167813/9671406556917033397649408",
+        "cost": "1",
+        "wrong": "11/64"
+      },
+      "record_chain_sha256": "e1bae365a12672cf4940eabe608e1ee33e1c6289a79d692cd27a389a916e0024",
+      "seconds": 3.309379300000728,
+      "world": "s05"
+    },
+    {
+      "arm": "no_paid",
+      "counts": {
+        "G2": 5943,
+        "I": 2051,
+        "V": 204,
+        "VI": 204,
+        "attempts": 4096,
+        "cost8": 0,
+        "finish": 2051,
+        "intake": 4096,
+        "max_cost8": 0,
+        "operations": 34831,
+        "proposal_one": 1012,
+        "proposal_zero": 1039,
+        "valid": 4096,
+        "wrong": 2045
+      },
+      "forecast": {
+        "G": "438589826362036065274385/604462909807314587353088",
+        "I": "1/2",
+        "V": "14757355993449875240431/302231454903657293676544",
+        "VI": "14757355993449875240431/302231454903657293676544",
+        "Z": "-41911041800985867323921/302231454903657293676544",
+        "cost": "0",
+        "wrong": "1/2"
+      },
+      "record_chain_sha256": "c57267c0248c4d8ad2bc0b963a3cbfc105d10e025b0ff87afef4b38e1195d1ae",
+      "seconds": 2.9691312000068137,
+      "world": "s05"
+    },
+    {
+      "arm": "pcx",
+      "counts": {
+        "G2": 6600,
+        "I": 2776,
+        "V": 272,
+        "VI": 272,
+        "attempts": 4096,
+        "cost8": 19343,
+        "finish": 2776,
+        "intake": 4096,
+        "max_cost8": 8,
+        "operations": 38456,
+        "proposal_one": 1362,
+        "proposal_zero": 1414,
+        "valid": 4096,
+        "wrong": 1320
+      },
+      "forecast": {
+        "G": "83199774337/103079215104",
+        "I": "65/96",
+        "V": "1078814165/17179869184",
+        "VI": "1078814165/17179869184",
+        "Z": "-3283261995/17179869184",
+        "cost": "7/12",
+        "wrong": "31/96"
+      },
+      "record_chain_sha256": "2fc163be042415aeb17e640437ad2f145f61af52979081e877e6ba90d875dace",
+      "seconds": 2.687120899994625,
+      "world": "s06"
+    },
+    {
+      "arm": "high_skip",
+      "counts": {
+        "G2": 6603,
+        "I": 2741,
+        "V": 234,
+        "VI": 234,
+        "attempts": 4096,
+        "cost8": 21528,
+        "finish": 2741,
+        "intake": 4096,
+        "max_cost8": 8,
+        "operations": 38281,
+        "proposal_one": 1334,
+        "proposal_zero": 1407,
+        "valid": 4096,
+        "wrong": 1355
+      },
+      "forecast": {
+        "G": "83199774337/103079215104",
+        "I": "65/96",
+        "V": "1078814165/17179869184",
+        "VI": "1078814165/17179869184",
+        "Z": "-3283261995/17179869184",
+        "cost": "2/3",
+        "wrong": "31/96"
+      },
+      "record_chain_sha256": "d596b6737015536aa4419783982d8ab0152b6f5f8809b62d7efae8422e858320",
+      "seconds": 2.620369500000379,
+      "world": "s06"
+    },
+    {
+      "arm": "low_only",
+      "counts": {
+        "G2": 6521,
+        "I": 2632,
+        "V": 207,
+        "VI": 207,
+        "attempts": 4096,
+        "cost8": 12288,
+        "finish": 2632,
+        "intake": 4096,
+        "max_cost8": 3,
+        "operations": 37736,
+        "proposal_one": 1249,
+        "proposal_zero": 1383,
+        "valid": 4096,
+        "wrong": 1464
+      },
+      "forecast": {
+        "G": "108172915345/137438953472",
+        "I": "81/128",
+        "V": "4033105263/68719476736",
+        "VI": "4033105263/68719476736",
+        "Z": "-12274348689/68719476736",
+        "cost": "3/8",
+        "wrong": "47/128"
+      },
+      "record_chain_sha256": "7a49d1b7c46a407479a5df037b72c8bc57058ada211076bcf86bf8a0ac7501d7",
+      "seconds": 2.5324715999886394,
+      "world": "s06"
+    },
+    {
+      "arm": "always_high",
+      "counts": {
+        "G2": 6989,
+        "I": 3165,
+        "V": 272,
+        "VI": 272,
+        "attempts": 4096,
+        "cost8": 32768,
+        "finish": 3165,
+        "intake": 4096,
+        "max_cost8": 8,
+        "operations": 40401,
+        "proposal_one": 1529,
+        "proposal_zero": 1636,
+        "valid": 4096,
+        "wrong": 931
+      },
+      "forecast": {
+        "G": "58226633329/68719476736",
+        "I": "49/64",
+        "V": "2439779727/34359738368",
+        "VI": "2439779727/34359738368",
+        "Z": "-7425223281/34359738368",
+        "cost": "1",
+        "wrong": "15/64"
+      },
+      "record_chain_sha256": "4a4d628739d2299fdfdea512556daa2601aab930b0bbf791a2b511833c4a84e1",
+      "seconds": 2.8758992000075523,
+      "world": "s06"
+    },
+    {
+      "arm": "no_paid",
+      "counts": {
+        "G2": 5959,
+        "I": 2033,
+        "V": 170,
+        "VI": 170,
+        "attempts": 4096,
+        "cost8": 0,
+        "finish": 2033,
+        "intake": 4096,
+        "max_cost8": 0,
+        "operations": 34741,
+        "proposal_one": 967,
+        "proposal_zero": 1066,
+        "valid": 4096,
+        "wrong": 2063
+      },
+      "forecast": {
+        "G": "1560821313/2147483648",
+        "I": "1/2",
+        "V": "49791423/1073741824",
+        "VI": "49791423/1073741824",
+        "Z": "-151535169/1073741824",
+        "cost": "0",
+        "wrong": "1/2"
+      },
+      "record_chain_sha256": "064fded12464f69ce8074d92b8ea451d37cd9ff82671bfb68ae053075f22e0d9",
+      "seconds": 2.297457199994824,
+      "world": "s06"
+    },
+    {
+      "arm": "pcx",
+      "counts": {
+        "G2": 4096,
+        "I": 1263,
+        "V": 307,
+        "VI": 307,
+        "attempts": 4096,
+        "cost8": 19008,
+        "finish": 1263,
+        "intake": 4096,
+        "max_cost8": 8,
+        "operations": 30891,
+        "proposal_one": 531,
+        "proposal_zero": 732,
+        "valid": 4096,
+        "wrong": 1263
+      },
+      "forecast": {
+        "G": "1/2",
+        "I": "5/16",
+        "V": "38805/524288",
+        "VI": "38805/524288",
+        "Z": "-22635/524288",
+        "cost": "7/12",
+        "wrong": "5/16"
+      },
+      "record_chain_sha256": "d78b8f5b1628c278f091565000d418fae537c74a183e2b7f003924f40c291bc5",
+      "seconds": 2.519372900002054,
+      "world": "s07"
+    },
+    {
+      "arm": "high_skip",
+      "counts": {
+        "G2": 4096,
+        "I": 1291,
+        "V": 301,
+        "VI": 301,
+        "attempts": 4096,
+        "cost8": 21560,
+        "finish": 1291,
+        "intake": 4096,
+        "max_cost8": 8,
+        "operations": 31031,
+        "proposal_one": 510,
+        "proposal_zero": 781,
+        "valid": 4096,
+        "wrong": 1291
+      },
+      "forecast": {
+        "G": "1/2",
+        "I": "5/16",
+        "V": "38805/524288",
+        "VI": "38805/524288",
+        "Z": "-22635/524288",
+        "cost": "2/3",
+        "wrong": "5/16"
+      },
+      "record_chain_sha256": "6ba9b8aa84ef74355b7958d157628eed17ce3be219784e720e939891851e1dcc",
+      "seconds": 2.35713050000777,
+      "world": "s07"
+    },
+    {
+      "arm": "low_only",
+      "counts": {
+        "G2": 4096,
+        "I": 1559,
+        "V": 395,
+        "VI": 395,
+        "attempts": 4096,
+        "cost8": 12288,
+        "finish": 1559,
+        "intake": 4096,
+        "max_cost8": 3,
+        "operations": 32371,
+        "proposal_one": 644,
+        "proposal_zero": 915,
+        "valid": 4096,
+        "wrong": 1559
+      },
+      "forecast": {
+        "G": "1/2",
+        "I": "23/64",
+        "V": "178503/2097152",
+        "VI": "178503/2097152",
+        "Z": "-104121/2097152",
+        "cost": "3/8",
+        "wrong": "23/64"
+      },
+      "record_chain_sha256": "5a0cf164c0f4fbe6374fa5c32b09054c13cd8f5d2eb368e513e913e18f3d0a15",
+      "seconds": 2.3436521000112407,
+      "world": "s07"
+    },
+    {
+      "arm": "always_high",
+      "counts": {
+        "G2": 4096,
+        "I": 882,
+        "V": 209,
+        "VI": 209,
+        "attempts": 4096,
+        "cost8": 32768,
+        "finish": 882,
+        "intake": 4096,
+        "max_cost8": 8,
+        "operations": 28986,
+        "proposal_one": 359,
+        "proposal_zero": 523,
+        "valid": 4096,
+        "wrong": 882
+      },
+      "forecast": {
+        "G": "1/2",
+        "I": "7/32",
+        "V": "54327/1048576",
+        "VI": "54327/1048576",
+        "Z": "-31689/1048576",
+        "cost": "1",
+        "wrong": "7/32"
+      },
+      "record_chain_sha256": "c97a95976048a0169a68ec3c40beaa4057d608ce484050c7e633d40086d55b19",
+      "seconds": 2.126957100001164,
+      "world": "s07"
+    },
+    {
+      "arm": "no_paid",
+      "counts": {
+        "G2": 4096,
+        "I": 1988,
+        "V": 494,
+        "VI": 494,
+        "attempts": 4096,
+        "cost8": 0,
+        "finish": 1988,
+        "intake": 4096,
+        "max_cost8": 0,
+        "operations": 34516,
+        "proposal_one": 846,
+        "proposal_zero": 1142,
+        "valid": 4096,
+        "wrong": 1988
+      },
+      "forecast": {
+        "G": "1/2",
+        "I": "1/2",
+        "V": "7761/65536",
+        "VI": "7761/65536",
+        "Z": "-4527/65536",
+        "cost": "0",
+        "wrong": "1/2"
+      },
+      "record_chain_sha256": "9ddd5a94d70b69f7f6c2451ce9042f8480bf18f98498cc62951ff23b0834af82",
+      "seconds": 2.0273719999968307,
+      "world": "s07"
+    },
+    {
+      "arm": "pcx",
+      "counts": {
+        "G2": 4096,
+        "I": 1119,
+        "V": 285,
+        "VI": 285,
+        "attempts": 4096,
+        "cost8": 19013,
+        "finish": 1119,
+        "intake": 4096,
+        "max_cost8": 8,
+        "operations": 30171,
+        "proposal_one": 548,
+        "proposal_zero": 571,
+        "valid": 4096,
+        "wrong": 1119
+      },
+      "forecast": {
+        "G": "1/2",
+        "I": "13/48",
+        "V": "37565567/536870912",
+        "VI": "37565567/536870912",
+        "Z": "-16960385/536870912",
+        "cost": "7/12",
+        "wrong": "13/48"
+      },
+      "record_chain_sha256": "2d3e6ab4c7435b2aac57ed22f0807b24ac208b9eda26b6118bdeacaa4af92578",
+      "seconds": 2.1823201999941375,
+      "world": "s08"
+    },
+    {
+      "arm": "high_skip",
+      "counts": {
+        "G2": 4096,
+        "I": 1091,
+        "V": 280,
+        "VI": 280,
+        "attempts": 4096,
+        "cost8": 21760,
+        "finish": 1091,
+        "intake": 4096,
+        "max_cost8": 8,
+        "operations": 30031,
+        "proposal_one": 562,
+        "proposal_zero": 529,
+        "valid": 4096,
+        "wrong": 1091
+      },
+      "forecast": {
+        "G": "1/2",
+        "I": "13/48",
+        "V": "37565567/536870912",
+        "VI": "37565567/536870912",
+        "Z": "-16960385/536870912",
+        "cost": "2/3",
+        "wrong": "13/48"
+      },
+      "record_chain_sha256": "98ca4c3b193cd857352ee09ec0d347be638b4f937232229d1038561cd21a6a9c",
+      "seconds": 2.040494499990018,
+      "world": "s08"
+    },
+    {
+      "arm": "low_only",
+      "counts": {
+        "G2": 4096,
+        "I": 1295,
+        "V": 321,
+        "VI": 321,
+        "attempts": 4096,
+        "cost8": 12288,
+        "finish": 1295,
+        "intake": 4096,
+        "max_cost8": 3,
+        "operations": 31051,
+        "proposal_one": 654,
+        "proposal_zero": 641,
+        "valid": 4096,
+        "wrong": 1295
+      },
+      "forecast": {
+        "G": "1/2",
+        "I": "21/64",
+        "V": "182048517/2147483648",
+        "VI": "182048517/2147483648",
+        "Z": "-82192635/2147483648",
+        "cost": "3/8",
+        "wrong": "21/64"
+      },
+      "record_chain_sha256": "fc8d388300f3e5c21302bc613a07233fa5933c8fdef9f490b228b6eb5c9f4a55",
+      "seconds": 1.9900288000062574,
+      "world": "s08"
+    },
+    {
+      "arm": "always_high",
+      "counts": {
+        "G2": 4096,
+        "I": 599,
+        "V": 134,
+        "VI": 134,
+        "attempts": 4096,
+        "cost8": 32768,
+        "finish": 599,
+        "intake": 4096,
+        "max_cost8": 8,
+        "operations": 27571,
+        "proposal_one": 298,
+        "proposal_zero": 301,
+        "valid": 4096,
+        "wrong": 599
+      },
+      "forecast": {
+        "G": "1/2",
+        "I": "5/32",
+        "V": "43344885/1073741824",
+        "VI": "43344885/1073741824",
+        "Z": "-19569675/1073741824",
+        "cost": "1",
+        "wrong": "5/32"
+      },
+      "record_chain_sha256": "b16d5ff95dc7dd4c2ac4b84d9f11da10593eb94bef9348980f23f4bf6ea4424e",
+      "seconds": 1.9670131000020774,
+      "world": "s08"
+    },
+    {
+      "arm": "no_paid",
+      "counts": {
+        "G2": 4096,
+        "I": 2072,
+        "V": 538,
+        "VI": 538,
+        "attempts": 4096,
+        "cost8": 0,
+        "finish": 2072,
+        "intake": 4096,
+        "max_cost8": 0,
+        "operations": 34936,
+        "proposal_one": 1048,
+        "proposal_zero": 1024,
+        "valid": 4096,
+        "wrong": 2072
+      },
+      "forecast": {
+        "G": "1/2",
+        "I": "1/2",
+        "V": "8668977/67108864",
+        "VI": "8668977/67108864",
+        "Z": "-3913935/67108864",
+        "cost": "0",
+        "wrong": "1/2"
+      },
+      "record_chain_sha256": "6d743fe2210e6e431586a3cb0436a029622c426a1d0e5f2ab8eead5e7f8d017a",
+      "seconds": 2.040217499990831,
+      "world": "s08"
+    }
+  ],
+  "compressed_rows_sha256": "c42b80b33665f13b9aa22f30947711d22cb1313513f9509e112b8fe2a6015657",
+  "configuration": {
+    "primary_seed_commitment": "c7b36705d2230f2bfa4df69e03365ded65e4c190f5c33f816e9dd054596284fc",
+    "release_sha256": "f39b092a487d4fc058a29b596bd69e7c7af08873d69587109802237b6539ec16",
+    "round": 34323065
+  },
+  "failure_count": 0,
+  "fields": [
+    "world",
+    "arm",
+    "index",
+    "wrong",
+    "I",
+    "V",
+    "VI",
+    "G2",
+    "cost8",
+    "intake",
+    "finish",
+    "proposal",
+    "operations",
+    "record_sha256"
+  ],
+  "operation_seconds": 93.59487280000758,
+  "role": "primary",
+  "sample_per_cell": 4096,
+  "schema": 1,
+  "setup": [
+    {
+      "seconds": 0.0005586000042967498,
+      "verified_guard": {
+        "charge_eighths": 2,
+        "check": "guard",
+        "revision": "good",
+        "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+        "surcharge_bounds": [
+          "0",
+          "1/32"
+        ]
+      },
+      "world": "s01"
+    },
+    {
+      "seconds": 0.0006283000111579895,
+      "verified_guard": {
+        "charge_eighths": 2,
+        "check": "guard",
+        "revision": "good",
+        "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+        "surcharge_bounds": [
+          "0",
+          "1/32"
+        ]
+      },
+      "world": "s02"
+    },
+    {
+      "seconds": 0.0006379999977070838,
+      "verified_guard": {
+        "charge_eighths": 2,
+        "check": "guard",
+        "revision": "good",
+        "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+        "surcharge_bounds": [
+          "0",
+          "1/32"
+        ]
+      },
+      "world": "s03"
+    },
+    {
+      "seconds": 0.000751599989598617,
+      "verified_guard": {
+        "charge_eighths": 2,
+        "check": "guard",
+        "revision": "good",
+        "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+        "surcharge_bounds": [
+          "0",
+          "1/32"
+        ]
+      },
+      "world": "s04"
+    },
+    {
+      "seconds": 0.0005626000056508929,
+      "verified_guard": {
+        "charge_eighths": 2,
+        "check": "guard",
+        "revision": "good",
+        "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+        "surcharge_bounds": [
+          "0",
+          "1/32"
+        ]
+      },
+      "world": "s05"
+    },
+    {
+      "seconds": 0.0007768000068608671,
+      "verified_guard": {
+        "charge_eighths": 2,
+        "check": "guard",
+        "revision": "good",
+        "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+        "surcharge_bounds": [
+          "0",
+          "1/32"
+        ]
+      },
+      "world": "s06"
+    },
+    {
+      "seconds": 0.0008214000117732212,
+      "verified_guard": {
+        "charge_eighths": 2,
+        "check": "guard",
+        "revision": "good",
+        "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+        "surcharge_bounds": [
+          "0",
+          "1/32"
+        ]
+      },
+      "world": "s07"
+    },
+    {
+      "seconds": 0.0006963000050745904,
+      "verified_guard": {
+        "charge_eighths": 2,
+        "check": "guard",
+        "revision": "good",
+        "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+        "surcharge_bounds": [
+          "0",
+          "1/32"
+        ]
+      },
+      "world": "s08"
+    }
+  ],
+  "source_pairs": [
+    {
+      "actual_violations": 7,
+      "nominal_violations": 7,
+      "ordinary": 64,
+      "ordinary_violations": 14,
+      "paired": 128,
+      "paired_issues": 76,
+      "record_chain_sha256": "a441d3ea1140572d1acda14b021d1a8fb260f5ae7788bac71e16d891fc9a22b0",
+      "seconds": 0.19781460000376683,
+      "strip": 0,
+      "world": "s01"
+    },
+    {
+      "actual_violations": 6,
+      "nominal_violations": 6,
+      "ordinary": 64,
+      "ordinary_violations": 52,
+      "paired": 128,
+      "paired_issues": 42,
+      "record_chain_sha256": "57f88ed60b1bf06427a4169cdc52fdce3e7a39f1b9e9590b6c5f2215dee242a7",
+      "seconds": 0.324368699992192,
+      "strip": 0,
+      "world": "s02"
+    },
+    {
+      "actual_violations": 7,
+      "nominal_violations": 5,
+      "ordinary": 64,
+      "ordinary_violations": 8,
+      "paired": 128,
+      "paired_issues": 92,
+      "record_chain_sha256": "5b17eaefcb8cac5abed4daf57ffd10523fed0acdb249423f381ca8f93c059824",
+      "seconds": 0.4523697999975411,
+      "strip": 2,
+      "world": "s03"
+    },
+    {
+      "actual_violations": 2,
+      "nominal_violations": 2,
+      "ordinary": 64,
+      "ordinary_violations": 55,
+      "paired": 128,
+      "paired_issues": 22,
+      "record_chain_sha256": "79c7c9b89b6dfc8d52d6a5738e90637528e5e8493ce746d73b2416b44a88d700",
+      "seconds": 0.26746499999717344,
+      "strip": 0,
+      "world": "s04"
+    },
+    {
+      "actual_violations": 5,
+      "nominal_violations": 3,
+      "ordinary": 64,
+      "ordinary_violations": 9,
+      "paired": 128,
+      "paired_issues": 97,
+      "record_chain_sha256": "d411a25344577d72bbc075e7553cab505011ea7da387ac7d4ef6f4cdde19879d",
+      "seconds": 0.4128569000022253,
+      "strip": 2,
+      "world": "s05"
+    },
+    {
+      "actual_violations": 6,
+      "nominal_violations": 6,
+      "ordinary": 64,
+      "ordinary_violations": 13,
+      "paired": 128,
+      "paired_issues": 72,
+      "record_chain_sha256": "688d5065eba7cc8350fbee6d8b5d5e54f7eed4c9f4292fb07ddbd3b3caea0631",
+      "seconds": 0.33463209999899846,
+      "strip": 0,
+      "world": "s06"
+    },
+    {
+      "actual_violations": 8,
+      "nominal_violations": 8,
+      "ordinary": 64,
+      "ordinary_violations": 49,
+      "paired": 128,
+      "paired_issues": 42,
+      "record_chain_sha256": "af857a609fd25a0c858f4b6a66d73abfb491b457d5d5b78b664ff74247c34ca7",
+      "seconds": 0.2714648999972269,
+      "strip": 0,
+      "world": "s07"
+    },
+    {
+      "actual_violations": 8,
+      "nominal_violations": 6,
+      "ordinary": 64,
+      "ordinary_violations": 54,
+      "paired": 128,
+      "paired_issues": 34,
+      "record_chain_sha256": "b7f0be1ece5f3aa1207f76d18afaa8a1babab62df3b51a56d70195246c94070b",
+      "seconds": 0.28146579999884125,
+      "strip": 2,
+      "world": "s08"
+    }
+  ],
+  "uncompressed_rows_sha256": "e3699bf54774bc2e60b099a1e538532d62cd3567cc19f62ef08d45c377cdf5de"
+}

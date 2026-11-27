@@ -1,0 +1,5 @@
+# Exact optimization evidence
+
+The complete supported menu gives a checked two-sign price certificate and concrete controller at 7/12. On the same finite terminated source the high-plus-skip optimum is 2/3. The low-plus-skip menu cannot meet uniform error 1/3. In the separately authorized direct-enabled regime a stronger native observation gives 1/6 at the same target error. [Exact proofs, same-menu lift and comparator scopes](../../comparators/OPTIMIZATION.md)
+
+The counted and full-history feasible performances agree under the checked route and complete delivered prelude. The actual-parameter mesh supplies (L=7/12) and finite validated upper (121/192), with a concrete policy costing (239/384) and a refined certified upper (233/384). The grid comparison uses the original U.G2 positive-coverage constraint and actual base surcharge-invariant prefix. The main policy independently meets its extra all-world exposure bound by exact forecast. [Grid and graph evidence](../../comparators/count-flow-measurements.json)

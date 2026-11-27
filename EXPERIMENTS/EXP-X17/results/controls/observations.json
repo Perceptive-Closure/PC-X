@@ -1,0 +1,3231 @@
+{
+  "C01": {
+    "guard": {
+      "charge_eighths": 2,
+      "check": "guard",
+      "revision": "bad",
+      "signature": "1198ba11e7e943ea60a044f275e6f296c3242a17c30cfeaae0048925ea199dbd",
+      "surcharge_bounds": [
+        "1/2",
+        "1/2"
+      ]
+    },
+    "lab": {
+      "artifacts": {
+        "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e": "{\"inventory\":{\"cap\":8,\"gasket\":11,\"sleeve\":6},\"source_digest\":\"3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2\",\"staging_destination\":\"L\",\"variance\":{\"cap\":-1,\"gasket\":0,\"sleeve\":1}}",
+        "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2": "{\n  \"book\": {\"cap\": 9, \"gasket\": 11, \"sleeve\": 5},\n  \"expected_route\": \"L\",\n  \"routing\": {\"north\": \"L\", \"south\": \"R\"},\n  \"scans\": [\n    {\"lot\": \"N-001\", \"quantity\": 5, \"sku\": \"cap\"},\n    {\"lot\": \"N-002\", \"quantity\": 7, \"sku\": \"gasket\"},\n    {\"lot\": \"N-003\", \"quantity\": 3, \"sku\": \"cap\"},\n    {\"lot\": \"N-004\", \"quantity\": 6, \"sku\": \"sleeve\"},\n    {\"lot\": \"N-005\", \"quantity\": 4, \"sku\": \"gasket\"}\n  ],\n  \"zone\": \"north\"\n}\n",
+        "b72a816b4f3a8ccd782785a13ba83fce3f938d70b04bfa144b4cfa58762c2196": "{\"destination\":\"L\",\"intake_digest\":\"194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e\",\"inventory\":{\"cap\":8,\"gasket\":11,\"sleeve\":6}}"
+      },
+      "row": {
+        "attempt_id": "bad-lab",
+        "final_digest": "b72a816b4f3a8ccd782785a13ba83fce3f938d70b04bfa144b4cfa58762c2196",
+        "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+        "mechanism": "actual",
+        "source_digest": "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2",
+        "trace": {
+          "authorized_route": "L",
+          "command": "high:L",
+          "control": "C01",
+          "declaration": true,
+          "denials": [],
+          "draws": [
+            {
+              "domain": "prelude",
+              "index": 0,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 125836
+            },
+            {
+              "domain": "prelude",
+              "index": 1,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 58313
+            },
+            {
+              "domain": "prelude",
+              "index": 2,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 98267
+            },
+            {
+              "domain": "prelude",
+              "index": 3,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 29439
+            },
+            {
+              "domain": "prelude",
+              "index": 4,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 9413
+            },
+            {
+              "domain": "prelude",
+              "index": 5,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 72242
+            },
+            {
+              "domain": "prelude",
+              "index": 6,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 108063
+            },
+            {
+              "domain": "probe",
+              "index": 0,
+              "rejected": 0,
+              "upper": 256,
+              "word": 71
+            },
+            {
+              "domain": "final",
+              "index": 0,
+              "rejected": 0,
+              "upper": 1024,
+              "word": 703
+            }
+          ],
+          "events": [
+            "opened",
+            "prelude",
+            "reconciled",
+            "receipt-delivered",
+            "probe",
+            "declaration",
+            "finalizer-authorized",
+            "finalizer-invoked",
+            "proposal",
+            "final-draw",
+            "finalizer-committed"
+          ],
+          "guard_required": false,
+          "installation_digest": "75d30962bfd3b11177b9be647e6cdfd3a0e5812009dbe0c468645d612b3d109e",
+          "paid_eighths": 8,
+          "proposal": 0,
+          "public_intake": {
+            "prelude": [
+              1,
+              0,
+              1,
+              1,
+              1,
+              0,
+              1
+            ],
+            "route_receipt": {
+              "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+              "route": "L",
+              "signature": "79f1b16ea526c66d8a8cbd2bfbd0ec6833ccc77fe511503a9e116e474f94f6e5"
+            }
+          },
+          "response": 0,
+          "seed": 0,
+          "source_checks": [
+            {
+              "charge_eighths": 2,
+              "check": "guard",
+              "revision": "bad",
+              "signature": "1198ba11e7e943ea60a044f275e6f296c3242a17c30cfeaae0048925ea199dbd",
+              "surcharge_bounds": [
+                "1/2",
+                "1/2"
+              ]
+            },
+            {
+              "charge_eighths": 2,
+              "check": "guard",
+              "revision": "bad",
+              "signature": "1198ba11e7e943ea60a044f275e6f296c3242a17c30cfeaae0048925ea199dbd",
+              "surcharge_bounds": [
+                "1/2",
+                "1/2"
+              ]
+            }
+          ],
+          "status": "completed",
+          "version": 1,
+          "world": {
+            "B": "bad",
+            "N": 7,
+            "beta": "1/2",
+            "k": "L",
+            "m": 1,
+            "theta": "33/256"
+          }
+        }
+      },
+      "score": {
+        "actual_destination": "L",
+        "expected_route": "L",
+        "finalized": true,
+        "finish_violation": false,
+        "intake_complete": true,
+        "intake_violation": false,
+        "issued": true,
+        "paid_eighths": 8,
+        "target_positive": true,
+        "utility_halves": 2,
+        "violating_issue": false,
+        "violation": false,
+        "wrong_declaration": false
+      }
+    },
+    "rejection": "good_guard_required"
+  },
+  "C02": {
+    "guard": "guard_receipt_suppressed",
+    "ordinary": {
+      "charge_eighths": 1,
+      "check": "ordinary",
+      "ordinary_spec": {
+        "label_cutoff": "1/2",
+        "primitive": "ordinary-routing-v1",
+        "violation_law": "Bernoulli(theta)"
+      },
+      "signature": "1a6872c7d1c6b3720e7c59dc4721fa5440eab0f84df42328e1b0be8a46517a16"
+    },
+    "rejection": "good_guard_required"
+  },
+  "C03": {
+    "artifacts": {
+      "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e": "{\"inventory\":{\"cap\":8,\"gasket\":11,\"sleeve\":6},\"source_digest\":\"3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2\",\"staging_destination\":\"L\",\"variance\":{\"cap\":-1,\"gasket\":0,\"sleeve\":1}}",
+      "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2": "{\n  \"book\": {\"cap\": 9, \"gasket\": 11, \"sleeve\": 5},\n  \"expected_route\": \"L\",\n  \"routing\": {\"north\": \"L\", \"south\": \"R\"},\n  \"scans\": [\n    {\"lot\": \"N-001\", \"quantity\": 5, \"sku\": \"cap\"},\n    {\"lot\": \"N-002\", \"quantity\": 7, \"sku\": \"gasket\"},\n    {\"lot\": \"N-003\", \"quantity\": 3, \"sku\": \"cap\"},\n    {\"lot\": \"N-004\", \"quantity\": 6, \"sku\": \"sleeve\"},\n    {\"lot\": \"N-005\", \"quantity\": 4, \"sku\": \"gasket\"}\n  ],\n  \"zone\": \"north\"\n}\n"
+    },
+    "row": {
+      "attempt_id": "C03",
+      "final_digest": null,
+      "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+      "mechanism": "actual",
+      "source_digest": "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2",
+      "trace": {
+        "authorized_route": null,
+        "command": "low:L",
+        "control": "C03",
+        "declaration": false,
+        "denials": [
+          "wrong_route"
+        ],
+        "draws": [
+          {
+            "domain": "prelude",
+            "index": 0,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 125836
+          },
+          {
+            "domain": "prelude",
+            "index": 1,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 58313
+          },
+          {
+            "domain": "prelude",
+            "index": 2,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 98267
+          },
+          {
+            "domain": "prelude",
+            "index": 3,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 29439
+          },
+          {
+            "domain": "prelude",
+            "index": 4,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 9413
+          },
+          {
+            "domain": "prelude",
+            "index": 5,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 72242
+          },
+          {
+            "domain": "prelude",
+            "index": 6,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 108063
+          },
+          {
+            "domain": "probe",
+            "index": 0,
+            "rejected": 0,
+            "upper": 512,
+            "word": 307
+          }
+        ],
+        "events": [
+          "opened",
+          "prelude",
+          "reconciled",
+          "receipt-delivered",
+          "denied",
+          "probe",
+          "declaration"
+        ],
+        "guard_required": true,
+        "installation_digest": "7a341333bc21f3f007bbda1cf8df3f3f14966e3afabd6f7d008ec6028f0b4204",
+        "paid_eighths": 3,
+        "proposal": null,
+        "public_intake": {
+          "prelude": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "route_receipt": {
+            "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+            "route": "L",
+            "signature": "79f1b16ea526c66d8a8cbd2bfbd0ec6833ccc77fe511503a9e116e474f94f6e5"
+          }
+        },
+        "response": 0,
+        "seed": 0,
+        "source_checks": [
+          {
+            "charge_eighths": 2,
+            "check": "guard",
+            "revision": "good",
+            "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+            "surcharge_bounds": [
+              "0",
+              "1/32"
+            ]
+          }
+        ],
+        "status": "completed",
+        "version": 1,
+        "world": {
+          "B": "good",
+          "N": 7,
+          "beta": "3/512",
+          "k": "L",
+          "m": 1,
+          "theta": "33/256"
+        }
+      }
+    },
+    "score": {
+      "actual_destination": null,
+      "expected_route": "L",
+      "finalized": false,
+      "finish_violation": false,
+      "intake_complete": true,
+      "intake_violation": false,
+      "issued": false,
+      "paid_eighths": 3,
+      "target_positive": true,
+      "utility_halves": 1,
+      "violating_issue": false,
+      "violation": false,
+      "wrong_declaration": true
+    }
+  },
+  "C04": {
+    "artifacts": {
+      "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e": "{\"inventory\":{\"cap\":8,\"gasket\":11,\"sleeve\":6},\"source_digest\":\"3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2\",\"staging_destination\":\"L\",\"variance\":{\"cap\":-1,\"gasket\":0,\"sleeve\":1}}",
+      "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2": "{\n  \"book\": {\"cap\": 9, \"gasket\": 11, \"sleeve\": 5},\n  \"expected_route\": \"L\",\n  \"routing\": {\"north\": \"L\", \"south\": \"R\"},\n  \"scans\": [\n    {\"lot\": \"N-001\", \"quantity\": 5, \"sku\": \"cap\"},\n    {\"lot\": \"N-002\", \"quantity\": 7, \"sku\": \"gasket\"},\n    {\"lot\": \"N-003\", \"quantity\": 3, \"sku\": \"cap\"},\n    {\"lot\": \"N-004\", \"quantity\": 6, \"sku\": \"sleeve\"},\n    {\"lot\": \"N-005\", \"quantity\": 4, \"sku\": \"gasket\"}\n  ],\n  \"zone\": \"north\"\n}\n"
+    },
+    "row": {
+      "attempt_id": "C04",
+      "final_digest": null,
+      "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+      "mechanism": "actual",
+      "source_digest": "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2",
+      "trace": {
+        "authorized_route": null,
+        "command": "low:L",
+        "control": "C04",
+        "declaration": false,
+        "denials": [
+          "repeated_probe"
+        ],
+        "draws": [
+          {
+            "domain": "prelude",
+            "index": 0,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 125836
+          },
+          {
+            "domain": "prelude",
+            "index": 1,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 58313
+          },
+          {
+            "domain": "prelude",
+            "index": 2,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 98267
+          },
+          {
+            "domain": "prelude",
+            "index": 3,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 29439
+          },
+          {
+            "domain": "prelude",
+            "index": 4,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 9413
+          },
+          {
+            "domain": "prelude",
+            "index": 5,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 72242
+          },
+          {
+            "domain": "prelude",
+            "index": 6,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 108063
+          },
+          {
+            "domain": "probe",
+            "index": 0,
+            "rejected": 0,
+            "upper": 512,
+            "word": 307
+          }
+        ],
+        "events": [
+          "opened",
+          "prelude",
+          "reconciled",
+          "receipt-delivered",
+          "probe",
+          "denied",
+          "declaration"
+        ],
+        "guard_required": true,
+        "installation_digest": "7a341333bc21f3f007bbda1cf8df3f3f14966e3afabd6f7d008ec6028f0b4204",
+        "paid_eighths": 3,
+        "proposal": null,
+        "public_intake": {
+          "prelude": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "route_receipt": {
+            "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+            "route": "L",
+            "signature": "79f1b16ea526c66d8a8cbd2bfbd0ec6833ccc77fe511503a9e116e474f94f6e5"
+          }
+        },
+        "response": 0,
+        "seed": 0,
+        "source_checks": [
+          {
+            "charge_eighths": 2,
+            "check": "guard",
+            "revision": "good",
+            "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+            "surcharge_bounds": [
+              "0",
+              "1/32"
+            ]
+          }
+        ],
+        "status": "completed",
+        "version": 1,
+        "world": {
+          "B": "good",
+          "N": 7,
+          "beta": "3/512",
+          "k": "L",
+          "m": 1,
+          "theta": "33/256"
+        }
+      }
+    },
+    "score": {
+      "actual_destination": null,
+      "expected_route": "L",
+      "finalized": false,
+      "finish_violation": false,
+      "intake_complete": true,
+      "intake_violation": false,
+      "issued": false,
+      "paid_eighths": 3,
+      "target_positive": true,
+      "utility_halves": 1,
+      "violating_issue": false,
+      "violation": false,
+      "wrong_declaration": true
+    }
+  },
+  "C05": {
+    "artifacts": {
+      "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e": "{\"inventory\":{\"cap\":8,\"gasket\":11,\"sleeve\":6},\"source_digest\":\"3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2\",\"staging_destination\":\"L\",\"variance\":{\"cap\":-1,\"gasket\":0,\"sleeve\":1}}",
+      "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2": "{\n  \"book\": {\"cap\": 9, \"gasket\": 11, \"sleeve\": 5},\n  \"expected_route\": \"L\",\n  \"routing\": {\"north\": \"L\", \"south\": \"R\"},\n  \"scans\": [\n    {\"lot\": \"N-001\", \"quantity\": 5, \"sku\": \"cap\"},\n    {\"lot\": \"N-002\", \"quantity\": 7, \"sku\": \"gasket\"},\n    {\"lot\": \"N-003\", \"quantity\": 3, \"sku\": \"cap\"},\n    {\"lot\": \"N-004\", \"quantity\": 6, \"sku\": \"sleeve\"},\n    {\"lot\": \"N-005\", \"quantity\": 4, \"sku\": \"gasket\"}\n  ],\n  \"zone\": \"north\"\n}\n"
+    },
+    "row": {
+      "attempt_id": "C05",
+      "final_digest": null,
+      "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+      "mechanism": "actual",
+      "source_digest": "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2",
+      "trace": {
+        "authorized_route": null,
+        "command": "skip",
+        "control": "C05",
+        "declaration": false,
+        "denials": [
+          "missing_route_receipt",
+          "missing_finish_authority"
+        ],
+        "draws": [
+          {
+            "domain": "prelude",
+            "index": 0,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 125836
+          },
+          {
+            "domain": "prelude",
+            "index": 1,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 58313
+          },
+          {
+            "domain": "prelude",
+            "index": 2,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 98267
+          },
+          {
+            "domain": "prelude",
+            "index": 3,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 29439
+          },
+          {
+            "domain": "prelude",
+            "index": 4,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 9413
+          },
+          {
+            "domain": "prelude",
+            "index": 5,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 72242
+          },
+          {
+            "domain": "prelude",
+            "index": 6,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 108063
+          }
+        ],
+        "events": [
+          "opened",
+          "prelude",
+          "reconciled",
+          "denied",
+          "probe",
+          "denied",
+          "declaration"
+        ],
+        "guard_required": true,
+        "installation_digest": "7a341333bc21f3f007bbda1cf8df3f3f14966e3afabd6f7d008ec6028f0b4204",
+        "paid_eighths": 0,
+        "proposal": null,
+        "public_intake": {
+          "prelude": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "route_receipt": null
+        },
+        "response": null,
+        "seed": 0,
+        "source_checks": [
+          {
+            "charge_eighths": 2,
+            "check": "guard",
+            "revision": "good",
+            "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+            "surcharge_bounds": [
+              "0",
+              "1/32"
+            ]
+          }
+        ],
+        "status": "completed",
+        "version": 1,
+        "world": {
+          "B": "good",
+          "N": 7,
+          "beta": "3/512",
+          "k": "L",
+          "m": 1,
+          "theta": "33/256"
+        }
+      }
+    },
+    "score": {
+      "actual_destination": null,
+      "expected_route": "L",
+      "finalized": false,
+      "finish_violation": false,
+      "intake_complete": true,
+      "intake_violation": false,
+      "issued": false,
+      "paid_eighths": 0,
+      "target_positive": true,
+      "utility_halves": 1,
+      "violating_issue": false,
+      "violation": false,
+      "wrong_declaration": true
+    }
+  },
+  "C06": {
+    "valid_zero_paid": [
+      {
+        "artifacts": {
+          "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e": "{\"inventory\":{\"cap\":8,\"gasket\":11,\"sleeve\":6},\"source_digest\":\"3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2\",\"staging_destination\":\"L\",\"variance\":{\"cap\":-1,\"gasket\":0,\"sleeve\":1}}",
+          "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2": "{\n  \"book\": {\"cap\": 9, \"gasket\": 11, \"sleeve\": 5},\n  \"expected_route\": \"L\",\n  \"routing\": {\"north\": \"L\", \"south\": \"R\"},\n  \"scans\": [\n    {\"lot\": \"N-001\", \"quantity\": 5, \"sku\": \"cap\"},\n    {\"lot\": \"N-002\", \"quantity\": 7, \"sku\": \"gasket\"},\n    {\"lot\": \"N-003\", \"quantity\": 3, \"sku\": \"cap\"},\n    {\"lot\": \"N-004\", \"quantity\": 6, \"sku\": \"sleeve\"},\n    {\"lot\": \"N-005\", \"quantity\": 4, \"sku\": \"gasket\"}\n  ],\n  \"zone\": \"north\"\n}\n",
+          "b72a816b4f3a8ccd782785a13ba83fce3f938d70b04bfa144b4cfa58762c2196": "{\"destination\":\"L\",\"intake_digest\":\"194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e\",\"inventory\":{\"cap\":8,\"gasket\":11,\"sleeve\":6}}"
+        },
+        "row": {
+          "attempt_id": "disclosed-skip-0",
+          "final_digest": "b72a816b4f3a8ccd782785a13ba83fce3f938d70b04bfa144b4cfa58762c2196",
+          "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+          "mechanism": "actual",
+          "source_digest": "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2",
+          "trace": {
+            "authorized_route": "L",
+            "command": "skip:L",
+            "control": "C06",
+            "declaration": true,
+            "denials": [],
+            "draws": [
+              {
+                "domain": "prelude",
+                "index": 0,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 125836
+              },
+              {
+                "domain": "prelude",
+                "index": 1,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 58313
+              },
+              {
+                "domain": "prelude",
+                "index": 2,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 98267
+              },
+              {
+                "domain": "prelude",
+                "index": 3,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 29439
+              },
+              {
+                "domain": "prelude",
+                "index": 4,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 9413
+              },
+              {
+                "domain": "prelude",
+                "index": 5,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 72242
+              },
+              {
+                "domain": "prelude",
+                "index": 6,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 108063
+              },
+              {
+                "domain": "final",
+                "index": 0,
+                "rejected": 0,
+                "upper": 1024,
+                "word": 703
+              }
+            ],
+            "events": [
+              "opened",
+              "prelude",
+              "reconciled",
+              "receipt-delivered",
+              "probe",
+              "declaration",
+              "finalizer-authorized",
+              "finalizer-invoked",
+              "proposal",
+              "final-draw",
+              "finalizer-committed"
+            ],
+            "guard_required": true,
+            "installation_digest": "7a341333bc21f3f007bbda1cf8df3f3f14966e3afabd6f7d008ec6028f0b4204",
+            "paid_eighths": 0,
+            "proposal": 0,
+            "public_intake": {
+              "prelude": [
+                1,
+                0,
+                1,
+                1,
+                1,
+                0,
+                1
+              ],
+              "route_receipt": {
+                "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+                "route": "L",
+                "signature": "79f1b16ea526c66d8a8cbd2bfbd0ec6833ccc77fe511503a9e116e474f94f6e5"
+              },
+              "source_fact": "positive"
+            },
+            "response": null,
+            "seed": 0,
+            "source_checks": [
+              {
+                "charge_eighths": 2,
+                "check": "guard",
+                "revision": "good",
+                "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+                "surcharge_bounds": [
+                  "0",
+                  "1/32"
+                ]
+              }
+            ],
+            "status": "completed",
+            "version": 1,
+            "world": {
+              "B": "good",
+              "N": 7,
+              "beta": "3/512",
+              "k": "L",
+              "m": 1,
+              "theta": "33/256"
+            }
+          }
+        },
+        "score": {
+          "actual_destination": "L",
+          "expected_route": "L",
+          "finalized": true,
+          "finish_violation": false,
+          "intake_complete": true,
+          "intake_violation": false,
+          "issued": true,
+          "paid_eighths": 0,
+          "target_positive": true,
+          "utility_halves": 2,
+          "violating_issue": false,
+          "violation": false,
+          "wrong_declaration": false
+        }
+      },
+      {
+        "artifacts": {
+          "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e": "{\"inventory\":{\"cap\":8,\"gasket\":11,\"sleeve\":6},\"source_digest\":\"3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2\",\"staging_destination\":\"L\",\"variance\":{\"cap\":-1,\"gasket\":0,\"sleeve\":1}}",
+          "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2": "{\n  \"book\": {\"cap\": 9, \"gasket\": 11, \"sleeve\": 5},\n  \"expected_route\": \"L\",\n  \"routing\": {\"north\": \"L\", \"south\": \"R\"},\n  \"scans\": [\n    {\"lot\": \"N-001\", \"quantity\": 5, \"sku\": \"cap\"},\n    {\"lot\": \"N-002\", \"quantity\": 7, \"sku\": \"gasket\"},\n    {\"lot\": \"N-003\", \"quantity\": 3, \"sku\": \"cap\"},\n    {\"lot\": \"N-004\", \"quantity\": 6, \"sku\": \"sleeve\"},\n    {\"lot\": \"N-005\", \"quantity\": 4, \"sku\": \"gasket\"}\n  ],\n  \"zone\": \"north\"\n}\n"
+        },
+        "row": {
+          "attempt_id": "disclosed-skip-1",
+          "final_digest": null,
+          "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+          "mechanism": "actual",
+          "source_digest": "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2",
+          "trace": {
+            "authorized_route": null,
+            "command": "skip:L",
+            "control": "C06",
+            "declaration": false,
+            "denials": [],
+            "draws": [
+              {
+                "domain": "prelude",
+                "index": 0,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 28470
+              },
+              {
+                "domain": "prelude",
+                "index": 1,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 96739
+              },
+              {
+                "domain": "prelude",
+                "index": 2,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 96406
+              },
+              {
+                "domain": "prelude",
+                "index": 3,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 63970
+              },
+              {
+                "domain": "prelude",
+                "index": 4,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 52171
+              },
+              {
+                "domain": "prelude",
+                "index": 5,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 67387
+              },
+              {
+                "domain": "prelude",
+                "index": 6,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 34453
+              }
+            ],
+            "events": [
+              "opened",
+              "prelude",
+              "reconciled",
+              "receipt-delivered",
+              "probe",
+              "declaration"
+            ],
+            "guard_required": true,
+            "installation_digest": "83741a7cc167091a2496fe0f5551949d9cbe841f96195ff2e7a9068d23ade909",
+            "paid_eighths": 0,
+            "proposal": null,
+            "public_intake": {
+              "prelude": [
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0
+              ],
+              "route_receipt": {
+                "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+                "route": "L",
+                "signature": "79f1b16ea526c66d8a8cbd2bfbd0ec6833ccc77fe511503a9e116e474f94f6e5"
+              },
+              "source_fact": "negative"
+            },
+            "response": null,
+            "seed": 1,
+            "source_checks": [
+              {
+                "charge_eighths": 2,
+                "check": "guard",
+                "revision": "good",
+                "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+                "surcharge_bounds": [
+                  "0",
+                  "1/32"
+                ]
+              }
+            ],
+            "status": "completed",
+            "version": 1,
+            "world": {
+              "B": "good",
+              "N": 7,
+              "beta": "3/512",
+              "k": "L",
+              "m": 1,
+              "theta": "223/256"
+            }
+          }
+        },
+        "score": {
+          "actual_destination": null,
+          "expected_route": "L",
+          "finalized": false,
+          "finish_violation": false,
+          "intake_complete": true,
+          "intake_violation": false,
+          "issued": false,
+          "paid_eighths": 0,
+          "target_positive": false,
+          "utility_halves": 1,
+          "violating_issue": false,
+          "violation": false,
+          "wrong_declaration": false
+        }
+      }
+    ]
+  },
+  "C07": {
+    "opposite_delivered_records": [
+      {
+        "artifacts": {
+          "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e": "{\"inventory\":{\"cap\":8,\"gasket\":11,\"sleeve\":6},\"source_digest\":\"3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2\",\"staging_destination\":\"L\",\"variance\":{\"cap\":-1,\"gasket\":0,\"sleeve\":1}}",
+          "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2": "{\n  \"book\": {\"cap\": 9, \"gasket\": 11, \"sleeve\": 5},\n  \"expected_route\": \"L\",\n  \"routing\": {\"north\": \"L\", \"south\": \"R\"},\n  \"scans\": [\n    {\"lot\": \"N-001\", \"quantity\": 5, \"sku\": \"cap\"},\n    {\"lot\": \"N-002\", \"quantity\": 7, \"sku\": \"gasket\"},\n    {\"lot\": \"N-003\", \"quantity\": 3, \"sku\": \"cap\"},\n    {\"lot\": \"N-004\", \"quantity\": 6, \"sku\": \"sleeve\"},\n    {\"lot\": \"N-005\", \"quantity\": 4, \"sku\": \"gasket\"}\n  ],\n  \"zone\": \"north\"\n}\n"
+        },
+        "row": {
+          "attempt_id": "C07+",
+          "final_digest": null,
+          "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+          "mechanism": "actual",
+          "source_digest": "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2",
+          "trace": {
+            "authorized_route": null,
+            "command": "skip:L",
+            "control": "C07",
+            "declaration": false,
+            "denials": [],
+            "draws": [
+              {
+                "domain": "prelude",
+                "index": 0,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 125836
+              },
+              {
+                "domain": "prelude",
+                "index": 1,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 58313
+              },
+              {
+                "domain": "prelude",
+                "index": 2,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 98267
+              },
+              {
+                "domain": "prelude",
+                "index": 3,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 29439
+              },
+              {
+                "domain": "prelude",
+                "index": 4,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 9413
+              },
+              {
+                "domain": "prelude",
+                "index": 5,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 72242
+              },
+              {
+                "domain": "prelude",
+                "index": 6,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 108063
+              }
+            ],
+            "events": [
+              "opened",
+              "prelude",
+              "reconciled",
+              "receipt-delivered",
+              "probe",
+              "declaration"
+            ],
+            "guard_required": true,
+            "installation_digest": "7a341333bc21f3f007bbda1cf8df3f3f14966e3afabd6f7d008ec6028f0b4204",
+            "paid_eighths": 0,
+            "proposal": null,
+            "public_intake": {
+              "intake_batch_class": "alpha",
+              "prelude": [
+                1,
+                0,
+                1,
+                1,
+                1,
+                0,
+                1
+              ],
+              "route_receipt": {
+                "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+                "route": "L",
+                "signature": "79f1b16ea526c66d8a8cbd2bfbd0ec6833ccc77fe511503a9e116e474f94f6e5"
+              }
+            },
+            "response": null,
+            "seed": 0,
+            "source_checks": [
+              {
+                "charge_eighths": 2,
+                "check": "guard",
+                "revision": "good",
+                "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+                "surcharge_bounds": [
+                  "0",
+                  "1/32"
+                ]
+              }
+            ],
+            "status": "completed",
+            "version": 1,
+            "world": {
+              "B": "good",
+              "N": 7,
+              "beta": "3/512",
+              "k": "L",
+              "m": 1,
+              "theta": "33/256"
+            }
+          }
+        },
+        "score": {
+          "actual_destination": null,
+          "expected_route": "L",
+          "finalized": false,
+          "finish_violation": false,
+          "intake_complete": true,
+          "intake_violation": false,
+          "issued": false,
+          "paid_eighths": 0,
+          "target_positive": true,
+          "utility_halves": 1,
+          "violating_issue": false,
+          "violation": false,
+          "wrong_declaration": true
+        }
+      },
+      {
+        "artifacts": {
+          "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e": "{\"inventory\":{\"cap\":8,\"gasket\":11,\"sleeve\":6},\"source_digest\":\"3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2\",\"staging_destination\":\"L\",\"variance\":{\"cap\":-1,\"gasket\":0,\"sleeve\":1}}",
+          "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2": "{\n  \"book\": {\"cap\": 9, \"gasket\": 11, \"sleeve\": 5},\n  \"expected_route\": \"L\",\n  \"routing\": {\"north\": \"L\", \"south\": \"R\"},\n  \"scans\": [\n    {\"lot\": \"N-001\", \"quantity\": 5, \"sku\": \"cap\"},\n    {\"lot\": \"N-002\", \"quantity\": 7, \"sku\": \"gasket\"},\n    {\"lot\": \"N-003\", \"quantity\": 3, \"sku\": \"cap\"},\n    {\"lot\": \"N-004\", \"quantity\": 6, \"sku\": \"sleeve\"},\n    {\"lot\": \"N-005\", \"quantity\": 4, \"sku\": \"gasket\"}\n  ],\n  \"zone\": \"north\"\n}\n"
+        },
+        "row": {
+          "attempt_id": "C07-",
+          "final_digest": null,
+          "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+          "mechanism": "actual",
+          "source_digest": "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2",
+          "trace": {
+            "authorized_route": null,
+            "command": "skip:L",
+            "control": "C07",
+            "declaration": false,
+            "denials": [],
+            "draws": [
+              {
+                "domain": "prelude",
+                "index": 0,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 125836
+              },
+              {
+                "domain": "prelude",
+                "index": 1,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 58313
+              },
+              {
+                "domain": "prelude",
+                "index": 2,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 98267
+              },
+              {
+                "domain": "prelude",
+                "index": 3,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 29439
+              },
+              {
+                "domain": "prelude",
+                "index": 4,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 9413
+              },
+              {
+                "domain": "prelude",
+                "index": 5,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 72242
+              },
+              {
+                "domain": "prelude",
+                "index": 6,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 108063
+              }
+            ],
+            "events": [
+              "opened",
+              "prelude",
+              "reconciled",
+              "receipt-delivered",
+              "probe",
+              "declaration"
+            ],
+            "guard_required": true,
+            "installation_digest": "83741a7cc167091a2496fe0f5551949d9cbe841f96195ff2e7a9068d23ade909",
+            "paid_eighths": 0,
+            "proposal": null,
+            "public_intake": {
+              "intake_batch_class": "beta",
+              "prelude": [
+                1,
+                0,
+                1,
+                1,
+                1,
+                0,
+                1
+              ],
+              "route_receipt": {
+                "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+                "route": "L",
+                "signature": "79f1b16ea526c66d8a8cbd2bfbd0ec6833ccc77fe511503a9e116e474f94f6e5"
+              }
+            },
+            "response": null,
+            "seed": 0,
+            "source_checks": [
+              {
+                "charge_eighths": 2,
+                "check": "guard",
+                "revision": "good",
+                "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+                "surcharge_bounds": [
+                  "0",
+                  "1/32"
+                ]
+              }
+            ],
+            "status": "completed",
+            "version": 1,
+            "world": {
+              "B": "good",
+              "N": 7,
+              "beta": "3/512",
+              "k": "L",
+              "m": 1,
+              "theta": "223/256"
+            }
+          }
+        },
+        "score": {
+          "actual_destination": null,
+          "expected_route": "L",
+          "finalized": false,
+          "finish_violation": false,
+          "intake_complete": true,
+          "intake_violation": false,
+          "issued": false,
+          "paid_eighths": 0,
+          "target_positive": false,
+          "utility_halves": 1,
+          "violating_issue": false,
+          "violation": false,
+          "wrong_declaration": false
+        }
+      }
+    ]
+  },
+  "C08": {
+    "exact_altered_cut": "103/1024",
+    "witness": {
+      "artifacts": {
+        "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e": "{\"inventory\":{\"cap\":8,\"gasket\":11,\"sleeve\":6},\"source_digest\":\"3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2\",\"staging_destination\":\"L\",\"variance\":{\"cap\":-1,\"gasket\":0,\"sleeve\":1}}",
+        "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2": "{\n  \"book\": {\"cap\": 9, \"gasket\": 11, \"sleeve\": 5},\n  \"expected_route\": \"L\",\n  \"routing\": {\"north\": \"L\", \"south\": \"R\"},\n  \"scans\": [\n    {\"lot\": \"N-001\", \"quantity\": 5, \"sku\": \"cap\"},\n    {\"lot\": \"N-002\", \"quantity\": 7, \"sku\": \"gasket\"},\n    {\"lot\": \"N-003\", \"quantity\": 3, \"sku\": \"cap\"},\n    {\"lot\": \"N-004\", \"quantity\": 6, \"sku\": \"sleeve\"},\n    {\"lot\": \"N-005\", \"quantity\": 4, \"sku\": \"gasket\"}\n  ],\n  \"zone\": \"north\"\n}\n",
+        "b72a816b4f3a8ccd782785a13ba83fce3f938d70b04bfa144b4cfa58762c2196": "{\"destination\":\"L\",\"intake_digest\":\"194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e\",\"inventory\":{\"cap\":8,\"gasket\":11,\"sleeve\":6}}"
+      },
+      "row": {
+        "attempt_id": "C08-0",
+        "final_digest": "b72a816b4f3a8ccd782785a13ba83fce3f938d70b04bfa144b4cfa58762c2196",
+        "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+        "mechanism": "actual",
+        "source_digest": "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2",
+        "trace": {
+          "authorized_route": "L",
+          "command": "high:L",
+          "control": "C08",
+          "declaration": true,
+          "denials": [],
+          "draws": [
+            {
+              "domain": "prelude",
+              "index": 0,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 125836
+            },
+            {
+              "domain": "prelude",
+              "index": 1,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 58313
+            },
+            {
+              "domain": "prelude",
+              "index": 2,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 98267
+            },
+            {
+              "domain": "prelude",
+              "index": 3,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 29439
+            },
+            {
+              "domain": "prelude",
+              "index": 4,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 9413
+            },
+            {
+              "domain": "prelude",
+              "index": 5,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 72242
+            },
+            {
+              "domain": "prelude",
+              "index": 6,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 108063
+            },
+            {
+              "domain": "probe",
+              "index": 0,
+              "rejected": 0,
+              "upper": 256,
+              "word": 71
+            },
+            {
+              "domain": "final",
+              "index": 0,
+              "rejected": 0,
+              "upper": 1024,
+              "word": 703
+            }
+          ],
+          "events": [
+            "opened",
+            "prelude",
+            "reconciled",
+            "receipt-delivered",
+            "probe",
+            "declaration",
+            "finalizer-authorized",
+            "finalizer-invoked",
+            "final-draw",
+            "proposal",
+            "finalizer-committed"
+          ],
+          "guard_required": true,
+          "installation_digest": "7a341333bc21f3f007bbda1cf8df3f3f14966e3afabd6f7d008ec6028f0b4204",
+          "paid_eighths": 8,
+          "proposal": 0,
+          "public_intake": {
+            "prelude": [
+              1,
+              0,
+              1,
+              1,
+              1,
+              0,
+              1
+            ],
+            "route_receipt": {
+              "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+              "route": "L",
+              "signature": "79f1b16ea526c66d8a8cbd2bfbd0ec6833ccc77fe511503a9e116e474f94f6e5"
+            }
+          },
+          "response": 0,
+          "seed": 0,
+          "source_checks": [
+            {
+              "charge_eighths": 2,
+              "check": "guard",
+              "revision": "good",
+              "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+              "surcharge_bounds": [
+                "0",
+                "1/32"
+              ]
+            }
+          ],
+          "status": "completed",
+          "version": 1,
+          "world": {
+            "B": "good",
+            "N": 7,
+            "beta": "3/512",
+            "k": "L",
+            "m": 1,
+            "theta": "33/256"
+          }
+        }
+      },
+      "score": {
+        "actual_destination": "L",
+        "expected_route": "L",
+        "finalized": true,
+        "finish_violation": false,
+        "intake_complete": true,
+        "intake_violation": false,
+        "issued": true,
+        "paid_eighths": 8,
+        "target_positive": true,
+        "utility_halves": 2,
+        "violating_issue": false,
+        "violation": false,
+        "wrong_declaration": false
+      }
+    }
+  },
+  "C09": {
+    "actual_event_pair": [
+      0,
+      1
+    ],
+    "mutated": {
+      "artifacts": {
+        "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e": "{\"inventory\":{\"cap\":8,\"gasket\":11,\"sleeve\":6},\"source_digest\":\"3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2\",\"staging_destination\":\"L\",\"variance\":{\"cap\":-1,\"gasket\":0,\"sleeve\":1}}",
+        "1ac706c93fcd2709b2edfb5fe6e004180aa7a2a7edf90d5430eec8d3079ac267": "{\"destination\":\"L\",\"intake_digest\":\"194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e\",\"inventory\":{\"cap\":9,\"gasket\":11,\"sleeve\":6}}",
+        "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2": "{\n  \"book\": {\"cap\": 9, \"gasket\": 11, \"sleeve\": 5},\n  \"expected_route\": \"L\",\n  \"routing\": {\"north\": \"L\", \"south\": \"R\"},\n  \"scans\": [\n    {\"lot\": \"N-001\", \"quantity\": 5, \"sku\": \"cap\"},\n    {\"lot\": \"N-002\", \"quantity\": 7, \"sku\": \"gasket\"},\n    {\"lot\": \"N-003\", \"quantity\": 3, \"sku\": \"cap\"},\n    {\"lot\": \"N-004\", \"quantity\": 6, \"sku\": \"sleeve\"},\n    {\"lot\": \"N-005\", \"quantity\": 4, \"sku\": \"gasket\"}\n  ],\n  \"zone\": \"north\"\n}\n"
+      },
+      "row": {
+        "attempt_id": "c09-mutation-0",
+        "final_digest": "1ac706c93fcd2709b2edfb5fe6e004180aa7a2a7edf90d5430eec8d3079ac267",
+        "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+        "mechanism": "actual",
+        "source_digest": "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2",
+        "trace": {
+          "authorized_route": "L",
+          "command": "high:L",
+          "control": "C09",
+          "declaration": true,
+          "denials": [],
+          "draws": [
+            {
+              "domain": "prelude",
+              "index": 0,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 125836
+            },
+            {
+              "domain": "prelude",
+              "index": 1,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 58313
+            },
+            {
+              "domain": "prelude",
+              "index": 2,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 98267
+            },
+            {
+              "domain": "prelude",
+              "index": 3,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 29439
+            },
+            {
+              "domain": "prelude",
+              "index": 4,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 9413
+            },
+            {
+              "domain": "prelude",
+              "index": 5,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 72242
+            },
+            {
+              "domain": "prelude",
+              "index": 6,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 108063
+            },
+            {
+              "domain": "probe",
+              "index": 0,
+              "rejected": 0,
+              "upper": 256,
+              "word": 71
+            },
+            {
+              "domain": "final",
+              "index": 0,
+              "rejected": 0,
+              "upper": 1024,
+              "word": 703
+            }
+          ],
+          "events": [
+            "opened",
+            "prelude",
+            "reconciled",
+            "receipt-delivered",
+            "probe",
+            "declaration",
+            "finalizer-authorized",
+            "finalizer-invoked",
+            "proposal",
+            "final-draw",
+            "finalizer-committed"
+          ],
+          "guard_required": true,
+          "installation_digest": "7a341333bc21f3f007bbda1cf8df3f3f14966e3afabd6f7d008ec6028f0b4204",
+          "paid_eighths": 8,
+          "proposal": 0,
+          "public_intake": {
+            "prelude": [
+              1,
+              0,
+              1,
+              1,
+              1,
+              0,
+              1
+            ],
+            "route_receipt": {
+              "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+              "route": "L",
+              "signature": "79f1b16ea526c66d8a8cbd2bfbd0ec6833ccc77fe511503a9e116e474f94f6e5"
+            }
+          },
+          "response": 0,
+          "seed": 0,
+          "source_checks": [
+            {
+              "charge_eighths": 2,
+              "check": "guard",
+              "revision": "good",
+              "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+              "surcharge_bounds": [
+                "0",
+                "1/32"
+              ]
+            }
+          ],
+          "status": "completed",
+          "version": 1,
+          "world": {
+            "B": "good",
+            "N": 7,
+            "beta": "3/512",
+            "k": "L",
+            "m": 1,
+            "theta": "33/256"
+          }
+        }
+      },
+      "score": {
+        "actual_destination": "L",
+        "expected_route": "L",
+        "finalized": true,
+        "finish_violation": true,
+        "intake_complete": true,
+        "intake_violation": false,
+        "issued": true,
+        "paid_eighths": 8,
+        "target_positive": true,
+        "utility_halves": 1,
+        "violating_issue": true,
+        "violation": true,
+        "wrong_declaration": false
+      }
+    },
+    "original": {
+      "artifacts": {
+        "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e": "{\"inventory\":{\"cap\":8,\"gasket\":11,\"sleeve\":6},\"source_digest\":\"3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2\",\"staging_destination\":\"L\",\"variance\":{\"cap\":-1,\"gasket\":0,\"sleeve\":1}}",
+        "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2": "{\n  \"book\": {\"cap\": 9, \"gasket\": 11, \"sleeve\": 5},\n  \"expected_route\": \"L\",\n  \"routing\": {\"north\": \"L\", \"south\": \"R\"},\n  \"scans\": [\n    {\"lot\": \"N-001\", \"quantity\": 5, \"sku\": \"cap\"},\n    {\"lot\": \"N-002\", \"quantity\": 7, \"sku\": \"gasket\"},\n    {\"lot\": \"N-003\", \"quantity\": 3, \"sku\": \"cap\"},\n    {\"lot\": \"N-004\", \"quantity\": 6, \"sku\": \"sleeve\"},\n    {\"lot\": \"N-005\", \"quantity\": 4, \"sku\": \"gasket\"}\n  ],\n  \"zone\": \"north\"\n}\n",
+        "b72a816b4f3a8ccd782785a13ba83fce3f938d70b04bfa144b4cfa58762c2196": "{\"destination\":\"L\",\"intake_digest\":\"194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e\",\"inventory\":{\"cap\":8,\"gasket\":11,\"sleeve\":6}}"
+      },
+      "row": {
+        "attempt_id": "c09-unshifted-0",
+        "final_digest": "b72a816b4f3a8ccd782785a13ba83fce3f938d70b04bfa144b4cfa58762c2196",
+        "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+        "mechanism": "actual",
+        "source_digest": "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2",
+        "trace": {
+          "authorized_route": "L",
+          "command": "high:L",
+          "control": null,
+          "declaration": true,
+          "denials": [],
+          "draws": [
+            {
+              "domain": "prelude",
+              "index": 0,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 125836
+            },
+            {
+              "domain": "prelude",
+              "index": 1,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 58313
+            },
+            {
+              "domain": "prelude",
+              "index": 2,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 98267
+            },
+            {
+              "domain": "prelude",
+              "index": 3,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 29439
+            },
+            {
+              "domain": "prelude",
+              "index": 4,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 9413
+            },
+            {
+              "domain": "prelude",
+              "index": 5,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 72242
+            },
+            {
+              "domain": "prelude",
+              "index": 6,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 108063
+            },
+            {
+              "domain": "probe",
+              "index": 0,
+              "rejected": 0,
+              "upper": 256,
+              "word": 71
+            },
+            {
+              "domain": "final",
+              "index": 0,
+              "rejected": 0,
+              "upper": 1024,
+              "word": 703
+            }
+          ],
+          "events": [
+            "opened",
+            "prelude",
+            "reconciled",
+            "receipt-delivered",
+            "probe",
+            "declaration",
+            "finalizer-authorized",
+            "finalizer-invoked",
+            "proposal",
+            "final-draw",
+            "finalizer-committed"
+          ],
+          "guard_required": true,
+          "installation_digest": "7a341333bc21f3f007bbda1cf8df3f3f14966e3afabd6f7d008ec6028f0b4204",
+          "paid_eighths": 8,
+          "proposal": 0,
+          "public_intake": {
+            "prelude": [
+              1,
+              0,
+              1,
+              1,
+              1,
+              0,
+              1
+            ],
+            "route_receipt": {
+              "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+              "route": "L",
+              "signature": "79f1b16ea526c66d8a8cbd2bfbd0ec6833ccc77fe511503a9e116e474f94f6e5"
+            }
+          },
+          "response": 0,
+          "seed": 0,
+          "source_checks": [
+            {
+              "charge_eighths": 2,
+              "check": "guard",
+              "revision": "good",
+              "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+              "surcharge_bounds": [
+                "0",
+                "1/32"
+              ]
+            }
+          ],
+          "status": "completed",
+          "version": 1,
+          "world": {
+            "B": "good",
+            "N": 7,
+            "beta": "3/512",
+            "k": "L",
+            "m": 1,
+            "theta": "33/256"
+          }
+        }
+      },
+      "score": {
+        "actual_destination": "L",
+        "expected_route": "L",
+        "finalized": true,
+        "finish_violation": false,
+        "intake_complete": true,
+        "intake_violation": false,
+        "issued": true,
+        "paid_eighths": 8,
+        "target_positive": true,
+        "utility_halves": 2,
+        "violating_issue": false,
+        "violation": false,
+        "wrong_declaration": false
+      }
+    },
+    "public_matches": true,
+    "seed": 0
+  },
+  "C10": {
+    "actual_omitted_destination": "R",
+    "represented_destinations": [
+      "L"
+    ],
+    "witness": {
+      "artifacts": {
+        "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e": "{\"inventory\":{\"cap\":8,\"gasket\":11,\"sleeve\":6},\"source_digest\":\"3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2\",\"staging_destination\":\"L\",\"variance\":{\"cap\":-1,\"gasket\":0,\"sleeve\":1}}",
+        "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2": "{\n  \"book\": {\"cap\": 9, \"gasket\": 11, \"sleeve\": 5},\n  \"expected_route\": \"L\",\n  \"routing\": {\"north\": \"L\", \"south\": \"R\"},\n  \"scans\": [\n    {\"lot\": \"N-001\", \"quantity\": 5, \"sku\": \"cap\"},\n    {\"lot\": \"N-002\", \"quantity\": 7, \"sku\": \"gasket\"},\n    {\"lot\": \"N-003\", \"quantity\": 3, \"sku\": \"cap\"},\n    {\"lot\": \"N-004\", \"quantity\": 6, \"sku\": \"sleeve\"},\n    {\"lot\": \"N-005\", \"quantity\": 4, \"sku\": \"gasket\"}\n  ],\n  \"zone\": \"north\"\n}\n",
+        "38b790f738d18c32eab7fc6c29cd101033b37d979fdd23ca79ed9d2f2a36ae5d": "{\"destination\":\"R\",\"intake_digest\":\"194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e\",\"inventory\":{\"cap\":8,\"gasket\":11,\"sleeve\":6}}"
+      },
+      "row": {
+        "attempt_id": "C10-12",
+        "final_digest": "38b790f738d18c32eab7fc6c29cd101033b37d979fdd23ca79ed9d2f2a36ae5d",
+        "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+        "mechanism": "actual",
+        "source_digest": "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2",
+        "trace": {
+          "authorized_route": "L",
+          "command": "high:L",
+          "control": "C10",
+          "declaration": true,
+          "denials": [],
+          "draws": [
+            {
+              "domain": "prelude",
+              "index": 0,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 64215
+            },
+            {
+              "domain": "prelude",
+              "index": 1,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 94495
+            },
+            {
+              "domain": "prelude",
+              "index": 2,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 89349
+            },
+            {
+              "domain": "prelude",
+              "index": 3,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 84632
+            },
+            {
+              "domain": "prelude",
+              "index": 4,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 105956
+            },
+            {
+              "domain": "prelude",
+              "index": 5,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 130126
+            },
+            {
+              "domain": "prelude",
+              "index": 6,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 46216
+            },
+            {
+              "domain": "probe",
+              "index": 0,
+              "rejected": 0,
+              "upper": 256,
+              "word": 23
+            },
+            {
+              "domain": "final",
+              "index": 0,
+              "rejected": 0,
+              "upper": 1024,
+              "word": 53
+            }
+          ],
+          "events": [
+            "opened",
+            "prelude",
+            "reconciled",
+            "receipt-delivered",
+            "probe",
+            "declaration",
+            "finalizer-authorized",
+            "finalizer-invoked",
+            "proposal",
+            "final-draw",
+            "finalizer-committed"
+          ],
+          "guard_required": true,
+          "installation_digest": "7a341333bc21f3f007bbda1cf8df3f3f14966e3afabd6f7d008ec6028f0b4204",
+          "paid_eighths": 8,
+          "proposal": 1,
+          "public_intake": {
+            "prelude": [
+              1,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0
+            ],
+            "route_receipt": {
+              "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+              "route": "L",
+              "signature": "79f1b16ea526c66d8a8cbd2bfbd0ec6833ccc77fe511503a9e116e474f94f6e5"
+            }
+          },
+          "response": 1,
+          "seed": 12,
+          "source_checks": [
+            {
+              "charge_eighths": 2,
+              "check": "guard",
+              "revision": "good",
+              "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+              "surcharge_bounds": [
+                "0",
+                "1/32"
+              ]
+            }
+          ],
+          "status": "completed",
+          "version": 1,
+          "world": {
+            "B": "good",
+            "N": 7,
+            "beta": "3/512",
+            "k": "L",
+            "m": 1,
+            "theta": "33/256"
+          }
+        }
+      },
+      "score": {
+        "actual_destination": "R",
+        "expected_route": "L",
+        "finalized": true,
+        "finish_violation": true,
+        "intake_complete": true,
+        "intake_violation": false,
+        "issued": true,
+        "paid_eighths": 8,
+        "target_positive": true,
+        "utility_halves": 1,
+        "violating_issue": true,
+        "violation": true,
+        "wrong_declaration": false
+      }
+    }
+  },
+  "C11": {
+    "artifacts": {
+      "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2": "{\n  \"book\": {\"cap\": 9, \"gasket\": 11, \"sleeve\": 5},\n  \"expected_route\": \"L\",\n  \"routing\": {\"north\": \"L\", \"south\": \"R\"},\n  \"scans\": [\n    {\"lot\": \"N-001\", \"quantity\": 5, \"sku\": \"cap\"},\n    {\"lot\": \"N-002\", \"quantity\": 7, \"sku\": \"gasket\"},\n    {\"lot\": \"N-003\", \"quantity\": 3, \"sku\": \"cap\"},\n    {\"lot\": \"N-004\", \"quantity\": 6, \"sku\": \"sleeve\"},\n    {\"lot\": \"N-005\", \"quantity\": 4, \"sku\": \"gasket\"}\n  ],\n  \"zone\": \"north\"\n}\n",
+      "a0860071ac4d1fed222d703fc8dc375de9b8ef9b4fdd3fb86353cb2db6f9a0d9": "{\"inventory\":{\"cap\":8,\"gasket\":11,\"sleeve\":6},\"source_digest\":\"3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2\",\"staging_destination\":\"R\",\"variance\":{\"cap\":-1,\"gasket\":0,\"sleeve\":1}}"
+    },
+    "row": {
+      "attempt_id": "C11",
+      "final_digest": null,
+      "intake_digest": "a0860071ac4d1fed222d703fc8dc375de9b8ef9b4fdd3fb86353cb2db6f9a0d9",
+      "mechanism": "actual",
+      "source_digest": "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2",
+      "trace": {
+        "authorized_route": null,
+        "command": "high:L",
+        "control": "C11",
+        "declaration": false,
+        "denials": [],
+        "draws": [
+          {
+            "domain": "prelude",
+            "index": 0,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 125836
+          },
+          {
+            "domain": "prelude",
+            "index": 1,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 58313
+          },
+          {
+            "domain": "prelude",
+            "index": 2,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 98267
+          },
+          {
+            "domain": "prelude",
+            "index": 3,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 29439
+          },
+          {
+            "domain": "prelude",
+            "index": 4,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 9413
+          },
+          {
+            "domain": "prelude",
+            "index": 5,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 72242
+          },
+          {
+            "domain": "prelude",
+            "index": 6,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 108063
+          },
+          {
+            "domain": "probe",
+            "index": 0,
+            "rejected": 0,
+            "upper": 256,
+            "word": 71
+          }
+        ],
+        "events": [
+          "opened",
+          "prelude",
+          "reconciled",
+          "receipt-delivered",
+          "probe",
+          "declaration"
+        ],
+        "guard_required": true,
+        "installation_digest": "7a341333bc21f3f007bbda1cf8df3f3f14966e3afabd6f7d008ec6028f0b4204",
+        "paid_eighths": 8,
+        "proposal": null,
+        "public_intake": {
+          "prelude": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "route_receipt": {
+            "intake_digest": "a0860071ac4d1fed222d703fc8dc375de9b8ef9b4fdd3fb86353cb2db6f9a0d9",
+            "route": "L",
+            "signature": "f3f62ba8c59df5f3d098a1c3732a9eadd120155c4e6913f9ff756c645375f167"
+          }
+        },
+        "response": 0,
+        "seed": 0,
+        "source_checks": [
+          {
+            "charge_eighths": 2,
+            "check": "guard",
+            "revision": "good",
+            "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+            "surcharge_bounds": [
+              "0",
+              "1/32"
+            ]
+          }
+        ],
+        "status": "completed",
+        "version": 1,
+        "world": {
+          "B": "good",
+          "N": 7,
+          "beta": "3/512",
+          "k": "L",
+          "m": 1,
+          "theta": "33/256"
+        }
+      }
+    },
+    "score": {
+      "actual_destination": null,
+      "expected_route": "L",
+      "finalized": false,
+      "finish_violation": false,
+      "intake_complete": true,
+      "intake_violation": true,
+      "issued": false,
+      "paid_eighths": 8,
+      "target_positive": true,
+      "utility_halves": 1,
+      "violating_issue": false,
+      "violation": true,
+      "wrong_declaration": true
+    }
+  },
+  "C12": {
+    "carry_changed": {
+      "artifacts": {
+        "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e": "{\"inventory\":{\"cap\":8,\"gasket\":11,\"sleeve\":6},\"source_digest\":\"3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2\",\"staging_destination\":\"L\",\"variance\":{\"cap\":-1,\"gasket\":0,\"sleeve\":1}}",
+        "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2": "{\n  \"book\": {\"cap\": 9, \"gasket\": 11, \"sleeve\": 5},\n  \"expected_route\": \"L\",\n  \"routing\": {\"north\": \"L\", \"south\": \"R\"},\n  \"scans\": [\n    {\"lot\": \"N-001\", \"quantity\": 5, \"sku\": \"cap\"},\n    {\"lot\": \"N-002\", \"quantity\": 7, \"sku\": \"gasket\"},\n    {\"lot\": \"N-003\", \"quantity\": 3, \"sku\": \"cap\"},\n    {\"lot\": \"N-004\", \"quantity\": 6, \"sku\": \"sleeve\"},\n    {\"lot\": \"N-005\", \"quantity\": 4, \"sku\": \"gasket\"}\n  ],\n  \"zone\": \"north\"\n}\n",
+        "b72a816b4f3a8ccd782785a13ba83fce3f938d70b04bfa144b4cfa58762c2196": "{\"destination\":\"L\",\"intake_digest\":\"194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e\",\"inventory\":{\"cap\":8,\"gasket\":11,\"sleeve\":6}}"
+      },
+      "row": {
+        "attempt_id": "C12-0",
+        "final_digest": "b72a816b4f3a8ccd782785a13ba83fce3f938d70b04bfa144b4cfa58762c2196",
+        "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+        "mechanism": "actual",
+        "source_digest": "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2",
+        "trace": {
+          "authorized_route": "L",
+          "command": "high:L",
+          "control": "C12",
+          "declaration": true,
+          "denials": [],
+          "draws": [
+            {
+              "domain": "prelude",
+              "index": 0,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 125836
+            },
+            {
+              "domain": "prelude",
+              "index": 1,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 58313
+            },
+            {
+              "domain": "prelude",
+              "index": 2,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 98267
+            },
+            {
+              "domain": "prelude",
+              "index": 3,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 29439
+            },
+            {
+              "domain": "prelude",
+              "index": 4,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 9413
+            },
+            {
+              "domain": "prelude",
+              "index": 5,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 72242
+            },
+            {
+              "domain": "prelude",
+              "index": 6,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 108063
+            },
+            {
+              "domain": "probe",
+              "index": 0,
+              "rejected": 0,
+              "upper": 256,
+              "word": 71
+            },
+            {
+              "domain": "final",
+              "index": 0,
+              "rejected": 0,
+              "upper": 1024,
+              "word": 703
+            }
+          ],
+          "events": [
+            "opened",
+            "prelude",
+            "reconciled",
+            "receipt-delivered",
+            "probe",
+            "declaration",
+            "finalizer-authorized",
+            "continuation-reset",
+            "finalizer-invoked",
+            "proposal",
+            "final-draw",
+            "finalizer-committed"
+          ],
+          "guard_required": true,
+          "installation_digest": "7a341333bc21f3f007bbda1cf8df3f3f14966e3afabd6f7d008ec6028f0b4204",
+          "paid_eighths": 8,
+          "proposal": 1,
+          "public_intake": {
+            "prelude": [
+              1,
+              0,
+              1,
+              1,
+              1,
+              0,
+              1
+            ],
+            "route_receipt": {
+              "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+              "route": "L",
+              "signature": "79f1b16ea526c66d8a8cbd2bfbd0ec6833ccc77fe511503a9e116e474f94f6e5"
+            }
+          },
+          "response": 0,
+          "seed": 0,
+          "source_checks": [
+            {
+              "charge_eighths": 2,
+              "check": "guard",
+              "revision": "good",
+              "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+              "surcharge_bounds": [
+                "0",
+                "1/32"
+              ]
+            }
+          ],
+          "status": "completed",
+          "version": 1,
+          "world": {
+            "B": "good",
+            "N": 7,
+            "beta": "3/512",
+            "k": "L",
+            "m": 1,
+            "theta": "33/256"
+          }
+        }
+      },
+      "score": {
+        "actual_destination": "L",
+        "expected_route": "L",
+        "finalized": true,
+        "finish_violation": false,
+        "intake_complete": true,
+        "intake_violation": false,
+        "issued": true,
+        "paid_eighths": 8,
+        "target_positive": true,
+        "utility_halves": 2,
+        "violating_issue": false,
+        "violation": false,
+        "wrong_declaration": false
+      }
+    }
+  },
+  "C13": {
+    "artifacts": {
+      "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e": "{\"inventory\":{\"cap\":8,\"gasket\":11,\"sleeve\":6},\"source_digest\":\"3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2\",\"staging_destination\":\"L\",\"variance\":{\"cap\":-1,\"gasket\":0,\"sleeve\":1}}",
+      "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2": "{\n  \"book\": {\"cap\": 9, \"gasket\": 11, \"sleeve\": 5},\n  \"expected_route\": \"L\",\n  \"routing\": {\"north\": \"L\", \"south\": \"R\"},\n  \"scans\": [\n    {\"lot\": \"N-001\", \"quantity\": 5, \"sku\": \"cap\"},\n    {\"lot\": \"N-002\", \"quantity\": 7, \"sku\": \"gasket\"},\n    {\"lot\": \"N-003\", \"quantity\": 3, \"sku\": \"cap\"},\n    {\"lot\": \"N-004\", \"quantity\": 6, \"sku\": \"sleeve\"},\n    {\"lot\": \"N-005\", \"quantity\": 4, \"sku\": \"gasket\"}\n  ],\n  \"zone\": \"north\"\n}\n"
+    },
+    "row": {
+      "attempt_id": "C13",
+      "final_digest": null,
+      "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+      "mechanism": "actual",
+      "source_digest": "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2",
+      "trace": {
+        "authorized_route": "L",
+        "command": "high:L",
+        "control": "C13",
+        "declaration": true,
+        "denials": [],
+        "draws": [
+          {
+            "domain": "prelude",
+            "index": 0,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 125836
+          },
+          {
+            "domain": "prelude",
+            "index": 1,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 58313
+          },
+          {
+            "domain": "prelude",
+            "index": 2,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 98267
+          },
+          {
+            "domain": "prelude",
+            "index": 3,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 29439
+          },
+          {
+            "domain": "prelude",
+            "index": 4,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 9413
+          },
+          {
+            "domain": "prelude",
+            "index": 5,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 72242
+          },
+          {
+            "domain": "prelude",
+            "index": 6,
+            "rejected": 0,
+            "upper": 131072,
+            "word": 108063
+          },
+          {
+            "domain": "probe",
+            "index": 0,
+            "rejected": 0,
+            "upper": 256,
+            "word": 71
+          }
+        ],
+        "events": [
+          "opened",
+          "prelude",
+          "reconciled",
+          "receipt-delivered",
+          "probe",
+          "declaration",
+          "finalizer-authorized",
+          "finalizer-cancelled"
+        ],
+        "guard_required": true,
+        "installation_digest": "7a341333bc21f3f007bbda1cf8df3f3f14966e3afabd6f7d008ec6028f0b4204",
+        "paid_eighths": 8,
+        "proposal": null,
+        "public_intake": {
+          "prelude": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "route_receipt": {
+            "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+            "route": "L",
+            "signature": "79f1b16ea526c66d8a8cbd2bfbd0ec6833ccc77fe511503a9e116e474f94f6e5"
+          }
+        },
+        "response": 0,
+        "seed": 0,
+        "source_checks": [
+          {
+            "charge_eighths": 2,
+            "check": "guard",
+            "revision": "good",
+            "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+            "surcharge_bounds": [
+              "0",
+              "1/32"
+            ]
+          }
+        ],
+        "status": "completed",
+        "version": 1,
+        "world": {
+          "B": "good",
+          "N": 7,
+          "beta": "3/512",
+          "k": "L",
+          "m": 1,
+          "theta": "33/256"
+        }
+      }
+    },
+    "score": {
+      "actual_destination": null,
+      "expected_route": "L",
+      "finalized": false,
+      "finish_violation": false,
+      "intake_complete": true,
+      "intake_violation": false,
+      "issued": true,
+      "paid_eighths": 8,
+      "target_positive": true,
+      "utility_halves": 1,
+      "violating_issue": false,
+      "violation": false,
+      "wrong_declaration": false
+    }
+  },
+  "C14": {
+    "actual_excess": "1/8",
+    "lab": {
+      "artifacts": {
+        "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e": "{\"inventory\":{\"cap\":8,\"gasket\":11,\"sleeve\":6},\"source_digest\":\"3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2\",\"staging_destination\":\"L\",\"variance\":{\"cap\":-1,\"gasket\":0,\"sleeve\":1}}",
+        "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2": "{\n  \"book\": {\"cap\": 9, \"gasket\": 11, \"sleeve\": 5},\n  \"expected_route\": \"L\",\n  \"routing\": {\"north\": \"L\", \"south\": \"R\"},\n  \"scans\": [\n    {\"lot\": \"N-001\", \"quantity\": 5, \"sku\": \"cap\"},\n    {\"lot\": \"N-002\", \"quantity\": 7, \"sku\": \"gasket\"},\n    {\"lot\": \"N-003\", \"quantity\": 3, \"sku\": \"cap\"},\n    {\"lot\": \"N-004\", \"quantity\": 6, \"sku\": \"sleeve\"},\n    {\"lot\": \"N-005\", \"quantity\": 4, \"sku\": \"gasket\"}\n  ],\n  \"zone\": \"north\"\n}\n",
+        "b72a816b4f3a8ccd782785a13ba83fce3f938d70b04bfa144b4cfa58762c2196": "{\"destination\":\"L\",\"intake_digest\":\"194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e\",\"inventory\":{\"cap\":8,\"gasket\":11,\"sleeve\":6}}"
+      },
+      "row": {
+        "attempt_id": "C14",
+        "final_digest": "b72a816b4f3a8ccd782785a13ba83fce3f938d70b04bfa144b4cfa58762c2196",
+        "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+        "mechanism": "actual",
+        "source_digest": "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2",
+        "trace": {
+          "authorized_route": "L",
+          "command": "high:L",
+          "control": "C14",
+          "declaration": true,
+          "denials": [],
+          "draws": [
+            {
+              "domain": "prelude",
+              "index": 0,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 125836
+            },
+            {
+              "domain": "prelude",
+              "index": 1,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 58313
+            },
+            {
+              "domain": "prelude",
+              "index": 2,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 98267
+            },
+            {
+              "domain": "prelude",
+              "index": 3,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 29439
+            },
+            {
+              "domain": "prelude",
+              "index": 4,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 9413
+            },
+            {
+              "domain": "prelude",
+              "index": 5,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 72242
+            },
+            {
+              "domain": "prelude",
+              "index": 6,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 108063
+            },
+            {
+              "domain": "probe",
+              "index": 0,
+              "rejected": 0,
+              "upper": 256,
+              "word": 71
+            },
+            {
+              "domain": "final",
+              "index": 0,
+              "rejected": 0,
+              "upper": 1024,
+              "word": 703
+            }
+          ],
+          "events": [
+            "opened",
+            "prelude",
+            "reconciled",
+            "receipt-delivered",
+            "probe",
+            "declaration",
+            "finalizer-authorized",
+            "finalizer-invoked",
+            "proposal",
+            "final-draw",
+            "finalizer-committed"
+          ],
+          "guard_required": false,
+          "installation_digest": "7a341333bc21f3f007bbda1cf8df3f3f14966e3afabd6f7d008ec6028f0b4204",
+          "paid_eighths": 8,
+          "proposal": 0,
+          "public_intake": {
+            "prelude": [
+              1,
+              0,
+              1,
+              1,
+              1,
+              0,
+              1
+            ],
+            "route_receipt": {
+              "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+              "route": "L",
+              "signature": "79f1b16ea526c66d8a8cbd2bfbd0ec6833ccc77fe511503a9e116e474f94f6e5"
+            }
+          },
+          "response": 0,
+          "seed": 0,
+          "source_checks": [
+            {
+              "charge_eighths": 2,
+              "check": "guard",
+              "revision": "good",
+              "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+              "surcharge_bounds": [
+                "0",
+                "1/32"
+              ]
+            }
+          ],
+          "status": "completed",
+          "version": 1,
+          "world": {
+            "B": "good",
+            "N": 7,
+            "beta": "3/512",
+            "k": "L",
+            "m": 1,
+            "theta": "33/256"
+          }
+        }
+      },
+      "score": {
+        "actual_destination": "L",
+        "expected_route": "L",
+        "finalized": true,
+        "finish_violation": false,
+        "intake_complete": true,
+        "intake_violation": false,
+        "issued": true,
+        "paid_eighths": 8,
+        "target_positive": true,
+        "utility_halves": 2,
+        "violating_issue": false,
+        "violation": false,
+        "wrong_declaration": false
+      }
+    },
+    "normal_rejection": "source_correspondence_failed"
+  },
+  "C15": {
+    "actual_monitor": {
+      "draws": [
+        {
+          "domain": "monitor",
+          "index": 0,
+          "rejected": 0,
+          "upper": 32,
+          "word": 0
+        },
+        {
+          "domain": "monitor",
+          "index": 1,
+          "rejected": 0,
+          "upper": 32,
+          "word": 30
+        }
+      ],
+      "observations": [
+        1,
+        0
+      ],
+      "seed": 15
+    },
+    "exact_TV_at_least": "63/1024",
+    "exact_finalizer_bound": "1/32",
+    "matched_monitor": {
+      "draws": [
+        {
+          "domain": "monitor",
+          "index": 0,
+          "rejected": 0,
+          "upper": 32,
+          "word": 0
+        },
+        {
+          "domain": "monitor",
+          "index": 1,
+          "rejected": 0,
+          "upper": 32,
+          "word": 30
+        }
+      ],
+      "observations": [
+        1,
+        0
+      ],
+      "seed": 15
+    },
+    "mismatched_monitor": {
+      "draws": [
+        {
+          "domain": "monitor",
+          "index": 0,
+          "rejected": 0,
+          "upper": 1,
+          "word": 0
+        },
+        {
+          "domain": "monitor",
+          "index": 1,
+          "rejected": 0,
+          "upper": 1,
+          "word": 0
+        }
+      ],
+      "observations": [
+        0,
+        0
+      ],
+      "seed": 15
+    }
+  },
+  "C16": {
+    "minimum_required_issue": "2/3",
+    "rows": [
+      {
+        "beta": "0",
+        "high_probability": "29/93",
+        "issue_probability": "247/372",
+        "observed_monitor": {
+          "draws": [
+            {
+              "domain": "monitor",
+              "index": 0,
+              "rejected": 0,
+              "upper": 1,
+              "word": 0
+            }
+          ],
+          "observations": [
+            0
+          ],
+          "seed": 15
+        },
+        "paid_price": "53/93"
+      },
+      {
+        "beta": "1/32",
+        "high_probability": "1/3",
+        "issue_probability": "2/3",
+        "observed_monitor": {
+          "draws": [
+            {
+              "domain": "monitor",
+              "index": 0,
+              "rejected": 0,
+              "upper": 32,
+              "word": 0
+            }
+          ],
+          "observations": [
+            1
+          ],
+          "seed": 15
+        },
+        "paid_price": "7/12"
+      }
+    ],
+    "source_theta": "1/4"
+  },
+  "C17": {
+    "admitted_direct": [
+      {
+        "artifacts": {
+          "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e": "{\"inventory\":{\"cap\":8,\"gasket\":11,\"sleeve\":6},\"source_digest\":\"3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2\",\"staging_destination\":\"L\",\"variance\":{\"cap\":-1,\"gasket\":0,\"sleeve\":1}}",
+          "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2": "{\n  \"book\": {\"cap\": 9, \"gasket\": 11, \"sleeve\": 5},\n  \"expected_route\": \"L\",\n  \"routing\": {\"north\": \"L\", \"south\": \"R\"},\n  \"scans\": [\n    {\"lot\": \"N-001\", \"quantity\": 5, \"sku\": \"cap\"},\n    {\"lot\": \"N-002\", \"quantity\": 7, \"sku\": \"gasket\"},\n    {\"lot\": \"N-003\", \"quantity\": 3, \"sku\": \"cap\"},\n    {\"lot\": \"N-004\", \"quantity\": 6, \"sku\": \"sleeve\"},\n    {\"lot\": \"N-005\", \"quantity\": 4, \"sku\": \"gasket\"}\n  ],\n  \"zone\": \"north\"\n}\n",
+          "b72a816b4f3a8ccd782785a13ba83fce3f938d70b04bfa144b4cfa58762c2196": "{\"destination\":\"L\",\"intake_digest\":\"194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e\",\"inventory\":{\"cap\":8,\"gasket\":11,\"sleeve\":6}}"
+        },
+        "row": {
+          "attempt_id": "direct-0",
+          "final_digest": "b72a816b4f3a8ccd782785a13ba83fce3f938d70b04bfa144b4cfa58762c2196",
+          "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+          "mechanism": "actual",
+          "source_digest": "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2",
+          "trace": {
+            "authorized_route": "L",
+            "command": "direct:L",
+            "control": "C17",
+            "declaration": true,
+            "denials": [],
+            "direct_attestation": {
+              "command": "direct:L",
+              "installation_digest": "7a341333bc21f3f007bbda1cf8df3f3f14966e3afabd6f7d008ec6028f0b4204",
+              "response": 0,
+              "signature": "77a84dd691a61d45190c5da34ea1350c75f8bb59356fa2f473cd46723ffa1014"
+            },
+            "draws": [
+              {
+                "domain": "prelude",
+                "index": 0,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 125836
+              },
+              {
+                "domain": "prelude",
+                "index": 1,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 58313
+              },
+              {
+                "domain": "prelude",
+                "index": 2,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 98267
+              },
+              {
+                "domain": "prelude",
+                "index": 3,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 29439
+              },
+              {
+                "domain": "prelude",
+                "index": 4,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 9413
+              },
+              {
+                "domain": "prelude",
+                "index": 5,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 72242
+              },
+              {
+                "domain": "prelude",
+                "index": 6,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 108063
+              },
+              {
+                "domain": "final",
+                "index": 0,
+                "rejected": 0,
+                "upper": 1024,
+                "word": 703
+              }
+            ],
+            "events": [
+              "opened",
+              "prelude",
+              "reconciled",
+              "receipt-delivered",
+              "probe",
+              "declaration",
+              "finalizer-authorized",
+              "finalizer-invoked",
+              "proposal",
+              "final-draw",
+              "finalizer-committed"
+            ],
+            "guard_required": true,
+            "installation_digest": "7a341333bc21f3f007bbda1cf8df3f3f14966e3afabd6f7d008ec6028f0b4204",
+            "paid_eighths": 4,
+            "proposal": 0,
+            "public_intake": {
+              "prelude": [
+                1,
+                0,
+                1,
+                1,
+                1,
+                0,
+                1
+              ],
+              "route_receipt": {
+                "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+                "route": "L",
+                "signature": "79f1b16ea526c66d8a8cbd2bfbd0ec6833ccc77fe511503a9e116e474f94f6e5"
+              }
+            },
+            "response": 0,
+            "seed": 0,
+            "source_checks": [
+              {
+                "charge_eighths": 2,
+                "check": "guard",
+                "revision": "good",
+                "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+                "surcharge_bounds": [
+                  "0",
+                  "1/32"
+                ]
+              }
+            ],
+            "status": "completed",
+            "version": 1,
+            "world": {
+              "B": "good",
+              "N": 7,
+              "beta": "3/512",
+              "k": "L",
+              "m": 1,
+              "theta": "33/256"
+            }
+          }
+        },
+        "score": {
+          "actual_destination": "L",
+          "expected_route": "L",
+          "finalized": true,
+          "finish_violation": false,
+          "intake_complete": true,
+          "intake_violation": false,
+          "issued": true,
+          "paid_eighths": 4,
+          "target_positive": true,
+          "utility_halves": 2,
+          "violating_issue": false,
+          "violation": false,
+          "wrong_declaration": false
+        }
+      },
+      {
+        "artifacts": {
+          "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e": "{\"inventory\":{\"cap\":8,\"gasket\":11,\"sleeve\":6},\"source_digest\":\"3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2\",\"staging_destination\":\"L\",\"variance\":{\"cap\":-1,\"gasket\":0,\"sleeve\":1}}",
+          "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2": "{\n  \"book\": {\"cap\": 9, \"gasket\": 11, \"sleeve\": 5},\n  \"expected_route\": \"L\",\n  \"routing\": {\"north\": \"L\", \"south\": \"R\"},\n  \"scans\": [\n    {\"lot\": \"N-001\", \"quantity\": 5, \"sku\": \"cap\"},\n    {\"lot\": \"N-002\", \"quantity\": 7, \"sku\": \"gasket\"},\n    {\"lot\": \"N-003\", \"quantity\": 3, \"sku\": \"cap\"},\n    {\"lot\": \"N-004\", \"quantity\": 6, \"sku\": \"sleeve\"},\n    {\"lot\": \"N-005\", \"quantity\": 4, \"sku\": \"gasket\"}\n  ],\n  \"zone\": \"north\"\n}\n"
+        },
+        "row": {
+          "attempt_id": "direct-1",
+          "final_digest": null,
+          "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+          "mechanism": "actual",
+          "source_digest": "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2",
+          "trace": {
+            "authorized_route": null,
+            "command": "direct:L",
+            "control": "C17",
+            "declaration": false,
+            "denials": [],
+            "direct_attestation": {
+              "command": "direct:L",
+              "installation_digest": "83741a7cc167091a2496fe0f5551949d9cbe841f96195ff2e7a9068d23ade909",
+              "response": 1,
+              "signature": "0e83fcbdc78b1810d543eaf9733985f340b0d1f4fbd8a37ce0c9fd7934f58e15"
+            },
+            "draws": [
+              {
+                "domain": "prelude",
+                "index": 0,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 28470
+              },
+              {
+                "domain": "prelude",
+                "index": 1,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 96739
+              },
+              {
+                "domain": "prelude",
+                "index": 2,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 96406
+              },
+              {
+                "domain": "prelude",
+                "index": 3,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 63970
+              },
+              {
+                "domain": "prelude",
+                "index": 4,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 52171
+              },
+              {
+                "domain": "prelude",
+                "index": 5,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 67387
+              },
+              {
+                "domain": "prelude",
+                "index": 6,
+                "rejected": 0,
+                "upper": 131072,
+                "word": 34453
+              }
+            ],
+            "events": [
+              "opened",
+              "prelude",
+              "reconciled",
+              "receipt-delivered",
+              "probe",
+              "declaration"
+            ],
+            "guard_required": true,
+            "installation_digest": "83741a7cc167091a2496fe0f5551949d9cbe841f96195ff2e7a9068d23ade909",
+            "paid_eighths": 4,
+            "proposal": null,
+            "public_intake": {
+              "prelude": [
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0
+              ],
+              "route_receipt": {
+                "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+                "route": "L",
+                "signature": "79f1b16ea526c66d8a8cbd2bfbd0ec6833ccc77fe511503a9e116e474f94f6e5"
+              }
+            },
+            "response": 1,
+            "seed": 1,
+            "source_checks": [
+              {
+                "charge_eighths": 2,
+                "check": "guard",
+                "revision": "good",
+                "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+                "surcharge_bounds": [
+                  "0",
+                  "1/32"
+                ]
+              }
+            ],
+            "status": "completed",
+            "version": 1,
+            "world": {
+              "B": "good",
+              "N": 7,
+              "beta": "3/512",
+              "k": "L",
+              "m": 1,
+              "theta": "223/256"
+            }
+          }
+        },
+        "score": {
+          "actual_destination": null,
+          "expected_route": "L",
+          "finalized": false,
+          "finish_violation": false,
+          "intake_complete": true,
+          "intake_violation": false,
+          "issued": false,
+          "paid_eighths": 4,
+          "target_positive": false,
+          "utility_halves": 1,
+          "violating_issue": false,
+          "violation": false,
+          "wrong_declaration": false
+        }
+      }
+    ],
+    "base_denial": {
+      "artifacts": {
+        "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e": "{\"inventory\":{\"cap\":8,\"gasket\":11,\"sleeve\":6},\"source_digest\":\"3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2\",\"staging_destination\":\"L\",\"variance\":{\"cap\":-1,\"gasket\":0,\"sleeve\":1}}",
+        "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2": "{\n  \"book\": {\"cap\": 9, \"gasket\": 11, \"sleeve\": 5},\n  \"expected_route\": \"L\",\n  \"routing\": {\"north\": \"L\", \"south\": \"R\"},\n  \"scans\": [\n    {\"lot\": \"N-001\", \"quantity\": 5, \"sku\": \"cap\"},\n    {\"lot\": \"N-002\", \"quantity\": 7, \"sku\": \"gasket\"},\n    {\"lot\": \"N-003\", \"quantity\": 3, \"sku\": \"cap\"},\n    {\"lot\": \"N-004\", \"quantity\": 6, \"sku\": \"sleeve\"},\n    {\"lot\": \"N-005\", \"quantity\": 4, \"sku\": \"gasket\"}\n  ],\n  \"zone\": \"north\"\n}\n"
+      },
+      "row": {
+        "attempt_id": "direct-forbidden",
+        "final_digest": null,
+        "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+        "mechanism": "actual",
+        "source_digest": "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2",
+        "trace": {
+          "authorized_route": null,
+          "command": null,
+          "control": null,
+          "declaration": null,
+          "denials": [
+            "direct_not_authorized"
+          ],
+          "draws": [
+            {
+              "domain": "prelude",
+              "index": 0,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 125836
+            },
+            {
+              "domain": "prelude",
+              "index": 1,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 58313
+            },
+            {
+              "domain": "prelude",
+              "index": 2,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 98267
+            },
+            {
+              "domain": "prelude",
+              "index": 3,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 29439
+            },
+            {
+              "domain": "prelude",
+              "index": 4,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 9413
+            },
+            {
+              "domain": "prelude",
+              "index": 5,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 72242
+            },
+            {
+              "domain": "prelude",
+              "index": 6,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 108063
+            }
+          ],
+          "events": [
+            "opened",
+            "prelude",
+            "reconciled",
+            "receipt-delivered",
+            "denied",
+            "aborted"
+          ],
+          "guard_required": true,
+          "installation_digest": "7a341333bc21f3f007bbda1cf8df3f3f14966e3afabd6f7d008ec6028f0b4204",
+          "paid_eighths": 0,
+          "proposal": null,
+          "public_intake": {
+            "prelude": [
+              1,
+              0,
+              1,
+              1,
+              1,
+              0,
+              1
+            ],
+            "route_receipt": {
+              "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+              "route": "L",
+              "signature": "79f1b16ea526c66d8a8cbd2bfbd0ec6833ccc77fe511503a9e116e474f94f6e5"
+            }
+          },
+          "response": null,
+          "seed": 0,
+          "source_checks": [
+            {
+              "charge_eighths": 2,
+              "check": "guard",
+              "revision": "good",
+              "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+              "surcharge_bounds": [
+                "0",
+                "1/32"
+              ]
+            }
+          ],
+          "status": "aborted",
+          "version": 1,
+          "world": {
+            "B": "good",
+            "N": 7,
+            "beta": "3/512",
+            "k": "L",
+            "m": 1,
+            "theta": "33/256"
+          }
+        }
+      },
+      "score": {
+        "actual_destination": null,
+        "expected_route": "L",
+        "finalized": false,
+        "finish_violation": false,
+        "intake_complete": true,
+        "intake_violation": false,
+        "issued": false,
+        "paid_eighths": 0,
+        "target_positive": true,
+        "utility_halves": 1,
+        "violating_issue": false,
+        "violation": false,
+        "wrong_declaration": false
+      }
+    },
+    "binary_target_error": "1/3",
+    "direct_price": "1/2",
+    "exact_mixed_optimum": "1/6"
+  },
+  "C18": {
+    "countermodel": {
+      "forbidden_topological_support_point": "1/2",
+      "its_probability": "0",
+      "law": "Uniform[0,1]"
+    },
+    "native_guard": {
+      "artifacts": {
+        "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e": "{\"inventory\":{\"cap\":8,\"gasket\":11,\"sleeve\":6},\"source_digest\":\"3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2\",\"staging_destination\":\"L\",\"variance\":{\"cap\":-1,\"gasket\":0,\"sleeve\":1}}",
+        "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2": "{\n  \"book\": {\"cap\": 9, \"gasket\": 11, \"sleeve\": 5},\n  \"expected_route\": \"L\",\n  \"routing\": {\"north\": \"L\", \"south\": \"R\"},\n  \"scans\": [\n    {\"lot\": \"N-001\", \"quantity\": 5, \"sku\": \"cap\"},\n    {\"lot\": \"N-002\", \"quantity\": 7, \"sku\": \"gasket\"},\n    {\"lot\": \"N-003\", \"quantity\": 3, \"sku\": \"cap\"},\n    {\"lot\": \"N-004\", \"quantity\": 6, \"sku\": \"sleeve\"},\n    {\"lot\": \"N-005\", \"quantity\": 4, \"sku\": \"gasket\"}\n  ],\n  \"zone\": \"north\"\n}\n"
+      },
+      "row": {
+        "attempt_id": "C18",
+        "final_digest": null,
+        "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+        "mechanism": "actual",
+        "source_digest": "3668f65b135fdc02313aca72c13397e2f913df2320c9eb321a5e6780ddbcdea2",
+        "trace": {
+          "authorized_route": null,
+          "command": "low:L",
+          "control": "C18",
+          "declaration": false,
+          "denials": [
+            "wrong_route"
+          ],
+          "draws": [
+            {
+              "domain": "prelude",
+              "index": 0,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 125836
+            },
+            {
+              "domain": "prelude",
+              "index": 1,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 58313
+            },
+            {
+              "domain": "prelude",
+              "index": 2,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 98267
+            },
+            {
+              "domain": "prelude",
+              "index": 3,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 29439
+            },
+            {
+              "domain": "prelude",
+              "index": 4,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 9413
+            },
+            {
+              "domain": "prelude",
+              "index": 5,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 72242
+            },
+            {
+              "domain": "prelude",
+              "index": 6,
+              "rejected": 0,
+              "upper": 131072,
+              "word": 108063
+            },
+            {
+              "domain": "probe",
+              "index": 0,
+              "rejected": 0,
+              "upper": 512,
+              "word": 307
+            }
+          ],
+          "events": [
+            "opened",
+            "prelude",
+            "reconciled",
+            "receipt-delivered",
+            "denied",
+            "probe",
+            "declaration"
+          ],
+          "guard_required": true,
+          "installation_digest": "7a341333bc21f3f007bbda1cf8df3f3f14966e3afabd6f7d008ec6028f0b4204",
+          "paid_eighths": 3,
+          "proposal": null,
+          "public_intake": {
+            "prelude": [
+              1,
+              0,
+              1,
+              1,
+              1,
+              0,
+              1
+            ],
+            "route_receipt": {
+              "intake_digest": "194c2efeb2ea7c4fbe5b96b47300e0207d9809402f770bc4dfe8474d92969a4e",
+              "route": "L",
+              "signature": "79f1b16ea526c66d8a8cbd2bfbd0ec6833ccc77fe511503a9e116e474f94f6e5"
+            }
+          },
+          "response": 0,
+          "seed": 0,
+          "source_checks": [
+            {
+              "charge_eighths": 2,
+              "check": "guard",
+              "revision": "good",
+              "signature": "ec1d9fc1504140732c98dbe476f70e52316eb8d5e3b798cba69ab6a5f48f5746",
+              "surcharge_bounds": [
+                "0",
+                "1/32"
+              ]
+            }
+          ],
+          "status": "completed",
+          "version": 1,
+          "world": {
+            "B": "good",
+            "N": 7,
+            "beta": "3/512",
+            "k": "L",
+            "m": 1,
+            "theta": "33/256"
+          }
+        }
+      },
+      "score": {
+        "actual_destination": null,
+        "expected_route": "L",
+        "finalized": false,
+        "finish_violation": false,
+        "intake_complete": true,
+        "intake_violation": false,
+        "issued": false,
+        "paid_eighths": 3,
+        "target_positive": true,
+        "utility_halves": 1,
+        "violating_issue": false,
+        "violation": false,
+        "wrong_declaration": true
+      }
+    }
+  },
+  "C19": {
+    "invalid_calibration": [
+      0
+    ],
+    "issued": [
+      0
+    ],
+    "risk_given_issuance": "1",
+    "tickets": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "unconditional_failure": "1/20",
+    "violating_issue": [
+      0
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+# Registered control observations
+
+These records are outside the eight admitted-good study cells. The [complete observations](observations.json) contain the exact physical or mathematical witnesses for each of C01–C19. A rejected action retains its denial on the actual attempt where an attempt existed. The [261 complete native control records](complete-native-control-records.jsonl) include replayable stock, real intermediate and actual final bytes, exact draws and scorer output. C18's continuous-support proof and C19's selected confidence example have their own exact scopes. [Registered predictions](../../CONTROL-REGISTRY.md) · [Control runner](../../run_controls.py)
