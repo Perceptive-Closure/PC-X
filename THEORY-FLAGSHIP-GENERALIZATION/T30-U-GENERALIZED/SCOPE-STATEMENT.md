@@ -8,3 +8,5 @@
 
 4. The close-pair conclusion in U.G4 includes the initial delivered record in the comparison. It has total variation at most the same \(\kappa\) for the selected pair, or is identical in both worlds. At most \(H\) further rows may be exposed by the finite hard-horizon policy. Across a coupled common prefix, a stopped record is padded with a deterministic identical no-op.
 5. The optional calibration claim in U.G3 concerns a sharper margin issued only if the claimed actual bound follows uniformly over the intersection of the time-valid confidence set and the exact guard envelope. The conditional calibration model must hold under the actual admitted monitoring choices and on the specified source scope. The coverage proof does not justify arbitrary data-dependent reported values.
+
+6. U.G1 prescribes ratios only at positive-flow states. Zero-flow states are unreachable under that realized policy. A total callable prescription there is provided only where an authorized default exists or the implementation contract independently requires and supplies one. A zero-inflow state with no authorized command or stop is admissible as an unused formal node.
