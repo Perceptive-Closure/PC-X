@@ -14,4 +14,6 @@ On the explicitly disjoint development world with theta 33/256, beta 3/512 and p
 
 ## RESULTS
 
-Independent custody, forecast, explicit-history optimization, native artifact scoring, committed random streams, control replay and a preregisterable runner are prepared. Native tests used only disjoint development installations. No X17 target round has been selected or opened, and no held-out trial has run. The independent role will wait for parent-verified preregistration and opening before operating on the actual roster.
+The exact signed opening matched the frozen forecasts, and the published seed matched the independent commitment. Independent native execution completed all 163,840 main attempts, with all of them valid. It also completed 512 ordinary diagnostics and 1,024 nominal/actual pairs. Six routed artifact disagreements matched the six exact surcharge-strip hits. The final archive verifies 165,376 index rows against 166,400 committed native attempts.
+
+All 320 point forecasts are compatible. The eight unresolved equivalence decisions concern the conditional risk resolution. Statistical threshold decisions are reported per cell, including inconclusive boundary measurements. The exact explicit-history solver reproduced 7/12 and 2/3, the two menu infeasibilities, and the finite grid bounds. Nineteen disjoint control cases retain their native witnesses and mathematical scopes. [Definitive report](../results/independent/RESULTS.md) · [Exact independent result packet](../results/independent)

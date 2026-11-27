@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "beacon": {
+    "round": 34323065,
+    "randomness": "3bcf76395dc46b00756a75e5a1188d5e50252eba0612faf821bf4e016eee05a3",
+    "signature": "8f9842acb88e8cd147a82c1a84f6290605bcc7ad52f0ad4364b932fcdc3a3667e1bd433c309c080f1bec8a3639f49563"
+  },
+  "fetched": [
+    {
+      "url": "https://api.drand.sh/52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971/public/34323065",
+      "status": 200,
+      "http_date": "Fri, 27 Nov 2026 09:52:07 GMT",
+      "observed_utc": "2026-11-27T09:52:08.117Z"
+    },
+    {
+      "url": "https://drand.cloudflare.com/52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971/public/34323065",
+      "status": 200,
+      "http_date": "Fri, 27 Nov 2026 09:52:06 GMT",
+      "observed_utc": "2026-11-27T09:52:06.593Z"
+    }
+  ],
+  "verified_utc": "2026-11-27T09:52:08.251Z"
+}
