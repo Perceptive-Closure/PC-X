@@ -1,0 +1,76 @@
+{
+  "repository": "Perceptive-Closure/PC-X",
+  "default_branch": "codex/pc-x-orchestration",
+  "all_existing_refs": {
+    "refs/heads/codex/exp-x01": "a52d45f1b8c0036b1a69b1fc024f95e48d4ce012",
+    "refs/heads/codex/exp-x02": "18bc904d7073df3536d9794f18b868b9a3de53bc",
+    "refs/heads/codex/exp-x03": "d85fe1cdb76cbc6d03e58e34f320c4c58a3f243c",
+    "refs/heads/codex/exp-x04": "b6ce562aa91323f2913615b92e91ffb2b9cc4731",
+    "refs/heads/codex/exp-x05": "e288a6b5b8ddac24af349913bc68b640a691b2b2",
+    "refs/heads/codex/exp-x06": "d3d8f0d6f14d548ce4b95dfa4341d8db54ad7876",
+    "refs/heads/codex/exp-x07": "06242b250a7041d40f2f6af32bd8a11742813891",
+    "refs/heads/codex/exp-x08": "a8c6650a7ff9901ca9ac5ed4036a37f6cb7c9200",
+    "refs/heads/codex/exp-x09": "68624c9a0eea93ec304be8e4349727eda3381c76",
+    "refs/heads/codex/exp-x10": "4a16ef37d0e90e856560ce153c0fd690c28016b6",
+    "refs/heads/codex/exp-x11": "01f174c14669c92cd1c06dbf5158db29c4720b6d",
+    "refs/heads/codex/exp-x12": "486671cfcb52405ad226de553ce1df992f66b4fc",
+    "refs/heads/codex/exp-x13": "1b9e599a7333d9b9f85669298791557282a75c1b",
+    "refs/heads/codex/exp-x14": "4ed49718f364afe9ba0723e96f4111c370a12101",
+    "refs/heads/codex/exp-x15": "9c3884846c895ead014ba06895cf74da2d15e726",
+    "refs/heads/codex/exp-x16": "a6bf9cefb59f63b8c9dea59daf7e588a82ba07eb",
+    "refs/heads/codex/exp-x16-custody": "bf91bb5f48549853ee614361d4bc0f9f917e08b6",
+    "refs/heads/codex/exp-x16-independent": "2912de224021dba41f20362b44b4cdb1c53164df",
+    "refs/heads/codex/exp-x16-service": "172b70a40ff1a7ae586c7ad704c83db1a7ad8c05",
+    "refs/heads/codex/pc-x-orchestration": "e54a261f200be1b1c94e28b5c8519b466147312c",
+    "refs/heads/codex/pcx-advanced-a": "95b3576a3bf65824b9e09e689aad80f6ae4f46df",
+    "refs/heads/codex/pcx-advanced-blind": "ed5198e1a9f78a1f706e0943a35945e5335d8903",
+    "refs/heads/codex/pcx-advanced-hostile": "a68cbea024cb527e3e3dc1d82d5696c4626a535a",
+    "refs/heads/codex/pcx-advanced-p": "bebeea2f1be63f89bd6a3bffb8b2651b625a06d2",
+    "refs/heads/codex/pcx-final-flagship": "1842ad6f8de5f7358b59e599d9c31b2a34a760fb",
+    "refs/heads/codex/pcx-flagship-a": "81c4261f347044b156cbd848d10191a44e584dc5",
+    "refs/heads/codex/pcx-flagship-blind": "6d02c6ebbab0cb4e63242853f8921be65b8e1d0b",
+    "refs/heads/codex/pcx-flagship-generalization": "109eac055f466c609c0dcb9ba880827a0fde675f",
+    "refs/heads/codex/pcx-flagship-hostile": "7ea42d261532aa57283a0c397ccf355e46b839db",
+    "refs/heads/codex/pcx-flagship-p": "e621b15a007dbf3a4586fd9eb6c49633ec06e7ae",
+    "refs/heads/codex/pcx-flagship-u": "25b11bda9fc82eb72eac033cd9475b5ebabab3ef",
+    "refs/heads/codex/pcx-gen-flagship": "92c398536f123473b7f3945a62ade3c3f96c7d0c",
+    "refs/heads/codex/pcx-gen-hostile": "140dca3f843d3d40f8bce6f9703edef27a610fba",
+    "refs/heads/codex/pcx-gen-monitor": "b7856c33e3574988c2ccdae2c36462d3f2b64a16",
+    "refs/heads/codex/pcx-gen-struct": "d3eee8044cca3e7dd1f1eee02b78144cf9c9556b",
+    "refs/heads/codex/pcx-gen-transport": "1dc1bbb04dcf5236da0c9112695cc0b528561ba0",
+    "refs/heads/codex/pcx-gen-verify-a": "7b042f5ce05a904758a1a9b01c69bf849b1db180",
+    "refs/heads/codex/pcx-gen-verify-b": "fa5d4009ea71380ce463fc91c810946525889547",
+    "refs/heads/codex/pcx-gen-verify-c": "c4e1d00114432577dfc188e850015d5380709630",
+    "refs/heads/codex/pcx-generalization": "07e91bec6f906eb460f025255e20e8e470adf3f2",
+    "refs/heads/codex/pcx-math-deployment": "bedb356fd9837a548b7ee2bbdb2883c20e2de99d",
+    "refs/heads/codex/pcx-math-exact": "6fbc9f7b1cd36fe69f5d6ff0e4fa6adbfe6bf61e",
+    "refs/heads/codex/pcx-math-foundation": "8f1bd921831abebaa1af19b32f173caf571f27c9",
+    "refs/heads/codex/pcx-math-governance": "21a2509669c40db20bbd0d4358c3ea4adff5e508",
+    "refs/heads/codex/pcx-math-hostile": "0cdef5987f964724842c8d51981815edac2309b9",
+    "refs/heads/codex/pcx-math-verify-initial": "d110711ade3243ffb182840fad01492e70451290",
+    "refs/heads/codex/pcx-math-verify-late": "ad9accf72bd3fafb1f209b19b18272853ab73624",
+    "refs/heads/codex/pcx-theory": "39a0d0e5b3283835094d17603b84e706b968f443"
+  },
+  "governing": {
+    "reconstruction": {
+      "commit": "39a0d0e5b3283835094d17603b84e706b968f443",
+      "tree": "d78010747396150c9c8bc3ab24b5266bc3ae94e3"
+    },
+    "generalization": {
+      "commit": "07e91bec6f906eb460f025255e20e8e470adf3f2",
+      "tree": "385057bf8dd66f91051703813516e64c3c7cf03c"
+    },
+    "x16": {
+      "commit": "a6bf9cefb59f63b8c9dea59daf7e588a82ba07eb",
+      "tree": "2b316bc1be855364dbe920b07c2054134f76ba48"
+    },
+    "final": {
+      "commit": "1842ad6f8de5f7358b59e599d9c31b2a34a760fb",
+      "tree": "03722d1d982ad5907626ef34558945f2eee8c5d3"
+    },
+    "advanced": {
+      "commit": "109eac055f466c609c0dcb9ba880827a0fde675f",
+      "tree": "c0ff307be72edc0cee92d1bbc35b2427c2ebc415"
+    }
+  }
+}
