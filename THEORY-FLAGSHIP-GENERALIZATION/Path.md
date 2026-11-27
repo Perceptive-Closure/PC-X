@@ -1,0 +1,5 @@
+# Advanced campaign execution record
+
+27 November 2026. Began with the accepted final flagship and its complete source-checked proofs and scope addenda. All twenty historical refs match their exact pins. The GitHub commit API separately confirmed all four principal tree IDs at the governing revisions. Original PDF checksums matched the 18-page D-35 and 43-page PC-X package. No accepted X17 results surfaced in the repository refs, Git paths, PR and issue search, or canonical project record. X17 remains a proposal in this campaign. The earlier separate extension charter remains unrecovered. [Source manifest](BASELINE-MANIFEST.md)
+
+The opening design retains a single whole completion through evaluation, activation and deployment, with an explicit lawful information record and source-atomic physical effects. Continuous laws and conditional transport may weaken numerical assumptions while hard authority remains a separate check. The first two constructors and an independent role receive separate work plans and before-proof research channels.
