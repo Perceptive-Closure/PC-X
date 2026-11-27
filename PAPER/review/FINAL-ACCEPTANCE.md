@@ -18,3 +18,5 @@
 ## Distribution identity
 
 The PDF released with the editable source has SHA-256 `1bbb8d8b78fb2537cf7a4a8845453d6522ae3c317a09f0e10535b4435a92adfb`. The public readback and exact Git object checks are recorded in the [release record](../Path.md). Both review assignments used GPT-6.2 Astra. Reviewers worked on the same project environment and disclosed the appendices they authored. These are internal manuscript reviews.
+
+The public content snapshot was independently retrieved at [3c274dc8ecff](https://github.com/Perceptive-Closure/PC-X/commit/3c274dc8ecff8a9094e1659b525b6a00277e2f32). The public Git tree authenticated every one of its 45 package files. Compiling that copy reproduced the distributed PDF byte for byte. GitHub retained the original 53 branch tips and the original default branch. These observations complete the public release checks.
