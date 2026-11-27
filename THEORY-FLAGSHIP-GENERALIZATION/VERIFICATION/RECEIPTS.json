@@ -1,0 +1,45 @@
+{
+  "governing_final": "1842ad6f8de5f7358b59e599d9c31b2a34a760fb",
+  "registration": "cbe5f369325172988bfdb19a38dfbbc60cf070cc",
+  "continuous": {
+    "branch": "codex/pcx-advanced-p",
+    "seal": "69b137e57300fbd4af3380d254fb9ab32eee32c1",
+    "statement_blob": "ca351458a79432703267849fa395d6971930c233",
+    "blind": "19cd95ccfb3b0c4e4f6eb24132516a488d723f84",
+    "proof": "7f8ae35278bf975c7e224fee1566233f594dce0a",
+    "comparison": "e218a1d1f9a6b9e76c8a16e2de84f447a32b8720",
+    "accepted_scope": "bebeea2f1be63f89bd6a3bffb8b2651b625a06d2"
+  },
+  "strategic": {
+    "branch": "codex/pcx-advanced-a",
+    "seal": "de86a826d9223ec1ebdd331c01f9f0adc82f5466",
+    "statement_blob": "9329896a5553b01b21234da3d23bb18ba48ea44e",
+    "blind": "b66188584a3509a96f03c561290672515d9c848f",
+    "proof": "95b3576a3bf65824b9e09e689aad80f6ae4f46df",
+    "comparison": "148074a3a0b15092830d77cad151613024e175ee"
+  },
+  "unified": {
+    "branch": "codex/pcx-flagship-generalization",
+    "seal": "758ec550179f010d81327308cca9ec7e5120ae8b",
+    "statement_blob": "4ddfa19af01d51393835292954b74e924b8d735b",
+    "neutral_scope_history": [
+      "389aa056e039796dcc5860b63e8e24695eb29ca8",
+      "c9c30d0f3f0f638bc7408248b966d7b763f9be5a",
+      "3d5199852cf3550f5e3a568b75b8d8a9f6faa662"
+    ],
+    "blind": "e09f81e2181445eb4aad4814573a5db2cd2334cc",
+    "proof": "8b1390de89c775087ccd5f1d61d6e516ca010fce",
+    "grid_scope": "1ba70aa1f6def4c9a557aa79bdcd0b7e058cbfc1",
+    "comparison": "7e6a30d865785801a67a254130380762c3d017b1",
+    "transport_scope": "b4ba949ab516d685324d22ba73c383572c99ea8e"
+  },
+  "final_separate_scope_comparison": {
+    "branch": "codex/pcx-advanced-blind",
+    "commit": "ed5198e1a9f78a1f706e0943a35945e5335d8903"
+  },
+  "hostile": {
+    "branch": "codex/pcx-advanced-hostile",
+    "commit": "a68cbea024cb527e3e3dc1d82d5696c4626a535a",
+    "tree": "d6ac6ed70c83149cf6aa46e0e4b57edafee0fdd9"
+  }
+}

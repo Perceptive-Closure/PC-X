@@ -1,0 +1,48 @@
+# Advanced flagship proof-blind verification path
+
+27 November 2026. The independent verification role was assigned at registration `cbe5f369325172988bfdb19a38dfbbc60cf070cc` in Perceptive-Closure/PC-X. The assigned branch is `codex/pcx-advanced-blind`; the worktree was clean and detached at that exact object before branch creation. GitHub independently returned the same registration SHA. [Registration](https://github.com/Perceptive-Closure/PC-X/commit/cbe5f369325172988bfdb19a38dfbbc60cf070cc) · [Verification work plan](WorkPlan.md) · [Campaign work plan](../WorkPlan.md)
+
+## Immutable scope and role separation
+
+The accepted reconstruction, generalization, EXP-X16 and final flagship are pinned respectively at `39a0d0e5b3283835094d17603b84e706b968f443`, `07e91bec6f906eb460f025255e20e8e470adf3f2`, `a6bf9cefb59f63b8c9dea59daf7e588a82ba07eb` and `1842ad6f8de5f7358b59e599d9c31b2a34a760fb`. Use the accepted scope addendum when translating inherited theorems. X16 remains evidence for the signed support-robust service. X17 is a validation proposal. The role only writes under this verification directory in the assigned branch. The constructor owns proposed statements and proofs, the hostile reviewer runs a separate assignment, and the parent owns acceptance and shared definitions. [Source pins and experimental limits](../BASELINE-MANIFEST.md) · [Accepted scope addendum](../../THEORY-FINAL-FLAGSHIP/VERIFICATION/SCOPE-ADDENDUM.md)
+
+Use one installed world \(\omega=(\theta,\nu)\) before controller randomization, with its actual linked history and persistent responder. The inherited accepted contract and advanced common contract fix the separation of admissible information, extensional evidence and authority, actual effects and public declarations. Each candidate must retain actual lawful literals, all positive raw support, the separate role filtrations, true events, useful work, target and quantifiers. The verdict is declared at its physical release point. Per-world risk, decision and calibration error, issuance coverage, supported budgets and expected cost must be checked in their own semantics. Numerical comparison alone gives no additional authority. [Advanced common contract](../COMMON-CONTRACT.md)
+
+## Before-proof receipt and independent work
+
+1. Wait for the parent to authorize one exact neutral statement commit and path. Retrieve only those immutable statement blobs and authorized accepted premises. Record the original commit, blob SHA, and local byte digest. Preserve the statement unchanged and treat unresolved new prerequisites as conditional.
+2. Reconstruct the precise statement independently, or produce a counterexample. Record each attempted derivation, a materially distinct approach where needed, and each missing condition or disagreement. Support consequential steps with appropriate reproducible exact checks and scoped Lean lemmas where feasible, identifying their scope. Resolve mathematical disputes by directly applicable primary sources. Avoid empirical experiments.
+3. Commit and push the complete independent derivation to the assigned branch. Retrieve the exact GitHub commit and blobs via a read-only channel and report verified scope and replay evidence to the parent. A local commit does not close the proof-blind gate.
+4. After parent authorization, retrieve the exact separate proof release. Compare the argument by source SHA with the retained original seal and the already published independent derivation. Document every correction, changed quantifier and surviving disagreement separately. Submit to the parent for reconciliation with the independent hostile assignment. Preserve all baseline refs and the default branch.
+
+## U neutral receipt
+
+Received the exact U statements and independently reconstructed U.G1–U.G4. The independent objections to public-state update, installed-target leakage, bad-only cells, initial-law matching and arbitrary reported calibration were preserved and resolved by a separate exact neutral correction before proof exposure. Replayed exact flow multiplicity, directional LP bounds, routed fixture, and truncation arithmetic. [Before-proof derivation](U-BLIND.md)
+
+## A neutral receipt
+
+After the U archive, retrieved the exact A statement only. Reconstructed simultaneous minimax over all legal design laws, finite higher-order certificate blockers and the matched acquisition and useful governed activation bounds. Preserved the distinction between equal prior weights across signs and equal atomic weights within a sign. Replayed both example Bayes values, the minimum paid and live constraints, and exact maintenance fact cost. [Before-proof derivation](A-BLIND.md)
+
+## P neutral receipt
+
+After the A archive, retrieved the exact P statement. Reconstructed algebraic feasibility, finite Helly witnesses, semialgebraic infeasibility and optimization distinctions, and state-specific submeasure transport. Independently reconstructed the information fragment hitting oracle, adaptive bounded-score confidence, and sharp signed selection in the source fixture. Preserved exact boundary examples and replayed the core numerical assertions. [Before-proof derivation](P-BLIND.md)
+
+## A authorized proof comparison
+
+After the independent derivations had been published, opened only the authorized A constructor proof and scope at 95b3576a3bf65824b9e09e689aad80f6ae4f46df. Compared every proof paragraph with the preserved blind argument and replayed the exact constructor Python and Lean artifacts. The original neutral statement is unchanged. The matched-sign prior clarification agrees with the earlier independent derivation. [Comparison](A-COMPARISON.md)
+
+## P authorized proof comparison
+
+After independent GitHub verification of the P blind record, opened the exact P proof release 7f8ae35278bf975c7e224fee1566233f594dce0a. Compared every paragraph, retained both alternate irrational examples, checked the explicit nonnegative survival factors and finite report list, and replayed authenticated constructor Python and Lean evidence. The neutral statement remains unchanged. [Comparison](P-COMPARISON.md)
+
+## U authorized proof comparison
+
+After independent GitHub verification of the U blind record, the parent authorized proof release 8b1390de89c775087ccd5f1d61d6e516ca010fce and final neutral scope 3d5199852cf3550f5e3a568b75b8d8a9f6faa662. Compared each proof paragraph and replayed authenticated constructor Python and Lean artifacts. Checked the additional exact worst-surcharge grid projection, positive feasibility margins and correct fixed-class reduction. A surcharge-dependent calibration prefix breaks the blanket aggregate monotonicity assertion. Preserved the counterexample and verified the exact scoped correction 1ba70aa1f6def4c9a557aa79bdcd0b7e058cbfc1, which restricts that grid to the base or a surcharge-independent prefix. [Comparison](U-COMPARISON.md)
+
+## Independent verification of final scope refinements
+
+Compared P's exact post-review refinement and U's exact transport scope with the prior releases. Verified global fixed guard compilation, the retained-world Helly bound with fixed rows, selective score endpoints, and the exact Farkas check. Recomputed both U upstream monitoring counterexamples and checked the matched restricted-menu comparator, with the route controlling the actual literal and the quality lottery available earlier. These are scope clarifications of the checked claims. [Scope comparison](SCOPE-COMPARISON.md)
+
+## RESULTS
+
+The U, A and P before-proof records were independently published and authenticated ahead of each exact constructor release. All three authorized paragraph comparisons and exact Python and scoped Lean replays passed. Original statements, all objections and separate corrections are preserved. The final P fixed-guard and selective-score refinements and U conditional monitoring, endpoint and matched acquisition scopes were independently checked; the new P replay and exact U fraction checks passed. There is no remaining mathematical disagreement in the declared model classes. These conclusions concern the stipulated mathematical sources. Scientific transfer, separate hostile review and final parent acceptance retain their independent evidence requirements.

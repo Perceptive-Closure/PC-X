@@ -1,0 +1,13 @@
+
+# Open obligations and proved barriers
+
+1. **General continuous feasibility complexity.** Exact algebraic decision in the expanded class and a coNP-hard restricted case are established. No tight complexity for the full alternating decision problem, polynomial root sampler under arbitrary physical hardware budgets, or universal efficient certificate search was proved.
+2. **Implicit source admission.** Conditional common mass and explicit finite checked anchors supply sound verified envelopes. Arbitrary physical source membership, missing observations, semantic event decoding and hidden contextual support still require independent evidence. Minimum cost outside the admitted catalog and envelope proof language is open.
+3. **Strategic classes and stopping.** All-audit identification at fixed finite legally expanded scope is exact. General nonresetting infinite strategic games, exact unbounded expected-cost optimal acquisition with composite unknown response channels, and continuously changing admitted capabilities are outside the accepted exact classes.
+4. **Nonunifilar sufficient states.** Full finite realization can always be attempted with the stated expanded algebraic model. Exact count graph compression for general stochastic hidden-state propagation or variable unbounded alphabets remains open. A small flow graph does not establish a small compilation.
+5. **Approximation at weak or strict boundaries.** The two-sided certificate survives when an upper point can be independently checked. A nonempty actual feasible class need not have interior margin. No uniform additive value approximation without the stated radius, error and margin (or another justified physical witness) was shown.
+6. **Selective adaptation.** Operational risk under the actual selected cut and optional calibration are different guarantees. An arbitrarily rare selected completion may concentrate all calibration failures. Stronger guarantees need verified positive exposure and genuine conditional restrictions.
+7. **Infinite horizons and scalable oversight.** Tail and discount bounds extend the named objectives when fallback is lawful and uniform estimates hold. General undiscounted infinite-horizon safety, generalized exponential identity separation and a universally favorable target-versus-direct-measurement outcome were not proved.
+8. **Closest prior work and external validation.** Classical ingredients have explicit sources. Priority for the particular joint sufficiency result remains open beyond the documented comparison. Prospective source validation and external mathematical review remain future work. X17 remains a proposal.
+
+[Counterexample ledger](COUNTEREXAMPLE-LEDGER.md) · [Future validation protocol](FUTURE-VALIDATION-REQUIREMENTS.md)
