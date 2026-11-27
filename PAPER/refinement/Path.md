@@ -27,3 +27,5 @@ The LaTeX build retains five editable vector figures and adds two decision table
 ## RESULTS
 
 The [refined complete manuscript](../PC-X-FULL-PAPER.pdf), [editable source](../manuscript/main.tex), updated indices and independent reports meet the twelve [acceptance gates](FINAL-ACCEPTANCE.md) within their stated scope. The PDF SHA-256 is e5d66ff327525237290516354e75b1d59beebb551158a26e60815f63bb43f248. The evidence supports the specified mathematical and constructed-service claims. External human readability, new frontier deployments, universal efficiency and historical priority remain open.
+
+The [published content revision](https://github.com/Perceptive-Closure/PC-X/commit/1e37f4565e088dac7a3d596d07ded9bfb85d1123) was retrieved again through the GitHub API and its immutable source archive. All 56 paper-package blobs matched the remote tree. A clean rebuild of the downloaded source reproduced the published SHA-256 and all 131 pages. The 54 preexisting branch heads retained their original objects. This release receipt updates only the acceptance and execution records.
