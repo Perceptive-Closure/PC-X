@@ -1,0 +1,7 @@
+{
+  "freeze_commit": "be574f4eaba8a52b50c5604e87075ab4cac81b79",
+  "frozen_artifact_hashes_checked": 71,
+  "prospective_forecast_rows_independently_rebuilt": 10480,
+  "public_candidate_rows": 2096,
+  "simultaneous_hoeffding_upper_at_main_radius": "0.0025991140472367165164284035597884738415559376252603"
+}
