@@ -31,6 +31,10 @@ After the A archive, retrieved the exact P statement. Reconstructed algebraic fe
 
 After the independent derivations had been published, opened only the authorized A constructor proof and scope at 95b3576a3bf65824b9e09e689aad80f6ae4f46df. Compared every proof paragraph with the preserved blind argument and replayed the exact constructor Python and Lean artifacts. The original neutral statement is unchanged. The matched-sign prior clarification agrees with the earlier independent derivation. [Comparison](A-COMPARISON.md)
 
+## P authorized proof comparison
+
+After independent GitHub verification of the P blind record, opened the exact P proof release 7f8ae35278bf975c7e224fee1566233f594dce0a. Compared every paragraph, retained both alternate irrational examples, checked the explicit nonnegative survival factors and finite report list, and replayed authenticated constructor Python and Lean evidence. The neutral statement remains unchanged. [Comparison](P-COMPARISON.md)
+
 ## RESULTS
 
-The U, A and P before-proof records and exact replays are preserved. A has completed its authorized line-by-line proof comparison, with scope and formal limits recorded. Additional comparisons require independent parent authorization of exact proof releases.
+The U, A and P before-proof records and exact replays are preserved. A and P have completed their authorized line-by-line proof comparisons with formal limits recorded. Opening another proof requires exact parent authorization.
