@@ -2,6 +2,10 @@
 
 The research package links below select immutable commits. The recorded Git tree names the complete tree at that commit. The blob count is limited to the indicated research directory. Each file in that directory was checked by object ID and byte length against the GitHub tree before use. Experimental and mathematical conclusions refer to the scopes declared in their accepted packages.
 
+## Refinement lineage
+
+This edition is based directly on the accepted manuscript revision with the later authorized author attribution carried forward. Its new evidence consists of editorial comparisons and independent manuscript reviews. The mathematical and experimental claims refer to the immutable sources below. [Accepted manuscript at 664f90e](https://github.com/Perceptive-Closure/PC-X/tree/664f90e2d2e2c941bed36e43240811cfc33ef0ac/PAPER) · [Saif Malik's byline at 18fb9ae](https://github.com/Perceptive-Closure/PC-X/commit/18fb9aec42897e8fc466abf81b741c7665d6bac2) · [Refinement records](refinement/Path.md)
+
 ## Original manuscripts
 
 | Source | Extent | SHA-256 of the recovered PDF | Role in the paper |

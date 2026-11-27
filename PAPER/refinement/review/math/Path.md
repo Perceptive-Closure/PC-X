@@ -1,0 +1,16 @@
+# Mathematical review path
+
+The baseline was the accepted manuscript at 664f90e. Eleven source and scope-addendum files agreed between scratch intake and tracked theory after normalizing line endings. The source pass traced nine theorem promotions to exact proof locations and checked neighboring results in the accepted appendices.
+
+The reviewer sent the author conditions on true-event decoding, authority, support, controller randomization, positive coverage, fixed-world probabilities, hard guard provenance, objective directions, sufficient statistics and implementation cost. After the draft became available the reviewer compared each changed section with the proof dependencies, source experiments and closest prior approaches. The new main statements were checked in context and the detailed record is in MATHEMATICAL-FIDELITY.md.
+
+## RESULTS
+
+The author corrected the original guard domain in the Helly/hitting-set argument, semialgebraic domains and objective direction in robust synthesis, the interpretation of a single successful run, attainment in the high-only comparator and the threshold of the signed-score test. Each correction was verified in the manuscript. The core 7/12 result, its hard cap of one, its issued-risk and utility bounds, the counted history argument and the limitations on statistical and physical transfer survived the revised-draft audit. Mathematical fidelity passes for the corrected prose. The separate post-correction hostile review tested all eight scientific objections. The target-specific search price, joint physical realization and source-conditioned guarantees survived, while strict probe-quality adaptivity, general computational advantage and field effectiveness exceeded the evidence. Two additional wording changes were sent to the parent concerning X16 paid-audit accounting and U.G3 probe selection. Full arguments and compared literature appear in HOSTILE-SCIENTIFIC-REVIEW.md.
+
+
+The author incorporated both hostile-review corrections. The reviewer verified the revised abstract and guarded-service result directly in the editable sources. All eight questions have a recorded disposition. The scoped scientific claims pass the hostile review, with external validity, strict adaptive probe advantage and general performance remaining explicit boundaries.
+
+Final release candidate. I independently hashed the 131-page PDF as SHA-256 71fb4bc5b877acceae6c50e27b37a9e03d3a3d3f9a2719347ea499046b9dd50c and located the shortened limitations and conclusion in the compiled text on page 21. The passages preserve the assumptions on correspondence, model scope, external applicability and separately charged computation and physical work. Their final research question keeps frontier deployment conditional on establishing those premises. The scientific disposition stands for this exact PDF.
+
+Public typesetting candidate. The production pass changed figure placement. I independently verified the replacement PDF contains 131 pages, retains the limitations on page 21 and has SHA-256 e5d66ff327525237290516354e75b1d59beebb551158a26e60815f63bb43f248. This hash supersedes the previous candidate for publication. The mathematical and scientific dispositions continue to apply.

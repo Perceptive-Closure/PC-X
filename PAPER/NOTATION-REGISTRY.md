@@ -1,36 +1,30 @@
 # Notation registry
 
-The main text chooses a symbol only after introducing what it measures. The technical appendices have local, explicitly defined indices. A physical world inside one known contract and a completion of an uncertain contract are different levels of uncertainty. [Foundations](manuscript/sections/foundations.tex)
+The two uncertainty levels matter throughout. A completion describes an entire admissible installation at the chosen level of abstraction. A latent world can remain possible *inside* one such completion even when the contract is known.
 
-| Symbol or term | Meaning | First governing context |
+| Symbol or term | Meaning | Where it is introduced |
 | --- | --- | --- |
-| $C,\Omega,C\models\Omega$ | A complete description of the relevant semantics, available evidence, and satisfaction of that evidence | Section 2, equation (1) |
-| $\mathcal C_\Omega,\Psi,\mathcal I_\Psi(\Omega)$ | Consistent completions, prechosen target, and set of target values on consistent completions. Empty, singleton and multiple values have distinct interpretations. | Section 2 |
-| $r_j,z,c_j$ | Exact installed report of read $j$, an observed answer, and acquisition price inclusive of declared verification charges | Sections 2–4 |
-| $s,x,u$ in the original contract | Physical checkpoint, latent world in that contract, and history representative. Appendix D uses $x$ for a controller realization and defines it there. | Section 2 and Appendix A |
-| $E,R,A$ | Evidence admission, certificate representation and effective authority | Section 2 and Appendix A |
-| $H(s),P(s),\Lambda(s)$ | Admitted history representative, certificate equivalence on histories, and extensional permission operator | Section 2 |
-| $C(s),a(x)$ | Worlds represented at a checkpoint and their preassigned target label | Section 2 |
-| $F,\kappa_F$ | Frozen resource subset and least worst supported cost of a proper closing policy. An impossible cost is positive infinity. | Sections 2–3 |
-| $D(C,C'),J$ | Reads that separate two contrary completions, and a set of purchased reads | Sections 3–4 |
-| $S,S_{j,z},v(S)$ | Current acquisition cell, cell after a response, and remaining minimax price. The remaining menu or access state is included as needed. | Section 4 |
-| $n,N=2^n,g,k$ in the key construction | Key length, context count, gateway status and the exceptional operational key | Section 4 and T07.K |
-| $w,\Pr_w,\mathbb E_w$ | Fixed installed world, its induced probability and expectation under a named policy | Section 2 |
-| $I,V,G$ | Positive issuance or the explicitly defined activation event, actual violation, and genuine service utility | Section 2 and each cited source construction |
-| $K$ as path price | Accumulated acquisition cost. A worst expectation and a supported-path maximum are different objectives. | Section 2 |
-| $q_{xyb}$ in transport | Joint deployment mass on context, trajectory cell and true physical event bit | Section 5 |
-| $P,Q,\operatorname{TV}(P,Q)$ | Two record laws and their largest probability difference over observable events | Section 2 |
-| $\mathcal D,S_d,x_w(h),K_+,K_-$ | Complete acquisition plans, one plan's stopped records, their intervention probabilities, and closed convex hulls for the two signs | Section 6 and Appendix F |
-| $B$ in the controller program | Marker of a prohibited decision or hard breach. Its expectation must vanish across the whole hard guard class. | Appendix D |
-| $X,x_\sigma$ | Compact set of controller realization factors, and the seed mass assigned to an own decision sequence | Appendices D–E |
-| $W,C$ in robust synthesis | Original guard class and the numerical performance class. Subsetting the latter need not remove any hard check on the former. | Appendices D–E |
-| $p,r$ in the finite anchor model | A fixed distribution over components and the installation's full tuple of source reports | Appendix D |
-| $\mu,m$ in transport | Genuine jointly dominated matched submeasure and its total retained probability | Appendix E |
-| $b_j,r_n,\eta$ in calibration | Bound on conditional measurement bias, outward interval radius after $n$ reads, and total statistical failure allowance | Appendix E |
-| $q,F(q),F(q,a),L_m(q,\theta)$ in count compression | Publicly reconstructible sufficient state, incoming and action seed flows, and a tagged world's path likelihood | Appendix G |
-| $\theta,m,k,v,a,\beta$ in U.G3 | Ordinary risk parameter, installed responder tag, actual route, carried prelude bit, proposal and finalizer surcharge | Section 9 and Appendix G |
-| $l,h$ in the matched lower bound | Probabilities of purchasing the low- and high-quality observation on a matched pair of opposite worlds | Section 9 |
-| $q=\Pr(I)$ in U.G3 | Probability the actual service issues and runs its continuation at a fixed world | Section 9 and Appendix G |
-| PC-TAU, X01–X17, D-35 | Historical task collection, numbered PC-X studies, and the original Perceptive Closure manuscript | Section 10 and Appendix H |
+| $C,\Omega,C\models\Omega$ | A complete description of the relevant semantics, available evidence, and compatibility with that evidence | [Possible systems and action](manuscript/sections/foundations.tex) |
+| $\mathcal C_\Omega,\Psi,\mathcal I_\Psi(\Omega)$ | The set of compatible completions, the prechosen target map, and its set of possible answers. A singleton answer set can coexist with many completions. An empty completion class signals inconsistency. | Section 2, equation (1) |
+| $r_j,z,c_j$ | Read $j$'s exact report function, a received answer and its acquisition price including any specified verification charge | Sections 2–4 |
+| $s,x,u;H(s),P(s),\Lambda(s)$ | A physical checkpoint, latent world and history representative; its admitted record, certificate equivalence and effective authority | Section 2 and Appendix A |
+| $C(s),a(x)$ | Worlds represented at one checkpoint within the contract, and the latent world's preassigned label | Section 2 |
+| $E,R,A;F,\kappa_F$ | Evidence, representation and authority; a set of resources held fixed, and the minimum worst-supported closing cost under that freeze. An impossible cost is infinite. | Sections 2–3 |
+| $D(C,C'),J; S,S_{j,z},v(S)$ | Reads distinguishing an opposing pair, selected reads, an acquisition cell, its nonempty successor and the remaining worst price | [Identification](manuscript/sections/identification.tex) and [acquisition](manuscript/sections/acquisition.tex) |
+| $n,N=2^n,A_\Psi,A_C$ | Succinct key length, context count, minimum exact worst prices for target and installation identity on matched access | Section 4, T07.K |
+| $\mu,V,q_{xyb}$ | Common matched path mass, genuine binary violation and joint mass of context, trajectory and true outcome | [Transport](manuscript/sections/transport.tex) |
+| $\theta,W,X,x,d$ in P.G01.1 | One fixed parameter vector, original hard guard class, compact policy polytope, a policy's realization factors, and their affine dimension | Section 5 and Appendix E |
+| $\mathcal D,S_d,x_w(h),K_+,K_-,\lambda,\gamma,R_*$ | Finite complete audit designs, stopped records for one design, one world's record likelihoods, two closed mixture hulls, adversarial class weight, weighted separation and least worst binary error | [Strategic oversight](manuscript/sections/strategy.tex) |
+| $\Delta_m,X_{\rm guard},P_w$ | Mixtures over $m$ complete policies, their fixed hard-legal subset, and the subset meeting one world's performance requirements | Section 6, A.G2 |
+| $w,\Pr_w,\mathbb E_w,I,V,G,K$ | Installed world, its policy-induced law and expectation, actual issuance, physical violation, genuine utility and pathwise acquisition charge | [Joint synthesis](manuscript/sections/unified.tex) |
+| $\varepsilon,a_w$ | Cap on violation among issued cases and a separately positive issuance floor for each world where the cap applies | Section 9.1 |
+| $q,F(q),F(q,a),L_m(q,\theta)$ | A sufficient state, its incoming and outgoing decision flows and one tagged world's likelihood at the state | Section 9.2 and Appendix G |
+| $r,M,e,b,L,A^*_{\mathrm{actual}},U$ | Verified grid radius, bound on reference score change per unit distance, actual/reference discrepancy, score cap, lower price, actual optimum and certified physical upper price | Section 9.3, U.G2 |
+| $\theta,m,k,v,a,\beta$ in U.G3 | Ordinary-reference risk, hidden responder bit, physical route, last prelude bit, carried proposal and allowed actual finalizer surcharge | Section 9.4 and Appendix G |
+| $l,h,q=\Pr(I),t,s$ in U.G3 | Probabilities of low/high purchase at the matched pair, issuance probability, prelude depth and number of stays | Section 9.4 |
+| $p,r,B$ in the finite external-check model | Enrolled component weights, full vector of exact reports, and a nonnegative forbidden-support marker | Appendix D |
+| $b_j,r_n,\eta$ in calibration | Conditional bias allowance, confidence radius after $n$ observations and sampling error budget | Appendix E |
+| Total variation; coupling | Largest probability difference over record events; a joint law with prescribed marginals | Sections 5, 7, 12 and Appendices D–E |
+| X01–X17, D-35, PC-TAU | Archived PC-X studies, original Perceptive Closure manuscript and its constructed task collection | [Experimental map](EXPERIMENTAL-EVIDENCE-MAP.md) and Appendix H |
 
-A positive verdict can mean different things under different protocols. In T29.J it requires useful work already accomplished. In the external-check T30.P protocol it authorizes an attached subsequent controller. In U.G3 it immediately invokes the delegated finalizer. Keep the original scoring event, denominator, time and physical work together when carrying a bound between sections. [Exact theorem locations](THEOREM-CROSSWALK.md)
+At a T29.J positive leaf the useful job must already be complete. In the external-check T30.P model the check authorizes an attached controller. In U.G3 positive issuance activates the routed finisher. Keep the interface, physical score, denominator and stopping time with each result. [Theorem crosswalk](THEOREM-CROSSWALK.md)

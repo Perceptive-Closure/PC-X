@@ -2,11 +2,14 @@
 \usepackage[a4paper,left=27mm,right=27mm,top=24mm,bottom=25mm]{geometry}
 \usepackage{amsmath,amssymb,amsthm,mathtools,booktabs,array,longtable,graphicx,xcolor,microtype}
 \usepackage[numbers,sort&compress]{natbib}
+\usepackage{placeins}
 \usepackage{hyperref}
 \definecolor{ink}{HTML}{18364A}
 \definecolor{linkblue}{HTML}{15596C}
+\newcommand{\paperauthor}{Saif Malik}
 \hypersetup{colorlinks=true,linkcolor=linkblue,citecolor=linkblue,urlcolor=linkblue,
 pdftitle={Perceptive Closure X: Mathematical Foundations for AI Assurance under Incomplete Understanding},
+pdfauthor={\paperauthor},
 pdfsubject={Identification, evidence acquisition and governed realization}}
 \urlstyle{same}
 \setlength{\emergencystretch}{2em}
@@ -24,17 +27,18 @@ pdfsubject={Identification, evidence acquisition and governed realization}}
 \newtheorem{remark}[theorem]{Remark}
 \newcommand{\E}{\mathbb{E}}
 \newcommand{\Prob}{\mathbb{P}}
-\newcommand{\figpc}[4]{\begin{figure}[htbp]\centering\includegraphics[width=#2\linewidth]{figures/#1.pdf}\caption{#3}\label{#4}\end{figure}}
+\newcommand{\figpc}[4]{\par\begin{figure}[htbp]\centering\includegraphics[width=#2\linewidth]{figures/#1.pdf}\caption{#3}\label{#4}\end{figure}\par}
 \setcounter{tocdepth}{1}
 \begin{document}
 \begin{center}
-{\large\scshape Perceptive Closure X}\\[1em]
+{\large\scshape Perceptive Closure X}\\[0.45em]
 {\LARGE\bfseries\color{ink} Mathematical Foundations for AI Assurance\\[3pt] under Incomplete Understanding\par}
-\vspace{0.8em}
-{\small Extended research manuscript \quad$\cdot$\quad 27 November 2026}
+\vspace{0.25em}
+{\normalsize\paperauthor}\\[0.1em]
+{\small Research manuscript \quad$\cdot$\quad 27 November 2026}
 \end{center}
 \begin{abstract}
-A software agent may pass every release rehearsal while the production path still admits an unauthorized change. What would establish the missing guarantee? We study all system descriptions consistent with the available evidence. A property is identified when those descriptions agree on its value. A usable guarantee also needs a policy that can perform the promised work using the information and permissions actually available. We give conditions for both conclusions and procedures for finding the least costly observations that support them. The framework tracks what an operation can change, which evaluation results carry over to deployment, and how a system can respond to a verdict. In one family, a single source read establishes service feasibility while identifying the installation takes exponentially many point queries in the worst case. In a second family, a verified guard and a mixture of two observations give an exact acquisition cost, a bound on violations among issued decisions and a positive useful-work guarantee. Seventeen experiments examine these mechanisms. The final constructed service produced 327,680 valid attempts across two separately written runners. Several sharper statistical predictions remained inconclusive, and a richer observation reduced the acquisition price. These are guarantees about specified interfaces and checked mechanisms. Applying them to a new system requires evidence that it satisfies those premises.
+How much must we understand about an AI system to justify a particular deployment decision? An evaluation can leave several explanations of the system's behavior open. If all give the same answer to the deployment question, the answer is identified. Acting on it requires a further step: one policy must deliver the promised service using only the observations and permissions available to it. We study these two requirements together. We characterize which trusted source checks settle a question, how much they cost, and which facts connect an evaluation to physical outcomes after a system learns its verdict. On one governed service, a single read settles feasibility while exact installation identification requires exponentially many point queries. For linked stochastic and strategic models we give exact synthesis results and, under verified approximation bounds, a certificate for the price of an implementable policy. Seventeen experimental packages examine the mechanisms and their limits. In prospective constructed services, useful work could supply a missing observation without a separate paid audit, and two separately implemented runs supported the declared risk bound among issued decisions. Some sharper comparisons remained inconclusive. Applying these results to a deployment requires independent evidence for its model, permissions and physical outcomes.
 \end{abstract}
 \input{sections/introduction}
 \input{sections/foundations}

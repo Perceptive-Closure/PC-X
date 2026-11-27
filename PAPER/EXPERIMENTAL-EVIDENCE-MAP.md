@@ -2,6 +2,19 @@
 
 The revision links open the exact record used for each claim. Replay instructions in the same revision specify working directory, dependency revisions and digest checks. X15 is a reproduction of X01–X14 and shares their underlying evidence.
 
+## What the empirical groups test
+
+| Scientific question | Prediction, comparison and interpretation |
+| --- | --- |
+| Can ordinary outcomes identify which resource a repair requires? | X01–X02 contrast joint, observable control with hidden-state assistance and discarded correlations. X06–X07 test native grants and certificate fields. A native signed-field comparison ties on all eight X07 verdicts. |
+| Can selective acquisition save work? | X03–X05 compare exact certificates, adaptive schedules and independent enumeration. In one routed case two adaptive reads substitute for six static units. On the X05 service both targets cost 677 despite the huge represented class. X12's full-acquisition comparator also beats the anchored method on solved units and configured operations. |
+| Do the measurements and component boundaries describe the deployed event? | X08–X11 and X13 perturb the source, scoring or composition. X09 falsely certified two unsupported scoring shifts. X11 measured a large true-risk increase behind stable public transcripts. These are counterexamples on the named adapters. |
+| Does the justified policy deliver work? | X14 compares actual service with permanent refusal. X15 replays the same archived X01–X14 evidence and discloses custody exceptions. |
+| Can a work receipt pay for later information? | X16 forecasts the target for 178 paths and 70 comparator outcomes. On the permissive service the first mandatory job supplies the route. Hiding that receipt eliminates common completion. Explicit history solves the matched problem faster by median on six of eight profiles. |
+| Does a connected stochastic and strategic policy meet its claimed risk and cost? | X17 compares five arms on eight rational settings with 4,096 attempts per cell and two implementations. The exact base expected price is 7/12, the hard cap one, and the good-guard setup 1/4. A richer direct read costs 1/6. The issued-case cap of 3/8 is supported in 16/16 direct conditional intervals, while fourteen equivalence comparisons remain inconclusive. |
+
+This table distinguishes forecasts about a family from observations at the sampled settings. Each study entry below identifies its actual denominator, evidence source and replay route. The [main experimental narrative](manuscript/sections/experiments.tex) separates paid audit, work cost, statistical coverage and measured runtime.
+
 ## X01 — Finite recovery
 
 Two independent evaluators computed eight intervention costs on 243 finite contracts. All 1,944 coordinates agreed. Giving the controller hidden state understated cost in six of 18 designed cases. In three it even made an impossible task appear feasible. The workload was generated, with no population sampling.
