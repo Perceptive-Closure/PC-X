@@ -1,0 +1,823 @@
+\section{Identification, acquisition, and deployment}\label{app:principal}
+
+The results follow a single progression. First we ask whether ordinary observations identify a resource intervention. We then allow the evaluator to buy source facts, replace exact answers by random records, and finally require a policy to complete useful work under the evidence it has obtained. Each change specifies what the evaluator gets to observe and what the guarantee quantifies over.
+
+\subsection{Hidden resource semantics}
+
+An auditor may have every ordinary trace and still lack the answer to a freeze question. One hidden effect of a cheap action suffices.
+
+\begin{theorem}[T01. Behavioral non-identifiability]\label{thm:t01}
+
+For each real \(g>0\), two finite controller-equivalent contracts have unrestricted cost \(1\) and frozen-R costs \(1+g\) and \(1\). A second pair has the same unrestricted value and equivalence with frozen-R costs \(+\infty\) and \(1\). This is an existential statement about the declared finite PC class with the declared observable channel.
+
+\end{theorem}
+
+\begin{proof}
+
+Fix any finite real \(g>0\). Let \(X=\{0,1\}\) and \(a(x)=x\). The history universe is \(U=\{u,r_0,r_1,b_0,b_1\}\). Both worlds are compatible with \(u\) and world \(i\) is the only one compatible with \(r_i\) or \(b_i\). An open entry has \(H=u\). Its two atoms \(q,b\) cost \(1,1+g\). The \(q\) branches end at checkpoints with \(H=r_i\), visible outcomes \(y_i\), and terminal class \(i\). The \(b\) branches similarly use \(H=b_i\) and outcomes \(z_i\). Each observation and outcome is identical across the two models. Use constant authority permitting both declared interfaces, ordinary availability only at entry, and one shared atomic transition graph.
+
+In \(M'_g\), use the identity certificate partition throughout. Both atoms then touch only E. In \(M_g\), use the partition whose sole nonsingleton block is \(\{r_0,r_1\}\) at entry and at the \(b\) successors. Use the identity partition at both \(q\) successors. Then \(q\) touches \(\{E,R\}\) and \(b\) only E. The entry's target set is \(\{0,1\}\) via \(u\), and each successor lies in a singleton cell compatible with its specified target class. Thus all reachable fibers are nonempty and the visible labels coincide.
+
+Every unrestricted controller policy sees identical action menus, observations, outcome and support graphs, costs, stopping options and terminal labels. The full labeled trees agree under every such policy, including randomized policies with the same visible channel. The unrestricted value is exactly \(1\) because every closure takes an action, and \(q\) attains that lower bound. Under the R freeze \(M_g\) keeps only \(b\), so its value is \(1+g\). \(M'_g\) keeps \(q\) and its value is \(1\). Deleting \(b\) in both leaves equivalence and unrestricted value \(1\), with R-frozen values \(+\infty\) and \(1\), respectively. This proves both asserted pairs and the obstruction to any point-valued functional of unrestricted behavior.
+
+The declared observable trace excludes extensional \(P\) and action touch. Adding their exact values provides new evidence that can distinguish the two fast atoms. If a proposed freeze removes just an internal R subeffect of \(q\), it is an intervention with a different source atomicity.
+
+\end{proof}
+
+Seeing the implementation graph adds information. The next pair shows exactly what can remain unresolved when the source fails to say which semantic field the graph updates.
+
+\begin{theorem}[T02. Source-semantic boundary non-identifiability]\label{thm:t02}
+
+For each real \(g>0\), one partial source evidence description has two finite complete realizations. They agree on raw implementation data flow, source graph and action locators, observed interaction, costs and visible terminal target classes. They have unrestricted value \(1\) and opposite pure touch types \(E\) and \(R\) for the same fast transition. Their frozen-R values are respectively \(1\) and \(1+g\). Another such description realizes \(1\) and \(+\infty\). Correct evaluation given each complete realization need not identify its counterfactual from the partial source description.
+
+\end{theorem}
+
+\begin{proof}
+
+Fix any finite real \(g>0\).
+
+Let \(X=\{0,1\}\) with \(a(i)=i\). Use \(U=\{u,h_\star,h_0,h_1,b_0,b_1\}\). Both worlds are compatible with \(u\), no world is directly compatible with \(h_\star\), and each \(h_i,b_i\) is compatible exactly with \(i\). This same compatibility relation serves both completions. D-35 p.~11 requires nonempty represented cells rather than universal direct compatibility of each chosen name.
+
+The partial source has an open entry, the fast atom \(q\) at cost \(1\), the optional backup \(b\) at cost \(1+g\), and named terminal locators for all supported branches. In world \(i\) the raw record \(d_i\) exists in implementation memory before \(q\). The fast implementation copies it into the authorization-interface payload and gives the documented outcome and target class \(i\). The backup gives a separately signed record and class \(i\). The source evidence pins that data flow, the physical graph, action and checkpoint locators, observations, outcomes, costs and terminal classes. Constant authority permits both ordinary source actions at entry. The partial description permits two semantics of admission and certificate equality.
+
+\begin{itemize}
+
+\item
+  In \(C_E\), use identity partition throughout and \(H=u\) at entry. On a \(q\) terminal of class \(i\) use \(H=h_i\), and on a \(b\) terminal use \(H=b_i\). The atoms both touch only E.
+\item
+  In \(C_R\), set \(H=h_\star\) at entry and at both \(q\) terminals. Initially the sole nonsingleton block is \(\{h_\star,h_0,h_1\}\). At the \(q\) terminal of class \(i\) it is \(\{h_\star,h_i\}\). The initial represented fiber contains both worlds via the two witnesses. Each new cell contains only its respective target world. The backup changes \(H\) to \(b_i\) and preserves the initial partition. Thus \(q\) is pure R and \(b\) pure E.
+\end{itemize}
+
+All source-projected facts, including the visible support, costs, terminal labels and declared raw copying operation, agree. The difference is whether the pre-call context already belongs to the certificate-represented set of admitted histories or only enters admission at the call. The unrestricted value is \(1\) in both. Under R freeze \(q\) survives in \(C_E\) for value \(1\). In \(C_R\) the only surviving closer is \(b\) for value \(1+g\). Omitting \(b\) gives the structural \(1\) versus \(+\infty\) pair.
+
+Corollary 1 follows on this fixed input. Exact evaluation given each complete contract returns its own correct signature. Any function of the partial \(\Omega\) receives the same input for these two required answers. Their R coordinates differ, so exact evaluation given a contract cannot furnish point identification from the omitted semantic evidence.
+
+If \(h_\star\) were directly compatible with both target classes, no refinement preserving \(H=h_\star\) could close the cell, since an equivalence class always contains its own representative. The explicit nonempty witness cells avoid that error. An independently justified governing anchor can exclude one interpretation and sharpen the identified set.
+
+\end{proof}
+
+Conversely, the source can carry enough information. The test must preserve what one controller can choose when several physical states produce the same observation.
+
+\begin{theorem}[T03. Conditional anchored recovery]\label{thm:t03}
+
+A complete source fixes the resource effects of its actions. Agreement between two sources additionally requires a correspondence at the controller's decision records.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+
+\item
+  The touch of each source atom is determined by its supported successors and the extensional values of admission, representation and authority on those checkpoints.
+\item
+  Let \(B\subseteq S\times S'\) relate entries. Each related pair has equal observations, equal open/closed status and equal labels where closed. For each observation \(o\) there is a common action renaming \(\alpha_o\) that maps the enabled menu of each related \(s\) bijectively to that of its mate. For each \((o,q)\) a common outcome renaming \(\beta_{o,q}\) is a bijection on the declared outcome classes for that interface, restricted to the positive support of each related state. Costs and touches are preserved by \(\alpha_o\). For each positive successor on either side there is a related successor with the matched outcome on the other side. Under every freeze, both contracts have the same proper-policy costs, hence the same signature and finite-baseline R-penalty classifications. Action and outcome renamings are independent of hidden physical state. No all-pairs successor relation is assumed.
+\item
+  If all admissible completions belong to one class of this interface-equivalence at the entry, their signature set is a singleton. The statement is sufficient and relative to the declared interface.
+\end{enumerate}
+
+The map at each public observation is injective on the union of action identities relevant there. Matching each physical state's enabled menu by a restriction of a common many-to-one function is insufficient. Two aliased states can have disjoint one-action menus on the left and a shared action on the right, while such a function matches both local menus. The known-observation bijection in the surviving argument is interpreted on the declared action interface. The conclusion is proved by whole-belief coverage, rather than arbitrary pairing of successors or per-state policy choice. A scoped boundary replay has costs infinity and 1.
+
+\end{theorem}
+
+\begin{proof}
+
+\textbf{Touch and support.}
+
+Fix the declared source-exposed action/checkpoint boundaries and supported successors and the extensional values of \(H,P,\Lambda\) at the two ends of every relevant edge. For each edge the set of unequal coordinates is uniquely determined. Taking its union over exactly the frozen source atom's supported successors fixes that atom's touch. This implication establishes touch uniqueness. It depends on extensional equality and the full positive support, and a mechanical calculation additionally needs a usable presentation of that equality. Remaining fields such as \(\sim\) and \(a\) can influence closure values when not fixed by the source.
+
+\textbf{Interface correspondence and transport.}
+
+Let \(B\subseteq S\times S'\) relate entries and preserve physical open/closed status, closed target class and observation. For every observation \(o\) use a common action injection \(\alpha_o\) on the joint declared menu relevant to related pairs. Its restrictions are bijections between enabled menus at each related pair. For each \((o,q)\) use a common bijective outcome correspondence \(\beta_{o,q}\) on the corresponding declared outcome classes, restricting to the supported outcome sets at each pair. Related transitions preserve action cost and canonical touch. Forth means that for every related \((s,s')\) and supported \(s\xrightarrow{q,v}u\) there is a supported \(s'\xrightarrow{\alpha_o(q),\beta_{o,q}(v)}u'\) such that \(u B u'\). Back is the reverse matching condition. Next observations agree by \(B\).
+
+Fix a freeze \(F\). Costs and touches ensure that a frozen action survives on one side of any related pair exactly when its mate survives. Translate a whole visible history by keeping the observations and applying \(\alpha_o\) and \(\beta_{o,q}\) to the chosen actions and outcomes at their original observations. By consistency of the maps this translation is defined by the observed sequence only. Its inverse on feasible histories uses the inverse maps. No hidden choice of a matching successor appears in the translation.
+
+For two visible prefixes so matched, the associated nonempty information sets are covered in both directions by \(B\): every state on either side is related to at least one on the other. At entry this follows from \(s_0 B s'_0\). Suppose coverage holds before an action legal at the whole source belief. By the menu and touch conditions, the translated choice is legal at the whole target belief. Each feasible successor at either side starts from a covered predecessor. The corresponding forth or back condition produces a mate with the translated outcome and the same next observation. It lies in exactly the appropriate successor belief. Both coverage and the matching of the available visible branch labels follow. This is an induction on prefix length and applies to every branch of the translated interaction.
+
+Now take one finite proper observation-measurable policy. Translate its whole decision tree, with the same stop choices at matched histories, and use \(\alpha_o\) for its selected action. The proof above yields one common legal action at every reached target belief because corresponding histories and actions are globally consistent on the observables. Every terminal belief contains only closed states by coverage and preservation of physical terminal status. If the stop condition also requires agreement on the class of the terminal belief, coverage and preserved individual labels preserve that condition as well. Finite properness and every branch's additive cost are unchanged. The translated policy therefore has the same worst-branch cost. When one original policy uses only the current observation, the translated action depends only on that observation because the action map has that same dependency. The proof accordingly transports either declared policy language.
+
+Transport in reverse gives the same attainable set of proper worst-branch costs, so the infima agree. If one side has no proper finite policy, the other cannot have one because of reverse transport. All eight coordinates agree. The R penalties and baseline-unclosability also agree by their definitions. If a nonempty admissible completion family belongs to one such equivalence class at the realized entry, every member has the same vector and its image is a singleton.
+
+\textbf{Proof gap and distinguishing countermodels.}
+
+Appendix D's induction includes the phrase ``Each successor pair lies in B.'' Forth and back supply mates, while arbitrary cross-pairs need not lie in \(B\). Separate copies of recursive subtrees at physically hidden successors also do not supply a single continuation at their shared visible prefix. The covered-belief induction gives that common continuation using the observation-indexed correspondences already stated in the original definition. This is a repair to the argument under that reading. A weakening to hidden-state-indexed renaming is false.
+
+\textbf{Statewise outcome renaming.} Begin both systems at an open root where the sole action reaches hidden \(u_0,u_1\) with the same visible outcome and next observation. From \(u_i\) a second action reaches \(v_i\). In the first system it emits \(i\). In the second it emits \(0\) at either hidden state. The observation at \(v_i\) itself is the same for both \(i\). At both \(v_i\) the two legal actions \(q_0,q_1\) have unit cost. \(q_i\) closes at \(v_i\), while \(q_{1-i}\) reaches an open dead end. Give the first two actions unit costs and use identical physical graphs, closure/touch fields, and visible observations. The identity pairing satisfies statewise label matching if it may rename each singleton local test-outcome set independently. Only the first system has a proper tree, costing \(3\). A globally consistent outcome map cannot send both distinct test outcomes to \(0\) at the same observation/action pair.
+
+\textbf{Touch anchors alone.} Use a common actionless entry, the same \(H=u\), common partition and authority, and opposite target classes on worlds \(0,1\). One compatibility relation lets \(u\) represent both worlds. Another lets \(u\) represent only \(0\) and places world \(1\) at a separate history in a different certificate cell. All touch data coincide and the values are \(+\infty\) and \(0\). A fixed truth-relevant fiber or kernel premise, beyond just touch, is indispensable.
+
+\textbf{Sufficiency of equivalence.} Give one open state a unit-cost E-only closer and give another graph the same closer plus a cost-two E-only closer. The extra closer affects no coordinate and the enabled menus at entry have different sizes. The signatures coincide without the stipulated interface bijection.
+
+\textbf{Interface relativity.} A pure admission followed by a representation side effect can be exposed as two actions or one atom. A separately exposed admission may survive R freeze as a sufficient closer while a combined \(\{E,R\}\) atom is removed. The declared atomic intervention changes, so signature preservation under this refactor would require additional justification.
+
+\end{proof}
+
+\subsection{Exact source acquisition}
+
+\textbf{Finite semantic table.} A nonempty finite set \(\mathcal C\) contains the source-compatible complete contracts, with equalities and any quotient by a declared source-preserving semantic equivalence accounted for before forming the table. A target \(f:\mathcal C\to Y\) is invariant under that quotient. An authenticated deterministic read-only menu \(Q=(q_1,\ldots,q_m)\) consists of total maps \(q_j:\mathcal C\to V_j\) and fixed known positive costs \(w_j\). Asking a query neither changes the contract, available queries, other costs, nor target. In formulas \(B\subseteq\mathcal C\) is a posterior information cell, \(y_J(x)=(q_j(x))_{j\in J}\) for \(J\subseteq[m]\), \(D(x,x')=\{j:q_j(x)\ne q_j(x')\}\), and empty compatible evidence has separate verdict INCONSISTENT. Structural infeasibility has value \(+\infty\). Finite input complexity claims use explicit finite domains and binary-encoded integers unless otherwise stated.
+
+\textbf{Resource kernel.} A finite nonempty state set \(S\) has \(\omega:S\to O\), a closed subset \(G\), atomic enabled actions \(A(s)\) from a finite set \(A\), and nonnegative deterministic cost \(c(a)\) known before acting. For every enabled \((s,a)\) its nonempty finite support is a set of labeled successor pairs \((u,s')\) with outcome \(u\) visible. Checkpoints are reached from a fixed nonempty observation-homogeneous belief \(B_0\). Policies select actions from visible observations and outcomes alone, enabled at all states in the current belief. Observing \((u,\omega(s'))\) updates the belief by union of all supporting successors with that same visible label. Stop is allowed when all compatible states lie in \(G\). A proper closer is a finite such tree with all reached leaves closed. Its cost is the maximum branch sum of \(c\); a missing proper closer has value \(+\infty\). A mask \(M\) removes entire atomic occurrences \((s,a)\), preserving all other supports, costs, information, initial belief and closure status. The kernel value after that deletion is \(\kappa(M)\).
+
+A \textbf{canonical PC realization} additionally supplies a finite history set, finite latent worlds with two sealed decision labels, a nonempty compatible world fiber under the current history and equivalence relation on histories, and a distinguishable normalized history \(H(s)\), equivalence relation \(P_R(s)\), and extensional authority \(\Lambda(s)\). \(G\) consists of states whose represented compatible world fiber has one label. At \((s,a)\), a resource belongs to the touch set if its coordinate changes on any positive-support successor. An \(F\subseteq\{E,R,A\}\) freeze masks precisely those occurrences whose touch intersects \(F\). Fixed ordinary preconditions and interfaces determine source candidates and authority governs whether they are allowed. Declared queries read source-located metadata about admission, representation, or route selection independently of measured target execution.
+
+\textbf{Serial threshold model.} \(n\) stage-mode sets \(Z_i\) are finite. In the product case the completion set is \(\prod_i Z_i\), with nonempty factors. A mode \(z_i\) has an already derived local nonnegative integer cost \(v_i(z_i)\), possibly \(+\infty\). A nonnegative integer terminal cost \(\tau\), possibly \(+\infty\), is fixed across assignments. For integer \(b\ge0\), \(f(z)=1\{\tau+\sum_i v_i(z_i)\le b\}\) uses extended-real addition. The queries and their fixed positive prices partition into stage-local menus \(Q_i\) with answers depending only on \(z_i\). A resource-kernel instance supplies this score when stages execute sequentially, every valid path progresses through a common interface and known entry belief for the next stage, internal states are open, there is no bypass or hidden cross-stage parameter or carried resource affecting later capabilities, and the fixed goal suffix begins only after the last common exit. Stage observations may reveal local facts, with no effect on later admissibility or support. Costs add, and between-stage composition retains all positive-support branches.
+
+Write down two remaining completions with different answers. A prospective read is useful for this pair precisely when its possible readouts differ.
+
+\begin{theorem}[T04. Exact target-disagreement characterization]\label{thm:t04}
+
+For each nonempty posterior \(B\), a query set \(J\) determines \(f\) on \(B\) exactly when \(J\cap D(x,x')\ne\varnothing\) for every \(x,x'\in B\) with \(f(x)\ne f(x')\). In this case a unique decoder exists on \(y_J(B)\). Fixed-target valid evidence refinement contracts the identified set \(f(B)\).
+
+\end{theorem}
+
+\begin{proof}
+
+Let \(B\ne\varnothing\) and \(J\subseteq[m]\). If two target-distinct members have no query difference in \(J\), they give the same \(y_J\), so no decoder can be correct on both. Conversely, if every target-distinct pair is split, define \(g(y)=f(x)\) using any \(x\in B\) with \(y_J(x)=y\). Existence follows from \(y\in y_J(B)\). Any two choices have the same answers and therefore the same target. This gives a well-defined unique decoder on the attainable set. Values outside the attainable set are irrelevant to this statement. For refinement \(B'\subseteq B\), every \(f(x)\) with \(x\in B'\) already lies in \(f(B)\). Good evidence can reveal inconsistency, which is recorded separately rather than vacuously certifying a target.
+
+An edge records a set of facts that discriminate two complete alternatives, not a list of causal effects. For example, duplicate a sufficient fact under a second independent readout name. Both names appear in a disagreement edge even though neither readout changes the original target.
+
+\end{proof}
+
+Even adaptive questioning stops helping if one particular pair agrees on every lawful read. Follow the common answer down the proposed question tree.
+
+\begin{theorem}[T05. Audit-interface impossibility]\label{thm:t05}
+
+In the finite semantic table, a uniform static or proper adaptive audit determining the target exists exactly when no target-distinct pair has \(D=\varnothing\). Such a pair defeats arbitrary repetition and zero-error randomization using the frozen interface. There is no positive identification on an inconsistent evidence set.
+
+\end{theorem}
+
+\begin{proof}
+
+If there is no empty disagreement edge, the full menu hits every edge, and executing it yields a proper finite audit by T04. If a pair \(x,x'\) differs in the target and agrees on every query, any deterministic audit follows the same trace for both. Induct on trace length, including its final stop decision; at each step the history determines the same next query and both answers coincide. For randomization, couple the auditor's private random choices identically. The observed traces and outputs then have identical laws. A zero-error single-valued prediction in both worlds would require that common law to be supported on two disjoint output labels simultaneously. Repetition supplies no distinct information here because answers are fixed and reads leave the system and future menu unchanged. An honest abstention on the common trace does not identify the target.
+
+The conclusion changes for a new lawful probe, differently timed measurements, a stochastic model with differing distributions, or an intervention that changes the system. T05 measures inaccessibility only relative to the declared frozen interface.
+
+\end{proof}
+
+A certificate prepared in advance must work on every answer cell. After observing the actual answers, certification can require fewer facts.
+
+\begin{theorem}[T06. Global and local minimum certificates]\label{thm:t06}
+
+Taking the minimum total price over T04 transversals gives the uniform static optimum \(S_f(B)\). For \(x\in B\), its minimum realized cost \(L_f(x;B)\) is the minimum total price of a set hitting \(D(x,x')\) for each \(x'\in B\) with \(f(x)\ne f(x')\). A minimum over an infeasible family is \(+\infty\). The two minima differ in general, even with unit costs and finite optima.
+
+\end{theorem}
+
+\begin{proof}
+
+T04 describes exactly the feasibility constraints of a uniform static solution, so minimizing the known total price over all subsets proves the uniform optimum. For \(x\in B\), consider the fiber \(B\cap y_J^{-1}(y_J(x))\). Its target is constant iff it contains no \(x'\) with opposite target, which is precisely the requirement to hit every such \(D(x,x')\). Thus the realized minimum is the weighted hitting-set optimum over only those edges. The finite-subset convention gives \(+\infty\) when an empty edge precludes every set and zero when there are no edges and the evidence is nonempty.
+
+Every minimum-cost certificate is inclusion-minimal when prices are strictly positive. The converse fails. A two-row table with targets \(0,1\), answers \(00,11\) and prices \(3,1\) has two inclusion-minimal singleton certificates and only the cheaper is minimum. With three one-hot answer rows, three unit-priced queries and three distinct target labels, the positive coordinate alone certifies its actual row, so all realized minima are 1. Two coordinates are necessary and sufficient uniformly. Three input-specific certificates do not construct a one-query adaptive policy, since a negative first answer leaves two target labels.
+
+For explicit input rows, verify a claimed set by grouping rows by its projected answers. One mixed cell yields an exact counterexample. To prove optimality, exhibit a sufficient set and a checked lower bound, for example exhaustive rejection of every cheaper subset. Merely reporting a feasible set or solver's claimed objective is insufficient. A whole-interface collision may coexist with a finite realized cost for an unrelated row.
+
+\end{proof}
+
+Target identification can be strictly cheaper than identifying the full contract even when every hidden difference changes a real service cost.
+
+\begin{theorem}[T07. Target versus full contract identification]\label{thm:t07}
+
+For identity \(I\) on the declared semantic quotient, \(S_f(\mathcal C)\le S_I(\mathcal C)\). For every \(m\ge1\) there is a finite fully observed canonical PC family of \(2^{m+1}\) contracts with a common source entry and unit-price local semantic probes such that the budget-one \(R\)-frozen closure target has \(S_f=1\) while \(S_I=m+1\). Holding the other coordinates fixed, changing any of the \(m\) non-primary review facts changes the \(A\)-frozen value at that same entry. If any one review probe is unavailable, \(S_I=+\infty\) and \(S_f\) remains 1.
+
+\end{theorem}
+
+\begin{proof}
+
+Use two latent worlds \(x_+,x_-\) with sealed labels permit and deny. Histories \(h_0,h_+,h_{\star}\) are compatible only with \(x_+\), and \(h_-\) only with \(x_-\). Everything below uses these four histories. Define \(P^0\) to have one cell \(\{h_0,h_-\}\) and singleton cells for the two remaining histories. Define \(P^1\) to consist entirely of singleton cells. At an open entry with \(H=h_0,P^0\), the represented fiber has both targets. Updating only \(H\) to \(h_+\) yields closure with a pure E change, and updating only the partition to \(P^1\) yields closure with a pure R change. No history ever has an empty fiber under either partition. All checkpoint observations are distinct and every action below has deterministic positive support. For ordinary source preconditions use checkpoint and any declared routing setting. Authority sets consist of interface rights, and each listed action is available exactly when its ordinary precondition holds and its interface is licensed. This makes both enabled action sets and extensional touch unambiguous.
+
+These classes share source locators and ordinary operation structure. A semantic bit records an independently read admission, display or authority configuration fact. The audit reads the source-grounded configuration before evaluating the target. The model assumes authenticated readout and its interpretation, rather than obtaining a target label by running the measured workflow. Each high-level route equality below derives its target from actual source-atomic whole-action deletions.
+
+For an arbitrary semantic target, each opposite-target pair is a distinct identity pair, so every complete-identity certificate determines the target by T04. This proves the weak inequality.
+
+Take \(m\ge1\) independent review facts \(z_1,\ldots,z_m\) and a primary fact \(u\), each Boolean with its own unit-price registry read. At the common open entry \(s\), the controller can take the fast approval \(q\) of price 1, or start an independent fallback workflow for cost 2. The latter leads to the first of \(m\) open review checkpoints. Fast approval closes in one step with the pure-E coordinates of the shared construction when \(u=1\), and the pure-R coordinates when \(u=0\). It also grants a new audit-receipt interface in either case. This new right authorizes an actual receipt read at that terminal checkpoint. Thus the fast action has touch \(\{E,A\}\) or \(\{R,A\}\). The fallback entry changes no resource.
+
+Review stage \(i\) has an ordinary cheap automated transfer of price 1 to its own open transit checkpoint, and a clean manual transfer of price 2 directly to the next review stage. At that transit checkpoint \(H,P_R\) are still \(h_0,P^0\); authority gains an escalation interface exactly when \(z_i=1\). A routine settlement of price zero resets normal authority and goes to the next review stage. When the new escalation interface is admitted, an actual authorized evidence closer is also available there. The last review exits to a fixed pure-E approval of price 1. This closes by changing \(H\) to \(h_+\). Normal checkpoint permissions agree after either transfer. Transfer rights and escalation/receipt rights are separately declared. No input or precondition needs to infer an unobserved action effect.
+
+With R frozen, the fast action is available exactly when \(u=1\). It is the only possible price-one closer because every fallback path begins by paying 2. Hence \(f=1\{\kappa_{\neg R}\le1\}=u\). With A frozen there is no fast action. At stage \(i\) the clean cost is \(1+z_i\): cheap transfer and settlement survive for \(z_i=0\), and for \(z_i=1\) cheap transfer is blocked and the escalation checkpoint is unreachable. The same-entry A-frozen value is \(3+\sum_i(1+z_i)\), since the graph forces every stage and the final pure-E approval. Varying any review fact while holding the others fixed changes this other operational counterfactual. Thus the alleged separation uses real same-entry workflow effects, rather than unused semantic coordinates. The extra terminal receipt and escalation interfaces justify authority as an extensional permission, even while the particular A-free value may preclude reaching the escalation option.
+
+Each coordinate is necessary for full identity since flipping it changes an authenticated source-located property and a freeze verdict or cost; the difference cannot be removed by source-preserving renaming. Its two completions otherwise agree on the full readout menu. The full menu plainly suffices. The primary read alone is necessary and sufficient for \(f\). Removing any review probe gives a whole-menu identity collision but retains the primary certificate. This shows respectively \(S_I=m+1\) or \(+\infty\), with \(S_f=1\).
+
+\end{proof}
+
+An adaptive question has one price and several possible continuations. Charging its most expensive child gives the appropriate worst-case value.
+
+\begin{theorem}[T08. Exact adaptive semantic audit complexity]\label{thm:t08}
+
+For finite nonempty \(B\), the proper worst-case adaptive cost \(V(B)\) is zero if \(|f(B)|=1\). Otherwise it equals
+\[
+\min_{j\text{ splits }B}\left(w_j+\max_{a:q_j^{-1}(a)\cap B\ne\varnothing}V(q_j^{-1}(a)\cap B)\right),
+\]
+with \(+\infty\) when no split exists. Finite optima have deterministic decision trees. This minimax objective is the supremum over all supported randomization branches if randomized policies are admitted. If independent factors have disjoint local query menus and the target is the whole tuple of their factor targets, the uniform static and adaptive optima add across factors, and the realized optimum adds at the specified tuple.
+
+\end{theorem}
+
+\begin{proof}
+
+At a nonempty cell \(B\), a query constant on \(B\) can be omitted, with its known answer copied forward wherever the policy would have used it. It costs more than zero and changes neither the posterior nor future opportunities. Repeated queries are of this type. All remaining queries strictly shrink the cell on every realized answer, and the depth is bounded by \(|B|-1\) and by the menu size. Immediate stopping on homogeneous cells is optimal because queries have positive prices. If \(B\) is mixed, decomposing any first splitting query followed by its conditional policies gives the lower bound \(w_j+\max_a V(B_{j,a})\). Conversely choose each optimal subtree by induction on the strictly smaller cell size and choose the cheapest eligible first query. If a branch has \(+\infty\) value, no proper tree extends that query. If no split is available at a mixed cell, all traces would stay mixed and the minimum is \(+\infty\). This proves the recurrence and gives deterministic witnesses. Under worst cost over all supported randomization branches, a randomized first choice has a worst-case cost at least the least worst-case deterministic first choice. Induction after removing nondiscriminating decisions gives the same optimum. An expected-cost objective for randomized policies is a different problem.
+
+For a product \(B=\prod_i B_i\) and tuple target \((f_i)_i\), a legal cross-task transcript restricts each factor separately, since every query and answer depends only on its own factor. Induction on query steps therefore keeps the posterior a nonempty product. At each leaf all \(f_i(B_i)\) must be homogeneous, by independent splicing. The uniform and realized minimum costs add since every local restriction must suffice in its own factor and there is no shared acquisition charge. For the adaptive upper bound, concatenate the independently optimal policies. For the lower bound, if any factor has infinite optimum, lift its complete-interface collision from T05 by fixing all other modes. Otherwise at every query in factor \(i\) the adversary selects an answer cell attaining the maximum \(V_i\) among the compatible children. Since \(V_i(B_i)\le w_j+\max_a V_i(B_{i,j,a})\), the already spent price plus \(\sum_i V_i(B_i)\) never decreases. At a proper leaf the continuation terms vanish. All chosen answers have a single compatible product completion at the leaf, so this adversarial path is a legal worst case. This proves additivity.
+
+If a constant-valued setup query enables an otherwise unavailable distinguishing probe or discounts its later cost, omitting that query is invalid. Such an interface needs a state variable for the acquisition history. The cell-only recurrence above is claimed for the fixed menu and prices.
+
+\end{proof}
+
+The previous separation persists when a reply directs the auditor to the relevant source location. Requiring every read to be named in advance charges for unused locations.
+
+\begin{theorem}[T09. Static–adaptive acquisition separation]\label{thm:t09}
+
+The realized, adaptive and static prices satisfy
+\[
+ \max_x L_f(x;\mathcal C)\le V(\mathcal C)\le S_f(\mathcal C).
+\]
+Both inequalities can be strict in the same finite table. For each integer \(r\ge0\) there is a finite canonical PC family with one selected route encoded by \(r\) configuration bits and \(2^r\) independent gate facts. The audit menu reads precisely those bits at unit cost. A legitimate route-specific budget-one \(R\)-freeze threshold has static optimum \(r+2^r\) and adaptive worst-case optimum \(r+1\).
+
+\end{theorem}
+
+\begin{proof}
+
+Each leaf on an adaptive trace for \(x\) supplies a realized certificate because precisely its \(y_J\)-fiber is the set of compatible rows on that trace. This gives \(\max_xL_f(x)\le V\). An optimal static set gives an adaptive tree that simply executes it in fixed order and decodes, so \(V\le S_f\). The inequalities use the extended-real order, including the case of no uniform certificate.
+
+Build a common source family with \(2^r\) possible authorization routes. The ordinary routing configuration \(a\in\{0,1\}^r\) enables only its selected short route \(q_a\) from the public entry. All candidate source locators already exist. The other independent configuration coordinates are \(z_d\in\{0,1\}\) for each route \(d\). For each \(q_d\), its terminal profile achieves the E closure above when \(z_d=1\), or R closure when \(z_d=0\). This fact describes whether a short action admits the resolved history or merely refines the display. It is readable from the corresponding independent governed setting even when that route is inactive. All short actions cost 1. They share constant authority; route activation is a source ordinary precondition. A distinct pure-E fallback costs 2 from the entry, so the selected R-frozen budget-one target is exactly \(z_a\). The two reportable semantic mechanisms are fully defined before freeze. Thus the audited function is realized by actual governed route selection, not by a built-in query to the threshold verdict. Other sites are operational under other settings in the same admitted family.
+
+All data queries are necessary for static identification by fixing the address to their respective sites and varying their single data bit. An address bit is necessary by changing that bit alone between addresses while holding a data vector fixed with distinct outputs at those two addresses. These lower bounds require all \(r+2^r\) queries and the complete menu suffices. Reading \(a\) first costs \(r\), and reading \(z_a\) next costs one. For the lower bound even against an optimal adaptive policy, choose the admissible realization \(z_d\) equal to parity of \(d\), and any address \(a\). Along a correct trace at this actual realization, every address bit must appear: flipping any omitted one leaves the entire data vector and all acquired answers fixed but reverses parity and the target. The data query for \(z_a\) must also appear because changing only its answer can reverse the target. The realized minimum there is \(r+1\), giving the adaptive lower bound by the hierarchy. For \(r=0\) the address is empty and the proof reduces to the single data bit.
+
+Use the independent tuple product from T08 of the three one-hot rows in T06 and the \(r=1\) routed target. The former triple is \((\max L,V,S)=(1,2,2)\), and the routed triple is \((2,2,3)\). Both factors have unit-priced local queries. Their product gives \((3,4,5)\), proving that both gaps can be strict in one instance.
+
+\end{proof}
+
+The same separation problem can encode a combinatorial cover. Computational cost therefore depends on how the completion class and the budget are written down.
+
+\begin{theorem}[T10. Computational hardness and tractability]\label{thm:t10}
+
+\label{thm:t10a}
+
+\textbf{T10.a.} In the explicitly listed table, the decision \(S_f\le k\) is NP-complete even for Boolean target, Boolean unit-price queries and finite nonempty domains. The hardness holds for explicit families of fully observed canonical PC contracts whose common source entry has only cost-one one-step closing routes, with an \(R\)-freeze budget-one target and independently read admission facts. The list of eligible semantic assignments is part of the representation.
+
+\label{thm:t10b}
+
+\textbf{T10.b.} In the serial threshold model with two modes per stage, stage-local probes and binary-encoded \(b,v_i\), deciding whether there exists a target-distinct pair agreeing on all selected probes is NP-complete. The hardness remains for fully observed serial canonical PC kernels with deterministic acyclic local support, matched entry and exit profiles, \(R\)-freezing, and a fixed pure-E goal suffix. Each nonterminal stage contributes one of two nonnegative integer local values. Consequently a polynomial-in-budget exact bound need not be polynomial in the bit length of the input. The T14 algorithms below give structural tractability with bounded local widths and suitably bounded numeric budget.
+
+\end{theorem}
+
+\begin{proof}
+
+\textbf{Explicit static certificates.}
+
+The certificate question belongs to NP in the listed-table representation. A subset of the menu is a witness, priced by the encoded weights. Group the finitely many rows by projected answers and compare target labels within each group in polynomial time. For unit-price hardness, reduce Hitting Set on a ground set \([m]\) and explicitly listed nonempty edges \(E_j\). Use the all-zero completion and the characteristic vector \(\mathbf 1_{E_j}\) for each distinct edge, with target respectively 0 and 1 and all coordinate queries. The only opposite-target pairs consist of the zero row and an edge row, so the disagreement sets are exactly the input edges. The size bound stays unchanged. This version of Hitting Set is NP-hard even on pair edges by the usual vertex-cover reduction, so allowing only nonempty edges is harmless.
+
+The same table is compiled into a canonical PC family in polynomial encoding size. At a common fully observed open entry, expose \(m\) one-step closing routes of price 1. Route \(i\) makes the shared E-only move if \(z_i=1\) and the shared R-only move if \(z_i=0\), preserving authority, labels and one-step source support. Each route is enabled independent of \(z\). After an R freeze a closer exists exactly when \(\bigvee_i z_i=1\). The admissible vectors are the explicit incidence table above and are the entirety of evidence \(\Omega\). An audited configuration read \(q_i\) discovers which route makes the independent admission move. Thus a budget-one freeze target realizes the Boolean target of the reduction, with no manually assigned touch label. Every explicit contract has size linear in the menu, and each value is checked by evaluating these routes in polynomial time. The resulting problem is NP-complete in the claimed restricted representation.
+
+\textbf{Binary-encoded serial paired feasibility.}
+
+Membership in NP follows by giving the two tuples of modes, checking all selected local equalities and evaluating the two encoded sums. To reduce positive-integer SUBSET SUM with input \(w_1,\ldots,w_n,B\), let stage \(i\le n\) contribute \(1+w_i z_i\), \(z_i\in\{0,1\}\). Put its coordinate read in the selected set. One additional two-mode stage contributes \(1+t\), \(t\in\{0,1\}\), with no selected read. Put \(\tau=1\) and \(b=n+2+B\). On equal queried answers, each of the first \(n\) modes is the same for both completions. Their targets can differ only by \(t\), and this happens exactly when
+
+\[
+n+2+\sum_iw_i z_i \le n+2+B < n+3+\sum_iw_i z_i.
+\]
+Integer weights make this equivalent to \(\sum_iw_i z_i=B\). Conversely every such subset gives the pair with \(t=0,1\). This is a polynomial reduction in binary encoding. The complementary no-conflict decision is coNP-complete. A polynomial-time algorithm for either decision on unrestricted binary encodings in this fragment would imply P=NP. For the positive-weight restriction, an Exact Cover instance has one nonzero digit per element in each incident set number. Use base one more than the number of sets and a target with all digits one. Any chosen subcollection adds without a carry, so reaching the target is exactly selecting an exact cover. There is no appeal to the NP-hardness of constructing a decision tree, which uses a different objective.
+For canonical PC realization of each weighted stage, take an open entry and a matched open join as specified in the shared construction. Its cheap transfer costs 1 and goes to a distinct open transient with \(H=h_0\), authority unchanged, and representation unchanged at \(z_i=0\). At \(z_i=1\) the new partition joins \(h_{\star}\) to \(\{h_0,h_-\}\) while leaving \(h_+\) a singleton. It differs extensionally and does not close. A settlement of cost zero restores \(P^0\) and reaches the join. The clean fallback, with price \(1+w_i\), goes straight to the same join and changes no resource. Thus R-freezing retains cheap transfer and settlement exactly at \(z_i=0\); at \(z_i=1\) the stage must take the fallback. Reset is then unreachable on its cheap branch. All graphs are fully observed, acyclic, and deterministic. Use this gadget with weight 1 for the \(t\) stage. Append a fixed pure-E one-step closer of cost 1. All resource labels are induced by the state profiles. Matched checkpoints compose serially as in T14.b. This realizes precisely the asserted costs with a constant number of ordinary actions per stage and binary-encoded weights.
+
+A bound polynomial in \(b\) is compatible with NP-hardness when \(b\) is supplied in binary; the reduction leaves no strongly polynomial bound for arbitrary binary budgets unless P equals NP.
+
+\end{proof}
+
+Separate uncertainty about two resource effects does not imply that the two uncertainties can vary independently. The admissible completion is the unit of optimization.
+
+\begin{theorem}[T11. Exact nonrectangular partial identification]\label{thm:t11}
+
+For a fixed resource kernel and arbitrary nonempty family of compatible mask profiles \(M_F(C)\), for each \(F\) the exact identified cost set is \(\{\kappa(M_F(C)): C\in\mathcal C\}\). When masks are the only varying objects, the set is finite even if the evidence descriptions are infinite, and the attainable lower and upper endpoints lie between the values at the intersection and union of compatible masks. Attainment of either extreme input mask suffices for attaining the corresponding bound and is unnecessary for value-level equality. Correlation can make these bounds strict. Joint signatures are the costs of a \emph{single} compatible mask profile for all freeze coordinates, so multiplying separately sharp coordinate sets can add impossible signatures. Each \(\kappa\) admits the finite belief-horizon calculation with at most \(2^{|S|}-1\) action levels when finite. If admissible mask profiles are effectively decidable, a finite exact procedure returns the joint set and a witnessing profile for each value. If kernel costs can vary without a finite discrete representation, an infimum or supremum need not be attained.
+
+\end{theorem}
+
+\begin{proof}
+
+Let \(\mathcal B\) be the graph of all nonempty observation-homogeneous beliefs reachable by legal actions before any deletion. For surviving action \(a\) at \(B\), write \(\operatorname{Succ}(B,a)\) for its attainable child beliefs, with each visible outcome merged across every compatible physical state. Initialize \(W_0(B)=0\) at an admissible stopping belief and \(+\infty\) elsewhere. For \(t\ge1\), retain zero at such stopping beliefs and at other beliefs set
+
+\[
+W_t(B)=\min_{a\text{ usable throughout }B}\left(c(a)+\max_{D\in\operatorname{Succ}(B,a)}W_{t-1}(D)\right).
+\]
+Usability here includes whole-action occurrence removal at every state in \(B\), with infinite value if no qualifying action has finite continuations. Induction on \(t\) proves that this is the least worst-branch cost of a tree of depth at most \(t\). At \(t=0\) the only proper tree is a permissible stop. Each finite depth has finitely many candidate trees, hence the infimum there is attained.
+
+Any finite proper policy tree can be simplified without higher cost or enlarged support. If a branch repeats a belief, replace the ancestor's subtree by a copy of the descendant's subtree. At the repeated belief the future legal transitions, action costs and stop rule depend only on its states and on the fixed kernel, so every continuation can be followed from the ancestor. The suffix has worst cost no larger than the ancestor's subtree because the repeated-belief path prefix costs are nonnegative, and its action occurrences are a subset of those already reached originally. Every substitution reduces tree size. A resulting proper tree has no repeated belief on a branch and depth at most \(2^{|S|}-1\). This proves the horizon bound for all proper values, attaining any finite \(\kappa\) and correctly returning \(+\infty\) for a zero-cost self-loop with no means to close. A Bellman fixed-point equation with a self-loop alone would accept spurious finite solutions. The finite horizon avoids this. The stop criterion here means that every physical checkpoint supported at the leaf is closed in the kernel. If a declaration also requires one public authorization class uniformly across the belief, use that stronger frozen stopping predicate and the same proof.
+
+There is a more efficient label-setting calculation on a given reachable belief graph. Seed every stopping belief at zero. An action incurs a candidate label only once all of its child labels are final, then receives their largest finalized value plus its known cost. Finalize the smallest nonfinal candidate belief and propagate it. A candidate is the cost of a real proper tree. If some unfinalized belief had a strictly smaller attainable optimal cost than the candidate chosen next, take its optimal finite tree and descend to a deepest unfinalized belief occurrence with all children final. The remaining branch cost there is at most the root's cost by nonnegativity. Its action would already have a candidate with no greater cost, or it would have a zero seed if it is a stopping belief. Either case contradicts the chosen next label. If no candidates remain yet some finite-valued belief is unfinalized the same argument contradicts exhaustion. This calculation admits zero-cost actions while requiring a proper closing tree.
+
+For masks \(M\subseteq M'\), every proper tree employing only occurrences outside \(M'\) is still available outside \(M\), with the same supported branches and costs. Thus \(\kappa(M)\le\kappa(M')\), including infinity. Let \(M_{\cap}\) and \(M_{\cup}\) denote intersection and union over compatible completions. For every compatible mask \(M\), \(M_{\cap}\subseteq M\subseteq M_{\cup}\), giving the stated outer value bounds. If an extreme mask appears in the compatible family it attains the associated bound, but \(\kappa\) need not be injective. The \(F\)-specific set of values is the image of compatible masks by the fixed evaluator. There are finitely many masks on the finite occurrence ground set, so the value image is finite and both endpoints are attained for nonempty compatibility.
+
+For example, two unit-cost atomic closers \(q_1,q_2\) from the same open entry can each implement either the E or R closure above. Constrain the evidence so exactly one touches R in every completion. The two compatible R masks then both give value 1, while their union removes both and gives infinity. Their intersection removes neither and gives 1 without being compatible. Use instead the same two single-route-compatible masks on two routes of different costs to make attainment of a finite lower bound depend on the cheaper route occurring; the equality again concerns values rather than mask satisfiability. These are nonempty domains throughout.
+
+Both outer bounds can also be strict in the same well-formed family. Add an open intermediate and a two-action unit-cost chain \(a,b\) from the entry via it to a closed state. Add two direct fallback closers \(c,d\) of price 3. In the first completion, action \(a\) changes \(P^0\) to the partition that adds \(h_\star\) to its open alias, action \(b\) closes by admitting \(h_+\) without another R change, and \(c,d\) are respectively the pure-R and pure-E closers. In the second completion, \(a\) keeps \(P^0\), \(b\) closes by admitting \(h_+\) and refining to \(P^1\), and \(c,d\) are respectively pure E and pure R. State observations, graph, costs and which checkpoints are closed agree. The compatible R masks on the four occurrences are \(\{a,c\}\) and \(\{b,d\}\). The intersection removes nothing for a value of 2, each compatible mask has value 3, and the union removes all four occurrences for a value of infinity.
+
+For an explicit example separating the joint signature from its coordinate marginals, use just one unit-price action effect which is either pure E or pure R. The compatible pairs of \((\kappa_{\neg E},\kappa_{\neg R})\) are \((+\infty,1)\) and \((1,+\infty)\). Marginals multiplied together introduce \((1,1)\) and \((+\infty,+\infty)\), neither of which corresponds to a compatible effect. This construction uses the same state-transition skeleton and closed/observable statuses in both completions. It varies the operational profiles that supply E/R touch. Full freeze tuples must therefore be evaluated with the same profile throughout. When compatible mask profiles admit an exact decidable symbolic membership test with a witnessing completion or profile, enumerating possible profiles, retaining the compatible ones, and evaluating all coordinates gives the exact set and witnesses. This can be expensive; T11 does not give a uniform polynomial bound. Neither the monotonic comparison nor the fixed-kernel envelope applies without checking that removal is the only difference between the compared kernels.
+
+Outside the fixed finite image assumption, take a one-step open-to-closed kernel whose action cost ranges over real values \(p\in(1,2)\) under valid evidence. The identified finite costs have infimum 1 and supremum 2 without corresponding compatible completions. Even an exact endpoint interval may omit membership information, and the cutoff equality case must be handled by actual feasibility. For threshold \(f=1\{\kappa\le1\}\) in this example no compatible completion passes, even though the infimum is 1.
+
+\end{proof}
+
+A proper policy has a physical support consisting of whole action occurrences. To invalidate every budget-feasible policy an intervention must meet every such support.
+
+\begin{theorem}[T12. Closure support and intervention blockers]\label{thm:t12}
+
+In the fixed resource kernel, for finite budget \(b\), let \(H_b\) be the inclusion-minimal supports of proper closers of worst cost at most \(b\). A support is the set of \((s,a)\) used on some positive-support branch. Whole-action deletion \(M\) leaves a budget-feasible closer exactly when some \(U\in H_b\) is disjoint from \(M\). The minimal destructive masks are the inclusion-minimal transversals of \(H_b\), and dualizing that clutter returns \(H_b\). The family may be generated exactly by combining supported outcome-belief continuations, retaining only inclusion-minimal sets, to horizon \(2^{|S|}-1\). Intermediate or output antichains may be exponential. Empty supports and empty families are interpreted separately. This result preserves the original positive-support structure.
+
+Choose minimal policy supports within a fixed residual budget. A smaller support at a higher cost can fail the actual bound and must not prune a larger feasible support at a lower cost. Equivalently retain joint cost--support dominance. The original exact proof and first comparison already use the fixed-budget hypothesis. The boundary replay contains supports at costs 5 and 9 and an overall optimum of 9.
+
+\end{theorem}
+
+\begin{proof}
+
+Let \(P\) be the finite ground set of all source-atomic occurrences. For every budget-feasible baseline policy \(\rho\), \(U(\rho)\subseteq P\) consists of all occurrences used on at least one supported branch. Suppose an intervention removes \(M\subseteq P\) and otherwise holds the kernel fixed. If \(U(\rho)\cap M=\varnothing\), each prescribed action is usable at every state compatible with its history, and all original supported continuations still exist. Hence \(\rho\) survives unchanged in cost and propriety. Conversely a proper closer in the intervened model is the same tree in the baseline. Whole-action deletion only marks occurrences unusable; it does not prune any outcome of retained actions. The intervened closer's support is disjoint from \(M\). Taking minimal supports preserves existence of a disjoint edge because the support ground set is finite.
+
+Define the blocker \(\operatorname{bl}(H)\) of a finite inclusion-minimal edge family \(H\) to be the inclusion-minimal sets intersecting every edge. Then destructive masks form its upward closure. For an arbitrary \(A\subseteq P\), \(A\) hits every minimal blocker iff no blocker is contained in \(P\setminus A\). By monotonicity and finiteness that holds iff \(P\setminus A\) is not itself a blocker, which is equivalent to containing some original edge in \(A\). Minimal such \(A\) are exactly \(H\), proving blocker involution. When no budget-feasible closer exists, \(H_b=\varnothing\), every removal is destructive, and \(\operatorname{bl}(H_b)=\{\varnothing\}\). For the admissible zero-action stop, \(H_b=\{\varnothing\}\) and no removal is destructive.
+
+Here is a constructive antichain certificate. Let \(\mathcal U_{t,b}(B)\) be the inclusion-minimal supports at depth at most \(t\) and budget \(b\). For \(b<0\) the family is empty. For \(b\ge0\) at stopping beliefs it is \(\{\varnothing\}\). At a nonstopping belief with depth zero it is empty. At greater depth, for each action legal throughout \(B\) with \(c(a)\le b\), retain its parent occurrences \(\{(s,a):s\in B\}\) and take one member of \(\mathcal U_{t-1,b-c(a)}(D)\) for each attainable visible child. Form the union of these sets, take all such combinations, and discard inclusion-dominated supports. Distinct physical successors sharing the same visible label contribute together to the same single child belief. Induction on depth proves that combining supports reconstructs proper policies, since a visible label selects one continuation and worst cost requires all continuations to fit the same residual budget. Throwing out a superset can never remove a later inclusion-minimal union. The cycle-removal proof in T11 preserves support inclusion as well as cost, so depth \(2^{|S|}-1\) suffices for the entire antichain. Consider a chain of \(m\) checkpoints with two different unit-cost actions at each, both leading deterministically to the next checkpoint, and a closed last checkpoint. With budget \(m\) every choice vector is a distinct support of size \(m\). Each is minimal, and there are \(2^m\). Exact set enumeration can therefore be large even without observation aliasing.
+
+If an intervention may instead cause a retained atomic operation to skip its expensive or dangerous outcome, baseline and modified policy supports need not match. A single operation costing one that always has one closing and one stranded outcome has no baseline proper closer. Retaining the operation but eliminating the stranded outcome creates one. That example is outside the whole-action model and is a direct obstruction to extending this proof to support pruning.
+
+\end{proof}
+
+The evidence may describe a class implicitly. Two independently checkable certificates suffice for a positive identification claim: one feasible completion and exclusion of every rival target.
+
+\begin{theorem}[T13. Constructive ambiguity or certificate theorem]\label{thm:t13}
+
+For a finite well-formed symbolic contract class, assume a verified feasibility checker, exact target and query evaluation, and a terminating proof-producing oracle for target-distinct compatible pairs subject to a list of equal-query constraints. A verified feasibility witness followed by testing the empty constraint set and, when needed, the full query set suffices to produce exactly one terminal conclusion: IDENTIFIED with a value and no-conflict proof, UNDERIDENTIFIED with a compatible opposite-target witness when full-menu collisions are excluded, AUDIT-INACCESSIBLE with a target-distinct whole-interface collision, or INCONSISTENT with an emptiness proof. Incomplete or unverifiable required calls with no decisive verified conclusion return UNKNOWN. An independently verified target-distinct pair can certify the narrower nonidentification statement even while accessibility is unresolved. Pointwise decidability alone does not suffice for quantified feasibility over an unbounded class.
+
+\end{theorem}
+
+\begin{proof}
+
+Write \(\operatorname{Pair}(J)\) for the existential formula on two well-formed complete contracts with source evidence \(\Omega\), distinct evaluated target values and equality of every chosen \(q_j\), \(j\in J\). The proof contract requires a sound checker for concrete completion and target witnesses and for refutations of feasibility or of this formula. A complete practical implementation can compute each exact table entry on a promised finite type, or obtain and independently check an exact symbolic solver transcript.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+
+\item
+  Verify either an emptiness proof or a concrete compatible completion \(x_0\). Emptiness gives INCONSISTENT. Without either verification, no identification may be inferred.
+\item
+  Test \(\operatorname{Pair}(\varnothing)\). If its refutation is verified, all compatible \(x\) agree with \(x_0\) on \(f\) so the value \(f(x_0)\) is IDENTIFIED. This step uses the actual existence of \(x_0\). If a witness is verified, the target is underidentified at the current evidence. Compute its exact disagreement edge using all declared queries.
+\item
+  For a full accessibility classification, either that edge is already empty, or test \(\operatorname{Pair}(Q)\). A verified witness to the latter is a whole-interface collision, so AUDIT-INACCESSIBLE follows from T05. If its refutation is verified, the original witness proves UNDERIDENTIFIED at the current evidence and the full interface can in principle identify. An unverified or interrupted required call yields UNKNOWN for the undecided classification. A completed subproof, such as a verified opposite-target pair from step 2, may be retained as stated partial evidence.
+\end{enumerate}
+
+Under the finite complete oracle assumptions each case reaches one terminal result. The implications justify refusing a positive conclusion after a timeout, malformed query or unknown solver status. In particular, proving that a selected query set separates \emph{all} feasible pairs is a prospective sufficiency theorem. It does not name the actual target until observed answers have narrowed the evidence to one value, unless the empty set already sufficed.
+
+Pointwise decidability is strictly weaker than complete quantified decision. With a variable mode \(n=0,1,\dots\), admit all modes and no probes. For an arbitrary machine \(M\) write \(f_M(0)=0\), and for \(n>0\) let \(f_M(n)=1\) precisely when \(M\) halts within \(n\) steps. This evaluation always terminates for any single \(n\). The existence of an opposite-target pair, however, is equivalent to eventual halting of \(M\). This unbounded class is outside the finite proof contract. A practical syntactic encoding that cannot prove quantified no-conflict requires either additional evidence or an unresolved verdict.
+
+\end{proof}
+
+An optimizer need not list every disagreement upfront. Each surviving rival pair supplies a necessary constraint on its next proposed audit.
+
+\begin{theorem}[T14. Counterexample-guided minimum audit synthesis]\label{thm:t14}
+
+\label{thm:t14a}
+
+\textbf{T14.a.} With the assumptions of T13 and exact weighted-transversal optimization on the collected edges, the minimum uniform certificate is obtained by repeatedly solving the current lower-bound transversal problem and adding an independently checked unhit disagreement edge. A certified no-conflict candidate attains the optimum. An empty edge certifies inaccessibility. At most \(2^{m}-1\) nonempty additions are possible. An exhausted or unverified search with no conclusive result does not certify identification or optimality.
+
+\label{thm:t14b}
+
+\textbf{T14.b.} In the serial product model, a selected set misses a global target-distinct pair exactly when it misses the edge of a pair differing at one stage. At stage \(i\), the pair \(z_i,z'_i\) contributes its local disagreement edge exactly if some sum of one cost from every other stage plus \(\tau\) makes one total at most \(b\) and the other greater than \(b\). Thus the optimum is the sum of local minimization costs under these attainable-context edge families. The minimum full-identity audit is the analogous stagewise minimum over all distinct local semantic modes and can equal the minimum target audit. A finite local table and binary integer costs admit a budget-capped pseudo-polynomial edge construction plus exact \(2^{|Q_i|}\)-subset local optimization. The paired oracle can alternatively use extremal costs within local equal-answer cells, coordinatewise capped sums and Pareto dominance favoring low left cost and high right cost, and recover a true single-stage witness. Cross-stage evidence restrictions, coupled local queries, or stateful transport across stages need separate justification.
+
+\label{thm:t14c}
+
+\textbf{T14.c.} For a correlated finite class given by extensional constraint tables, additive nonnegative integer local scores, and local query equality, take the product of two modes at each stage. Given a nice tree decomposition of width \(w\) with \(N\) nodes and a bag containing the scope of each factor, paired target-distinct, same-query feasibility is decidable without materializing the completion catalog. If each local mode domain has size at most \(d\), the DP uses up to \(d^{2(w+1)}(b+2)^2\) Boolean states per bag and \(O(N d^{2(w+1)}(b+2)^4)\) table updates apart from local factor-read and bit-arithmetic costs. A true state gives a compatible pair. At fixed width and suitably bounded numeric budget this is tractable in the tabulated input. The outer weighted optimization need not be tractable.
+
+\end{theorem}
+
+\begin{proof}
+
+Assume a verified nonempty \(\mathcal C\). Start with the empty collected hypergraph \(\mathcal H_0\). At round \(t\), compute and verify an exact weighted minimum \(J_t\) for the current edge family \(\mathcal H_t\). Every globally sufficient set hits \(\mathcal H_t\) by T04, so the verified optimizer objective is a lower bound on the unknown optimum \(S_f\). If the pair oracle refutes \(\operatorname{Pair}(J_t)\), T04 makes \(J_t\) globally sufficient. Its price supplies the matching upper bound, proving optimality. If the pair oracle supplies a verified witness, compute its full disagreement edge \(D\). By the pair constraints \(J_t\cap D=\varnothing\). If \(D=\varnothing\), T05 gives AUDIT-INACCESSIBLE. Otherwise \(D\) is new, because \(J_t\) hits every edge already collected. Append it and continue.
+
+This is constructive, with at most \(2^m-1\) nonempty edge additions and a final oracle call. Smaller bounds follow from the actual number of possible opposite-target pairs. If the solver stops at a cap, the verified lower bound from the partial family remains a lower bound, and any already verified feasible result supplies an upper bound. Neither a low optimizer objective nor exhaustion alone certifies sufficiency. A verified empty edge establishes inaccessibility independently of the reported objective. Inception, well-formedness, witness replay, no-conflict checks and exact optimality are distinct obligations.
+
+This witness-driven method is an instance of implicit hitting set. The PC-specific question is whether the paired oracle can exploit independently anchored resource and source structure.
+
+\textbf{Addition of local closure costs.}
+
+Fix one complete assignment. The cost \(v_i\) of a stage is the minimum worst accumulated cost to reach its common exit under the fixed freeze and licensed stage observations, with all positive-support branches considered. Its finite optimum exists in the finite stage kernel by the horizon argument for T11, treating the common exit as the local stop condition. The suffix value is \(\tau\). If any needed value is infinite, a proper global closer would induce a proper exit strategy at that stage or suffix, a contradiction. All intermediate stages are open and unavoidable.
+
+When every component has finite value, concatenating optimal local policies gives a proper global policy of cost at most \(\tau+\sum_i v_i\). To prove the converse, fix any proper global policy. On reaching a stage along a visible prefix, restrict its continuation to that stage until the next common exit. Inducing this policy does not restrict the stage's positive supports because the matching entry belief and future kernel are the same after any reachable prefix. Its stage worst cost is at least \(v_i\). Follow a supported branch attaining at least that value, then repeat the argument from its exit. The same reasoning applies to the goal suffix. This builds one feasible whole branch costing at least \(\tau+\sum_i v_i\), not a sum of incompatible independently chosen branches. Consequently the scalar serial score is the true whole-support freeze value for the stated gates. Observability aliases and cross-stage resource effects require checking these gates independently.
+
+\textbf{One-stage crossing theorem.}
+
+Let \(J_i\) be the selected local probes of stage \(i\). If two complete tuples agree on \(J=\bigcup_iJ_i\) and have opposite target values, change their modes from the first tuple to the second one stage at a time. Every splice lies in the product evidence class. Every splice preserves all acquired answers because \(q\in Q_i\) depends only on its own stage and the endpoints agree on \(J_i\). The Boolean target must change somewhere. The two adjacent assignments give a single-stage witness agreeing on the selected probes. Conversely such a local witness is itself a global pair. This argument uses the product and locality hypotheses even when one score is infinite.
+
+For stage \(i\), define the attainable outside set
+
+\[
+T_{-i}=\left\{\tau+\sum_{k\ne i}v_k(z_k): z_k\in Z_k\right\}.
+\]
+For an ordered local pair with \(l=v_i(z_i)<h=v_i(z_i')\), there is a crossing iff \(l<+\infty\) and some finite \(t\in T_{-i}\) has \(t+l\le b<t+h\). This interval is open at its lower end and closed at its upper end. If \(h=+\infty\) the right inequality is automatic for finite \(t\). If \(\tau=+\infty\) or all outside possibilities exceed \(b\), no crossing exists. The local disagreement edge from a crossing consists exactly of those \(Q_i\) on which \(z_i,z_i'\) differ. Thus globally sufficient \(J\) are exactly unions of local hitting sets for these edges, even when an empty edge makes the result infeasible. Prices are additive and menus disjoint. Minimizing independently and summing therefore gives the global optimum. If the target is full identity of the tuple of local semantic modes instead, every pair of distinct modes in a factor can be contrasted by fixing all others, and local identity suffices to identify the tuple. The resulting optimum can be the same as the threshold optimum.
+
+Three failure cases separate the indispensable premises.
+
+\begin{itemize}
+
+\item
+  With stages \(\{0,1\}\) and evidence allowing only \(00\) and \(11\), use \(f=1\{z_1+z_2\le0\}\). The target differs between the two feasible tuples, but no admissible pair differs at one stage. Constraint correlations block the splice.
+\item
+  With the entire product and the same threshold target, select only the shared parity probe \(z_1\oplus z_2\). It hits all one-stage crossings and misses the equal-answer pair \(00,11\) across the target boundary. Query locality matters even under product evidence.
+\item
+  If the early stage carries an unobserved license into the next stage, later cheap operations may be available only in some earlier outcome branches. Concatenating local computations each started with a default valid license need not be legal in every global branch. A concrete cost table with diagonal values 0 and off-diagonal values 2 has no additive decomposition, since the two diagonal sums disagree. Per-stage values measured at independently assumed resets are insufficient evidence of an additive score.
+\end{itemize}
+
+\textbf{Exact complexity and paired Pareto search.}
+
+An explicit local algorithm constructs each \(T_{-i}\) truncated to \([0,b]\) by starting from \(\{\tau\}\) and repeatedly adding each distinct nonnegative finite score of the other stages while dropping sums above \(b\). Dropped terms cannot later permit an accepting completion. Record one predecessor per attainable value to recover an outside assignment. An inclusion prefix count for the resulting set tests a candidate interval in constant arithmetic time. Let \(\ell_i=|Z_i|\), \(m_i=|Q_i|\), and \(e_i\) be the number of distinct retained crossing edges. Computing outside sets separately for each stage takes \(O(n(b+1)\sum_i\ell_i)\) arithmetic steps. Forming the edges takes \(O(\sum_i\ell_i^2(m_i+1))\), including answer comparisons. A direct local subset proof takes \(O(\sum_i2^{m_i}(e_i+1)(m_i+1))\), without storing the Cartesian product of completions. One working outside table uses \(O(b+1)\) score states, or \(O(n(b+1))\) with reconstruction pointers for a stage's witness. Exact arithmetic on encoded nonnegative integers and local price bit lengths adds the corresponding bit costs. This is pseudo-polynomial in \(b\) and exponential in local menu width, with no assertion of polynomial complexity for unbounded widths or binary-encoded budgets. T10.b supplies a matching reason for that warning.
+
+A second pair oracle avoids explicit calculation of every crossing edge. For each stage and selected local probe mask, partition the modes by their selected answers. Inside each occupied cell retain a minimizing mode and a maximizing mode of the stage score. If a same-answer pair could be feasible, replacing each stage pair by the chosen extremes of its cell only improves the comparison: lower cost on the putative accepting left and higher cost on the rejecting right. Product evidence preserves compatibility. Conversely recorded extremes are actual modes with equal selected answers, so any accepting/rejecting pair of their totals is a witness.
+
+Use saturated addition at \(b+1\), marking both greater finite values and infinity as overflow. It preserves the threshold comparisons for nonnegative scores, because once a partial sum overflows all extensions overflow. Keep partial pairs \((L,H)\) with \(L\le b\) and \(H\le b+1\), accumulating local answer-cell extremes. A state \((L,H)\) dominates another \((L',H')\) when \(L\le L'\) and \(H\ge H'\). For any continuation possible from the dominated prefix, the same continuation is possible from the dominator because local menus and evidence do not depend on the prefix. Saturated componentwise addition preserves that order. Thus keeping one predecessor for each nondominated pair is sound and complete. At most \(b+1\) distinct nondominated states can appear, one per accepted left sum; an unpruned table has at most \((b+1)(b+2)\) pairs. The minimal routine loops over current states and local cell pairs, then sorts reachable pairs by increasing \(L\) and decreasing \(H\) and keeps increasing record-high \(H\). Each stage has at most \(\ell_i\) cell alternatives. Candidate-state sorting adds at most a logarithmic multiplier to the arithmetic bound \(O((b+1)\sum_i\ell_i)\) per oracle after local cell tables are built. Simply saying the DP is polynomial in input size would ignore encoded numeric ranges. The terminal test is \(H=b+1\). Recover exact uncapped scores from chosen modes and localize the witness by the one-stage splice argument. The refinement bound likewise improves to at most \(\sum_i(2^{m_i}-1)\) nonempty edge additions when every oracle output is localized.
+
+\textbf{Correlated paired feasibility.}
+
+Consider a finite evidence CSP over variables \(z_i\) with local mode domains \(Z_i\) and explicitly listed allowed relation tuples. The graph can contain arbitrary correlations within supplied bag scopes. A positive score for any compatible completion is computed by evaluating the independently checked stage-local scores and adding them. This requires additive source costs per completion, but does not require all combinations to be compatible. Make the paired variable \((z_i,\widetilde z_i)\) at each site. A relation test on any bag verifies each original feasibility factor in both coordinates. A selected local probe imposes a unary equality \(q_j(z_i)=q_j(\widetilde z_i)\). These constraints ensure the projected pairs are compatible and agree on the selected reads.
+
+Take a supplied nice tree decomposition with empty root and leaves, and introduce, forget and join nodes. Add local check nodes with unchanged bags so that each relation or probe equation is tested exactly once in a bag containing its scope. Count these nodes in \(N\). A table entry at each bag consists of a paired assignment \(a\) on the bag and two saturated sums \(s,\widetilde s\) of mode costs for variables already internal to the subtree and outside its bag. It is true exactly when \(a\) extends to both compatible subtree assignments satisfying every relation assigned there and giving these sums. At the empty leaf set the zero pair true.
+
+\begin{itemize}
+
+\item
+  Introducing a variable extends the boundary assignment and leaves the internal cost unchanged. This variable has not occurred below the child bag by the connectedness property.
+\item
+  A local check discards the boundary assignments violating its relation in either coordinate.
+\item
+  Forgetting a variable removes it from the boundary and adds its two local costs with saturation to the stored sums. The connected bags containing a variable have a unique highest node. Charge its cost once as that occurrence component leaves the bag toward the empty root.
+\item
+  At a join, both child assignments agree on the common bag. Off-bag variables in the two subtrees are disjoint by the running-intersection property. Join any compatible witnesses and add their internal sums with saturation. Conversely any valid subtree pair splits into such witnesses. No bag variable has yet been counted, so no local cost is double-counted.
+\end{itemize}
+
+These transitions prove the invariant by induction. Add the fixed terminal cost to both root totals and test \(s+\tau\le b<\widetilde s+\tau\) using saturated comparison. Any target-disagreement pair can be ordered with the passing tuple on the left. Infeasibility means no root entry satisfies that test. Predecessor assignments and score choices reconstruct a witness. Negative certification can verify the entire finite recurrence, with no need to trust a heuristic refusal.
+
+With domain size at most \(d\), each bag has at most \(d^{2(w+1)}\) paired labelings, each with \((b+2)^2\) saturated score states. At a join the naive comparison of the two tables uses at most \((b+2)^4\) state-pair combinations per paired labeling. Introduce, forget and check steps can each enumerate the larger bag's table directly, with additional relation reads, so total table updates are bounded by \(O(Nd^{2(w+1)}(b+2)^4)\). Keeping all tables and one witness pointer per true state uses \(O(Nd^{2(w+1)}(b+2)^2)\) table storage, excluding input tables and data representation costs. This is a correlated, budget-capped whole-pair decision procedure, not a local crossing factorization and not a conclusion about the outer weighted optimizer. It is an application of constrained elimination with two accumulated objectives. the existence of small-width representations must be justified in each supported application.
+
+\end{proof}
+
+\subsection{Random records and transferred risk}
+
+A deployment completion \(C\) specifies a finite time-indexed plant, context-dependent initialization and transition laws, authorized controller and evaluator observations, and a trusted binary violation \(V\). The context domain \(D(C)\) is nonempty. Define \(r(C,d)=\Pr_C(V=1\mid d)\), \(r(C)=\sup_{d\in D(C)}r(C,d)\) and \(\Psi(C)=\mathbf1\{r(C)\le\varepsilon\}\) for \(0\le\varepsilon\le1\). Evaluators may carry memory across calls. A reset is available only if the protocol provides one. An empty compatible class signals inconsistent evidence.
+
+To embed the original closure problem, put positive probability on every supported successor of each surviving whole action. Let violation mean failure to stop closed within depth \(n\) and cost \(b\). A finite branch violates the requirement exactly when some positive-probability run violates it. Thus zero risk for the specified policy is equivalent to all-branch success in this finite tree. Taking the infimum of \(b\) over all feasible depths recovers the original freeze coordinate, including infinity when there is no proper tree.
+
+When the evidence is random, a readout is a whole interactive record. Its initial state and the order of the subsequent observations are part of the experiment.
+
+\begin{theorem}[T15. Observable-history indistinguishability]\label{thm:t15}
+
+Fix a common lawful finite-horizon class of interactive audits, including any public stop and initialization record. If two completions induce identical initial laws and identical conditional laws for the whole response at every jointly exercisable history and command, then every audit in the class has the same full transcript law under both completions. Conversely, equality for every audit determines the conditional rows on histories and commands exercisable with positive probability. For standard Borel records, use versions of the regular conditional laws agreeing almost surely under the preceding history--action law of the protocol in question. Opposite targets with equal transcript laws cannot both be recovered exactly. Repeated experiments are covered when their combined conditional laws satisfy the same hypotheses.
+
+\end{theorem}
+
+\begin{proof}
+
+Start with the common initial law and pad every stopped path by one common terminal symbol. On a discrete positive prefix, multiply its mass by the common action/stop probability and the common conditional response mass. Induction gives all cylinder masses. For a general standard Borel record, integrate the conditional kernels against the same current history--action distribution; equality almost surely gives the same next marginal. The induction then applies to cylinder events instead of point masses. Conversely the marginals of an allowed protocol exercising a particular history and action determine its next response distribution by division at positive atoms, or by almost-sure uniqueness of regular conditional laws. A common terminal decision kernel maps equal laws to equal laws. A zero-error rule assigning different labels in the two completions would give its positive-declaration event both probability zero and probability one under a single law.
+
+\end{proof}
+
+A fixed algorithm can authorize different physical outcomes depending on an installation field that evaluation never exposes.
+
+\begin{theorem}[T16. Source-relative deployment alias]\label{thm:t16}
+
+There exist two completions with one deterministic controller and actuator, identical laws under every allowed adaptive evaluation, and deployment risks \(0\) and \(1\). The missing datum can be a single installed source field. Adding a faithful read of that field identifies risk on this two-completion class.
+
+\end{theorem}
+
+\begin{proof}
+
+Use one item, two bins and one lawful controller that always sends the item to bin zero. The independently specified physical scoring rule declares a violation if the delivered bin differs from the installed destination card. Set the evaluation card to zero in both installations; all commands, observations and their conditional laws agree under the entire authorized evaluation interface. In the held-out deployment install card zero in one machine and card one in the other. Both perform the required dispatch, yielding risks zero and one. The difference is one omitted field in the source projection. A legitimate direct read of that card distinguishes the two completions.
+
+\end{proof}
+
+If exact evaluation laws were available, the remaining identification question would still be whether one whole law carries two incompatible answers.
+
+\begin{theorem}[T17. Exact-law sufficiency]\label{thm:t17}
+
+Write \(L(C)\) for the collection of exact transcript laws under the specified lawful protocols in completion \(C\). A target \(f\) has a decoder on the attainable image of \(L\) if and only if \(L(C)=L(C')\) implies \(f(C)=f(C')\) for all compatible \(C,C'\). The input to the decoder is the law itself. No finite-sample or computability assertion follows.
+
+\end{theorem}
+
+\begin{proof}
+
+If \(f=g\circ L\), equal laws necessarily give equal targets. Conversely choose any attainable law collection \(l\) and any completion \(C\) with \(L(C)=l\). Set \(g(l)=f(C)\). Constancy on the fiber makes this independent of the choice and gives \(f=g\circ L\). Unsupported law collections play no role.
+
+\end{proof}
+
+A lower measure on shared physical trajectories turns local correspondence checks into a bound on the risk of an independently scored event.
+
+\begin{theorem}[T18. Transport through audited source semantics]\label{thm:t18}
+
+Fix a finite horizon, a pair of contexts and two implementations whose independently checked state, action and event maps project to one canonical interface. On every represented checkpoint and lawful history the controllers have the same projected conditional action law. Let \(m_0\) be an audited common lower initial mass. For each canonical state \(z\), action \(a\) and time \(t\), suppose every represented checkpoint admits the same deterministic map from a normalized primitive vector to its next state, public outcome and trusted event letter. For each component of that vector, an audited lower conditional row is dominated by the genuine conditional row in both systems on every prefix of positive lower mass. Multiply these factors, then push them through the common map to obtain the subprobability row \(m_t(z,a;\cdot)\). Composing these rows with \(m_0\) and the controller defines a path submeasure \(\mu\). Write \(\mu_i=\mu(V=i)\) for the actual binary violation event. Both risks lie in \([\mu_1,1-\mu_0]\). If each lower row at step \(i\) has mass at least \(1-\eta_i\), including initialization, and \(0\le\eta_i\le1\), the risk difference is at most \(1-\prod_i(1-\eta_i)\). When normalized conditional factors and initials coincide, choosing them as the lower rows gives identical path laws. Across paired contexts take the supremum of their mass deficits to bound the discrepancy of the corresponding worst risks.
+
+\end{theorem}
+
+\begin{proof}
+
+Fix one represented state and action. On a primitive prefix of positive lower mass the actual prefix has positive probability, inductively, because its successive conditional probabilities dominate the lower factors. Multiplying those inequalities along the vector and summing over each inverse image of the common physical transition and scoring map proves row domination in the canonical alphabet. A zero lower mass requires no division. The conditional actual checkpoint given an observed canonical history may be a mixture of physical checkpoints. Every represented component dominates the same canonical row, so this mixture still dominates it. Multiply by the shared public policy kernel and induct on length starting from \(m_0\). Each actual path law therefore dominates \(\mu\). Apply domination to \(V=1\) and \(V=0\) separately. The interval width is \(1-\mu_1-\mu_0\). If each lower row retains at least \(1-\eta_i\), total retained mass is at least \(\prod_i(1-\eta_i)\) by successive summation, including initialization. A normalized common lower measure must equal each probability law it dominates. Taking paired-context suprema gives the final comparison.
+
+Checking that the two monitors print identical messages would not establish the shared scoring map. Two devices can both print success and send the same item to different physical destinations. Conversely a claimed row minorant can be obtained from independently justified simultaneous lower probability bounds. For \(K\) faithfully reset Bernoulli cells with \(n\) draws each, subtracting \(\sqrt{\log(2K/\alpha)/(2n)}\) from each empirical proportion and clipping at zero gives simultaneous lower bounds with error at most \(\alpha\). This construction still requires the measured cells to be the operative conditional rows.
+
+\end{proof}
+
+For a threshold guarantee, whether the lower endpoint is actually attained matters. A direct measurement also provides a genuine competitor to an indirect audit.
+
+\begin{theorem}[T19. Sharp interval and threshold classification]\label{thm:t19}
+
+Let \(S=\{r(C):C\in\mathcal H\}\) be nonempty, \(L=\inf S\), \(U=\sup S\), and let passing mean \(r(C)\le\varepsilon\). Every completion passes exactly when \(U\le\varepsilon\). Every completion fails exactly when \(L>\varepsilon\) or when \(L=\varepsilon\) and \(L\notin S\). In every remaining case both verdicts have compatible witnesses. In a finite deterministic acquisition problem with nonnegative prices, adding an always lawful, faithful, target-resolving measurement at a constant price \(d\) changes the optimum worst-case acquisition cost from \(W\) to \(\min(d,W)\).
+
+\end{theorem}
+
+\begin{proof}
+
+Uniform passing means \(\varepsilon\) is an upper bound; by definition this is \(U\le\varepsilon\). Uniform failure requires every attained point to be strictly larger than \(\varepsilon\), which is exactly the stated condition on \(L\) and its membership. If neither universal condition holds, negating each supplies a witness for the opposite verdict. For instance \(S=(\varepsilon,1]\) with \(\varepsilon<1\) uniformly fails despite \(L=\varepsilon\). A decision tree that ever uses the direct read on a feasible branch has worst cost at least \(d\) by nonnegativity. Every remaining tree uses only semantic queries and costs at least \(W\). Buying the direct read immediately, or using a semantic optimum when finite, attains the smaller value.
+
+\end{proof}
+
+Risk in an unmeasured context must receive its deployment weight. A positive mass of unseen operation can dominate the guarantee.
+
+\begin{theorem}[T20. Uncovered-context limits]\label{thm:t20}
+
+Let \(w_d(x)\) be known deployment mixture weights and \(S\) a set of contexts with conditional risk bounded by \([l_x,u_x]\). With only the unit interval available elsewhere, the deployment risk lies in
+\[
+\left[\sum_{x\in S}w_d(x)l_x,\quad
+\sum_{x\in S}w_d(x)u_x+w_d(S^c)\right].
+\]
+Joint realizability of the lower and upper risk vectors makes both endpoints sharp, including after taking suprema over deployments. An unobserved context of freely variable risk can therefore contribute its whole mass to the identification gap while preserving the evaluation law.
+
+\end{theorem}
+
+\begin{proof}
+
+Expand the risk by conditioning on the context. Each covered contribution lies between its indicated endpoints and each outside contribution lies between zero and its full weight. Summing proves the bounds. To attain a joint endpoint, realize all covered endpoint risks in the same completion and choose the corresponding common assignment of outside event probabilities. The same simultaneous assignment over all contexts proves sharpness for the supremum. In particular two systems differing only in whether all free unobserved contexts violate agree on the entire covered evaluation law and differ in deployment risk by \(w_d(S^c)\). Correlated restrictions can forbid either endpoint assignment.
+
+\end{proof}
+
+Unequal transcript laws may still be too close for a reliable binary verdict. Total variation measures exactly how far apart their probabilities of one decision can be.
+
+\begin{theorem}[T21. Two-point transcript limit]\label{thm:t21}
+
+For two opposite labels with full audit laws \(P,Q\), let \(\alpha,\beta\) be the two failure probabilities of any terminal decision rule, with any abstention counted as failure. Then \(\alpha+\beta\ge1-\mathrm{TV}(P,Q)\), where \(\mathrm{TV}\) is the supremum of event-probability discrepancies. In particular equal laws force worst error at least \(1/2\).
+
+\end{theorem}
+
+\begin{proof}
+
+Include any common private random seed in the record, or integrate it through a randomized decision function \(0\le\phi\le1\). With \(P\) the positive class, \(\alpha+\beta=1-P\phi+Q\phi\) for a forced verdict. The difference \(P\phi-Q\phi\) is at most total variation, for example by integrating the event probabilities of \(\{\phi>s\}\) over \(s\in[0,1]\). Assigning abstentions one fixed binary verdict can only reduce the sum of failure probabilities. This proves the same lower bound with abstention counted as failure.
+
+\end{proof}
+
+Adaptive audit costs can be bounded from below by accounting for how much log-likelihood evidence each authorized observation contributes.
+
+\begin{theorem}[T22. Stopped information allocation]\label{thm:t22}
+
+Consider one predictable common audit terminating almost surely under both \(P,Q\). Include initialization, every retained coin, chosen action, complete response and the stopping decision in the protocol law, or integrate private coins through the common selection kernel. Assume absolute continuity of the initial law and each exercised response row, finite initial information and integrability under \(P\) of the stopped sum of absolute response log-likelihood ratios. With \(H_t\) the full record, \(q_t\) the chosen query and \(\tau\) the stopping time,
+\[
+D(P^\tau\Vert Q^\tau)=D(P_{H_0}\Vert Q_{H_0})+
+\mathbb E_P\sum_{t=1}^{\tau}D(P_t(\cdot\mid H_{t-1},q_t)\Vert Q_t(\cdot\mid H_{t-1},q_t)).
+\]
+A test with failure probability at most \(\delta<1/2\) on each opposite label requires the left side to be at least \(\operatorname{kl}(1-\delta,\delta)\) for \(0<\delta\). Here \(D\) is relative entropy and \(\operatorname{kl}\) its Bernoulli specialization. Under independent repeatable reset rows, minimize \(\sum_q c(q)n_q\) over nonnegative real expected counts subject, for each opposite competitor \(Q\), to \(D(P_{H_0}\Vert Q_{H_0})+\sum_q n_qD(P_q\Vert Q_q)\ge\operatorname{kl}(1-\delta,\delta)\). This minimum lower-bounds expected acquisition cost.
+
+\end{theorem}
+
+\begin{proof}
+
+Factor the density ratio of a stopped record into initialization, action/stop choices and response rows. The common predictable choice factors cancel on each reached path. If the log of a response ratio is \(L_t\), then the event of making the \(t\)th query and its identity are determined before seeing that response. Thus its expected contribution under \(P\), conditional on this past, is the response-row relative entropy. Taking logarithms of the product and expectations gives the formula by absolute integrability. This also works after conditioning on common independent continuous coins. For the second assertion map the record to the event of declaring the \(P\) label. This event has probability at least \(1-\delta\) under \(P\) and at most \(\delta\) under \(Q\). The log-sum inequality and monotonicity of binary entropy divergence on these two ranges give the required lower bound. With independent reset rows, each use of \(q\) contributes the same \(D(P_q\Vert Q_q)\); group the expectations by query identity. The actual expected counts are feasible for every competitor's constraint, proving the cost bound. Different deterministic initialization labels allow perfect distinction with zero probes, illustrating why the initial term cannot be omitted.
+
+\end{proof}
+
+Sampling can stop when every surviving candidate agrees. Validity at the chosen stopping time requires coverage across possible stopping times.
+
+\begin{theorem}[T23. Time-valid adaptive certification]\label{thm:t23}
+
+Fix a finite law family \(P_i\), positive weights \(w_i\) summing to one, a common audit, and \(0<\delta<1\). On the full padded history filtration \(\mathcal F_t\) let \(M=\sum_iw_iP_i\) and \(p_{it}=d(P_i|_{\mathcal F_t})/d(M|_{\mathcal F_t})\). Retain candidates with \(p_{it}>0\) and \(1/p_{it}<1/\delta\). Simultaneously over times the truth survives with probability at least \(1-\delta\). Issuing only on nonempty homogeneous sets controls the unconditional probability of wrong issuance at any stopping time. A different rule gives a finite cap: for independent resettable categorical queries, let \(K\) count all registered outcome cells. If every opposite-label pair differs in some registered cell probability by at least \(\Delta>0\), sample each query \(n>2\log(2K/\delta)/\Delta^2\) times and retain candidates whose probabilities are within \(\sqrt{\log(2K/\delta)/(2n)}\) of every empirical proportion. The resulting set is nonempty and homogeneous with probability at least \(1-\delta\).
+
+\end{theorem}
+
+\begin{proof}
+
+Under the mixture \(M\), the prefix densities \(p_{it}\) form a nonnegative martingale, so an \(M\)-positive extension cannot revive a zero-density parent on a set of positive measure. Put \(Z_{it}=1/p_{it}\) on its positive set and zero elsewhere. For \(A\in\mathcal F_t\),
+\[
+\mathbb E_{P_i}[1_A Z_{i,t+1}]=M(A\cap\{p_{i,t+1}>0\})
+\le M(A\cap\{p_{it}>0\})=\mathbb E_{P_i}[1_A Z_{it}].
+\]
+Its initial mean is at most one and zero density is \(P_i\)-null at every step. Stopping this supermartingale on the first crossing of \(1/\delta\), first at a finite cap and then increasing the cap, gives the simultaneous coverage bound. The issued label is correct whenever the truth survives. For the independent fixed schedule Hoeffding's inequality and a union bound put every empirical cell within its radius \(r\) of the actual probability with chance at least \(1-\delta\). Any two surviving candidates differ by at most \(2r<\Delta\) at every coordinate, so they cannot be opposite.
+
+The cap of the histogram rule does not impose decisiveness on the sequential mixture rule. Let candidate zero always return zero and candidate one return a fair bit, with opposite labels and mixture weight \(2^{-33}\) on zero. At \(t\le32\) on the all-zero record the mixture ratio against candidate one is \(1+2^{-33}(2^t-1)<3/2\); that against candidate zero is at most one. Both survive at threshold ten despite \(K=2,\Delta=1/2,n=32,\delta=1/10\) meeting the histogram condition.
+
+\end{proof}
+
+An auditor can tolerate a responder that remembers past queries if every lawful history still imposes a gap between the score means of competing targets.
+
+\begin{theorem}[T24. Conditional-mean strategic auditing]\label{thm:t24}
+
+Fix a finite nonempty class of candidates and finite globally repeatable lawful probes of constant positive price \(c(q)\). Each binary score from probe \(q\) under candidate \(i\) has conditional mean in a certified closed interval \(I_{iq}\) at every lawful history. If each opposite-label pair has disjoint intervals on some probe, a finite audit with failure probability at most \(0<\delta<1/2\) exists uniformly over all allowed history-dependent responders. For probe \(q\) let \(g_q\) be the least positive separating gap and take \(n_q\) with \(2b(n_q)<g_q\), where \(b(n)=\sqrt{\log(2|Q|n(n+1)/\delta)/(2n)}\). The worst cost is at most \(\sum_{q:g_q\text{ exists}}c(q)n_q\). Conversely, if the model allows a shared initialization and identical complete observed rows from common stationary Bernoulli choices whenever all intervals overlap on an opposite pair, such an audit exists only under the stated separation. A trusted honest score with conditional mean in \([a,b]\) and conditional disagreement with the observed score bounded by \(\eta\) gives valid intervals \([a-\eta,b+\eta]\cap[0,1]\).
+
+\end{theorem}
+
+\begin{proof}
+
+Fix a candidate generating the data. For each probe let \(S_q(t)\) be the sum of its scores minus their conditional means and \(N_q(t)\) its number of uses. Conditional on the chosen query and preceding record, the log moment-generating function of a centered bit is at most \(\lambda^2/8\): it and its first derivative vanish at zero and its second derivative is a tilted Bernoulli variance bounded by \(1/4\). Hence \(\exp(\lambda S_q(t)-\lambda^2 N_q(t)/8)\) is a nonnegative supermartingale. Stop at the \(n\)th use or a finite time cap and optimize at \(\lambda=4u\) and \(-4u\). Increasing the cap gives probability at most \(2e^{-2nu^2}\) of ever reaching count \(n\) with centered average farther than \(u\) from zero. Substitute \(u=b(n)\) and sum over \(q,n\), using \(\sum_{n\ge1}1/[n(n+1)]=1\). On the good event each true interval, being convex, contains the average of the corresponding conditional means and stays within \(b(n)\) of its empirical mean at every count.
+
+Discard any candidate violating one of these tests. If two surviving opposite candidates are separated on \(q\), that probe cannot have reached its quota: both intervals would be within \(b(n_q)\) of the same empirical mean, contradicting their gap. Increase the count to quota, or stop earlier at a homogeneous set. An empty set is a failure and on the good event never occurs. Each probe is charged at most \(n_q\) times. For necessity, take a shared mean in every interval intersection and invoke the full-record richness premise. The resulting opposite responders induce the same initial and conditional record laws, so Theorems~\ref{thm:t15} and~\ref{thm:t21} force worst failure at least one half. Equal individual marginals do not suffice: a fair score coupled to an auxiliary bit that equals it in one world and complements it in the other reveals the world in one joint observation. Finally the difference of the two conditional means is at most the conditional probability that the two binary scores differ, proving the claimed clipping rule.
+
+\end{proof}
+
+\subsection{Monitoring and lawful work}
+
+Within one visible monitor cell, some event labels may be audited and some unknown. Allocating the remaining mass displays both sharpness and the role of extra evidence.
+
+\begin{theorem}[T25. Monitorability identification]\label{thm:t25}
+
+Fix a deployment context, a finite monitor-visible transcript \(Z\), and its known mass function. The alarm \(M\in\{0,1\}\) is a fixed function of \(Z\). A trusted instrument supplies the exact submasses of \(V=1\) and \(V=0\) within the labelled part of each cell \(Z=z\) for the same target violation \(V\). The remaining mass in each cell has arbitrary hidden labels, eligible for splitting by latent outcomes independently across cells. There is no statistical sampling or cross-cell restriction in this model. Let \(a_1,l_1\) denote respectively the total mass of alarm cells and the known positive mass within them. Define \(u_1\) as \(l_1\) plus the unlabelled mass in alarm cells. Define \(l_0,u_0\) analogously for nonalarm cells.
+
+\label{thm:t25a}
+
+\textbf{T25.a.} The attainable pairs \((t,m)=(P(V=1,M=1), P(V=1,M=0))\) are exactly \([l_1,u_1]\times[l_0,u_0]\). The missed-event probability and total violation rate have sharp ranges \([l_0,u_0]\) and \([l_1+l_0,u_1+u_0]\). An alarm law alone can leave the full interval \([0,1-a_1]\) for misses even when the entire transcript law is fixed.
+
+\label{thm:t25b}
+
+\textbf{T25.b.} Independently validated upper false-negative cap \(0\le\beta<1\) means \(m\le\beta(t+m)\), including the zero-violation boundary where a conditional rate is undefined. A validated lower bound \(f\ge0\) on joint false-positive mass adds \(t\le a_1-f\). Intersect the rectangle with those two closed halfspaces. This gives the exact attainable set and an executable inconsistency test. Set \(u=\min(u_1,a_1-f)\) and \(k=\beta/(1-\beta)\). The set is nonempty exactly when \(u\ge l_1\) and \(l_0\le ku\). If nonempty, the sharp miss range is \([l_0,\min(u_0,ku)]\). The sharp upper risk is \(u+\min(u_0,ku)\). The sharp lower risk is \(l_0+\max(l_1,l_0/k)\) when \(k>0\), and \(l_1\) when \(k=0\). With an independently validated joint miss cap \(\eta\) one can also impose \(m\le\eta\) by replacing \(u_0\) with its clipped value and checking \(l_0\le u_0\). For a nonempty finite context class, maxima of the per-context upper bounds are valid uniformly, with sharp extrema for the worst-context target when all per-context choices are jointly realizable.
+
+\end{theorem}
+
+\begin{proof}
+
+\textbf{Scope and data validation.}
+
+For one context write \(\mu_z=P(Z=z)\) and require \(\mu_z\ge0\), with sum one. For each cell, trusted positive and negative labelled masses \(p_z,n_z\) are nonnegative and \(p_z+n_z\le \mu_z\). Incompatible records give an empty model. The residual mass \(r_z=\mu_z-p_z-n_z\) is assigned hidden truth by arbitrary splitting within the cell. The monitor remains the fixed function \(M(Z)\). The encoder preserves known trusted labels and all visible masses. This is exact partial identification with no further hidden-label restrictions.
+
+\textbf{T25.a · Identified set and attaining witnesses.}
+
+Put arbitrary mass \(x_z\in[0,r_z]\) of the residual block on \(V=1\) and \(r_z-x_z\) on \(V=0\). Every such split is realized by at most two latent subatoms of that residual block, keeping its entire visible transcript fixed. No other joint law is possible under the declared data because in each cell all new positive mass must come from its residual block.
+
+For either alarm value \(m_0\), the sum of positive masses in its cells ranges from \(l_{m_0}=\sum_{z:M(z)=m_0}p_z\) to \(u_{m_0}=\sum_{z:M(z)=m_0}(p_z+r_z)\). Every intermediate value is attainable. Starting with all \(x_z=0\), allocate the desired increment successively up to each cell's residual mass until the increment is exhausted. The two alarm groups contain disjoint cells, so the complete pair range is the Cartesian rectangle, including all corners. Endpoints of the total risk are attained by setting both coordinates to their lower or upper endpoints. The missed event is the second coordinate. With no audited labels, that coordinate can be anything from zero to all nonalarm mass. Both extremal completions give exactly the same distribution of \(Z\).
+
+\textbf{T25.b · Sharp restrictions from additional trusted guarantees.}
+
+Let \(t=P(V=1,M=1)\) and \(m=P(V=1,M=0)\). False positive mass is \(a_1-t\). A validated floor \(f\) therefore clips the upper endpoint for \(t\) to \(u=\min(u_1,a_1-f)\). The cap on the fraction of violations missed is the inequality \(m\le\beta(t+m)\) when \(P(V)>0\). It also holds at \((t,m)=(0,0)\). That boundary supplies no value for the conditional probability. Rearrangement gives \(m\le kt\) with \(k=\beta/(1-\beta)\).
+
+A candidate's only additional compatibility restrictions are these inequalities. The rectangle construction realizes every point of the intersection. If \(u<l_1\) or \(l_0>ku\) the intersection is empty. Otherwise \((u,l_0)\) is feasible. When a trusted miss cap \(\eta\) is supplied, replace \(u_0\) by \(\min(u_0,\eta)\) and also require \(u_0\ge l_0\). The miss maximum is attained at \((u,\min(u_0,ku))\) and its minimum at \((u,l_0)\). At fixed \(t\) the largest risk is \(t+\min(u_0,kt)\), nondecreasing in \(t\). This proves the asserted upper risk. For the minimum, lowering \(m\) toward \(l_0\) can only relax the cap. With \(m=l_0\), the least compatible \(t\) is \(\max(l_1,l_0/k)\) for \(k>0\). With \(k=0\), consistency forces \(m=0\), so the minimum is \(l_1\). Subsidiary cases \(f=0\) or \(\eta\ge u_0\) just omit the corresponding extra cut. A point-mass violating label has a constructive two-subatom witness in each residual split.
+
+Simpler bounds follow directly from \(P(V)=t+m\), \(t\le a_1\), and either \(m\le\eta\) or \((1-\beta)P(V)\le t\). Clip to 1. A validated floor on false positives can improve either bound by reducing the available true-positive mass. The exact extrema here can improve both, since they use all audited masses at once.
+
+For finitely many contexts, event risks do not need an independence premise to justify \(\sup_d r_d\le \max_d U_d\). Each feasible value also has worst-context risk at least \(\max_d L_d\). Under the stated joint realizability premise we can take each context's lower endpoint together and can attain the upper endpoint in a maximizing context, giving sharp extrema. Correlated context assignments require a joint completion check for sharpness.
+
+\textbf{Certificate and operational meaning.}
+
+A certificate lists the visible masses, the exact audited submasses and their provenance, any validated caps, and the arithmetic extrema with attaining splits. Sweeping the cells and extrema requires a linear number of rational operations in the supplied table. Query acquisition cost and statistical confidence in estimated masses are separate problems. A gate requiring risk at most its threshold passes when the upper endpoint is at most the threshold, fails when the lower endpoint is strictly greater, and otherwise remains unresolved. An empty set is inconsistent. Equal alarm laws and readback labels of the wrong intervention do not certify this input table.
+
+\end{proof}
+
+A probe can alter the process whose risk it measures. An erasure map connects the instrumented execution to the original policy and its physical event.
+
+\begin{theorem}[T26. Intervention validity and measurement disturbance]\label{thm:t26}
+
+Fix a finite horizon \(H\), finite uninstrumented states \(X_t\) and instrumented states \(Y_t\), explicit action sets, kernel tables, and Boolean event indicators \(v(X_H)\) and \(v'(Y_H)\). Include any necessary prior observations, cumulative state, visible outcome labels and event bits in the finite state. The erasure maps \(r_t:Y_t\to X_t\) retain the checked physical/control state. A transferred policy uses its original inputs only and erases extra probe output. For each corresponding state pair \((x,y)\) with \(r_t(y)=x\), the original policy sees the same inputs, has the same legal choices under comparison, and uses the same conditional selection law after erasure. The instrumented environment has a declared initial law and verified transition tables, including any effect of the probe on the operation. Compare the projected instrumented next-state law to the original next-state law for all such paired states and policy-admitted actions. Use total variation with convention \(\frac12\sum|p-q|\). Assume a bound \(\eta_0\) on initial discrepancy after erasure and bounds \(\eta_{t+1}\) on each conditional row discrepancy while the pairs still match, where \(0\le\eta_i\le1\). The terminal event check is \(v'(y)=v(r_H(y))\) on matched terminal pairs.
+
+\label{thm:t26a}
+
+\textbf{T26.a.} The two risks differ by at most \(1-\prod_{i=0}^{H}(1-\eta_i)\) for any policy transferred as specified. Exact row, initial and event checks with all \(\eta_i=0\) certify exact fidelity. The proof is a finite constructive coupling of the verified tables and does not assume sample independence across time. It does not confer fidelity on altered policies that use extra probe outputs. A logger can be faithful and uninformative, an instrument can report its own violation exactly while disturbing its rate, and identical displayed tapes can conceal such disturbance.
+
+\end{theorem}
+
+\begin{proof}
+
+\textbf{Checked finite model.}
+
+Start from explicit source tables or valid independent row certificates for the original kernel \(K_t(x,a;x')\), instrumented kernel \(Q_t(y,a;y')\), and corresponding initial laws. The finite state includes every memory bit that governs transition, policy-visible input or the scored event. Check the projection \(r_t\) on the allowed support. Policy compatibility is a separate semantic requirement. The original controller can run unchanged after projection and every action it might select is lawful on the corresponding instrumented row. If an instrument changes action authority, feedback or the law of a machine operation, that fact belongs in these checks. The instrumented policy is assumed lawful also on its own histories outside the matched part of a coupling. A new policy exploiting extra outputs has a different comparison contract.
+
+The law compared with \(K_t(x,a;\cdot)\) is the pushforward of \(Q_t(y,a;\cdot)\) under \(r_{t+1}\). A visible monitor marginal alone leaves these physical rows unspecified. To prove the asserted local total-variation cap from tables, sum each instrumented row over the preimages of each \(x'\) and take half the absolute differences from the original row. Compare the authorized action, projected observations and terminal event semantics as distinct obligations. A passive post-transition copy can justify equality by a source invariant if it changes only an erased recorder state, is never consumed by policies or plant transitions, and has no physical time/resource back-action. Those are substantive hypotheses about the declared mechanism.
+
+\textbf{Coupling and proof.}
+
+For any two finite laws \(p,q\) on the same set, allocate agreement mass \(\min(p(z),q(z))\) to the pair \((z,z)\). Its sum is \(1-\operatorname{TV}(p,q)\). Fill the remaining mass by the product of the two normalized residual laws, scaled to total residual mass. The residuals have disjoint supports. In the zero-residual case no fill is required. The resulting marginals are \(p,q\) and the exact mismatch probability is their total variation. When one of these laws is a projected instrumented law, lift a draw of its projected state to the original instrumented state using the conditional instrumented law on that fiber. Only fibers with positive mass are called. This preserves the full instrumented marginal.
+
+Apply the construction to initial states. At step \(t\) on a matching history, choose the same action using the two controllers' equal allowed inputs and the same policy randomization. Couple the two next-state rows with the finite construction and lift the instrumented draw. On a previously unmatched history, use the actual two legal policies and valid marginals separately. This defines a joint process with the stated original and instrumented path laws. At each joint prefix each next-state marginal is the required row, even though the newly chosen coupling depends on both current states.
+
+Let \(D_t\) be the event of matching through time \(t\). Initialization gives \(P(D_0)\ge1-\eta_0\). On every joint prefix in \(D_t\), projected next-state match has probability at least \(1-\eta_{t+1}\). Thus \(P(D_{t+1})\ge(1-\eta_{t+1})P(D_t)\), which needs no conditional ratio if \(P(D_t)=0\). Induction yields
+\(P(D_H^c)\le 1-\prod_{i=0}^H(1-\eta_i).\)
+On \(D_H\) the event indicators agree by the terminal semantic enumeration. Therefore the absolute risk difference is at most the probability of \(D_H^c\). This proves both the approximate and exact claims. The product does not assume temporal independence. Declared values in the local row inequalities can be certified without observing the target outcome of deployment.
+
+\textbf{Certificate verification and limits.}
+
+A verifier checks the initial distributions, all compared action and transition rows, the observation projection on relevant histories and all terminal label pairs. Given explicit row tables, a fixed action map and a fixed projection, the checks can aggregate instrumented support into fibers and compare rows in time polynomial in those tables. An erasure guessed from exposed logs is not such a map. Missing reachable rows or an uncontrolled extra input invalidate the certificate. For approximate bounds the threshold judgment is safe only if the expanded source risk band stays on the justified side. The result concerns faithfully transferred policies within the checked finite model. It gives no sampling guarantee for estimated rows. Confidence in any such estimates must hold simultaneously over the rows used.
+
+\end{proof}
+
+To bound a violation, one must control both escape from a restricted region and what can happen inside the region. The two checks concern different events.
+
+\begin{theorem}[T27. Multi-agent compositional identification]\label{thm:t27}
+
+Fix a deployment context, a joint law \(P\), and events \(G,L_1,\ldots,L_n\) in its common measurable space. Let each isolated law \(Q_i\) have a local event \(E_i\) of risk at most \(p_i\). A checked projection or event bridge supplies the directed bound \(P(L_i)\le Q_i(E_i)+d_i\) under the actual joint environment. Separately verify \(P(G\setminus\bigcup_i L_i)\le e\), with \(p_i,d_i,e\in[0,1]\). The class imposes no further restrictions between these budgets.
+
+\label{thm:t27a}
+
+\textbf{T27.a.} The global bound is \(P(G)\le\min(1,e+\sum_i\min(1,p_i+d_i))\). This is sharp over the stated abstract budget class with alignable two-point local event laws, without any independence premise. Per-context bounds can be maximized over a finite declared class. In a finite support graph deterministic event labels can be appended as sticky state and containment checked by reachable counterexample or exclusion. A validated projection and T26.a's local discrepancy certificate can supply retention bounds separately. Neither a containment claim without joint retention nor isolated retention without a global cover gives the zero-defect composition rule in general. Either premise can fail in a system whose global risk is still small by other evidence.
+
+\end{theorem}
+
+\begin{proof}
+
+Fix the declared context and put \(A=G\setminus\bigcup_iL_i\). Every occurrence of \(G\) is either in \(A\) or in the local union. The ordinary finite union bound yields
+\(P(G)\le P(A)+\sum_iP(L_i)
+          \le e+\sum_i \min\{1,p_i+d_i\}.\)
+Clipping at one gives the claim. If exact overlap data are already trusted, the separate estimate \(P(G)\le P(A)+P(\bigcup_iL_i)\) may be tighter. No independence assumption is needed for either inequality.
+
+\textbf{Sharpness of the abstract budget bound.}
+
+Write \(a_i=\min(1,p_i+d_i)\). Allocate successive disjoint atoms until their masses total \(s=\min(1,e+\sum_i a_i)\), with each mass at most one of the available \(n+1\) allowances \(e,a_1,\ldots,a_n\). This is accomplished by allocating the lesser of the remaining mass and the next allowance. Let the exceptional atom have mass \(a_0'\le e\) and the local atoms have masses \(a_i'\le a_i\). Add one residual atom of mass \(1-s\). Let \(L_i\) be its associated local atom and \(G\) the union of all allocated atoms. Then \(P(G)=s\) and the uncovered part of \(G\) has mass \(a_0'\). Set \(Q_i(E_i)=\min(p_i,a_i')\) on an isolated two-point space. This respects the isolated cap, and \(P(L_i)-Q_i(E_i)=(a_i'-p_i)_+\le d_i\). When using a compared local event bit, the two Bernoulli marginals admit a coupling with mismatch equal to this difference. Hence neither the clipping nor the sum can be improved from these budgets alone. The construction need not meet extra physical constraints or observed overlaps from a particular system.
+
+\textbf{Separate validation of the premises.}
+
+For a finite horizon with event source automata or event bits in the state, propagate joint reachable support through the authorized graph. Attach a bit for each event verified along the physical trace. Search supported terminals with the global bit set and all local bits clear. One such terminal gives a concrete supported violation of pathwise containment. No reachable such terminal gives pathwise containment under the checked support. With an exact joint probability law, summing the corresponding terminal probabilities gives the quantitative exception bound instead. Prefix testing alone is inadequate when a local event found later covers an earlier global event. An arbitrary non-finite-trace objective needs a separate monitor argument.
+
+For local preservation in the actual joint setting, verify the projection and semantic endpoint event onto the isolated setting. One route is a controlled comparison using T26.a's hypotheses with the joint setting as the instrumented plant and the relevant local component of the policy as the transferred policy. If its state transition tables after projection, allowed actions and event mapping satisfy that certificate, its resulting discrepancy bound gives a valid \(d_i\). Direct independent scoring of joint and isolated marginals on compatible contexts can also supply the directed event bound. Proof of that premise must come from the actual joint mechanism and common event definition. Separate accountability for plant safety, service and admission remains necessary. Model-only containment and empirical confidence in a measured marginal have different assumptions.
+
+\end{proof}
+
+Permission to act and the ability to do useful work must hold for the same action across the whole current information set.
+
+\begin{theorem}[T28. Justified action without full semantic identification]\label{thm:t28}
+
+Fix a nonempty finite information set \(B\) consistent with the entire allowed observation history. Each physical state includes its completion tag. For each \(w\in B\) a source interface declares a finite logical action set, enabled/authorized choices, and nonempty support for enabled actions. Mark safe outcomes and a declared immediate utility score on outcomes. For cutoff \(g\), let \(F_g(w)\) contain exactly those enabled authorized actions whose every supported outcome is safe and meets \(g\).
+
+\label{thm:t28a}
+
+\textbf{T28.a.} The actions certifiably safe and useful immediately for all compatible states are exactly \(\bigcap_{w\in B}F_g(w)\). This remains an exact nonemptiness criterion for randomized choice required to succeed on its entire positive support. Witnesses of failure can be supplied per excluded action. The intersection can admit genuine work even while the full set of good actions varies across the alternatives. One-step safety or utility alone does not imply a safe completion policy for an independent terminal goal.
+
+\end{theorem}
+
+\begin{proof}
+
+Let \(B\) contain the completion-tagged physical states consistent with the allowed observation history and admitted evidence. Mark \(a\) enabled if both the ordinary physical preconditions and the source authority for that whole action hold. Every enabled action has nonempty positive support. The utility lower bound applies to each outcome of that whole action and does not modify the admitted action interface. A state and its outcome both must meet all designated immediate safety predicates when those predicates are part of the specification.
+
+If \(a\) belongs to every \(F_g(w)\), then on the actual \(w\) and every supported outcome it is licensed, safe and yields utility at least \(g\). Conversely, if \(a\) fails membership at some \(w\in B\), the exact model supplies either an availability/authority rejection on that state or a supported unsafe or low-utility outcome. The actual completion could be that \(w\), so \(a\) is not justified by the declared information. That witness certifies exclusion from the intersection; it need not identify the actual state.
+
+For a randomized decision, any action to which the policy gives positive mass in this observation history must satisfy the same intersection test. Otherwise the law allows a positive-support failure on a compatible state. Any nonempty supporting action set contained in the intersection yields such a decision, and a point mass provides a deterministic witness. This is a sure-supported claim, with no statement about optimizing chance risk. An empty \(B\) means inconsistent evidence and permits no inference about a real execution.
+
+Given explicit candidate states and support rows, scan the authorized menu and each support once and retain witness pointers. The distinction between legal and safe follows the original PC interface: license and ordinary enablement determine eligibility and the full successor support determines the effect. A resource freeze, when declared in the plant, removes complete source-atomic actions based on those effects. Knowing one sufficiently useful feasible response neither resolves the full differences in available actions nor asserts that the executed successor remains a winning state for a longer goal.
+
+\end{proof}
+
+A multi-step task makes the set of acceptable completions depend on the policy. Pairwise agreement can then miss a larger obstruction.
+
+\begin{theorem}[T29. Alignment realizability under semantic uncertainty]\label{thm:t29}
+
+Fix finite tagged hidden plant states \(S\), action alphabet \(A\), observations \(O\), horizon \(H\), and nonnegative public costs \(c(a)\), common to all compatible states at a decision. A model provides enabled/authorized actions, finite nonempty positive supports for them, state and edge safety predicates, an observation map on successor states, and goal set \(G\) for genuine completed work. Time, memory, relevant events or resource capabilities are included in the state. Reveal an observation after each action and allow stopping only in a nonempty belief with all states safe and in \(G\). Policies depend solely on permitted action/observation histories. From a nonempty belief \(B\) use only actions lawful everywhere, with every supported edge and successor safe. The next belief for observation \(o\) is the union of exactly those supported successors giving \(o\). Initially unsafe beliefs lose.
+
+\label{thm:t29a}
+
+\textbf{T29.a.} The exact least worst-supported-path cost for safe goal attainment in at most \(h\) actions satisfies \(V_h(B)=0\) at safe goal beliefs, \(V_0(B)=\mathsf{Inf}\) at non-goals, and otherwise
+\(V_h(B)=\min_a\{c(a)+\max_{o:B_{a,o}\ne\varnothing}V_{h-1}(B_{a,o})\},\)
+with empty minimum \(\mathsf{Inf}\) and the minimization over the lawful safe actions just declared. Finite regular witnesses give deterministic policies. Refutations at budget \(b\) cover every admissible first action, citing overspend or one attainable losing continuation at its residual budget, down to horizon zero or unsafe states. This gives an exact finite subset-state algorithm and certificate construction. Uniformity costs at least the largest optimum on any compatible subbeliefs and can cost an arbitrarily larger finite amount, or be infeasible when every individually known completion wins. Zero-effect refusal never meets a nontrivial goal simply by being safe.
+
+\label{thm:t29b}
+
+\textbf{T29.b.} Let \(U\) be a nonempty finite set of initial completion alternatives, each with a nonempty initial information set \(I_u\) in the above model under the same initial observation. Let \(h\) and operational budget \(b\) be fixed, and let \(Q\) be a finite frozen menu of pure legally available deterministic readbacks \(q:U\to D_q\), with fixed positive acquisition costs. The readbacks only narrow the possible alternatives and do not alter the plant, ticks or the operational budget. Declare a nonempty \(D\subseteq U\) ready when \(V_h(\bigcup_{u\in D}I_u)\le b\). Optionally extend readiness by accepting a certificate of uniform intrinsic infeasibility when every \(V_h(I_u)>b\). Both variants are hereditary on nonempty subsets. Let \(\mathcal L\) be the inclusion-minimal nonempty unready subsets. A fixed query set \(\Gamma\) is uniformly sufficient for readiness exactly when it intersects every hyperedge
+\(E(L)=\{q\in Q: q\text{ is nonconstant on }L\},\qquad L\in\mathcal L.\)
+Thus the exact least fixed acquisition cost is the weighted hitting-set optimum, with an empty edge certifying impossibility for the full menu. Counterexample-guided separation can find an edge by taking an unready attainable answer cell and deleting members while unready, and a repeated exact weighted-cover optimum supplies the lower bound on successful termination. A fixed-menu adaptive minimax audit stops at ready cells and otherwise minimizes query cost plus the largest child value over splitting readbacks. There exist one-step nonvacuous instances with all proper subsets ready and their full set unready for every \(|U|\ge2\). The obstruction need not be a pair.
+
+\end{theorem}
+
+\begin{proof}
+
+Write \(+\infty\) for infeasibility. Costs can be arbitrary finite nonnegative reals for the value statement, with finite exact rational encoding for the algorithm and checkable arithmetic. Budgets mentioned below are finite and nonnegative, aside from negative residual comparisons that are explicit overspend. The controller observes the complete permitted action and observation history and never the concealed plant state. An outcome label in addition to the visible successor can be stored in the successor state. Plant states are completion-tagged: support steps cannot silently switch installations.
+
+\textbf{T29.a · Exact finite value and witnesses.}
+
+At a nonempty safe belief contained in \(G\), immediate stopping meets the goal without cost. Nonnegative costs make zero optimal. An initially unsafe belief already violates the safety objective. At horizon zero a safe belief containing a nongood state cannot meet the goal.
+
+For \(h>0\) at a safe nongoal belief \(B\), any valid policy must first choose a common action, since every member is consistent with the same permitted history. An unauthorized or disabled action at even one member cannot be taken uniformly. Likewise an available physical edge that is unsafe is a supported failure, even if the successor would appear safe under the visible projection. An admitted first action has at least one supported observation. Conditioning on any such observation produces exactly the union \(B_{a,o}\) of its corresponding successors. Every state in that union is the endpoint of an allowed hidden execution of the first move. Each continuation on that branch is governed by the same rules at \(h-1\) and must be safe for all of \(B_{a,o}\). The minimum worst cost on the branch is therefore \(V_{h-1}(B_{a,o})\) by induction. The first cost is the common public \(c(a)\), so the complete policy cannot cost less than the stated recurrence.
+
+For the reverse inequality, choose a minimizing finite action with finite continuation values and choose an attaining subpolicy at each reached observation. The base cases attain zero. Concatenation yields one implemented policy tree in which the branch choice depends only on the actual observation. Induction supplies all continuations, so its maximum supported cost equals the formula. If there is no such action the value is infinite. A finite random choice cannot improve a sure supported minimum: each positive support action at a reached history must satisfy the legality, safe success and cost condition and a worst-cost branch is never hidden by averaging its probability. Retaining one supported action and feasible continuations is sufficient.
+
+Tabulate values over at most \((H+1)(2^{|S|}-1)\) nonempty state subsets. For each action, scan its state/edge rows and group supported successors by observation, using explicit membership bitsets. This gives at most \(H2^{|S|}\) rounds over the finite action and transition inputs, with polynomial overhead in the table and exact encoded budget sizes. Minimizing witnesses can be stored as action/observation branches and expanded over at most \(H\) atomic moves per path. The bound permits exponential cost in hidden state count. It gives no such restriction for unspecified strategic changes.
+
+A finite refutation at budget \(b\) is a decreasing-horizon tree or DAG with nodes \((B,h,b)\) and one entry for \textbf{every} action relevant at that node. The verifier recomputes the full next beliefs from the supported edges. A first-level failure is an initially unsafe state, horizon zero without the goal, a concrete disabled, unauthorized or unsafe action/edge witness, or verified overspend. For each affordable lawful safe action it suffices to supply one supported observation whose residual-budget node is losing. The horizon argument proves soundness, and the recurrence supplies all entries whenever \(V_h(B)>b\). No action may cite an unreachable observation. If no successful tree exists, a refutation at \(h\max_a c(a)\) suffices for infeasibility, with zero used for an empty action alphabet. Integer costs permit an optimum check by pairing an attaining policy at \(v>0\) with a refutation at \(v-1\). Common-denominator scaling works for rational costs, or the verifier can use strict budget comparison throughout. Nonnegativity alone proves a zero lower bound.
+
+A successful tree at \(B\) can be restricted to every nonempty \(B'\subseteq B\): every possible continuation after restriction was already covered, and dropping absent branches cannot increase worst cost. Therefore \(V_h(B)\ge\max_i V_h(B_i)\) for nonempty subbeliefs \(B_i\subseteq B\). Equality is not general. Define work through the goal condition; stopping in a safe but unfinished state or remaining there does not meet it.
+
+\textbf{T29.b · Exact acquisition over policy success regions.}
+
+In this phase pure externally legitimate readbacks restrict alternatives without touching the plant, initial observation, or operational budget. Use the union belief \(B(D)=\bigcup_{u\in D}I_u\) for each surviving nonempty \(D\). Readiness in the deployable-only convention is hereditary by the preceding restriction argument. The optional convention also approves \(D\) if each \(I_u\) individually fails at \((h,b)\). That alternative is hereditary as well, and the two kinds of ready sets are disjoint. The second is a uniform intrinsic infeasibility judgment. A refusal following that judgment yields zero work. For example, a cell mixing a feasible completion and an intrinsically infeasible one satisfies neither condition even if every member can safely wait.
+
+A selected query set partitions \(U\) into attainable common-answer cells. If a minimal unready set \(L\) were unsplit by every selected query, the answers for all of \(L\) would coincide on the menu and \(L\) would lie within one attainable cell. A ready cell cannot contain that unready subset. Thus every sufficient fixed set intersects \(E(L)\).
+
+For the converse, take any attainable unready cell \(D\). Finiteness allows deletion until a nonempty inclusion-minimal unready \(L\subseteq D\) remains, checking exact operational readiness for each deletion attempted. Every query in the selected set is constant on \(D\) and on \(L\). Thus the selected set misses edge \(E(L)\). This proves equivalence, and it includes an empty-edge obstruction for the complete menu. Distinct completion targets need not be the reason. A set can lose because every common choice yields at least one adverse supported branch, while all its smaller subsets win with different choices. This is overlapping decision-region identification, with one region per observable policy and an optional region of intrinsically infeasible alternatives.
+
+For exact weighted acquisition, each verified unready answer cell supplies a directly checkable missed edge through the deletion procedure. Minimize weighted cover of the accumulated edges, test all attainable cells of the candidate, and add a missed edge on failure. A previously included edge cannot be missed by the current optimum. Only a finite number of distinct subsets of \(Q\) can be learned. An empty edge terminates with impossibility. A passing candidate hits every edge by the equivalence, and the optimum over learned edges is a lower bound on any cover of all edges. Thus the passing policy of acquiring exactly that fixed set attains the minimum fixed cost. This procedure requires an exact weighted optimizer and an exact readiness oracle. An unverified optimizer or a timed-out oracle warrants an unresolved outcome. Independent checks can rebuild each edge from lawful answers and a failed operational cell, and validate all terminal cells and the weighted lower bound.
+
+For adaptive acquisition, write \(A(D)=0\) if \(D\) is ready. Otherwise a pure non-splitting query leaves precisely \(D\) and charges a positive price, so it cannot improve a successful plan. Over splitting queries take the minimum of its acquisition cost plus the maximum of \(A\) on the nonempty answer classes, with empty minimum infinite. Each child is a proper subset, so induction proves exactness. This has at most \(2^{|U|}-1\) states and uses an exact operational readiness call as needed. If readbacks have state effects, query prices or availability may depend on extra history, or operational choices interleave with those tests, a different state and cost model is required.
+
+\textbf{Nonvacuity and evidence boundary.}
+
+In the \(n\)-installation one-step obstruction, there are \(n\) actions and a completed useful job is the safe goal. Installation \(i\) disallows action \(i\) and permits every other action with a safe, completed outcome. For any proper subset choose an action whose index is absent. The whole set has no common authorized completing move. The minimal obstruction is therefore the whole set, with arbitrary cardinality at least two. Legal readbacks can concern the relevant installation/license facts, independent of executing a job. Direct admission-table checks are finite and cause no work. A solver that only seeks target-distinct pairs misses the distinction between selecting a universal policy and merely identifying a fixed completion property.
+
+\end{proof}
+
+\subsection{A shared deadline guarantee}
+
+\begin{theorem}[T30. Common serial deadline fragment]\label{thm:t30}
+
+For the product-stage service of Theorem~\ref{ext:t30s}, pure source acquisition identifies the deadline verdict exactly, produces attaining completions for both verdicts when they are possible, and returns a common callable policy on every positive cell. Minimum static read cost is the sum of the local crossing-pair cover costs. The correlated online version has the separate timing and objective of Theorem~\ref{ext:t30cg}.
+
+\end{theorem}
+
+\begin{proof}
+
+The complete construction and both directions of the local crossing characterization are given in Theorem~\ref{ext:t30s}.
+
+\end{proof}

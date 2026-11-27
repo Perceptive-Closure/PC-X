@@ -1,0 +1,17 @@
+\section{Which claims does the evidence identify?}\label{sec:id}
+In the running example, the absence of unauthorized releases in staging is compatible with both production designs. The same difficulty arises even when every unrestricted action and visible response agrees. The missing information concerns what an operation \emph{depends on}.
+
+\begin{theorem}[Behavior and a resource restriction, T01--T03]
+There are finite source contracts with identical legitimate unrestricted observable behavior and unrestricted closing cost one for which freezing a resource costs one in one contract and \(1+g\) in the other, for an arbitrarily specified positive gap \(g\). A variant makes closing impossible in the second contract. Conversely, a two-way correspondence of reachable observable decisions that preserves closure, whole supported outcomes, touch, prices and callable commands preserves the intervention costs under the corresponding freezes. Appendix~\ref{app:principal} gives the precise witness classes and the hypotheses for recovery.
+\end{theorem}
+\begin{proof}[Construction and recovery argument]
+A unit repair can deliver the same visible receipt either by admitting a new piece of evidence or by changing which already admitted representatives count toward the certificate. A freeze that forbids one of these effects removes the corresponding whole repair. Providing a surviving slower repair at the chosen price, or providing none, gives the two alternatives. An unrestricted observer has no record on which to distinguish the hidden resource effect. For recovery, copy a policy tree along the verified correspondence. Equal observations require the copied controller to choose one common callable action. Matching all supported outcomes preserves closing leaves and the upper cost on each branch. Copying back gives equality of optima. The explicit contracts and the check on equal information sets appear in Theorems~\ref{thm:t01}--\ref{thm:t03}.
+\end{proof}
+The proof identifies a concrete audit question: does the operation change the effective admission rule, the equivalence used to certify, or the available permissions? A field name or a matching trace supplies no automatic answer. Examining the real interface also prevents a false repair assembled from the safe halves of two indivisible calls.
+
+\paragraph{A test for sufficient evidence.}
+Assume a nonempty class, a finite set of jointly available pure exact reads with known report functions and nonnegative additive prices. For two completions \(C,C'\) with different target values define their \emph{disagreement set}
+\[
+ D(C,C')=\{j:r_j(C)\ne r_j(C')\}.
+\]
+A fixed set of reads \(J\) identifies the target for every realized answer precisely when \(J\) intersects every such \(D(C,C')\) (Theorem~\ref{thm:t04}). Indeed, a missed pair gives the same vector of purchased replies and two different answers. If no pair is missed, all completions with the actual replies agree. An empty disagreement set proves that even the full interface cannot identify this target. This result concerns pure reports that can be obtained together. When a read grants a new permission or affects a later experiment, the feasible order is part of the problem.

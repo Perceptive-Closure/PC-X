@@ -1,0 +1,20 @@
+\section{Buying enough information}\label{sec:acq}
+A team might want the cheapest record supporting \emph{this} installation, a fixed list of checks that works everywhere, or a procedure that chooses its next check from the replies. Their prices can differ. For a realized evidence vector, the first problem needs to exclude only completions with a different answer from the one certified. The second must separate all contrary pairs. Minimum total price under either condition is a weighted hitting-set problem: select a least expensive set intersecting the corresponding family of disagreements (Theorem~\ref{thm:t06}). Replaying an inexpensive realized certificate gives no prospective worst-case price unless the same plan works on every reply.
+
+For the third problem let \(S\) be a current nonempty cell of compatible completions, including any observed access state, and \(S_{j,z}\) its successor after read \(j\) returns \(z\). In the finite once-only positive-information model let \(c_j\) be its price and \(v(S)\) the minimum additional worst-case price. A homogeneous cell costs zero. At a mixed cell,
+\[
+ v(S)=\min_{\text{available }j}
+       \left[c_j+\max_{z:S_{j,z}\ne\varnothing}v(S_{j,z})\right].
+\]
+The remaining menu is part of the state where needed. A dead end has value \(+\infty\). The first move of any policy pays the displayed price and faces each supported answer. Conversely, joining optimal child policies after their observed answers attains the displayed minimum. Induction on the remaining menu proves the recursion. Dynamic authority, stochastic reports and support-robust work require the appropriate progress resource and successor record (Theorems~\ref{thm:t08} and~\ref{ext:m021}).
+
+\begin{theorem}[A target cheaper than installation identity, T07.K]\label{body:key}
+For each \(n\ge1\) consider the governed two-job service with \(2^n\) contexts of Theorem~\ref{ext:t07k}. One unit-price gateway query determines whether both jobs can be completed in every context within work budget three under the representation freeze. Deterministic exact identification of the entire installation has minimum worst-case price \(2^n\) on the same unit-price point-query interface.
+\end{theorem}
+\begin{proof}
+An installation stores a hidden gateway bit and an exceptional \(n\)-bit key. A fresh gateway costs one to pass, a stale gateway three. The context job has an always-lawful two-unit route and a one-unit fast route except at the exceptional key. With a fresh gateway the common plan spends at most three even without the key. With a stale gateway even the cheapest second action exceeds the budget. Thus one gateway read suffices and opposite gateway values show that no reads can certify both. To determine identity, each negative point query rules out only its own key. In the worst case \(2^n-1\) such queries and the separate gateway read are necessary and sufficient. Changing the key changes a real available route in the exceptional context.
+\end{proof}
+The statement measures price in an explicit information interface and the gap in the succinct stored key length. The appendix also charges errors and abstentions under matched randomized and noisy access. A bulk query that reveals an installed key changes the experiment. In the release example, full compiler identity can be economically irrelevant, but its actual cost saving must be shown for the available reads.
+
+\paragraph{Finding certificates without listing all explanations.}
+The exact finite procedures in Theorems~\ref{thm:t10}--\ref{thm:t14} retain joint constraints between facts. Two individually possible extrema can come from incompatible installations. An optimizer can instead propose its cheapest current list of checks and ask a verifier for a real pair it missed. Each returned pair adds a necessary constraint. At termination its proposal meets every constraint and its lower bound proves minimality. Finite termination, exact verification, tractable special structures and the cost of the verifier are different claims. With arbitrary inputs minimum hitting set is computationally hard. A short certificate can also be expensive to discover.

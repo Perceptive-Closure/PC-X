@@ -1,0 +1,36 @@
+# PC-X manuscript path
+
+27 November 2026. Registered the paper-authoring assignment in an isolated checkout at accepted EXP-X17 revision `899f29dbdcc6e9a81a32bbaf387c3bf270501b10`. The active working branch is `codex/pcx-paper`. Recorded the existing repository heads and tags before any remote write. The requested manuscript is a new exposition of the accepted work and carries the user-selected title. The current directive fixes the six governing Git revisions and requires both original PDFs.
+
+Read the project record and its X17 outcome before authoring. The current request adds manuscript publication to the project record and designates `PAPER/` as the authoritative deliverable destination. Applied the PDF skill and identified the bundled LaTeX and Poppler tools. [Work plan](WorkPlan.md)
+## Source reconstruction and assignment boundaries
+
+The parent read the 18-page D-35 source and the 43-page charter from their recovered PDF bytes, matched both recorded SHA-256 digests, and cross-checked the accepted status against the later revisions. The separate earlier charter remains unrecovered. The accepted repository material was retrieved into an ignored local source collection, including statements, proofs, independent derivations, scope amendments, source inventories, hostile reviews, novelty records, actual results and discrepancy ledgers. Each scoped file's exact unfiltered blob bytes and length were matched to the authenticated repository tree. The intake contains 1,056 blobs across 21 distinct package/revision pairs. All 21 commit tree IDs were also checked against local Git. [Original and accepted sources](SOURCE-MANIFEST.md)
+
+Three assignments shared the work. The parent wrote the main argument, the finite and advanced flagship appendices, figures, bibliography and integration. GPT-6.2 Astra handled both the mathematical-fidelity and independent-reader assignments. The mathematical reviewer reconstructed and typeset the early formal appendix material and audited the parent’s flagship constructions. The reader worked without prior campaign history, wrote the empirical appendix and reviewed the main argument for reader comprehension. The parent separately checked each assigned appendix’s central claims, hostile cases and material denominators. [Role plans and records](WorkPlan.md)
+
+## Narrative and mathematical reconstruction
+
+The running release example separates staging behavior from a fact about the real finalizer. It acquires evidence, useful-work receipts and continuation permissions in the same order the reader needs them. The introduction and integrated narrative are newly written. The technical appendices retain exact accepted hypotheses and proof dependencies, with source identifiers in the crosswalk. No identifiable individual was supplied as the author of this consolidated manuscript. The title page uses the requested title and research date without a personal byline.
+
+The paper introduces the represented world set inside a contract separately from the class of possible contracts. It distinguishes a uniform target value, existence of an installation-specific plan, and a common lawfully executable policy. In the finite stochastic source, acquisition setup, per-attempt optional probe cost, maximum supported charge and actual work are priced separately. Fixed worlds, private seeds and what the responder observes are specified before optimization. The six-pillar organization leads to two different results: a point-query separation in succinct key length and a source-specific matched stochastic price under an actual selective-risk and utility obligation. [Notation](NOTATION-REGISTRY.md) · [Theorem and appendix locations](THEOREM-CROSSWALK.md)
+
+## Empirical and literature verification
+
+The study map preserves native-policy results and adverse findings as well as constructed examples. The parent compared the D-35 example against its earlier scope, checked the actual X16 table, and independently parsed the two X17 measurement records. The PC-X pooled per-attempt probe prices were 0.58379745 and 0.58276749. On the original eight-world by five-arm roster, both roles contributed exactly 163,840 valid attempts. The parent recomputed every point-forecast inclusion and all 320 cross-role interval comparisons. A threshold claim, interval compatibility and a completed equivalence test have distinct dispositions. [Evidence map](EXPERIMENTAL-EVIDENCE-MAP.md)
+
+The literature pass read primary papers, abstracts, publisher records or original author versions for the comparisons in the paper. It separated Bayesian decision-region acquisition, fixed-environment planning, time-uniform sampling, causal transport, formal/runtime enforcement, strategic evaluation and AI Control from the mathematical questions about acquiring independently warranted source facts. The result-specific discussion preserves the stronger direct observation, menu dependence and absence of a general priority claim. [Sources and claims](NOVELTY-AND-CLAIMS.md)
+
+## Review revisions
+
+The reader identified ambiguous independence in the two-draw example, an unclear antecedent in the blocker-size claim, an insufficient explanation of the cumulative work score, an implicit utility calculation and inadequate original-source attribution inside the PDF. The final text conditions independence on the installation, bounds the witness by the number of complete deterministic policies, defines the score, displays how 25/32 is earned, and cites both originals and the prospective studies.
+
+The mathematical review corrected the timing of the positive useful-work terminal, made T18’s multi-run objective explicit, and strengthened the account of full decoded-law transport, rational blocker extraction, statistical issuance and the two-job diagnostic margin. The exact two-segment activation tradeoff and the continuity obstruction at a threshold are in Appendix D. Appendix G now requires a common public update, makes zero-flow defaults conditional on authority, and permits optional sharper calibration claims only across the verified confidence-set intersection. Stale source-era outlooks were updated in the early appendices. [Mathematical review](review/MATHEMATICAL-FIDELITY.md) · [Reader review](review/INDEPENDENT-READER-REVIEW.md)
+
+## Typesetting and verification
+
+A clean Tectonic build produced the 125-page extended manuscript. The two assignments compiled the assembled source independently. The reader found a genuine missing PDF destination despite a clean LaTeX cross-reference log. Adding a substantive lead sentence before T03’s list restored its standard destination. All 143 labels and 120 internal link annotations now resolve. The parent checked the 21 cited entries, exact crosswalk source lines, eight appendices, five editable vector figures, all page images, margin clearance and local source links. The final PDF's SHA-256 is `1bbb8d8b78fb2537cf7a4a8845453d6522ae3c317a09f0e10535b4435a92adfb`. [Structural checker](review/check_manuscript.py)
+
+## RESULTS
+
+The complete editable scientific manuscript, compiled PDF, provenance and empirical evidence maps, reviews and acceptance record passed local verification. A public archive readback is recorded with the release commit below.

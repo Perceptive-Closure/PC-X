@@ -1,0 +1,39 @@
+\section{Possible systems, evidence and action}\label{sec:foundations}
+\paragraph{The set from which a claim follows.}
+A \emph{completion} \(C\) specifies the relevant system semantics: which states, observations, actions, transitions and effects are possible. A probabilistic completion also specifies their conditional laws. A physical detail can be omitted if the specification and the available interfaces do not depend on it. Fix the evidence \(\Omega\), including its independently warranted interpretation. Write \(C\models\Omega\) when \(C\) satisfies it. Fix a target map \(\Psi\) before examining the audit outcome. Its value might be a Boolean guarantee, a cost or a vector of possible intervention costs. Define
+\begin{equation}
+ {\cal C}_{\Omega}=\{C:C\models\Omega\},\qquad
+ {\cal I}_{\Psi}(\Omega)=\{\Psi(C):C\in{\cal C}_{\Omega}\}.
+ \label{eq:identified}
+\end{equation}
+An empty set means that the evidence and model class are inconsistent. A singleton gives an identified answer. Two or more values leave the target ambiguous. An identified answer can be negative. Sound use in deployment separately requires the actual installation to belong to the class. This membership is a source claim with its own evidence.
+
+\paragraph{How a read changes the set.}
+An observation is a record delivered to the controller. A trusted source fact has an established link to the particular installation, field and meaning it reports. A pure, exact read \(j\) with report function \(r_j\) and observed value \(z\) intersects the class with \(\{C:r_j(C)=z\}\). Permissions, possible reports and prices belong to the \emph{query interface}. Installing a new guard can change \(C\) itself. It requires an intervention model relating the original and resulting installations. A receipt for the change cannot establish that the original installation had the new property.
+
+\paragraph{What an implementable controller knows.}
+A history contains the controller's previous actions, delivered observations and available receipts. A policy assigns actions or distributions over them to histories. Nonanticipativity means that equal observable histories induce the same decision law. Hidden state, future draws and the evaluator's separate ground-truth record are unavailable to the policy. Every action it can select must have authority in each still-possible physical state in which selection can occur. For a finite sure guarantee we use a proper policy tree, one whose supported branches all terminate. We count the entire positive support, meaning every outcome with strictly positive probability or every declared possible outcome of a nondeterministic command. An outcome with a small positive probability still counts for a sure guarantee.
+
+\paragraph{The original closure problem.}
+At a checkpoint a system may have accumulated evidence, chosen how to interpret that evidence, and obtained certain permissions. Perceptive Closure treats these as distinct resources. Evidence \(E\) is the admitted history representative. Representation \(R\) tells the certificate which history representatives count as equivalent. Authority \(A\) tells it which capabilities are admissible. Ordinary preconditions, such as the current workflow phase, also constrain execution. The controller's observation can be finer or coarser than the certificate's representation.
+
+In one fixed contract let \(s\) denote a checkpoint, \(H(s)\) its admitted representative, \(P(s)\) the equivalence relation there, and \(\Lambda(s)\) its effective authority. Let \(x\) denote a latent world in that contract, \(u\) a possible history representative and \(x\sim u\) their compatibility relation. The worlds represented at the checkpoint are
+\[
+ C(s)=\{x:\ \text{some }u\in[H(s)]_{P(s)}\text{ satisfies }x\sim u\}.
+\]
+We assume these sets are nonempty on reachable checkpoints. Fix the local target label \(a(x)\). The checkpoint is \emph{closed} when all represented worlds have the same label. Uncertainty over \(x\) inside one contract and uncertainty over the contract \(C\) in \eqref{eq:identified} are separate. A policy that stops only at physically closed checkpoints can still need an extra read if its task requires it to \emph{report} a common label across those checkpoints.
+
+A \emph{source-atomic} operation is a whole command supplied by the actual interface. To decide whether it touches \(E,R,A\), take the union of the changes in \(H,P,\Lambda\) over all of its supported successors, with equality of representations and permissions judged by their effective behavior. Freezing a resource deletes the entire operation at any checkpoint where it could change that resource. A caller cannot keep a favorable branch of an indivisible command. For a set \(F\) of frozen resources, let \(\kappa_F\) be the minimum worst supported cost of a proper closing policy, and \(+\infty\) if none exists. Its \emph{signature} consists of the eight \(\kappa_F\) in the order
+\[
+ \varnothing,\ E,\ R,\ A,\ ER,\ EA,\ RA,\ ERA,
+\]
+where juxtaposition denotes a set of resources. A successful unrestricted run measures only the first coordinate. Appendix~\ref{app:foundations} derives the consequences of this distinction.
+
+\paragraph{Risk, service and statistical confidence.}
+Fix a world \(w\) (a probabilistic completion), a policy and the source of its private randomness. Write \(\Pr_w\) and \(\mathbb E_w\) for the resulting law and expectation. Issuance \(I\) is the recorded positive decision. Activation is actual execution of the authorized continuation. Some protocols separate the two. We specify their relation for each claim. The event \(V\) records an actual violation. Utility \(G\) scores real service, such as completed required work. For \(\Pr_w(I)>0\) the selective risk is \(\Pr_w(V\cap I)/\Pr_w(I)\). A lower bound on \(\Pr_w(I)\) rules out a vacuous certificate. For a nonnegative path price \(K\), worst expected price is \(\sup_w\mathbb E_w K\). A hard price caps \(K\) on every supported path. Setup expenses and the cost of real work are accounted for separately wherever their units differ.
+
+A conditional row lists the next outcomes and their probabilities given the current history and action. A coupling is a joint distribution with the specified two laws as its marginals. For laws \(P,Q\) on the same records, total variation is \(\sup_D|P(D)-Q(D)|\), the largest difference in probability of any record event \(D\). A robust requirement must hold for every admitted world.
+
+A strategic responder is a specified history-dependent program that may change its behavior with the observed audit or verdict. Its private information and timing are part of \(w\). Transport means a warranted link between the evaluation and deployment laws of relevant events under the policy. Statistical confidence concerns the chance that a sampling procedure excludes the true parameter or gives an erroneous report over repetitions. This probability and the chance of a deployment violation refer to different events.
+
+\figpc{pillars}{0.98}{The six questions use different evidence. A bound obtained during evaluation enters a deployment decision only through a warranted link to the installation. Physical receipts can feed the next decision.}{fig:pillars}

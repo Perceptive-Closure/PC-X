@@ -1,0 +1,103 @@
+\section{What a closure certificate depends on}\label{app:foundations}
+
+A controller chooses a move from its observations. A certificate authorizes stopping from the worlds still represented at a checkpoint. Conflating these operations can change which repairs the controller can perform. The first construction isolates that distinction; the remaining six propositions ask what survives when a field, a resource, or the target itself is changed.
+
+A contract has finite latent worlds \(X\) and checkpoints \(S\), a fixed entry \(s_0\), normalized history representatives \(U\), a compatibility relation \(\sim\subseteq X\times U\), an admitted-history representative \(H:S\to U\), a certificate equivalence relation \(P(s)\) on \(U\) at each state, an extensional authority operator \(\Lambda(s)\), and a controller observation \(\omega(s)\). The sealed target is \(a:X\to D\). The represented fiber is \(C(s)=\{x:\exists h\in [H(s)]_{P(s)}\ (x\sim h)\}\). Every reachable fiber is nonempty. A checkpoint is closed when \(a\) is constant on \(C(s)\). A representative \(H(s)\) need only name its equivalence cell. A compatible history in that cell may differ from the representative.
+
+Let \(Q(s)\) be the enabled set of declared source-atomic actions at \(s\). Source availability, ordinary preconditions, and \(\Lambda(s)\) determine this set. A change specific to authority-admissibility with the other inputs fixed changes \(\Lambda\). For each \(q\in Q(s)\) the nonempty positive-support successor set is \(N(s,q)\subseteq S\). Each such edge \((s,q,u)\) has a visible outcome \(y(s,q,u)\). Costs \(c(q)\) are real, finite and nonnegative. The interface fixes the source partition of actions and checkpoint locators. The touch \(T_s(q)\) is the union over all \(u\in N(s,q)\) of the coordinates \(E,R,A\) whose values in \((H,P,\Lambda)\) differ extensionally between \(s\) and \(u\). A freeze \(F\subseteq\{E,R,A\}\) removes the full actions whose touch intersects \(F\).
+
+Observation histories start with \(\omega(s_0)\) and append the selected action, visible outcome and next observation on each step. A deterministic proper policy uses observable histories, acts only with actions enabled and surviving the freeze at every consistent state, has a finite tree of reachable observable histories, and stops only when all physical leaves are closed. The cost is the maximum accumulated cost over positive-support leaves. Equivalently one can restrict to currently observation-dependent policies wherever explicitly stated. Every strengthened claim using finite memories or unrestricted history-dependent policies specifies which convention it needs. Define \(k_F(s_0)\) as the infimum of such costs or \(+\infty\) for absence of proper policies. The eight coordinates use \((\varnothing,E,R,A,ER,EA,RA,ERA)\). When \(k_{\varnothing}<\infty\), the R penalty is \(\Delta_R=k_{\{R\}}-k_{\varnothing}\). It is undefined for an unclosable baseline.
+
+Source evidence \(\Omega\) specifies a nonempty class \(\mathcal C(\Omega)\) of complete contracts with a common referenced entry locator and any other fixed source locators. This class may leave semantic fields or action boundaries unspecified. The identified set consists of all eight-coordinate values at those realized entry locators. Definite or possible touch compares actions only where a common locator is fixed. Controller equivalence uses the full unrestricted positive-support trees for all policies, including observations, actions, outcomes, cost, terminal labels and stopping behavior. It does not include hidden extensional touch.
+
+\begin{proposition}[P01. Control–certificate separation]\label{found:p01}
+
+There exists a budget-one finite repair problem in which a single fixed quotient of normalized histories, used both for the controller's state signal and as the certificate equivalence, cannot simultaneously support sure closing and preserve the intended authorization certification. The comparison retains other visible outcomes and checks both absence of premature closure and the correct closed terminal labels.
+
+\end{proposition}
+
+\begin{proof}
+
+Take two worlds labeled \(0,1\) and exactly four history representatives \(h_i,w_i\) (\(i=0,1\)), each compatible only with world \(i\). At zero cost an open root with representative \(h_0\) reaches either open checkpoint \(u_i\) with representative \(h_i\) and a common setup outcome. The certificate partition has one block \(\{h_0,h_1\}\) and singleton \(w_i\). The separate observation reports \(i\) at \(u_i\). Both unit repairs are lawful there: \(q_i\) reaches the terminal with representative \(w_i\) and \(q_{1-i}\) reaches an actionless open trap with representative \(h_i\). Authority is constant. Thus one unit buys sure closure with separate observation and certificate channels.
+
+Replace both channels by one fixed quotient \(Z\) of the same carrier. If \(Z(h_0)=Z(h_1)\), every observable choice at the two checkpoints has the same distribution, and some supported branch takes a wrong repair. If \(Z(h_0)\ne Z(h_1)\), fidelity at terminal \(w_{1-i}\) requires its cell to exclude \(h_i\). Together with the split between \(h_i\) and \(h_{1-i}\) this excludes \emph{all} opposite-world representatives from the cell of \(h_i\). It would already be closed before the repair. Thus no such quotient preserves certification and permits the budget-one policy. The four-element carrier matters: splitting a pair within a larger universe need not make either resulting cell homogeneous.
+
+\end{proof}
+
+\begin{proposition}[P02. Componentwise sharpness]\label{found:p02}
+
+Each of \(H,P,\Lambda\) can independently matter for exact touch extraction. After extraction, there are finite pairs on which omitting any one of the terminal-status/class block, touch, cost, support, or controller observation removes information needed to preserve a closure value or its freeze. When omitting support, retain the declared observable outcome vocabulary as such. An edge-indexed outcome table would itself carry the erased support.
+
+\end{proposition}
+
+\begin{proof}
+
+For extraction, fix the same one-action graph in each comparison, with an open source history \(u\) compatible with both labels and alternative histories \(r_i\) compatible only with label \(i\). To vary admission alone use a universal partition and change the successor representative from \(u\) to \(r_0\). The certificate stays open but the evidence touch toggles. To vary representation alone hold \(H=u\) and toggle whether a successor partition merges \(r_0,r_1\). The \(u\) cell stays fixed, but the representation touch toggles. For authority let a reserve command have a false ordinary precondition throughout. Change its permission at the successor in only one completion. The executed graph stays fixed while the authority operator changes extensionally.
+
+After extraction, compare the following pairs, retaining every field except the one named. For terminal semantics, an actionless entry can be closed or open, giving costs \(0\) and \(+\infty\). For touch, a sole unit closer can change evidence alone or both evidence and representation, giving representation-frozen costs \(1\) and \(+\infty\) as in Theorem~\ref{thm:t01}. For price, setting the sole closer's price to \(1\) or \(2\) changes its value accordingly. For support, use one open root, a closed destination and a dead end with the same displayed letter. Add a supported edge to the dead end only in the second graph, making sure closure impossible. Erasing support must also erase edge incidence carried in dependent fields; the visible alphabet itself remains. Finally, in Proposition~\ref{found:p01}, retain the same repairs and physical graph but hide the observation of \(i\) in one version. Only the revealing version guarantees closure. Terminal status and its dependent closed label are erased as a block; the example does not require reading the name of a label to test plain closure.
+
+\end{proof}
+
+\begin{proposition}[P03. Rectangular partial identification]\label{found:p03}
+
+In a shared kernel with variable R membership, deleting the definite and possible R-touch locations respectively bounds every frozen-R optimum below and above. If the completion family includes both endpoint masks, these endpoints are attained. A common finite unrestricted value makes their differences the exact R-penalty extrema.
+
+\end{proposition}
+
+\begin{proof}
+
+Let \(M_C\) be the set of whole occurrences blocked by a representation freeze in completion \(C\) of the common kernel. Write \(k(M)\) for the optimum after deleting \(M\). If \(M\subseteq M'\), every proper policy for \(M'\) still has its full tree and cost under \(M\). Consequently
+\[
+k\!\left(\bigcap_C M_C\right)\le k(M_C)\le k\!\left(\bigcup_C M_C\right).
+\]
+Representability of both endpoint masks attains both endpoints. Full location-wise independence suffices. A finite common baseline can then be subtracted. Correlation can invalidate sharpness: take two unit closing routes and two possible installations, each blocking exactly one route, with the other route blocked in the other installation. Every installed value is one, although deleting their union blocks both routes. This comparison relies on a fixed ordinary menu, support, observation and terminal semantics.
+
+\end{proof}
+
+\begin{proposition}[P04. Zero-gap criterion]\label{found:p04}
+
+With attained finite unrestricted and frozen-R optima, \(\Delta_R=0\) exactly when some unrestricted optimum avoids R touch on every positive-support branch. In the declared finite model, any finite proper optimum is attained.
+
+\end{proposition}
+
+\begin{proof}
+
+Every proper frozen tree is an unrestricted tree of the same price. A baseline optimizer that never touches representation therefore attains both values. Conversely an attained frozen optimum equal to the finite baseline is itself the required unrestricted optimizer. For attainment take any finite proper tree of cost \(b\). If a positive price occurs, let \(d\) be the smallest positive price in the finite action alphabet. Each positive price can occur at most \(\lfloor b/d\rfloor\) times on a branch of cost at most \(b\), so only finitely many totals at most \(b\) can occur. A finite proper tree attains its own maximum on one branch. The nonempty collection of such attainable maxima below the witness bound therefore has a minimum. If every price is zero the witness itself is optimal. Infeasible baseline closure leaves the difference undefined.
+
+\end{proof}
+
+\begin{proposition}[P05. Exact non-R barrier]\label{found:p05}
+
+If equal observations imply equal terminal status, menus, touches and successor-observation sets for every common action, the least state attractor of closed checkpoints under non-R actions is the exact sure-closing region. A corresponding information-set attractor gives the exact result for observable-history policies without policy sufficiency.
+
+\end{proposition}
+
+\begin{proof}
+
+Let \(W_0\) consist of the closed states and add to \(W_t\) every state with a surviving nonrepresentation action whose full support lies in \(W_t\). Under the stated observation sufficiency, induction makes each layer a union of whole observation classes. Indeed the action name and its eligibility agree over the class, and all of its successor observations already belong to previous winning classes. Select one such action for each newly reached class. Rank then decreases on every branch, certifying a finite proper policy. Outside the fixed point every available action has a supported successor still outside. Following these successors defeats any purported finite closing tree. Without sufficiency run the identical attractor on nonempty information sets, with common actions, union of all successors carrying each observed outcome and next observation, and terminal sets contained in the closed states. Induction on remaining depth proves the same equivalence there. The two hidden checkpoints of Proposition~\ref{found:p01} with their observations aliased illustrate why statewise availability of a good action can be insufficient.
+
+\end{proof}
+
+\begin{proposition}[P06. Strict evidence/representation complementarity]\label{found:p06}
+
+For each \(d\geq 1\) a finite fixed-authority contract for parity on \(d\) bits requires \(d\) pure admitted-history actions and \(d\) pure representation refinements on every closing branch. They compose to a cost-\(2d\) proper closer, while restricting to either resource alone leaves no proper closer.
+
+\end{proposition}
+
+\begin{proof}
+
+For \(d\ge1\) take binary worlds of length \(d\) and target parity. A normalized history \((I,v)\) records the subset of acquired indices and their values. A certificate partition, indexed by an exposed subset \(J\), equates histories with the same \(I\) and the same values on \(I\cap J\). Thus a world is represented precisely when it matches \(v\) on \(I\cap J\). Start with both sets empty and fix authority. A unit evidence action for previously unacquired \(j\) adds its bit to \((I,v)\), supporting both bit values. A unit representation action for previously unexposed \(j\) adds it to \(J\) without changing the admitted history. This changes the partition extensionally even if \(j\) has not yet been read: the two possible singleton-\(j\) histories previously agreed and now differ. Any index outside \(I\cap J\) can be flipped while preserving the represented data and reversing parity. Closure consequently needs all \(d\) reads and all \(d\) exposures. Taking each once achieves \(2d\) on every branch. Freezing either resource prevents closure and freezing authority leaves this schedule intact.
+
+\end{proof}
+
+\begin{proposition}[P07. Target refinement and exact transfer]\label{found:p07}
+
+If target \(a_2\) refines \(a_1\) separately on every reachable nonempty represented fiber in one fixed contract, \(k_F(a_1)\le k_F(a_2)\) for every freeze. Equality partitions agreeing in all such fibers imply equality of the signatures.
+
+\end{proposition}
+
+\begin{proof}
+
+Fix the physical interface and an arbitrary freeze. At each nonempty reachable fiber \(C\) the premise is that for all \(x,x'\in C\), equality of \(a_2(x),a_2(x')\) implies equality of \(a_1(x),a_1(x')\). Every terminal leaf of a proper \(a_2\) tree is therefore a proper \(a_1\) leaf. All its choices, observations and prices remain available, so \(k_F(a_1)\le k_F(a_2)\) also when the right side is infinite. If the fiberwise implication goes both ways the policy sets coincide, giving equality in all eight coordinates. Neither a global relabeling of all worlds nor labels with identical names is required for this closure objective.
+
+\end{proof}

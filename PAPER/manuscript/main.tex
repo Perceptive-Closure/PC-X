@@ -1,0 +1,67 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,left=27mm,right=27mm,top=24mm,bottom=25mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools,booktabs,array,longtable,graphicx,xcolor,microtype}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{hyperref}
+\definecolor{ink}{HTML}{18364A}
+\definecolor{linkblue}{HTML}{15596C}
+\hypersetup{colorlinks=true,linkcolor=linkblue,citecolor=linkblue,urlcolor=linkblue,
+pdftitle={Perceptive Closure X: Mathematical Foundations for AI Assurance under Incomplete Understanding},
+pdfsubject={Identification, evidence acquisition and governed realization}}
+\urlstyle{same}
+\setlength{\emergencystretch}{2em}
+\setlength{\parindent}{1.15em}
+\setlength{\parskip}{1.4pt}
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.12}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Prob}{\mathbb{P}}
+\newcommand{\figpc}[4]{\begin{figure}[htbp]\centering\includegraphics[width=#2\linewidth]{figures/#1.pdf}\caption{#3}\label{#4}\end{figure}}
+\setcounter{tocdepth}{1}
+\begin{document}
+\begin{center}
+{\large\scshape Perceptive Closure X}\\[1em]
+{\LARGE\bfseries\color{ink} Mathematical Foundations for AI Assurance\\[3pt] under Incomplete Understanding\par}
+\vspace{0.8em}
+{\small Extended research manuscript \quad$\cdot$\quad 27 November 2026}
+\end{center}
+\begin{abstract}
+A software agent may pass every release rehearsal while the production path still admits an unauthorized change. What would establish the missing guarantee? We study all system descriptions consistent with the available evidence. A property is identified when those descriptions agree on its value. A usable guarantee also needs a policy that can perform the promised work using the information and permissions actually available. We give conditions for both conclusions and procedures for finding the least costly observations that support them. The framework tracks what an operation can change, which evaluation results carry over to deployment, and how a system can respond to a verdict. In one family, a single source read establishes service feasibility while identifying the installation takes exponentially many point queries in the worst case. In a second family, a verified guard and a mixture of two observations give an exact acquisition cost, a bound on violations among issued decisions and a positive useful-work guarantee. Seventeen experiments examine these mechanisms. The final constructed service produced 327,680 valid attempts across two separately written runners. Several sharper statistical predictions remained inconclusive, and a richer observation reduced the acquisition price. These are guarantees about specified interfaces and checked mechanisms. Applying them to a new system requires evidence that it satisfies those premises.
+\end{abstract}
+\input{sections/introduction}
+\input{sections/foundations}
+\input{sections/identification}
+\input{sections/acquisition}
+\input{sections/transport}
+\input{sections/strategy}
+\input{sections/verification}
+\input{sections/realization}
+\input{sections/unified}
+\input{sections/experiments}
+\input{sections/discussion}
+\clearpage
+\bibliographystyle{plainnat}
+\bibliography{references}
+\clearpage
+\appendix
+\section*{Guide to the appendices}
+The first three appendices reconstruct the finite foundations and their extensions. The next four develop probability, strategic observation and joint control. The last appendix records the evidence and how to reproduce it. The identifiers in brackets trace each result to its historical package. Lettered section and theorem references refer to this manuscript.
+\tableofcontents
+\clearpage
+\input{appendices/foundations}
+\clearpage\input{appendices/principal}
+\clearpage\input{appendices/extensions}
+\clearpage\input{appendices/flagship}
+\clearpage\input{appendices/advanced-probability}
+\clearpage\input{appendices/advanced-strategy}
+\clearpage\input{appendices/advanced-unified}
+\clearpage\input{appendices/experiments}
+\end{document}
