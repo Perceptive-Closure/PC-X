@@ -2,9 +2,9 @@
 
 **Mathematical Foundations for AI Assurance under Incomplete Understanding**
 
-Saif Malik · 27 November 2026 · [Read the complete paper](PC-X-FULL-PAPER.pdf) · [Editable LaTeX](manuscript/main.tex)
+Saif Malik · 27 November 2026 · [Main paper with references (23 pages)](PC-X-MAIN-PAPER.pdf) · [Full manuscript (131 pages)](PC-X-FULL-PAPER.pdf) · [Editable LaTeX](manuscript/main.tex)
 
-How much must we understand about an AI system to justify a particular deployment decision? This edition develops the distinction between identifying the relevant property, acquiring trustworthy evidence at a stated price, and finding one lawful policy that can deliver the promised work. The main argument occupies pages 1–21. The references begin on page 22, the contents on page 24, and eight technical and experimental appendices on page 25.
+How much must we understand about an AI system to justify a particular deployment decision? This edition develops the distinction between identifying the relevant property, acquiring trustworthy evidence at a stated price, and finding one lawful policy that can deliver the promised work. Both editions contain the main argument on pages 1–21 and all 25 references on pages 22–23. Appendix links in the standalone edition open the corresponding pages of the full manuscript, where the contents are on page 24 and the eight appendices start on page 25.
 
 | For readers looking for | Where to go |
 | --- | --- |
@@ -42,4 +42,4 @@ The build writes `build/pcx-paper/main.pdf`. To check its labels, destinations, 
 python PAPER/review/check_manuscript.py --pdf build/pcx-paper/main.pdf --aux build/pcx-paper/main.aux
 ```
 
-To refresh the diagrams, run `python PAPER/manuscript/figures/draw.py` before compiling again. The X17 risk plot uses the archived issued-run intervals. Appendix H and the evidence map give immutable, study-specific replay instructions. The paper has no personal byline. The original D-35 source was anonymous. This edition discloses the model, access conditions and remit of its internal reviewers in the linked reports.
+To refresh the diagrams, run `python PAPER/manuscript/figures/draw.py` before compiling again. The X17 risk plot uses the archived issued-run intervals. Appendix H and the evidence map give immutable, study-specific replay instructions. The original D-35 source was anonymous. This edition discloses the model, access conditions and remit of its internal reviewers in the linked reports.
