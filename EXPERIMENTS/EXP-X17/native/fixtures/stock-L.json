@@ -1,0 +1,13 @@
+{
+  "book": {"cap": 9, "gasket": 11, "sleeve": 5},
+  "expected_route": "L",
+  "routing": {"north": "L", "south": "R"},
+  "scans": [
+    {"lot": "N-001", "quantity": 5, "sku": "cap"},
+    {"lot": "N-002", "quantity": 7, "sku": "gasket"},
+    {"lot": "N-003", "quantity": 3, "sku": "cap"},
+    {"lot": "N-004", "quantity": 6, "sku": "sleeve"},
+    {"lot": "N-005", "quantity": 4, "sku": "gasket"}
+  ],
+  "zone": "north"
+}

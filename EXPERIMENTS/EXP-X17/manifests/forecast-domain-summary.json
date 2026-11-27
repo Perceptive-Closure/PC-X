@@ -1,0 +1,24 @@
+{
+  "arms": [
+    "pcx",
+    "high_skip",
+    "low_only",
+    "always_high",
+    "no_paid"
+  ],
+  "columns": [
+    "id",
+    "theta",
+    "beta",
+    "m",
+    "k",
+    "N",
+    "arm",
+    "exact_forecasts"
+  ],
+  "decompressed_forecasts_sha256": "29a957ef065d365eb48e7778982682ce69cd78101336997c954b71a45f30caa5",
+  "domain_sha256": "ab6719c8f666aee9209e63b54b4a309b0a2a39803038c876caef6a79696e976c",
+  "forecast_records": 10480,
+  "possible_stratum_rows": 2096,
+  "stored_forecasts_sha256": "a6282cdf0118a0eab91181d1e94283b0564e73c10fb292d6af4114684fa5718a"
+}

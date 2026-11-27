@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "worlds_order": [
+    "s01",
+    "s02",
+    "s03",
+    "s04",
+    "s05",
+    "s06",
+    "s07",
+    "s08"
+  ],
+  "roles": [
+    "primary",
+    "independent"
+  ],
+  "arms": [
+    "pcx",
+    "high_skip",
+    "low_only",
+    "always_high",
+    "no_paid"
+  ],
+  "samples_per_world_arm": 4096,
+  "ordinary_descriptive_per_world": 64,
+  "paired_descriptive_per_world": 128,
+  "e": {
+    "epsilon": "3/8",
+    "delta": "1/3",
+    "eta": "1/20",
+    "K": 640,
+    "rho": "1/25",
+    "equivalence": "2/25"
+  },
+  "unit_metrics": [
+    "wrong",
+    "I",
+    "V",
+    "VI",
+    "G",
+    "cost",
+    "Z"
+  ],
+  "conditional_metric": "selected actual V given I",
+  "optional_calibration_primary": false,
+  "controlled_design_theta_band": [
+    "1/8",
+    "1/4",
+    "3/4",
+    "7/8"
+  ],
+  "lot_and_seed_visibility": "audit-only",
+  "selection": "PCX-X17-draw-v1",
+  "recorded_research_revisions": {
+    "native": "3e4ddbaad5cf3170cdafa0c4f615b4b0f98b9316",
+    "controller": "5e53d51d7f498fec06eae594077252994960fec5",
+    "independent_early": "7482684f63b87df1be568caebb12bdd554161ab5",
+    "independent_complete": "8473631ebe0491d081d26264ebf961669bc55504"
+  }
+}
