@@ -1,0 +1,139 @@
+{
+  "draw_schedule": "2026-11-27T09:42:39.000Z",
+  "draw_sha256": "4f710b29fee4f6bf57c90194c3f9546400b9ec09bf625c9da2374f2ab889f3f3",
+  "objects": [
+    {
+      "commit": "43c1f0c8f90a87b3f5f0e66b1a0722816b9cac1c",
+      "files": {
+        "EXPERIMENTS/EXP-X17/custody/draw-plan.json": {
+          "blob": "df7cf0666c93c9815eebf036a36f89c3eebd36e4",
+          "bytes": 2729,
+          "github": {
+            "http_date": "Fri, 27 Nov 2026 09:35:18 GMT",
+            "observed_utc": "2026-11-27T09:35:18.954115+00:00",
+            "request_id": "B386:9A8B3:1849939:251A130:6B094ED6",
+            "resource": "git/blobs/df7cf0666c93c9815eebf036a36f89c3eebd36e4",
+            "status": 200
+          },
+          "sha256": "4f710b29fee4f6bf57c90194c3f9546400b9ec09bf625c9da2374f2ab889f3f3"
+        },
+        "EXPERIMENTS/EXP-X17/custody/registered-freeze-readback.json": {
+          "blob": "5997f0ae3955e71677013ad010f1b2d73b9a3492",
+          "bytes": 7994,
+          "github": {
+            "http_date": "Fri, 27 Nov 2026 09:35:19 GMT",
+            "observed_utc": "2026-11-27T09:35:20.079088+00:00",
+            "request_id": "B387:23EAF1:1821C0D:24F4A81:6B094ED7",
+            "resource": "git/blobs/5997f0ae3955e71677013ad010f1b2d73b9a3492",
+            "status": 200
+          },
+          "sha256": "697b6e829f160f08c85969b22c059eb91a137bbe582eebe27ab94656b8cc4320"
+        },
+        "EXPERIMENTS/EXP-X17/independent/registered-method.json": {
+          "blob": "742d157ac6a67e8350e00c35f395929e819ae828",
+          "bytes": 929,
+          "github": {
+            "http_date": "Fri, 27 Nov 2026 09:35:20 GMT",
+            "observed_utc": "2026-11-27T09:35:21.056941+00:00",
+            "request_id": "B388:134029:18272D6:24F7E49:6B094ED8",
+            "resource": "git/blobs/742d157ac6a67e8350e00c35f395929e819ae828",
+            "status": 200
+          },
+          "sha256": "9f139eb40d8366b82ce053c031c16adb3923f541b25fff78a7961f1ebda06e70"
+        },
+        "EXPERIMENTS/EXP-X17/manifests/forecast-domain-summary.json": {
+          "blob": "f5f9820c6a8979e4bc2a8edf0e6b5f703c30bcfa",
+          "bytes": 561,
+          "github": {
+            "http_date": "Fri, 27 Nov 2026 09:35:21 GMT",
+            "observed_utc": "2026-11-27T09:35:22.197580+00:00",
+            "request_id": "B38C:0CC1:1404E17:1EBC624:6B094ED9",
+            "resource": "git/blobs/f5f9820c6a8979e4bc2a8edf0e6b5f703c30bcfa",
+            "status": 200
+          },
+          "sha256": "18913723ce5571e631bebc8fd0a453a57d4b3aaa0fcea88d91b184abbb42cda1"
+        },
+        "EXPERIMENTS/EXP-X17/manifests/frozen-inputs.json": {
+          "blob": "8bced3859f31d29f222031431d51b26f78902a2e",
+          "bytes": 10236,
+          "github": {
+            "http_date": "Fri, 27 Nov 2026 09:35:22 GMT",
+            "observed_utc": "2026-11-27T09:35:23.195501+00:00",
+            "request_id": "B38F:157967:1809B10:24D5C59:6B094EDA",
+            "resource": "git/blobs/8bced3859f31d29f222031431d51b26f78902a2e",
+            "status": 200
+          },
+          "sha256": "4db4918e39e532d7dfa57b23cfc5972be0d34e846bb84d82c36f69796edc48c6"
+        }
+      },
+      "github": {
+        "activity": {
+          "http_date": "Fri, 27 Nov 2026 09:35:16 GMT",
+          "observed_utc": "2026-11-27T09:35:16.681514+00:00",
+          "request_id": "B383:123409:18211CC:24F13FE:6B094ED3",
+          "resource": "activity?ref=refs%2Fheads%2Fcodex%2Fexp-x17",
+          "status": 200
+        },
+        "commit": {
+          "http_date": "Fri, 27 Nov 2026 09:35:14 GMT",
+          "observed_utc": "2026-11-27T09:35:14.739175+00:00",
+          "request_id": "B37C:248272:1803908:24D0A1D:6B094ED1",
+          "resource": "git/commits/43c1f0c8f90a87b3f5f0e66b1a0722816b9cac1c",
+          "status": 200
+        },
+        "ref": {
+          "http_date": "Fri, 27 Nov 2026 09:35:15 GMT",
+          "observed_utc": "2026-11-27T09:35:15.763092+00:00",
+          "request_id": "B37E:EE39B:183EFBE:250BD3B:6B094ED2",
+          "resource": "git/ref/heads/codex/exp-x17",
+          "status": 200
+        },
+        "tree": {
+          "http_date": "Fri, 27 Nov 2026 09:35:17 GMT",
+          "observed_utc": "2026-11-27T09:35:18.034089+00:00",
+          "request_id": "B385:1D6210:1868170:2534790:6B094ED4",
+          "resource": "git/trees/d3af336588778db8e3db3eb81d710f9f8045ef2d?recursive=1",
+          "status": 200
+        }
+      },
+      "name": "official future round and freeze receipts",
+      "parents": [
+        "be574f4eaba8a52b50c5604e87075ab4cac81b79"
+      ],
+      "server_activity": {
+        "activity_type": "push",
+        "actor": {
+          "avatar_url": "https://avatars.githubusercontent.com/u/194589271?v=4",
+          "events_url": "https://api.github.com/users/InfernusReal/events{/privacy}",
+          "followers_url": "https://api.github.com/users/InfernusReal/followers",
+          "following_url": "https://api.github.com/users/InfernusReal/following{/other_user}",
+          "gists_url": "https://api.github.com/users/InfernusReal/gists{/gist_id}",
+          "gravatar_id": "",
+          "html_url": "https://github.com/InfernusReal",
+          "id": 194589271,
+          "login": "InfernusReal",
+          "node_id": "U_kgDOC5kyVw",
+          "organizations_url": "https://api.github.com/users/InfernusReal/orgs",
+          "received_events_url": "https://api.github.com/users/InfernusReal/received_events",
+          "repos_url": "https://api.github.com/users/InfernusReal/repos",
+          "site_admin": false,
+          "starred_url": "https://api.github.com/users/InfernusReal/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/InfernusReal/subscriptions",
+          "type": "User",
+          "url": "https://api.github.com/users/InfernusReal",
+          "user_view_type": "public"
+        },
+        "after": "43c1f0c8f90a87b3f5f0e66b1a0722816b9cac1c",
+        "before": "be574f4eaba8a52b50c5604e87075ab4cac81b79",
+        "id": 52096148180,
+        "node_id": "PSH_kwLOV8528c8AAAAMISwi1A",
+        "ref": "refs/heads/codex/exp-x17",
+        "timestamp": "2026-11-27T09:34:38Z"
+      },
+      "tree": "d3af336588778db8e3db3eb81d710f9f8045ef2d"
+    }
+  ],
+  "repository": "repos/Perceptive-Closure/PC-X",
+  "round": 34323065,
+  "schema": 1
+}

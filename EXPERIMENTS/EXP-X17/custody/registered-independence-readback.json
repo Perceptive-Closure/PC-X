@@ -1,0 +1,91 @@
+{
+  "draw_schedule": "2026-11-27T09:42:39.000Z",
+  "draw_sha256": "4f710b29fee4f6bf57c90194c3f9546400b9ec09bf625c9da2374f2ab889f3f3",
+  "objects": [
+    {
+      "commit": "0c4d02f1444200a377a382f6ed628e2239960fdf",
+      "files": {
+        "EXPERIMENTS/EXP-X17/custody/independent-prerelease.json": {
+          "blob": "60cdc1103a39f957dc885525539583701b990485",
+          "bytes": 14907,
+          "github": {
+            "http_date": "Fri, 27 Nov 2026 09:40:04 GMT",
+            "observed_utc": "2026-11-27T09:40:04.902388+00:00",
+            "request_id": "B4AB:FAD1C:186F4D3:2559BDE:6B094FF3",
+            "resource": "git/blobs/60cdc1103a39f957dc885525539583701b990485",
+            "status": 200
+          },
+          "sha256": "dd89f89a69c533d016ba9fe243edf3620292d3fcf1a1a94214886e66a394e187"
+        }
+      },
+      "github": {
+        "activity": {
+          "http_date": "Fri, 27 Nov 2026 09:40:01 GMT",
+          "observed_utc": "2026-11-27T09:40:02.351539+00:00",
+          "request_id": "B4A7:248272:18343A4:251A49B:6B094FF1",
+          "resource": "activity?ref=refs%2Fheads%2Fcodex%2Fexp-x17-independent",
+          "status": 200
+        },
+        "commit": {
+          "http_date": "Fri, 27 Nov 2026 09:39:59 GMT",
+          "observed_utc": "2026-11-27T09:40:00.064872+00:00",
+          "request_id": "B4A5:351AAC:1837624:2523050:6B094FEF",
+          "resource": "git/commits/0c4d02f1444200a377a382f6ed628e2239960fdf",
+          "status": 200
+        },
+        "ref": {
+          "http_date": "Fri, 27 Nov 2026 09:40:00 GMT",
+          "observed_utc": "2026-11-27T09:40:01.209788+00:00",
+          "request_id": "B4A6:36633D:1843A77:25292B1:6B094FF0",
+          "resource": "git/ref/heads/codex/exp-x17-independent",
+          "status": 200
+        },
+        "tree": {
+          "http_date": "Fri, 27 Nov 2026 09:40:03 GMT",
+          "observed_utc": "2026-11-27T09:40:03.758674+00:00",
+          "request_id": "B4A9:EE39B:186FB53:25559DF:6B094FF2",
+          "resource": "git/trees/1c1de436ee8538090fdee222c1349ea03fd79504?recursive=1",
+          "status": 200
+        }
+      },
+      "name": "independent receipt before future opening",
+      "parents": [
+        "8473631ebe0491d081d26264ebf961669bc55504"
+      ],
+      "server_activity": {
+        "activity_type": "push",
+        "actor": {
+          "avatar_url": "https://avatars.githubusercontent.com/u/194589271?v=4",
+          "events_url": "https://api.github.com/users/InfernusReal/events{/privacy}",
+          "followers_url": "https://api.github.com/users/InfernusReal/followers",
+          "following_url": "https://api.github.com/users/InfernusReal/following{/other_user}",
+          "gists_url": "https://api.github.com/users/InfernusReal/gists{/gist_id}",
+          "gravatar_id": "",
+          "html_url": "https://github.com/InfernusReal",
+          "id": 194589271,
+          "login": "InfernusReal",
+          "node_id": "U_kgDOC5kyVw",
+          "organizations_url": "https://api.github.com/users/InfernusReal/orgs",
+          "received_events_url": "https://api.github.com/users/InfernusReal/received_events",
+          "repos_url": "https://api.github.com/users/InfernusReal/repos",
+          "site_admin": false,
+          "starred_url": "https://api.github.com/users/InfernusReal/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/InfernusReal/subscriptions",
+          "type": "User",
+          "url": "https://api.github.com/users/InfernusReal",
+          "user_view_type": "public"
+        },
+        "after": "0c4d02f1444200a377a382f6ed628e2239960fdf",
+        "before": "8473631ebe0491d081d26264ebf961669bc55504",
+        "id": 52096615561,
+        "node_id": "PSH_kwLOV8528c8AAAAMITNEiQ",
+        "ref": "refs/heads/codex/exp-x17-independent",
+        "timestamp": "2026-11-27T09:38:56Z"
+      },
+      "tree": "1c1de436ee8538090fdee222c1349ea03fd79504"
+    }
+  ],
+  "repository": "repos/Perceptive-Closure/PC-X",
+  "round": 34323065,
+  "schema": 1
+}

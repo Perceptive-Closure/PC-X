@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "round": 34323065,
+  "receipts": [
+    {
+      "url": "https://api.drand.sh/52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971/public/34323065",
+      "status": 425,
+      "http_date": "Fri, 27 Nov 2026 09:35:25 GMT",
+      "observed_utc": "2026-11-27T09:35:25.426Z",
+      "reason": "Requested future beacon"
+    },
+    {
+      "url": "https://drand.cloudflare.com/52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971/public/34323065",
+      "status": 404,
+      "http_date": "Fri, 27 Nov 2026 09:35:23 GMT",
+      "observed_utc": "2026-11-27T09:35:23.788Z",
+      "reason": ""
+    }
+  ]
+}
