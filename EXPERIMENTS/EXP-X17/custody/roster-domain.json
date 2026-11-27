@@ -1,0 +1,10 @@
+{
+  "selector": "PCX-X17-draw-v1",
+  "beta_endpoints": ["0", "1/32"],
+  "matched_depths": [2, 3],
+  "extreme_depths": [4, 5, 6],
+  "interior_depths": [1, 2, 3, 4, 5, 6],
+  "theta_denominator": 64,
+  "interior_theta_numerators": [[9, 10, 11], [13, 14, 15], [49, 50, 51], [53, 54, 55]],
+  "interior_beta": ["1/256", "2/256", "3/256", "4/256", "5/256", "6/256", "7/256"]
+}

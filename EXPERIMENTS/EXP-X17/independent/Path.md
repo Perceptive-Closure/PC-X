@@ -1,0 +1,11 @@
+# X17 independent verification path
+
+27 November 2026. Role boundaries and the accepted proof tree are fixed by X17 registration 16e4885c09a5e18d91fbd995380bbaf92c17a898, the final flagship and advanced exact source pins, and the immutable X16 custody result. This role owns its independent tools and custody. It preserves the fixed installed world and only uses the legitimate public receipt and supported probe menu to decide. [Work plan](WorkPlan.md) · [Source pins](../BASELINE-MANIFEST.md) · [Wire contract](../INTERFACE.md)
+
+The before-opening forecast uses exact rational state mass on the carried bit and the declared one-read mixtures. The independent optimizer unfolds lawful complete prelude histories, compiles each protected literal and report to explicit linear realization factors, and verifies an exact finite optimum with an independent metric evaluation and a strict lower-price refutation. It uses Z3 linear arithmetic on the expanded input, charging representation and solver time separately. The matched development pair has surcharge 3/512 outside the registered strata and corroborates 7/12, 2/3 and the two restricted-menu infeasibilities. The predictor retains genuine actual risk and the signed threshold endpoint, with distinct nominal and actual forecasts. [Exact forecasts](model.py) · [Explicit-history reference](reference.py)
+
+The independent seed commitment, selector, signed verifier and authenticated readbacks are established before opening. The registered held-out menu has eight good worlds, five arms and 4,096 observations per cell per role. The final analysis convention and native scorer must be frozen separately before opening any roster or outcome. The concentration model and sampled endpoints concern the finite rational source, while universal scope relies on accepted independently checked mathematics. [Custody path](../custody/Path.md)
+
+## RESULTS
+
+The first independent pre-opening unit contains the exact forecasts and reference solver, domain-separated custody material and archived BLS verification. No actual held-out round or installation has been selected and no held-out trial has run. Native artifact decoding and safe out-of-roster qualification follow against the exact native publication.
