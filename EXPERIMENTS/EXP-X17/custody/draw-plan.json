@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "chain": {
+    "public_key": "83cf0f2896adee7eb8b5f01fcad3912212c437e0073e911fb90022d3e760183c8c4b450b6a0a6c3ac6a5776a2d1064510d1fec758c921cc22b0e17e63aaf4bcb5ed66304de9cf809bd274ca73bab4af5a6e9c76a4bc09e76eae8991ef5ece45a",
+    "period": 3,
+    "genesis_time": 1692803367,
+    "hash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+    "groupHash": "f477d5c89f21a17c863a7f937c6a6d15859414d2be09cd448d4279af331c5d3e",
+    "schemeID": "bls-unchained-g1-rfc9380",
+    "metadata": {
+      "beaconID": "quicknet"
+    }
+  },
+  "selector": "PCX-X17-draw-v1",
+  "lead_rounds": 180,
+  "source_commit": "be574f4eaba8a52b50c5604e87075ab4cac81b79",
+  "frozen_manifest_sha256": "4db4918e39e532d7dfa57b23cfc5972be0d34e846bb84d82c36f69796edc48c6",
+  "domain_sha256": "ab6719c8f666aee9209e63b54b4a309b0a2a39803038c876caef6a79696e976c",
+  "round": 34323065,
+  "scheduled_utc": "2026-11-27T09:42:39.000Z",
+  "registered_utc": "2026-11-27T09:33:41.860Z",
+  "reference_beacons": [
+    {
+      "http": {
+        "url": "https://api.drand.sh/52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971/public/latest",
+        "status": 200,
+        "http_date": "Fri, 27 Nov 2026 09:33:41 GMT",
+        "observed_utc": "2026-11-27T09:33:41.630Z"
+      },
+      "beacon": {
+        "round": 34322885,
+        "randomness": "35da8a1f3098a3704b446e85ca60c800c6557fddc42e8ecf25622a733a3bbc74",
+        "signature": "83d3a861fa97d75419c0ca4b02d8d7640a2cd2a57e37e6fc294657b45f8623a9cb0f4a64a79c24f6991b5b2d1ad7fa3a"
+      }
+    },
+    {
+      "http": {
+        "url": "https://drand.cloudflare.com/52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971/public/latest",
+        "status": 200,
+        "http_date": "Fri, 27 Nov 2026 09:33:40 GMT",
+        "observed_utc": "2026-11-27T09:33:40.899Z"
+      },
+      "beacon": {
+        "round": 34322885,
+        "signature": "83d3a861fa97d75419c0ca4b02d8d7640a2cd2a57e37e6fc294657b45f8623a9cb0f4a64a79c24f6991b5b2d1ad7fa3a",
+        "randomness": "35da8a1f3098a3704b446e85ca60c800c6557fddc42e8ecf25622a733a3bbc74"
+      }
+    }
+  ],
+  "still_unavailable_at_commitment": [
+    {
+      "url": "https://api.drand.sh/52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971/public/34323065",
+      "status": 425,
+      "http_date": "Fri, 27 Nov 2026 09:33:41 GMT",
+      "observed_utc": "2026-11-27T09:33:42.168Z",
+      "reason": "Requested future beacon"
+    },
+    {
+      "url": "https://drand.cloudflare.com/52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971/public/34323065",
+      "status": 404,
+      "http_date": "Fri, 27 Nov 2026 09:33:42 GMT",
+      "observed_utc": "2026-11-27T09:33:42.568Z",
+      "reason": ""
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "draw_schedule": "2026-11-27T09:42:39.000Z",
+  "draw_sha256": "4f710b29fee4f6bf57c90194c3f9546400b9ec09bf625c9da2374f2ab889f3f3",
+  "objects": [
+    {
+      "commit": "be574f4eaba8a52b50c5604e87075ab4cac81b79",
+      "files": {
+        "EXPERIMENTS/EXP-X17/PREREGISTRATION.md": {
+          "blob": "42ae489eb0adfce8d66dd4ff7ee4dc0865cccb21",
+          "bytes": 2321,
+          "github": {
+            "http_date": "Fri, 27 Nov 2026 09:34:28 GMT",
+            "observed_utc": "2026-11-27T09:34:28.435709+00:00",
+            "request_id": "B34C:9A8B3:1840E35:250D336:6B094EA3",
+            "resource": "git/blobs/42ae489eb0adfce8d66dd4ff7ee4dc0865cccb21",
+            "status": 200
+          },
+          "sha256": "1e8f0bbe833dcb7a24db8c44dea4d0cf38f8bee3f22120fb7c7ae0510508a00b"
+        },
+        "EXPERIMENTS/EXP-X17/custody/independent-seed-commitment.json": {
+          "blob": "ed7c729f3827bcc4fce3c4cb7fbe8cfabfb90e80",
+          "bytes": 193,
+          "github": {
+            "http_date": "Fri, 27 Nov 2026 09:34:29 GMT",
+            "observed_utc": "2026-11-27T09:34:29.397168+00:00",
+            "request_id": "B34F:2D81BF:182D5E4:24FE443:6B094EA4",
+            "resource": "git/blobs/ed7c729f3827bcc4fce3c4cb7fbe8cfabfb90e80",
+            "status": 200
+          },
+          "sha256": "d601a94dd94eb53051c8a528cec4fa969dc66789dad653ecc38fe9388b040034"
+        },
+        "EXPERIMENTS/EXP-X17/custody/primary-seed-commitment.json": {
+          "blob": "fcb5d2fc9fdcf6aa600602d676395d23b3e0e1c8",
+          "bytes": 213,
+          "github": {
+            "http_date": "Fri, 27 Nov 2026 09:34:29 GMT",
+            "observed_utc": "2026-11-27T09:34:30.341285+00:00",
+            "request_id": "B350:62AAA:181389B:24E12D9:6B094EA5",
+            "resource": "git/blobs/fcb5d2fc9fdcf6aa600602d676395d23b3e0e1c8",
+            "status": 200
+          },
+          "sha256": "c8a94255b668a35d108c2473a4cb6ee05be1a09057eeee6699cb86e217e9c24b"
+        },
+        "EXPERIMENTS/EXP-X17/custody/roster-domain.json": {
+          "blob": "cb63610573932859c7d934920b5b35457ff9ca17",
+          "bytes": 370,
+          "github": {
+            "http_date": "Fri, 27 Nov 2026 09:34:30 GMT",
+            "observed_utc": "2026-11-27T09:34:31.337212+00:00",
+            "request_id": "B351:2029A6:1806E50:24CFD87:6B094EA6",
+            "resource": "git/blobs/cb63610573932859c7d934920b5b35457ff9ca17",
+            "status": 200
+          },
+          "sha256": "ab6719c8f666aee9209e63b54b4a309b0a2a39803038c876caef6a79696e976c"
+        },
+        "EXPERIMENTS/EXP-X17/independent/registered-method.json": {
+          "blob": "742d157ac6a67e8350e00c35f395929e819ae828",
+          "bytes": 929,
+          "github": {
+            "http_date": "Fri, 27 Nov 2026 09:34:31 GMT",
+            "observed_utc": "2026-11-27T09:34:32.200358+00:00",
+            "request_id": "B352:0CC1:13FCAB5:1EB0021:6B094EA7",
+            "resource": "git/blobs/742d157ac6a67e8350e00c35f395929e819ae828",
+            "status": 200
+          },
+          "sha256": "9f139eb40d8366b82ce053c031c16adb3923f541b25fff78a7961f1ebda06e70"
+        },
+        "EXPERIMENTS/EXP-X17/manifests/forecast-domain-summary.json": {
+          "blob": "f5f9820c6a8979e4bc2a8edf0e6b5f703c30bcfa",
+          "bytes": 561,
+          "github": {
+            "http_date": "Fri, 27 Nov 2026 09:34:32 GMT",
+            "observed_utc": "2026-11-27T09:34:33.131701+00:00",
+            "request_id": "B353:9E0E5:17F8E4F:24C0194:6B094EA8",
+            "resource": "git/blobs/f5f9820c6a8979e4bc2a8edf0e6b5f703c30bcfa",
+            "status": 200
+          },
+          "sha256": "18913723ce5571e631bebc8fd0a453a57d4b3aaa0fcea88d91b184abbb42cda1"
+        },
+        "EXPERIMENTS/EXP-X17/manifests/forecast-domain.ndjson.gz": {
+          "blob": "662c5ffaececba0199e6b7c62243d1a41347697b",
+          "bytes": 149243,
+          "github": {
+            "http_date": "Fri, 27 Nov 2026 09:34:33 GMT",
+            "observed_utc": "2026-11-27T09:34:34.482923+00:00",
+            "request_id": "B354:29F14B:182199E:24ED4AD:6B094EA9",
+            "resource": "git/blobs/662c5ffaececba0199e6b7c62243d1a41347697b",
+            "status": 200
+          },
+          "sha256": "a6282cdf0118a0eab91181d1e94283b0564e73c10fb292d6af4114684fa5718a"
+        },
+        "EXPERIMENTS/EXP-X17/manifests/frozen-inputs.json": {
+          "blob": "8bced3859f31d29f222031431d51b26f78902a2e",
+          "bytes": 10236,
+          "github": {
+            "http_date": "Fri, 27 Nov 2026 09:34:35 GMT",
+            "observed_utc": "2026-11-27T09:34:35.438032+00:00",
+            "request_id": "B355:157967:1801DA6:24C9FEA:6B094EAA",
+            "resource": "git/blobs/8bced3859f31d29f222031431d51b26f78902a2e",
+            "status": 200
+          },
+          "sha256": "4db4918e39e532d7dfa57b23cfc5972be0d34e846bb84d82c36f69796edc48c6"
+        }
+      },
+      "github": {
+        "activity": {
+          "http_date": "Fri, 27 Nov 2026 09:34:25 GMT",
+          "observed_utc": "2026-11-27T09:34:26.002786+00:00",
+          "request_id": "B347:2C2747:182299F:24F11F5:6B094EA0",
+          "resource": "activity?ref=refs%2Fheads%2Fcodex%2Fexp-x17",
+          "status": 200
+        },
+        "commit": {
+          "http_date": "Fri, 27 Nov 2026 09:34:23 GMT",
+          "observed_utc": "2026-11-27T09:34:23.762461+00:00",
+          "request_id": "B345:1E4974:1814044:24DEABE:6B094E9E",
+          "resource": "git/commits/be574f4eaba8a52b50c5604e87075ab4cac81b79",
+          "status": 200
+        },
+        "ref": {
+          "http_date": "Fri, 27 Nov 2026 09:34:24 GMT",
+          "observed_utc": "2026-11-27T09:34:24.735748+00:00",
+          "request_id": "B346:FAD1C:1835342:25021F6:6B094E9F",
+          "resource": "git/ref/heads/codex/exp-x17",
+          "status": 200
+        },
+        "tree": {
+          "http_date": "Fri, 27 Nov 2026 09:34:26 GMT",
+          "observed_utc": "2026-11-27T09:34:27.428331+00:00",
+          "request_id": "B349:123409:1819195:24E520F:6B094EA2",
+          "resource": "git/trees/469741de4275d698759e41fdb4d7a3c957ff7a31?recursive=1",
+          "status": 200
+        }
+      },
+      "name": "official source and all candidate forecasts",
+      "parents": [
+        "a3b31173b22cd9cf41203cb522b48a709a8619b7"
+      ],
+      "server_activity": {
+        "activity_type": "push",
+        "actor": {
+          "avatar_url": "https://avatars.githubusercontent.com/u/194589271?v=4",
+          "events_url": "https://api.github.com/users/InfernusReal/events{/privacy}",
+          "followers_url": "https://api.github.com/users/InfernusReal/followers",
+          "following_url": "https://api.github.com/users/InfernusReal/following{/other_user}",
+          "gists_url": "https://api.github.com/users/InfernusReal/gists{/gist_id}",
+          "gravatar_id": "",
+          "html_url": "https://github.com/InfernusReal",
+          "id": 194589271,
+          "login": "InfernusReal",
+          "node_id": "U_kgDOC5kyVw",
+          "organizations_url": "https://api.github.com/users/InfernusReal/orgs",
+          "received_events_url": "https://api.github.com/users/InfernusReal/received_events",
+          "repos_url": "https://api.github.com/users/InfernusReal/repos",
+          "site_admin": false,
+          "starred_url": "https://api.github.com/users/InfernusReal/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/InfernusReal/subscriptions",
+          "type": "User",
+          "url": "https://api.github.com/users/InfernusReal",
+          "user_view_type": "public"
+        },
+        "after": "be574f4eaba8a52b50c5604e87075ab4cac81b79",
+        "before": "a3b31173b22cd9cf41203cb522b48a709a8619b7",
+        "id": 52096008922,
+        "node_id": "PSH_kwLOV8528c8AAAAMISoC2g",
+        "ref": "refs/heads/codex/exp-x17",
+        "timestamp": "2026-11-27T09:33:18Z"
+      },
+      "tree": "469741de4275d698759e41fdb4d7a3c957ff7a31"
+    }
+  ],
+  "repository": "repos/Perceptive-Closure/PC-X",
+  "round": 34323065,
+  "schema": 1
+}
