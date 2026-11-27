@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "role": "independent",
+  "article": "X17",
+  "arms": [
+    "pcx",
+    "high_skip",
+    "low_only",
+    "always_high",
+    "no_paid"
+  ],
+  "world_count": 8,
+  "planned_per_cell": 4096,
+  "descriptive_ordinary_per_world": 64,
+  "descriptive_paired_per_world": 128,
+  "simultaneous_endpoints_total": 640,
+  "confidence_failure": "1/20",
+  "fixed_radius": "1/25",
+  "equivalence_tolerance": "2/25",
+  "conditional_radius_rule": "ceil_sqrt_upper(log(25600)/(2m)); use log upper bound 51/5; grid 1e-8",
+  "analysis": [
+    "I",
+    "V",
+    "VI",
+    "wrong",
+    "G",
+    "cost",
+    "Z",
+    "conditional_risk"
+  ],
+  "invalid_policy": "keep raw, no replacement, cell descriptive",
+  "independent_seed_commit": "15ced39e31514bdded53c8e68ef256b05498d374",
+  "native_source_checked": "3e4ddbaad5cf3170cdafa0c4f615b4b0f98b9316",
+  "development_theta": "33/256",
+  "development_beta": "3/512",
+  "development_N": 7
+}

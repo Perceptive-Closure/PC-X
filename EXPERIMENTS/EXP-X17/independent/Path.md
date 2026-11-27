@@ -6,6 +6,12 @@ The before-opening forecast uses exact rational state mass on the carried bit an
 
 The independent seed commitment, selector, signed verifier and authenticated readbacks are established before opening. The registered held-out menu has eight good worlds, five arms and 4,096 observations per cell per role. The final analysis convention and native scorer must be frozen separately before opening any roster or outcome. The concentration model and sampled endpoints concern the finite rational source, while universal scope relies on accepted independently checked mathematics. [Custody path](../custody/Path.md)
 
+## Native and analysis qualification
+
+The byte-exact native source at 3e4ddbaad5cf3170cdafa0c4f615b4b0f98b9316 was audited through its actual typed setup, route, command, phase and finalization records. Independent decoding reconstructs stock scan work, real routed artifacts and the original linked source law from committed SQLite transactions. Rederived integer rejection draws are checked separately from the actual event. Mathematical q forecasts continue to use the same fixed source parameter. The exact paired diagnostic checks the changed risk against the actual output change.
+
+On the explicitly disjoint development world with theta 33/256, beta 3/512 and prelude length seven, all five arms passed four attempts each. The 64 ordinary and 128 paired descriptive diagnostics passed. Independently reconstructed C01–C19 controls passed at their stated native or mathematical scopes. The small matched reference LP reproduced 7/12, 2/3 and infeasibility below the required hard budget under both exposure constraint scopes. The certified U.G2 grid witness retains the original positive-only coverage constraints; always high can fall below the PCX all-world issuance forecast if that forecast is imposed as an additional constraint. [Runner and reproduction](README.md) · [Fixed method](registered-method.json)
+
 ## RESULTS
 
-The first independent pre-opening unit contains the exact forecasts and reference solver, domain-separated custody material and archived BLS verification. No actual held-out round or installation has been selected and no held-out trial has run. Native artifact decoding and safe out-of-roster qualification follow against the exact native publication.
+Independent custody, forecast, explicit-history optimization, native artifact scoring, committed random streams, control replay and a preregisterable runner are prepared. Native tests used only disjoint development installations. No X17 target round has been selected or opened, and no held-out trial has run. The independent role will wait for parent-verified preregistration and opening before operating on the actual roster.
