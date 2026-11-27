@@ -1,0 +1,9 @@
+# G05 · Scalable stochastic and joint synthesis
+
+Accepted U.2 compiled exact structure for its finite likelihood model. Explored arbitrary belief and purely support-based merges. A pair with equal support and distinct likelihood magnitudes can have different posterior-conditioned response and safety even if it offers the same legal literal. Missing resource/phase flags can invalidate actual actions. The final construction retains complete public state, actual supported commands, per-tag passed state, and count products. It preserves unweighted controller flow and weighted fixed-world behavior, with edge multiplicity and no assumed prior. Missing complete letters exposed by before-proof review are fixed at the input. [U.G1 proof and scope](../../T30-U-GENERALIZED/PROOFS.md) · [Neutral corrections](../../T30-U-GENERALIZED/SCOPE-STATEMENT.md)
+
+Studied a tightened approximation first. A safe feasible point is only an upper objective witness. Added the relaxed program on actual mesh indices to obtain a legitimate lower, and quantified the uncertainty, discretization and strict slack loss. Near hard equality no margin theorem applies. The projected robust calculation in the common example shows how a verified source difference can yield tighter exact inequality coefficients before the mesh. [U.G2–G3](../../T30-U-GENERALIZED/PROOFS.md)
+
+## RESULTS
+
+Exact sufficient state for fixed finite count alphabets and unifilar carried programs, and two-sided certified approximate deployment optimization on the stated exhaustive policy class. Preprocessing and dimensions are separated analytically. Numerical horizon scaling is polynomial only under fixed structural counts. General nonunifilar state reduction, binary-encoded planning tractability and uniformly tiny boundary gaps remain open.
