@@ -15,6 +15,10 @@ Use one installed world \(\omega=(\theta,\nu)\) before controller randomization,
 3. Commit and push the complete independent derivation to the assigned branch. Retrieve the exact GitHub commit and blobs via a read-only channel and report verified scope and replay evidence to the parent. A local commit does not close the proof-blind gate.
 4. After parent authorization, retrieve the exact separate proof release. Compare the argument by source SHA with the retained original seal and the already published independent derivation. Document every correction, changed quantifier and surviving disagreement separately. Submit to the parent for reconciliation with the independent hostile assignment. Preserve all baseline refs and the default branch.
 
+## U neutral receipt
+
+Received the exact U statements and independently reconstructed U.G1–U.G4. The independent objections to public-state update, installed-target leakage, bad-only cells, initial-law matching and arbitrary reported calibration were preserved and resolved by a separate exact neutral correction before proof exposure. Replayed exact flow multiplicity, directional LP bounds, routed fixture, and truncation arithmetic. [Before-proof derivation](U-BLIND.md)
+
 ## RESULTS
 
-Intake is ready. The registered WorkPlan, common contract, baseline manifest and campaign directive establish the scope and acceptance procedure. At intake, no new statement, constructor branch, or proof was opened and no new derivation was attempted. The next authorized stage starts with the parent's exact neutral statement receipt.
+The U before-proof record is complete with its original and amended scope. Other theorem packets enter only under separately received neutral seals. Constructor proofs remain unopened in this stage.
